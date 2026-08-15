@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 21:31 IST"
+updated: "15 Aug 2026, 22:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523498
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "30'"
+      - id: football-2397264
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "BKMA"
-            score: "0"
-          - name: "Ararat Yerevan"
-            score: "0"
-      - id: football-2499716
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
+          - name: "Detroit City FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Loudoun United"
+            score: "–"
+      - id: football-2397265
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Austria Lustenau"
-            score: "2"
-            active: true
-          - name: "Wolfsberger AC"
-            score: "1"
-      - id: football-2505239
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "28'"
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "23:00"
+          - name: "Miami FC"
+            score: "–"
+      - id: football-2397270
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Floridsdorfer AC"
-            score: "1"
-          - name: "SKU Amstetten"
-            score: "1"
-      - id: football-2505243
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "28'"
+          - name: "Pittsburgh Riverhounds"
+            score: "–"
+            detail: "23:00"
+          - name: "Charleston Battery"
+            score: "–"
+      - id: football-2397263
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "01:00"
         teams:
-          - name: "Sturm Graz II"
-            score: "0"
-          - name: "Admira Wacker"
-            score: "1"
-            active: true
-      - id: football-2514277
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "Live"
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+            detail: "01:00"
+          - name: "Birmingham Legion"
+            score: "–"
+      - id: football-2397266
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:30"
         teams:
-          - name: "Wiener Viktoria"
-            score: "2"
-            active: true
-          - name: "Mattersburg 2020"
-            score: "0"
-      - id: football-2514278
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "Live"
+          - name: "Las Vegas Lights"
+            score: "–"
+            detail: "02:30"
+          - name: "Brooklyn FC"
+            score: "–"
+      - id: football-2397267
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "01:30"
         teams:
-          - name: "Wienerberg"
-            score: "2"
-          - name: "Traiskirchen"
-            score: "2"
+          - name: "New Mexico United"
+            score: "–"
+            detail: "01:30"
+          - name: "FC Tulsa"
+            score: "–"
 
   - name: Cricket
     matches:
