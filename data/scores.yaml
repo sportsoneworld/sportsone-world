@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 17:30 IST"
+updated: "15 Aug 2026, 19:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2557398
-        competition: "Campeonato de Portugal Serie B"
+      - id: football-2569196
+        competition: "ASEAN Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "44'"
         teams:
-          - name: "Machico"
+          - name: "Singapore"
             score: "0"
-          - name: "Estrela da Calheta"
-            score: "0"
-      - id: football-2441238
-        competition: "China League One"
+          - name: "Thailand"
+            score: "2"
+            active: true
+      - id: football-2437840
+        competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "29'"
+        stateLabel: "77'"
         teams:
-          - name: "Guangxi Hengchen"
+          - name: "Gomel"
+            score: "5"
+            active: true
+          - name: "Naftan Novopolotsk"
+            score: "0"
+      - id: football-2452124
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "Soligorsk"
+            score: "1"
+          - name: "Niva Dolbizno"
+            score: "4"
+            active: true
+      - id: football-2452127
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Molodechno"
             score: "1"
             active: true
-          - name: "Meizhou Hakka"
+          - name: "Gomel-2"
             score: "0"
-      - id: football-2441237
-        competition: "China League One"
+      - id: football-2559127
+        competition: "Bhutan Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "87'"
         teams:
-          - name: "Wuxi Wugo"
-            score: "0"
-          - name: "Guangdong GZ-Power"
+          - name: "Thimphu"
             score: "3"
             active: true
-      - id: football-2448566
-        competition: "China league Two"
+          - name: "Transport United"
+            score: "0"
+      - id: football-2434558
+        competition: "Chinese Super League"
         state: live
-        stateLabel: "29'"
+        stateLabel: "82'"
         teams:
-          - name: "Lanzhou Longyuan Athletic"
-            score: "0"
-          - name: "Shanghai Port B"
-            score: "0"
-      - id: football-2448568
-        competition: "China league Two"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Shandong Taishan B"
-            score: "0"
-          - name: "Dalian Yingbo B"
-            score: "0"
-      - id: football-2448564
-        competition: "China league Two"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Beijing Institute of Technology"
-            score: "1"
-          - name: "Changchun Xidu"
+          - name: "Yunnan Yukun"
+            score: "2"
+            active: true
+          - name: "Dalian Yingbo"
             score: "1"
 
   - name: Cricket
