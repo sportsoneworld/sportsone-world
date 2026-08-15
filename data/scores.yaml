@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 03:11 IST"
+updated: "16 Aug 2026, 03:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2405002
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Godoy Cruz"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2566585
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "29'"
+        stateLabel: "Live"
         teams:
           - name: "Guabirá"
             score: "1"
@@ -46,7 +46,7 @@ sports:
       - id: football-2548148
         competition: "Brazil Serie D"
         state: live
-        stateLabel: "75'"
+        stateLabel: "Live"
         teams:
           - name: "CSA"
             score: "0"
@@ -56,7 +56,7 @@ sports:
       - id: football-2398411
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "9'"
+        stateLabel: "27'"
         teams:
           - name: "Athletico Paranaense"
             score: "0"
@@ -65,7 +65,7 @@ sports:
       - id: football-2431381
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "9'"
+        stateLabel: "27'"
         teams:
           - name: "Juventude"
             score: "0"
@@ -74,7 +74,7 @@ sports:
       - id: football-2438925
         competition: "Brazilian Serie C"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Amazonas"
             score: "0"
