@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 16:25 IST"
+updated: "15 Aug 2026, 17:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2439251
-        competition: "Australia South Australia NPL"
+      - id: football-2557398
+        competition: "Campeonato de Portugal Serie B"
         state: live
-        stateLabel: "61'"
+        stateLabel: "78'"
         teams:
-          - name: "North Eastern MetroStars"
-            score: "1"
-            active: true
-          - name: "Croydon"
+          - name: "Machico"
             score: "0"
-      - id: football-2439253
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "61'"
-        teams:
-          - name: "Para Hills Knights"
-            score: "1"
-          - name: "Adelaide Comets"
-            score: "5"
-            active: true
-      - id: football-2439254
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "62'"
-        teams:
-          - name: "Sturt Lions"
-            score: "1"
-          - name: "Campbelltown City"
-            score: "3"
-            active: true
-      - id: football-2439252
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "FK Beograd"
+          - name: "Estrela da Calheta"
             score: "0"
-          - name: "Adelaide City"
-            score: "1"
-            active: true
-      - id: football-2439256
-        competition: "Australia South Australia NPL"
+      - id: football-2441237
+        competition: "China League One"
         state: live
-        stateLabel: "63'"
+        stateLabel: "39'"
         teams:
-          - name: "West Adelaide"
-            score: "1"
-          - name: "Playford City Patriots"
+          - name: "Wuxi Wugo"
+            score: "0"
+          - name: "Guangdong GZ-Power"
             score: "2"
             active: true
-      - id: football-2439255
-        competition: "Australia South Australia NPL"
+      - id: football-2441238
+        competition: "China League One"
         state: live
-        stateLabel: "63'"
+        stateLabel: "9'"
         teams:
-          - name: "West Torrens Birkalla"
+          - name: "Guangxi Hengchen"
+            score: "0"
+          - name: "Meizhou Hakka"
+            score: "0"
+      - id: football-2441235
+        competition: "China League One"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Yanbian Longding"
+            score: "3"
+            active: true
+          - name: "Dalian K'un City"
             score: "1"
-          - name: "Adelaide United Youth"
+      - id: football-2448564
+        competition: "China league Two"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Beijing Institute of Technology"
             score: "1"
+          - name: "Changchun Xidu"
+            score: "1"
+      - id: football-2448568
+        competition: "China league Two"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "Shandong Taishan B"
+            score: "0"
+          - name: "Dalian Yingbo B"
+            score: "0"
 
   - name: Cricket
     matches:
