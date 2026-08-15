@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 22:27 IST"
+updated: "16 Aug 2026, 02:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397264
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+      - id: football-2406487
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "69'"
         teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Loudoun United"
-            score: "–"
-      - id: football-2397265
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Villa Dálmine"
+            score: "1"
+            active: true
+          - name: "Brown de Adrogué"
+            score: "0"
+      - id: football-2406484
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "70'"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Miami FC"
-            score: "–"
-      - id: football-2397270
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "San Martín de Burzaco"
+            score: "0"
+          - name: "Club Comunicaciones"
+            score: "0"
+      - id: football-2406479
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "71'"
         teams:
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-            detail: "23:00"
-          - name: "Charleston Battery"
-            score: "–"
-      - id: football-2397263
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
+          - name: "Arsenal de Sarandí"
+            score: "0"
+          - name: "Talleres de Remedios de Escalada"
+            score: "0"
+      - id: football-2406485
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "71'"
         teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-            detail: "01:00"
-          - name: "Birmingham Legion"
-            score: "–"
-      - id: football-2397266
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:30"
+          - name: "Sportivo Italiano"
+            score: "4"
+            active: true
+          - name: "Dock Sud"
+            score: "0"
+      - id: football-2406481
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "72'"
         teams:
-          - name: "Las Vegas Lights"
-            score: "–"
-            detail: "02:30"
-          - name: "Brooklyn FC"
-            score: "–"
-      - id: football-2397267
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:30"
+          - name: "Excursionistas"
+            score: "3"
+            active: true
+          - name: "Laferrere"
+            score: "2"
+      - id: football-2406483
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "72'"
         teams:
-          - name: "New Mexico United"
-            score: "–"
-            detail: "01:30"
-          - name: "FC Tulsa"
-            score: "–"
+          - name: "Real Pilar"
+            score: "0"
+          - name: "Flandria"
+            score: "0"
 
   - name: Cricket
     matches:
