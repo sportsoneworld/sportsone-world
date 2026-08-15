@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 03:30 IST"
+updated: "16 Aug 2026, 04:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419880
+        competition: "American NWSL"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Racing Louisville"
+            score: "0"
+          - name: "Boston Legacy"
+            score: "0"
       - id: football-2405002
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Godoy Cruz"
+            score: "1"
+          - name: "Deportivo Maipú"
+            score: "1"
+      - id: football-2405003
         competition: "Argentinian Primera B Nacional"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Godoy Cruz"
-            score: "1"
-            active: true
-          - name: "Deportivo Maipú"
-            score: "0"
-      - id: football-2566585
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Guabirá"
-            score: "1"
-            active: true
-          - name: "The Strongest"
-            score: "0"
-      - id: football-2548148
-        competition: "Brazil Serie D"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "CSA"
-            score: "0"
-          - name: "Uberlândia"
+          - name: "Quilmes"
             score: "2"
             active: true
-      - id: football-2398411
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Athletico Paranaense"
+          - name: "San Telmo"
             score: "0"
-          - name: "Bragantino"
-            score: "0"
-      - id: football-2431381
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Juventude"
-            score: "0"
-          - name: "Fortaleza"
-            score: "0"
-      - id: football-2438925
-        competition: "Brazilian Serie C"
+      - id: football-2404995
+        competition: "Argentinian Primera B Nacional"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Amazonas"
+          - name: "Estudiantes de Buenos Aires"
             score: "0"
-          - name: "Botafogo-PB"
+          - name: "Chacarita Juniors"
+            score: "0"
+      - id: football-2398013
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Belgrano"
+            score: "1"
+            active: true
+          - name: "Independiente Rivadavia"
+            score: "0"
+      - id: football-2398019
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Newell's Old Boys"
+            score: "0"
+          - name: "Deportivo Riestra"
             score: "0"
 
   - name: Cricket
