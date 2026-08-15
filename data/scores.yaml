@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 02:20 IST"
+updated: "16 Aug 2026, 03:11 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406487
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2405002
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "69'"
+        stateLabel: "36'"
         teams:
-          - name: "Villa Dálmine"
+          - name: "Godoy Cruz"
             score: "1"
             active: true
-          - name: "Brown de Adrogué"
+          - name: "Deportivo Maipú"
             score: "0"
-      - id: football-2406484
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2566585
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "70'"
+        stateLabel: "29'"
         teams:
-          - name: "San Martín de Burzaco"
-            score: "0"
-          - name: "Club Comunicaciones"
-            score: "0"
-      - id: football-2406479
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Arsenal de Sarandí"
-            score: "0"
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-      - id: football-2406485
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Sportivo Italiano"
-            score: "4"
+          - name: "Guabirá"
+            score: "1"
             active: true
-          - name: "Dock Sud"
+          - name: "The Strongest"
             score: "0"
-      - id: football-2406481
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2548148
+        competition: "Brazil Serie D"
         state: live
-        stateLabel: "72'"
+        stateLabel: "75'"
         teams:
-          - name: "Excursionistas"
-            score: "3"
-            active: true
-          - name: "Laferrere"
+          - name: "CSA"
+            score: "0"
+          - name: "Uberlândia"
             score: "2"
-      - id: football-2406483
-        competition: "Argentina Primera B Metropolitana"
+            active: true
+      - id: football-2398411
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "72'"
+        stateLabel: "9'"
         teams:
-          - name: "Real Pilar"
+          - name: "Athletico Paranaense"
             score: "0"
-          - name: "Flandria"
+          - name: "Bragantino"
+            score: "0"
+      - id: football-2431381
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Juventude"
+            score: "0"
+          - name: "Fortaleza"
+            score: "0"
+      - id: football-2438925
+        competition: "Brazilian Serie C"
+        state: live
+        stateLabel: "80'"
+        teams:
+          - name: "Amazonas"
+            score: "0"
+          - name: "Botafogo-PB"
             score: "0"
 
   - name: Cricket
