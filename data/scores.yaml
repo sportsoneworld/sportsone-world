@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 19:15 IST"
+updated: "15 Aug 2026, 20:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,63 +26,59 @@ sports:
       - id: football-2569196
         competition: "ASEAN Championship"
         state: live
-        stateLabel: "44'"
+        stateLabel: "81'"
         teams:
           - name: "Singapore"
             score: "0"
           - name: "Thailand"
-            score: "2"
+            score: "3"
             active: true
-      - id: football-2437840
-        competition: "Belarus Vyscha Liga"
+      - id: football-2512689
+        competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "77'"
+        stateLabel: "42'"
         teams:
-          - name: "Gomel"
-            score: "5"
-            active: true
-          - name: "Naftan Novopolotsk"
+          - name: "Lochau"
+            score: "0"
+          - name: "SCR Altach Juniors"
+            score: "0"
+      - id: football-2546058
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Araz-Naxçıvan"
+            score: "0"
+          - name: "İmişli"
             score: "0"
       - id: football-2452124
         competition: "Belarusian First League"
         state: live
-        stateLabel: "35'"
+        stateLabel: "86'"
         teams:
           - name: "Soligorsk"
             score: "1"
           - name: "Niva Dolbizno"
-            score: "4"
+            score: "5"
             active: true
-      - id: football-2452127
+      - id: football-2452130
         competition: "Belarusian First League"
         state: live
-        stateLabel: "86'"
+        stateLabel: "38'"
         teams:
-          - name: "Molodechno"
-            score: "1"
-            active: true
-          - name: "Gomel-2"
+          - name: "UniXLabs Minsk"
             score: "0"
-      - id: football-2559127
-        competition: "Bhutan Premier League"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Thimphu"
-            score: "3"
-            active: true
-          - name: "Transport United"
+          - name: "Orsha"
             score: "0"
-      - id: football-2434558
-        competition: "Chinese Super League"
+      - id: football-2452123
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "82'"
+        stateLabel: "36'"
         teams:
-          - name: "Yunnan Yukun"
-            score: "2"
-            active: true
-          - name: "Dalian Yingbo"
-            score: "1"
+          - name: "Slutsk"
+            score: "0"
+          - name: "Osipovichi"
+            score: "0"
 
   - name: Cricket
     matches:
