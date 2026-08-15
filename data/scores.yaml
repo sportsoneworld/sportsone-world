@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 20:14 IST"
+updated: "15 Aug 2026, 21:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2569196
-        competition: "ASEAN Championship"
+      - id: football-2523498
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "81'"
+        stateLabel: "10'"
         teams:
-          - name: "Singapore"
+          - name: "BKMA"
             score: "0"
-          - name: "Thailand"
-            score: "3"
+          - name: "Ararat Yerevan"
+            score: "0"
+      - id: football-2499716
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "Austria Lustenau"
+            score: "2"
             active: true
-      - id: football-2512689
-        competition: "Austrian Regionalliga West"
+          - name: "Wolfsberger AC"
+            score: "0"
+      - id: football-2505239
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "42'"
+        stateLabel: "8'"
         teams:
-          - name: "Lochau"
+          - name: "Floridsdorfer AC"
             score: "0"
-          - name: "SCR Altach Juniors"
-            score: "0"
-      - id: football-2546058
-        competition: "Azerbaijani Premier League"
-        state: live
-        stateLabel: "12'"
-        teams:
-          - name: "Araz-Naxçıvan"
-            score: "0"
-          - name: "İmişli"
-            score: "0"
-      - id: football-2452124
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Soligorsk"
+          - name: "SKU Amstetten"
             score: "1"
-          - name: "Niva Dolbizno"
-            score: "5"
             active: true
-      - id: football-2452130
-        competition: "Belarusian First League"
+      - id: football-2505243
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "38'"
+        stateLabel: "8'"
         teams:
-          - name: "UniXLabs Minsk"
+          - name: "Sturm Graz II"
             score: "0"
-          - name: "Orsha"
+          - name: "Admira Wacker"
             score: "0"
-      - id: football-2452123
-        competition: "Belarusian First League"
+      - id: football-2514277
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "36'"
+        stateLabel: "37'"
         teams:
-          - name: "Slutsk"
+          - name: "Wiener Viktoria"
+            score: "2"
+            active: true
+          - name: "Mattersburg 2020"
             score: "0"
-          - name: "Osipovichi"
-            score: "0"
+      - id: football-2514278
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "Wienerberg"
+            score: "2"
+          - name: "Traiskirchen"
+            score: "2"
 
   - name: Cricket
     matches:
