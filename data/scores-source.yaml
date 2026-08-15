@@ -1,0 +1,41 @@
+# =============================================================================
+#  WHERE LIVE SCORES COME FROM
+#
+#  data/scores.yaml is rewritten automatically from a sports data provider by
+#  scripts/fetch-scores.py, on the schedule in .github/workflows/scores.yml.
+#  This file is the only thing you configure.
+#
+#  A NOTE ON GOOGLE
+#  There is no Google live-scores API. Google's News API was retired in 2011
+#  and Google News has never published match scores as a feed — the scores you
+#  see on a Google results page come from licensed providers, not from a public
+#  endpoint. So the site pulls from a real sports data provider instead.
+# =============================================================================
+
+# Which provider to use. `thesportsdb` is the only adapter shipped; to add
+# another, write a class with the same two methods in scripts/fetch-scores.py.
+provider: thesportsdb
+
+# TheSportsDB's free tier needs no account and no key. If you subscribe, put
+# the key in a GitHub secret called SPORTSDB_KEY — more sports, more leagues
+# and faster refreshes come through the same endpoints, no code change.
+
+# The sports to fetch, in the order they should appear on /scores/.
+sports:
+  - Football
+  - Cricket
+  - Tennis
+  - Motorsport
+
+# How many matches to keep per sport. Live matches come first, then today's
+# and the next few days' fixtures.
+matches_per_sport: 6
+
+# How many days of upcoming fixtures to pull in, so the board is not empty
+# overnight.
+fixture_days: 3
+
+# When the desk has not pinned enough matches under `featured_matches:` in
+# data/scores.yaml, top the front-page strip up with whatever is live.
+# Set to false to show ONLY what the desk has pinned.
+auto_feature: true

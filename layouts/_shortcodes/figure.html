@@ -1,0 +1,16 @@
+{{- /* {{< figure src="/images/x.jpg" alt="..." caption="..." ratio="wide"
+              credit="Photographer" creditURL="https://…"
+              license="CC BY 2.0" licenseURL="https://…" >}}
+
+       ratio: wide (default) | thumb | portrait | banner
+       The credit line is optional and renders directly under the picture. */ -}}
+{{- $ratio := .Get "ratio" | default "wide" -}}
+<figure>
+  <div class="frame frame--{{ $ratio }}">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default (.Get "caption") }}" loading="lazy" decoding="async">
+  </div>
+  {{ partial "cards/credit.html" (dict
+      "credit" (.Get "credit") "creditURL" (.Get "creditURL")
+      "license" (.Get "license") "licenseURL" (.Get "licenseURL")) }}
+  {{- with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

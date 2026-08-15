@@ -1,0 +1,68 @@
+{{- /* ------------------------------------------------------------------
+     The two-part label above a headline:  CRICKET / INTERNATIONAL ACTION
+
+     Works out which of an article's categories is the sport and which is the
+     section within it, using data/navigation.yaml as the authority. Add a
+     sport or a sub-item there and every headline on the site labels itself
+     correctly with no template change.
+
+       {{ $e := partial "func/eyebrow.html" $page }}
+       $e.sport  $e.sportURL  $e.sub  $e.subURL
+
+     Categories listed under `editorial` in data/navigation.yaml (Analysis,
+     Match Reports, ...) describe the kind of story rather than the sport and
+     are never used here.
+     ------------------------------------------------------------------ */ -}}
+{{- $nav := hugo.Data.navigation -}}
+{{- $sports := slice -}}
+{{- $subs := slice -}}
+{{- range $nav.primary -}}
+  {{- if ne .url "/" -}}
+    {{- $sports = $sports | append (lower .name) -}}
+    {{- range .children -}}{{- $subs = $subs | append (lower .name) -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $skip := slice -}}
+{{- range $nav.editorial -}}{{- $skip = $skip | append (lower .) -}}{{- end -}}
+
+{{- $cats := .Params.categories | default slice -}}
+{{- $sport := "" -}}
+{{- $sub := "" -}}
+
+{{- /* 1. the sport, as named in the toolbar */ -}}
+{{- range $cats -}}
+  {{- if and (eq $sport "") (in $sports (lower .)) -}}{{- $sport = . -}}{{- end -}}
+{{- end -}}
+
+{{- /* 2. the section within it, as named in that sport's dropdown */ -}}
+{{- range $cats -}}
+  {{- if and (eq $sub "") (in $subs (lower .)) -}}{{- $sub = . -}}{{- end -}}
+{{- end -}}
+
+{{- /* 3. no dropdown section — use the next real category, which is how
+       Athletics, Basketball and the rest label themselves under Other
+       Sports. Editorial categories are never promoted here. */ -}}
+{{- if eq $sub "" -}}
+  {{- range $cats -}}
+    {{- if and (eq $sub "") (ne . $sport) (not (in $skip (lower .))) (not (in $sports (lower .))) -}}
+      {{- $sub = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 4. an article filed outside the toolbar entirely still gets a label */ -}}
+{{- if eq $sport "" -}}
+  {{- if ne $sub "" -}}
+    {{- $sport = $sub -}}{{- $sub = "" -}}
+  {{- else -}}
+    {{- range $cats -}}
+      {{- if and (eq $sport "") (not (in $skip (lower .))) -}}{{- $sport = . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return dict
+      "sport" $sport
+      "sportURL" (cond (eq $sport "") "" (printf "/categories/%s/" (urlize $sport) | relURL))
+      "sub" $sub
+      "subURL" (cond (eq $sub "") "" (printf "/categories/%s/" (urlize $sub) | relURL)) -}}

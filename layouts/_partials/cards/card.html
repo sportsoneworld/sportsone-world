@@ -1,0 +1,46 @@
+{{- /* ------------------------------------------------------------------
+     The editorial card: photograph, then headline, then context. In that
+     order and in that order of visual weight.
+
+       {{ partial "cards/card.html" (dict "page" $p) }}
+       {{ partial "cards/card.html" (dict "page" $p "variant" "lead") }}
+       {{ partial "cards/card.html" (dict "page" $p "variant" "feed" "date" true) }}
+
+     options
+       variant  lead | feed | compact      (default: plain card)
+       ratio    wide | thumb | portrait | banner
+       excerpt  false to drop the standfirst
+       date     true to show the publication date
+
+     No byline and no reading time appear here by design — a byline belongs on
+     the article the reader has chosen to open, nowhere else.
+     ------------------------------------------------------------------ */ -}}
+{{- $p := .page -}}
+{{- $variant := .variant | default "" -}}
+{{- $ratio := .ratio | default "wide" -}}
+{{- $showExcerpt := true -}}
+{{- if eq (printf "%v" .excerpt) "false" -}}{{- $showExcerpt = false -}}{{- end -}}
+{{- $showDate := eq (printf "%v" .date) "true" -}}
+{{- $eager := eq (printf "%v" .eager) "true" -}}
+{{- $img := partial "func/image.html" (dict "page" $p "context" (cond (eq $variant "compact") "card" "hero")) -}}
+<article class="card{{ with $variant }} card--{{ . }}{{ end }}">
+  <a class="card__media frame frame--{{ $ratio }}" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ $img }}" alt=""
+         {{ if $eager }}fetchpriority="high"{{ else }}loading="lazy"{{ end }} decoding="async">
+  </a>
+  <div class="card__body">
+    {{- /* The picture credit sits where a category label used to. A reader who
+           is already inside Cricket does not need telling they are in Cricket;
+           they do need telling whose photograph they are looking at. */ -}}
+    {{ partial "cards/credit.html" $p }}
+    <h3 class="card__title"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+    {{- if $showExcerpt }}
+      {{- with ($p.Params.summary | default $p.Summary) }}
+      <p class="card__dek">{{ . | plainify | truncate 190 "…" }}</p>
+      {{- end }}
+    {{- end }}
+    {{- if $showDate }}
+    <time class="card__date" datetime="{{ $p.Date.Format "2006-01-02T15:04:05-07:00" }}">{{ $p.Date.Format "2 January 2006" }}</time>
+    {{- end }}
+  </div>
+</article>

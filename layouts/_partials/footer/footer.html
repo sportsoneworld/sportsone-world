@@ -1,0 +1,75 @@
+{{- /* ------------------------------------------------------------------
+     FOOTER — brand and three link columns, all from data/navigation.yaml.
+     Social profile URLs come from [params.social] in hugo.toml, so they are
+     set once and never repeated in a template.
+     ------------------------------------------------------------------ */ -}}
+{{- $f := hugo.Data.navigation.footer -}}
+{{- $s := site.Params.social -}}
+{{- $brand := site.Params.brandName | default site.Title -}}
+<footer class="site-footer">
+  <div class="container container--wide">
+    <div class="footer__top">
+
+      <div class="footer__brand">
+        <a class="footer__lockup" href="{{ "/" | relURL }}" aria-label="{{ $brand }} home">
+          <picture>
+            <source srcset="{{ "/images/brand/sportsone-mark-dark.png" | relURL }}" media="(prefers-color-scheme: dark)">
+            <img src="{{ "/images/brand/sportsone-mark-light.png" | relURL }}" alt=""
+                 width="256" height="256" loading="lazy" decoding="async">
+          </picture>
+          <span>{{ $brand }}</span>
+        </a>
+        <p class="footer__about">{{ site.Params.footer.about }}</p>
+
+        <div class="footer__social">
+          {{- with $s.twitter }}
+          <a href="{{ . }}" rel="noopener noreferrer me" target="_blank" aria-label="{{ $brand }} on X">{{ partial "func/icon.html" "x" }}</a>
+          {{- end }}
+          {{- with $s.instagram }}
+          <a href="{{ . }}" rel="noopener noreferrer me" target="_blank" aria-label="{{ $brand }} on Instagram">{{ partial "func/icon.html" "instagram" }}</a>
+          {{- end }}
+          {{- with $s.facebook }}
+          <a href="{{ . }}" rel="noopener noreferrer me" target="_blank" aria-label="{{ $brand }} on Facebook">{{ partial "func/icon.html" "facebook" }}</a>
+          {{- end }}
+          {{- with $s.youtube }}
+          <a href="{{ . }}" rel="noopener noreferrer me" target="_blank" aria-label="{{ $brand }} on YouTube">{{ partial "func/icon.html" "youtube" }}</a>
+          {{- end }}
+          <a href="{{ "/index.xml" | relURL }}" aria-label="{{ $brand }} RSS feed">{{ partial "func/icon.html" "rss" }}</a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-labelledby="footer-sports">
+        <h2 class="footer__heading" id="footer-sports">Sports</h2>
+        <ul class="footer__list">
+          {{- range $f.sports }}
+          <li><a href="{{ .url | relURL }}">{{ .name }}</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-labelledby="footer-sections">
+        <h2 class="footer__heading" id="footer-sections">Sections</h2>
+        <ul class="footer__list">
+          {{- range $f.sections }}
+          <li><a href="{{ .url | relURL }}">{{ .name }}</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+
+      <nav class="footer__col footer__col--info" aria-labelledby="footer-info">
+        <h2 class="footer__heading" id="footer-info">Information</h2>
+        <ul class="footer__list">
+          {{- range $f.information }}
+          <li><a href="{{ .url | relURL }}">{{ .name }}</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; {{ now.Year }} {{ site.Params.footer.copyrightHolder }}. All rights reserved.</p>
+      <p>An independent sports newsroom.</p>
+    </div>
+  </div>
+</footer>

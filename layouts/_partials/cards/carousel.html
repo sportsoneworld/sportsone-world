@@ -1,0 +1,94 @@
+{{- /* ------------------------------------------------------------------
+     THE CAROUSEL — one implementation, used by Spotlight, Top Stories and
+     every sport section, so all of them behave identically.
+
+       {{ partial "cards/carousel.html" (dict
+             "pages"   $pages
+             "uid"     "spotlight"
+             "label"   "Spotlight stories"
+             "variant" "hero"          hero | top | sport
+             "eager"   true) }}         load the first image immediately
+
+     House rules, from the brief:
+       * rotates on its own every five seconds
+       * no play / pause control anywhere
+       * the frame is a fixed aspect ratio, so photographs of any size crop
+         into it and the page can never shift as slides change
+
+     It is a scroll-snapping row first and a slideshow second. With JavaScript
+     off it is still a working, swipeable, keyboard-reachable list of stories —
+     which is why no slide is marked hidden or untabbable in the HTML. The
+     script adds that only once it has taken control, and reveals the dots and
+     arrows at the same time, so no control is ever shown that does nothing.
+     ------------------------------------------------------------------ */ -}}
+{{- $pages := .pages -}}
+{{- if $pages -}}
+{{- $uid := .uid | default "c" -}}
+{{- $variant := .variant | default "hero" -}}
+{{- $label := .label | default "Stories" -}}
+{{- $eager := .eager | default false -}}
+{{- $n := len $pages -}}
+<div class="carousel carousel--{{ $variant }}"
+     id="{{ $uid }}"
+     data-carousel
+     data-interval="5000"
+     role="region"
+     aria-roledescription="carousel"
+     aria-label="{{ $label }}">
+
+  {{- /* The slides are direct children of the scroller on purpose: a wrapper
+         between them would have no width of its own to size `flex-basis: 100%`
+         against, and the row would push the whole page sideways. */ -}}
+  <div class="carousel__viewport" data-viewport>
+      {{- range $i, $p := $pages }}
+      {{- $img := partial "func/image.html" (dict "page" $p "context" "hero") }}
+      <article class="cslide"
+               role="group"
+               aria-roledescription="slide"
+               aria-label="{{ add $i 1 }} of {{ $n }}"
+               data-slide>
+        <img class="cslide__img"
+             src="{{ $img }}"
+             alt="{{ $p.Params.imageAlt | default $p.Title | plainify }}"
+             {{ if and $eager (eq $i 0) }}fetchpriority="high"{{ else }}loading="lazy"{{ end }}
+             decoding="async">
+        <div class="cslide__scrim" aria-hidden="true"></div>
+        <div class="cslide__body">
+          <h3 class="cslide__title">
+            <a class="cslide__link" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+          </h3>
+          {{- with ($p.Params.summary | default $p.Summary) }}
+          <p class="cslide__dek">{{ . | plainify | truncate 150 "…" }}</p>
+          {{- end }}
+          {{ partial "cards/credit.html" $p }}
+        </div>
+      </article>
+      {{- end }}
+  </div>
+
+  {{- if gt $n 1 }}
+  <div class="carousel__controls">
+    <div class="carousel__dots" role="tablist" aria-label="Choose a story">
+      {{- range $i, $p := $pages }}
+      <button class="carousel__dot" type="button" role="tab"
+              data-dot="{{ $i }}"
+              aria-controls="{{ $uid }}"
+              aria-label="Story {{ add $i 1 }} of {{ $n }}: {{ $p.Title | plainify | truncate 60 "" }}"
+              aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}"
+              tabindex="{{ if eq $i 0 }}0{{ else }}-1{{ end }}"></button>
+      {{- end }}
+    </div>
+    <div class="carousel__arrows">
+      <button class="carousel__arrow" type="button" data-prev aria-label="Previous story in {{ $label }}">
+        {{ partial "func/icon.html" "chevron-left" }}
+      </button>
+      <button class="carousel__arrow" type="button" data-next aria-label="Next story in {{ $label }}">
+        {{ partial "func/icon.html" "chevron-right" }}
+      </button>
+    </div>
+  </div>
+  {{- end }}
+
+  <p class="visually-hidden" aria-live="polite" data-status></p>
+</div>
+{{- end -}}

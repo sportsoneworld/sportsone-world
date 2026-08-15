@@ -1,0 +1,180 @@
+{{ define "main" }}
+{{- /* ===================================================================
+     THE FRONT PAGE
+
+     Running order:
+       Spotlight            five stories, rotating
+       Top Stories          slideshow of four, plus two fixed stories
+       Editor's Picks       alongside More Headlines
+       Live Scores          horizontal strip, the desk's selected matches
+       Sport by sport       a carousel and two stories for each sport
+
+     Every one of those is chosen in data/homepage.yaml, data/sports.yaml and
+     data/scores.yaml. Nothing on this page needs editing to change what the
+     front page leads with.
+     =================================================================== */ -}}
+{{- $posts := where site.RegularPages "Type" "posts" -}}
+{{- $hp := hugo.Data.homepage -}}
+{{- $nav := hugo.Data.navigation -}}
+{{- $used := slice -}}
+
+{{- /* --- Spotlight ------------------------------------------------- */ -}}
+{{- $s := partial "func/slots.html" (dict
+      "refs" $hp.spotlight "want" 5 "pool" $posts "fill" $posts "used" $used) -}}
+{{- $spotlight := $s.pages }}{{ $used = $s.used -}}
+
+{{- /* --- Top stories: the big panel, then four stories beside it ---- */ -}}
+{{- $ts := $hp.top_stories | default dict -}}
+{{- $s = partial "func/slots.html" (dict
+      "refs" $ts.carousel "want" 4 "pool" $posts "fill" $posts "used" $used) -}}
+{{- $topCarousel := $s.pages }}{{ $used = $s.used -}}
+
+{{- /* `side` is the current key. The older `static_a` / `static_b` pair still
+       works, so an existing data file is not broken by the change. */ -}}
+{{- $sideRefs := $ts.side -}}
+{{- if not $sideRefs -}}
+  {{- $sideRefs = slice ($ts.static_a | default "") ($ts.static_b | default "") -}}
+{{- end -}}
+{{- $s = partial "func/slots.html" (dict
+      "refs" $sideRefs "want" 4 "pool" $posts "fill" $posts "used" $used) -}}
+{{- $topSide := $s.pages }}{{ $used = $s.used -}}
+
+{{- /* --- Editor's picks and the headline list beside it ------------- */ -}}
+{{- $s = partial "func/slots.html" (dict
+      "refs" $hp.editors_picks "want" 6 "pool" $posts "fill" $posts "used" $used) -}}
+{{- $picks := $s.pages }}{{ $used = $s.used -}}
+
+{{- $s = partial "func/slots.html" (dict
+      "refs" slice "want" (int ($hp.more_headlines_count | default 6))
+      "pool" $posts "fill" $posts "used" $used) -}}
+{{- $headlines := $s.pages }}{{ $used = $s.used -}}
+
+
+{{- /* The front page needs one h1 for screen readers and for search engines.
+       It is not shown, because the page's real headline is the masthead. */ -}}
+<h1 class="visually-hidden">{{ site.Params.brandName | default site.Title }} — independent sports newsroom</h1>
+
+{{- with $spotlight }}
+<section class="home-block home-block--first" aria-labelledby="spotlight-title">
+  <div class="container container--wide">
+    <div class="section-head">
+      <h2 class="section-title" id="spotlight-title">Spotlight</h2>
+    </div>
+    {{ partial "cards/carousel.html" (dict
+        "pages" . "uid" "spotlight" "label" "Spotlight stories"
+        "variant" "hero" "eager" true) }}
+  </div>
+</section>
+{{- end }}
+
+
+{{- if or $topCarousel $topSide }}
+<section class="home-block" aria-labelledby="top-stories-title">
+  <div class="container container--wide">
+    <div class="section-head">
+      <h2 class="section-title" id="top-stories-title">Top Stories</h2>
+    </div>
+
+    <div class="topgrid">
+      {{- with $topCarousel }}
+      <div class="topgrid__lead">
+        {{ partial "cards/carousel.html" (dict
+            "pages" . "uid" "topstories" "label" "Top stories" "variant" "top") }}
+      </div>
+      {{- end }}
+
+      {{- with $topSide }}
+      <div class="topgrid__side">
+        {{- range . }}
+        {{ partial "cards/card.html" (dict "page" . "variant" "feed" "excerpt" false) }}
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}
+
+
+{{- if or $picks $headlines }}
+<section class="home-block" aria-labelledby="picks-title">
+  <div class="container container--wide">
+    <div class="editorial">
+      <div class="editorial__main">
+        <div class="section-head">
+          <h2 class="section-title" id="picks-title">Editor&rsquo;s Picks</h2>
+        </div>
+        <div class="picks">
+          {{- range $picks }}
+          {{ partial "cards/card.html" (dict "page" .) }}
+          {{- end }}
+        </div>
+      </div>
+
+      {{- with $headlines }}
+      <aside class="editorial__side" aria-labelledby="headlines-title">
+        <div class="section-head section-head--sub">
+          <h2 class="section-title section-title--sub" id="headlines-title">More Headlines</h2>
+        </div>
+        {{ partial "cards/headline-list.html" (dict "pages" .) }}
+      </aside>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}
+
+
+<section class="home-block">
+  <div class="container container--wide">
+    {{ partial "widgets/scores-strip.html" . }}
+  </div>
+</section>
+
+
+{{- /* ===================================================================
+     SPORT BY SPORT — one section per sport in the toolbar, each led by its
+     own carousel. The selections come from data/sports.yaml, the same file
+     that drives the top of that sport's own page, so a sport's top five is
+     chosen once and is the same wherever the reader meets it.
+     =================================================================== */ -}}
+{{- range $nav.primary }}
+{{- if ne .url "/" }}
+{{- $key := path.Base .url }}
+{{- $sportName := .name }}
+{{- $sportURL := .url }}
+{{- $cfg := index (hugo.Data.sports | default dict) $key | default dict }}
+{{- $pool := where $posts "Params.categories" "intersect" (slice $sportName) }}
+{{- if $pool }}
+{{- $r := partial "func/slots.html" (dict "refs" $cfg.carousel "want" 5 "pool" $pool "fill" $pool "used" slice) }}
+{{- $lead := $r.pages }}
+{{- $r = partial "func/slots.html" (dict "refs" $cfg.static "want" 2 "pool" $pool "fill" $pool "used" $r.used) }}
+{{- $side := $r.pages }}
+<section class="home-block" aria-labelledby="sport-{{ $key }}">
+  <div class="container container--wide">
+    <div class="section-head">
+      <h2 class="section-title" id="sport-{{ $key }}"><a href="{{ $sportURL | relURL }}">{{ $sportName }}</a></h2>
+    </div>
+    <div class="sportblock">
+      {{- with $lead }}
+      <div class="sportblock__lead">
+        {{ partial "cards/carousel.html" (dict
+            "pages" . "uid" (printf "sport-%s-carousel" $key)
+            "label" (printf "%s stories" $sportName) "variant" "sport") }}
+      </div>
+      {{- end }}
+      {{- with $side }}
+      <div class="sportblock__side">
+        {{- range . }}
+        {{ partial "cards/card.html" (dict "page" . "variant" "feed") }}
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}
+{{- end }}
+{{- end }}
+
+{{ end }}

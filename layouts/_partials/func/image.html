@@ -1,0 +1,27 @@
+{{- /* ------------------------------------------------------------------
+     Resolve the image for a page.
+
+       {{ partial "func/image.html" (dict "page" $p "context" "card") }}
+
+     context: "card"   -> prefers `thumbnail`, falls back to `image`
+              "hero"   -> prefers `image`,     falls back to `thumbnail`
+              "social" -> same as hero, then the site's default share image
+
+     Always returns a usable URL, so a card can never render a broken image.
+     ------------------------------------------------------------------ */ -}}
+{{- $p := .page -}}
+{{- $ctx := .context | default "card" -}}
+{{- $img := "" -}}
+{{- if eq $ctx "card" -}}
+  {{- $img = $p.Params.thumbnail | default $p.Params.image -}}
+{{- else -}}
+  {{- $img = $p.Params.image | default $p.Params.thumbnail -}}
+{{- end -}}
+{{- if not $img -}}
+  {{- if eq $ctx "social" -}}
+    {{- $img = site.Params.defaultOgImage | default "/images/brand/sportsone-og.png" -}}
+  {{- else -}}
+    {{- $img = site.Params.fallbackImage | default "/images/brand/sportsone-og.png" -}}
+  {{- end -}}
+{{- end -}}
+{{- return $img -}}

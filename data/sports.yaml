@@ -1,0 +1,66 @@
+# =============================================================================
+#  SPORT PAGES — WHAT THE DESK PUTS AT THE TOP OF EACH SPORT
+#
+#  One block per sport. Each block controls two things:
+#
+#    carousel   five stories that rotate every five seconds at the top of the
+#               sport page, in the order written here
+#    static     the two fixed stories directly underneath the carousel
+#
+#  The same selections also run that sport's section on the homepage, so a
+#  story only has to be chosen once.
+#
+#  Everything below the carousel and the two static stories is that sport's
+#  news feed, newest first, ten to a page, and needs no configuration.
+#
+#  Name a story by its slug — the last part of its web address. A slug that
+#  does not match is skipped and the gap is filled with that sport's newest
+#  unused story, so the page is never broken and never half empty.
+#
+#  The key of each block is the sport's category slug, for example the page
+#  /categories/other-sports/ is configured under `other-sports`.
+# =============================================================================
+
+cricket:
+  carousel:
+    - headingley-2019-stokes
+    - gabba-2021-india
+    - world-cup-2019-final
+    - kolkata-2001-laxman
+    - ipl-franchise-economics
+  static:
+    - anderson-broad-new-ball
+    - t20-powerplay-batting
+
+football:
+  carousel:
+    - leicester-2015-16
+    - barcelona-remontada
+    - istanbul-2005-milan
+    - manchester-city-treble
+    - real-madrid-2022
+  static:
+    - neymar-transfer-record
+    - dortmund-gegenpressing
+
+tennis:
+  carousel:
+    - federer-nadal-2008
+    - djokovic-federer-2019
+    - raducanu-2021-us-open
+    - serena-2017-australian
+    - alcaraz-sinner
+  static:
+    - djokovic-24-majors
+    - wheelchair-tennis
+
+other-sports:
+  carousel:
+    - bolt-berlin-9-58
+    - miracle-on-ice-1980
+    - jordan-1998-finals
+    - senna-donington-1993
+    - biles-tokyo-2020
+  static:
+    - kipchoge-sub-two
+    - curry-three-point

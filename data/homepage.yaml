@@ -1,0 +1,63 @@
+# =============================================================================
+#  HOMEPAGE — WHAT THE DESK PUTS WHERE
+#
+#  This is the running order of the SportsOne front page. Change a line here,
+#  save, and the homepage changes. You never edit a template.
+#
+#  HOW TO NAME A STORY
+#    Use the article's slug — the last part of its web address.
+#      /posts/second-test-day-two-collapse/   ->   second-test-day-two-collapse
+#    The file name without ".md" also works.
+#
+#  IF YOU LEAVE A SLOT SHORT
+#    The page fills the gap with the newest published story that is not
+#    already somewhere else on the page, so the front page is never half
+#    empty and a story never appears twice. Your choices always come first.
+#
+#  IF YOU MISSPELL A SLUG
+#    That line is ignored and the gap is filled as above. Nothing breaks.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# SPOTLIGHT — the five stories at the very top of the page.
+# They rotate on their own every five seconds, in the order written here.
+# These are the desk's picks, not simply the five most recent stories.
+# -----------------------------------------------------------------------------
+spotlight:
+  - world-cup-2019-final               # Spotlight story 1
+  - leicester-2015-16                  # Spotlight story 2
+  - federer-nadal-2008                 # Spotlight story 3
+  - gabba-2021-india                   # Spotlight story 4
+  - miracle-on-ice-1980                # Spotlight story 5
+
+# -----------------------------------------------------------------------------
+# TOP STORIES — one big panel on the left, four stories stacked beside it.
+#
+#   carousel  the large panel. Four stories, rotating every five seconds.
+#   side      the four fixed stories down the right-hand side, in this order.
+# -----------------------------------------------------------------------------
+top_stories:
+  carousel:
+    - istanbul-2005-milan              # the big panel, story 1
+    - headingley-2019-stokes           # the big panel, story 2
+    - raducanu-2021-us-open            # the big panel, story 3
+    - bolt-berlin-9-58                 # the big panel, story 4
+  side:
+    - manchester-city-treble           # beside it, 1
+    - t20-powerplay-batting            # beside it, 2
+    - djokovic-24-majors               # beside it, 3
+    - kipchoge-sub-two                 # beside it, 4
+
+# -----------------------------------------------------------------------------
+# EDITOR'S PICKS — six stories, two to a row, beside More Headlines.
+# -----------------------------------------------------------------------------
+editors_picks:
+  - anderson-broad-new-ball
+  - dortmund-gegenpressing
+  - alcaraz-sinner
+  - senna-donington-1993
+  - ipl-franchise-economics
+  - curry-three-point
+
+# How many stories the More Headlines list beside Editor's Picks carries.
+more_headlines_count: 6

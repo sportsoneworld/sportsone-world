@@ -1,0 +1,17 @@
+{{- /* Share buttons. Plain links — no third-party tracking scripts. */ -}}
+{{- $url := .Permalink -}}
+{{- $t := .Title | plainify -}}
+{{- $enc := $url | urlquery -}}
+{{- $enct := $t | urlquery -}}
+<div class="share">
+  <span class="share__label">Share</span>
+  <a href="https://x.com/intent/tweet?url={{ $enc }}&amp;text={{ $enct }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on X">{{ partial "func/icon.html" "x" }}</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ $enc }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">{{ partial "func/icon.html" "facebook" }}</a>
+  <a href="https://api.whatsapp.com/send?text={{ $enct }}%20{{ $enc }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on WhatsApp">{{ partial "func/icon.html" "whatsapp" }}</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $enc }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">{{ partial "func/icon.html" "linkedin" }}</a>
+  <button type="button" data-copy-link="{{ $url }}" aria-label="Copy link to this article">{{ partial "func/icon.html" "link" }}</button>
+</div>

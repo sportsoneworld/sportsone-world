@@ -1,0 +1,97 @@
+# =============================================================================
+#  LIVE SCORES — REFRESHED AUTOMATICALLY
+#
+#  This file is rewritten by scripts/fetch-scores.py, which runs on a
+#  schedule in GitHub Actions. Provider: thesportsdb.
+#
+#  You can still pin matches by hand. Ids listed under featured_matches are
+#  kept across every refresh for as long as that match is still in the feed,
+#  and they are always the first ones shown on the front page.
+#
+#  Which sports and how many matches are fetched: data/scores-source.yaml
+# =============================================================================
+
+updated: "15 Aug 2026, 11:44 IST"
+note: "Scores refresh automatically; the desk chooses what leads"
+auto_feature: true
+
+# The desk's pins. Add an id to put a match on the front page, delete the
+# line to take it down. Kept intact by every refresh.
+featured_matches:
+  # none pinned — the strip is filling itself from the live matches below
+
+sports:
+  - name: Football
+    matches:
+      - id: football-2456825
+        competition: "Australia ACT NPL"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Brindabella Blues"
+            score: "1"
+          - name: "Cooma Tigers"
+            score: "3"
+            active: true
+      - id: football-2456824
+        competition: "Australia ACT NPL"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "O'Connor Knights"
+            score: "1"
+            active: true
+          - name: "Canberra White Eagles"
+            score: "0"
+      - id: football-2546483
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "APIA Leichhardt"
+            score: "0"
+          - name: "Southern Districts Raiders"
+            score: "0"
+      - id: football-2428273
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "51'"
+        teams:
+          - name: "Western Sydney Wanderers Youth"
+            score: "0"
+          - name: "St George"
+            score: "1"
+            active: true
+      - id: football-2569947
+        competition: "Australia Tasmania NPL"
+        state: live
+        stateLabel: "81'"
+        teams:
+          - name: "Devonport City"
+            score: "2"
+            active: true
+          - name: "Kingborough Lions United"
+            score: "1"
+      - id: football-2432790
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "54'"
+        teams:
+          - name: "Heidelberg United"
+            score: "2"
+            active: true
+          - name: "Hume City"
+            score: "1"
+
+  - name: Cricket
+    matches:
+      - id: cricket-2573300
+        competition: "The Hundred Women"
+        state: upcoming
+        stateLabel: "13:15"
+        teams:
+          - name: "Sunrisers Leeds Women"
+            score: "–"
+            detail: "13:15"
+          - name: "Trent Rockets Women"
+            score: "–"

@@ -1,0 +1,20 @@
+# Hugo build output — never commit this, GitHub Actions builds it for you
+/public/
+/resources/_gen/
+/.hugo_build.lock
+hugo_stats.json
+
+# Operating system noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor noise
+*.swp
+*~
+.idea/
+
+# Never commit secrets
+.env
+.env.*
+!.env.example

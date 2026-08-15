@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- /* Section listing — /posts/ (Latest news) and any future section.
+       One continuous editorial feed, newest first, photography first. */ -}}
+{{- $pages := .RegularPagesRecursive.ByDate.Reverse -}}
+{{- if not $pages }}{{ $pages = .Pages.ByDate.Reverse }}{{ end -}}
+{{- $lead := first 1 $pages -}}
+{{- $rest := after 1 $pages -}}
+{{- $paginator := .Paginate $rest -}}
+<div class="container container--wide">
+
+  <div class="page-head">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+  </div>
+
+  {{- with $lead }}{{ with index . 0 }}
+  <div class="sportpage__statics sportpage__statics--single">
+    {{ partial "cards/card.html" (dict "page" . "variant" "lead" "eager" true) }}
+  </div>
+  {{- end }}{{ end }}
+
+  {{- if $paginator.Pages }}
+  <div class="newsfeed">
+    {{- range $paginator.Pages }}
+    {{ partial "cards/card.html" (dict "page" . "variant" "feed" "date" true) }}
+    {{- end }}
+  </div>
+  {{ partial "func/pagination.html" . }}
+  {{- else if not $lead }}
+  <p class="empty-state">No articles have been published in this section yet.</p>
+  {{- end }}
+
+</div>
+{{ end }}

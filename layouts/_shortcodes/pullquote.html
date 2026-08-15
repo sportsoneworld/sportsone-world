@@ -1,0 +1,5 @@
+{{- /* {{< pullquote source="Pep Guardiola" >}}Quote text{{< /pullquote >}} */ -}}
+<blockquote class="pullquote">
+  {{ .Inner | markdownify }}
+  {{- with .Get "source" }}<cite>{{ . }}</cite>{{ end }}
+</blockquote>

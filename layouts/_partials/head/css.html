@@ -1,0 +1,32 @@
+{{- /* ------------------------------------------------------------------
+     Stylesheet pipeline.
+     The CSS lives in assets/css/ as small readable files. Hugo joins them
+     into a single minified, cache-busted file at build time, so the browser
+     makes exactly one CSS request.
+     ------------------------------------------------------------------ */ -}}
+{{- $files := slice
+      "css/01-tokens.css"
+      "css/02-base.css"
+      "css/03-layout.css"
+      "css/04-header.css"
+      "css/05-cards.css"
+      "css/06-home.css"
+      "css/07-widgets.css"
+      "css/08-article.css"
+      "css/09-footer.css"
+      "css/10-carousel.css" -}}
+{{- $sheets := slice -}}
+{{- range $files -}}
+  {{- with resources.Get . -}}
+    {{- $sheets = $sheets | append . -}}
+  {{- else -}}
+    {{- errorf "Stylesheet not found: assets/%s" . -}}
+  {{- end -}}
+{{- end -}}
+{{- $bundle := $sheets | resources.Concat "css/sportsone.css" -}}
+{{- if hugo.IsProduction -}}
+  {{- $bundle = $bundle | minify | fingerprint "sha256" -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous">
+{{- else -}}
+  <link rel="stylesheet" href="{{ $bundle.RelPermalink }}">
+{{- end -}}

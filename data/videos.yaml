@@ -1,0 +1,74 @@
+# =============================================================================
+#  VIDEO
+#
+#  Three videos at the foot of each sport page. The key of each block is that
+#  sport's category slug, the same as in data/sports.yaml.
+#
+#  TO ADD ONE     copy a block and change the four lines.
+#  TO REMOVE ONE  delete its block. A sport with no block simply has no video
+#                 section, and nothing else on the page moves.
+#
+#    id       the part of a YouTube address after "watch?v="
+#    title    what the video is called
+#    channel  who published it — printed as the credit under the video
+#    url      the channel's page, so the credit is clickable
+#
+#  Nothing is requested from YouTube until a reader actually clicks play. The
+#  still image is the only thing loaded up front, and it is lazy-loaded.
+# =============================================================================
+
+cricket:                      # Cricket
+  - id: "KL0ONdUT2zo"
+    title: "The inspiration behind the ICC Men's Cricket World Cup 2027 colours and brand #CWC27"
+    channel: "ICC"
+    url: "https://www.youtube.com/@ICC"
+  - id: "xKS-7SuktvI"
+    title: "The road to glory leads to CWC27 in South Africa, Zimbabwe and Namibia"
+    channel: "ICC"
+    url: "https://www.youtube.com/@ICC"
+  - id: "Va_V8diz0o4"
+    title: "CWC27 is coming to South Africa, Zimbabwe and Namibia"
+    channel: "ICC"
+    url: "https://www.youtube.com/@ICC"
+
+football:                      # Football
+  - id: "RODBKpuIs18"
+    title: "\"It's Not Done!\" | Manchester City v Arsenal 2025/26"
+    channel: "Premier League"
+    url: "https://www.youtube.com/@premierleague"
+  - id: "Ow0lB4bfiPg"
+    title: "How A NO Haaland Draft Looks | FPL Podcast 2026/27"
+    channel: "Premier League"
+    url: "https://www.youtube.com/@premierleague"
+  - id: "lELE13jEiVE"
+    title: "The Most Beautiful Moments of the 2025/26 Premier League Season"
+    channel: "Premier League"
+    url: "https://www.youtube.com/@premierleague"
+
+tennis:                      # Tennis
+  - id: "KA4QDEVrJ0c"
+    title: "Titouan Droguet vs Matteo Berrettini Highlights | Cincinnati 2026 Round 1"
+    channel: "ATP Tour"
+    url: "https://www.youtube.com/@ATPTour"
+  - id: "s2UhA9rWhm8"
+    title: "Sebastian Baez vs Grigor Dimitrov Highlights | Cincinnati 2026 Round 1"
+    channel: "ATP Tour"
+    url: "https://www.youtube.com/@ATPTour"
+  - id: "KhC6mlRJAuI"
+    title: "Valentin Royer vs Stefanos Tsitsipas Highlights | Cincinnati 2026 Round 1"
+    channel: "ATP Tour"
+    url: "https://www.youtube.com/@ATPTour"
+
+other-sports:                      # Other Sports
+  - id: "n_T8w9wWicc"
+    title: "Nakai Ami Stuns to What A Wonderful World 🎶🇯🇵 | Milano Cortina 2026"
+    channel: "Olympic Games"
+    url: "https://www.youtube.com/@Olympics"
+  - id: "nYAnwhnrfcY"
+    title: "Bulgaria's Star! Stiliana Nikolova at the Rhythmic Gymnastics Worlds 2026 in Frankfurt 🤸‍♀️🇧🇬"
+    channel: "Olympic Games"
+    url: "https://www.youtube.com/@Olympics"
+  - id: "lUCMhvjAc1Y"
+    title: "Making Italy Proud! 🇮🇹🤸‍♀️ Sofia Raffaeli at the Rhythmic Gymnastics World Championships 2026"
+    channel: "Olympic Games"
+    url: "https://www.youtube.com/@Olympics"

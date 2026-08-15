@@ -1,0 +1,78 @@
+{{- /* ------------------------------------------------------------------
+     THE TOOLBAR — one row, nothing else.
+
+       logo + name | Home  Cricket  Football  Tennis  Other Sports | LIVE SCORES
+
+     Everything in it comes from data/navigation.yaml. A sport with `children`
+     gets a dropdown; a sport without one gets a plain link. Adding either is a
+     data-file edit, never a template edit.
+
+     The logo follows the reader's system theme: the red mark on white in light
+     mode, the white mark on red in dark mode, swapped by the browser with no
+     JavaScript and no flash.
+     ------------------------------------------------------------------ */ -}}
+{{- $nav := hugo.Data.navigation -}}
+{{- $cur := .RelPermalink -}}
+<header class="masthead">
+  <div class="container container--wide masthead__inner">
+
+    <a class="brand" href="{{ "/" | relURL }}" {{ if .IsHome }}aria-current="page"{{ end }}>
+      <picture class="brand__mark">
+        <source srcset="{{ "/images/brand/sportsone-mark-dark.png" | relURL }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ "/images/brand/sportsone-mark-light.png" | relURL }}" alt=""
+             width="256" height="256" fetchpriority="high" decoding="async">
+      </picture>
+      <span class="brand__word">{{ site.Params.brandName | default site.Title }}</span>
+    </a>
+
+    <nav class="mainnav" aria-label="Main">
+      <ul class="mainnav__list">
+        {{- range $i, $item := $nav.primary }}
+        {{- $id := printf "submenu-%d" $i }}
+        {{- $url := $item.url | relURL }}
+        {{- $active := or (eq $cur $url) (and (ne $url ("/" | relURL)) (hasPrefix $cur $url)) }}
+        <li class="mainnav__item{{ if $item.children }} mainnav__item--menu{{ end }}">
+          <a class="mainnav__link{{ if $active }} is-active{{ end }}"
+             href="{{ $url }}"{{ if $active }} aria-current="page"{{ end }}>{{ $item.name }}</a>
+          {{- with $item.children }}
+          <button class="mainnav__disclosure" type="button"
+                  aria-expanded="false" aria-controls="{{ $id }}"
+                  aria-label="Show {{ $item.name }} sections"
+                  data-submenu>
+            {{ partial "func/icon.html" "chevron-down" }}
+          </button>
+          <ul class="submenu" id="{{ $id }}">
+            {{- range . }}
+            <li><a href="{{ .url | relURL }}"{{ if eq $cur (.url | relURL) }} aria-current="page"{{ end }}>{{ .name }}</a></li>
+            {{- end }}
+          </ul>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+    </nav>
+
+    <div class="masthead__end">
+      {{- with $nav.live }}
+      <a class="livebtn" href="{{ .url | relURL }}"{{ if eq $cur (.url | relURL) }} aria-current="page"{{ end }}>
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="livebtn__long">{{ .name }}</span>
+        <span class="livebtn__short" aria-hidden="true">Live</span>
+      </a>
+      {{- end }}
+
+      <a class="icon-btn icon-btn--search" href="{{ "/search/" | relURL }}" aria-label="Search {{ site.Params.brandName | default site.Title }}">
+        {{ partial "func/icon.html" "search" }}
+      </a>
+
+      <button class="icon-btn nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="site-drawer"
+              data-drawer-open>
+        {{ partial "func/icon.html" "menu" }}
+      </button>
+    </div>
+
+  </div>
+</header>
+
+{{ partial "header/drawer.html" (dict "page" . "nav" $nav) }}

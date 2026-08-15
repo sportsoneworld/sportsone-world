@@ -1,0 +1,106 @@
+{{ define "main" }}
+{{- /* ===================================================================
+     SPORT PAGES (and every other category, tag and author page)
+
+     A sport named in data/navigation.yaml gets the full front-page treatment:
+
+       carousel of five, rotating every five seconds
+       two fixed stories underneath
+       then the sport's own feed, newest first, all the way down
+
+     The five and the two are chosen in data/sports.yaml. Everything below
+     them is automatic.
+
+     There is deliberately no live-scores block here — scores live in the
+     toolbar and in the strip on the front page, and repeating them on every
+     sport page pushes the journalism down for no gain.
+     =================================================================== */ -}}
+{{- $nav := hugo.Data.navigation -}}
+{{- $isSport := false -}}
+{{- $key := "" -}}
+{{- if eq .Data.Plural "categories" -}}
+  {{- range $nav.primary -}}
+    {{- if and (ne .url "/") (eq (lower .name) (lower $.Title)) -}}
+      {{- $isSport = true -}}{{- $key = path.Base .url -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $all := .Pages.ByDate.Reverse -}}
+{{- $lead := slice -}}
+{{- $side := slice -}}
+{{- $feed := $all -}}
+
+{{- if $isSport -}}
+  {{- $cfg := index (hugo.Data.sports | default dict) $key | default dict -}}
+  {{- $r := partial "func/slots.html" (dict "refs" $cfg.carousel "want" 5 "pool" $all "fill" $all "used" slice) -}}
+  {{- $lead = $r.pages -}}
+  {{- $r = partial "func/slots.html" (dict "refs" $cfg.static "want" 2 "pool" $all "fill" $all "used" $r.used) -}}
+  {{- $side = $r.pages -}}
+  {{- /* The feed below is the sport's full archive, newest first, exactly as
+         the brief asks — not the leftovers. Excluding the seven stories above
+         would leave the feed empty on any sport with a short back catalogue,
+         and a reader who comes here for "the latest cricket" expects the
+         latest cricket, whether or not it is also in the carousel. */ -}}
+  {{- $feed = $all -}}
+{{- else -}}
+  {{- $lead = first 1 $all -}}
+  {{- $feed = after 1 $all -}}
+{{- end -}}
+
+{{- $paginator := .Paginate $feed -}}
+
+<div class="container container--wide">
+
+  <div class="page-head">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+  </div>
+
+  {{- if $isSport }}
+
+  {{- with $lead }}
+  {{ partial "cards/carousel.html" (dict
+      "pages" . "uid" (printf "%s-hero" $key)
+      "label" (printf "%s top stories" $.Title) "variant" "hero" "eager" true) }}
+  {{- end }}
+
+  {{- with $side }}
+  <div class="sportpage__statics">
+    {{- range . }}
+    {{ partial "cards/card.html" (dict "page" . "variant" "feed") }}
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- else }}
+
+  {{- with $lead }}{{ with index . 0 }}
+  <div class="sportpage__statics sportpage__statics--single">
+    {{ partial "cards/card.html" (dict "page" . "variant" "lead" "eager" true) }}
+  </div>
+  {{- end }}{{ end }}
+
+  {{- end }}
+
+  {{- if $paginator.Pages }}
+  <div class="section-head section-head--sub">
+    <h2 class="section-title section-title--sub">Latest {{ lower .Title }}</h2>
+  </div>
+  <div class="newsfeed">
+    {{- range $paginator.Pages }}
+    {{ partial "cards/card.html" (dict "page" . "variant" "feed" "date" true) }}
+    {{- end }}
+  </div>
+  {{ partial "func/pagination.html" . }}
+  {{- else if not $lead }}
+  <p class="empty-state">Nothing published here yet.</p>
+  {{- end }}
+
+  {{- /* Video sits at the foot of a sport page, below the feed, and only on
+         the first page of it — a reader on page three came for the archive. */ -}}
+  {{- if and $isSport (eq $paginator.PageNumber 1) }}
+  {{ partial "cards/videos.html" (dict "key" $key "label" .Title) }}
+  {{- end }}
+
+</div>
+{{ end }}

@@ -1,0 +1,19 @@
+{{- /* ------------------------------------------------------------------
+     Markdown image render hook.
+
+       ![Alt text](/images/photo.jpg "Optional caption")
+
+     becomes a fixed-ratio, cropped, lazy-loaded figure with a caption. The
+     frame is what sets the size, so swapping the photo for one with totally
+     different dimensions never moves the surrounding text.
+     ------------------------------------------------------------------ */ -}}
+{{- $alt := .PlainText | default .Text -}}
+{{- $caption := .Title -}}
+<figure>
+  <div class="frame frame--wide">
+    <img src="{{ .Destination | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  </div>
+  {{- with $caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>

@@ -1,0 +1,73 @@
+# =============================================================================
+#  Refresh the live scores
+#
+#  What this does, in plain English:
+#    1. Every 15 minutes it asks the sports data provider what is happening.
+#    2. It rewrites data/scores.yaml with the current matches.
+#    3. If anything actually changed, it commits — and that commit sets the
+#       publish workflow going, so the new scores are on the site in a couple
+#       of minutes.
+#    4. If nothing changed, it does nothing at all. No empty commits.
+#
+#  Your pinned matches are safe. Ids you have listed under `featured_matches:`
+#  in data/scores.yaml are carried across every refresh.
+#
+#  If the provider is down, the run fails loudly and data/scores.yaml is left
+#  exactly as it was — the site keeps showing the last good scores.
+#
+#  TO RUN IT BY HAND  Actions tab ▸ "Refresh live scores" ▸ Run workflow.
+#  TO SLOW IT DOWN    change the cron line below, e.g. '0 * * * *' for hourly.
+#  TO TURN IT OFF     Actions tab ▸ "Refresh live scores" ▸ ⋯ ▸ Disable
+#                     workflow. data/scores.yaml then stays hand-edited, and
+#                     everything still works.
+#
+#  A note on cost: scheduled runs are free on public repositories. On a private
+#  one they come out of your Actions minutes, so hourly is the kinder setting.
+# =============================================================================
+
+name: Refresh live scores
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two refreshes run over the top of each other.
+concurrency:
+  group: scores
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    name: Fetch and commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch the scores
+        env:
+          # Optional. Only needed if you have subscribed to the provider.
+          SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }}
+        run: python3 scripts/fetch-scores.py
+
+      - name: Commit only if something changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/scores.yaml; then
+            echo "Scores are unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "SportsOne scores bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/scores.yaml
+          git commit -m "Live scores: automatic refresh"
+          git push

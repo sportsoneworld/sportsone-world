@@ -1,0 +1,18 @@
+{{- /* Search index consumed by /search/. Regenerated on every build. */ -}}
+{{- $items := slice -}}
+{{- range (where site.RegularPages "Type" "posts").ByDate.Reverse -}}
+  {{- $items = $items | append (dict
+      "title" (.Title | plainify)
+      "url" .RelPermalink
+      "date" (.Date.Format "2 Jan 2006")
+      "ts" .Date.Unix
+      "category" (index (.Params.categories | default slice) 0)
+      "categories" (.Params.categories | default slice)
+      "tags" (.Params.tags | default slice)
+      "author" (partial "func/authorname.html" .)
+      "summary" ((.Params.summary | default .Summary) | plainify | truncate 200 "…")
+      "body" (.Plain | plainify | truncate 1200 "")
+      "image" (partial "func/image.html" (dict "page" . "context" "card"))
+    ) -}}
+{{- end -}}
+{{- dict "count" (len $items) "items" $items | jsonify -}}

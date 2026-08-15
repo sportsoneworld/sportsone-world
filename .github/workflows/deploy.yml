@@ -1,0 +1,133 @@
+# =============================================================================
+#  Publish SportsOne
+#
+#  What this does, in plain English:
+#    1. Watches the `main` branch of this repository.
+#    2. The moment you push a new or edited article, it starts.
+#    3. It installs Hugo, builds the whole website, checks the build worked,
+#       and publishes the result to GitHub Pages.
+#    4. Two or three minutes later the article is live on sportsone.world.
+#
+#  You never have to run this by hand. If you ever want to, use the
+#  "Run workflow" button on the Actions tab (that is what workflow_dispatch is).
+#
+#  If it ever fails, the Actions tab shows a red cross and the exact error.
+#  See docs/05-troubleshooting.md.
+# =============================================================================
+
+name: Build and deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - '**/*.md.txt'
+      - '.vscode/**'
+      - 'README.md'
+  workflow_dispatch:
+
+# Allow the workflow to publish to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# If you push twice quickly, finish the newer build and skip the older one —
+# but never cancel a deployment that is already going out.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  # Pin the Hugo version so a future Hugo release can never break your site
+  # unexpectedly. To upgrade, change this number and push.
+  HUGO_VERSION: 0.165.0
+  # Turns on cache-busting, minification and the production settings.
+  HUGO_ENVIRONMENT: production
+  TZ: Asia/Kolkata
+
+jobs:
+  build:
+    name: Build the website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Hugo ${{ env.HUGO_VERSION }} (extended)
+        run: |
+          set -euo pipefail
+          curl -sSLo hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i hugo.deb
+          hugo version
+
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          # Needed so Hugo can read the full history for .Lastmod / .GitInfo.
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Cache Hugo's generated resources
+        uses: actions/cache@v4
+        with:
+          path: |
+            resources/_gen
+            .hugo_build.lock
+          key: hugo-${{ runner.os }}-${{ env.HUGO_VERSION }}-${{ hashFiles('assets/**', 'hugo.toml') }}
+          restore-keys: |
+            hugo-${{ runner.os }}-${{ env.HUGO_VERSION }}-
+
+      - name: Build the site with Hugo
+        run: |
+          hugo \
+            --minify \
+            --gc \
+            --cleanDestinationDir \
+            --printPathWarnings \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Check the build actually produced a website
+        run: |
+          set -euo pipefail
+          test -f public/index.html        || { echo "::error::public/index.html is missing — the build produced no home page."; exit 1; }
+          test -f public/sitemap.xml       || { echo "::error::sitemap.xml is missing."; exit 1; }
+          test -f public/index.json        || { echo "::error::the search index is missing."; exit 1; }
+          test -d public/posts             || { echo "::error::no articles were generated."; exit 1; }
+          test -f public/scores/index.html || { echo "::error::the live scores page is missing."; exit 1; }
+          for sport in cricket football tennis other-sports; do
+            test -f "public/categories/${sport}/index.html" \
+              || { echo "::error::the ${sport} page is missing — check data/navigation.yaml."; exit 1; }
+          done
+          grep -q 'id="spotlight"' public/index.html \
+            || { echo "::error::the Spotlight carousel is missing from the home page — check data/homepage.yaml."; exit 1; }
+          pages=$(find public -name '*.html' | wc -l)
+          echo "Built ${pages} HTML pages."
+          if [ "${pages}" -lt 5 ]; then
+            echo "::error::Only ${pages} pages were built — something is wrong."
+            exit 1
+          fi
+
+      - name: Upload the website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    name: Publish to sportsone.world
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,33 @@
+{{- /* ------------------------------------------------------------------
+     Turn a list of slugs written by the desk in data/*.yaml into real pages.
+
+       {{ $pages := partial "func/pick.html" (dict "refs" $refs "pool" $posts) }}
+
+     A ref is matched on the last part of the article's web address, so all of
+     these name the same story and all of them work:
+
+       second-test-day-two-collapse
+       /posts/second-test-day-two-collapse/
+       posts/second-test-day-two-collapse
+
+     A ref that matches nothing is skipped silently — a typo in a data file
+     must never break a build or leave a hole in the page. Callers top the
+     list back up to the required length (see func/slots.html).
+
+     Order is the order written in the data file. Duplicates are dropped.
+     ------------------------------------------------------------------ */ -}}
+{{- $pool := .pool -}}
+{{- $out := slice -}}
+{{- $seen := slice -}}
+{{- range .refs -}}
+  {{- $key := path.Base (lower (printf "%v" .)) -}}
+  {{- if and $key (ne $key ".") (not (in $seen $key)) -}}
+    {{- range $pool -}}
+      {{- if and (eq (path.Base (lower .RelPermalink)) $key) (not (in $seen $key)) -}}
+        {{- $out = $out | append . -}}
+        {{- $seen = $seen | append $key -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

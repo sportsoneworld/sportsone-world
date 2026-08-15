@@ -1,0 +1,82 @@
+{
+  // ==========================================================================
+  //  SportsOne — one-click jobs for VS Code
+  //  Run any of these with:  Terminal ▸ Run Task…   (or Cmd/Ctrl + Shift + P,
+  //  then type "Run Task").
+  //  You never need to remember a command.
+  // ==========================================================================
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1 · Preview the website",
+      "detail": "Starts a local copy of SportsOne at http://localhost:1313 that updates as you type.",
+      "type": "shell",
+      "command": "hugo server --buildDrafts --buildFuture --navigateToChanged --disableFastRender",
+      "problemMatcher": [],
+      "isBackground": true,
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "2 · New article",
+      "detail": "Creates a new Markdown article with all the front matter filled in.",
+      "type": "shell",
+      "command": "hugo new content \"posts/${input:sport}/${input:filename}.md\" && code \"content/posts/${input:sport}/${input:filename}.md\"",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "3 · Publish everything (commit and push)",
+      "detail": "Saves your work to GitHub. GitHub Actions then rebuilds and publishes the live site.",
+      "type": "shell",
+      "command": "git add -A && git commit -m \"${input:message}\" && git push",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "4 · Test the production build",
+      "detail": "Builds the site exactly the way GitHub does, so you can catch a mistake before pushing.",
+      "type": "shell",
+      "command": "hugo --minify --gc --cleanDestinationDir --printPathWarnings && echo '' && echo 'BUILD OK — no errors.'",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "5 · Get the latest changes from GitHub",
+      "detail": "Use this if you edit the site from more than one computer.",
+      "type": "shell",
+      "command": "git pull --rebase",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "sport",
+      "type": "pickString",
+      "description": "Which sport folder should the article live in?",
+      "options": [
+        "football",
+        "cricket",
+        "tennis",
+        "basketball",
+        "motorsport",
+        "athletics",
+        "other-sports"
+      ],
+      "default": "football"
+    },
+    {
+      "id": "filename",
+      "type": "promptString",
+      "description": "File name — lower case, words joined by hyphens, no spaces (e.g. riverside-win-late)",
+      "default": "my-new-article"
+    },
+    {
+      "id": "message",
+      "type": "promptString",
+      "description": "What are you publishing? (e.g. Add match report: Riverside v Kingsport)",
+      "default": "Publish new article"
+    }
+  ]
+}

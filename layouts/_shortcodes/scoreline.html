@@ -1,0 +1,8 @@
+{{- /* {{< scoreline home="Arsenal" homeScore="3" away="Liverpool" awayScore="1"
+                     caption="Premier League · Emirates Stadium" >}}        */ -}}
+<div class="scoreline">
+  <span class="scoreline__team">{{ .Get "home" }}</span>
+  <span class="scoreline__score">{{ .Get "homeScore" | default "–" }}&nbsp;–&nbsp;{{ .Get "awayScore" | default "–" }}</span>
+  <span class="scoreline__team">{{ .Get "away" }}</span>
+  {{- with .Get "caption" }}<span class="scoreline__caption">{{ . }}</span>{{ end }}
+</div>

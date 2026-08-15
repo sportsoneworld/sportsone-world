@@ -1,0 +1,4 @@
+{{- /* Links to other websites open in a new tab and are marked up safely. */ -}}
+{{- $ext := or (hasPrefix .Destination "http://") (hasPrefix .Destination "https://") -}}
+{{- $internal := hasPrefix .Destination (string site.BaseURL) -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if and $ext (not $internal) }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>

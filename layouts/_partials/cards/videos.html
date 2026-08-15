@@ -1,0 +1,52 @@
+{{- /* ------------------------------------------------------------------
+     VIDEO — three clips at the foot of a sport page.
+
+       {{ partial "cards/videos.html" (dict "key" "cricket" "label" "Cricket") }}
+
+     Reads data/videos.yaml. A sport with no block there renders nothing at
+     all, so the section can never appear empty.
+
+     Each clip is a still image and a play button, not an embed. YouTube is
+     contacted only when a reader presses play, at which point the script
+     swaps in a privacy-mode player. Until then the page makes one lazy image
+     request per clip and nothing else — which is why this section does not
+     cost the site its "no third-party scripts" property on load.
+
+     The channel name under each clip is the credit, and it links to the
+     channel it came from.
+     ------------------------------------------------------------------ */ -}}
+{{- $key := .key -}}
+{{- $label := .label -}}
+{{- $items := index (hugo.Data.videos | default dict) $key -}}
+{{- with $items }}
+<section class="home-block videos" aria-labelledby="video-{{ $key }}">
+  <div class="section-head">
+    <h2 class="section-title" id="video-{{ $key }}">{{ $label }} Video</h2>
+  </div>
+  <div class="videogrid">
+    {{- range $v := . }}
+    <article class="vcard">
+      <button class="vcard__player" type="button"
+              data-video="{{ $v.id }}"
+              aria-label="Play: {{ $v.title }}">
+        <img class="vcard__still"
+             src="https://i.ytimg.com/vi/{{ $v.id }}/hqdefault.jpg"
+             alt="" loading="lazy" decoding="async" width="480" height="360">
+        <span class="vcard__play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5v14l11-7z"/></svg>
+        </span>
+      </button>
+      <h3 class="vcard__title">
+        <a href="https://www.youtube.com/watch?v={{ $v.id }}" rel="noopener nofollow" target="_blank">{{ $v.title }}</a>
+      </h3>
+      {{- with $v.channel }}
+      <p class="credit">
+        <a href="{{ $v.url | default "https://www.youtube.com" }}" rel="noopener nofollow" target="_blank">{{ . }}</a>
+        <span class="credit__sep" aria-hidden="true">·</span><span>YouTube</span>
+      </p>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

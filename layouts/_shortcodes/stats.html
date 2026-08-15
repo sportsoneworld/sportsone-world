@@ -1,0 +1,12 @@
+{{- /* A row of headline statistics with aligned, tabular numerals.
+
+       {{< stats "68%|Possession" "17|Shots" "8.4|xG per 90" >}}            */ -}}
+<div class="statstrip">
+  {{- range .Params }}
+  {{- $parts := split . "|" }}
+  <div class="statstrip__item">
+    <span class="statstrip__value">{{ index $parts 0 }}</span>
+    <span class="statstrip__label">{{ if gt (len $parts) 1 }}{{ index $parts 1 }}{{ end }}</span>
+  </div>
+  {{- end }}
+</div>

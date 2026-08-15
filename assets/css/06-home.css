@@ -1,0 +1,333 @@
+/* ==========================================================================
+   HOMEPAGE AND LISTING PAGES — the editorial blocks
+   ========================================================================== */
+
+.home-block { margin-block: var(--section-gap); }
+.home-block--first { margin-top: var(--sp-7); }
+@media (min-width: 768px) { .home-block--first { margin-top: var(--sp-8); } }
+
+/* --- Top Stories: one big panel, four stories beside it -------------------
+   Phone    one column: the panel, then four full-width cards
+   Tablet   the panel across the top, the four cards two-up beneath it
+   Laptop+  the panel on the left, the four stacked down the right as rows
+
+   The four rows are sized so the right-hand column finishes level with the
+   panel rather than running past it.                                       */
+
+.topgrid {
+  display: grid;
+  gap: var(--sp-8) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+}
+.topgrid__side {
+  display: grid;
+  gap: var(--sp-7) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 600px) {
+  .topgrid__side { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1024px) {
+  .topgrid {
+    grid-template-columns: minmax(0, 1.28fr) minmax(0, 1fr);
+    gap: var(--sp-7);
+    align-items: start;
+  }
+  /* Four rows, evenly spread over the height of the panel next to them. */
+  .topgrid__side {
+    grid-template-columns: minmax(0, 1fr);
+    grid-auto-rows: 1fr;
+    gap: var(--sp-5);
+    /* Stretch to the panel's height so the four rows divide it evenly and the
+       column finishes exactly level with the picture beside it. */
+    align-self: stretch;
+    height: 100%;
+  }
+  /* Picture left, headline right — a wide, shallow block. */
+  .topgrid__side .card {
+    display: grid;
+    grid-template-columns: minmax(0, 0.62fr) minmax(0, 1fr);
+    gap: var(--sp-4);
+    align-items: center;
+    padding-bottom: var(--sp-5);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .topgrid__side .card:last-child { padding-bottom: 0; border-bottom: 0; }
+  .topgrid__side .card__media { margin-bottom: 0; aspect-ratio: var(--ratio-wide); }
+  .topgrid__side .card__title {
+    font-size: clamp(1.0625rem, 0.9rem + 0.5vw, 1.25rem);
+    margin-bottom: 0;
+  }
+  .topgrid__side .eyebrow { margin-bottom: var(--sp-2); }
+}
+
+/* --- Editor's Picks alongside More Headlines ----------------------------- */
+
+.editorial {
+  display: grid;
+  gap: var(--sp-8) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+@media (min-width: 1024px) {
+  .editorial {
+    grid-template-columns: minmax(0, 1fr) var(--rail-width);
+    gap: var(--sp-9);
+  }
+}
+.editorial__main { min-width: 0; }
+.editorial__side { min-width: 0; }
+
+/* Six stories, two to a row, all the way down. */
+.picks {
+  display: grid;
+  gap: var(--sp-8) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 600px) {
+  .picks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* --- A sport block on the homepage --------------------------------------- */
+
+/* Same reasoning as Top Stories: the carousel leads at full width and the two
+   supporting stories sit beneath it, so no column ever runs out before the
+   one beside it. */
+.sportblock {
+  display: grid;
+  gap: var(--sp-8) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+.sportblock__side {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--sp-7);
+}
+@media (min-width: 600px) {
+  .sportblock__side {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--grid-gap);
+  }
+}
+
+/* --- Sport page and listing pages ---------------------------------------- */
+
+.page-head {
+  border-bottom: 2px solid var(--c-ink-strong);
+  padding-bottom: var(--sp-4);
+  margin-block: var(--sp-7) var(--sp-7);
+}
+.page-head__title {
+  font-family: var(--font-display);
+  font-size: var(--t-h1);
+  font-weight: var(--fw-regular);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: var(--c-ink-strong);
+  margin: 0;
+}
+/* Used by Search, /categories/, the 404 page and standalone pages. Sport pages
+   deliberately never render one — a sport heading stays clean. */
+.page-head__desc {
+  margin: var(--sp-3) 0 0;
+  max-width: 68ch;
+  font-family: var(--font-body);
+  font-size: var(--t-body-lg);
+  line-height: var(--lh-normal);
+  color: var(--c-ink-2);
+}
+.page-head__desc p:last-child { margin-bottom: 0; }
+
+/* The two fixed stories under a sport carousel */
+.sportpage__statics {
+  display: grid;
+  gap: var(--sp-7) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+  margin-top: var(--sp-7);
+  margin-bottom: var(--sp-9);
+}
+@media (min-width: 600px) {
+  .sportpage__statics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+/* The single lead story at the top of a listing page. Left at full width its
+   16:9 photograph would be nearly 800px tall on a desktop, so from tablet up it
+   runs the picture and the headline side by side instead — still the biggest
+   image on the page, without swallowing the whole screen. */
+.sportpage__statics--single { grid-template-columns: minmax(0, 1fr); margin-top: 0; }
+@media (min-width: 600px) {
+  .sportpage__statics--single { grid-template-columns: minmax(0, 1fr); }
+}
+@media (min-width: 768px) {
+  .sportpage__statics--single .card--lead {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+    gap: var(--grid-gap);
+    align-items: center;
+  }
+  .sportpage__statics--single .card--lead .card__media { margin-bottom: 0; }
+}
+
+/* The sport's own feed, newest first, running down the page.
+   Two to a row at every width above a phone — five rows fill a page, and the
+   pager takes over from there. */
+.newsfeed {
+  display: grid;
+  gap: var(--sp-9) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 600px) {
+  .newsfeed { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* --- Search page ---------------------------------------------------------- */
+
+.searchpage {
+  display: grid;
+  gap: var(--sp-8);
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+@media (min-width: 1024px) {
+  .searchpage {
+    grid-template-columns: minmax(0, 1fr) var(--rail-width);
+    gap: var(--sp-9);
+  }
+}
+.search-form { max-width: 40rem; margin-bottom: var(--sp-6); }
+.search-status {
+  font-family: var(--font-ui);
+  font-size: var(--t-body-sm);
+  color: var(--c-text-muted);
+  margin-bottom: var(--sp-5);
+}
+.search-results { list-style: none; margin: 0; padding: 0; }
+.search-results li {
+  margin: 0;
+  border-top: 1px solid var(--c-border);
+  padding-block: var(--sp-5);
+}
+.search-results__title {
+  font-family: var(--font-display);
+  font-size: var(--t-h3);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-snug);
+  margin: 0 0 var(--sp-1);
+}
+.search-results__title a { color: var(--c-ink); }
+.search-results__title a:hover { color: var(--c-red); }
+.search-results p {
+  margin: var(--sp-2) 0 0;
+  font-size: var(--t-body-sm);
+  color: var(--c-ink-2);
+}
+mark { background: rgba(216, 35, 42, 0.18); color: inherit; padding: 0 0.1em; }
+
+/* --- Empty state ---------------------------------------------------------- */
+
+.empty-state {
+  border: 1px dashed var(--c-line-strong);
+  padding: var(--sp-8) var(--sp-5);
+  text-align: center;
+  color: var(--c-text-muted);
+  font-family: var(--font-ui);
+  font-size: var(--t-body-sm);
+}
+
+/* ==========================================================================
+   VIDEO — three clips at the foot of a sport page
+
+   A still, a play button and a title. Nothing is requested from YouTube until
+   a reader presses play, at which point the still is replaced in place by the
+   player, so the row never changes height.
+   ========================================================================== */
+
+.videos { margin-bottom: var(--sp-9); }
+
+.videogrid {
+  display: grid;
+  gap: var(--sp-7) var(--grid-gap);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 600px) { .videogrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .videogrid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+.vcard { display: flex; flex-direction: column; min-width: 0; }
+
+.vcard__player {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  aspect-ratio: var(--ratio-wide);
+  overflow: hidden;
+  background: var(--c-surface-3);
+  border: 0;
+  cursor: pointer;
+}
+/* YouTube stills are 4:3 with letterboxing; crop to the 16:9 frame. */
+.vcard__still {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 500ms ease, opacity var(--transition);
+}
+.vcard__player:hover .vcard__still { transform: scale(1.03); }
+
+.vcard__play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: rgba(6, 9, 13, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #fff;
+  transition: background var(--transition), border-color var(--transition);
+}
+.vcard__play svg { width: 24px; height: 24px; margin-left: 2px; }
+.vcard__player:hover .vcard__play {
+  background: var(--c-red-strong);
+  border-color: var(--c-red-strong);
+}
+.vcard__player:focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+
+/* Once playing, the button is replaced by the frame — same box, no reflow. */
+.vcard__frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--ratio-wide);
+  background: #000;
+}
+.vcard__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.vcard__title {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 0.94rem + 0.3vw, 1.125rem);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-snug);
+  margin: var(--sp-3) 0 0;
+}
+.vcard__title a { color: var(--c-ink); }
+.vcard__title a:hover { color: var(--c-red); }
+
+.vcard .credit { margin-top: var(--sp-2); }
+
+@media (prefers-reduced-motion: reduce) {
+  .vcard__still { transition: none; }
+  .vcard__player:hover .vcard__still { transform: none; }
+}

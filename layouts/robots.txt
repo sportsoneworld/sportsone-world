@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /hero/
+Disallow: /search/
+
+Sitemap: {{ "sitemap.xml" | absURL }}

@@ -1,0 +1,15 @@
+{{- /* ------------------------------------------------------------------
+     Editorial ordering used by every homepage block.
+
+       1. Articles with `weight: 1`, `weight: 2` ... are pinned to the top,
+          in that order. Use this when you want to force a running order.
+       2. Everything else follows, newest first.
+
+     Usage: {{ $ordered := partial "func/order.html" $pages }}
+     ------------------------------------------------------------------ */ -}}
+{{- $pages := . -}}
+{{- $pinned := sort (where $pages "Weight" ">" 0) "Weight" "asc" -}}
+{{- $rest := (where $pages "Weight" "<=" 0).ByDate.Reverse -}}
+{{- $out := $pinned -}}
+{{- if $rest -}}{{- $out = $out | append $rest -}}{{- end -}}
+{{- return $out -}}

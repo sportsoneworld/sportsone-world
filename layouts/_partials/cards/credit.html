@@ -1,0 +1,39 @@
+{{- /* ------------------------------------------------------------------
+     IMAGE CREDIT — the small grey line that sits directly under a picture.
+
+       {{ partial "cards/credit.html" . }}                 (a page)
+       {{ partial "cards/credit.html" (dict
+            "credit" "..." "creditURL" "..."
+            "license" "..." "licenseURL" "...") }}
+
+     Reads these front-matter fields:
+
+       imageCredit      who took the photograph
+       imageCreditURL   where it came from (the file page, usually)
+       imageLicense     "Public domain", "CC BY 2.0", "CC BY-SA 4.0" …
+       imageLicenseURL  the licence deed
+
+     Renders nothing at all when there is no credit to give, so a photograph
+     you took yourself simply has no line under it.
+     ------------------------------------------------------------------ */ -}}
+{{- $credit := "" }}{{ $creditURL := "" }}{{ $license := "" }}{{ $licenseURL := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $credit = .credit }}{{ $creditURL = .creditURL }}
+  {{- $license = .license }}{{ $licenseURL = .licenseURL -}}
+{{- else -}}
+  {{- $credit = .Params.imageCredit }}{{ $creditURL = .Params.imageCreditURL }}
+  {{- $license = .Params.imageLicense }}{{ $licenseURL = .Params.imageLicenseURL -}}
+{{- end -}}
+{{- if or $credit $license }}
+<p class="credit">
+  {{- with $credit }}
+  {{- if $creditURL }}<a href="{{ $creditURL }}" rel="noopener nofollow" target="_blank">{{ . }}</a>
+  {{- else }}<span>{{ . }}</span>{{ end }}
+  {{- end }}
+  {{- if and $credit $license }}<span class="credit__sep" aria-hidden="true">·</span>{{ end }}
+  {{- with $license }}
+  {{- if $licenseURL }}<a href="{{ $licenseURL }}" rel="noopener nofollow license" target="_blank">{{ . }}</a>
+  {{- else }}<span>{{ . }}</span>{{ end }}
+  {{- end }}
+</p>
+{{- end }}

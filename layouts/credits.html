@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{- /* Every credited image on the site, gathered from article front matter.
+       Nothing to maintain: publish a story with an `imageCredit` and it
+       appears here on the next build. */ -}}
+{{- $posts := where (where site.RegularPages "Type" "posts") "Params.imageCredit" "!=" nil -}}
+<div class="container container--wide">
+  <div class="page-head">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+    {{- with .Content }}<div class="page-head__desc">{{ . }}</div>{{ end }}
+  </div>
+
+  {{- with $posts.ByTitle }}
+  <div class="table-wrap">
+    <table class="credits">
+      <thead>
+        <tr>
+          <th scope="col">Photograph</th>
+          <th scope="col">Used on</th>
+          <th scope="col">Licence</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range . }}
+        <tr>
+          <td>
+            {{- with .Params.imageCreditURL }}
+            <a href="{{ . }}" rel="noopener nofollow" target="_blank">{{ $.Scratch.Set "x" 1 }}{{ end }}
+            {{- .Params.imageCredit -}}
+            {{- if .Params.imageCreditURL }}</a>{{ end }}
+          </td>
+          <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+          <td>
+            {{- with .Params.imageLicenseURL }}
+            <a href="{{ . }}" rel="noopener nofollow license" target="_blank">{{ end }}
+            {{- .Params.imageLicense | default "—" -}}
+            {{- if .Params.imageLicenseURL }}</a>{{ end }}
+          </td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+  <p class="t-caption" style="margin-top: var(--sp-6); max-width: 70ch">
+    {{ len $posts }} photographs, sourced from Wikimedia Commons. Public-domain
+    images carry no licence conditions; Creative Commons images are reproduced
+    under the licence named against each one.
+  </p>
+  {{- else }}
+  <p class="empty-state">No credited photographs yet.</p>
+  {{- end }}
+</div>
+{{ end }}

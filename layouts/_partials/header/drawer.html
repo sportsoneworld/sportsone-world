@@ -1,0 +1,54 @@
+{{- /* ------------------------------------------------------------------
+     MOBILE AND TABLET MENU
+
+     Drops down beneath the toolbar rather than sliding in from the side, and
+     uses an expanding row for a sport's sections instead of a hover dropdown,
+     which does not exist on a touchscreen.
+
+     Built from the same data/navigation.yaml as the desktop toolbar, so the
+     two can never drift apart.
+     ------------------------------------------------------------------ */ -}}
+{{- $p := .page -}}
+{{- $nav := .nav -}}
+{{- $cur := $p.RelPermalink -}}
+<div class="drawer" id="site-drawer" data-open="false">
+  <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Site menu">
+    <ul class="drawer__list">
+      {{- range $i, $item := $nav.primary }}
+      {{- $id := printf "drawer-sub-%d" $i }}
+      {{- $url := $item.url | relURL }}
+      {{- $active := or (eq $cur $url) (and (ne $url ("/" | relURL)) (hasPrefix $cur $url)) }}
+      <li class="drawer__item">
+        <div class="drawer__row">
+          <a class="drawer__link{{ if $active }} is-active{{ end }}"
+             href="{{ $url }}"{{ if $active }} aria-current="page"{{ end }}>{{ $item.name }}</a>
+          {{- with $item.children }}
+          <button class="drawer__disclosure" type="button"
+                  aria-expanded="false" aria-controls="{{ $id }}"
+                  aria-label="Show {{ $item.name }} sections"
+                  data-accordion>
+            {{ partial "func/icon.html" "chevron-down" }}
+          </button>
+          {{- end }}
+        </div>
+        {{- with $item.children }}
+        <ul class="drawer__sub" id="{{ $id }}" hidden>
+          {{- range . }}
+          <li><a href="{{ .url | relURL }}"{{ if eq $cur (.url | relURL) }} aria-current="page"{{ end }}>{{ .name }}</a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </li>
+      {{- end }}
+
+      <li class="drawer__item">
+        <div class="drawer__row">
+          <a class="drawer__link drawer__link--icon" href="{{ "/search/" | relURL }}">
+            {{ partial "func/icon.html" "search" }}<span>Search</span>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="drawer__scrim" data-drawer-close aria-hidden="true"></div>
+</div>

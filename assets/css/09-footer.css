@@ -1,0 +1,113 @@
+/* ==========================================================================
+   FOOTER — brand, Sports, Sections, Information
+   ========================================================================== */
+
+.site-footer {
+  background: var(--c-surface-2);
+  color: var(--c-ink-2);
+  margin-top: var(--sp-11);
+  border-top: 3px solid var(--c-red);
+}
+
+.site-footer a { color: var(--c-ink-2); }
+.site-footer a:hover { color: var(--c-red); }
+
+.footer__top {
+  display: grid;
+  gap: var(--sp-8);
+  grid-template-columns: 1fr;
+  padding-block: var(--sp-9);
+}
+@media (min-width: 600px) {
+  .footer__top { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer__brand { grid-column: 1 / -1; }
+}
+@media (min-width: 1024px) {
+  .footer__top {
+    grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
+    gap: var(--sp-9) var(--sp-7);
+  }
+  .footer__brand { grid-column: auto; }
+  /* The Information column is the one the brief puts bottom-right. */
+  .footer__col--info { justify-self: end; text-align: right; }
+}
+
+.footer__lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+.footer__lockup img { width: 44px; height: 44px; }
+.footer__lockup span {
+  font-family: var(--font-brand);
+  font-size: 1.25rem;
+  font-weight: var(--fw-black);
+  letter-spacing: var(--ls-brand);
+  text-transform: uppercase;
+  color: var(--c-ink);
+  line-height: 1;
+}
+.footer__lockup:hover span { color: var(--c-red); }
+
+.footer__about {
+  font-family: var(--font-body);
+  font-size: var(--t-body-sm);
+  line-height: 1.65;
+  max-width: 44ch;
+  margin: 0;
+  color: var(--c-ink-2);
+}
+
+.footer__heading {
+  font-family: var(--font-ui);
+  font-size: var(--t-label);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-wider);
+  text-transform: uppercase;
+  color: var(--c-ink);
+  margin: 0 0 var(--sp-4);
+}
+
+.footer__list { list-style: none; margin: 0; padding: 0; }
+.footer__list li { margin-bottom: var(--sp-3); }
+.footer__list a {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: var(--t-body-sm);
+  font-weight: var(--fw-medium);
+  /* 15px type gives a 19px link. Grow the tap area past the 24px minimum
+     without opening the visual gaps between the rows. */
+  padding-block: 7px;
+  margin-block: -7px;
+}
+
+.footer__social { display: flex; gap: var(--sp-2); margin-top: var(--sp-5); }
+.footer__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px; height: 42px;
+  border: 1px solid var(--c-line-strong);
+  color: var(--c-ink);
+}
+.footer__social a:hover {
+  background: var(--c-red-strong);
+  border-color: var(--c-red-strong);
+  color: #fff;
+}
+.footer__social svg { width: 18px; height: 18px; }
+
+.footer__bottom {
+  border-top: 1px solid var(--c-border);
+  padding-block: var(--sp-5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3) var(--sp-5);
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-ui);
+  font-size: var(--t-caption);
+  color: var(--c-text-muted);
+}
+.footer__bottom p { margin: 0; }

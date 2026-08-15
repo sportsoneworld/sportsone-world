@@ -1,0 +1,358 @@
+/* ==========================================================================
+   HEADER — one toolbar row: logo + name, sports, Live Scores, search
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  background: var(--c-header-bg);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.masthead__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  height: var(--header-h);
+}
+
+/* --- Brand ---------------------------------------------------------------- */
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex: none;
+  margin-right: auto;
+  min-width: 0;
+  /* Full-height target without enlarging the mark itself. */
+  height: 100%;
+}
+.brand__mark,
+.brand__mark img {
+  display: block;
+  width: 46px;
+  height: 46px;
+  flex: none;
+}
+.brand__word {
+  font-family: var(--font-brand);
+  font-size: 1.25rem;
+  font-weight: var(--fw-black);
+  letter-spacing: var(--ls-brand);
+  text-transform: uppercase;
+  color: var(--c-ink);
+  line-height: 1;
+  white-space: nowrap;
+}
+.brand:hover .brand__word { color: var(--c-red); }
+
+/* The wordmark, the LIVE button and the menu button share one row. On a phone
+   there is not enough width for the full-size lockup, so the brand gives way
+   in two steps rather than anything being dropped. The desktop sizes above
+   are the ones the brief asked to grow; these are the survival sizes. */
+@media (max-width: 479px) {
+  .brand__mark, .brand__mark img { width: 38px; height: 38px; }
+  .brand__word { font-size: 1.0625rem; letter-spacing: 0.14em; }
+}
+@media (max-width: 359px) {
+  .masthead__inner { gap: var(--sp-2); }
+  .brand { gap: var(--sp-2); }
+  .brand__mark, .brand__mark img { width: 32px; height: 32px; }
+  .brand__word { font-size: 0.875rem; letter-spacing: 0.1em; }
+  .livebtn { padding: 0 0.55rem; gap: var(--sp-1); }
+  .icon-btn { width: 40px; }
+}
+
+@media (min-width: 768px) {
+  .brand__mark, .brand__mark img { width: 54px; height: 54px; }
+  .brand__word { font-size: 1.4375rem; }
+}
+@media (min-width: 1024px) {
+  .brand__mark, .brand__mark img { width: 58px; height: 58px; }
+  .brand__word { font-size: 1.5rem; }
+}
+@media (min-width: 1024px) {
+  .brand { margin-right: var(--sp-6); }
+}
+
+/* --- Main navigation ------------------------------------------------------ */
+
+.mainnav { display: none; margin-right: auto; min-width: 0; }
+@media (min-width: 1024px) { .mainnav { display: block; } }
+
+.mainnav__list {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mainnav__item {
+  position: relative;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.mainnav__link {
+  display: flex;
+  align-items: center;
+  height: var(--header-h);
+  padding: 0 var(--sp-4);
+  font-family: var(--font-ui);
+  font-size: var(--t-nav);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.01em;
+  color: var(--c-ink);
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color var(--transition);
+}
+.mainnav__item--menu > .mainnav__link { padding-right: var(--sp-1); }
+.mainnav__link:hover { color: var(--c-red); }
+.mainnav__link.is-active {
+  color: var(--c-red);
+  border-bottom-color: var(--c-red);
+}
+
+.mainnav__disclosure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--header-h);
+  width: 26px;
+  color: var(--c-text-muted);
+  border-bottom: 2px solid transparent;
+}
+.mainnav__disclosure svg { width: 15px; height: 15px; transition: transform var(--transition); }
+.mainnav__disclosure:hover { color: var(--c-red); }
+.mainnav__item--menu:hover .mainnav__disclosure svg,
+.mainnav__disclosure[aria-expanded='true'] svg { transform: rotate(180deg); }
+
+/* The dropdown. Hidden with visibility so it leaves the tab order entirely
+   when closed, and opens on hover, on keyboard focus and on click. */
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: var(--sp-2);
+  z-index: var(--z-header);
+  min-width: 232px;
+  margin: 0;
+  padding: var(--sp-2) 0;
+  list-style: none;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-top: 2px solid var(--c-red);
+  box-shadow: var(--shadow-2);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity var(--transition), transform var(--transition), visibility var(--transition);
+}
+.mainnav__item--menu:hover > .submenu,
+.mainnav__item--menu:focus-within > .submenu,
+.mainnav__item--menu.is-open > .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.submenu li { margin: 0; }
+.submenu a {
+  display: block;
+  padding: var(--sp-3) var(--sp-5);
+  font-family: var(--font-ui);
+  font-size: var(--t-body-sm);
+  font-weight: var(--fw-medium);
+  color: var(--c-ink);
+  white-space: nowrap;
+}
+.submenu a:hover,
+.submenu a[aria-current='page'] {
+  background: var(--c-surface-2);
+  color: var(--c-red);
+}
+
+/* --- Right-hand end of the toolbar --------------------------------------- */
+
+.masthead__end {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex: none;
+}
+
+/* Live Scores: set in smaller type than a nav item and impossible to miss.
+   "Smaller" is about the type, not the tap target — it keeps a full-height
+   touch area on a phone. */
+.livebtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  flex: none;
+  min-height: 40px;
+  background: var(--c-red-strong);
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: var(--t-label);
+  font-weight: var(--fw-black);
+  letter-spacing: var(--ls-wider);
+  text-transform: uppercase;
+  padding: 0 0.8rem;
+  border-radius: var(--radius);
+  line-height: 1;
+  white-space: nowrap;
+  transition: background var(--transition);
+}
+@media (min-width: 1024px) { .livebtn { min-height: 36px; } }
+.livebtn:hover { background: #b31b21; color: #fff; }
+.livebtn__long { display: none; }
+.livebtn__short { display: inline; }
+@media (min-width: 480px) {
+  .livebtn__long { display: inline; }
+  .livebtn__short { display: none; }
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--c-ink);
+  border-radius: var(--radius);
+}
+.icon-btn:hover { background: var(--c-surface-2); color: var(--c-red); }
+.icon-btn svg { width: 21px; height: 21px; }
+
+/* Search sits in the toolbar on desktop and inside the menu on touch. */
+.icon-btn--search { display: none; }
+@media (min-width: 1024px) { .icon-btn--search { display: inline-flex; } }
+
+.nav-toggle {
+  display: inline-flex;
+  border: 1px solid var(--c-border);
+}
+@media (min-width: 1024px) { .nav-toggle { display: none; } }
+
+/* ==========================================================================
+   MOBILE AND TABLET MENU — drops down under the toolbar
+   ========================================================================== */
+
+.drawer {
+  position: fixed;
+  inset: var(--header-h) 0 0 0;
+  z-index: var(--z-drawer);
+  visibility: hidden;
+  pointer-events: none;
+}
+.drawer[data-open='true'] { visibility: visible; pointer-events: auto; }
+@media (min-width: 1024px) { .drawer { display: none; } }
+
+.drawer__panel {
+  position: relative;
+  z-index: 1;
+  background: var(--c-bg);
+  border-bottom: 1px solid var(--c-border);
+  max-height: calc(100vh - var(--header-h));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  transform: translateY(-8px);
+  opacity: 0;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+.drawer[data-open='true'] .drawer__panel { transform: translateY(0); opacity: 1; }
+
+.drawer__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+.drawer[data-open='true'] .drawer__scrim { opacity: 1; }
+
+.drawer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--gutter);
+}
+.drawer__item { margin: 0; border-bottom: 1px solid var(--c-border); }
+.drawer__item:last-child { border-bottom: 0; }
+
+.drawer__row { display: flex; align-items: center; gap: var(--sp-2); }
+
+.drawer__link {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  min-height: 60px;
+  padding: var(--sp-3) 0;
+  font-family: var(--font-ui);
+  font-size: 1.25rem;
+  font-weight: var(--fw-semibold);
+  color: var(--c-ink);
+}
+.drawer__link.is-active,
+.drawer__link[aria-current='page'] { color: var(--c-red); }
+.drawer__link--icon svg { width: 22px; height: 22px; color: var(--c-text-muted); }
+
+.drawer__disclosure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  min-height: 48px;
+  flex: none;
+  color: var(--c-text-muted);
+}
+.drawer__disclosure svg { width: 20px; height: 20px; transition: transform var(--transition); }
+.drawer__disclosure[aria-expanded='true'] svg { transform: rotate(180deg); }
+
+.drawer__sub {
+  list-style: none;
+  margin: 0 0 var(--sp-3);
+  padding: 0 0 0 var(--sp-4);
+  border-left: 2px solid var(--c-border);
+}
+.drawer__sub[hidden] { display: none; }
+.drawer__sub li { margin: 0; }
+.drawer__sub a {
+  display: block;
+  padding: var(--sp-3) 0;
+  font-family: var(--font-ui);
+  font-size: 1.0625rem;
+  font-weight: var(--fw-medium);
+  color: var(--c-ink-2);
+}
+.drawer__sub a:hover,
+.drawer__sub a[aria-current='page'] { color: var(--c-red); }
+
+body.is-locked { overflow: hidden; }
+
+/* --- Search bar ----------------------------------------------------------- */
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  border: 1px solid var(--c-line-strong);
+  padding: 0 var(--sp-4);
+  background: var(--c-bg);
+}
+.searchbar:focus-within { border-color: var(--c-red); }
+.searchbar input {
+  border: 0;
+  outline: none;
+  background: transparent;
+  padding: var(--sp-4) 0;
+  font-family: var(--font-ui);
+  font-size: var(--t-body);
+  width: 100%;
+  min-width: 0;
+}
+.searchbar svg { width: 19px; height: 19px; color: var(--c-text-muted); flex: none; }
