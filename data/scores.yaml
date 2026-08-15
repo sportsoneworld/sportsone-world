@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 04:25 IST"
+updated: "16 Aug 2026, 05:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,59 @@ sports:
       - id: football-2419880
         competition: "American NWSL"
         state: live
-        stateLabel: "22'"
+        stateLabel: "Live"
         teams:
           - name: "Racing Louisville"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Boston Legacy"
             score: "0"
-      - id: football-2405002
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2397274
+        competition: "American USL Championship"
         state: live
-        stateLabel: "89'"
+        stateLabel: "2'"
         teams:
-          - name: "Godoy Cruz"
-            score: "1"
-          - name: "Deportivo Maipú"
-            score: "1"
-      - id: football-2405003
-        competition: "Argentinian Primera B Nacional"
+          - name: "Tampa Bay Rowdies"
+            score: "0"
+          - name: "Rhode Island FC"
+            score: "0"
+      - id: football-2397270
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "31'"
         teams:
-          - name: "Quilmes"
+          - name: "Pittsburgh Riverhounds"
             score: "2"
             active: true
-          - name: "San Telmo"
-            score: "0"
-      - id: football-2404995
-        competition: "Argentinian Primera B Nacional"
+          - name: "Charleston Battery"
+            score: "1"
+      - id: football-2397264
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "32'"
         teams:
-          - name: "Estudiantes de Buenos Aires"
+          - name: "Detroit City FC"
             score: "0"
-          - name: "Chacarita Juniors"
+          - name: "Loudoun United"
             score: "0"
-      - id: football-2398013
-        competition: "Argentinian Primera Division"
+      - id: football-2397265
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "33'"
         teams:
-          - name: "Belgrano"
+          - name: "Hartford Athletic"
             score: "1"
             active: true
-          - name: "Independiente Rivadavia"
+          - name: "Miami FC"
             score: "0"
-      - id: football-2398019
-        competition: "Argentinian Primera Division"
+      - id: football-2397273
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "33'"
         teams:
-          - name: "Newell's Old Boys"
+          - name: "Sporting JAX"
             score: "0"
-          - name: "Deportivo Riestra"
+          - name: "Indy Eleven"
             score: "0"
 
   - name: Cricket
