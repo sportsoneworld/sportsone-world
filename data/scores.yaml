@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 11:44 IST"
+updated: "15 Aug 2026, 16:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2456825
-        competition: "Australia ACT NPL"
+      - id: football-2439251
+        competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "52'"
+        stateLabel: "61'"
         teams:
-          - name: "Brindabella Blues"
+          - name: "North Eastern MetroStars"
             score: "1"
-          - name: "Cooma Tigers"
+            active: true
+          - name: "Croydon"
+            score: "0"
+      - id: football-2439253
+        competition: "Australia South Australia NPL"
+        state: live
+        stateLabel: "61'"
+        teams:
+          - name: "Para Hills Knights"
+            score: "1"
+          - name: "Adelaide Comets"
+            score: "5"
+            active: true
+      - id: football-2439254
+        competition: "Australia South Australia NPL"
+        state: live
+        stateLabel: "62'"
+        teams:
+          - name: "Sturt Lions"
+            score: "1"
+          - name: "Campbelltown City"
             score: "3"
             active: true
-      - id: football-2456824
-        competition: "Australia ACT NPL"
+      - id: football-2439252
+        competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "56'"
+        stateLabel: "63'"
         teams:
-          - name: "O'Connor Knights"
+          - name: "FK Beograd"
+            score: "0"
+          - name: "Adelaide City"
             score: "1"
             active: true
-          - name: "Canberra White Eagles"
-            score: "0"
-      - id: football-2546483
-        competition: "Australia New South Wales NPL"
+      - id: football-2439256
+        competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "7'"
+        stateLabel: "63'"
         teams:
-          - name: "APIA Leichhardt"
-            score: "0"
-          - name: "Southern Districts Raiders"
-            score: "0"
-      - id: football-2428273
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "Western Sydney Wanderers Youth"
-            score: "0"
-          - name: "St George"
+          - name: "West Adelaide"
             score: "1"
-            active: true
-      - id: football-2569947
-        competition: "Australia Tasmania NPL"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Devonport City"
+          - name: "Playford City Patriots"
             score: "2"
             active: true
-          - name: "Kingborough Lions United"
-            score: "1"
-      - id: football-2432790
-        competition: "Australia Victoria NPL"
+      - id: football-2439255
+        competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "54'"
+        stateLabel: "63'"
         teams:
-          - name: "Heidelberg United"
-            score: "2"
-            active: true
-          - name: "Hume City"
+          - name: "West Torrens Birkalla"
+            score: "1"
+          - name: "Adelaide United Youth"
             score: "1"
 
   - name: Cricket
