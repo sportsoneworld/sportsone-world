@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 17:09 IST"
+updated: "15 Aug 2026, 17:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,59 @@ sports:
       - id: football-2557398
         competition: "Campeonato de Portugal Serie B"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Machico"
             score: "0"
           - name: "Estrela da Calheta"
             score: "0"
+      - id: football-2441238
+        competition: "China League One"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Guangxi Hengchen"
+            score: "1"
+            active: true
+          - name: "Meizhou Hakka"
+            score: "0"
       - id: football-2441237
         competition: "China League One"
         state: live
-        stateLabel: "39'"
+        stateLabel: "Live"
         teams:
           - name: "Wuxi Wugo"
             score: "0"
           - name: "Guangdong GZ-Power"
-            score: "2"
-            active: true
-      - id: football-2441238
-        competition: "China League One"
-        state: live
-        stateLabel: "9'"
-        teams:
-          - name: "Guangxi Hengchen"
-            score: "0"
-          - name: "Meizhou Hakka"
-            score: "0"
-      - id: football-2441235
-        competition: "China League One"
-        state: live
-        stateLabel: "82'"
-        teams:
-          - name: "Yanbian Longding"
             score: "3"
             active: true
-          - name: "Dalian K'un City"
-            score: "1"
-      - id: football-2448564
+      - id: football-2448566
         competition: "China league Two"
         state: live
-        stateLabel: "38'"
+        stateLabel: "29'"
         teams:
-          - name: "Beijing Institute of Technology"
-            score: "1"
-          - name: "Changchun Xidu"
-            score: "1"
+          - name: "Lanzhou Longyuan Athletic"
+            score: "0"
+          - name: "Shanghai Port B"
+            score: "0"
       - id: football-2448568
         competition: "China league Two"
         state: live
-        stateLabel: "39'"
+        stateLabel: "Live"
         teams:
           - name: "Shandong Taishan B"
             score: "0"
           - name: "Dalian Yingbo B"
             score: "0"
+      - id: football-2448564
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Beijing Institute of Technology"
+            score: "1"
+          - name: "Changchun Xidu"
+            score: "1"
 
   - name: Cricket
     matches:
