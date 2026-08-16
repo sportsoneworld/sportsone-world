@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 23:30 IST"
+updated: "17 Aug 2026, 00:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2499720
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
+      - id: football-2397263
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Rapid Vienna"
-            score: "5"
-            active: true
-          - name: "Grazer AK"
-            score: "0"
-      - id: football-2546053
-        competition: "Azerbaijani Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Zirə"
-            score: "1"
-            active: true
-          - name: "Şəfa"
-            score: "0"
-      - id: football-2437839
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Dynamo Brest"
-            score: "0"
-          - name: "Isloch Minsk Raion"
-            score: "2"
-            active: true
-      - id: football-2496707
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "41'"
-        teams:
-          - name: "Lommel"
-            score: "0"
-          - name: "Charleroi"
-            score: "0"
-      - id: football-2496706
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "68'"
-        teams:
-          - name: "Mechelen"
-            score: "1"
-          - name: "Standard Liège"
+          - name: "Colorado Springs Switchbacks"
             score: "3"
             active: true
-      - id: football-2511442
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
+          - name: "Birmingham Legion"
+            score: "2"
+      - id: football-2397266
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Spartak Pleven"
-            score: "0"
-          - name: "Lokomotiv Gorna Oryahovitsa"
+          - name: "Las Vegas Lights"
+            score: "2"
+            active: true
+          - name: "Brooklyn FC"
+            score: "1"
+      - id: football-2397267
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "New Mexico United"
             score: "1"
             active: true
+          - name: "FC Tulsa"
+            score: "0"
+      - id: football-2408553
+        competition: "Argentinian Primera C"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Claypole"
+            score: "–"
+            detail: "18:00"
+          - name: "Mercedes"
+            score: "–"
+      - id: football-2408556
+        competition: "Argentinian Primera C"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Muñiz"
+            score: "–"
+            detail: "18:00"
+          - name: "Juventud Unida"
+            score: "–"
+      - id: football-2398016
+        competition: "Argentinian Primera Division"
+        state: upcoming
+        stateLabel: "17:45"
+        teams:
+          - name: "Estudiantes de Río Cuarto"
+            score: "–"
+            detail: "17:45"
+          - name: "Atlético Tucumán"
+            score: "–"
 
   - name: Cricket
     matches:
