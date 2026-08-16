@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 13:18 IST"
+updated: "16 Aug 2026, 14:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2456828
-        competition: "Australia ACT NPL"
+      - id: football-2505242
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "55'"
+        stateLabel: "29'"
         teams:
-          - name: "Canberra Juventus"
+          - name: "First Vienna"
             score: "0"
-          - name: "Queanbeyan City"
+          - name: "FC Liefering"
             score: "0"
       - id: football-2573943
         competition: "Club Friendlies"
         state: live
-        stateLabel: "10'"
+        stateLabel: "65'"
         teams:
           - name: "Deportiva Minera"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Eldense B"
             score: "0"
-      - id: football-2397263
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2502739
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "29'"
         teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "3"
-            active: true
-          - name: "Birmingham Legion"
-            score: "2"
-      - id: football-2397266
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Las Vegas Lights"
-            score: "2"
-            active: true
-          - name: "Brooklyn FC"
-            score: "1"
-      - id: football-2397267
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "New Mexico United"
+          - name: "Viktoria Plzeň B"
             score: "1"
             active: true
-          - name: "FC Tulsa"
+          - name: "Motorlet Praha"
             score: "0"
-      - id: football-2428277
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2502741
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "37'"
         teams:
-          - name: "Marconi Stallions"
+          - name: "Dukla Praha B"
             score: "1"
-            active: true
-          - name: "Sutherland Sharks"
+          - name: "Králův Dvůr"
+            score: "1"
+      - id: football-2502740
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Bohemians 1905 B"
+            score: "0"
+          - name: "Slavia Praha C"
+            score: "0"
+      - id: football-2502738
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "44'"
+        teams:
+          - name: "Sparta Prague B"
+            score: "0"
+          - name: "Admira Praha"
             score: "0"
 
   - name: Cricket
