@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 05:30 IST"
+updated: "16 Aug 2026, 08:58 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406978
+      - id: football-2406988
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "19'"
+        stateLabel: "Live"
         teams:
-          - name: "Orlando City"
+          - name: "Los Angeles FC"
             score: "0"
-          - name: "FC Cincinnati"
+          - name: "San Diego FC"
             score: "0"
-      - id: football-2406979
+      - id: football-2406989
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "19'"
+        stateLabel: "Live"
         teams:
-          - name: "Atlanta United"
+          - name: "San Jose Earthquakes"
             score: "0"
-          - name: "New York Red Bulls"
-            score: "1"
-            active: true
-      - id: football-2406980
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "Charlotte FC"
+          - name: "St. Louis City SC"
             score: "2"
             active: true
-          - name: "Columbus Crew"
-            score: "0"
-      - id: football-2406981
+      - id: football-2406987
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "19'"
+        stateLabel: "87'"
         teams:
-          - name: "Toronto FC"
-            score: "0"
-          - name: "New England Revolution"
-            score: "0"
-      - id: football-2406982
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "CF Montréal"
-            score: "0"
-          - name: "DC United"
-            score: "0"
-      - id: football-2419880
-        competition: "American NWSL"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Racing Louisville"
-            score: "4"
+          - name: "Colorado Rapids"
+            score: "1"
             active: true
-          - name: "Boston Legacy"
+          - name: "Sporting Kansas City"
             score: "0"
+      - id: football-2406986
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Real Salt Lake"
+            score: "1"
+            active: true
+          - name: "Minnesota United"
+            score: "0"
+      - id: football-2397271
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "Sacramento Republic"
+            score: "0"
+          - name: "Lexington SC"
+            score: "0"
+      - id: football-2397263
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Colorado Springs Switchbacks"
+            score: "3"
+            active: true
+          - name: "Birmingham Legion"
+            score: "2"
 
   - name: Cricket
     matches:
