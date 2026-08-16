@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 04:20 IST"
+updated: "17 Aug 2026, 05:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2406990
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "63'"
+        teams:
+          - name: "New York City FC"
+            score: "2"
+            active: true
+          - name: "Philadelphia Union"
+            score: "1"
       - id: football-2406991
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "39'"
+        stateLabel: "68'"
         teams:
           - name: "Chicago Fire"
             score: "2"
             active: true
           - name: "Portland Timbers"
             score: "0"
-      - id: football-2406990
-        competition: "American Major League Soccer"
+      - id: football-2419882
+        competition: "American NWSL"
         state: live
-        stateLabel: "39'"
+        stateLabel: "29'"
         teams:
-          - name: "New York City FC"
+          - name: "North Carolina Courage"
+            score: "0"
+          - name: "Houston Dash"
+            score: "0"
+      - id: football-2397603
+        competition: "American USL League One"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "Union Omaha"
             score: "1"
             active: true
-          - name: "Philadelphia Union"
+          - name: "Richmond Kickers"
             score: "0"
       - id: football-2397602
         competition: "American USL League One"
         state: live
-        stateLabel: "13'"
+        stateLabel: "Live"
         teams:
           - name: "Portland Hearts of Pine"
             score: "0"
           - name: "Forward Madison"
-            score: "0"
-      - id: football-2405007
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "Temperley"
-            score: "3"
+            score: "1"
             active: true
-          - name: "Los Andes"
-            score: "0"
-      - id: football-2404997
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2398014
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "23'"
         teams:
-          - name: "Central Norte"
+          - name: "Central Córdoba de Santiago del Estero"
             score: "0"
-          - name: "Gimnasia y Tiro"
-            score: "0"
-      - id: football-2405004
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Racing de Córdoba"
-            score: "0"
-          - name: "San Martín de San Juan"
+          - name: "Instituto"
             score: "0"
 
   - name: Cricket
