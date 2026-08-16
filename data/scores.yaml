@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 21:14 IST"
+updated: "16 Aug 2026, 22:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551312
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Costa Brava"
-            score: "1"
-            active: true
-          - name: "Guillermo Brown"
-            score: "0"
-      - id: football-2408550
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Berazategui"
-            score: "2"
-          - name: "CA Fénix"
-            score: "2"
-      - id: football-2499718
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "44'"
-        teams:
-          - name: "TSV Hartberg"
-            score: "0"
-          - name: "Austria Vienna"
-            score: "1"
-            active: true
       - id: football-2499719
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
           - name: "WSG Tirol"
             score: "0"
           - name: "Red Bull Salzburg"
+            score: "3"
+            active: true
+      - id: football-2499718
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "TSV Hartberg"
+            score: "0"
+          - name: "Austria Vienna"
             score: "2"
             active: true
       - id: football-2546057
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "43'"
+        stateLabel: "Live"
         teams:
           - name: "Sumqayıt"
-            score: "0"
+            score: "1"
           - name: "Neftçi PFK"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2452126
         competition: "Belarusian First League"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Slonim-2017"
             score: "0"
           - name: "Smorgon"
+            score: "2"
+            active: true
+      - id: football-2496706
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Mechelen"
+            score: "0"
+          - name: "Standard Liège"
+            score: "1"
+            active: true
+      - id: football-2525277
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "BSK Banja Luka"
+            score: "2"
+            active: true
+          - name: "Velež Mostar"
             score: "0"
 
   - name: Cricket
