@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 03:30 IST"
+updated: "17 Aug 2026, 04:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,34 +23,45 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551311
-        competition: "Argentina Torneo Federal A"
+      - id: football-2406991
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "68'"
+        stateLabel: "39'"
         teams:
-          - name: "San Martín de Mendoza"
+          - name: "Chicago Fire"
+            score: "2"
+            active: true
+          - name: "Portland Timbers"
+            score: "0"
+      - id: football-2406990
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "New York City FC"
             score: "1"
             active: true
-          - name: "Deportivo Rincón"
+          - name: "Philadelphia Union"
             score: "0"
-      - id: football-2405004
+      - id: football-2397602
+        competition: "American USL League One"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Portland Hearts of Pine"
+            score: "0"
+          - name: "Forward Madison"
+            score: "0"
+      - id: football-2405007
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "90'"
+        stateLabel: "83'"
         teams:
-          - name: "Racing de Córdoba"
+          - name: "Temperley"
+            score: "3"
+            active: true
+          - name: "Los Andes"
             score: "0"
-          - name: "San Martín de San Juan"
-            score: "0"
-      - id: football-2405005
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "San Martín de Tucumán"
-            score: "2"
-          - name: "Deportivo Madryn"
-            score: "2"
       - id: football-2404997
         competition: "Argentinian Primera B Nacional"
         state: live
@@ -60,25 +71,14 @@ sports:
             score: "0"
           - name: "Gimnasia y Tiro"
             score: "0"
-      - id: football-2405007
+      - id: football-2405004
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Temperley"
-            score: "1"
-            active: true
-          - name: "Los Andes"
+          - name: "Racing de Córdoba"
             score: "0"
-      - id: football-2398022
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "River Plate"
-            score: "1"
-            active: true
-          - name: "Argentinos Juniors"
+          - name: "San Martín de San Juan"
             score: "0"
 
   - name: Cricket
