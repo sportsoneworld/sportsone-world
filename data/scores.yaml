@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 22:21 IST"
+updated: "16 Aug 2026, 23:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2499719
+      - id: football-2499720
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "39'"
         teams:
-          - name: "WSG Tirol"
-            score: "0"
-          - name: "Red Bull Salzburg"
+          - name: "Rapid Vienna"
             score: "3"
             active: true
-      - id: football-2499718
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "TSV Hartberg"
+          - name: "Grazer AK"
             score: "0"
-          - name: "Austria Vienna"
-            score: "2"
-            active: true
-      - id: football-2546057
+      - id: football-2546053
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "35'"
         teams:
-          - name: "Sumqayıt"
-            score: "1"
-          - name: "Neftçi PFK"
-            score: "3"
-            active: true
-      - id: football-2452126
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Slonim-2017"
+          - name: "Zirə"
             score: "0"
-          - name: "Smorgon"
-            score: "2"
+          - name: "Şəfa"
+            score: "0"
+      - id: football-2437839
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Dynamo Brest"
+            score: "0"
+          - name: "Isloch Minsk Raion"
+            score: "1"
             active: true
+      - id: football-2496707
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Lommel"
+            score: "0"
+          - name: "Charleroi"
+            score: "0"
       - id: football-2496706
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "20'"
+        stateLabel: "48'"
         teams:
           - name: "Mechelen"
-            score: "0"
-          - name: "Standard Liège"
             score: "1"
-            active: true
-      - id: football-2525277
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "BSK Banja Luka"
+          - name: "Standard Liège"
             score: "2"
             active: true
-          - name: "Velež Mostar"
+      - id: football-2487299
+        competition: "Bulgarian First League"
+        state: live
+        stateLabel: "78'"
+        teams:
+          - name: "CSKA Sofia"
+            score: "4"
+            active: true
+          - name: "Botev Vratsa"
             score: "0"
 
   - name: Cricket
