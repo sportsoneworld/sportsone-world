@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 02:19 IST"
+updated: "17 Aug 2026, 03:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2571443
-        competition: "Africa Cup of Nations Women"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Cameroon Women"
-            score: "3"
-            active: true
-          - name: "Malawi Women"
-            score: "0"
-      - id: football-2406482
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Liniers"
-            score: "0"
-          - name: "Argentino de Quilmes"
-            score: "0"
-      - id: football-2406486
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "UAI Urquiza"
-            score: "0"
-          - name: "Deportivo Armenio"
-            score: "1"
-            active: true
-      - id: football-2406488
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Villa San Carlos"
-            score: "1"
-            active: true
-          - name: "Defensores Unidos"
-            score: "0"
       - id: football-2551311
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "15'"
+        stateLabel: "48'"
         teams:
           - name: "San Martín de Mendoza"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Deportivo Rincón"
             score: "0"
-      - id: football-2551306
-        competition: "Argentina Torneo Federal A"
+      - id: football-2405007
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "62'"
+        stateLabel: "32'"
         teams:
-          - name: "Gimnasia y Esgrima de Concepción del Uruguay"
+          - name: "Temperley"
+            score: "1"
+            active: true
+          - name: "Los Andes"
+            score: "0"
+      - id: football-2405005
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "San Martín de Tucumán"
             score: "2"
             active: true
-          - name: "Defensores de Vilelas"
+          - name: "Deportivo Madryn"
+            score: "0"
+      - id: football-2405004
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "73'"
+        teams:
+          - name: "Racing de Córdoba"
+            score: "0"
+          - name: "San Martín de San Juan"
+            score: "0"
+      - id: football-2404997
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "80'"
+        teams:
+          - name: "Central Norte"
+            score: "0"
+          - name: "Gimnasia y Tiro"
+            score: "0"
+      - id: football-2398022
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "River Plate"
+            score: "1"
+            active: true
+          - name: "Argentinos Juniors"
             score: "0"
 
   - name: Cricket
