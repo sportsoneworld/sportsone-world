@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 08:58 IST"
+updated: "16 Aug 2026, 10:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406988
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Los Angeles FC"
-            score: "0"
-          - name: "San Diego FC"
-            score: "0"
-      - id: football-2406989
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "San Jose Earthquakes"
-            score: "0"
-          - name: "St. Louis City SC"
-            score: "2"
-            active: true
-      - id: football-2406987
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Colorado Rapids"
-            score: "1"
-            active: true
-          - name: "Sporting Kansas City"
-            score: "0"
-      - id: football-2406986
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Real Salt Lake"
-            score: "1"
-            active: true
-          - name: "Minnesota United"
-            score: "0"
       - id: football-2397271
         competition: "American USL Championship"
         state: live
-        stateLabel: "17'"
+        stateLabel: "Live"
         teams:
           - name: "Sacramento Republic"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Lexington SC"
             score: "0"
       - id: football-2397263
         competition: "American USL Championship"
         state: live
-        stateLabel: "46'"
+        stateLabel: "01:00"
         teams:
           - name: "Colorado Springs Switchbacks"
             score: "3"
             active: true
           - name: "Birmingham Legion"
             score: "2"
+      - id: football-2397266
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "02:30"
+        teams:
+          - name: "Las Vegas Lights"
+            score: "1"
+          - name: "Brooklyn FC"
+            score: "1"
+      - id: football-2456827
+        competition: "Australia ACT NPL"
+        state: live
+        stateLabel: "32'"
+        teams:
+          - name: "Belconnen United"
+            score: "0"
+          - name: "Canberra Olympic"
+            score: "0"
+      - id: football-2435121
+        competition: "Australia Northern NSW NPL"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Kahibah"
+            score: "0"
+          - name: "Cooks Hill United"
+            score: "2"
+            active: true
+      - id: football-2435119
+        competition: "Australia Northern NSW NPL"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Valentine"
+            score: "0"
+          - name: "Weston Bears"
+            score: "0"
 
   - name: Cricket
     matches:
