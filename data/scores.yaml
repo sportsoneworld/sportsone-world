@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 19:16 IST"
+updated: "16 Aug 2026, 20:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,61 +26,59 @@ sports:
       - id: football-2569197
         competition: "ASEAN Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "90'"
         teams:
           - name: "Malaysia"
             score: "0"
           - name: "Vietnam"
-            score: "0"
-      - id: football-2452128
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Dinamo-2 Minsk"
-            score: "0"
-          - name: "Minsk-2"
-            score: "4"
-            active: true
-      - id: football-2542090
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Nottingham Forest"
             score: "2"
             active: true
-          - name: "Brest"
-            score: "0"
-      - id: football-2502737
-        competition: "Czech Bohemian Football League Group A"
+      - id: football-2551312
+        competition: "Argentina Torneo Federal A"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Příbram Akademie"
+          - name: "Costa Brava"
             score: "0"
-          - name: "Dynamo České Budějovice"
+          - name: "Guillermo Brown"
+            score: "0"
+      - id: football-2408550
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Berazategui"
+            score: "1"
+          - name: "CA Fénix"
+            score: "1"
+      - id: football-2452131
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "BATE-2 Borisov"
+            score: "2"
+          - name: "Volna Pinsk"
+            score: "2"
+      - id: football-2497002
+        competition: "Belgian Challenger Pro League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Beerschot"
             score: "1"
             active: true
-      - id: football-2519349
-        competition: "Czech First League"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Baník Ostrava"
-            score: "1"
-          - name: "Artis Brno"
-            score: "1"
-      - id: football-2488364
-        competition: "Danish 1st Division"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Vendsyssel"
+          - name: "Jong Gent"
             score: "0"
-          - name: "AB Gladsaxe"
-            score: "3"
-            active: true
+      - id: football-2496705
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "RAAL La Louvière"
+            score: "1"
+          - name: "Gent"
+            score: "1"
 
   - name: Cricket
     matches:
