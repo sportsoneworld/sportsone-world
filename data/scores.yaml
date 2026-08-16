@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 17:31 IST"
+updated: "16 Aug 2026, 19:16 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2496704
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Beveren"
-            score: "1"
-            active: true
-          - name: "Anderlecht"
-            score: "0"
-      - id: football-2559128
-        competition: "Bhutan Premier League"
+      - id: football-2569197
+        competition: "ASEAN Championship"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Ugyen Academy"
+          - name: "Malaysia"
+            score: "0"
+          - name: "Vietnam"
+            score: "0"
+      - id: football-2452128
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Dinamo-2 Minsk"
+            score: "0"
+          - name: "Minsk-2"
+            score: "4"
+            active: true
+      - id: football-2542090
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Nottingham Forest"
             score: "2"
-          - name: "Tensung"
+            active: true
+          - name: "Brest"
+            score: "0"
+      - id: football-2502737
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Příbram Akademie"
+            score: "0"
+          - name: "Dynamo České Budějovice"
+            score: "1"
+            active: true
+      - id: football-2519349
+        competition: "Czech First League"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Baník Ostrava"
+            score: "1"
+          - name: "Artis Brno"
+            score: "1"
+      - id: football-2488364
+        competition: "Danish 1st Division"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Vendsyssel"
+            score: "0"
+          - name: "AB Gladsaxe"
             score: "3"
             active: true
-      - id: football-2551525
-        competition: "Campeonato de Portugal Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Braga B"
-            score: "2"
-            active: true
-          - name: "Maia Lidador"
-            score: "1"
-      - id: football-2441241
-        competition: "China League One"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Foshan Nanshi"
-            score: "0"
-          - name: "Shijiazhuang Gongfu"
-            score: "2"
-            active: true
-      - id: football-2441242
-        competition: "China League One"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Nanjing City"
-            score: "0"
-          - name: "Jiangxi Dingnan United"
-            score: "0"
-      - id: football-2441239
-        competition: "China League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Suzhou Dongwu"
-            score: "0"
-          - name: "Nantong Zhiyun"
-            score: "0"
 
   - name: Cricket
     matches:
