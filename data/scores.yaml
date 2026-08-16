@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 16:21 IST"
+updated: "16 Aug 2026, 17:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2496704
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Beveren"
+            score: "0"
+          - name: "Anderlecht"
+            score: "0"
       - id: football-2559128
         competition: "Bhutan Premier League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "81'"
         teams:
           - name: "Ugyen Academy"
-            score: "1"
-          - name: "Tensung"
             score: "2"
+          - name: "Tensung"
+            score: "3"
             active: true
       - id: football-2551525
         competition: "Campeonato de Portugal Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "77'"
         teams:
           - name: "Braga B"
             score: "2"
             active: true
           - name: "Maia Lidador"
             score: "1"
-      - id: football-2482899
-        competition: "Club Friendlies"
+      - id: football-2441239
+        competition: "China League One"
         state: live
-        stateLabel: "17'"
+        stateLabel: "39'"
         teams:
-          - name: "Liverpool"
+          - name: "Suzhou Dongwu"
             score: "0"
-          - name: "Como"
+          - name: "Nantong Zhiyun"
             score: "0"
-      - id: football-2502619
-        competition: "Czech Bohemian Football League Group B"
+      - id: football-2441240
+        competition: "China League One"
         state: live
-        stateLabel: "90'"
+        stateLabel: "39'"
         teams:
-          - name: "Teplice B"
-            score: "4"
-            active: true
-          - name: "Sokol Brozany"
-            score: "2"
-      - id: football-2517523
-        competition: "Czech Moravian-Silesian Football League"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Slovácko B"
-            score: "4"
-            active: true
-          - name: "Blansko"
-            score: "2"
-      - id: football-2522888
-        competition: "Denmark A-Liga"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "AGF Women"
+          - name: "Shenzhen Juniors"
             score: "0"
-          - name: "Brøndby Women"
+          - name: "Ningbo Professional"
+            score: "0"
+      - id: football-2441241
+        competition: "China League One"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Foshan Nanshi"
+            score: "0"
+          - name: "Shijiazhuang Gongfu"
             score: "2"
             active: true
 
