@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 23:10 IST"
+updated: "16 Aug 2026, 23:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,36 +26,37 @@ sports:
       - id: football-2499720
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "39'"
+        stateLabel: "Live"
         teams:
           - name: "Rapid Vienna"
-            score: "3"
+            score: "5"
             active: true
           - name: "Grazer AK"
             score: "0"
       - id: football-2546053
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "Zirə"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Şəfa"
             score: "0"
       - id: football-2437839
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Dynamo Brest"
             score: "0"
           - name: "Isloch Minsk Raion"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2496707
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "41'"
         teams:
           - name: "Lommel"
             score: "0"
@@ -64,33 +65,33 @@ sports:
       - id: football-2496706
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "48'"
+        stateLabel: "68'"
         teams:
           - name: "Mechelen"
             score: "1"
           - name: "Standard Liège"
-            score: "2"
+            score: "3"
             active: true
-      - id: football-2487299
-        competition: "Bulgarian First League"
+      - id: football-2511442
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
-          - name: "CSKA Sofia"
-            score: "4"
-            active: true
-          - name: "Botev Vratsa"
+          - name: "Spartak Pleven"
             score: "0"
+          - name: "Lokomotiv Gorna Oryahovitsa"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
       - id: cricket-2573300
         competition: "The Hundred Women"
-        state: upcoming
-        stateLabel: "13:15"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Sunrisers Leeds Women"
-            score: "–"
-            detail: "13:15"
+            score: "91"
           - name: "Trent Rockets Women"
-            score: "–"
+            score: "92"
+            active: true
