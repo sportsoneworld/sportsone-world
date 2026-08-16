@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 15:27 IST"
+updated: "16 Aug 2026, 16:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2505242
-        competition: "Austrian Erste Liga"
+      - id: football-2559128
+        competition: "Bhutan Premier League"
         state: live
-        stateLabel: "62'"
+        stateLabel: "45'"
         teams:
-          - name: "First Vienna"
-            score: "0"
-          - name: "FC Liefering"
+          - name: "Ugyen Academy"
+            score: "1"
+          - name: "Tensung"
             score: "2"
             active: true
-      - id: football-2502739
-        competition: "Czech Bohemian Football League Group A"
+      - id: football-2551525
+        competition: "Campeonato de Portugal Serie A"
         state: live
-        stateLabel: "70'"
+        stateLabel: "Live"
         teams:
-          - name: "Viktoria Plzeň B"
-            score: "1"
-            active: true
-          - name: "Motorlet Praha"
-            score: "0"
-      - id: football-2502741
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Dukla Praha B"
-            score: "1"
-          - name: "Králův Dvůr"
+          - name: "Braga B"
             score: "2"
             active: true
-      - id: football-2502740
-        competition: "Czech Bohemian Football League Group A"
+          - name: "Maia Lidador"
+            score: "1"
+      - id: football-2482899
+        competition: "Club Friendlies"
         state: live
-        stateLabel: "80'"
+        stateLabel: "17'"
         teams:
-          - name: "Bohemians 1905 B"
+          - name: "Liverpool"
             score: "0"
-          - name: "Slavia Praha C"
+          - name: "Como"
             score: "0"
-      - id: football-2502738
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "82'"
-        teams:
-          - name: "Sparta Prague B"
-            score: "0"
-          - name: "Admira Praha"
-            score: "0"
-      - id: football-2502620
+      - id: football-2502619
         competition: "Czech Bohemian Football League Group B"
         state: live
-        stateLabel: "82'"
+        stateLabel: "90'"
         teams:
-          - name: "Pardubice B"
-            score: "1"
+          - name: "Teplice B"
+            score: "4"
             active: true
-          - name: "Baník Most-Souš"
+          - name: "Sokol Brozany"
+            score: "2"
+      - id: football-2517523
+        competition: "Czech Moravian-Silesian Football League"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Slovácko B"
+            score: "4"
+            active: true
+          - name: "Blansko"
+            score: "2"
+      - id: football-2522888
+        competition: "Denmark A-Liga"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "AGF Women"
             score: "0"
+          - name: "Brøndby Women"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
