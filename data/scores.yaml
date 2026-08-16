@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Aug 2026, 11:31 IST"
+updated: "16 Aug 2026, 13:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2456828
+        competition: "Australia ACT NPL"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "Canberra Juventus"
+            score: "0"
+          - name: "Queanbeyan City"
+            score: "0"
+      - id: football-2573943
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "10'"
+        teams:
+          - name: "Deportiva Minera"
+            score: "0"
+          - name: "Eldense B"
+            score: "0"
       - id: football-2397263
         competition: "American USL Championship"
-        state: live
-        stateLabel: "01:00"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Colorado Springs Switchbacks"
             score: "3"
             active: true
           - name: "Birmingham Legion"
             score: "2"
-      - id: football-2456827
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "69'"
+      - id: football-2397266
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Belconnen United"
-            score: "1"
-          - name: "Canberra Olympic"
-            score: "3"
+          - name: "Las Vegas Lights"
+            score: "2"
             active: true
-      - id: football-2428278
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
+          - name: "Brooklyn FC"
+            score: "1"
+      - id: football-2397267
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Rockdale Ilinden"
+          - name: "New Mexico United"
+            score: "1"
+            active: true
+          - name: "FC Tulsa"
             score: "0"
-          - name: "Wollongong Wolves"
-            score: "1"
-            active: true
       - id: football-2428277
         competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Marconi Stallions"
             score: "1"
             active: true
           - name: "Sutherland Sharks"
             score: "0"
-      - id: football-2428279
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Blacktown City"
-            score: "0"
-          - name: "UNSW"
-            score: "0"
-      - id: football-2435120
-        competition: "Australia Northern NSW NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Belmont Swansea United"
-            score: "2"
-          - name: "Adamstown Rosebud"
-            score: "3"
-            active: true
 
   - name: Cricket
     matches:
