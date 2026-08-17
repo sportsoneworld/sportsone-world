@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 01:12 IST"
+updated: "18 Aug 2026, 02:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,62 +26,62 @@ sports:
       - id: football-2551304
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "39'"
+        stateLabel: "47'"
         teams:
           - name: "Sportivo Belgrano"
             score: "0"
           - name: "Defensores de Belgrano de Villa Ramallo"
             score: "1"
             active: true
-      - id: football-2404993
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "82'"
-        teams:
-          - name: "All Boys"
-            score: "1"
-            active: true
-          - name: "Nueva Chicago"
-            score: "0"
-      - id: football-2408562
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Leones de Rosario"
-            score: "2"
-            active: true
-          - name: "Defensores de Cambaceres"
-            score: "0"
-      - id: football-2408554
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Centro Español"
-            score: "1"
-          - name: "Central Córdoba de Rosario"
-            score: "2"
-            active: true
-      - id: football-2408555
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Deportivo Español"
-            score: "0"
-          - name: "Sacachispas"
-            score: "0"
-      - id: football-2398016
+      - id: football-2398018
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "17:45"
+        stateLabel: "8'"
         teams:
-          - name: "Estudiantes de Río Cuarto"
+          - name: "Lanús"
             score: "0"
-          - name: "Atlético Tucumán"
+          - name: "Independiente"
+            score: "0"
+      - id: football-2502884
+        competition: "Coppa Italia"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Palermo"
+            score: "2"
+            active: true
+          - name: "Lecce"
+            score: "0"
+      - id: football-2502883
+        competition: "Coppa Italia"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "Cremonese"
             score: "1"
             active: true
+          - name: "Sampdoria"
+            score: "0"
+      - id: football-2501260
+        competition: "English League Championship"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Cardiff City"
+            score: "0"
+          - name: "Wrexham"
+            score: "1"
+            active: true
+      - id: football-2424288
+        competition: "Icelandic 1 deild karla"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Þróttur Reykjavik"
+            score: "2"
+            active: true
+          - name: "Fylkir"
+            score: "0"
 
   - name: Cricket
     matches:
