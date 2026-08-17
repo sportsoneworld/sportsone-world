@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 20:26 IST"
+updated: "17 Aug 2026, 21:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2521162
+        competition: "AFC Womens Champions League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Sevinch"
+            score: "5"
+            active: true
+          - name: "Master FC Women"
+            score: "0"
+      - id: football-2511446
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Chernomorets 1919 Burgas"
+            score: "0"
+          - name: "CSKA Sofia II"
+            score: "1"
+            active: true
+      - id: football-2405326
+        competition: "Finnish Veikkausliiga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Gnistan"
+            score: "2"
+          - name: "Ilves"
+            score: "2"
       - id: football-2571714
+        competition: "Greek Football Cup"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Athens Kallithea"
+            score: "1"
+          - name: "AEL"
+            score: "2"
+            active: true
+      - id: football-2558137
         competition: "Greek Football Cup"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Athens Kallithea"
+          - name: "Anagennisi Karditsas"
             score: "0"
-          - name: "AEL"
-            score: "1"
-            active: true
-      - id: football-2397605
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Aris"
+            score: "0"
+      - id: football-2498342
+        competition: "Hungarian NB I"
+        state: live
+        stateLabel: "23'"
         teams:
-          - name: "One Knoxville"
-            score: "–"
-            detail: "23:00"
-          - name: "Portland Hearts of Pine"
-            score: "–"
-      - id: football-2397606
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Sarasota Paradise"
-            score: "–"
-            detail: "23:30"
-          - name: "Chattanooga Red Wolves"
-            score: "–"
-      - id: football-2404924
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "18:00"
-        teams:
-          - name: "Chacarita Juniors"
-            score: "–"
-            detail: "18:00"
-          - name: "Güemes"
-            score: "–"
-      - id: football-2408553
-        competition: "Argentinian Primera C"
-        state: upcoming
-        stateLabel: "18:00"
-        teams:
-          - name: "Claypole"
-            score: "–"
-            detail: "18:00"
-          - name: "Mercedes"
-            score: "–"
-      - id: football-2408556
-        competition: "Argentinian Primera C"
-        state: upcoming
-        stateLabel: "18:00"
-        teams:
-          - name: "Muñiz"
-            score: "–"
-            detail: "18:00"
-          - name: "Juventud Unida"
-            score: "–"
+          - name: "Zalaegerszeg"
+            score: "0"
+          - name: "Ferencváros"
+            score: "0"
 
   - name: Cricket
     matches:
