@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 08:46 IST"
+updated: "17 Aug 2026, 10:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -25,59 +25,61 @@ sports:
     matches:
       - id: football-2406992
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "34'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Seattle Sounders"
             score: "0"
           - name: "Vancouver Whitecaps"
-            score: "0"
-      - id: football-2537913
-        competition: "Honduras Liga Nacional de Futbol"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Olancho"
-            score: "1"
+            score: "2"
             active: true
-          - name: "Juticalpa"
-            score: "0"
       - id: football-2423355
         competition: "MLS Next Pro"
-        state: live
-        stateLabel: "43'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "San Jose Earthquakes II"
             score: "0"
           - name: "St. Louis City SC 2"
-            score: "1"
-            active: true
-      - id: football-2423360
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Los Angeles FC II"
             score: "2"
             active: true
-          - name: "Tacoma Defiance"
-            score: "1"
-      - id: football-2406985
-        competition: "American Major League Soccer"
+      - id: football-2487485
+        competition: "Mexican Primera League"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Austin FC"
-            score: "1"
-          - name: "FC Dallas"
+          - name: "Tijuana"
             score: "2"
             active: true
-      - id: football-2419883
-        competition: "American NWSL"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Cruz Azul"
+            score: "1"
+      - id: football-2397605
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Angel City"
-            score: "1"
-          - name: "Washington Spirit"
-            score: "1"
+          - name: "One Knoxville"
+            score: "–"
+            detail: "23:00"
+          - name: "Portland Hearts of Pine"
+            score: "–"
+      - id: football-2397606
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Sarasota Paradise"
+            score: "–"
+            detail: "23:30"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
+      - id: football-2404924
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Chacarita Juniors"
+            score: "–"
+            detail: "18:00"
+          - name: "Güemes"
+            score: "–"
