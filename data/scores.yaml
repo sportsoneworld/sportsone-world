@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 05:30 IST"
+updated: "17 Aug 2026, 08:46 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406990
+      - id: football-2406992
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "84'"
+        stateLabel: "34'"
         teams:
-          - name: "New York City FC"
-            score: "2"
-          - name: "Philadelphia Union"
-            score: "3"
-            active: true
-      - id: football-2406991
-        competition: "American Major League Soccer"
+          - name: "Seattle Sounders"
+            score: "0"
+          - name: "Vancouver Whitecaps"
+            score: "0"
+      - id: football-2537913
+        competition: "Honduras Liga Nacional de Futbol"
         state: live
-        stateLabel: "89'"
+        stateLabel: "87'"
         teams:
-          - name: "Chicago Fire"
-            score: "2"
-            active: true
-          - name: "Portland Timbers"
+          - name: "Olancho"
             score: "1"
-      - id: football-2419882
+            active: true
+          - name: "Juticalpa"
+            score: "0"
+      - id: football-2423355
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "San Jose Earthquakes II"
+            score: "0"
+          - name: "St. Louis City SC 2"
+            score: "1"
+            active: true
+      - id: football-2423360
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "53'"
+        teams:
+          - name: "Los Angeles FC II"
+            score: "2"
+            active: true
+          - name: "Tacoma Defiance"
+            score: "1"
+      - id: football-2406985
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Austin FC"
+            score: "1"
+          - name: "FC Dallas"
+            score: "2"
+            active: true
+      - id: football-2419883
         competition: "American NWSL"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "North Carolina Courage"
+          - name: "Angel City"
             score: "1"
-          - name: "Houston Dash"
+          - name: "Washington Spirit"
             score: "1"
-      - id: football-2397602
-        competition: "American USL League One"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "Portland Hearts of Pine"
-            score: "0"
-          - name: "Forward Madison"
-            score: "2"
-            active: true
-      - id: football-2397603
-        competition: "American USL League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Union Omaha"
-            score: "3"
-            active: true
-          - name: "Richmond Kickers"
-            score: "1"
-      - id: football-2398014
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "44'"
-        teams:
-          - name: "Central Córdoba de Santiago del Estero"
-            score: "0"
-          - name: "Instituto"
-            score: "0"
