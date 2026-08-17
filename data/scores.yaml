@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 21:22 IST"
+updated: "17 Aug 2026, 22:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2521162
-        competition: "AFC Womens Champions League"
+      - id: football-2523497
+        competition: "Armenian Premier League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Sevinch"
-            score: "5"
-            active: true
-          - name: "Master FC Women"
+          - name: "Noah"
             score: "0"
-      - id: football-2511446
-        competition: "Bulgarian Second League"
+          - name: "Alashkert"
+            score: "0"
+      - id: football-2487304
+        competition: "Bulgarian First League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Chernomorets 1919 Burgas"
+          - name: "Spartak Varna"
             score: "0"
-          - name: "CSKA Sofia II"
+          - name: "Septemvri Sofia"
+            score: "0"
+      - id: football-2545855
+        competition: "Chile Segunda División"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Santiago Morning"
+            score: "1"
+          - name: "Atlético Colina"
+            score: "1"
+      - id: football-2502882
+        competition: "Coppa Italia"
+        state: live
+        stateLabel: "26'"
+        teams:
+          - name: "Sassuolo"
             score: "1"
             active: true
-      - id: football-2405326
-        competition: "Finnish Veikkausliiga"
+          - name: "Cesena"
+            score: "0"
+      - id: football-2502881
+        competition: "Coppa Italia"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Gnistan"
-            score: "2"
-          - name: "Ilves"
-            score: "2"
-      - id: football-2571714
-        competition: "Greek Football Cup"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Athens Kallithea"
+          - name: "Pisa"
             score: "1"
-          - name: "AEL"
-            score: "2"
             active: true
-      - id: football-2558137
-        competition: "Greek Football Cup"
+          - name: "Empoli"
+            score: "0"
+      - id: football-2498072
+        competition: "Czech National Football League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Anagennisi Karditsas"
+          - name: "Třinec"
             score: "0"
-          - name: "Aris"
-            score: "0"
-      - id: football-2498342
-        competition: "Hungarian NB I"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Zalaegerszeg"
-            score: "0"
-          - name: "Ferencváros"
+          - name: "Ústí nad Labem"
             score: "0"
 
   - name: Cricket
