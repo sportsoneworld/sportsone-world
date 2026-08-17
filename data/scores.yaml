@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 23:31 IST"
+updated: "18 Aug 2026, 01:12 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2551304
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "Sportivo Belgrano"
+            score: "0"
+          - name: "Defensores de Belgrano de Villa Ramallo"
+            score: "1"
+            active: true
+      - id: football-2404993
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "All Boys"
+            score: "1"
+            active: true
+          - name: "Nueva Chicago"
+            score: "0"
+      - id: football-2408562
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "77'"
+        teams:
+          - name: "Leones de Rosario"
+            score: "2"
+            active: true
+          - name: "Defensores de Cambaceres"
+            score: "0"
+      - id: football-2408554
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "81'"
+        teams:
+          - name: "Centro Español"
+            score: "1"
+          - name: "Central Córdoba de Rosario"
+            score: "2"
+            active: true
+      - id: football-2408555
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "81'"
+        teams:
+          - name: "Deportivo Español"
+            score: "0"
+          - name: "Sacachispas"
+            score: "0"
       - id: football-2398016
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "18'"
+        stateLabel: "17:45"
         teams:
           - name: "Estudiantes de Río Cuarto"
             score: "0"
           - name: "Atlético Tucumán"
-            score: "0"
-      - id: football-2497003
-        competition: "Belgian Challenger Pro League"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "RFC Liège"
-            score: "0"
-          - name: "Francs Borains"
-            score: "0"
-      - id: football-2545855
-        competition: "Chile Segunda División"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Santiago Morning"
-            score: "2"
-            active: true
-          - name: "Atlético Colina"
             score: "1"
-      - id: football-2540493
-        competition: "Copa Paulista"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "São Caetano"
-            score: "0"
-          - name: "Santo André"
-            score: "0"
-      - id: football-2502882
-        competition: "Coppa Italia"
-        state: live
-        stateLabel: "69'"
-        teams:
-          - name: "Sassuolo"
-            score: "2"
             active: true
-          - name: "Cesena"
-            score: "0"
-      - id: football-2481813
-        competition: "Danish Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Brøndby"
-            score: "3"
-            active: true
-          - name: "Sønderjyske"
-            score: "0"
 
   - name: Cricket
     matches:
