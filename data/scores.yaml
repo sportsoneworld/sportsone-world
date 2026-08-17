@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 17:27 IST"
+updated: "17 Aug 2026, 19:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,15 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578493
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Hải Phòng"
-            score: "0"
-          - name: "Hưng Yên"
-            score: "0"
       - id: football-2397605
         competition: "American USL League One"
         state: upcoming
@@ -81,6 +72,16 @@ sports:
             score: "–"
             detail: "18:00"
           - name: "Juventud Unida"
+            score: "–"
+      - id: football-2398016
+        competition: "Argentinian Primera Division"
+        state: upcoming
+        stateLabel: "17:45"
+        teams:
+          - name: "Estudiantes de Río Cuarto"
+            score: "–"
+            detail: "17:45"
+          - name: "Atlético Tucumán"
             score: "–"
 
   - name: Cricket
