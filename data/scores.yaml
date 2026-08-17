@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 02:26 IST"
+updated: "18 Aug 2026, 03:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551304
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Sportivo Belgrano"
-            score: "0"
-          - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "1"
-            active: true
       - id: football-2398018
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "8'"
+        stateLabel: "20:00"
         teams:
           - name: "Lanús"
             score: "0"
           - name: "Independiente"
             score: "0"
-      - id: football-2502884
-        competition: "Coppa Italia"
-        state: live
-        stateLabel: "Live"
+      - id: football-2398016
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Palermo"
-            score: "2"
-            active: true
-          - name: "Lecce"
+          - name: "Estudiantes de Río Cuarto"
             score: "0"
-      - id: football-2502883
-        competition: "Coppa Italia"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "Cremonese"
+          - name: "Atlético Tucumán"
             score: "1"
             active: true
-          - name: "Sampdoria"
-            score: "0"
-      - id: football-2501260
-        competition: "English League Championship"
-        state: live
-        stateLabel: "50'"
+      - id: football-2397605
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Cardiff City"
-            score: "0"
-          - name: "Wrexham"
-            score: "1"
-            active: true
-      - id: football-2424288
-        competition: "Icelandic 1 deild karla"
-        state: live
-        stateLabel: "Live"
+          - name: "One Knoxville"
+            score: "–"
+            detail: "23:00"
+          - name: "Portland Hearts of Pine"
+            score: "–"
+      - id: football-2397606
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Þróttur Reykjavik"
-            score: "2"
-            active: true
-          - name: "Fylkir"
-            score: "0"
+          - name: "Sarasota Paradise"
+            score: "–"
+            detail: "23:30"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
+      - id: football-2404924
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Chacarita Juniors"
+            score: "–"
+            detail: "18:00"
+          - name: "Güemes"
+            score: "–"
+      - id: football-2408553
+        competition: "Argentinian Primera C"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Claypole"
+            score: "–"
+            detail: "18:00"
+          - name: "Mercedes"
+            score: "–"
 
   - name: Cricket
     matches:
