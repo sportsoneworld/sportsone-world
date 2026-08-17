@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Aug 2026, 22:30 IST"
+updated: "17 Aug 2026, 23:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,23 +23,23 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523497
-        competition: "Armenian Premier League"
+      - id: football-2398016
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "18'"
         teams:
-          - name: "Noah"
+          - name: "Estudiantes de Río Cuarto"
             score: "0"
-          - name: "Alashkert"
+          - name: "Atlético Tucumán"
             score: "0"
-      - id: football-2487304
-        competition: "Bulgarian First League"
+      - id: football-2497003
+        competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "2'"
         teams:
-          - name: "Spartak Varna"
+          - name: "RFC Liège"
             score: "0"
-          - name: "Septemvri Sofia"
+          - name: "Francs Borains"
             score: "0"
       - id: football-2545855
         competition: "Chile Segunda División"
@@ -47,37 +47,38 @@ sports:
         stateLabel: "Live"
         teams:
           - name: "Santiago Morning"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Atlético Colina"
             score: "1"
+      - id: football-2540493
+        competition: "Copa Paulista"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "São Caetano"
+            score: "0"
+          - name: "Santo André"
+            score: "0"
       - id: football-2502882
         competition: "Coppa Italia"
         state: live
-        stateLabel: "26'"
+        stateLabel: "69'"
         teams:
           - name: "Sassuolo"
-            score: "1"
+            score: "2"
             active: true
           - name: "Cesena"
             score: "0"
-      - id: football-2502881
-        competition: "Coppa Italia"
+      - id: football-2481813
+        competition: "Danish Superliga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Pisa"
-            score: "1"
+          - name: "Brøndby"
+            score: "3"
             active: true
-          - name: "Empoli"
-            score: "0"
-      - id: football-2498072
-        competition: "Czech National Football League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Třinec"
-            score: "0"
-          - name: "Ústí nad Labem"
+          - name: "Sønderjyske"
             score: "0"
 
   - name: Cricket
