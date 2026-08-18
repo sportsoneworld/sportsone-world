@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 16:29 IST"
+updated: "18 Aug 2026, 17:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,25 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579096
-        competition: "Australia Cup"
+      - id: football-2559129
+        competition: "Bhutan Premier League"
         state: live
-        stateLabel: "71'"
+        stateLabel: "81'"
         teams:
-          - name: "Southern Districts Raiders"
-            score: "0"
-          - name: "Sydney FC"
-            score: "1"
+          - name: "Tsirang"
+            score: "3"
+          - name: "BFF Academy"
+            score: "5"
             active: true
+      - id: football-2434514
+        competition: "Chinese Super League"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Shanghai Shenhua"
+            score: "0"
+          - name: "Beijing Guoan"
+            score: "0"
       - id: football-2398017
         competition: "Argentinian Primera Division"
         state: completed
@@ -43,6 +52,16 @@ sports:
             active: true
           - name: "Talleres de Córdoba"
             score: "1"
+      - id: football-2579096
+        competition: "Australia Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Southern Districts Raiders"
+            score: "0"
+          - name: "Sydney FC"
+            score: "1"
+            active: true
       - id: football-2407000
         competition: "American Major League Soccer"
         state: upcoming
@@ -62,26 +81,6 @@ sports:
             score: "–"
             detail: "02:00"
           - name: "Colorado Springs Switchbacks"
-            score: "–"
-      - id: football-2397605
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "One Knoxville"
-            score: "–"
-            detail: "23:00"
-          - name: "Portland Hearts of Pine"
-            score: "–"
-      - id: football-2397606
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Sarasota Paradise"
-            score: "–"
-            detail: "23:30"
-          - name: "Chattanooga Red Wolves"
             score: "–"
 
   - name: Cricket
