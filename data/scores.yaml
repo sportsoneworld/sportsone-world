@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 22:32 IST"
+updated: "18 Aug 2026, 23:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,61 @@ sports:
       - id: football-2511441
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "48'"
         teams:
           - name: "Ludogorets Razgrad II"
             score: "0"
           - name: "Vihren Sandanski"
-            score: "0"
-      - id: football-2511445
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Pirin Blagoevgrad"
             score: "1"
-          - name: "Hebar Pazardzhik"
-            score: "3"
             active: true
-      - id: football-2566564
+      - id: football-2566565
         competition: "Club Friendlies"
         state: live
-        stateLabel: "1'"
+        stateLabel: "46'"
         teams:
-          - name: "Spelle-Venhaus"
+          - name: "Unionistas de Salamanca"
             score: "0"
-          - name: "Osnabrück"
+          - name: "Alcorcón"
             score: "0"
       - id: football-2573947
         competition: "Club Friendlies"
         state: live
-        stateLabel: "1'"
+        stateLabel: "45'"
         teams:
           - name: "Sporting Atlético"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Llanera"
             score: "0"
+      - id: football-2566564
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Spelle-Venhaus"
+            score: "2"
+          - name: "Osnabrück"
+            score: "4"
+            active: true
+      - id: football-2578495
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Laredo"
+            score: "0"
+          - name: "Athletic Bilbao B"
+            score: "2"
+            active: true
       - id: football-2573948
         competition: "Club Friendlies"
         state: live
-        stateLabel: "1'"
+        stateLabel: "Live"
         teams:
           - name: "Mutilvera"
             score: "0"
           - name: "Peña Sport"
             score: "0"
-      - id: football-2566563
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Heidenheim"
-            score: "2"
-            active: true
-          - name: "Bayern Munich"
-            score: "1"
 
   - name: Cricket
     matches:
