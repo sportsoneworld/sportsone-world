@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 21:21 IST"
+updated: "18 Aug 2026, 22:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2511445
+      - id: football-2511441
         competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "20'"
-        teams:
-          - name: "Pirin Blagoevgrad"
-            score: "1"
-            active: true
-          - name: "Hebar Pazardzhik"
-            score: "0"
-      - id: football-2568566
-        competition: "Iranian Persian Gulf Pro League"
         state: live
         stateLabel: "3'"
         teams:
-          - name: "Nassaji Mazandaran"
+          - name: "Ludogorets Razgrad II"
             score: "0"
-          - name: "Esteghlal"
+          - name: "Vihren Sandanski"
             score: "0"
-      - id: football-2571450
-        competition: "Kyrgyz Premier League"
+      - id: football-2511445
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "87'"
+        stateLabel: "75'"
         teams:
-          - name: "Toktogul"
+          - name: "Pirin Blagoevgrad"
+            score: "1"
+          - name: "Hebar Pazardzhik"
             score: "3"
             active: true
-          - name: "Asiagoal Bishkek"
+      - id: football-2566564
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Spelle-Venhaus"
+            score: "0"
+          - name: "Osnabrück"
+            score: "0"
+      - id: football-2573947
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Sporting Atlético"
+            score: "0"
+          - name: "Llanera"
+            score: "0"
+      - id: football-2573948
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Mutilvera"
+            score: "0"
+          - name: "Peña Sport"
+            score: "0"
+      - id: football-2566563
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Heidenheim"
             score: "2"
-      - id: football-2523980
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Atlanta United II"
-            score: "2"
             active: true
-          - name: "Chicago Fire II"
-            score: "0"
-      - id: football-2501810
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "CSKA Moscow"
-            score: "0"
-          - name: "Akron Tolyatti"
+          - name: "Bayern Munich"
             score: "1"
-            active: true
-      - id: football-2501817
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "20'"
-        teams:
-          - name: "Rodina Moscow"
-            score: "0"
-          - name: "Orenburg"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
