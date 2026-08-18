@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 03:20 IST"
+updated: "19 Aug 2026, 04:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,24 +23,43 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2541588
-        competition: "Copa Argentina"
+      - id: football-2431392
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Londrina"
+            score: "0"
+          - name: "Atlético Goianiense"
+            score: "0"
+      - id: football-2558746
+        competition: "CONCACAF Caribbean Cup"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Deportivo Riestra"
+          - name: "Mount Pleasant"
+            score: "0"
+          - name: "Cibao"
             score: "1"
-          - name: "Gimnasia y Esgrima de La Plata"
-            score: "1"
-      - id: football-2497977
-        competition: "Copa Venezuela"
+            active: true
+      - id: football-2478540
+        competition: "Copa Libertadores"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Yaracuyanos"
+          - name: "Independiente Rivadavia"
+            score: "0"
+          - name: "Fluminense"
+            score: "0"
+      - id: football-2554154
+        competition: "Copa Sudamericana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Recoleta"
+            score: "0"
+          - name: "Boca Juniors"
             score: "2"
-          - name: "Caracas"
-            score: "3"
             active: true
       - id: football-2408553
         competition: "Argentinian Primera C"
@@ -61,26 +80,6 @@ sports:
             score: "0"
           - name: "Juventud Unida"
             score: "1"
-            active: true
-      - id: football-2398017
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Gimnasia y Esgrima de Mendoza"
-            score: "3"
-            active: true
-          - name: "Talleres de Córdoba"
-            score: "1"
-      - id: football-2568382
-        competition: "Copa Paraguay"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Benjamín Aceval"
-            score: "0"
-          - name: "Club Nacional"
-            score: "2"
             active: true
 
   - name: Cricket
