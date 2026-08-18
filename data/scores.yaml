@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 13:34 IST"
+updated: "18 Aug 2026, 15:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2579096
+        competition: "Australia Cup"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Southern Districts Raiders"
+            score: "0"
+          - name: "Sydney FC"
+            score: "0"
       - id: football-2398017
         competition: "Argentinian Primera Division"
         state: completed
@@ -72,16 +81,6 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Chattanooga Red Wolves"
-            score: "–"
-      - id: football-2397604
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "00:30"
-        teams:
-          - name: "Corpus Christi FC"
-            score: "–"
-            detail: "00:30"
-          - name: "New York Cosmos"
             score: "–"
 
   - name: Cricket
