@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 08:39 IST"
+updated: "18 Aug 2026, 10:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,35 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2557480
-        competition: "Costa-Rica Liga FPD"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sporting San José"
-            score: "2"
-            active: true
-          - name: "Escorpiones de Belén"
-            score: "0"
-      - id: football-2548483
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Santos Laguna Femenil"
-            score: "1"
-          - name: "Monterrey Femenil"
-            score: "4"
-            active: true
       - id: football-2487487
         competition: "Mexican Primera League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "Live"
         teams:
           - name: "Pachuca"
-            score: "0"
+            score: "2"
           - name: "Puebla"
-            score: "0"
+            score: "2"
       - id: football-2398017
         competition: "Argentinian Primera Division"
         state: completed
@@ -62,25 +42,46 @@ sports:
             active: true
           - name: "Talleres de Córdoba"
             score: "1"
-      - id: football-2421960
-        competition: "Chile Primera B"
+      - id: football-2557480
+        competition: "Costa-Rica Liga FPD"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Deportes Temuco"
-            score: "1"
-          - name: "Deportes Recoleta"
-            score: "1"
-      - id: football-2413060
-        competition: "Chile Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Palestino"
-            score: "5"
+          - name: "Sporting San José"
+            score: "2"
             active: true
-          - name: "Huachipato"
-            score: "1"
+          - name: "Escorpiones de Belén"
+            score: "0"
+      - id: football-2407000
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Sporting Kansas City"
+            score: "–"
+            detail: "00:00"
+          - name: "St. Louis City SC"
+            score: "–"
+      - id: football-2397275
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
+        teams:
+          - name: "Phoenix Rising"
+            score: "–"
+            detail: "02:00"
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+      - id: football-2397605
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "One Knoxville"
+            score: "–"
+            detail: "23:00"
+          - name: "Portland Hearts of Pine"
+            score: "–"
 
   - name: Cricket
     matches:
