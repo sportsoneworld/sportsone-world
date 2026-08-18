@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 15:23 IST"
+updated: "18 Aug 2026, 16:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,12 +26,13 @@ sports:
       - id: football-2579096
         competition: "Australia Cup"
         state: live
-        stateLabel: "22'"
+        stateLabel: "71'"
         teams:
           - name: "Southern Districts Raiders"
             score: "0"
           - name: "Sydney FC"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2398017
         competition: "Argentinian Primera Division"
         state: completed
