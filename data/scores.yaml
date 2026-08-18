@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 02:29 IST"
+updated: "19 Aug 2026, 03:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -30,38 +30,18 @@ sports:
         teams:
           - name: "Deportivo Riestra"
             score: "1"
-            active: true
           - name: "Gimnasia y Esgrima de La Plata"
-            score: "0"
-      - id: football-2568382
-        competition: "Copa Paraguay"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "Benjamín Aceval"
-            score: "0"
-          - name: "Club Nacional"
-            score: "2"
-            active: true
+            score: "1"
       - id: football-2497977
         competition: "Copa Venezuela"
         state: live
         stateLabel: "Live"
         teams:
           - name: "Yaracuyanos"
-            score: "0"
+            score: "2"
           - name: "Caracas"
-            score: "1"
+            score: "3"
             active: true
-      - id: football-2570474
-        competition: "UEFA Champions League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Dinamo Zagreb"
-            score: "2"
-          - name: "Viking"
-            score: "2"
       - id: football-2408553
         competition: "Argentinian Primera C"
         state: completed
@@ -81,6 +61,26 @@ sports:
             score: "0"
           - name: "Juventud Unida"
             score: "1"
+            active: true
+      - id: football-2398017
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Gimnasia y Esgrima de Mendoza"
+            score: "3"
+            active: true
+          - name: "Talleres de Córdoba"
+            score: "1"
+      - id: football-2568382
+        competition: "Copa Paraguay"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Benjamín Aceval"
+            score: "0"
+          - name: "Club Nacional"
+            score: "2"
             active: true
 
   - name: Cricket
