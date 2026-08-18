@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 17:26 IST"
+updated: "18 Aug 2026, 19:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,24 +23,53 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2559129
-        competition: "Bhutan Premier League"
+      - id: football-2569198
+        competition: "ASEAN Championship"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
-          - name: "Tsirang"
-            score: "3"
-          - name: "BFF Academy"
-            score: "5"
-            active: true
-      - id: football-2434514
-        competition: "Chinese Super League"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Shanghai Shenhua"
+          - name: "Thailand"
             score: "0"
-          - name: "Beijing Guoan"
+          - name: "Singapore"
+            score: "1"
+            active: true
+      - id: football-2573946
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Persib Bandung"
+            score: "1"
+          - name: "Bali United"
+            score: "2"
+            active: true
+      - id: football-2571450
+        competition: "Kyrgyz Premier League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Toktogul"
+            score: "1"
+            active: true
+          - name: "Asiagoal Bishkek"
+            score: "0"
+      - id: football-2439856
+        competition: "Tajikistan Vysshaya Liga"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Regar-TadAZ Tursunzoda"
+            score: "0"
+          - name: "Parvoz Bobojon Ghafurov"
+            score: "0"
+      - id: football-2426749
+        competition: "Uzbekistan Super League"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Sogdiana Jizzakh"
+            score: "0"
+          - name: "Qizilqum Zarafshon"
             score: "0"
       - id: football-2398017
         competition: "Argentinian Primera Division"
@@ -52,36 +81,6 @@ sports:
             active: true
           - name: "Talleres de Córdoba"
             score: "1"
-      - id: football-2579096
-        competition: "Australia Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Southern Districts Raiders"
-            score: "0"
-          - name: "Sydney FC"
-            score: "1"
-            active: true
-      - id: football-2407000
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Sporting Kansas City"
-            score: "–"
-            detail: "00:00"
-          - name: "St. Louis City SC"
-            score: "–"
-      - id: football-2397275
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
-        teams:
-          - name: "Phoenix Rising"
-            score: "–"
-            detail: "02:00"
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
 
   - name: Cricket
     matches:
