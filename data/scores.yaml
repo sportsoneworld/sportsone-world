@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Aug 2026, 19:35 IST"
+updated: "18 Aug 2026, 21:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2569198
-        competition: "ASEAN Championship"
+      - id: football-2511445
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "20'"
         teams:
-          - name: "Thailand"
+          - name: "Pirin Blagoevgrad"
+            score: "1"
+            active: true
+          - name: "Hebar Pazardzhik"
             score: "0"
-          - name: "Singapore"
-            score: "1"
-            active: true
-      - id: football-2573946
-        competition: "Club Friendlies"
+      - id: football-2568566
+        competition: "Iranian Persian Gulf Pro League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "3'"
         teams:
-          - name: "Persib Bandung"
-            score: "1"
-          - name: "Bali United"
-            score: "2"
-            active: true
+          - name: "Nassaji Mazandaran"
+            score: "0"
+          - name: "Esteghlal"
+            score: "0"
       - id: football-2571450
         competition: "Kyrgyz Premier League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "87'"
         teams:
           - name: "Toktogul"
-            score: "1"
-            active: true
-          - name: "Asiagoal Bishkek"
-            score: "0"
-      - id: football-2439856
-        competition: "Tajikistan Vysshaya Liga"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "Regar-TadAZ Tursunzoda"
-            score: "0"
-          - name: "Parvoz Bobojon Ghafurov"
-            score: "0"
-      - id: football-2426749
-        competition: "Uzbekistan Super League"
-        state: live
-        stateLabel: "5'"
-        teams:
-          - name: "Sogdiana Jizzakh"
-            score: "0"
-          - name: "Qizilqum Zarafshon"
-            score: "0"
-      - id: football-2398017
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Gimnasia y Esgrima de Mendoza"
             score: "3"
             active: true
-          - name: "Talleres de Córdoba"
+          - name: "Asiagoal Bishkek"
+            score: "2"
+      - id: football-2523980
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Atlanta United II"
+            score: "2"
+            active: true
+          - name: "Chicago Fire II"
+            score: "0"
+      - id: football-2501810
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "19'"
+        teams:
+          - name: "CSKA Moscow"
+            score: "0"
+          - name: "Akron Tolyatti"
             score: "1"
+            active: true
+      - id: football-2501817
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Rodina Moscow"
+            score: "0"
+          - name: "Orenburg"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
