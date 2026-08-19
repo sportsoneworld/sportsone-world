@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 13:34 IST"
+updated: "19 Aug 2026, 15:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2572734
+        competition: "Australia Cup"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "APIA Leichhardt"
+            score: "0"
+          - name: "Melbourne Victory"
+            score: "0"
+      - id: football-2566567
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Alcalá"
+            score: "0"
+          - name: "Gimnástica Segoviana"
+            score: "0"
       - id: football-2578497
         competition: "Club Friendlies"
         state: live
-        stateLabel: "4'"
+        stateLabel: "90'"
         teams:
           - name: "Elche Ilicitano"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Cartagena"
             score: "0"
-      - id: football-2578528
+      - id: football-2540513
+        competition: "Hungarian NB III Southeast"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Vasas II"
+            score: "2"
+            active: true
+          - name: "Budapest Honvéd II"
+            score: "0"
+      - id: football-2578530
         competition: "Japan Emperors Cup"
         state: live
-        stateLabel: "3'"
+        stateLabel: "19'"
         teams:
-          - name: "Arterivo Wakayama"
+          - name: "Belugarosso Iwami"
+            score: "1"
+            active: true
+          - name: "Nagasaki International University"
             score: "0"
-          - name: "Azul Claro Numazu"
+      - id: football-2578534
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "19'"
+        teams:
+          - name: "SRC Hiroshima"
             score: "0"
-      - id: football-2407000
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Sporting Kansas City"
-            score: "–"
-            detail: "00:00"
-          - name: "St. Louis City SC"
-            score: "–"
-      - id: football-2397275
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
-        teams:
-          - name: "Phoenix Rising"
-            score: "–"
-            detail: "02:00"
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-      - id: football-2397605
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "One Knoxville"
-            score: "–"
-            detail: "23:00"
-          - name: "Portland Hearts of Pine"
-            score: "–"
-      - id: football-2397606
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Sarasota Paradise"
-            score: "–"
-            detail: "23:30"
-          - name: "Chattanooga Red Wolves"
-            score: "–"
+          - name: "Maruyasu Okazaki"
+            score: "0"
 
   - name: Cricket
     matches:
