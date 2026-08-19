@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 21:20 IST"
+updated: "19 Aug 2026, 22:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558139
-        competition: "Greek Football Cup"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Kalamata"
-            score: "3"
-            active: true
-          - name: "Panetolikos"
-            score: "1"
-      - id: football-2558143
-        competition: "Greek Football Cup"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Nestos Chrysoupoli"
-            score: "1"
-            active: true
-          - name: "Apollon Kalamarias"
-            score: "0"
-      - id: football-2558140
-        competition: "Greek Football Cup"
+      - id: football-2437841
+        competition: "Belarus Vyscha Liga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Niki Volos"
-            score: "0"
-          - name: "Panionios"
-            score: "0"
-      - id: football-2558141
-        competition: "Greek Football Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Zakynthos"
-            score: "1"
-          - name: "Kifisia"
-            score: "6"
-            active: true
-      - id: football-2539665
-        competition: "Hungarian NB III Northeast"
-        state: live
-        stateLabel: "20'"
-        teams:
-          - name: "Diósgyőr II"
-            score: "0"
-          - name: "Debrecen II"
-            score: "0"
-      - id: football-2473795
-        competition: "Kazakhstan Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Jeńis"
-            score: "3"
-            active: true
-          - name: "Kaisar Kyzylorda"
+          - name: "Maxline Vitebsk"
             score: "2"
+            active: true
+          - name: "Baranovichi"
+            score: "0"
+      - id: football-2578499
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Krasava Odintsovo"
+            score: "0"
+          - name: "AEL Limassol"
+            score: "1"
+            active: true
+      - id: football-2566656
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "ASA Fodbold"
+            score: "0"
+          - name: "Randers FC"
+            score: "0"
+      - id: football-2440391
+        competition: "Estonian Esiliiga B"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Levadia U19 Tallinn"
+            score: "1"
+            active: true
+          - name: "Narva U21 Trans"
+            score: "0"
+      - id: football-2531244
+        competition: "German Regionalliga Nord"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Werder Bremen II"
+            score: "0"
+          - name: "Weiche Flensburg 08"
+            score: "0"
+      - id: football-2558138
+        competition: "Greek Football Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Panserraikos"
+            score: "1"
+          - name: "Panthrakikos"
+            score: "1"
 
   - name: Cricket
     matches:
