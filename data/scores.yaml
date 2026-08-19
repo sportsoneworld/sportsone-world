@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 17:25 IST"
+updated: "19 Aug 2026, 19:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572734
-        competition: "Australia Cup"
+      - id: football-2569199
+        competition: "ASEAN Championship"
         state: live
-        stateLabel: "110'"
+        stateLabel: "46'"
         teams:
-          - name: "APIA Leichhardt"
+          - name: "Vietnam"
             score: "0"
-          - name: "Melbourne Victory"
+          - name: "Malaysia"
+            score: "0"
+      - id: football-2558143
+        competition: "Greek Football Cup"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Nestos Chrysoupoli"
+            score: "0"
+          - name: "Apollon Kalamarias"
+            score: "0"
+      - id: football-2558140
+        competition: "Greek Football Cup"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Niki Volos"
+            score: "0"
+          - name: "Panionios"
+            score: "0"
+      - id: football-2558141
+        competition: "Greek Football Cup"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Zakynthos"
+            score: "0"
+          - name: "Kifisia"
+            score: "0"
+      - id: football-2473795
+        competition: "Kazakhstan Cup"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Jeńis"
+            score: "0"
+          - name: "Kaisar Kyzylorda"
+            score: "0"
+      - id: football-2473794
+        competition: "Kazakhstan Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Altai Öskemen"
             score: "1"
-            active: true
-      - id: football-2432738
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "68'"
-        teams:
-          - name: "Preston Lions"
-            score: "3"
-            active: true
-          - name: "Melbourne City Youth"
-            score: "0"
-      - id: football-2448563
-        competition: "China league Two"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Nantong Haimen Codion"
-            score: "0"
-          - name: "Qingdao Red Lions"
-            score: "0"
-      - id: football-2434518
-        competition: "Chinese Super League"
-        state: live
-        stateLabel: "20'"
-        teams:
-          - name: "Shanghai Port"
-            score: "0"
-          - name: "Dalian Yingbo"
-            score: "0"
-      - id: football-2578498
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Long An"
-            score: "0"
-          - name: "Becamex Hồ Chí Minh City"
+          - name: "Ordabasy Shymkent"
             score: "2"
             active: true
-      - id: football-2552850
-        competition: "FA Cup"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Busan IPark"
-            score: "0"
-          - name: "Bucheon FC 1995"
-            score: "0"
 
   - name: Cricket
     matches:
