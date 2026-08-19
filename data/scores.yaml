@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 03:25 IST"
+updated: "20 Aug 2026, 04:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419884
+        competition: "American NWSL"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Racing Louisville"
+            score: "0"
+          - name: "Seattle Reign"
+            score: "0"
+      - id: football-2431387
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Avaí"
+            score: "0"
+          - name: "Sport Recife"
+            score: "0"
+      - id: football-2431390
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Fortaleza"
+            score: "0"
+          - name: "São Bernardo"
+            score: "0"
+      - id: football-2558747
+        competition: "CONCACAF Caribbean Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Delfines del Este"
+            score: "0"
+          - name: "Violette"
+            score: "0"
       - id: football-2481124
         competition: "Colombia Categoría Primera A"
         state: live
         stateLabel: "Live"
         teams:
           - name: "Rionegro Águilas"
-            score: "0"
+            score: "1"
           - name: "Llaneros"
             score: "1"
-            active: true
-      - id: football-2497976
-        competition: "Copa Venezuela"
+      - id: football-2540102
+        competition: "Copa Argentina"
         state: live
-        stateLabel: "Live"
+        stateLabel: "39'"
         teams:
-          - name: "Aragua"
-            score: "0"
-          - name: "Barquisimeto"
+          - name: "Racing Club"
             score: "1"
             active: true
-      - id: football-2497973
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Monagas"
-            score: "1"
-            active: true
-          - name: "Mineros de Guayana"
-            score: "0"
-      - id: football-2497218
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cobán Imperial"
-            score: "0"
-          - name: "Antigua"
-            score: "0"
-      - id: football-2423362
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "New York City FC II"
-            score: "3"
-            active: true
-          - name: "FC Cincinnati 2"
-            score: "0"
-      - id: football-2404924
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Chacarita Juniors"
-            score: "0"
-          - name: "Güemes"
+          - name: "Belgrano"
             score: "0"
 
   - name: Cricket
