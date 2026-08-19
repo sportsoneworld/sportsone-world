@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 19:35 IST"
+updated: "19 Aug 2026, 21:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,28 +23,30 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2569199
-        competition: "ASEAN Championship"
+      - id: football-2558139
+        competition: "Greek Football Cup"
         state: live
-        stateLabel: "46'"
+        stateLabel: "73'"
         teams:
-          - name: "Vietnam"
-            score: "0"
-          - name: "Malaysia"
-            score: "0"
+          - name: "Kalamata"
+            score: "3"
+            active: true
+          - name: "Panetolikos"
+            score: "1"
       - id: football-2558143
         competition: "Greek Football Cup"
         state: live
-        stateLabel: "3'"
+        stateLabel: "89'"
         teams:
           - name: "Nestos Chrysoupoli"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Apollon Kalamarias"
             score: "0"
       - id: football-2558140
         competition: "Greek Football Cup"
         state: live
-        stateLabel: "5'"
+        stateLabel: "Live"
         teams:
           - name: "Niki Volos"
             score: "0"
@@ -53,31 +55,32 @@ sports:
       - id: football-2558141
         competition: "Greek Football Cup"
         state: live
-        stateLabel: "6'"
+        stateLabel: "Live"
         teams:
           - name: "Zakynthos"
-            score: "0"
+            score: "1"
           - name: "Kifisia"
+            score: "6"
+            active: true
+      - id: football-2539665
+        competition: "Hungarian NB III Northeast"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Diósgyőr II"
+            score: "0"
+          - name: "Debrecen II"
             score: "0"
       - id: football-2473795
         competition: "Kazakhstan Cup"
         state: live
-        stateLabel: "5'"
-        teams:
-          - name: "Jeńis"
-            score: "0"
-          - name: "Kaisar Kyzylorda"
-            score: "0"
-      - id: football-2473794
-        competition: "Kazakhstan Cup"
-        state: live
         stateLabel: "Live"
         teams:
-          - name: "Altai Öskemen"
-            score: "1"
-          - name: "Ordabasy Shymkent"
-            score: "2"
+          - name: "Jeńis"
+            score: "3"
             active: true
+          - name: "Kaisar Kyzylorda"
+            score: "2"
 
   - name: Cricket
     matches:
