@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 22:30 IST"
+updated: "19 Aug 2026, 23:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -33,53 +33,55 @@ sports:
             active: true
           - name: "Baranovichi"
             score: "0"
-      - id: football-2578499
+      - id: football-2566569
         competition: "Club Friendlies"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Krasava Odintsovo"
+          - name: "La Calzada"
             score: "0"
-          - name: "AEL Limassol"
+          - name: "Mirandés"
+            score: "0"
+      - id: football-2568383
+        competition: "Copa Paraguay"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Deportivo Obrero"
+            score: "0"
+          - name: "Fernando de la Mora"
             score: "1"
             active: true
-      - id: football-2566656
-        competition: "Denmark DBU Pokalen"
+      - id: football-2522892
+        competition: "Denmark A-Liga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "ASA Fodbold"
+          - name: "Brøndby Women"
             score: "0"
-          - name: "Randers FC"
-            score: "0"
-      - id: football-2440391
-        competition: "Estonian Esiliiga B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Levadia U19 Tallinn"
+          - name: "Køge Women"
             score: "1"
             active: true
-          - name: "Narva U21 Trans"
-            score: "0"
-      - id: football-2531244
-        competition: "German Regionalliga Nord"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Werder Bremen II"
-            score: "0"
-          - name: "Weiche Flensburg 08"
-            score: "0"
-      - id: football-2558138
-        competition: "Greek Football Cup"
+      - id: football-2522894
+        competition: "Denmark A-Liga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Panserraikos"
+          - name: "KoldingQ"
+            score: "2"
+            active: true
+          - name: "Odense Q"
             score: "1"
-          - name: "Panthrakikos"
-            score: "1"
+      - id: football-2522893
+        competition: "Denmark A-Liga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Fortuna Hjørring"
+            score: "2"
+            active: true
+          - name: "AGF Women"
+            score: "0"
 
   - name: Cricket
     matches:
