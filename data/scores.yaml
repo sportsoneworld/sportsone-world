@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 05:16 IST"
+updated: "19 Aug 2026, 08:43 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,77 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431392
+      - id: football-2479179
+        competition: "CONCACAF Central American Cup"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Real Estelí"
+            score: "0"
+          - name: "Herediano"
+            score: "0"
+      - id: football-2479178
+        competition: "CONCACAF Central American Cup"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Xelajú"
+            score: "0"
+          - name: "Diriangén"
+            score: "0"
+      - id: football-2431391
         competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "Londrina"
-            score: "0"
-          - name: "Atlético Goianiense"
-            score: "0"
-      - id: football-2558746
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "78'"
-        teams:
-          - name: "Mount Pleasant"
-            score: "1"
-          - name: "Cibao"
-            score: "1"
-      - id: football-2478540
-        competition: "Copa Libertadores"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Independiente Rivadavia"
-            score: "0"
-          - name: "Fluminense"
-            score: "1"
-            active: true
-      - id: football-2540495
-        competition: "Copa Paulista"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Comercial"
-            score: "0"
-          - name: "XV de Novembro"
-            score: "1"
-            active: true
-      - id: football-2554154
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Recoleta"
-            score: "0"
-          - name: "Boca Juniors"
-            score: "4"
-            active: true
-      - id: football-2408553
-        competition: "Argentinian Primera C"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Claypole"
+          - name: "Goiás"
+            score: "0"
+          - name: "Juventude"
             score: "1"
             active: true
-          - name: "Mercedes"
+      - id: football-2431393
+        competition: "Brazilian Serie B"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Náutico"
+            score: "1"
+            active: true
+          - name: "Ceará"
             score: "0"
+      - id: football-2479177
+        competition: "CONCACAF Central American Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Cartaginés"
+            score: "4"
+            active: true
+          - name: "Verdes"
+            score: "0"
+      - id: football-2479766
+        competition: "Copa Argentina"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Banfield"
+            score: "2"
+          - name: "Ferrocarril Midland"
+            score: "2"
 
   - name: Cricket
     matches:
-      - id: cricket-2578468
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Jamaica Kingsmen"
-            score: "–"
-            detail: "23:00"
-          - name: "St Kitts and Nevis Patriots"
-            score: "–"
       - id: cricket-2578469
         competition: "Caribbean Premier League"
         state: upcoming
@@ -103,6 +92,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Guyana Amazon Warriors"
+            score: "–"
+      - id: cricket-2578471
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Saint Lucia Kings"
+            score: "–"
+            detail: "23:00"
+          - name: "Jamaica Kingsmen"
             score: "–"
       - id: cricket-2465886
         competition: "English County Championship Division 1"
