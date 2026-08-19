@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 02:28 IST"
+updated: "20 Aug 2026, 03:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,55 +23,16 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481412
-        competition: "Colombian Categoría Primera B"
+      - id: football-2481124
+        competition: "Colombia Categoría Primera A"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Tigres FC"
-            score: "2"
-            active: true
-          - name: "Envigado"
-            score: "1"
-      - id: football-2568384
-        competition: "Copa Paraguay"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Paraguarí"
+          - name: "Rionegro Águilas"
             score: "0"
-          - name: "Sportivo Luqueño"
+          - name: "Llaneros"
             score: "1"
             active: true
-      - id: football-2497978
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Atlético El Vigía"
-            score: "3"
-            active: true
-          - name: "Real Frontera"
-            score: "1"
-      - id: football-2497982
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Atlético Barinas"
-            score: "2"
-            active: true
-          - name: "Zamora FC"
-            score: "1"
-      - id: football-2497973
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Monagas"
-            score: "0"
-          - name: "Mineros de Guayana"
-            score: "0"
       - id: football-2497976
         competition: "Copa Venezuela"
         state: live
@@ -80,6 +41,45 @@ sports:
           - name: "Aragua"
             score: "0"
           - name: "Barquisimeto"
+            score: "1"
+            active: true
+      - id: football-2497973
+        competition: "Copa Venezuela"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Monagas"
+            score: "1"
+            active: true
+          - name: "Mineros de Guayana"
+            score: "0"
+      - id: football-2497218
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Cobán Imperial"
+            score: "0"
+          - name: "Antigua"
+            score: "0"
+      - id: football-2423362
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "New York City FC II"
+            score: "3"
+            active: true
+          - name: "FC Cincinnati 2"
+            score: "0"
+      - id: football-2404924
+        competition: "Argentinian Primera B Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Chacarita Juniors"
+            score: "0"
+          - name: "Güemes"
             score: "0"
 
   - name: Cricket
