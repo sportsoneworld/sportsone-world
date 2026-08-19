@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 15:24 IST"
+updated: "19 Aug 2026, 16:28 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,57 @@ sports:
       - id: football-2572734
         competition: "Australia Cup"
         state: live
-        stateLabel: "21'"
+        stateLabel: "68'"
         teams:
           - name: "APIA Leichhardt"
             score: "0"
           - name: "Melbourne Victory"
             score: "0"
+      - id: football-2432738
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Preston Lions"
+            score: "0"
+          - name: "Melbourne City Youth"
+            score: "0"
+      - id: football-2578498
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "Long An"
+            score: "0"
+          - name: "Becamex Hồ Chí Minh City"
+            score: "0"
       - id: football-2566567
         competition: "Club Friendlies"
         state: live
-        stateLabel: "23'"
+        stateLabel: "70'"
         teams:
           - name: "Alcalá"
-            score: "0"
-          - name: "Gimnástica Segoviana"
-            score: "0"
-      - id: football-2578497
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Elche Ilicitano"
-            score: "2"
-            active: true
-          - name: "Cartagena"
-            score: "0"
-      - id: football-2540513
-        competition: "Hungarian NB III Southeast"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vasas II"
-            score: "2"
-            active: true
-          - name: "Budapest Honvéd II"
-            score: "0"
-      - id: football-2578530
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "Belugarosso Iwami"
             score: "1"
             active: true
-          - name: "Nagasaki International University"
+          - name: "Gimnástica Segoviana"
             score: "0"
-      - id: football-2578534
-        competition: "Japan Emperors Cup"
+      - id: football-2552849
+        competition: "FA Cup"
         state: live
-        stateLabel: "19'"
+        stateLabel: "27'"
         teams:
-          - name: "SRC Hiroshima"
+          - name: "FC Anyang"
             score: "0"
-          - name: "Maruyasu Okazaki"
+          - name: "Jeju SK"
+            score: "0"
+      - id: football-2552850
+        competition: "FA Cup"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Busan IPark"
+            score: "0"
+          - name: "Bucheon FC 1995"
             score: "0"
 
   - name: Cricket
