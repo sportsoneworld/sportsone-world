@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 11:33 IST"
+updated: "19 Aug 2026, 13:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,24 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2479179
-        competition: "CONCACAF Central American Cup"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2578497
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "4'"
         teams:
-          - name: "Real Estelí"
+          - name: "Elche Ilicitano"
             score: "0"
-          - name: "Herediano"
-            score: "2"
-            active: true
+          - name: "Cartagena"
+            score: "0"
+      - id: football-2578528
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Arterivo Wakayama"
+            score: "0"
+          - name: "Azul Claro Numazu"
+            score: "0"
       - id: football-2407000
         competition: "American Major League Soccer"
         state: upcoming
@@ -72,16 +80,6 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Chattanooga Red Wolves"
-            score: "–"
-      - id: football-2397604
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "00:30"
-        teams:
-          - name: "Corpus Christi FC"
-            score: "–"
-            detail: "00:30"
-          - name: "New York Cosmos"
             score: "–"
 
   - name: Cricket
