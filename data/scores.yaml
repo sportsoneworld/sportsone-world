@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 01:27 IST"
+updated: "20 Aug 2026, 02:28 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2404924
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Chacarita Juniors"
-            score: "0"
-          - name: "Güemes"
-            score: "0"
-      - id: football-2549460
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Barcelona"
-            score: "2"
-            active: true
-          - name: "Al Ahly"
-            score: "1"
-      - id: football-2549459
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Ponferradina"
-            score: "2"
-          - name: "Real Madrid Castilla"
-            score: "2"
       - id: football-2481412
         competition: "Colombian Categoría Primera B"
         state: live
         stateLabel: "Live"
         teams:
           - name: "Tigres FC"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Envigado"
             score: "1"
       - id: football-2568384
         competition: "Copa Paraguay"
         state: live
-        stateLabel: "26'"
+        stateLabel: "71'"
         teams:
           - name: "Paraguarí"
             score: "0"
           - name: "Sportivo Luqueño"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2497978
         competition: "Copa Venezuela"
         state: live
-        stateLabel: "26'"
+        stateLabel: "70'"
         teams:
           - name: "Atlético El Vigía"
-            score: "1"
+            score: "3"
+            active: true
           - name: "Real Frontera"
             score: "1"
+      - id: football-2497982
+        competition: "Copa Venezuela"
+        state: live
+        stateLabel: "71'"
+        teams:
+          - name: "Atlético Barinas"
+            score: "2"
+            active: true
+          - name: "Zamora FC"
+            score: "1"
+      - id: football-2497973
+        competition: "Copa Venezuela"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Monagas"
+            score: "0"
+          - name: "Mineros de Guayana"
+            score: "0"
+      - id: football-2497976
+        competition: "Copa Venezuela"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Aragua"
+            score: "0"
+          - name: "Barquisimeto"
+            score: "0"
 
   - name: Cricket
     matches:
