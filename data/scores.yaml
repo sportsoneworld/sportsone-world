@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 23:27 IST"
+updated: "20 Aug 2026, 00:42 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437841
-        competition: "Belarus Vyscha Liga"
+      - id: football-2404924
+        competition: "Argentinian Primera B Nacional"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Maxline Vitebsk"
-            score: "2"
-            active: true
-          - name: "Baranovichi"
+          - name: "Chacarita Juniors"
             score: "0"
-      - id: football-2566569
+          - name: "Güemes"
+            score: "0"
+      - id: football-2549458
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "57'"
+        teams:
+          - name: "Coruxo"
+            score: "1"
+            active: true
+          - name: "Pontevedra"
+            score: "0"
+      - id: football-2549460
         competition: "Club Friendlies"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "La Calzada"
-            score: "0"
-          - name: "Mirandés"
-            score: "0"
-      - id: football-2568383
-        competition: "Copa Paraguay"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Deportivo Obrero"
-            score: "0"
-          - name: "Fernando de la Mora"
-            score: "1"
-            active: true
-      - id: football-2522892
-        competition: "Denmark A-Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Brøndby Women"
-            score: "0"
-          - name: "Køge Women"
-            score: "1"
-            active: true
-      - id: football-2522894
-        competition: "Denmark A-Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "KoldingQ"
+          - name: "Barcelona"
             score: "2"
             active: true
-          - name: "Odense Q"
-            score: "1"
-      - id: football-2522893
-        competition: "Denmark A-Liga"
+          - name: "Al Ahly"
+            score: "0"
+      - id: football-2549459
+        competition: "Club Friendlies"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Fortuna Hjørring"
+          - name: "Ponferradina"
+            score: "1"
+          - name: "Real Madrid Castilla"
             score: "2"
             active: true
-          - name: "AGF Women"
+      - id: football-2481412
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Tigres FC"
             score: "0"
+          - name: "Envigado"
+            score: "0"
+      - id: football-2531861
+        competition: "EFL Trophy"
+        state: live
+        stateLabel: "53'"
+        teams:
+          - name: "Mansfield Town"
+            score: "0"
+          - name: "Manchester City U21"
+            score: "3"
+            active: true
 
   - name: Cricket
     matches:
