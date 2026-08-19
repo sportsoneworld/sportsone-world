@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 04:24 IST"
+updated: "20 Aug 2026, 05:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419884
-        competition: "American NWSL"
+      - id: football-2406993
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "16'"
+        stateLabel: "7'"
         teams:
-          - name: "Racing Louisville"
+          - name: "Philadelphia Union"
             score: "0"
-          - name: "Seattle Reign"
+          - name: "Inter Miami"
             score: "0"
-      - id: football-2431387
-        competition: "Brazilian Serie B"
+      - id: football-2406994
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "21'"
+        stateLabel: "7'"
         teams:
-          - name: "Avaí"
+          - name: "FC Cincinnati"
             score: "0"
-          - name: "Sport Recife"
+          - name: "New York City FC"
             score: "0"
-      - id: football-2431390
-        competition: "Brazilian Serie B"
+      - id: football-2406995
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "24'"
+        stateLabel: "7'"
         teams:
-          - name: "Fortaleza"
+          - name: "Columbus Crew"
             score: "0"
-          - name: "São Bernardo"
-            score: "0"
-      - id: football-2558747
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Delfines del Este"
-            score: "0"
-          - name: "Violette"
-            score: "0"
-      - id: football-2481124
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Rionegro Águilas"
-            score: "1"
-          - name: "Llaneros"
-            score: "1"
-      - id: football-2540102
-        competition: "Copa Argentina"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "Racing Club"
+          - name: "CF Montréal"
             score: "1"
             active: true
-          - name: "Belgrano"
+      - id: football-2406996
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "New York Red Bulls"
+            score: "0"
+          - name: "Nashville SC"
+            score: "0"
+      - id: football-2406997
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Orlando City"
+            score: "0"
+          - name: "Chicago Fire"
+            score: "1"
+            active: true
+      - id: football-2406998
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Toronto FC"
+            score: "0"
+          - name: "Charlotte FC"
             score: "0"
 
   - name: Cricket
