@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Aug 2026, 08:43 IST"
+updated: "19 Aug 2026, 10:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,60 +26,63 @@ sports:
       - id: football-2479179
         competition: "CONCACAF Central American Cup"
         state: live
-        stateLabel: "7'"
+        stateLabel: "Live"
         teams:
           - name: "Real Estelí"
             score: "0"
           - name: "Herediano"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2479178
         competition: "CONCACAF Central American Cup"
-        state: live
-        stateLabel: "7'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Xelajú"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Diriangén"
             score: "0"
-      - id: football-2431391
-        competition: "Brazilian Serie B"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2407000
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:00"
         teams:
-          - name: "Goiás"
-            score: "0"
-          - name: "Juventude"
-            score: "1"
-            active: true
-      - id: football-2431393
-        competition: "Brazilian Serie B"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Sporting Kansas City"
+            score: "–"
+            detail: "00:00"
+          - name: "St. Louis City SC"
+            score: "–"
+      - id: football-2397275
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
         teams:
-          - name: "Náutico"
-            score: "1"
-            active: true
-          - name: "Ceará"
-            score: "0"
-      - id: football-2479177
-        competition: "CONCACAF Central American Cup"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Phoenix Rising"
+            score: "–"
+            detail: "02:00"
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+      - id: football-2397605
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Cartaginés"
-            score: "4"
-            active: true
-          - name: "Verdes"
-            score: "0"
-      - id: football-2479766
-        competition: "Copa Argentina"
-        state: completed
-        stateLabel: "Full time"
+          - name: "One Knoxville"
+            score: "–"
+            detail: "23:00"
+          - name: "Portland Hearts of Pine"
+            score: "–"
+      - id: football-2397606
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Banfield"
-            score: "2"
-          - name: "Ferrocarril Midland"
-            score: "2"
+          - name: "Sarasota Paradise"
+            score: "–"
+            detail: "23:30"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
 
   - name: Cricket
     matches:
