@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 03:28 IST"
+updated: "21 Aug 2026, 04:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481415
+      - id: football-2431386
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Athletic Club-MG"
+            score: "0"
+          - name: "CRB"
+            score: "0"
+      - id: football-2481770
+        competition: "CONCACAF Caribbean Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Defence Force"
+            score: "0"
+          - name: "Broki"
+            score: "1"
+            active: true
+      - id: football-2481413
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "66'"
+        stateLabel: "13'"
         teams:
-          - name: "Real Santander"
+          - name: "Real Cartagena"
+            score: "0"
+          - name: "Bogotá"
+            score: "0"
+      - id: football-2481411
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Itagüí Leones"
+            score: "0"
+          - name: "Real Cundinamarca"
             score: "1"
-          - name: "Barranquilla"
+            active: true
+      - id: football-2478542
+        competition: "Copa Libertadores"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "LDU Quito"
+            score: "0"
+          - name: "Mirassol"
+            score: "0"
+      - id: football-2553252
+        competition: "Copa Sudamericana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Club Olimpia"
+            score: "1"
+          - name: "Vasco da Gama"
             score: "2"
             active: true
-      - id: football-2580344
-        competition: "Copa Ecuador"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Juventud Italiana"
-            score: "0"
-          - name: "Delfín"
-            score: "1"
-            active: true
-      - id: football-2439385
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "67'"
-        teams:
-          - name: "Cuenca Juniors"
-            score: "0"
-          - name: "Gualaceo"
-            score: "1"
-            active: true
-      - id: football-2439386
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "69'"
-        teams:
-          - name: "Independiente Juniors"
-            score: "1"
-          - name: "El Nacional"
-            score: "1"
-      - id: football-2439388
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "San Antonio FC"
-            score: "0"
-          - name: "9 de Octubre"
-            score: "0"
-      - id: football-2407000
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Sporting Kansas City"
-            score: "1"
-          - name: "St. Louis City SC"
-            score: "1"
 
   - name: Cricket
     matches:
