@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 15:25 IST"
+updated: "20 Aug 2026, 16:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,15 +23,46 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2521171
+        competition: "AFC Womens Champions League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Phnom Penh Crown Women"
+            score: "0"
+          - name: "Kaya–Iloilo Women"
+            score: "1"
+            active: true
+      - id: football-2559131
+        competition: "Bhutan Premier League"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Paro"
+            score: "1"
+            active: true
+          - name: "Royal Thimphu College"
+            score: "0"
       - id: football-2429164
         competition: "Estonian Esiliiga"
         state: live
-        stateLabel: "24'"
+        stateLabel: "76'"
         teams:
           - name: "Elva"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Maardu Linnameeskond"
             score: "0"
+      - id: football-2452389
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Tobol-M"
+            score: "0"
+          - name: "Khan Tengri"
+            score: "3"
+            active: true
       - id: football-2407000
         competition: "American Major League Soccer"
         state: completed
@@ -51,36 +82,6 @@ sports:
             active: true
           - name: "Colorado Springs Switchbacks"
             score: "1"
-      - id: football-2397604
-        competition: "American USL League One"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Corpus Christi FC"
-            score: "0"
-          - name: "New York Cosmos"
-            score: "2"
-            active: true
-      - id: football-2397277
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2397278
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Charleston Battery"
-            score: "–"
-            detail: "23:30"
-          - name: "Miami FC"
-            score: "–"
 
   - name: Cricket
     matches:
