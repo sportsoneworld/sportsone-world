@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 21:31 IST"
+updated: "20 Aug 2026, 23:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2521170
-        competition: "AFC Womens Champions League"
+      - id: football-2568385
+        competition: "Copa Paraguay"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Royal Thimphu College Women"
-            score: "0"
-          - name: "Sevinch"
+          - name: "Humaitá"
+            score: "1"
+          - name: "2 de Mayo"
+            score: "1"
+      - id: football-2488365
+        competition: "Danish 1st Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Vendsyssel"
             score: "1"
             active: true
-      - id: football-2437837
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Dinamo Minsk"
+          - name: "Hillerød"
             score: "0"
-          - name: "Torpedo-BelAZ Zhodino"
-            score: "0"
-      - id: football-2462228
-        competition: "Finnish Ykkösliiga"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "KäPa"
-            score: "0"
-          - name: "JIPPO"
-            score: "0"
-      - id: football-2440599
+      - id: football-2440597
         competition: "Georgian Liga 3"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Locomotive Tbilisi"
+          - name: "Iveria Khashuri"
+            score: "1"
+          - name: "Dinamo-2 Tbilisi"
+            score: "4"
+            active: true
+      - id: football-2546084
+        competition: "Qatar Stars League"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Al-Rayyan"
+            score: "1"
+            active: true
+          - name: "Lusail"
+            score: "0"
+      - id: football-2514813
+        competition: "Russian Football National League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Neftekhimik Nizhnekamsk"
+            score: "1"
+          - name: "Sochi"
             score: "2"
             active: true
-          - name: "Gonio"
-            score: "0"
-      - id: football-2578632
-        competition: "Iraqi Premier League"
+      - id: football-2478700
+        competition: "Svenska Cupen"
         state: live
-        stateLabel: "29'"
+        stateLabel: "61'"
         teams:
-          - name: "Naft Maysan"
-            score: "0"
-          - name: "Al-Naft"
-            score: "0"
-      - id: football-2578633
-        competition: "Iraqi Premier League"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Ghaz Al-Shamal"
-            score: "0"
-          - name: "Al-Kahrabaa"
-            score: "0"
+          - name: "Vasalund"
+            score: "1"
+          - name: "Norrköping"
+            score: "1"
 
   - name: Cricket
     matches:
