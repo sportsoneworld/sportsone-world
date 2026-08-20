@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 16:32 IST"
+updated: "20 Aug 2026, 17:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,45 +23,51 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2521171
-        competition: "AFC Womens Champions League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Phnom Penh Crown Women"
-            score: "0"
-          - name: "Kaya–Iloilo Women"
-            score: "1"
-            active: true
-      - id: football-2559131
-        competition: "Bhutan Premier League"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Paro"
-            score: "1"
-            active: true
-          - name: "Royal Thimphu College"
-            score: "0"
-      - id: football-2429164
+      - id: football-2429166
         competition: "Estonian Esiliiga"
         state: live
-        stateLabel: "76'"
+        stateLabel: "2'"
         teams:
-          - name: "Elva"
-            score: "1"
-            active: true
-          - name: "Maardu Linnameeskond"
+          - name: "Nõmme Kalju U21"
             score: "0"
-      - id: football-2452389
+          - name: "Tallinna Kalev"
+            score: "0"
+      - id: football-2440392
+        competition: "Estonian Esiliiga B"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Jõhvi Phoenix"
+            score: "0"
+          - name: "Tabasalu"
+            score: "0"
+      - id: football-2440393
+        competition: "Estonian Esiliiga B"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Pärnu U21 Vaprus"
+            score: "0"
+          - name: "Viljandi Tulevik"
+            score: "0"
+      - id: football-2452390
         competition: "Kazakhstan First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "2'"
         teams:
-          - name: "Tobol-M"
+          - name: "Yelimay-M Semey"
             score: "0"
-          - name: "Khan Tengri"
-            score: "3"
+          - name: "Aktobe-2"
+            score: "0"
+      - id: football-2521171
+        competition: "AFC Womens Champions League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Phnom Penh Crown Women"
+            score: "1"
+          - name: "Kaya–Iloilo Women"
+            score: "5"
             active: true
       - id: football-2407000
         competition: "American Major League Soccer"
@@ -71,16 +77,6 @@ sports:
           - name: "Sporting Kansas City"
             score: "1"
           - name: "St. Louis City SC"
-            score: "1"
-      - id: football-2397275
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Phoenix Rising"
-            score: "3"
-            active: true
-          - name: "Colorado Springs Switchbacks"
             score: "1"
 
   - name: Cricket
