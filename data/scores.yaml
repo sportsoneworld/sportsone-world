@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 19:49 IST"
+updated: "20 Aug 2026, 21:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2440596
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "48'"
-        teams:
-          - name: "Iberia 2010"
-            score: "0"
-          - name: "Tbilisi 2025"
-            score: "0"
-      - id: football-2440600
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "55'"
-        teams:
-          - name: "Margveti 2006 Zestaponi"
-            score: "0"
-          - name: "Orbi Tbilisi"
-            score: "1"
-            active: true
-      - id: football-2440598
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "57'"
-        teams:
-          - name: "Kolkheti Khobi"
-            score: "2"
-          - name: "WIT Georgia"
-            score: "2"
-      - id: football-2546083
-        competition: "Qatar Stars League"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "Al-Wakrah"
-            score: "0"
-          - name: "Qatar SC"
-            score: "0"
-      - id: football-2426743
-        competition: "Uzbekistan Super League"
-        state: live
-        stateLabel: "18'"
-        teams:
-          - name: "Bunyodkor"
-            score: "0"
-          - name: "Kokand-1912"
-            score: "1"
-            active: true
-      - id: football-2521169
+      - id: football-2521170
         competition: "AFC Womens Champions League"
-        state: completed
-        stateLabel: "Full time"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Al-Nassr Women"
+          - name: "Royal Thimphu College Women"
+            score: "0"
+          - name: "Sevinch"
             score: "1"
-          - name: "Bam Khatoon"
-            score: "1"
+            active: true
+      - id: football-2437837
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Dinamo Minsk"
+            score: "0"
+          - name: "Torpedo-BelAZ Zhodino"
+            score: "0"
+      - id: football-2462228
+        competition: "Finnish Ykkösliiga"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "KäPa"
+            score: "0"
+          - name: "JIPPO"
+            score: "0"
+      - id: football-2440599
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Locomotive Tbilisi"
+            score: "2"
+            active: true
+          - name: "Gonio"
+            score: "0"
+      - id: football-2578632
+        competition: "Iraqi Premier League"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Naft Maysan"
+            score: "0"
+          - name: "Al-Naft"
+            score: "0"
+      - id: football-2578633
+        competition: "Iraqi Premier League"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Ghaz Al-Shamal"
+            score: "0"
+          - name: "Al-Kahrabaa"
+            score: "0"
 
   - name: Cricket
     matches:
