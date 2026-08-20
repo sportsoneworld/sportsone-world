@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 17:32 IST"
+updated: "20 Aug 2026, 19:49 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2429166
-        competition: "Estonian Esiliiga"
+      - id: football-2440596
+        competition: "Georgian Liga 3"
         state: live
-        stateLabel: "2'"
+        stateLabel: "48'"
         teams:
-          - name: "Nõmme Kalju U21"
+          - name: "Iberia 2010"
             score: "0"
-          - name: "Tallinna Kalev"
+          - name: "Tbilisi 2025"
             score: "0"
-      - id: football-2440392
-        competition: "Estonian Esiliiga B"
+      - id: football-2440600
+        competition: "Georgian Liga 3"
         state: live
-        stateLabel: "2'"
+        stateLabel: "55'"
         teams:
-          - name: "Jõhvi Phoenix"
+          - name: "Margveti 2006 Zestaponi"
             score: "0"
-          - name: "Tabasalu"
-            score: "0"
-      - id: football-2440393
-        competition: "Estonian Esiliiga B"
+          - name: "Orbi Tbilisi"
+            score: "1"
+            active: true
+      - id: football-2440598
+        competition: "Georgian Liga 3"
         state: live
-        stateLabel: "2'"
+        stateLabel: "57'"
         teams:
-          - name: "Pärnu U21 Vaprus"
-            score: "0"
-          - name: "Viljandi Tulevik"
-            score: "0"
-      - id: football-2452390
-        competition: "Kazakhstan First League"
+          - name: "Kolkheti Khobi"
+            score: "2"
+          - name: "WIT Georgia"
+            score: "2"
+      - id: football-2546083
+        competition: "Qatar Stars League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "4'"
         teams:
-          - name: "Yelimay-M Semey"
+          - name: "Al-Wakrah"
             score: "0"
-          - name: "Aktobe-2"
+          - name: "Qatar SC"
             score: "0"
-      - id: football-2521171
+      - id: football-2426743
+        competition: "Uzbekistan Super League"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Bunyodkor"
+            score: "0"
+          - name: "Kokand-1912"
+            score: "1"
+            active: true
+      - id: football-2521169
         competition: "AFC Womens Champions League"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Phnom Penh Crown Women"
+          - name: "Al-Nassr Women"
             score: "1"
-          - name: "Kaya–Iloilo Women"
-            score: "5"
-            active: true
-      - id: football-2407000
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Sporting Kansas City"
-            score: "1"
-          - name: "St. Louis City SC"
+          - name: "Bam Khatoon"
             score: "1"
 
   - name: Cricket
