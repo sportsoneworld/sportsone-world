@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 01:13 IST"
+updated: "21 Aug 2026, 02:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2481415
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Real Santander"
+            score: "0"
+          - name: "Barranquilla"
+            score: "1"
+            active: true
+      - id: football-2580343
+        competition: "Copa Ecuador"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Juventud Italiana"
+            score: "0"
+          - name: "Delfín"
+            score: "0"
+      - id: football-2580344
+        competition: "Copa Ecuador"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Juventud Italiana"
+            score: "0"
+          - name: "Delfín"
+            score: "0"
       - id: football-2568386
         competition: "Copa Paraguay"
         state: live
-        stateLabel: "13'"
+        stateLabel: "73'"
         teams:
           - name: "Tacuary"
             score: "0"
           - name: "Club Libertad"
             score: "0"
-      - id: football-2439384
+      - id: football-2439385
         competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "43'"
+        stateLabel: "30'"
         teams:
-          - name: "Atlético FC"
-            score: "3"
-            active: true
-          - name: "Cumbayá"
+          - name: "Cuenca Juniors"
             score: "0"
-      - id: football-2500711
-        competition: "English League 1"
+          - name: "Gualaceo"
+            score: "0"
+      - id: football-2439386
+        competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "42'"
+        stateLabel: "30'"
         teams:
-          - name: "Sheffield Wednesday"
+          - name: "Independiente Juniors"
             score: "0"
-          - name: "Bradford City"
-            score: "0"
-      - id: football-2508539
-        competition: "French Ligue 3"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Rouen"
-            score: "2"
-            active: true
-          - name: "Quevilly-Rouen Métropole"
-            score: "0"
-      - id: football-2508540
-        competition: "French Ligue 3"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Paris 13 Atletico"
-            score: "1"
-            active: true
-          - name: "Valenciennes"
-            score: "0"
-      - id: football-2508541
-        competition: "French Ligue 3"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "VFC La Roche-sur-Yon"
-            score: "1"
-            active: true
-          - name: "Cannes"
+          - name: "El Nacional"
             score: "0"
 
   - name: Cricket
