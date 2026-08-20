@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 04:29 IST"
+updated: "21 Aug 2026, 05:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,32 +23,44 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2431394
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Novorizontino"
+            score: "1"
+            active: true
+          - name: "América Mineiro"
+            score: "0"
       - id: football-2431386
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "30'"
+        stateLabel: "66'"
         teams:
           - name: "Athletic Club-MG"
             score: "0"
           - name: "CRB"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2481770
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "88'"
         teams:
           - name: "Defence Force"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Broki"
             score: "1"
-            active: true
       - id: football-2481413
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "13'"
+        stateLabel: "49'"
         teams:
           - name: "Real Cartagena"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Bogotá"
             score: "0"
       - id: football-2481411
@@ -57,10 +69,9 @@ sports:
         stateLabel: "Live"
         teams:
           - name: "Itagüí Leones"
-            score: "0"
+            score: "1"
           - name: "Real Cundinamarca"
             score: "1"
-            active: true
       - id: football-2478542
         competition: "Copa Libertadores"
         state: live
@@ -70,16 +81,6 @@ sports:
             score: "0"
           - name: "Mirassol"
             score: "0"
-      - id: football-2553252
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Club Olimpia"
-            score: "1"
-          - name: "Vasco da Gama"
-            score: "2"
-            active: true
 
   - name: Cricket
     matches:
