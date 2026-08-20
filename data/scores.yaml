@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 23:19 IST"
+updated: "21 Aug 2026, 01:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2568385
+      - id: football-2568386
         competition: "Copa Paraguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "13'"
         teams:
-          - name: "Humaitá"
-            score: "1"
-          - name: "2 de Mayo"
-            score: "1"
-      - id: football-2488365
-        competition: "Danish 1st Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vendsyssel"
-            score: "1"
-            active: true
-          - name: "Hillerød"
+          - name: "Tacuary"
             score: "0"
-      - id: football-2440597
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Iveria Khashuri"
-            score: "1"
-          - name: "Dinamo-2 Tbilisi"
-            score: "4"
-            active: true
-      - id: football-2546084
-        competition: "Qatar Stars League"
-        state: live
-        stateLabel: "59'"
-        teams:
-          - name: "Al-Rayyan"
-            score: "1"
-            active: true
-          - name: "Lusail"
+          - name: "Club Libertad"
             score: "0"
-      - id: football-2514813
-        competition: "Russian Football National League"
+      - id: football-2439384
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Atlético FC"
+            score: "3"
+            active: true
+          - name: "Cumbayá"
+            score: "0"
+      - id: football-2500711
+        competition: "English League 1"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "Sheffield Wednesday"
+            score: "0"
+          - name: "Bradford City"
+            score: "0"
+      - id: football-2508539
+        competition: "French Ligue 3"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Neftekhimik Nizhnekamsk"
-            score: "1"
-          - name: "Sochi"
+          - name: "Rouen"
             score: "2"
             active: true
-      - id: football-2478700
-        competition: "Svenska Cupen"
+          - name: "Quevilly-Rouen Métropole"
+            score: "0"
+      - id: football-2508540
+        competition: "French Ligue 3"
         state: live
-        stateLabel: "61'"
+        stateLabel: "Live"
         teams:
-          - name: "Vasalund"
+          - name: "Paris 13 Atletico"
             score: "1"
-          - name: "Norrköping"
+            active: true
+          - name: "Valenciennes"
+            score: "0"
+      - id: football-2508541
+        competition: "French Ligue 3"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "VFC La Roche-sur-Yon"
             score: "1"
+            active: true
+          - name: "Cannes"
+            score: "0"
 
   - name: Cricket
     matches:
