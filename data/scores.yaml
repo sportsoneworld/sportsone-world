@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 05:17 IST"
+updated: "20 Aug 2026, 08:42 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,75 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406993
+      - id: football-2407005
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "7'"
+        stateLabel: "32'"
         teams:
-          - name: "Philadelphia Union"
+          - name: "LA Galaxy"
             score: "0"
-          - name: "Inter Miami"
+          - name: "San Jose Earthquakes"
             score: "0"
-      - id: football-2406994
+      - id: football-2407006
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "7'"
+        stateLabel: "32'"
         teams:
-          - name: "FC Cincinnati"
+          - name: "Vancouver Whitecaps"
             score: "0"
-          - name: "New York City FC"
+          - name: "Houston Dynamo"
             score: "0"
-      - id: football-2406995
+      - id: football-2407007
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "7'"
+        stateLabel: "32'"
         teams:
-          - name: "Columbus Crew"
-            score: "0"
-          - name: "CF Montréal"
+          - name: "Portland Timbers"
             score: "1"
             active: true
-      - id: football-2406996
+          - name: "San Diego FC"
+            score: "0"
+      - id: football-2407002
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "7'"
+        stateLabel: "70'"
         teams:
-          - name: "New York Red Bulls"
-            score: "0"
-          - name: "Nashville SC"
-            score: "0"
-      - id: football-2406997
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "7'"
-        teams:
-          - name: "Orlando City"
-            score: "0"
-          - name: "Chicago Fire"
+          - name: "Colorado Rapids"
             score: "1"
             active: true
-      - id: football-2406998
+          - name: "Los Angeles FC"
+            score: "0"
+      - id: football-2407004
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "7'"
+        stateLabel: "71'"
         teams:
-          - name: "Toronto FC"
+          - name: "Real Salt Lake"
+            score: "3"
+          - name: "FC Dallas"
+            score: "3"
+      - id: football-2407003
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "73'"
+        teams:
+          - name: "Seattle Sounders"
             score: "0"
-          - name: "Charlotte FC"
-            score: "0"
+          - name: "Austin FC"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
-      - id: cricket-2578469
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Saint Lucia Kings"
-            score: "–"
-            detail: "23:00"
-          - name: "Guyana Amazon Warriors"
-            score: "–"
       - id: cricket-2578471
         competition: "Caribbean Premier League"
         state: upcoming
@@ -101,6 +92,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Jamaica Kingsmen"
+            score: "–"
+      - id: cricket-2578472
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Antigua and Barbuda Falcons"
+            score: "–"
+            detail: "23:00"
+          - name: "Trinbago Knight Riders"
             score: "–"
       - id: cricket-2465886
         competition: "English County Championship Division 1"
