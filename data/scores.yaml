@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 08:42 IST"
+updated: "20 Aug 2026, 10:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -25,60 +25,62 @@ sports:
     matches:
       - id: football-2407005
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "32'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "LA Galaxy"
-            score: "0"
+            score: "1"
+            active: true
           - name: "San Jose Earthquakes"
             score: "0"
       - id: football-2407006
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "32'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Vancouver Whitecaps"
             score: "0"
           - name: "Houston Dynamo"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2407007
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "32'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Portland Timbers"
-            score: "1"
+            score: "3"
             active: true
           - name: "San Diego FC"
-            score: "0"
-      - id: football-2407002
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Colorado Rapids"
             score: "1"
+      - id: football-2407000
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Sporting Kansas City"
+            score: "1"
+          - name: "St. Louis City SC"
+            score: "1"
+      - id: football-2397275
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Phoenix Rising"
+            score: "3"
             active: true
-          - name: "Los Angeles FC"
-            score: "0"
-      - id: football-2407004
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Real Salt Lake"
-            score: "3"
-          - name: "FC Dallas"
-            score: "3"
-      - id: football-2407003
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Seattle Sounders"
-            score: "0"
-          - name: "Austin FC"
+          - name: "Colorado Springs Switchbacks"
             score: "1"
+      - id: football-2397604
+        competition: "American USL League One"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Corpus Christi FC"
+            score: "0"
+          - name: "New York Cosmos"
+            score: "2"
             active: true
 
   - name: Cricket
