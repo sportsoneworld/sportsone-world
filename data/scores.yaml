@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Aug 2026, 11:33 IST"
+updated: "20 Aug 2026, 15:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2429164
+        competition: "Estonian Esiliiga"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Elva"
+            score: "0"
+          - name: "Maardu Linnameeskond"
+            score: "0"
       - id: football-2407000
         competition: "American Major League Soccer"
         state: completed
@@ -71,16 +80,6 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Miami FC"
-            score: "–"
-      - id: football-2397280
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Tampa Bay Rowdies"
             score: "–"
 
   - name: Cricket
