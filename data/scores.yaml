@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 21:23 IST"
+updated: "21 Aug 2026, 22:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2523501
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Alashkert"
+            score: "0"
+          - name: "Gandzasar"
+            score: "0"
       - id: football-2523502
         competition: "Armenian Premier League"
         state: live
@@ -31,53 +40,44 @@ sports:
           - name: "Ararat Yerevan"
             score: "0"
           - name: "Pyunik Yerevan"
-            score: "0"
-      - id: football-2437845
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Minsk"
-            score: "0"
-          - name: "Vitebsk"
-            score: "1"
-            active: true
-      - id: football-2452137
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "52'"
-        teams:
-          - name: "Molodechno"
-            score: "1"
-          - name: "Soligorsk"
-            score: "1"
-      - id: football-2452133
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Orsha"
-            score: "0"
-          - name: "BATE-2 Borisov"
             score: "2"
             active: true
-      - id: football-2511452
-        competition: "Bulgarian Second League"
+      - id: football-2505250
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "7'"
+        stateLabel: "33'"
         teams:
-          - name: "Lokomotiv Gorna Oryahovitsa"
+          - name: "SKU Amstetten"
             score: "0"
-          - name: "Etar Veliko Tarnovo"
+          - name: "Hertha Wels"
             score: "0"
-      - id: football-2493973
-        competition: "Croatian Druga HNL"
+      - id: football-2505247
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "24'"
+        stateLabel: "34'"
         teams:
-          - name: "Sesvete"
+          - name: "Wacker Innsbruck"
             score: "0"
-          - name: "Karlovac"
+          - name: "SKN St. Polten"
+            score: "0"
+      - id: football-2505251
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "Austria Salzburg"
+            score: "0"
+          - name: "Kapfenberger SV"
+            score: "1"
+            active: true
+      - id: football-2505249
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "FC Liefering"
+            score: "0"
+          - name: "Young Violets Austria Wien"
             score: "0"
 
   - name: Cricket
