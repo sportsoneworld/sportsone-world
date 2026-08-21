@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 05:24 IST"
+updated: "21 Aug 2026, 09:01 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431394
-        competition: "Brazilian Serie B"
+      - id: football-2479184
+        competition: "CONCACAF Central American Cup"
         state: live
-        stateLabel: "24'"
+        stateLabel: "25'"
         teams:
-          - name: "Novorizontino"
-            score: "1"
-            active: true
-          - name: "América Mineiro"
+          - name: "Firpo"
             score: "0"
-      - id: football-2431386
-        competition: "Brazilian Serie B"
+          - name: "Alajuelense"
+            score: "0"
+      - id: football-2423368
+        competition: "MLS Next Pro"
         state: live
-        stateLabel: "66'"
+        stateLabel: "69'"
         teams:
-          - name: "Athletic Club-MG"
-            score: "0"
-          - name: "CRB"
+          - name: "Los Angeles FC II"
             score: "2"
             active: true
-      - id: football-2481770
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "88'"
+          - name: "Sporting Kansas City II"
+            score: "0"
+      - id: football-2479183
+        competition: "CONCACAF Central American Cup"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Defence Force"
+          - name: "Alianza"
+            score: "1"
+          - name: "CD Olimpia"
+            score: "3"
+            active: true
+      - id: football-2553250
+        competition: "Copa Sudamericana"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Botafogo"
+            score: "1"
+            active: true
+          - name: "Cienciano"
+            score: "0"
+      - id: football-2521276
+        competition: "Mexican Liga de Expansión MX"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Tepatitlán"
+            score: "3"
+            active: true
+          - name: "Tlaxcala"
             score: "2"
+      - id: football-2521275
+        competition: "Mexican Liga de Expansión MX"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Atlético Morelia"
+            score: "1"
+          - name: "Correcaminos UAT"
+            score: "3"
             active: true
-          - name: "Broki"
-            score: "1"
-      - id: football-2481413
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "49'"
-        teams:
-          - name: "Real Cartagena"
-            score: "1"
-            active: true
-          - name: "Bogotá"
-            score: "0"
-      - id: football-2481411
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Itagüí Leones"
-            score: "1"
-          - name: "Real Cundinamarca"
-            score: "1"
-      - id: football-2478542
-        competition: "Copa Libertadores"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "LDU Quito"
-            score: "0"
-          - name: "Mirassol"
-            score: "0"
 
   - name: Cricket
     matches:
@@ -104,33 +105,13 @@ sports:
             detail: "23:00"
           - name: "Trinbago Knight Riders"
             score: "–"
-      - id: cricket-2465886
-        competition: "English County Championship Division 1"
+      - id: cricket-2578473
+        competition: "Caribbean Premier League"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "23:00"
         teams:
-          - name: "Surrey"
+          - name: "Antigua and Barbuda Falcons"
             score: "–"
-            detail: "00:00"
-          - name: "Nottinghamshire"
-            score: "–"
-      - id: cricket-2465887
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Warwickshire"
-            score: "–"
-            detail: "00:00"
-          - name: "Sussex"
-            score: "–"
-      - id: cricket-2465888
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Leicestershire"
-            score: "–"
-            detail: "00:00"
-          - name: "Glamorgan"
+            detail: "23:00"
+          - name: "Guyana Amazon Warriors"
             score: "–"
