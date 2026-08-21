@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 19:38 IST"
+updated: "21 Aug 2026, 21:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2561070
-        competition: "Egyptian Premier League"
-        state: live
-        stateLabel: "5'"
-        teams:
-          - name: "Wadi Degla"
-            score: "0"
-          - name: "ZED"
-            score: "0"
-      - id: football-2420076
-        competition: "Georgian Erovnuli Liga"
+      - id: football-2523502
+        competition: "Armenian Premier League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Meshakhte Tkibuli"
+          - name: "Ararat Yerevan"
             score: "0"
-          - name: "Dinamo Batumi"
+          - name: "Pyunik Yerevan"
+            score: "0"
+      - id: football-2437845
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Minsk"
+            score: "0"
+          - name: "Vitebsk"
             score: "1"
             active: true
-      - id: football-2440595
-        competition: "Georgian Liga 3"
+      - id: football-2452137
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "52'"
         teams:
-          - name: "Guria Lanchkhuti"
-            score: "2"
-            active: true
-          - name: "Iberia-2 1999"
-            score: "0"
-      - id: football-2452388
-        competition: "Kazakhstan First League"
-        state: live
-        stateLabel: "48'"
-        teams:
-          - name: "Jaiyq"
-            score: "0"
-          - name: "Caspiy-M Aktau"
-            score: "0"
-      - id: football-2452385
-        competition: "Kazakhstan First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Shakhter Karagandy"
-            score: "2"
-            active: true
-          - name: "Astana-M"
-            score: "0"
-      - id: football-2546149
-        competition: "Malaysian Super League"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Johor Darul Ta'zim"
+          - name: "Molodechno"
             score: "1"
+          - name: "Soligorsk"
+            score: "1"
+      - id: football-2452133
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "66'"
+        teams:
+          - name: "Orsha"
+            score: "0"
+          - name: "BATE-2 Borisov"
+            score: "2"
             active: true
-          - name: "Kuching City"
+      - id: football-2511452
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Lokomotiv Gorna Oryahovitsa"
+            score: "0"
+          - name: "Etar Veliko Tarnovo"
+            score: "0"
+      - id: football-2493973
+        competition: "Croatian Druga HNL"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Sesvete"
+            score: "0"
+          - name: "Karlovac"
             score: "0"
 
   - name: Cricket
