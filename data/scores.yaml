@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 23:33 IST"
+updated: "22 Aug 2026, 01:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398026
-        competition: "Argentinian Primera Division"
+      - id: football-2533262
+        competition: "Albanian Superliga"
         state: live
         stateLabel: "32'"
         teams:
-          - name: "Aldosivi"
-            score: "1"
-            active: true
-          - name: "Unión"
+          - name: "Vllaznia Shkodër"
             score: "0"
-      - id: football-2523501
-        competition: "Armenian Premier League"
+          - name: "Skënderbeu Korçë"
+            score: "0"
+      - id: football-2406492
+        competition: "Argentina Primera B Metropolitana"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Alashkert"
+          - name: "Club Comunicaciones"
             score: "1"
             active: true
-          - name: "Gandzasar"
+          - name: "Sportivo Italiano"
             score: "0"
-      - id: football-2499721
-        competition: "Austrian Bundesliga"
+      - id: football-2405009
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "31'"
+        stateLabel: "70'"
         teams:
-          - name: "SV Ried"
+          - name: "Acassuso"
             score: "0"
-          - name: "Grazer AK"
-            score: "1"
-            active: true
-      - id: football-2505251
-        competition: "Austrian Erste Liga"
+          - name: "Godoy Cruz"
+            score: "0"
+      - id: football-2405024
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "75'"
+        stateLabel: "Live"
         teams:
-          - name: "Austria Salzburg"
+          - name: "San Telmo"
+            score: "0"
+          - name: "Deportivo Morón"
             score: "2"
-          - name: "Kapfenberger SV"
-            score: "2"
-      - id: football-2505247
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "76'"
-        teams:
-          - name: "Wacker Innsbruck"
-            score: "0"
-          - name: "SKN St. Polten"
-            score: "0"
-      - id: football-2505250
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "76'"
-        teams:
-          - name: "SKU Amstetten"
-            score: "1"
             active: true
-          - name: "Hertha Wels"
+      - id: football-2408567
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "71'"
+        teams:
+          - name: "Muñiz"
             score: "0"
+          - name: "General Lamadrid"
+            score: "2"
+            active: true
+      - id: football-2398026
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "17:30"
+        teams:
+          - name: "Aldosivi"
+            score: "1"
+          - name: "Unión"
+            score: "3"
+            active: true
 
   - name: Cricket
     matches:
