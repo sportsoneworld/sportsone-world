@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 17:32 IST"
+updated: "21 Aug 2026, 19:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2492802
-        competition: "Japanese J1 League"
+      - id: football-2561070
+        competition: "Egyptian Premier League"
         state: live
-        stateLabel: "71'"
+        stateLabel: "5'"
         teams:
-          - name: "FC Tokyo"
+          - name: "Wadi Degla"
             score: "0"
-          - name: "JEF United Chiba"
+          - name: "ZED"
             score: "0"
-      - id: football-2492803
-        competition: "Japanese J1 League"
+      - id: football-2420076
+        competition: "Georgian Erovnuli Liga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Kashiwa Reysol"
-            score: "1"
-            active: true
-          - name: "V-Varen Nagasaki"
+          - name: "Meshakhte Tkibuli"
             score: "0"
-      - id: football-2428280
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Dinamo Batumi"
+            score: "1"
+            active: true
+      - id: football-2440595
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Sydney FC Youth"
+          - name: "Guria Lanchkhuti"
             score: "2"
             active: true
-          - name: "Rockdale Ilinden"
-            score: "1"
-      - id: football-2432797
-        competition: "Australia Victoria NPL"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Iberia-2 1999"
+            score: "0"
+      - id: football-2452388
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "48'"
         teams:
-          - name: "Green Gully"
-            score: "1"
-          - name: "St Albans Saints"
+          - name: "Jaiyq"
+            score: "0"
+          - name: "Caspiy-M Aktau"
+            score: "0"
+      - id: football-2452385
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Shakhter Karagandy"
             score: "2"
             active: true
-      - id: football-2397277
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Astana-M"
+            score: "0"
+      - id: football-2546149
+        competition: "Malaysian Super League"
+        state: live
+        stateLabel: "46'"
         teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2397278
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Charleston Battery"
-            score: "–"
-            detail: "23:30"
-          - name: "Miami FC"
-            score: "–"
+          - name: "Johor Darul Ta'zim"
+            score: "1"
+            active: true
+          - name: "Kuching City"
+            score: "0"
 
   - name: Cricket
     matches:
