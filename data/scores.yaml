@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 04:24 IST"
+updated: "22 Aug 2026, 05:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -29,9 +29,9 @@ sports:
         stateLabel: "Live"
         teams:
           - name: "Brown de Adrogué"
-            score: "0"
+            score: "1"
           - name: "UAI Urquiza"
-            score: "0"
+            score: "1"
       - id: football-2406498
         competition: "Argentina Primera B Metropolitana"
         state: live
@@ -45,33 +45,31 @@ sports:
       - id: football-2405017
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "83'"
         teams:
           - name: "Deportivo Madryn"
-            score: "1"
+            score: "4"
             active: true
           - name: "Mitre"
+            score: "0"
+      - id: football-2398030
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Estudiantes de Río Cuarto"
+            score: "0"
+          - name: "San Lorenzo"
             score: "0"
       - id: football-2566590
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "24'"
+        stateLabel: "Live"
         teams:
           - name: "The Strongest"
-            score: "1"
-            active: true
+            score: "2"
           - name: "Universitario de Vinto"
-            score: "0"
-      - id: football-2481139
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Jaguares de Córdoba"
-            score: "1"
-            active: true
-          - name: "Boyacá Chicó"
-            score: "0"
+            score: "2"
       - id: football-2549726
         competition: "Dominican LDF"
         state: live
