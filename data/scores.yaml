@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 03:15 IST"
+updated: "22 Aug 2026, 04:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2406491
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Brown de Adrogué"
+            score: "0"
+          - name: "UAI Urquiza"
+            score: "0"
+      - id: football-2406498
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Laferrere"
+            score: "0"
+          - name: "Villa Dálmine"
+            score: "2"
+            active: true
+      - id: football-2405017
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Deportivo Madryn"
+            score: "1"
+            active: true
+          - name: "Mitre"
+            score: "0"
+      - id: football-2566590
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "The Strongest"
+            score: "1"
+            active: true
+          - name: "Universitario de Vinto"
+            score: "0"
       - id: football-2481139
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "40'"
+        stateLabel: "89'"
         teams:
           - name: "Jaguares de Córdoba"
             score: "1"
             active: true
           - name: "Boyacá Chicó"
             score: "0"
-      - id: football-2439387
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "LDU Portoviejo"
-            score: "2"
-            active: true
-          - name: "22 de Julio"
-            score: "0"
-      - id: football-2578058
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Sol de América"
-            score: "0"
-          - name: "Resistencia"
-            score: "0"
-      - id: football-2481663
-        competition: "Peruvian Primera Division"
+      - id: football-2549726
+        competition: "Dominican LDF"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Alianza Atlético"
-            score: "1"
-            active: true
-          - name: "Sporting Cristal"
+          - name: "Moca"
             score: "0"
-      - id: football-2579155
-        competition: "Venezuela Primera Division"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Anzoátegui"
+          - name: "Atlético Vega Real"
             score: "0"
-          - name: "Trujillanos"
-            score: "0"
-      - id: football-2533262
-        competition: "Albanian Superliga"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Vllaznia Shkodër"
-            score: "2"
-          - name: "Skënderbeu Korçë"
-            score: "2"
 
   - name: Cricket
     matches:
