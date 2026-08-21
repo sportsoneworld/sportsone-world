@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 01:03 IST"
+updated: "22 Aug 2026, 02:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,60 @@ sports:
       - id: football-2533262
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "32'"
+        stateLabel: "85'"
         teams:
           - name: "Vllaznia Shkodër"
-            score: "0"
+            score: "2"
           - name: "Skënderbeu Korçë"
-            score: "0"
-      - id: football-2406492
-        competition: "Argentina Primera B Metropolitana"
+            score: "2"
+      - id: football-2483301
+        competition: "DFB-Pokal"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Club Comunicaciones"
+          - name: "Hansa Rostock"
+            score: "0"
+          - name: "Stuttgart"
+            score: "4"
+            active: true
+      - id: football-2439387
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "LDU Portoviejo"
             score: "1"
             active: true
-          - name: "Sportivo Italiano"
+          - name: "22 de Julio"
             score: "0"
-      - id: football-2405009
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2494000
+        competition: "English Premier League"
         state: live
-        stateLabel: "70'"
+        stateLabel: "87'"
         teams:
-          - name: "Acassuso"
+          - name: "Arsenal"
+            score: "3"
+            active: true
+          - name: "Coventry City"
             score: "0"
-          - name: "Godoy Cruz"
-            score: "0"
-      - id: football-2405024
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2489463
+        competition: "French Ligue 1"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "San Telmo"
-            score: "0"
-          - name: "Deportivo Morón"
-            score: "2"
+          - name: "Marseille"
+            score: "4"
             active: true
-      - id: football-2408567
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Muñiz"
+          - name: "Strasbourg"
             score: "0"
-          - name: "General Lamadrid"
-            score: "2"
-            active: true
-      - id: football-2398026
-        competition: "Argentinian Primera Division"
+      - id: football-2424291
+        competition: "Icelandic 1 deild karla"
         state: live
-        stateLabel: "17:30"
+        stateLabel: "74'"
         teams:
-          - name: "Aldosivi"
-            score: "1"
-          - name: "Unión"
+          - name: "Grótta"
+            score: "0"
+          - name: "ÍR Reykjavík"
             score: "3"
             active: true
 
