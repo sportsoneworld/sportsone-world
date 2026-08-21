@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 02:14 IST"
+updated: "22 Aug 2026, 03:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533262
-        competition: "Albanian Superliga"
+      - id: football-2481139
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "40'"
+        teams:
+          - name: "Jaguares de Córdoba"
+            score: "1"
+            active: true
+          - name: "Boyacá Chicó"
+            score: "0"
+      - id: football-2439387
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "LDU Portoviejo"
+            score: "2"
+            active: true
+          - name: "22 de Julio"
+            score: "0"
+      - id: football-2578058
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Sol de América"
+            score: "0"
+          - name: "Resistencia"
+            score: "0"
+      - id: football-2481663
+        competition: "Peruvian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Alianza Atlético"
+            score: "1"
+            active: true
+          - name: "Sporting Cristal"
+            score: "0"
+      - id: football-2579155
+        competition: "Venezuela Primera Division"
         state: live
         stateLabel: "85'"
+        teams:
+          - name: "Anzoátegui"
+            score: "0"
+          - name: "Trujillanos"
+            score: "0"
+      - id: football-2533262
+        competition: "Albanian Superliga"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Vllaznia Shkodër"
             score: "2"
           - name: "Skënderbeu Korçë"
             score: "2"
-      - id: football-2483301
-        competition: "DFB-Pokal"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Hansa Rostock"
-            score: "0"
-          - name: "Stuttgart"
-            score: "4"
-            active: true
-      - id: football-2439387
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "13'"
-        teams:
-          - name: "LDU Portoviejo"
-            score: "1"
-            active: true
-          - name: "22 de Julio"
-            score: "0"
-      - id: football-2494000
-        competition: "English Premier League"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Arsenal"
-            score: "3"
-            active: true
-          - name: "Coventry City"
-            score: "0"
-      - id: football-2489463
-        competition: "French Ligue 1"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Marseille"
-            score: "4"
-            active: true
-          - name: "Strasbourg"
-            score: "0"
-      - id: football-2424291
-        competition: "Icelandic 1 deild karla"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Grótta"
-            score: "0"
-          - name: "ÍR Reykjavík"
-            score: "3"
-            active: true
 
   - name: Cricket
     matches:
