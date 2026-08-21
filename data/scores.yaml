@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 16:31 IST"
+updated: "21 Aug 2026, 17:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,30 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2428280
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Sydney FC Youth"
-            score: "1"
-            active: true
-          - name: "Rockdale Ilinden"
-            score: "0"
-      - id: football-2432797
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "69'"
-        teams:
-          - name: "Green Gully"
-            score: "0"
-          - name: "St Albans Saints"
-            score: "1"
-            active: true
       - id: football-2492802
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "26'"
+        stateLabel: "71'"
         teams:
           - name: "FC Tokyo"
             score: "0"
@@ -62,6 +42,26 @@ sports:
             active: true
           - name: "V-Varen Nagasaki"
             score: "0"
+      - id: football-2428280
+        competition: "Australia New South Wales NPL"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Sydney FC Youth"
+            score: "2"
+            active: true
+          - name: "Rockdale Ilinden"
+            score: "1"
+      - id: football-2432797
+        competition: "Australia Victoria NPL"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Green Gully"
+            score: "1"
+          - name: "St Albans Saints"
+            score: "2"
+            active: true
       - id: football-2397277
         competition: "American USL Championship"
         state: upcoming
