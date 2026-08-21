@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Aug 2026, 22:36 IST"
+updated: "21 Aug 2026, 23:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523501
-        competition: "Armenian Premier League"
+      - id: football-2398026
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "5'"
+        stateLabel: "32'"
         teams:
-          - name: "Alashkert"
+          - name: "Aldosivi"
+            score: "1"
+            active: true
+          - name: "Unión"
             score: "0"
-          - name: "Gandzasar"
-            score: "0"
-      - id: football-2523502
+      - id: football-2523501
         competition: "Armenian Premier League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Ararat Yerevan"
-            score: "0"
-          - name: "Pyunik Yerevan"
-            score: "2"
+          - name: "Alashkert"
+            score: "1"
             active: true
-      - id: football-2505250
+          - name: "Gandzasar"
+            score: "0"
+      - id: football-2499721
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "SV Ried"
+            score: "0"
+          - name: "Grazer AK"
+            score: "1"
+            active: true
+      - id: football-2505251
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "33'"
+        stateLabel: "75'"
         teams:
-          - name: "SKU Amstetten"
-            score: "0"
-          - name: "Hertha Wels"
-            score: "0"
+          - name: "Austria Salzburg"
+            score: "2"
+          - name: "Kapfenberger SV"
+            score: "2"
       - id: football-2505247
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "34'"
+        stateLabel: "76'"
         teams:
           - name: "Wacker Innsbruck"
             score: "0"
           - name: "SKN St. Polten"
             score: "0"
-      - id: football-2505251
+      - id: football-2505250
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "35'"
+        stateLabel: "76'"
         teams:
-          - name: "Austria Salzburg"
-            score: "0"
-          - name: "Kapfenberger SV"
+          - name: "SKU Amstetten"
             score: "1"
             active: true
-      - id: football-2505249
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "FC Liefering"
-            score: "0"
-          - name: "Young Violets Austria Wien"
+          - name: "Hertha Wels"
             score: "0"
 
   - name: Cricket
