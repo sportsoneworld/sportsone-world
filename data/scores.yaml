@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 00:32 IST"
+updated: "23 Aug 2026, 01:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,30 +26,51 @@ sports:
       - id: football-2406494
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "28'"
+        stateLabel: "58'"
         teams:
           - name: "Deportivo Armenio"
             score: "0"
           - name: "Real Pilar"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2406493
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "79'"
         teams:
           - name: "Defensores Unidos"
             score: "2"
             active: true
           - name: "San Martín de Burzaco"
             score: "0"
+      - id: football-2406499
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Talleres de Remedios de Escalada"
+            score: "1"
+          - name: "Excursionistas"
+            score: "2"
+            active: true
       - id: football-2406496
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "45'"
+        stateLabel: "88'"
         teams:
           - name: "Flandria"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Liniers"
+            score: "0"
+      - id: football-2406497
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Ituzaingó"
+            score: "0"
+          - name: "Deportivo Merlo"
             score: "0"
       - id: football-2406489
         competition: "Argentina Primera B Metropolitana"
@@ -59,25 +80,6 @@ sports:
           - name: "Argentino de Merlo"
             score: "0"
           - name: "Arsenal de Sarandí"
-            score: "0"
-      - id: football-2406497
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ituzaingó"
-            score: "0"
-          - name: "Deportivo Merlo"
-            score: "0"
-      - id: football-2406499
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Talleres de Remedios de Escalada"
-            score: "1"
-            active: true
-          - name: "Excursionistas"
             score: "0"
 
   - name: Cricket
