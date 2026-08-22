@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 16:23 IST"
+updated: "22 Aug 2026, 17:11 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579137
-        competition: "Australia South Australia NPL"
+      - id: football-2437844
+        competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "60'"
+        stateLabel: "40'"
         teams:
-          - name: "North Eastern MetroStars"
-            score: "2"
-            active: true
-          - name: "Croydon"
-            score: "0"
-      - id: football-2566575
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "57'"
-        teams:
-          - name: "Cristo Atlético"
-            score: "0"
-          - name: "Atlético Tordesillas"
+          - name: "Belshina Bobruisk"
             score: "1"
             active: true
-      - id: football-2566572
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Gimnástica Segoviana"
+          - name: "Arsenal Dzerzhinsk"
             score: "0"
-          - name: "Rayo Majadahonda"
+      - id: football-2452139
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "40'"
+        teams:
+          - name: "Minsk-2"
+            score: "0"
+          - name: "Slutsk"
+            score: "0"
+      - id: football-2441247
+        competition: "China League One"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Nantong Zhiyun"
             score: "1"
             active: true
-      - id: football-2573956
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "San Sebastián de los Reyes"
+          - name: "Shaanxi Union"
             score: "0"
-          - name: "Atlético Baleares"
-            score: "1"
-            active: true
-      - id: football-2415806
-        competition: "Faroe Islands 1. deild"
+      - id: football-2441245
+        competition: "China League One"
         state: live
-        stateLabel: "22'"
+        stateLabel: "11'"
         teams:
-          - name: "HB Tórshavn II"
-            score: "1"
-            active: true
-          - name: "Hoyvík"
+          - name: "Guangxi Hengchen"
             score: "0"
-      - id: football-2539428
-        competition: "Germany Women Bundesliga"
+          - name: "Suzhou Dongwu"
+            score: "0"
+      - id: football-2441246
+        competition: "China League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "11'"
         teams:
-          - name: "Eintracht Frankfurt Women"
-            score: "2"
-            active: true
-          - name: "Köln Women"
+          - name: "Meizhou Hakka"
+            score: "0"
+          - name: "Guangdong GZ-Power"
+            score: "0"
+      - id: football-2441250
+        competition: "China League One"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Jiangxi Dingnan United"
+            score: "0"
+          - name: "Shijiazhuang Gongfu"
             score: "0"
 
   - name: Cricket
