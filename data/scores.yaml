@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 14:32 IST"
+updated: "22 Aug 2026, 15:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,52 +26,42 @@ sports:
       - id: football-2428285
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "25'"
+        stateLabel: "58'"
         teams:
           - name: "St George"
             score: "1"
             active: true
           - name: "Blacktown City"
             score: "0"
-      - id: football-2428284
-        competition: "Australia New South Wales NPL"
+      - id: football-2579137
+        competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "64'"
+        stateLabel: "20'"
         teams:
-          - name: "NWS Spirit"
+          - name: "North Eastern MetroStars"
             score: "1"
             active: true
-          - name: "Southern Districts Raiders"
+          - name: "Croydon"
             score: "0"
-      - id: football-2428283
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "UNSW"
-            score: "0"
-          - name: "Manly United"
-            score: "2"
-            active: true
-      - id: football-2432802
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "60'"
-        teams:
-          - name: "Dandenong Thunder"
-            score: "0"
-          - name: "Oakleigh Cannons"
-            score: "3"
-            active: true
       - id: football-2448576
         competition: "China league Two"
         state: live
-        stateLabel: "45'"
+        stateLabel: "78'"
         teams:
           - name: "Changchun Xidu"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Dalian Kewei"
             score: "1"
+      - id: football-2448580
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Shanxi Chongde Ronghai"
+            score: "0"
+          - name: "Lanzhou Longyuan Athletic"
+            score: "0"
       - id: football-2448577
         competition: "China league Two"
         state: live
@@ -81,6 +71,16 @@ sports:
             score: "1"
           - name: "Beijing Institute of Technology"
             score: "1"
+      - id: football-2448578
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Nantong Haimen Codion"
+            score: "1"
+            active: true
+          - name: "Shandong Taishan B"
+            score: "0"
 
   - name: Cricket
     matches:
