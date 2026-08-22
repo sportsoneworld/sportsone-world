@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 13:15 IST"
+updated: "22 Aug 2026, 14:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2428283
+      - id: football-2428285
         competition: "Australia New South Wales NPL"
         state: live
         stateLabel: "25'"
         teams:
-          - name: "UNSW"
-            score: "0"
-          - name: "Manly United"
+          - name: "St George"
             score: "1"
             active: true
+          - name: "Blacktown City"
+            score: "0"
       - id: football-2428284
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "9'"
+        stateLabel: "64'"
         teams:
           - name: "NWS Spirit"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Southern Districts Raiders"
             score: "0"
-      - id: football-2428281
+      - id: football-2428283
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "78'"
+        stateLabel: "83'"
         teams:
-          - name: "Sutherland Sharks"
+          - name: "UNSW"
+            score: "0"
+          - name: "Manly United"
             score: "2"
             active: true
-          - name: "St George City"
-            score: "0"
-      - id: football-2580694
-        competition: "Australia Northern NSW NPL"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "New Lambton"
-            score: "1"
-          - name: "Kahibah"
-            score: "2"
-            active: true
-      - id: football-2579136
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Playford City Patriots"
-            score: "3"
-            active: true
-          - name: "FK Beograd"
-            score: "0"
       - id: football-2432802
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "30'"
+        stateLabel: "60'"
         teams:
           - name: "Dandenong Thunder"
             score: "0"
           - name: "Oakleigh Cannons"
-            score: "1"
+            score: "3"
             active: true
+      - id: football-2448576
+        competition: "China league Two"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Changchun Xidu"
+            score: "1"
+          - name: "Dalian Kewei"
+            score: "1"
+      - id: football-2448577
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Dalian Yingbo B"
+            score: "1"
+          - name: "Beijing Institute of Technology"
+            score: "1"
 
   - name: Cricket
     matches:
