@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 03:31 IST"
+updated: "23 Aug 2026, 04:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,38 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419887
+        competition: "American NWSL"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Kansas City Current"
+            score: "0"
+          - name: "Seattle Reign"
+            score: "1"
+            active: true
+      - id: football-2397283
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "19'"
+        teams:
+          - name: "Loudoun United"
+            score: "0"
+          - name: "New Mexico United"
+            score: "0"
+      - id: football-2406490
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Argentino de Quilmes"
+            score: "0"
+          - name: "Villa San Carlos"
+            score: "0"
       - id: football-2398033
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "32'"
+        stateLabel: "67'"
         teams:
           - name: "Independiente"
             score: "0"
@@ -35,50 +63,21 @@ sports:
       - id: football-2566593
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "45'"
+        stateLabel: "82'"
         teams:
           - name: "Aurora"
             score: "0"
           - name: "Real Potosí"
             score: "0"
-      - id: football-2578559
-        competition: "Brazil Serie D"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Uberlândia"
-            score: "1"
-            active: true
-          - name: "ABC"
-            score: "0"
       - id: football-2398427
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "31'"
+        stateLabel: "66'"
         teams:
           - name: "Internacional"
             score: "0"
           - name: "Atlético Mineiro"
             score: "0"
-      - id: football-2431400
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Cuiabá"
-            score: "0"
-          - name: "Goiás"
-            score: "1"
-            active: true
-      - id: football-2431398
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ceará"
-            score: "1"
-          - name: "Londrina"
-            score: "1"
 
   - name: Cricket
     matches:
