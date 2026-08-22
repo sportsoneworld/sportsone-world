@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 20:20 IST"
+updated: "22 Aug 2026, 21:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,38 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580214
-        competition: "ASEAN Championship"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Thailand"
-            score: "0"
-          - name: "Vietnam"
-            score: "2"
-            active: true
-      - id: football-2533259
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Laçi"
-            score: "0"
-          - name: "Elbasani"
-            score: "0"
       - id: football-2533258
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "77'"
         teams:
           - name: "Partizani Tirana"
             score: "0"
           - name: "Teuta Durrës"
             score: "0"
+      - id: football-2533259
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "79'"
+        teams:
+          - name: "Laçi"
+            score: "0"
+          - name: "Elbasani"
+            score: "1"
+            active: true
       - id: football-2578208
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Bravos do Maquis"
             score: "0"
@@ -63,7 +54,7 @@ sports:
       - id: football-2578214
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "Live"
+        stateLabel: "84'"
         teams:
           - name: "Primeiro de Agosto"
             score: "0"
@@ -72,12 +63,23 @@ sports:
       - id: football-2523504
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "85'"
         teams:
           - name: "Shirak Gyumri"
             score: "0"
           - name: "Urartu"
+            score: "1"
+            active: true
+      - id: football-2499722
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "SCR Altach"
             score: "0"
+          - name: "TSV Hartberg"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
