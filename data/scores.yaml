@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 11:27 IST"
+updated: "22 Aug 2026, 13:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2456829
-        competition: "Australia ACT NPL"
+      - id: football-2428283
+        competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "70'"
+        stateLabel: "25'"
         teams:
-          - name: "Canberra Olympic"
-            score: "4"
+          - name: "UNSW"
+            score: "0"
+          - name: "Manly United"
+            score: "1"
             active: true
-          - name: "Brindabella Blues"
+      - id: football-2428284
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "NWS Spirit"
+            score: "0"
+          - name: "Southern Districts Raiders"
+            score: "0"
+      - id: football-2428281
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "78'"
+        teams:
+          - name: "Sutherland Sharks"
+            score: "2"
+            active: true
+          - name: "St George City"
+            score: "0"
+      - id: football-2580694
+        competition: "Australia Northern NSW NPL"
+        state: live
+        stateLabel: "84'"
+        teams:
+          - name: "New Lambton"
+            score: "1"
+          - name: "Kahibah"
+            score: "2"
+            active: true
+      - id: football-2579136
+        competition: "Australia South Australia NPL"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Playford City Patriots"
             score: "3"
-      - id: football-2456832
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Canberra White Eagles"
-            score: "0"
-          - name: "Monaro Panthers"
-            score: "3"
             active: true
-      - id: football-2456833
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Queanbeyan City"
-            score: "1"
-            active: true
-          - name: "O'Connor Knights"
+          - name: "FK Beograd"
             score: "0"
-      - id: football-2456830
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Tuggeranong United"
-            score: "1"
-            active: true
-          - name: "Canberra Juventus"
-            score: "0"
-      - id: football-2456831
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Canberra Croatia"
-            score: "1"
-            active: true
-          - name: "Belconnen United"
-            score: "0"
-      - id: football-2432801
+      - id: football-2432802
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "41'"
+        stateLabel: "30'"
         teams:
-          - name: "Altona Magic"
+          - name: "Dandenong Thunder"
             score: "0"
-          - name: "Avondale"
+          - name: "Oakleigh Cannons"
             score: "1"
             active: true
 
