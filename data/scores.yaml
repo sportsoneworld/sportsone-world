@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 21:31 IST"
+updated: "22 Aug 2026, 22:28 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,24 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533259
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Laçi"
-            score: "1"
-          - name: "Elbasani"
-            score: "1"
-      - id: football-2533258
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Partizani Tirana"
-            score: "0"
-          - name: "Teuta Durrës"
-            score: "0"
       - id: football-2578208
         competition: "Angolan Girabola"
         state: live
@@ -50,35 +32,55 @@ sports:
             score: "0"
           - name: "Sagrada Esperança"
             score: "0"
-      - id: football-2578214
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Primeiro de Agosto"
-            score: "1"
-            active: true
-          - name: "Desportivo Huíla"
-            score: "0"
-      - id: football-2499722
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "SCR Altach"
-            score: "0"
-          - name: "TSV Hartberg"
-            score: "1"
-            active: true
       - id: football-2505253
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "69'"
         teams:
           - name: "Schwarz-Weiß Bregenz"
-            score: "1"
+            score: "3"
+            active: true
           - name: "Sturm Graz II"
             score: "1"
+      - id: football-2514287
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Mattersburg 2020"
+            score: "2"
+            active: true
+          - name: "Scheiblingkirchen-Warth"
+            score: "0"
+      - id: football-2560640
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Lafnitz"
+            score: "1"
+          - name: "Tillmitsch"
+            score: "3"
+            active: true
+      - id: football-2560643
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Bleiburg"
+            score: "3"
+          - name: "Austria Klagenfurt"
+            score: "4"
+            active: true
+      - id: football-2546628
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Zirə"
+            score: "0"
+          - name: "İmişli"
+            score: "0"
 
   - name: Cricket
     matches:
