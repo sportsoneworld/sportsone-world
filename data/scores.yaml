@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 05:20 IST"
+updated: "22 Aug 2026, 08:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,75 +23,67 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406491
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2419886
+        competition: "American NWSL"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Brown de Adrogué"
-            score: "1"
-          - name: "UAI Urquiza"
-            score: "1"
-      - id: football-2406498
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Laferrere"
-            score: "0"
-          - name: "Villa Dálmine"
+          - name: "San Diego Wave"
             score: "2"
             active: true
-      - id: football-2405017
-        competition: "Argentinian Primera B Nacional"
+          - name: "Utah Royals"
+            score: "1"
+      - id: football-2548485
+        competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "83'"
+        stateLabel: "5'"
         teams:
-          - name: "Deportivo Madryn"
+          - name: "Monterrey Femenil"
+            score: "0"
+          - name: "León Femenil"
+            score: "0"
+      - id: football-2521280
+        competition: "Mexican Liga de Expansión MX"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Atlético La Paz"
+            score: "0"
+          - name: "Cruz Azul Hidalgo"
+            score: "0"
+      - id: football-2487493
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Tigres UANL"
+            score: "2"
+            active: true
+          - name: "Atlante"
+            score: "0"
+      - id: football-2548183
+        competition: "Panama Liga Panamena de Futbol"
+        state: live
+        stateLabel: "78'"
+        teams:
+          - name: "Deportivo Árabe Unido"
+            score: "1"
+            active: true
+          - name: "Sporting San Miguelito"
+            score: "0"
+      - id: football-2566591
+        competition: "Bolivian Primera División"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Oriente Petrolero"
             score: "4"
             active: true
-          - name: "Mitre"
-            score: "0"
-      - id: football-2398030
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Estudiantes de Río Cuarto"
-            score: "0"
-          - name: "San Lorenzo"
-            score: "0"
-      - id: football-2566590
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "The Strongest"
-            score: "2"
-          - name: "Universitario de Vinto"
-            score: "2"
-      - id: football-2549726
-        competition: "Dominican LDF"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Moca"
-            score: "0"
-          - name: "Atlético Vega Real"
+          - name: "San Antonio Bulo Bulo"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578471
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Saint Lucia Kings"
-            score: "–"
-            detail: "23:00"
-          - name: "Jamaica Kingsmen"
-            score: "–"
       - id: cricket-2578472
         competition: "Caribbean Premier League"
         state: upcoming
