@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 08:38 IST"
+updated: "22 Aug 2026, 10:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419886
-        competition: "American NWSL"
+      - id: football-2456829
+        competition: "Australia ACT NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "25'"
         teams:
-          - name: "San Diego Wave"
+          - name: "Canberra Olympic"
             score: "2"
             active: true
-          - name: "Utah Royals"
+          - name: "Brindabella Blues"
             score: "1"
       - id: football-2548485
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "5'"
+        stateLabel: "Live"
         teams:
           - name: "Monterrey Femenil"
-            score: "0"
+            score: "2"
           - name: "León Femenil"
-            score: "0"
+            score: "2"
       - id: football-2521280
         competition: "Mexican Liga de Expansión MX"
         state: live
-        stateLabel: "6'"
+        stateLabel: "Live"
         teams:
           - name: "Atlético La Paz"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Cruz Azul Hidalgo"
             score: "0"
-      - id: football-2487493
+      - id: football-2487489
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "80'"
+        teams:
+          - name: "Juárez"
+            score: "1"
+          - name: "América"
+            score: "2"
+            active: true
+      - id: football-2487491
         competition: "Mexican Primera League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Tigres UANL"
-            score: "2"
-            active: true
-          - name: "Atlante"
+          - name: "Querétaro"
             score: "0"
-      - id: football-2548183
-        competition: "Panama Liga Panamena de Futbol"
-        state: live
-        stateLabel: "78'"
-        teams:
-          - name: "Deportivo Árabe Unido"
-            score: "1"
-            active: true
-          - name: "Sporting San Miguelito"
+          - name: "Toluca"
             score: "0"
-      - id: football-2566591
-        competition: "Bolivian Primera División"
+      - id: football-2419886
+        competition: "American NWSL"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Oriente Petrolero"
+          - name: "San Diego Wave"
             score: "4"
             active: true
-          - name: "San Antonio Bulo Bulo"
-            score: "0"
+          - name: "Utah Royals"
+            score: "2"
 
   - name: Cricket
     matches:
