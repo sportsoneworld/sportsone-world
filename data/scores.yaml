@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 17:31 IST"
+updated: "22 Aug 2026, 19:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437844
+      - id: football-2580214
+        competition: "ASEAN Championship"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Thailand"
+            score: "0"
+          - name: "Vietnam"
+            score: "0"
+      - id: football-2505252
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Rapid Wien II"
+            score: "0"
+          - name: "Floridsdorfer AC"
+            score: "0"
+      - id: football-2437849
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Belshina Bobruisk"
-            score: "1"
-            active: true
-          - name: "Arsenal Dzerzhinsk"
+          - name: "Slavia Mozyr"
             score: "0"
-      - id: football-2452139
+          - name: "Gomel"
+            score: "0"
+      - id: football-2452138
         competition: "Belarusian First League"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Minsk-2"
-            score: "0"
-          - name: "Slutsk"
-            score: "0"
-      - id: football-2441247
-        competition: "China League One"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Nantong Zhiyun"
-            score: "2"
-            active: true
-          - name: "Shaanxi Union"
-            score: "1"
-      - id: football-2441245
-        competition: "China League One"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Guangxi Hengchen"
+          - name: "Bumprom Gomel"
             score: "1"
             active: true
-          - name: "Suzhou Dongwu"
+          - name: "Dinamo-2 Minsk"
             score: "0"
-      - id: football-2441246
-        competition: "China League One"
+      - id: football-2452136
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "31'"
+        stateLabel: "88'"
         teams:
-          - name: "Meizhou Hakka"
-            score: "0"
-          - name: "Guangdong GZ-Power"
-            score: "0"
-      - id: football-2441250
-        competition: "China League One"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Jiangxi Dingnan United"
-            score: "0"
-          - name: "Shijiazhuang Gongfu"
+          - name: "Osipovichi"
             score: "1"
             active: true
+          - name: "SKA-1938 Minsk"
+            score: "0"
+      - id: football-2434561
+        competition: "Chinese Super League"
+        state: live
+        stateLabel: "74'"
+        teams:
+          - name: "Shenzhen Peng City"
+            score: "1"
+            active: true
+          - name: "Zhejiang Professional"
+            score: "0"
 
   - name: Cricket
     matches:
