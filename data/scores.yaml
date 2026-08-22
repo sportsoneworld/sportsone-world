@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 02:22 IST"
+updated: "23 Aug 2026, 03:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405013
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Chaco For Ever"
-            score: "1"
-            active: true
-          - name: "Los Andes"
-            score: "0"
-      - id: football-2398027
+      - id: football-2398033
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "14'"
         teams:
-          - name: "Atlético Tucumán"
+          - name: "Independiente"
             score: "0"
-          - name: "Instituto"
+          - name: "Independiente Rivadavia"
             score: "0"
-      - id: football-2398031
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Gimnasia y Esgrima de La Plata"
-            score: "2"
-          - name: "Gimnasia y Esgrima de Mendoza"
-            score: "3"
-            active: true
-      - id: football-2566592
+      - id: football-2566593
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "Live"
+        stateLabel: "26'"
         teams:
-          - name: "ABB"
-            score: "2"
-          - name: "GV San José"
-            score: "2"
-      - id: football-2525282
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Velež Mostar"
-            score: "2"
-            active: true
-          - name: "Sloga Doboj"
+          - name: "Aurora"
+            score: "0"
+          - name: "Real Potosí"
             score: "0"
       - id: football-2578559
         competition: "Brazil Serie D"
         state: live
-        stateLabel: "Live"
+        stateLabel: "78'"
         teams:
           - name: "Uberlândia"
             score: "1"
             active: true
           - name: "ABC"
             score: "0"
+      - id: football-2398427
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Internacional"
+            score: "0"
+          - name: "Atlético Mineiro"
+            score: "0"
+      - id: football-2431400
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Cuiabá"
+            score: "0"
+          - name: "Goiás"
+            score: "0"
+      - id: football-2431398
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Ceará"
+            score: "1"
+          - name: "Londrina"
+            score: "1"
 
   - name: Cricket
     matches:
