@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 21:13 IST"
+updated: "22 Aug 2026, 21:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,25 +23,24 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2533259
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Laçi"
+            score: "1"
+          - name: "Elbasani"
+            score: "1"
       - id: football-2533258
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Partizani Tirana"
             score: "0"
           - name: "Teuta Durrës"
             score: "0"
-      - id: football-2533259
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Laçi"
-            score: "0"
-          - name: "Elbasani"
-            score: "1"
-            active: true
       - id: football-2578208
         competition: "Angolan Girabola"
         state: live
@@ -54,32 +53,32 @@ sports:
       - id: football-2578214
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Primeiro de Agosto"
-            score: "0"
-          - name: "Desportivo Huíla"
-            score: "0"
-      - id: football-2523504
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Shirak Gyumri"
-            score: "0"
-          - name: "Urartu"
             score: "1"
             active: true
+          - name: "Desportivo Huíla"
+            score: "0"
       - id: football-2499722
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "43'"
+        stateLabel: "Live"
         teams:
           - name: "SCR Altach"
             score: "0"
           - name: "TSV Hartberg"
             score: "1"
             active: true
+      - id: football-2505253
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Schwarz-Weiß Bregenz"
+            score: "1"
+          - name: "Sturm Graz II"
+            score: "1"
 
   - name: Cricket
     matches:
