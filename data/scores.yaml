@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Aug 2026, 23:19 IST"
+updated: "23 Aug 2026, 00:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578208
-        competition: "Angolan Girabola"
+      - id: football-2406494
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Deportivo Armenio"
+            score: "0"
+          - name: "Real Pilar"
+            score: "0"
+      - id: football-2406493
+        competition: "Argentina Primera B Metropolitana"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Bravos do Maquis"
-            score: "0"
-          - name: "Sagrada Esperança"
-            score: "0"
-      - id: football-2499723
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "18'"
-        teams:
-          - name: "Sturm Graz"
-            score: "0"
-          - name: "Austria Lustenau"
-            score: "1"
+          - name: "Defensores Unidos"
+            score: "2"
             active: true
-      - id: football-2514286
-        competition: "Austrian Regionalliga Ost"
+          - name: "San Martín de Burzaco"
+            score: "0"
+      - id: football-2406496
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Flandria"
+            score: "0"
+          - name: "Liniers"
+            score: "0"
+      - id: football-2406489
+        competition: "Argentina Primera B Metropolitana"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Gloggnitz"
+          - name: "Argentino de Merlo"
             score: "0"
-          - name: "Parndorf"
-            score: "2"
-            active: true
-      - id: football-2514287
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Mattersburg 2020"
-            score: "2"
-            active: true
-          - name: "Scheiblingkirchen-Warth"
+          - name: "Arsenal de Sarandí"
             score: "0"
-      - id: football-2546628
-        competition: "Azerbaijani Premier League"
+      - id: football-2406497
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "46'"
+        stateLabel: "Live"
         teams:
-          - name: "Zirə"
+          - name: "Ituzaingó"
+            score: "0"
+          - name: "Deportivo Merlo"
+            score: "0"
+      - id: football-2406499
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Talleres de Remedios de Escalada"
             score: "1"
             active: true
-          - name: "İmişli"
-            score: "0"
-      - id: football-2496710
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Charleroi"
-            score: "1"
-            active: true
-          - name: "Mechelen"
+          - name: "Excursionistas"
             score: "0"
 
   - name: Cricket
