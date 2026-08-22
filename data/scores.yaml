@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 01:21 IST"
+updated: "23 Aug 2026, 02:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406494
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Deportivo Armenio"
-            score: "0"
-          - name: "Real Pilar"
-            score: "1"
-            active: true
-      - id: football-2406493
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Defensores Unidos"
-            score: "2"
-            active: true
-          - name: "San Martín de Burzaco"
-            score: "0"
-      - id: football-2406499
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Talleres de Remedios de Escalada"
-            score: "1"
-          - name: "Excursionistas"
-            score: "2"
-            active: true
-      - id: football-2406496
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Flandria"
-            score: "1"
-            active: true
-          - name: "Liniers"
-            score: "0"
-      - id: football-2406497
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Ituzaingó"
-            score: "0"
-          - name: "Deportivo Merlo"
-            score: "0"
-      - id: football-2406489
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2405013
+        competition: "Argentinian Primera B Nacional"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Argentino de Merlo"
+          - name: "Chaco For Ever"
+            score: "1"
+            active: true
+          - name: "Los Andes"
             score: "0"
-          - name: "Arsenal de Sarandí"
+      - id: football-2398027
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Atlético Tucumán"
+            score: "0"
+          - name: "Instituto"
+            score: "0"
+      - id: football-2398031
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Gimnasia y Esgrima de La Plata"
+            score: "2"
+          - name: "Gimnasia y Esgrima de Mendoza"
+            score: "3"
+            active: true
+      - id: football-2566592
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "ABB"
+            score: "2"
+          - name: "GV San José"
+            score: "2"
+      - id: football-2525282
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Velež Mostar"
+            score: "2"
+            active: true
+          - name: "Sloga Doboj"
+            score: "0"
+      - id: football-2578559
+        competition: "Brazil Serie D"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Uberlândia"
+            score: "1"
+            active: true
+          - name: "ABC"
             score: "0"
 
   - name: Cricket
