@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 20:29 IST"
+updated: "23 Aug 2026, 21:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2578211
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "Live"
+        stateLabel: "84'"
         teams:
           - name: "FC Luanda"
             score: "0"
@@ -35,17 +35,16 @@ sports:
       - id: football-2578212
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "Live"
+        stateLabel: "86'"
         teams:
           - name: "Primeiro de Maio"
             score: "1"
-            active: true
           - name: "Kabuscorp"
-            score: "0"
+            score: "1"
       - id: football-2551331
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "21'"
+        stateLabel: "53'"
         teams:
           - name: "FADEP"
             score: "1"
@@ -60,26 +59,26 @@ sports:
           - name: "BKMA"
             score: "0"
           - name: "Noah"
-            score: "0"
+            score: "1"
+            active: true
+      - id: football-2512693
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Hohenems"
+            score: "1"
+          - name: "Röthis"
+            score: "1"
       - id: football-2546630
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "29'"
+        stateLabel: "60'"
         teams:
           - name: "Turan Tovuz"
             score: "0"
           - name: "Şamaxı"
             score: "0"
-      - id: football-2452132
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Lida"
-            score: "3"
-            active: true
-          - name: "Niva Dolbizno"
-            score: "1"
 
   - name: Cricket
     matches:
