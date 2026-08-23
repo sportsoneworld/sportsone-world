@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 22:26 IST"
+updated: "23 Aug 2026, 23:12 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,59 @@ sports:
       - id: football-2578210
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "25'"
+        stateLabel: "49'"
         teams:
           - name: "Wiliete"
-            score: "1"
+            score: "2"
             active: true
           - name: "Académica do Lobito"
             score: "0"
-      - id: football-2512693
-        competition: "Austrian Regionalliga West"
+      - id: football-2523503
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "41'"
         teams:
-          - name: "Hohenems"
+          - name: "Ararat-Armenia"
             score: "1"
-          - name: "Röthis"
-            score: "2"
-            active: true
+          - name: "Sardarapat"
+            score: "1"
       - id: football-2512694
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "Live"
+        stateLabel: "83'"
         teams:
           - name: "Kitzbühel"
-            score: "1"
+            score: "3"
+            active: true
           - name: "Lauterach"
-            score: "1"
+            score: "2"
       - id: football-2546629
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "10'"
+        stateLabel: "Live"
         teams:
           - name: "Neftçi PFK"
-            score: "0"
+            score: "4"
+            active: true
           - name: "Araz-Naxçıvan"
             score: "0"
-      - id: football-2496715
-        competition: "Belgian Pro League"
+      - id: football-2437847
+        competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "22'"
+        stateLabel: "39'"
         teams:
-          - name: "Club Brugge"
+          - name: "Maxline Vitebsk"
             score: "0"
-          - name: "Cercle Brugge"
+          - name: "BATE Borisov"
             score: "0"
-      - id: football-2525281
-        competition: "Bosnian Premier Liga"
+      - id: football-2497010
+        competition: "Belgian Challenger Pro League"
         state: live
         stateLabel: "25'"
         teams:
-          - name: "Borac Banja Luka"
+          - name: "Francs Borains"
             score: "0"
-          - name: "Čelik Zenica"
+          - name: "Sporting Hasselt"
             score: "0"
 
   - name: Cricket
