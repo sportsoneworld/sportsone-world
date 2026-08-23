@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 15:28 IST"
+updated: "23 Aug 2026, 16:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2505248
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "68'"
-        teams:
-          - name: "Blau-Weiß Linz"
-            score: "4"
-            active: true
-          - name: "Voitsberg"
-            score: "0"
-      - id: football-2512697
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "67'"
-        teams:
-          - name: "SCR Altach Juniors"
-            score: "3"
-            active: true
-          - name: "Lustenau"
-            score: "1"
-      - id: football-2578500
-        competition: "Club Friendlies"
+      - id: football-2552480
+        competition: "Campeonato de Portugal Serie B"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Long An"
-            score: "2"
-          - name: "Aurora Saigon United"
-            score: "2"
-      - id: football-2502743
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Admira Praha"
+          - name: "Beira Mar"
+            score: "0"
+          - name: "Machico"
             score: "1"
-          - name: "Příbram Akademie"
-            score: "3"
             active: true
-      - id: football-2502627
-        competition: "Czech Bohemian Football League Group B"
+      - id: football-2578501
+        competition: "Club Friendlies"
         state: live
-        stateLabel: "80'"
+        stateLabel: "29'"
         teams:
-          - name: "Jablonec B"
-            score: "5"
+          - name: "Becamex Hồ Chí Minh City"
+            score: "0"
+          - name: "Công An Hồ Chí Minh City"
+            score: "0"
+      - id: football-2481815
+        competition: "Danish Superliga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Sønderjyske"
+            score: "0"
+          - name: "FC Nordsjælland"
+            score: "1"
             active: true
-          - name: "Velké Hamry"
-            score: "0"
-      - id: football-2502629
-        competition: "Czech Bohemian Football League Group B"
+      - id: football-2522895
+        competition: "Denmark A-Liga"
         state: live
-        stateLabel: "84'"
+        stateLabel: "58'"
         teams:
-          - name: "Hradec Králové B"
+          - name: "Nordsjælland Women"
+            score: "7"
+            active: true
+          - name: "FC Copenhagen Women"
             score: "0"
-          - name: "Chrudim"
+      - id: football-2489088
+        competition: "Dutch Eredivisie"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "Go Ahead Eagles"
+            score: "1"
+            active: true
+          - name: "ADO Den Haag"
             score: "0"
+      - id: football-2429169
+        competition: "Estonian Esiliiga"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Levadia U21 Tallinn"
+            score: "1"
+          - name: "FC Tallinn"
+            score: "1"
 
   - name: Cricket
     matches:
