@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 19:32 IST"
+updated: "23 Aug 2026, 20:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2521182
-        competition: "AFC Womens Champions League"
+      - id: football-2578211
+        competition: "Angolan Girabola"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Bam Khatoon"
-            score: "3"
-            active: true
-          - name: "Etihad Club Women"
+          - name: "FC Luanda"
+            score: "0"
+          - name: "Recreativo da Caála"
+            score: "0"
+      - id: football-2578212
+        competition: "Angolan Girabola"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Primeiro de Maio"
             score: "1"
+            active: true
+          - name: "Kabuscorp"
+            score: "0"
+      - id: football-2551331
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "FADEP"
+            score: "1"
+            active: true
+          - name: "Sol de Mayo"
+            score: "0"
       - id: football-2523505
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "Live"
         teams:
           - name: "BKMA"
             score: "0"
           - name: "Noah"
             score: "0"
-      - id: football-2497009
-        competition: "Belgian Challenger Pro League"
+      - id: football-2546630
+        competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "29'"
         teams:
-          - name: "Jong Genk"
+          - name: "Turan Tovuz"
             score: "0"
-          - name: "RFC Liège"
+          - name: "Şamaxı"
             score: "0"
-      - id: football-2496714
-        competition: "Belgian Pro League"
+      - id: football-2452132
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "Live"
         teams:
-          - name: "Lommel"
-            score: "0"
-          - name: "Westerlo"
-            score: "0"
-      - id: football-2552484
-        competition: "Campeonato de Portugal Serie B"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Alpendorada"
-            score: "0"
-          - name: "Camacha"
-            score: "0"
-      - id: football-2498084
-        competition: "Czech National Football League"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Baník Ostrava B"
-            score: "0"
-          - name: "Arsenal Česká Lípa"
-            score: "1"
+          - name: "Lida"
+            score: "3"
             active: true
+          - name: "Niva Dolbizno"
+            score: "1"
 
   - name: Cricket
     matches:
