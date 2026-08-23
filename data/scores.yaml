@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 16:24 IST"
+updated: "23 Aug 2026, 17:12 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2437843
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "41'"
+        teams:
+          - name: "Baranovichi"
+            score: "0"
+          - name: "Dynamo Brest"
+            score: "1"
+            active: true
       - id: football-2552480
         competition: "Campeonato de Portugal Serie B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "80'"
         teams:
           - name: "Beira Mar"
             score: "0"
           - name: "Machico"
             score: "1"
             active: true
-      - id: football-2578501
-        competition: "Club Friendlies"
+      - id: football-2441248
+        competition: "China League One"
         state: live
-        stateLabel: "29'"
+        stateLabel: "42'"
         teams:
-          - name: "Becamex Hồ Chí Minh City"
+          - name: "Changchun Yatai"
+            score: "5"
+            active: true
+          - name: "Foshan Nanshi"
             score: "0"
-          - name: "Công An Hồ Chí Minh City"
-            score: "0"
-      - id: football-2481815
-        competition: "Danish Superliga"
+      - id: football-2441249
+        competition: "China League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "42'"
         teams:
-          - name: "Sønderjyske"
-            score: "0"
-          - name: "FC Nordsjælland"
+          - name: "Shenzhen Juniors"
             score: "1"
             active: true
-      - id: football-2522895
-        competition: "Denmark A-Liga"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Nordsjælland Women"
-            score: "7"
-            active: true
-          - name: "FC Copenhagen Women"
+          - name: "Nanjing City"
             score: "0"
-      - id: football-2489088
-        competition: "Dutch Eredivisie"
+      - id: football-2448583
+        competition: "China league Two"
         state: live
-        stateLabel: "39'"
+        stateLabel: "11'"
         teams:
-          - name: "Go Ahead Eagles"
-            score: "1"
-            active: true
-          - name: "ADO Den Haag"
+          - name: "Guangzhou Dandelion"
             score: "0"
-      - id: football-2429169
-        competition: "Estonian Esiliiga"
+          - name: "Guizhou Guiyang Athletic"
+            score: "0"
+      - id: football-2448582
+        competition: "China league Two"
         state: live
-        stateLabel: "45'"
+        stateLabel: "12'"
         teams:
-          - name: "Levadia U21 Tallinn"
-            score: "1"
-          - name: "FC Tallinn"
-            score: "1"
+          - name: "Chengdu Rongcheng B"
+            score: "0"
+          - name: "Jiangxi Lushan"
+            score: "0"
 
   - name: Cricket
     matches:
