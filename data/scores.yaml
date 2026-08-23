@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 10:36 IST"
+updated: "23 Aug 2026, 11:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,58 @@ sports:
       - id: football-2397279
         competition: "American USL Championship"
         state: live
-        stateLabel: "89'"
+        stateLabel: "01:00"
         teams:
           - name: "Colorado Springs Switchbacks"
             score: "0"
           - name: "El Paso Locomotive"
             score: "1"
             active: true
-      - id: football-2397286
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sacramento Republic"
-            score: "2"
-          - name: "Phoenix Rising"
-            score: "2"
-      - id: football-2397284
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "02:00"
-        teams:
-          - name: "Orange County SC"
-            score: "1"
-          - name: "FC Tulsa"
-            score: "5"
-            active: true
-      - id: football-2397607
-        competition: "American USL League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "AV Alta FC"
-            score: "1"
-          - name: "FC Naples"
-            score: "1"
-      - id: football-2428286
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Wollongong Wolves"
-            score: "0"
-          - name: "Western Sydney Wanderers Youth"
-            score: "0"
       - id: football-2546484
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "29'"
+        stateLabel: "69'"
         teams:
           - name: "Sydney United 58"
             score: "0"
           - name: "APIA Leichhardt"
+            score: "0"
+      - id: football-2428282
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Sydney Olympic"
+            score: "0"
+          - name: "Marconi Stallions"
+            score: "0"
+      - id: football-2428286
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Wollongong Wolves"
+            score: "1"
+            active: true
+          - name: "Western Sydney Wanderers Youth"
+            score: "0"
+      - id: football-2580217
+        competition: "Australia Northern NSW NPL"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Maitland"
+            score: "0"
+          - name: "Weston Bears"
+            score: "0"
+      - id: football-2432803
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "South Melbourne"
+            score: "0"
+          - name: "Heidelberg United"
             score: "0"
 
   - name: Cricket
