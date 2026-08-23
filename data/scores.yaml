@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 13:21 IST"
+updated: "23 Aug 2026, 14:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2509458
-        competition: "South Korean K4 League"
+      - id: football-2505248
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "33'"
+        stateLabel: "30'"
         teams:
-          - name: "Jecheon Citizen"
-            score: "2"
-          - name: "Sejong SA"
-            score: "2"
-      - id: football-2397276
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Birmingham Legion"
-            score: "2"
-          - name: "Sporting JAX"
-            score: "3"
-            active: true
-      - id: football-2397279
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "0"
-          - name: "El Paso Locomotive"
+          - name: "Blau-Weiß Linz"
             score: "1"
             active: true
-      - id: football-2397284
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Orange County SC"
-            score: "1"
-          - name: "FC Tulsa"
-            score: "5"
-            active: true
-      - id: football-2428286
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Wollongong Wolves"
-            score: "3"
-            active: true
-          - name: "Western Sydney Wanderers Youth"
+          - name: "Voitsberg"
             score: "0"
-      - id: football-2428282
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2512697
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "29'"
         teams:
-          - name: "Sydney Olympic"
-            score: "0"
-          - name: "Marconi Stallions"
+          - name: "SCR Altach Juniors"
             score: "1"
             active: true
+          - name: "Lustenau"
+            score: "0"
+      - id: football-2578500
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Long An"
+            score: "2"
+            active: true
+          - name: "Aurora Saigon United"
+            score: "1"
+      - id: football-2502743
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Admira Praha"
+            score: "0"
+          - name: "Příbram Akademie"
+            score: "1"
+            active: true
+      - id: football-2502627
+        competition: "Czech Bohemian Football League Group B"
+        state: live
+        stateLabel: "40'"
+        teams:
+          - name: "Jablonec B"
+            score: "1"
+            active: true
+          - name: "Velké Hamry"
+            score: "0"
+      - id: football-2502629
+        competition: "Czech Bohemian Football League Group B"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Hradec Králové B"
+            score: "0"
+          - name: "Chrudim"
+            score: "0"
 
   - name: Cricket
     matches:
