@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 23:31 IST"
+updated: "24 Aug 2026, 00:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578210
-        competition: "Angolan Girabola"
+      - id: football-2533260
+        competition: "Albanian Superliga"
         state: live
-        stateLabel: "68'"
+        stateLabel: "2'"
         teams:
-          - name: "Wiliete"
-            score: "2"
-            active: true
-          - name: "Académica do Lobito"
+          - name: "Dinamo City"
             score: "0"
-      - id: football-2398038
-        competition: "Argentinian Primera Division"
+          - name: "Vora"
+            score: "0"
+      - id: football-2533261
+        competition: "Albanian Superliga"
         state: live
-        stateLabel: "15'"
+        stateLabel: "4'"
         teams:
-          - name: "Sarmiento"
+          - name: "Egnatia"
             score: "0"
-          - name: "Estudiantes de La Plata"
+          - name: "Tirana"
             score: "0"
-      - id: football-2398028
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Barracas Central"
-            score: "0"
-          - name: "Platense"
-            score: "0"
-      - id: football-2523503
-        competition: "Armenian Premier League"
+      - id: football-2419890
+        competition: "American NWSL"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Ararat-Armenia"
+          - name: "Chicago Stars"
             score: "1"
-          - name: "Sardarapat"
-            score: "1"
-      - id: football-2546629
-        competition: "Azerbaijani Premier League"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Neftçi PFK"
-            score: "4"
             active: true
-          - name: "Araz-Naxçıvan"
+          - name: "Racing Louisville"
             score: "0"
-      - id: football-2437847
-        competition: "Belarus Vyscha Liga"
+      - id: football-2406495
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
-          - name: "Maxline Vitebsk"
+          - name: "Dock Sud"
             score: "0"
-          - name: "BATE Borisov"
+          - name: "Deportivo Camioneros"
+            score: "2"
+            active: true
+      - id: football-2551318
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "San Martín de Formosa"
+            score: "0"
+          - name: "9 de Julio de Rafaela"
+            score: "0"
+      - id: football-2551316
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Boca Unidos"
+            score: "0"
+          - name: "Sportivo Las Parejas"
             score: "0"
 
   - name: Cricket
