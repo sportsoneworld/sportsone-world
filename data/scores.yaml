@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 04:25 IST"
+updated: "24 Aug 2026, 05:12 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407022
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Atlanta United"
+            score: "2"
+            active: true
+          - name: "Sporting Kansas City"
+            score: "0"
       - id: football-2419892
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "75'"
         teams:
           - name: "Bay FC"
             score: "0"
@@ -35,50 +45,40 @@ sports:
       - id: football-2398037
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "39'"
+        stateLabel: "68'"
         teams:
           - name: "River Plate"
-            score: "1"
+            score: "2"
             active: true
           - name: "Vélez Sarsfield"
-            score: "0"
-      - id: football-2566596
+            score: "1"
+      - id: football-2566597
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "82'"
+        stateLabel: "12'"
         teams:
-          - name: "Guabirá"
-            score: "1"
-          - name: "Blooming"
-            score: "1"
+          - name: "Real Tomayapo"
+            score: "0"
+          - name: "Always Ready"
+            score: "0"
       - id: football-2398424
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "24'"
+        stateLabel: "47'"
         teams:
           - name: "Coritiba"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Corinthians"
             score: "0"
-      - id: football-2398429
-        competition: "Brazilian Serie A"
+      - id: football-2421967
+        competition: "Chile Primera B"
         state: live
-        stateLabel: "58'"
+        stateLabel: "11'"
         teams:
-          - name: "Santos"
+          - name: "Curicó Unido"
             score: "0"
-          - name: "Mirassol"
-            score: "1"
-            active: true
-      - id: football-2398423
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "61'"
-        teams:
-          - name: "Chapecoense"
-            score: "1"
-            active: true
-          - name: "São Paulo"
+          - name: "Unión San Felipe"
             score: "0"
 
   - name: Cricket
