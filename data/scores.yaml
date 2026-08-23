@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 21:19 IST"
+updated: "23 Aug 2026, 22:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,44 +23,16 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578211
+      - id: football-2578210
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "84'"
+        stateLabel: "25'"
         teams:
-          - name: "FC Luanda"
-            score: "0"
-          - name: "Recreativo da Caála"
-            score: "0"
-      - id: football-2578212
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Primeiro de Maio"
-            score: "1"
-          - name: "Kabuscorp"
-            score: "1"
-      - id: football-2551331
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "FADEP"
+          - name: "Wiliete"
             score: "1"
             active: true
-          - name: "Sol de Mayo"
+          - name: "Académica do Lobito"
             score: "0"
-      - id: football-2523505
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "BKMA"
-            score: "0"
-          - name: "Noah"
-            score: "1"
-            active: true
       - id: football-2512693
         competition: "Austrian Regionalliga West"
         state: live
@@ -69,15 +41,43 @@ sports:
           - name: "Hohenems"
             score: "1"
           - name: "Röthis"
+            score: "2"
+            active: true
+      - id: football-2512694
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Kitzbühel"
             score: "1"
-      - id: football-2546630
+          - name: "Lauterach"
+            score: "1"
+      - id: football-2546629
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "60'"
+        stateLabel: "10'"
         teams:
-          - name: "Turan Tovuz"
+          - name: "Neftçi PFK"
             score: "0"
-          - name: "Şamaxı"
+          - name: "Araz-Naxçıvan"
+            score: "0"
+      - id: football-2496715
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Club Brugge"
+            score: "0"
+          - name: "Cercle Brugge"
+            score: "0"
+      - id: football-2525281
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Borac Banja Luka"
+            score: "0"
+          - name: "Čelik Zenica"
             score: "0"
 
   - name: Cricket
