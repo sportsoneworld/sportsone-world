@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 03:31 IST"
+updated: "24 Aug 2026, 04:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,57 +23,57 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407021
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "61'"
-        teams:
-          - name: "New England Revolution"
-            score: "1"
-          - name: "New York City FC"
-            score: "1"
-      - id: football-2419891
+      - id: football-2419892
         competition: "American NWSL"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Washington Spirit"
-            score: "0"
-          - name: "Orlando Pride"
-            score: "1"
-            active: true
-      - id: football-2566596
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Guabirá"
-            score: "0"
-          - name: "Blooming"
-            score: "0"
-      - id: football-2578560
-        competition: "Brazil Serie D"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "ASA"
-            score: "2"
+          - name: "Bay FC"
+            score: "0"
+          - name: "Houston Dash"
+            score: "0"
+      - id: football-2398037
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "River Plate"
+            score: "1"
             active: true
-          - name: "Gama"
+          - name: "Vélez Sarsfield"
+            score: "0"
+      - id: football-2566596
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Guabirá"
+            score: "1"
+          - name: "Blooming"
+            score: "1"
+      - id: football-2398424
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Coritiba"
+            score: "0"
+          - name: "Corinthians"
             score: "0"
       - id: football-2398429
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "25'"
+        stateLabel: "58'"
         teams:
           - name: "Santos"
             score: "0"
           - name: "Mirassol"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2398423
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "28'"
+        stateLabel: "61'"
         teams:
           - name: "Chapecoense"
             score: "1"
