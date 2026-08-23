@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 00:35 IST"
+updated: "24 Aug 2026, 01:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,61 @@ sports:
       - id: football-2533260
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "2'"
+        stateLabel: "Live"
         teams:
           - name: "Dinamo City"
             score: "0"
           - name: "Vora"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2533261
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "4'"
+        stateLabel: "Live"
         teams:
           - name: "Egnatia"
-            score: "0"
+            score: "3"
+            active: true
           - name: "Tirana"
             score: "0"
       - id: football-2419890
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "84'"
         teams:
           - name: "Chicago Stars"
-            score: "1"
+            score: "3"
             active: true
           - name: "Racing Louisville"
-            score: "0"
+            score: "2"
       - id: football-2406495
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "86'"
         teams:
           - name: "Dock Sud"
-            score: "0"
+            score: "2"
           - name: "Deportivo Camioneros"
             score: "2"
-            active: true
       - id: football-2551318
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "1'"
+        stateLabel: "45'"
         teams:
           - name: "San Martín de Formosa"
-            score: "0"
+            score: "2"
+            active: true
           - name: "9 de Julio de Rafaela"
-            score: "0"
-      - id: football-2551316
+            score: "1"
+      - id: football-2551327
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "2'"
+        stateLabel: "Live"
         teams:
-          - name: "Boca Unidos"
-            score: "0"
-          - name: "Sportivo Las Parejas"
+          - name: "Sarmiento de La Banda"
+            score: "1"
+            active: true
+          - name: "Sportivo Belgrano"
             score: "0"
 
   - name: Cricket
