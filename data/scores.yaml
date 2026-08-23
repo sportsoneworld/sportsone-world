@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 02:22 IST"
+updated: "24 Aug 2026, 03:12 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533260
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Dinamo City"
-            score: "0"
-          - name: "Vora"
-            score: "1"
-            active: true
-      - id: football-2533261
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Egnatia"
-            score: "3"
-            active: true
-          - name: "Tirana"
-            score: "0"
       - id: football-2407021
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "11'"
+        stateLabel: "Live"
         teams:
           - name: "New England Revolution"
-            score: "0"
+            score: "1"
           - name: "New York City FC"
-            score: "0"
+            score: "1"
       - id: football-2419891
         competition: "American NWSL"
         state: live
-        stateLabel: "36'"
+        stateLabel: "66'"
         teams:
           - name: "Washington Spirit"
             score: "0"
           - name: "Orlando Pride"
             score: "1"
             active: true
-      - id: football-2551328
-        competition: "Argentina Torneo Federal A"
+      - id: football-2398029
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "90'"
+        stateLabel: "85'"
         teams:
-          - name: "Bartolomé Mitre"
-            score: "0"
-          - name: "Douglas Haig"
-            score: "3"
-            active: true
-      - id: football-2551318
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "San Martín de Formosa"
+          - name: "Belgrano"
+            score: "1"
+          - name: "Defensa y Justicia"
             score: "2"
             active: true
-          - name: "9 de Julio de Rafaela"
-            score: "1"
+      - id: football-2566596
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Guabirá"
+            score: "0"
+          - name: "Blooming"
+            score: "0"
+      - id: football-2578560
+        competition: "Brazil Serie D"
+        state: live
+        stateLabel: "77'"
+        teams:
+          - name: "ASA"
+            score: "2"
+            active: true
+          - name: "Gama"
+            score: "0"
+      - id: football-2398423
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Chapecoense"
+            score: "0"
+          - name: "São Paulo"
+            score: "0"
 
   - name: Cricket
     matches:
