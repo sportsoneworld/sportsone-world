@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Aug 2026, 05:12 IST"
+updated: "23 Aug 2026, 05:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,73 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407009
+      - id: football-2407008
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "1'"
+        stateLabel: "19'"
         teams:
-          - name: "FC Cincinnati"
+          - name: "Inter Miami"
             score: "0"
-          - name: "Seattle Sounders"
+          - name: "Toronto FC"
             score: "0"
       - id: football-2407010
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "1'"
+        stateLabel: "20'"
         teams:
           - name: "CF Montréal"
-            score: "0"
+            score: "1"
           - name: "LA Galaxy"
-            score: "0"
+            score: "1"
       - id: football-2407011
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "1'"
+        stateLabel: "20'"
         teams:
           - name: "New York Red Bulls"
             score: "0"
           - name: "Chicago Fire"
             score: "0"
-      - id: football-2407012
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Orlando City"
-            score: "0"
-          - name: "Real Salt Lake"
-            score: "0"
       - id: football-2407013
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "1'"
+        stateLabel: "20'"
         teams:
           - name: "Charlotte FC"
             score: "0"
           - name: "DC United"
             score: "0"
-      - id: football-2419888
-        competition: "American NWSL"
+      - id: football-2407009
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "2'"
+        stateLabel: "21'"
         teams:
-          - name: "North Carolina Courage"
+          - name: "FC Cincinnati"
             score: "0"
-          - name: "Boston Legacy"
+          - name: "Seattle Sounders"
+            score: "0"
+      - id: football-2407012
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Orlando City"
+            score: "0"
+          - name: "Real Salt Lake"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578472
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Antigua and Barbuda Falcons"
-            score: "–"
-            detail: "23:00"
-          - name: "Trinbago Knight Riders"
-            score: "–"
       - id: cricket-2578473
         competition: "Caribbean Premier League"
         state: upcoming
@@ -99,4 +89,14 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Guyana Amazon Warriors"
+            score: "–"
+      - id: cricket-2578474
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Antigua and Barbuda Falcons"
+            score: "–"
+            detail: "23:00"
+          - name: "Barbados Tridents"
             score: "–"
