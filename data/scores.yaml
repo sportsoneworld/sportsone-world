@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 19:55 IST"
+updated: "24 Aug 2026, 21:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2426753
-        competition: "Uzbekistan Super League"
+      - id: football-2437846
+        competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "24'"
+        stateLabel: "78'"
         teams:
-          - name: "Kokand-1912"
+          - name: "Isloch Minsk Raion"
             score: "0"
-          - name: "Buxoro"
+          - name: "Dinamo Minsk"
             score: "0"
-      - id: football-2398036
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2487310
+        competition: "Bulgarian First League"
+        state: live
+        stateLabel: "6'"
         teams:
-          - name: "Racing Club"
-            score: "1"
-          - name: "Boca Juniors"
-            score: "1"
-      - id: football-2531224
-        competition: "Armenian Cup"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Botev Vratsa"
+            score: "0"
+          - name: "Botev Plovdiv"
+            score: "0"
+      - id: football-2511454
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "46'"
         teams:
-          - name: "Araks Ararat"
-            score: "4"
+          - name: "Vihren Sandanski"
+            score: "1"
             active: true
-          - name: "Cilicia"
-            score: "2"
-      - id: football-2397616
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
+          - name: "Fratria Varna"
+            score: "0"
+      - id: football-2483396
+        competition: "DFB-Pokal"
+        state: live
+        stateLabel: "5'"
         teams:
-          - name: "FC Naples"
-            score: "–"
-            detail: "23:30"
-          - name: "Union Omaha"
-            score: "–"
-      - id: football-2404929
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "22:00"
+          - name: "Altglienicke"
+            score: "0"
+          - name: "Wolfsburg"
+            score: "0"
+      - id: football-2483309
+        competition: "DFB-Pokal"
+        state: live
+        stateLabel: "6'"
         teams:
-          - name: "Deportivo Madryn"
-            score: "–"
-            detail: "22:00"
-          - name: "Godoy Cruz"
-            score: "–"
-      - id: football-2404919
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "18:00"
+          - name: "Verl"
+            score: "0"
+          - name: "Hamburg"
+            score: "0"
+      - id: football-2483394
+        competition: "DFB-Pokal"
+        state: live
+        stateLabel: "6'"
         teams:
-          - name: "Acassuso"
-            score: "–"
-            detail: "18:00"
-          - name: "San Telmo"
-            score: "–"
+          - name: "Würzburger Kickers"
+            score: "0"
+          - name: "Köln"
+            score: "0"
 
   - name: Cricket
     matches:
