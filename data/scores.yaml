@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 21:36 IST"
+updated: "24 Aug 2026, 23:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437846
+      - id: football-2437850
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "78'"
+        stateLabel: "22'"
         teams:
-          - name: "Isloch Minsk Raion"
+          - name: "Torpedo-BelAZ Zhodino"
             score: "0"
-          - name: "Dinamo Minsk"
+          - name: "Dnepr Mogilev"
             score: "0"
       - id: football-2487310
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "6'"
+        stateLabel: "Live"
         teams:
           - name: "Botev Vratsa"
-            score: "0"
-          - name: "Botev Plovdiv"
-            score: "0"
-      - id: football-2511454
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Vihren Sandanski"
             score: "1"
             active: true
-          - name: "Fratria Varna"
+          - name: "Botev Plovdiv"
             score: "0"
       - id: football-2483396
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "5'"
+        stateLabel: "90'"
         teams:
           - name: "Altglienicke"
-            score: "0"
+            score: "2"
           - name: "Wolfsburg"
-            score: "0"
+            score: "2"
+      - id: football-2483394
+        competition: "DFB-Pokal"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Würzburger Kickers"
+            score: "1"
+          - name: "Köln"
+            score: "2"
+            active: true
       - id: football-2483309
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "6'"
+        stateLabel: "Live"
         teams:
           - name: "Verl"
             score: "0"
           - name: "Hamburg"
-            score: "0"
-      - id: football-2483394
-        competition: "DFB-Pokal"
+            score: "3"
+            active: true
+      - id: football-2481819
+        competition: "Danish Superliga"
         state: live
-        stateLabel: "6'"
+        stateLabel: "Live"
         teams:
-          - name: "Würzburger Kickers"
+          - name: "Brøndby"
             score: "0"
-          - name: "Köln"
-            score: "0"
+          - name: "Silkeborg IF"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
