@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 04:31 IST"
+updated: "25 Aug 2026, 05:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,25 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2397278
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Charleston Battery"
+            score: "1"
+            active: true
+          - name: "Miami FC"
+            score: "0"
+      - id: football-2405019
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Ferro Carril Oeste"
+            score: "0"
+          - name: "All Boys"
+            score: "0"
       - id: football-2398040
         competition: "Argentinian Primera Division"
         state: live
@@ -32,55 +51,37 @@ sports:
             score: "2"
             active: true
           - name: "Central Córdoba de Santiago del Estero"
+            score: "1"
+      - id: football-2398421
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Botafogo"
             score: "0"
+          - name: "Athletico Paranaense"
+            score: "2"
+            active: true
       - id: football-2431396
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "30'"
+        stateLabel: "64'"
         teams:
           - name: "Athletic Club-MG"
             score: "0"
           - name: "Novorizontino"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2431405
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "30'"
+        stateLabel: "64'"
         teams:
           - name: "Sport Recife"
-            score: "1"
+            score: "2"
             active: true
           - name: "América Mineiro"
             score: "0"
-      - id: football-2481426
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Patriotas Boyacá"
-            score: "0"
-          - name: "Atlético Cali"
-            score: "0"
-      - id: football-2481432
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Orsomarso"
-            score: "0"
-          - name: "Real Cundinamarca"
-            score: "0"
-      - id: football-2481427
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Itagüí Leones"
-            score: "1"
-          - name: "Real Cartagena"
-            score: "4"
-            active: true
 
   - name: Cricket
     matches:
