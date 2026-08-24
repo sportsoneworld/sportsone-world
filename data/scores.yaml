@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 09:06 IST"
+updated: "24 Aug 2026, 11:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,25 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2497237
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Malacateco"
-            score: "2"
-            active: true
-          - name: "San Pedro Sacatepéquez"
-            score: "0"
-      - id: football-2423380
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Ventura County"
-            score: "2"
-          - name: "Portland Timbers II"
-            score: "2"
       - id: football-2398036
         competition: "Argentinian Primera Division"
         state: completed
@@ -51,35 +32,56 @@ sports:
             score: "1"
           - name: "Boca Juniors"
             score: "1"
-      - id: football-2481140
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2397616
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Atlético Junior"
-            score: "1"
-          - name: "Once Caldas"
-            score: "1"
-      - id: football-2423372
-        competition: "MLS Next Pro"
-        state: completed
-        stateLabel: "Full time"
+          - name: "FC Naples"
+            score: "–"
+            detail: "23:30"
+          - name: "Union Omaha"
+            score: "–"
+      - id: football-2404929
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "22:00"
         teams:
-          - name: "Colorado Rapids 2"
-            score: "4"
-            active: true
-          - name: "Real Monarchs"
-            score: "1"
-      - id: football-2521274
-        competition: "Mexican Liga de Expansión MX"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Deportivo Madryn"
+            score: "–"
+            detail: "22:00"
+          - name: "Godoy Cruz"
+            score: "–"
+      - id: football-2404919
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:00"
         teams:
-          - name: "Tapatío"
-            score: "4"
-            active: true
-          - name: "Mineros de Zacatecas"
-            score: "2"
+          - name: "Acassuso"
+            score: "–"
+            detail: "18:00"
+          - name: "San Telmo"
+            score: "–"
+      - id: football-2404925
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Chaco For Ever"
+            score: "–"
+            detail: "18:00"
+          - name: "San Miguel"
+            score: "–"
+      - id: football-2398040
+        competition: "Argentinian Primera Division"
+        state: upcoming
+        stateLabel: "22:00"
+        teams:
+          - name: "Tigre"
+            score: "–"
+            detail: "22:00"
+          - name: "Central Córdoba de Santiago del Estero"
+            score: "–"
 
   - name: Cricket
     matches:
