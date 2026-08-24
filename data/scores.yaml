@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 05:31 IST"
+updated: "24 Aug 2026, 09:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407022
-        competition: "American Major League Soccer"
+      - id: football-2497237
+        competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "70'"
         teams:
-          - name: "Atlanta United"
+          - name: "Malacateco"
             score: "2"
             active: true
-          - name: "Sporting Kansas City"
+          - name: "San Pedro Sacatepéquez"
             score: "0"
-      - id: football-2419892
-        competition: "American NWSL"
+      - id: football-2423380
+        competition: "MLS Next Pro"
         state: live
-        stateLabel: "Live"
+        stateLabel: "74'"
         teams:
-          - name: "Bay FC"
-            score: "1"
-            active: true
-          - name: "Houston Dash"
-            score: "0"
-      - id: football-2398037
+          - name: "Ventura County"
+            score: "2"
+          - name: "Portland Timbers II"
+            score: "2"
+      - id: football-2398036
         competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "87'"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "River Plate"
-            score: "2"
-          - name: "Vélez Sarsfield"
-            score: "2"
-      - id: football-2566597
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Real Tomayapo"
-            score: "0"
-          - name: "Always Ready"
-            score: "0"
-      - id: football-2398424
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Coritiba"
+          - name: "Racing Club"
             score: "1"
-            active: true
-          - name: "Corinthians"
-            score: "0"
-      - id: football-2421967
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "30'"
+          - name: "Boca Juniors"
+            score: "1"
+      - id: football-2481140
+        competition: "Colombia Categoría Primera A"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Curicó Unido"
-            score: "0"
-          - name: "Unión San Felipe"
-            score: "0"
+          - name: "Atlético Junior"
+            score: "1"
+          - name: "Once Caldas"
+            score: "1"
+      - id: football-2423372
+        competition: "MLS Next Pro"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Colorado Rapids 2"
+            score: "4"
+            active: true
+          - name: "Real Monarchs"
+            score: "1"
+      - id: football-2521274
+        competition: "Mexican Liga de Expansión MX"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Tapatío"
+            score: "4"
+            active: true
+          - name: "Mineros de Zacatecas"
+            score: "2"
 
   - name: Cricket
     matches:
