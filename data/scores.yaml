@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Aug 2026, 11:25 IST"
+updated: "24 Aug 2026, 19:55 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2426753
+        competition: "Uzbekistan Super League"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Kokand-1912"
+            score: "0"
+          - name: "Buxoro"
+            score: "0"
       - id: football-2398036
         competition: "Argentinian Primera Division"
         state: completed
@@ -32,6 +41,16 @@ sports:
             score: "1"
           - name: "Boca Juniors"
             score: "1"
+      - id: football-2531224
+        competition: "Armenian Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Araks Ararat"
+            score: "4"
+            active: true
+          - name: "Cilicia"
+            score: "2"
       - id: football-2397616
         competition: "American USL League One"
         state: upcoming
@@ -61,26 +80,6 @@ sports:
             score: "–"
             detail: "18:00"
           - name: "San Telmo"
-            score: "–"
-      - id: football-2404925
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "18:00"
-        teams:
-          - name: "Chaco For Ever"
-            score: "–"
-            detail: "18:00"
-          - name: "San Miguel"
-            score: "–"
-      - id: football-2398040
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "22:00"
-        teams:
-          - name: "Tigre"
-            score: "–"
-            detail: "22:00"
-          - name: "Central Córdoba de Santiago del Estero"
             score: "–"
 
   - name: Cricket
