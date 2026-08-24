@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 03:31 IST"
+updated: "25 Aug 2026, 04:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481431
-        competition: "Colombian Categoría Primera B"
+      - id: football-2398040
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "70'"
+        stateLabel: "Live"
         teams:
-          - name: "Real Santander"
-            score: "1"
-            active: true
-          - name: "Independiente Yumbo"
-            score: "0"
-      - id: football-2483297
-        competition: "DFB-Pokal"
-        state: live
-        stateLabel: "120'"
-        teams:
-          - name: "Hallescher"
+          - name: "Tigre"
             score: "2"
-          - name: "Schalke 04"
-            score: "5"
             active: true
-      - id: football-2548491
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "13'"
-        teams:
-          - name: "Atlante Femenil"
+          - name: "Central Córdoba de Santiago del Estero"
             score: "0"
-          - name: "Toluca Femenil"
-            score: "0"
-      - id: football-2578064
-        competition: "Paraguayan División Intermedia"
+      - id: football-2431396
+        competition: "Brazilian Serie B"
         state: live
         stateLabel: "30'"
         teams:
-          - name: "12 de Junio de Villa Hayes"
+          - name: "Athletic Club-MG"
             score: "0"
-          - name: "Paraguarí"
+          - name: "Novorizontino"
             score: "1"
             active: true
-      - id: football-2405015
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2431405
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "30'"
         teams:
-          - name: "Güemes"
+          - name: "Sport Recife"
+            score: "1"
+            active: true
+          - name: "América Mineiro"
             score: "0"
-          - name: "Atlético de Rafaela"
-            score: "0"
-      - id: football-2398036
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2481426
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "30'"
         teams:
-          - name: "Racing Club"
+          - name: "Patriotas Boyacá"
+            score: "0"
+          - name: "Atlético Cali"
+            score: "0"
+      - id: football-2481432
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Orsomarso"
+            score: "0"
+          - name: "Real Cundinamarca"
+            score: "0"
+      - id: football-2481427
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Itagüí Leones"
             score: "1"
-          - name: "Boca Juniors"
-            score: "1"
+          - name: "Real Cartagena"
+            score: "4"
+            active: true
 
   - name: Cricket
     matches:
