@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 19:38 IST"
+updated: "25 Aug 2026, 21:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2440103
-        competition: "Kazakhstan Premier League"
+      - id: football-2511449
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "7'"
+        stateLabel: "39'"
         teams:
-          - name: "Tobol"
+          - name: "Beroe"
             score: "1"
             active: true
-          - name: "Kaisar Kyzylorda"
+          - name: "Spartak Pleven"
             score: "0"
-      - id: football-2572902
-        competition: "Russia Cup"
+      - id: football-2511451
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "5'"
+        stateLabel: "52'"
         teams:
-          - name: "Torpedo Vladimir"
+          - name: "CSKA Sofia II"
             score: "0"
-          - name: "Krasnoye Znamya Noginsk"
-            score: "0"
-      - id: football-2572907
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "9'"
-        teams:
-          - name: "Dynamo Kirov"
-            score: "0"
-          - name: "Amkar Perm"
-            score: "0"
-      - id: football-2426758
-        competition: "Uzbekistan Super League"
-        state: live
-        stateLabel: "7'"
-        teams:
-          - name: "Surkhon Termez"
-            score: "0"
-          - name: "AGMK"
-            score: "0"
-      - id: football-2426751
-        competition: "Uzbekistan Super League"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Andijon"
-            score: "0"
-          - name: "Xorazm Urganch"
-            score: "0"
-      - id: football-2398034
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Lanús"
+          - name: "Ludogorets Razgrad II"
             score: "1"
-          - name: "Argentinos Juniors"
+            active: true
+      - id: football-2566658
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Munkebo"
+            score: "0"
+          - name: "Næsby"
+            score: "0"
+      - id: football-2566652
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Allerød"
             score: "1"
+          - name: "Vanløse"
+            score: "2"
+            active: true
+      - id: football-2566647
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "OKS"
+            score: "0"
+          - name: "Middelfart"
+            score: "1"
+            active: true
+      - id: football-2566648
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "SGI"
+            score: "0"
+          - name: "Aarhus Fremad"
+            score: "0"
 
   - name: Cricket
     matches:
