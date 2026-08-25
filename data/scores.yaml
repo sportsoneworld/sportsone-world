@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 16:44 IST"
+updated: "25 Aug 2026, 19:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,53 +23,51 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572735
-        competition: "Australia Cup"
+      - id: football-2440103
+        competition: "Kazakhstan Premier League"
         state: live
-        stateLabel: "85'"
+        stateLabel: "7'"
         teams:
-          - name: "Queensland Lions"
-            score: "4"
+          - name: "Tobol"
+            score: "1"
             active: true
-          - name: "North Sunshine Eagles"
+          - name: "Kaisar Kyzylorda"
             score: "0"
-      - id: football-2572896
+      - id: football-2572902
         competition: "Russia Cup"
         state: live
-        stateLabel: "55'"
+        stateLabel: "5'"
         teams:
-          - name: "Avangard Kursk"
-            score: "1"
-          - name: "Kaluga"
-            score: "2"
-            active: true
-      - id: football-2416525
-        competition: "South Korean K League 1"
+          - name: "Torpedo Vladimir"
+            score: "0"
+          - name: "Krasnoye Znamya Noginsk"
+            score: "0"
+      - id: football-2572907
+        competition: "Russia Cup"
         state: live
-        stateLabel: "43'"
+        stateLabel: "9'"
         teams:
-          - name: "Gimcheon Sangmu"
+          - name: "Dynamo Kirov"
             score: "0"
-          - name: "Jeonbuk Hyundai Motors"
+          - name: "Amkar Perm"
             score: "0"
-      - id: football-2416526
-        competition: "South Korean K League 1"
+      - id: football-2426758
+        competition: "Uzbekistan Super League"
         state: live
-        stateLabel: "43'"
+        stateLabel: "7'"
         teams:
-          - name: "Jeju SK"
+          - name: "Surkhon Termez"
             score: "0"
-          - name: "Pohang Steelers"
-            score: "1"
-            active: true
-      - id: football-2416527
-        competition: "South Korean K League 1"
+          - name: "AGMK"
+            score: "0"
+      - id: football-2426751
+        competition: "Uzbekistan Super League"
         state: live
-        stateLabel: "43'"
+        stateLabel: "8'"
         teams:
-          - name: "FC Seoul"
+          - name: "Andijon"
             score: "0"
-          - name: "Bucheon FC 1995"
+          - name: "Xorazm Urganch"
             score: "0"
       - id: football-2398034
         competition: "Argentinian Primera Division"
