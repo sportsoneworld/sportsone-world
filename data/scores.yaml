@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 03:26 IST"
+updated: "26 Aug 2026, 04:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481429
-        competition: "Colombian Categoría Primera B"
+      - id: football-2404929
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "68'"
+        stateLabel: "45'"
         teams:
-          - name: "Boca Juniors de Cali"
+          - name: "Deportivo Madryn"
             score: "1"
-          - name: "Bogotá"
+            active: true
+          - name: "Godoy Cruz"
+            score: "0"
+      - id: football-2431401
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Juventude"
+            score: "0"
+          - name: "CRB"
+            score: "0"
+      - id: football-2431397
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Atlético Goianiense"
             score: "2"
             active: true
+          - name: "Botafogo-SP"
+            score: "0"
       - id: football-2585508
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "37'"
+        stateLabel: "81'"
         teams:
           - name: "Defensor Sporting"
             score: "0"
@@ -45,40 +64,21 @@ sports:
       - id: football-2568388
         competition: "Copa Paraguay"
         state: live
-        stateLabel: "25'"
+        stateLabel: "72'"
         teams:
           - name: "Sol de América"
-            score: "1"
-          - name: "Sportivo Trinidense"
-            score: "1"
-      - id: football-2549730
-        competition: "Dominican LDF"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Jarabacoa"
             score: "2"
             active: true
-          - name: "Atlántico"
-            score: "0"
-      - id: football-2531875
-        competition: "Peruvian Copa de la Liga"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Alianza Atlético"
+          - name: "Sportivo Trinidense"
             score: "1"
-          - name: "Universidad Técnica de Cajamarca"
-            score: "1"
-      - id: football-2558134
-        competition: "UEFA Champions League"
-        state: live
-        stateLabel: "128'"
+      - id: football-2398034
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "LASK"
-            score: "5"
-            active: true
-          - name: "Celtic"
+          - name: "Lanús"
+            score: "1"
+          - name: "Argentinos Juniors"
             score: "1"
 
   - name: Cricket
