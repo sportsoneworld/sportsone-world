@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 05:24 IST"
+updated: "25 Aug 2026, 08:45 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397278
-        competition: "American USL Championship"
+      - id: football-2423382
+        competition: "MLS Next Pro"
         state: live
-        stateLabel: "45'"
+        stateLabel: "52'"
         teams:
-          - name: "Charleston Battery"
-            score: "1"
+          - name: "Tacoma Defiance"
+            score: "4"
             active: true
-          - name: "Miami FC"
-            score: "0"
-      - id: football-2405019
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ferro Carril Oeste"
-            score: "0"
-          - name: "All Boys"
-            score: "0"
-      - id: football-2398040
+          - name: "Sporting Kansas City II"
+            score: "1"
+      - id: football-2398039
         competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Tigre"
+          - name: "Talleres de Córdoba"
             score: "2"
-            active: true
-          - name: "Central Córdoba de Santiago del Estero"
+          - name: "Rosario Central"
+            score: "2"
+      - id: football-2398034
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Lanús"
             score: "1"
-      - id: football-2398421
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
+          - name: "Argentinos Juniors"
+            score: "1"
+      - id: football-2481433
+        competition: "Colombian Categoría Primera B"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Botafogo"
+          - name: "Internacional de Palmira"
+            score: "1"
+            active: true
+          - name: "Barranquilla"
             score: "0"
-          - name: "Athletico Paranaense"
+      - id: football-2548492
+        competition: "Mexican Liga Femenil"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Atlas Femenil"
             score: "2"
             active: true
-      - id: football-2431396
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Athletic Club-MG"
+          - name: "Tijuana Femenil"
             score: "0"
-          - name: "Novorizontino"
-            score: "2"
-            active: true
-      - id: football-2431405
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "64'"
+      - id: football-2548188
+        competition: "Panama Liga Panamena de Futbol"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Sport Recife"
+          - name: "Alianza"
             score: "2"
             active: true
-          - name: "América Mineiro"
+          - name: "Tauro"
             score: "0"
 
   - name: Cricket
@@ -104,4 +103,34 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Saint Lucia Kings"
+            score: "–"
+      - id: cricket-2465891
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Sussex"
+            score: "–"
+            detail: "00:00"
+          - name: "Somerset"
+            score: "–"
+      - id: cricket-2465892
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Glamorgan"
+            score: "–"
+            detail: "00:00"
+          - name: "Hampshire"
+            score: "–"
+      - id: cricket-2465893
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Yorkshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Leicestershire"
             score: "–"
