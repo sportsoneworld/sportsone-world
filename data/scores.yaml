@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 10:39 IST"
+updated: "25 Aug 2026, 15:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,25 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2572735
+        competition: "Australia Cup"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "Queensland Lions"
+            score: "2"
+            active: true
+          - name: "North Sunshine Eagles"
+            score: "0"
+      - id: football-2572896
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Avangard Kursk"
+            score: "0"
+          - name: "Kaluga"
+            score: "0"
       - id: football-2398034
         competition: "Argentinian Primera Division"
         state: completed
@@ -60,26 +79,6 @@ sports:
             score: "–"
             detail: "01:30"
           - name: "Lexington SC"
-            score: "–"
-      - id: football-2397616
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "FC Naples"
-            score: "–"
-            detail: "23:30"
-          - name: "Union Omaha"
-            score: "–"
-      - id: football-2404929
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "22:00"
-        teams:
-          - name: "Deportivo Madryn"
-            score: "–"
-            detail: "22:00"
-          - name: "Godoy Cruz"
             score: "–"
 
   - name: Cricket
