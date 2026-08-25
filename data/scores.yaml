@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 15:33 IST"
+updated: "25 Aug 2026, 16:44 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,21 +26,50 @@ sports:
       - id: football-2572735
         competition: "Australia Cup"
         state: live
-        stateLabel: "31'"
+        stateLabel: "85'"
         teams:
           - name: "Queensland Lions"
-            score: "2"
+            score: "4"
             active: true
           - name: "North Sunshine Eagles"
             score: "0"
       - id: football-2572896
         competition: "Russia Cup"
         state: live
-        stateLabel: "1'"
+        stateLabel: "55'"
         teams:
           - name: "Avangard Kursk"
-            score: "0"
+            score: "1"
           - name: "Kaluga"
+            score: "2"
+            active: true
+      - id: football-2416525
+        competition: "South Korean K League 1"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Gimcheon Sangmu"
+            score: "0"
+          - name: "Jeonbuk Hyundai Motors"
+            score: "0"
+      - id: football-2416526
+        competition: "South Korean K League 1"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Jeju SK"
+            score: "0"
+          - name: "Pohang Steelers"
+            score: "1"
+            active: true
+      - id: football-2416527
+        competition: "South Korean K League 1"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "FC Seoul"
+            score: "0"
+          - name: "Bucheon FC 1995"
             score: "0"
       - id: football-2398034
         competition: "Argentinian Primera Division"
@@ -51,35 +80,6 @@ sports:
             score: "1"
           - name: "Argentinos Juniors"
             score: "1"
-      - id: football-2398039
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Talleres de Córdoba"
-            score: "2"
-          - name: "Rosario Central"
-            score: "2"
-      - id: football-2397288
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
-        teams:
-          - name: "El Paso Locomotive"
-            score: "–"
-            detail: "01:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2397289
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:30"
-        teams:
-          - name: "New Mexico United"
-            score: "–"
-            detail: "01:30"
-          - name: "Lexington SC"
-            score: "–"
 
   - name: Cricket
     matches:
