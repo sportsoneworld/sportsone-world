@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 04:29 IST"
+updated: "26 Aug 2026, 05:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2404929
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2406503
+        competition: "Argentina Primera B Metropolitana"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Deportivo Madryn"
+          - name: "Excursionistas"
             score: "1"
             active: true
+          - name: "Argentino de Merlo"
+            score: "0"
+      - id: football-2404929
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "87'"
+        teams:
+          - name: "Deportivo Madryn"
+            score: "2"
+            active: true
           - name: "Godoy Cruz"
+            score: "0"
+      - id: football-2566599
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Universitario de Vinto"
+            score: "1"
+            active: true
+          - name: "Nacional Potosí"
             score: "0"
       - id: football-2431401
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "27'"
+        stateLabel: "59'"
         teams:
           - name: "Juventude"
             score: "0"
           - name: "CRB"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2431397
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "30'"
+        stateLabel: "62'"
         teams:
           - name: "Atlético Goianiense"
             score: "2"
             active: true
           - name: "Botafogo-SP"
             score: "0"
-      - id: football-2585508
-        competition: "Copa AUF Uruguay"
+      - id: football-2549731
+        competition: "Dominican LDF"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
-          - name: "Defensor Sporting"
+          - name: "Cibao"
             score: "0"
-          - name: "Rentistas"
+          - name: "Delfines del Este"
             score: "0"
-      - id: football-2568388
-        competition: "Copa Paraguay"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Sol de América"
-            score: "2"
-            active: true
-          - name: "Sportivo Trinidense"
-            score: "1"
-      - id: football-2398034
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Lanús"
-            score: "1"
-          - name: "Argentinos Juniors"
-            score: "1"
 
   - name: Cricket
     matches:
