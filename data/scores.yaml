@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 23:18 IST"
+updated: "26 Aug 2026, 00:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2566649
-        competition: "Denmark DBU Pokalen"
+      - id: football-2406506
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "7'"
+        stateLabel: "52'"
         teams:
-          - name: "Skjold"
-            score: "0"
-          - name: "Espergærde"
-            score: "0"
-      - id: football-2566643
-        competition: "Denmark DBU Pokalen"
-        state: live
-        stateLabel: "54'"
-        teams:
-          - name: "Brønshøj"
+          - name: "San Martín de Burzaco"
             score: "1"
-          - name: "AB Gladsaxe"
+          - name: "Argentino de Quilmes"
             score: "2"
             active: true
-      - id: football-2566644
-        competition: "Denmark DBU Pokalen"
+      - id: football-2406509
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "59'"
+        stateLabel: "56'"
         teams:
-          - name: "Fuglebakken KFUM"
+          - name: "Villa Dálmine"
             score: "0"
-          - name: "Vendsyssel"
+          - name: "Talleres de Remedios de Escalada"
+            score: "0"
+      - id: football-2406505
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Real Pilar"
             score: "2"
             active: true
-      - id: football-2572926
-        competition: "Denmark DBU Pokalen"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Skovshoved"
-            score: "1"
-            active: true
-          - name: "Tårnby FF"
+          - name: "Brown de Adrogué"
             score: "0"
-      - id: football-2566640
-        competition: "Denmark DBU Pokalen"
+      - id: football-2406508
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
-          - name: "Skive"
+          - name: "UAI Urquiza"
             score: "0"
-          - name: "Esbjerg"
-            score: "3"
-            active: true
-      - id: football-2531933
-        competition: "German Regionalliga Bayern"
+          - name: "Laferrere"
+            score: "0"
+      - id: football-2406500
+        competition: "Argentina Primera B Metropolitana"
         state: live
         stateLabel: "58'"
         teams:
-          - name: "Bayern Munich II"
+          - name: "Arsenal de Sarandí"
             score: "1"
-          - name: "Memmingen"
+            active: true
+          - name: "Ituzaingó"
+            score: "0"
+      - id: football-2406510
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Villa San Carlos"
             score: "2"
             active: true
+          - name: "Flandria"
+            score: "1"
 
   - name: Cricket
     matches:
