@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 02:23 IST"
+updated: "26 Aug 2026, 03:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2566598
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "GV San José"
-            score: "3"
-          - name: "Oriente Petrolero"
-            score: "3"
       - id: football-2481429
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "21'"
+        stateLabel: "68'"
         teams:
           - name: "Boca Juniors de Cali"
-            score: "0"
-          - name: "Bogotá"
             score: "1"
+          - name: "Bogotá"
+            score: "2"
             active: true
-      - id: football-2568387
+      - id: football-2585508
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Defensor Sporting"
+            score: "0"
+          - name: "Rentistas"
+            score: "0"
+      - id: football-2568388
         competition: "Copa Paraguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "25'"
         teams:
-          - name: "General Caballero"
-            score: "2"
-          - name: "Rubio Ñu"
-            score: "2"
+          - name: "Sol de América"
+            score: "1"
+          - name: "Sportivo Trinidense"
+            score: "1"
       - id: football-2549730
         competition: "Dominican LDF"
         state: live
         stateLabel: "Live"
         teams:
           - name: "Jarabacoa"
-            score: "1"
+            score: "2"
             active: true
           - name: "Atlántico"
             score: "0"
-      - id: football-2570489
-        competition: "EFL Cup"
+      - id: football-2531875
+        competition: "Peruvian Copa de la Liga"
         state: live
-        stateLabel: "90'"
+        stateLabel: "89'"
         teams:
-          - name: "Birmingham City"
+          - name: "Alianza Atlético"
             score: "1"
-          - name: "Brentford"
-            score: "6"
-            active: true
-      - id: football-2570504
-        competition: "EFL Cup"
+          - name: "Universidad Técnica de Cajamarca"
+            score: "1"
+      - id: football-2558134
+        competition: "UEFA Champions League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "128'"
         teams:
-          - name: "Nottingham Forest"
-            score: "0"
-          - name: "Leeds United"
-            score: "2"
+          - name: "LASK"
+            score: "5"
             active: true
+          - name: "Celtic"
+            score: "1"
 
   - name: Cricket
     matches:
