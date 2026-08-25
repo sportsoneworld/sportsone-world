@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Aug 2026, 21:40 IST"
+updated: "25 Aug 2026, 23:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2511449
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "Beroe"
-            score: "1"
-            active: true
-          - name: "Spartak Pleven"
-            score: "0"
-      - id: football-2511451
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "52'"
-        teams:
-          - name: "CSKA Sofia II"
-            score: "0"
-          - name: "Ludogorets Razgrad II"
-            score: "1"
-            active: true
-      - id: football-2566658
+      - id: football-2566649
         competition: "Denmark DBU Pokalen"
         state: live
-        stateLabel: "37'"
+        stateLabel: "7'"
         teams:
-          - name: "Munkebo"
+          - name: "Skjold"
             score: "0"
-          - name: "Næsby"
+          - name: "Espergærde"
             score: "0"
-      - id: football-2566652
+      - id: football-2566643
         competition: "Denmark DBU Pokalen"
         state: live
-        stateLabel: "38'"
+        stateLabel: "54'"
         teams:
-          - name: "Allerød"
+          - name: "Brønshøj"
             score: "1"
-          - name: "Vanløse"
+          - name: "AB Gladsaxe"
             score: "2"
             active: true
-      - id: football-2566647
+      - id: football-2566644
         competition: "Denmark DBU Pokalen"
         state: live
-        stateLabel: "39'"
+        stateLabel: "59'"
         teams:
-          - name: "OKS"
+          - name: "Fuglebakken KFUM"
             score: "0"
-          - name: "Middelfart"
+          - name: "Vendsyssel"
+            score: "2"
+            active: true
+      - id: football-2572926
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Skovshoved"
             score: "1"
             active: true
-      - id: football-2566648
+          - name: "Tårnby FF"
+            score: "0"
+      - id: football-2566640
         competition: "Denmark DBU Pokalen"
         state: live
-        stateLabel: "39'"
+        stateLabel: "Live"
         teams:
-          - name: "SGI"
+          - name: "Skive"
             score: "0"
-          - name: "Aarhus Fremad"
-            score: "0"
+          - name: "Esbjerg"
+            score: "3"
+            active: true
+      - id: football-2531933
+        competition: "German Regionalliga Bayern"
+        state: live
+        stateLabel: "58'"
+        teams:
+          - name: "Bayern Munich II"
+            score: "1"
+          - name: "Memmingen"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
