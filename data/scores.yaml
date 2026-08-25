@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 00:50 IST"
+updated: "26 Aug 2026, 02:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406506
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2566598
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "52'"
+        stateLabel: "88'"
         teams:
-          - name: "San Martín de Burzaco"
-            score: "1"
-          - name: "Argentino de Quilmes"
-            score: "2"
-            active: true
-      - id: football-2406509
-        competition: "Argentina Primera B Metropolitana"
+          - name: "GV San José"
+            score: "3"
+          - name: "Oriente Petrolero"
+            score: "3"
+      - id: football-2481429
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "56'"
+        stateLabel: "21'"
         teams:
-          - name: "Villa Dálmine"
+          - name: "Boca Juniors de Cali"
             score: "0"
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-      - id: football-2406505
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "Real Pilar"
-            score: "2"
-            active: true
-          - name: "Brown de Adrogué"
-            score: "0"
-      - id: football-2406508
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "57'"
-        teams:
-          - name: "UAI Urquiza"
-            score: "0"
-          - name: "Laferrere"
-            score: "0"
-      - id: football-2406500
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Arsenal de Sarandí"
+          - name: "Bogotá"
             score: "1"
             active: true
-          - name: "Ituzaingó"
-            score: "0"
-      - id: football-2406510
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2568387
+        competition: "Copa Paraguay"
         state: live
-        stateLabel: "59'"
+        stateLabel: "Live"
         teams:
-          - name: "Villa San Carlos"
+          - name: "General Caballero"
+            score: "2"
+          - name: "Rubio Ñu"
+            score: "2"
+      - id: football-2549730
+        competition: "Dominican LDF"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Jarabacoa"
+            score: "1"
+            active: true
+          - name: "Atlántico"
+            score: "0"
+      - id: football-2570489
+        competition: "EFL Cup"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Birmingham City"
+            score: "1"
+          - name: "Brentford"
+            score: "6"
+            active: true
+      - id: football-2570504
+        competition: "EFL Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Nottingham Forest"
+            score: "0"
+          - name: "Leeds United"
             score: "2"
             active: true
-          - name: "Flandria"
-            score: "1"
 
   - name: Cricket
     matches:
