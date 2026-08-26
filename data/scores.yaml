@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 15:38 IST"
+updated: "26 Aug 2026, 17:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572736
-        competition: "Australia Cup"
-        state: live
-        stateLabel: "36'"
-        teams:
-          - name: "Preston Lions"
-            score: "0"
-          - name: "South Melbourne"
-            score: "0"
-      - id: football-2580236
+      - id: football-2580241
         competition: "Japan Emperors Cup"
         state: live
-        stateLabel: "1'"
+        stateLabel: "44'"
         teams:
-          - name: "JEF United Chiba"
+          - name: "Avispa Fukuoka"
             score: "0"
-          - name: "Azul Claro Numazu"
+          - name: "Verspah Oita"
             score: "0"
-      - id: football-2580225
+      - id: football-2580235
         competition: "Japan Emperors Cup"
         state: live
-        stateLabel: "1'"
+        stateLabel: "84'"
         teams:
-          - name: "Kashiwa Reysol"
-            score: "0"
-          - name: "Senshu University"
-            score: "0"
-      - id: football-2580229
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Urawa Red Diamonds"
-            score: "0"
-          - name: "Yamanashi Gakuin University Pegasus"
-            score: "0"
-      - id: football-2580233
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Gamba Osaka"
+          - name: "Yokohama F Marinos"
             score: "1"
             active: true
-          - name: "Reilac Shiga"
+          - name: "Fukushima United"
+            score: "0"
+      - id: football-2578557
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "84'"
+        teams:
+          - name: "Iwaki FC"
+            score: "0"
+          - name: "Oita Trinita"
+            score: "0"
+      - id: football-2578556
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "RB Omiya Ardija"
+            score: "2"
+            active: true
+          - name: "Vanraure Hachinohe"
             score: "0"
       - id: football-2580234
         competition: "Japan Emperors Cup"
         state: live
-        stateLabel: "3'"
+        stateLabel: "86'"
         teams:
           - name: "Kawasaki Frontale"
-            score: "0"
+            score: "3"
+            active: true
           - name: "Tochigi SC"
+            score: "1"
+      - id: football-2580227
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Shonan Bellmare"
+            score: "1"
+            active: true
+          - name: "ReinMeer Aomori"
             score: "0"
 
   - name: Cricket
