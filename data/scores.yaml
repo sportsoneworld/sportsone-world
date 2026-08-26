@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 17:19 IST"
+updated: "26 Aug 2026, 19:55 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580241
-        competition: "Japan Emperors Cup"
+      - id: football-2580215
+        competition: "ASEAN Championship"
         state: live
-        stateLabel: "44'"
+        stateLabel: "67'"
         teams:
-          - name: "Avispa Fukuoka"
-            score: "0"
-          - name: "Verspah Oita"
-            score: "0"
-      - id: football-2580235
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Yokohama F Marinos"
+          - name: "Vietnam"
             score: "1"
-            active: true
-          - name: "Fukushima United"
-            score: "0"
-      - id: football-2578557
-        competition: "Japan Emperors Cup"
+          - name: "Thailand"
+            score: "1"
+      - id: football-2531222
+        competition: "Armenian Cup"
         state: live
-        stateLabel: "84'"
+        stateLabel: "106'"
         teams:
-          - name: "Iwaki FC"
-            score: "0"
-          - name: "Oita Trinita"
-            score: "0"
-      - id: football-2578556
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "RB Omiya Ardija"
-            score: "2"
-            active: true
-          - name: "Vanraure Hachinohe"
-            score: "0"
-      - id: football-2580234
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Kawasaki Frontale"
+          - name: "Mika Yerevan"
             score: "3"
             active: true
-          - name: "Tochigi SC"
-            score: "1"
-      - id: football-2580227
-        competition: "Japan Emperors Cup"
+          - name: "Bentonit Ijevan"
+            score: "2"
+      - id: football-2561080
+        competition: "Egyptian Premier League"
         state: live
-        stateLabel: "86'"
+        stateLabel: "22'"
         teams:
-          - name: "Shonan Bellmare"
-            score: "1"
+          - name: "Smouha"
+            score: "0"
+          - name: "Asyut Petroleum"
+            score: "0"
+      - id: football-2440608
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "WIT Georgia"
+            score: "2"
             active: true
-          - name: "ReinMeer Aomori"
+          - name: "Iberia 2010"
+            score: "1"
+      - id: football-2546156
+        competition: "Malaysian Super League"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "Kuala Lumpur City"
+            score: "0"
+          - name: "Kuching City"
+            score: "5"
+            active: true
+      - id: football-2572898
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Dynamo Stavropol"
+            score: "0"
+          - name: "Astrakhan"
             score: "0"
 
   - name: Cricket
