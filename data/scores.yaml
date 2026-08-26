@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 10:48 IST"
+updated: "26 Aug 2026, 13:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,35 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2479185
-        competition: "CONCACAF Central American Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Cartaginés"
-            score: "2"
-            active: true
-          - name: "FAS"
-            score: "0"
-      - id: football-2479186
-        competition: "CONCACAF Central American Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Municipal"
-            score: "1"
-          - name: "Motagua"
-            score: "1"
-      - id: football-2574550
-        competition: "Leagues Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "León"
-            score: "3"
-            active: true
-          - name: "Real Salt Lake"
-            score: "0"
       - id: football-2397288
         competition: "American USL Championship"
         state: upcoming
@@ -81,6 +52,36 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Union Omaha"
+            score: "–"
+      - id: football-2397617
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Charlotte Independence"
+            score: "–"
+            detail: "23:00"
+          - name: "AV Alta FC"
+            score: "–"
+      - id: football-2404919
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Acassuso"
+            score: "–"
+            detail: "18:00"
+          - name: "San Telmo"
+            score: "–"
+      - id: football-2404925
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Chaco For Ever"
+            score: "–"
+            detail: "18:00"
+          - name: "San Miguel"
             score: "–"
 
   - name: Cricket
