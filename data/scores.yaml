@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 13:33 IST"
+updated: "26 Aug 2026, 15:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397288
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
+      - id: football-2572736
+        competition: "Australia Cup"
+        state: live
+        stateLabel: "36'"
         teams:
-          - name: "El Paso Locomotive"
-            score: "–"
-            detail: "01:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2397289
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:30"
+          - name: "Preston Lions"
+            score: "0"
+          - name: "South Melbourne"
+            score: "0"
+      - id: football-2580236
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "New Mexico United"
-            score: "–"
-            detail: "01:30"
-          - name: "Lexington SC"
-            score: "–"
-      - id: football-2397616
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
+          - name: "JEF United Chiba"
+            score: "0"
+          - name: "Azul Claro Numazu"
+            score: "0"
+      - id: football-2580225
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "FC Naples"
-            score: "–"
-            detail: "23:30"
-          - name: "Union Omaha"
-            score: "–"
-      - id: football-2397617
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Kashiwa Reysol"
+            score: "0"
+          - name: "Senshu University"
+            score: "0"
+      - id: football-2580229
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "Charlotte Independence"
-            score: "–"
-            detail: "23:00"
-          - name: "AV Alta FC"
-            score: "–"
-      - id: football-2404919
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "18:00"
+          - name: "Urawa Red Diamonds"
+            score: "0"
+          - name: "Yamanashi Gakuin University Pegasus"
+            score: "0"
+      - id: football-2580233
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "3'"
         teams:
-          - name: "Acassuso"
-            score: "–"
-            detail: "18:00"
-          - name: "San Telmo"
-            score: "–"
-      - id: football-2404925
-        competition: "Argentinian Primera B Nacional"
-        state: upcoming
-        stateLabel: "18:00"
+          - name: "Gamba Osaka"
+            score: "1"
+            active: true
+          - name: "Reilac Shiga"
+            score: "0"
+      - id: football-2580234
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "3'"
         teams:
-          - name: "Chaco For Ever"
-            score: "–"
-            detail: "18:00"
-          - name: "San Miguel"
-            score: "–"
+          - name: "Kawasaki Frontale"
+            score: "0"
+          - name: "Tochigi SC"
+            score: "0"
 
   - name: Cricket
     matches:
