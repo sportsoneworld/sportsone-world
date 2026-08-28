@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Aug 2026, 19:55 IST"
+updated: "28 Aug 2026, 06:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,67 +23,78 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580215
-        competition: "ASEAN Championship"
+      - id: football-2566605
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "67'"
+        stateLabel: "21'"
         teams:
-          - name: "Vietnam"
-            score: "1"
-          - name: "Thailand"
-            score: "1"
-      - id: football-2531222
-        competition: "Armenian Cup"
+          - name: "Bolívar"
+            score: "0"
+          - name: "ABB"
+            score: "0"
+      - id: football-2579881
+        competition: "Brazil Serie D"
         state: live
-        stateLabel: "106'"
+        stateLabel: "39'"
         teams:
-          - name: "Mika Yerevan"
+          - name: "Nacional-AM"
             score: "3"
             active: true
-          - name: "Bentonit Ijevan"
-            score: "2"
-      - id: football-2561080
-        competition: "Egyptian Premier League"
+          - name: "CSA"
+            score: "1"
+      - id: football-2481154
+        competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "22'"
+        stateLabel: "79'"
         teams:
-          - name: "Smouha"
+          - name: "Llaneros"
             score: "0"
-          - name: "Asyut Petroleum"
+          - name: "Millonarios"
+            score: "1"
+            active: true
+      - id: football-2479769
+        competition: "Copa Argentina"
+        state: live
+        stateLabel: "32'"
+        teams:
+          - name: "Platense"
             score: "0"
-      - id: football-2440608
-        competition: "Georgian Liga 3"
+          - name: "Instituto"
+            score: "1"
+            active: true
+      - id: football-2570517
+        competition: "Copa do Brasil"
+        state: live
+        stateLabel: "79'"
+        teams:
+          - name: "Internacional"
+            score: "0"
+          - name: "Grêmio"
+            score: "0"
+      - id: football-2583272
+        competition: "Ecuadorian Serie B"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "WIT Georgia"
-            score: "2"
-            active: true
-          - name: "Iberia 2010"
+          - name: "Cuenca Juniors"
             score: "1"
-      - id: football-2546156
-        competition: "Malaysian Super League"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Kuala Lumpur City"
-            score: "0"
-          - name: "Kuching City"
-            score: "5"
             active: true
-      - id: football-2572898
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Dynamo Stavropol"
-            score: "0"
-          - name: "Astrakhan"
+          - name: "9 de Octubre"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578475
+      - id: cricket-2578477
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Trinbago Knight Riders"
+            score: "–"
+            detail: "00:00"
+          - name: "Barbados Tridents"
+            score: "–"
+      - id: cricket-2578478
         competition: "Caribbean Premier League"
         state: upcoming
         stateLabel: "23:00"
@@ -91,35 +102,15 @@ sports:
           - name: "Trinbago Knight Riders"
             score: "–"
             detail: "23:00"
-          - name: "Saint Lucia Kings"
+          - name: "Jamaica Kingsmen"
             score: "–"
-      - id: cricket-2465891
-        competition: "English County Championship Division 1"
+      - id: cricket-2578479
+        competition: "Caribbean Premier League"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "23:00"
         teams:
-          - name: "Sussex"
+          - name: "St Kitts and Nevis Patriots"
             score: "–"
-            detail: "00:00"
-          - name: "Somerset"
-            score: "–"
-      - id: cricket-2465892
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Glamorgan"
-            score: "–"
-            detail: "00:00"
-          - name: "Hampshire"
-            score: "–"
-      - id: cricket-2465893
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Yorkshire"
-            score: "–"
-            detail: "00:00"
-          - name: "Leicestershire"
+            detail: "23:00"
+          - name: "Antigua and Barbuda Falcons"
             score: "–"
