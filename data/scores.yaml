@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 04:17 IST"
+updated: "29 Aug 2026, 04:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,7 +36,7 @@ sports:
       - id: football-2431411
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "15'"
+        stateLabel: "29'"
         teams:
           - name: "Goiás"
             score: "1"
@@ -46,16 +46,17 @@ sports:
       - id: football-2413070
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "17'"
+        stateLabel: "32'"
         teams:
           - name: "Cobresal"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Palestino"
             score: "0"
       - id: football-2545945
         competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Municipal Limeño"
             score: "1"
@@ -65,7 +66,7 @@ sports:
       - id: football-2578066
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "59'"
+        stateLabel: "73'"
         teams:
           - name: "General Caballero"
             score: "2"
