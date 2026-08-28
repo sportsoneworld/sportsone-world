@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 03:22 IST"
+updated: "29 Aug 2026, 03:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2398055
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Unión"
+            score: "0"
+          - name: "Sarmiento"
+            score: "0"
       - id: football-2481441
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "61'"
+        stateLabel: "71'"
         teams:
           - name: "Independiente Yumbo"
             score: "1"
@@ -36,50 +45,41 @@ sports:
       - id: football-2429442
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "53'"
+        stateLabel: "63'"
         teams:
           - name: "Mushuc Runa"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Delfín"
             score: "0"
       - id: football-2578066
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "21'"
+        stateLabel: "31'"
         teams:
           - name: "General Caballero"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Deportivo Capiatá"
             score: "0"
       - id: football-2481670
         competition: "Peruvian Primera Division"
         state: live
-        stateLabel: "59'"
+        stateLabel: "69'"
         teams:
           - name: "Comerciantes Unidos"
             score: "2"
           - name: "Cajamarca"
             score: "2"
-      - id: football-2501284
-        competition: "English League Championship"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2579088
+        competition: "Uruguayan Primera Division"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "Wrexham"
-            score: "1"
-          - name: "Birmingham City"
-            score: "2"
-            active: true
-      - id: football-2494015
-        competition: "English Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Crystal Palace"
-            score: "1"
-          - name: "Manchester City"
-            score: "4"
-            active: true
+          - name: "Montevideo Wanderers"
+            score: "0"
+          - name: "Central Español"
+            score: "0"
 
   - name: Cricket
     matches:
