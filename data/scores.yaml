@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 05:02 IST"
+updated: "29 Aug 2026, 05:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,27 @@ sports:
       - id: football-2398055
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "74'"
+        stateLabel: "89'"
         teams:
           - name: "Unión"
-            score: "3"
+            score: "4"
             active: true
           - name: "Sarmiento"
+            score: "1"
+      - id: football-2431413
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Náutico"
             score: "0"
+          - name: "Athletic Club-MG"
+            score: "1"
+            active: true
       - id: football-2431414
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Novorizontino"
             score: "0"
@@ -45,7 +55,7 @@ sports:
       - id: football-2431411
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "52'"
         teams:
           - name: "Goiás"
             score: "1"
@@ -55,7 +65,7 @@ sports:
       - id: football-2427400
         competition: "Canadian Premier League"
         state: live
-        stateLabel: "20'"
+        stateLabel: "35'"
         teams:
           - name: "Supra du Québec"
             score: "0"
@@ -64,23 +74,13 @@ sports:
       - id: football-2427399
         competition: "Canadian Premier League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "36'"
         teams:
           - name: "Atlético Ottawa"
             score: "0"
           - name: "Inter Toronto"
             score: "1"
             active: true
-      - id: football-2413070
-        competition: "Chile Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cobresal"
-            score: "1"
-            active: true
-          - name: "Palestino"
-            score: "0"
 
   - name: Cricket
     matches:
