@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 03:32 IST"
+updated: "29 Aug 2026, 03:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2398055
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "17'"
         teams:
           - name: "Unión"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2481441
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "71'"
+        stateLabel: "86'"
         teams:
           - name: "Independiente Yumbo"
             score: "1"
@@ -45,41 +45,42 @@ sports:
       - id: football-2429442
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "63'"
+        stateLabel: "78'"
         teams:
           - name: "Mushuc Runa"
             score: "1"
             active: true
           - name: "Delfín"
             score: "0"
+      - id: football-2545945
+        competition: "El Salvador Primera Division"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Municipal Limeño"
+            score: "1"
+            active: true
+          - name: "Isidro Metapán"
+            score: "0"
       - id: football-2578066
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "General Caballero"
-            score: "1"
+            score: "2"
             active: true
           - name: "Deportivo Capiatá"
-            score: "0"
+            score: "1"
       - id: football-2481670
         competition: "Peruvian Primera Division"
         state: live
-        stateLabel: "69'"
+        stateLabel: "84'"
         teams:
           - name: "Comerciantes Unidos"
             score: "2"
           - name: "Cajamarca"
             score: "2"
-      - id: football-2579088
-        competition: "Uruguayan Primera Division"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Montevideo Wanderers"
-            score: "0"
-          - name: "Central Español"
-            score: "0"
 
   - name: Cricket
     matches:
