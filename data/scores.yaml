@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 04:32 IST"
+updated: "29 Aug 2026, 04:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2398055
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Unión"
             score: "1"
@@ -36,17 +36,36 @@ sports:
       - id: football-2431411
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "29'"
+        stateLabel: "45'"
         teams:
           - name: "Goiás"
             score: "1"
             active: true
           - name: "São Bernardo"
             score: "0"
+      - id: football-2427400
+        competition: "Canadian Premier League"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Supra du Québec"
+            score: "0"
+          - name: "Forge"
+            score: "0"
+      - id: football-2427399
+        competition: "Canadian Premier League"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Atlético Ottawa"
+            score: "0"
+          - name: "Inter Toronto"
+            score: "1"
+            active: true
       - id: football-2413070
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Cobresal"
             score: "1"
@@ -56,32 +75,12 @@ sports:
       - id: football-2545945
         competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Municipal Limeño"
             score: "1"
             active: true
           - name: "Isidro Metapán"
-            score: "0"
-      - id: football-2578066
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "General Caballero"
-            score: "2"
-            active: true
-          - name: "Deportivo Capiatá"
-            score: "1"
-      - id: football-2579088
-        competition: "Uruguayan Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Montevideo Wanderers"
-            score: "2"
-            active: true
-          - name: "Central Español"
             score: "0"
 
   - name: Cricket
