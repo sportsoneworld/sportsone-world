@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "28 Aug 2026, 06:21 IST"
+updated: "29 Aug 2026, 03:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2566605
-        competition: "Bolivian Primera División"
+      - id: football-2481441
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "61'"
+        teams:
+          - name: "Independiente Yumbo"
+            score: "1"
+            active: true
+          - name: "Itagüí Leones"
+            score: "0"
+      - id: football-2429442
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "53'"
+        teams:
+          - name: "Mushuc Runa"
+            score: "0"
+          - name: "Delfín"
+            score: "0"
+      - id: football-2578066
+        competition: "Paraguayan División Intermedia"
         state: live
         stateLabel: "21'"
         teams:
-          - name: "Bolívar"
+          - name: "General Caballero"
             score: "0"
-          - name: "ABB"
+          - name: "Deportivo Capiatá"
             score: "0"
-      - id: football-2579881
-        competition: "Brazil Serie D"
+      - id: football-2481670
+        competition: "Peruvian Primera Division"
         state: live
-        stateLabel: "39'"
+        stateLabel: "59'"
         teams:
-          - name: "Nacional-AM"
-            score: "3"
-            active: true
-          - name: "CSA"
+          - name: "Comerciantes Unidos"
+            score: "2"
+          - name: "Cajamarca"
+            score: "2"
+      - id: football-2501284
+        competition: "English League Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Wrexham"
             score: "1"
-      - id: football-2481154
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Llaneros"
-            score: "0"
-          - name: "Millonarios"
-            score: "1"
+          - name: "Birmingham City"
+            score: "2"
             active: true
-      - id: football-2479769
-        competition: "Copa Argentina"
-        state: live
-        stateLabel: "32'"
+      - id: football-2494015
+        competition: "English Premier League"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Platense"
-            score: "0"
-          - name: "Instituto"
+          - name: "Crystal Palace"
             score: "1"
+          - name: "Manchester City"
+            score: "4"
             active: true
-      - id: football-2570517
-        competition: "Copa do Brasil"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Internacional"
-            score: "0"
-          - name: "Grêmio"
-            score: "0"
-      - id: football-2583272
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cuenca Juniors"
-            score: "1"
-            active: true
-          - name: "9 de Octubre"
-            score: "0"
 
   - name: Cricket
     matches:
