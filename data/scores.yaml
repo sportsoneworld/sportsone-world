@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 03:47 IST"
+updated: "29 Aug 2026, 04:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,26 @@ sports:
       - id: football-2398055
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "17'"
+        stateLabel: "32'"
         teams:
           - name: "Unión"
-            score: "0"
-          - name: "Sarmiento"
-            score: "0"
-      - id: football-2481441
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Independiente Yumbo"
             score: "1"
             active: true
-          - name: "Itagüí Leones"
+          - name: "Sarmiento"
+            score: "0"
+      - id: football-2413070
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Cobresal"
+            score: "0"
+          - name: "Palestino"
             score: "0"
       - id: football-2429442
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Mushuc Runa"
             score: "1"
@@ -55,7 +55,7 @@ sports:
       - id: football-2545945
         competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "11'"
+        stateLabel: "26'"
         teams:
           - name: "Municipal Limeño"
             score: "1"
@@ -75,12 +75,13 @@ sports:
       - id: football-2481670
         competition: "Peruvian Primera Division"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Comerciantes Unidos"
             score: "2"
           - name: "Cajamarca"
-            score: "2"
+            score: "3"
+            active: true
 
   - name: Cricket
     matches:
