@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 23:32 IST"
+updated: "29 Aug 2026, 23:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,62 +26,58 @@ sports:
       - id: football-2533264
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "65'"
+        stateLabel: "78'"
         teams:
           - name: "Partizani Tirana"
             score: "0"
           - name: "Laçi"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2533267
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "68'"
+        stateLabel: "81'"
         teams:
           - name: "Elbasani"
-            score: "0"
+            score: "1"
           - name: "Vllaznia Shkodër"
             score: "1"
-            active: true
-      - id: football-2398046
-        competition: "Argentinian Primera Division"
+      - id: football-2406513
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "17'"
+        stateLabel: "10'"
         teams:
-          - name: "Deportivo Riestra"
+          - name: "Arsenal de Sarandí"
             score: "0"
-          - name: "Vélez Sarsfield"
+          - name: "Excursionistas"
             score: "0"
-      - id: football-2499729
-        competition: "Austrian Bundesliga"
+      - id: football-2406512
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "31'"
+        stateLabel: "12'"
         teams:
-          - name: "LASK"
-            score: "2"
-            active: true
-          - name: "SCR Altach"
+          - name: "Argentino de Quilmes"
             score: "0"
-      - id: football-2505257
-        competition: "Austrian Erste Liga"
+          - name: "Sportivo Italiano"
+            score: "0"
+      - id: football-2406514
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "71'"
+        stateLabel: "12'"
         teams:
-          - name: "Young Violets Austria Wien"
-            score: "1"
-            active: true
-          - name: "Schwarz-Weiß Bregenz"
+          - name: "Brown de Adrogué"
             score: "0"
-      - id: football-2560447
-        competition: "Austrian Regionalliga Nord"
+          - name: "Liniers"
+            score: "0"
+      - id: football-2406521
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "12'"
         teams:
-          - name: "Junge Wikinger Ried"
+          - name: "Talleres de Remedios de Escalada"
             score: "0"
-          - name: "Kuchl"
-            score: "3"
-            active: true
+          - name: "UAI Urquiza"
+            score: "0"
 
   - name: Cricket
     matches:
