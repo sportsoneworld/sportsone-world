@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 16:17 IST"
+updated: "29 Aug 2026, 16:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2590973
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Tuggeranong United"
             score: "0"
@@ -36,51 +36,49 @@ sports:
       - id: football-2588852
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "51'"
+        stateLabel: "66'"
         teams:
           - name: "North Eastern MetroStars"
-            score: "1"
+            score: "2"
+            active: true
           - name: "West Torrens Birkalla"
             score: "1"
-      - id: football-2434574
+      - id: football-2441251
+        competition: "China League One"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Shaanxi Union"
+            score: "0"
+          - name: "Yanbian Longding"
+            score: "0"
+      - id: football-2434569
         competition: "Chinese Super League"
         state: live
-        stateLabel: "89'"
+        stateLabel: "1'"
         teams:
-          - name: "Qingdao Hainiu"
+          - name: "Tianjin Jinmen Tiger"
             score: "0"
-          - name: "Wuhan Three Towns"
-            score: "5"
-            active: true
-      - id: football-2583261
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Lagun Onak"
-            score: "2"
-          - name: "Beasain"
-            score: "2"
-      - id: football-2573963
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Gimnástica Segoviana"
+          - name: "Qingdao West Coast"
             score: "0"
-          - name: "Real Madrid C"
-            score: "1"
-            active: true
-      - id: football-2573962
-        competition: "Club Friendlies"
+      - id: football-2434570
+        competition: "Chinese Super League"
         state: live
-        stateLabel: "87'"
+        stateLabel: "2'"
         teams:
-          - name: "Illescas"
+          - name: "Zhejiang Professional"
             score: "0"
-          - name: "Pozuelo de Alarcón"
-            score: "1"
-            active: true
+          - name: "Yunnan Yukun"
+            score: "0"
+      - id: football-2488372
+        competition: "Danish 1st Division"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Kolding"
+            score: "0"
+          - name: "AB Gladsaxe"
+            score: "0"
 
   - name: Cricket
     matches:
