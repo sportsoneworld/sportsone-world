@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 01:47 IST"
+updated: "30 Aug 2026, 02:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405040
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Ferrocarril Midland"
-            score: "0"
-          - name: "Nueva Chicago"
-            score: "0"
       - id: football-2405030
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "54'"
+        stateLabel: "69'"
         teams:
           - name: "Atlético de Rafaela"
             score: "0"
@@ -45,26 +36,36 @@ sports:
       - id: football-2405033
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
           - name: "Ciudad de Bolívar"
+            score: "0"
+          - name: "Defensores de Belgrano"
+            score: "0"
+      - id: football-2405040
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Ferrocarril Midland"
             score: "1"
             active: true
-          - name: "Defensores de Belgrano"
+          - name: "Nueva Chicago"
             score: "0"
       - id: football-2398052
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "17'"
+        stateLabel: "32'"
         teams:
           - name: "Rosario Central"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Gimnasia y Esgrima de La Plata"
             score: "0"
       - id: football-2535046
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "Náutico Hacoaj"
             score: "0"
@@ -73,7 +74,7 @@ sports:
       - id: football-2496720
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "90'"
         teams:
           - name: "Cercle Brugge"
             score: "0"
