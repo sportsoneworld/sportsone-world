@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 13:02 IST"
+updated: "29 Aug 2026, 13:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2590972
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "59'"
+        stateLabel: "74'"
         teams:
           - name: "Cooma Tigers"
-            score: "2"
+            score: "3"
+            active: true
           - name: "Canberra Juventus"
             score: "2"
       - id: football-2592836
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "72'"
+        stateLabel: "87'"
         teams:
           - name: "Broadmeadow Magic"
             score: "0"
@@ -44,42 +45,41 @@ sports:
       - id: football-2577498
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Moreton City Excelsior"
             score: "0"
           - name: "Gold Coast Knights"
             score: "0"
-      - id: football-2588851
-        competition: "Australia South Australia NPL"
+      - id: football-2509461
+        competition: "South Korean K4 League"
         state: live
         stateLabel: "Live"
+        teams:
+          - name: "Seosan Pioneer"
+            score: "0"
+          - name: "Namyangju FC"
+            score: "2"
+            active: true
+      - id: football-2588851
+        competition: "Australia South Australia NPL"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Playford City Patriots"
             score: "1"
           - name: "Adelaide City"
             score: "2"
             active: true
-      - id: football-2584659
-        competition: "Australia Tasmania NPL"
-        state: live
-        stateLabel: "123'"
+      - id: football-2432808
+        competition: "Australia Victoria NPL"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "South Hobart"
-            score: "4"
-            active: true
-          - name: "Kingborough Lions United"
-            score: "2"
-      - id: football-2509461
-        competition: "South Korean K4 League"
-        state: live
-        stateLabel: "32'"
-        teams:
-          - name: "Seosan Pioneer"
-            score: "0"
-          - name: "Namyangju FC"
+          - name: "Preston Lions"
             score: "1"
-            active: true
+          - name: "Altona Magic"
+            score: "1"
 
   - name: Cricket
     matches:
