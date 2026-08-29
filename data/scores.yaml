@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 17:32 IST"
+updated: "29 Aug 2026, 17:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2523511
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Van"
+            score: "0"
+          - name: "Shirak Gyumri"
+            score: "0"
+      - id: football-2512705
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Lochau"
+            score: "1"
+            active: true
+          - name: "Reichenau"
+            score: "0"
+      - id: football-2452149
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "BATE-2 Borisov"
+            score: "0"
+          - name: "Gomel-2"
+            score: "0"
       - id: football-2452146
         competition: "Belarusian First League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "59'"
         teams:
           - name: "Ostrovets"
             score: "0"
           - name: "Volna Pinsk"
             score: "0"
-      - id: football-2441252
+      - id: football-2441255
         competition: "China League One"
         state: live
-        stateLabel: "31'"
+        stateLabel: "16'"
         teams:
-          - name: "Foshan Nanshi"
+          - name: "Jiangxi Dingnan United"
             score: "0"
-          - name: "Shenzhen Juniors"
-            score: "0"
+          - name: "Suzhou Dongwu"
+            score: "1"
+            active: true
       - id: football-2441254
         competition: "China League One"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Shijiazhuang Gongfu"
-            score: "0"
-          - name: "Wuxi Wugo"
-            score: "0"
-      - id: football-2441253
-        competition: "China League One"
-        state: live
-        stateLabel: "32'"
-        teams:
-          - name: "Nanjing City"
-            score: "0"
-          - name: "Guangxi Hengchen"
-            score: "1"
-            active: true
-      - id: football-2441251
-        competition: "China League One"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Shaanxi Union"
             score: "2"
             active: true
-          - name: "Yanbian Longding"
-            score: "1"
-      - id: football-2434573
-        competition: "Chinese Super League"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Henan FC"
-            score: "0"
-          - name: "Chongqing Tonglianglong"
+          - name: "Wuxi Wugo"
             score: "0"
 
   - name: Cricket
