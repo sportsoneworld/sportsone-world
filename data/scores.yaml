@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 00:32 IST"
+updated: "30 Aug 2026, 00:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406516
+      - id: football-2406513
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "44'"
+        stateLabel: "51'"
         teams:
-          - name: "Defensores Unidos"
-            score: "0"
-          - name: "Deportivo Camioneros"
-            score: "0"
-      - id: football-2406519
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Ituzaingó"
-            score: "0"
-          - name: "Dock Sud"
-            score: "0"
-      - id: football-2406520
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Laferrere"
-            score: "1"
-          - name: "Real Pilar"
-            score: "1"
-      - id: football-2406512
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Argentino de Quilmes"
-            score: "0"
-          - name: "Sportivo Italiano"
-            score: "0"
-      - id: football-2406514
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Brown de Adrogué"
-            score: "0"
-          - name: "Liniers"
-            score: "1"
+          - name: "Arsenal de Sarandí"
+            score: "2"
             active: true
+          - name: "Excursionistas"
+            score: "0"
       - id: football-2406521
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "45'"
+        stateLabel: "55'"
         teams:
           - name: "Talleres de Remedios de Escalada"
             score: "1"
             active: true
           - name: "UAI Urquiza"
             score: "0"
+      - id: football-2406519
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Ituzaingó"
+            score: "0"
+          - name: "Dock Sud"
+            score: "0"
+      - id: football-2406512
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Argentino de Quilmes"
+            score: "0"
+          - name: "Sportivo Italiano"
+            score: "1"
+            active: true
+      - id: football-2406514
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Brown de Adrogué"
+            score: "0"
+          - name: "Liniers"
+            score: "1"
+            active: true
+      - id: football-2406520
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "57'"
+        teams:
+          - name: "Laferrere"
+            score: "1"
+          - name: "Real Pilar"
+            score: "1"
 
   - name: Cricket
     matches:
