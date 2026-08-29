@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 03:47 IST"
+updated: "30 Aug 2026, 04:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,16 @@ sports:
       - id: football-2407023
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Seattle Sounders"
             score: "2"
-            active: true
           - name: "Chicago Fire"
-            score: "1"
+            score: "2"
       - id: football-2397301
         competition: "American USL Championship"
         state: live
-        stateLabel: "53'"
+        stateLabel: "68'"
         teams:
           - name: "Pittsburgh Riverhounds"
             score: "0"
@@ -54,13 +53,12 @@ sports:
       - id: football-2398048
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "Huracán"
             score: "1"
-            active: true
           - name: "Estudiantes de Río Cuarto"
-            score: "0"
+            score: "1"
       - id: football-2535046
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
