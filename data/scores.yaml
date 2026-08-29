@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 10:32 IST"
+updated: "29 Aug 2026, 10:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2580695
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
           - name: "Kahibah"
             score: "1"
@@ -36,48 +36,48 @@ sports:
       - id: football-2584659
         competition: "Australia Tasmania NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "South Hobart"
-            score: "1"
+            score: "2"
           - name: "Kingborough Lions United"
             score: "2"
+      - id: football-2432805
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Heidelberg United"
+            score: "0"
+          - name: "Bentleigh Greens"
+            score: "0"
+      - id: football-2432804
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Avondale"
+            score: "0"
+          - name: "Hume City"
+            score: "0"
+      - id: football-2432807
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Caroline Springs George Cross"
+            score: "1"
             active: true
+          - name: "South Melbourne"
+            score: "0"
       - id: football-2432806
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Oakleigh Cannons"
             score: "0"
           - name: "Dandenong City"
-            score: "0"
-      - id: football-2432808
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Preston Lions"
-            score: "0"
-          - name: "Altona Magic"
-            score: "0"
-      - id: football-2432809
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "St Albans Saints"
-            score: "0"
-          - name: "Dandenong Thunder"
-            score: "0"
-      - id: football-2432810
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Melbourne City Youth"
-            score: "0"
-          - name: "Green Gully"
             score: "0"
 
   - name: Cricket
