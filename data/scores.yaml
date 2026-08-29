@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 14:47 IST"
+updated: "29 Aug 2026, 15:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2590973
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "13'"
+        stateLabel: "27'"
         teams:
           - name: "Tuggeranong United"
             score: "0"
@@ -46,26 +46,27 @@ sports:
       - id: football-2577498
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "109'"
+        stateLabel: "123'"
         teams:
           - name: "Moreton City Excelsior"
-            score: "1"
+            score: "2"
             active: true
           - name: "Gold Coast Knights"
             score: "0"
       - id: football-2434574
         competition: "Chinese Super League"
         state: live
-        stateLabel: "17'"
+        stateLabel: "31'"
         teams:
           - name: "Qingdao Hainiu"
             score: "0"
           - name: "Wuhan Three Towns"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2573962
         competition: "Club Friendlies"
         state: live
-        stateLabel: "15'"
+        stateLabel: "29'"
         teams:
           - name: "Illescas"
             score: "0"
@@ -74,7 +75,7 @@ sports:
       - id: football-2573963
         competition: "Club Friendlies"
         state: live
-        stateLabel: "16'"
+        stateLabel: "30'"
         teams:
           - name: "Gimnástica Segoviana"
             score: "0"
