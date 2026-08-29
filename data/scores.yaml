@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 12:32 IST"
+updated: "29 Aug 2026, 12:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,7 +36,7 @@ sports:
       - id: football-2592836
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Broadmeadow Magic"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2577498
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "2'"
+        stateLabel: "16'"
         teams:
           - name: "Moreton City Excelsior"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2588851
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "64'"
+        stateLabel: "79'"
         teams:
           - name: "Playford City Patriots"
             score: "1"
@@ -74,12 +74,13 @@ sports:
       - id: football-2509461
         competition: "South Korean K4 League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Seosan Pioneer"
             score: "0"
           - name: "Namyangju FC"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
