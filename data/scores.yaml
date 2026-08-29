@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 07:17 IST"
+updated: "29 Aug 2026, 07:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,16 @@ sports:
       - id: football-2419895
         competition: "American NWSL"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "NJ/NY Gotham"
             score: "1"
           - name: "Portland Thorns"
             score: "1"
-      - id: football-2397617
-        competition: "American USL League One"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Charlotte Independence"
-            score: "5"
-            active: true
-          - name: "AV Alta FC"
-            score: "0"
       - id: football-2405037
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Gimnasia y Tiro"
             score: "0"
@@ -54,7 +44,7 @@ sports:
       - id: football-2398044
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "59'"
+        stateLabel: "74'"
         teams:
           - name: "Boca Juniors"
             score: "0"
@@ -69,16 +59,25 @@ sports:
             score: "0"
           - name: "Deportes Quindío"
             score: "0"
-      - id: football-2429444
-        competition: "Ecuadorian Serie A"
+      - id: football-2545946
+        competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
-          - name: "Técnico Universitario"
-            score: "3"
-            active: true
-          - name: "Deportivo Cuenca"
+          - name: "INCA-Aruba"
+            score: "0"
+          - name: "Cacahuatique"
             score: "1"
+            active: true
+      - id: football-2537920
+        competition: "Honduras Liga Nacional de Futbol"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Juticalpa"
+            score: "0"
+          - name: "Lobos UPNFM"
+            score: "0"
 
   - name: Cricket
     matches:
