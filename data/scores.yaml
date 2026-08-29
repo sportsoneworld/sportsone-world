@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 18:02 IST"
+updated: "29 Aug 2026, 18:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2523511
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Van"
             score: "0"
           - name: "Shirak Gyumri"
-            score: "1"
+            score: "3"
             active: true
       - id: football-2512705
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Lochau"
             score: "1"
@@ -45,40 +45,43 @@ sports:
       - id: football-2452149
         competition: "Belarusian First League"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "BATE-2 Borisov"
-            score: "0"
+            score: "1"
           - name: "Gomel-2"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2452146
         competition: "Belarusian First League"
         state: live
-        stateLabel: "74'"
+        stateLabel: "90'"
         teams:
           - name: "Ostrovets"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Volna Pinsk"
             score: "0"
       - id: football-2441255
         competition: "China League One"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Jiangxi Dingnan United"
-            score: "1"
-          - name: "Suzhou Dongwu"
-            score: "1"
-      - id: football-2441251
-        competition: "China League One"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Shaanxi Union"
             score: "2"
             active: true
-          - name: "Yanbian Longding"
+          - name: "Suzhou Dongwu"
             score: "1"
+      - id: football-2441253
+        competition: "China League One"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "Nanjing City"
+            score: "0"
+          - name: "Guangxi Hengchen"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
