@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 09:32 IST"
+updated: "29 Aug 2026, 09:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397290
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+      - id: football-2580695
+        competition: "Australia Northern NSW NPL"
+        state: live
+        stateLabel: "15'"
         teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Sporting JAX"
-            score: "–"
-      - id: football-2397293
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Kahibah"
+            score: "1"
+            active: true
+          - name: "New Lambton"
+            score: "0"
+      - id: football-2584659
+        competition: "Australia Tasmania NPL"
+        state: live
+        stateLabel: "16'"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Birmingham Legion"
-            score: "–"
-      - id: football-2397295
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "South Hobart"
+            score: "0"
+          - name: "Kingborough Lions United"
+            score: "1"
+            active: true
+      - id: football-2521283
+        competition: "Mexican Liga de Expansión MX"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Lexington SC"
-            score: "–"
-            detail: "23:00"
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-      - id: football-2397291
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
+          - name: "Dorados de Sinaloa"
+            score: "0"
+          - name: "Atlético Morelia"
+            score: "1"
+            active: true
+      - id: football-2487499
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "48'"
         teams:
-          - name: "El Paso Locomotive"
-            score: "–"
-            detail: "01:00"
-          - name: "Loudoun United"
-            score: "–"
-      - id: football-2397292
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "00:30"
+          - name: "Tijuana"
+            score: "0"
+          - name: "Pumas UNAM"
+            score: "0"
+      - id: football-2456031
+        competition: "Russia FNL 2 Group 3"
+        state: live
+        stateLabel: "15'"
         teams:
-          - name: "FC Tulsa"
-            score: "–"
-            detail: "00:30"
-          - name: "Rhode Island FC"
-            score: "–"
-      - id: football-2397294
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:30"
+          - name: "SKA-Khabarovsk-2"
+            score: "0"
+          - name: "Arsenal-2 Tula"
+            score: "0"
+      - id: football-2419896
+        competition: "American NWSL"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Las Vegas Lights"
-            score: "–"
-            detail: "02:30"
-          - name: "Charleston Battery"
-            score: "–"
+          - name: "San Diego Wave"
+            score: "3"
+            active: true
+          - name: "Racing Louisville"
+            score: "2"
 
   - name: Cricket
     matches:
