@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 19:17 IST"
+updated: "29 Aug 2026, 19:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,47 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523511
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Van"
-            score: "0"
-          - name: "Shirak Gyumri"
-            score: "4"
-            active: true
       - id: football-2560446
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "14'"
+        stateLabel: "29'"
         teams:
           - name: "Wals-Grünau"
             score: "0"
           - name: "Pinzgau Saalfelden"
             score: "1"
             active: true
-      - id: football-2512705
+      - id: football-2514291
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Wienerberg"
+            score: "0"
+          - name: "Favoritner AC"
+            score: "0"
+      - id: football-2512702
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "Live"
+        stateLabel: "2'"
         teams:
-          - name: "Lochau"
-            score: "1"
-          - name: "Reichenau"
-            score: "1"
+          - name: "Lauterach"
+            score: "0"
+          - name: "Hohenems"
+            score: "0"
+      - id: football-2546632
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Qəbələ"
+            score: "0"
+          - name: "Şamaxı"
+            score: "0"
       - id: football-2437853
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Dinamo Minsk"
             score: "0"
@@ -64,22 +72,13 @@ sports:
       - id: football-2452141
         competition: "Belarusian First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Slutsk"
             score: "1"
             active: true
           - name: "Bumprom Gomel"
             score: "0"
-      - id: football-2452149
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "BATE-2 Borisov"
-            score: "2"
-          - name: "Gomel-2"
-            score: "2"
 
   - name: Cricket
     matches:
