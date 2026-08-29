@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 21:02 IST"
+updated: "29 Aug 2026, 21:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2578219
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "Sagrada Esperança"
             score: "2"
@@ -36,7 +36,7 @@ sports:
       - id: football-2578218
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "45'"
+        stateLabel: "55'"
         teams:
           - name: "Kabuscorp"
             score: "1"
@@ -46,36 +46,35 @@ sports:
       - id: football-2535047
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
-        stateLabel: "67'"
+        stateLabel: "82'"
         teams:
           - name: "SAT"
             score: "0"
           - name: "Deportivo Metalúrgico"
-            score: "3"
+            score: "4"
             active: true
       - id: football-2499728
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Grazer AK"
             score: "0"
           - name: "Wolfsberger AC"
             score: "0"
-      - id: football-2560446
-        competition: "Austrian Regionalliga Nord"
+      - id: football-2505255
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "89'"
+        stateLabel: "16'"
         teams:
-          - name: "Wals-Grünau"
-            score: "2"
-            active: true
-          - name: "Pinzgau Saalfelden"
-            score: "1"
+          - name: "Floridsdorfer AC"
+            score: "0"
+          - name: "Wacker Innsbruck"
+            score: "0"
       - id: football-2514291
         competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "75'"
+        stateLabel: "90'"
         teams:
           - name: "Wienerberg"
             score: "0"
