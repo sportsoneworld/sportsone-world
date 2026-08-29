@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 02:32 IST"
+updated: "30 Aug 2026, 02:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,37 +26,36 @@ sports:
       - id: football-2407023
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "22'"
+        stateLabel: "36'"
         teams:
           - name: "Seattle Sounders"
             score: "1"
             active: true
           - name: "Chicago Fire"
             score: "0"
+      - id: football-2397301
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Pittsburgh Riverhounds"
+            score: "0"
+          - name: "Tampa Bay Rowdies"
+            score: "0"
       - id: football-2405040
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
           - name: "Ferrocarril Midland"
             score: "2"
             active: true
           - name: "Nueva Chicago"
             score: "0"
-      - id: football-2405030
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Atlético de Rafaela"
-            score: "2"
-            active: true
-          - name: "Tristán Suárez"
-            score: "1"
       - id: football-2398052
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Rosario Central"
             score: "0"
@@ -74,7 +73,7 @@ sports:
       - id: football-2592829
         competition: "Bolivian Nacional B Copa Simón Bolívar"
         state: live
-        stateLabel: "74'"
+        stateLabel: "89'"
         teams:
           - name: "Deportivo Tigres"
             score: "0"
