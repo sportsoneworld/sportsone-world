@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 02:02 IST"
+updated: "30 Aug 2026, 02:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407023
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Seattle Sounders"
+            score: "0"
+          - name: "Chicago Fire"
+            score: "0"
       - id: football-2405030
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "69'"
+        stateLabel: "84'"
         teams:
           - name: "Atlético de Rafaela"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Tristán Suárez"
             score: "1"
-            active: true
       - id: football-2405033
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "75'"
+        stateLabel: "90'"
         teams:
           - name: "Ciudad de Bolívar"
             score: "0"
@@ -55,32 +64,21 @@ sports:
       - id: football-2398052
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Rosario Central"
-            score: "1"
-            active: true
+            score: "0"
           - name: "Gimnasia y Esgrima de La Plata"
             score: "0"
       - id: football-2535046
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
-        stateLabel: "31'"
+        stateLabel: "38'"
         teams:
           - name: "Náutico Hacoaj"
             score: "0"
           - name: "Provincial"
             score: "0"
-      - id: football-2496720
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Cercle Brugge"
-            score: "0"
-          - name: "Lommel"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
