@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 02:47 IST"
+updated: "30 Aug 2026, 03:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,16 @@ sports:
       - id: football-2407023
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Seattle Sounders"
             score: "1"
-            active: true
           - name: "Chicago Fire"
-            score: "0"
+            score: "1"
       - id: football-2397301
         competition: "American USL Championship"
         state: live
-        stateLabel: "9'"
+        stateLabel: "24'"
         teams:
           - name: "Pittsburgh Riverhounds"
             score: "0"
@@ -45,22 +44,32 @@ sports:
       - id: football-2405040
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "75'"
+        stateLabel: "90'"
         teams:
           - name: "Ferrocarril Midland"
             score: "2"
             active: true
           - name: "Nueva Chicago"
             score: "0"
+      - id: football-2408580
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Defensores de Cambaceres"
+            score: "0"
+          - name: "Deportivo Paraguayo"
+            score: "0"
       - id: football-2398052
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "57'"
+        stateLabel: "72'"
         teams:
           - name: "Rosario Central"
             score: "0"
           - name: "Gimnasia y Esgrima de La Plata"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2535046
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
@@ -70,16 +79,6 @@ sports:
             score: "0"
           - name: "Provincial"
             score: "0"
-      - id: football-2592829
-        competition: "Bolivian Nacional B Copa Simón Bolívar"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Deportivo Tigres"
-            score: "0"
-          - name: "Universitario de Tarija"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
