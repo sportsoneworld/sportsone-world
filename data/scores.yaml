@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 05:32 IST"
+updated: "29 Aug 2026, 05:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419895
+        competition: "American NWSL"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "NJ/NY Gotham"
+            score: "0"
+          - name: "Portland Thorns"
+            score: "0"
+      - id: football-2397617
+        competition: "American USL League One"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Charlotte Independence"
+            score: "2"
+            active: true
+          - name: "AV Alta FC"
+            score: "0"
       - id: football-2431413
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "29'"
+        stateLabel: "44'"
         teams:
           - name: "Náutico"
             score: "0"
@@ -36,16 +55,17 @@ sports:
       - id: football-2431414
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "31'"
+        stateLabel: "45'"
         teams:
           - name: "Novorizontino"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Sport Recife"
             score: "0"
       - id: football-2431411
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "67'"
+        stateLabel: "82'"
         teams:
           - name: "Goiás"
             score: "2"
@@ -62,26 +82,6 @@ sports:
           - name: "Inter Toronto"
             score: "1"
             active: true
-      - id: football-2427400
-        competition: "Canadian Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Supra du Québec"
-            score: "1"
-            active: true
-          - name: "Forge"
-            score: "0"
-      - id: football-2413070
-        competition: "Chile Primera Division"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Cobresal"
-            score: "1"
-            active: true
-          - name: "Palestino"
-            score: "0"
 
   - name: Cricket
     matches:
