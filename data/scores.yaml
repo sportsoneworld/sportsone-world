@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 23:17 IST"
+updated: "29 Aug 2026, 23:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2533264
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "50'"
+        stateLabel: "65'"
         teams:
           - name: "Partizani Tirana"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2533267
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "53'"
+        stateLabel: "68'"
         teams:
           - name: "Elbasani"
             score: "0"
@@ -46,7 +46,7 @@ sports:
       - id: football-2398046
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Deportivo Riestra"
             score: "0"
@@ -55,17 +55,17 @@ sports:
       - id: football-2499729
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "LASK"
-            score: "1"
+            score: "2"
             active: true
           - name: "SCR Altach"
             score: "0"
       - id: football-2505257
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "56'"
+        stateLabel: "71'"
         teams:
           - name: "Young Violets Austria Wien"
             score: "1"
@@ -75,7 +75,7 @@ sports:
       - id: football-2560447
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "88'"
+        stateLabel: "Live"
         teams:
           - name: "Junge Wikinger Ried"
             score: "0"
