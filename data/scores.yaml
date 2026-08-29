@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 07:32 IST"
+updated: "29 Aug 2026, 07:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419895
+      - id: football-2419896
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "8'"
         teams:
-          - name: "NJ/NY Gotham"
-            score: "1"
-          - name: "Portland Thorns"
-            score: "1"
+          - name: "San Diego Wave"
+            score: "0"
+          - name: "Racing Louisville"
+            score: "0"
       - id: football-2405037
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "52'"
         teams:
           - name: "Gimnasia y Tiro"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2398044
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "74'"
+        stateLabel: "89'"
         teams:
           - name: "Boca Juniors"
             score: "0"
@@ -53,30 +53,30 @@ sports:
       - id: football-2481437
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Unión Magdalena"
             score: "0"
           - name: "Deportes Quindío"
             score: "0"
-      - id: football-2545946
-        competition: "El Salvador Primera Division"
+      - id: football-2488642
+        competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "Live"
+        stateLabel: "15'"
         teams:
-          - name: "INCA-Aruba"
-            score: "0"
-          - name: "Cacahuatique"
+          - name: "Sporting San José"
             score: "1"
             active: true
-      - id: football-2537920
-        competition: "Honduras Liga Nacional de Futbol"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Juticalpa"
+          - name: "Inter de San Carlos"
             score: "0"
-          - name: "Lobos UPNFM"
+      - id: football-2497240
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Suchitepéquez"
+            score: "0"
+          - name: "Cobán Imperial"
             score: "0"
 
   - name: Cricket
