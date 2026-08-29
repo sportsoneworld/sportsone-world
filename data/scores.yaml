@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 16:02 IST"
+updated: "29 Aug 2026, 16:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,27 +26,17 @@ sports:
       - id: football-2590973
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "68'"
+        stateLabel: "83'"
         teams:
           - name: "Tuggeranong United"
             score: "0"
           - name: "Queanbeyan City"
             score: "2"
             active: true
-      - id: football-2577498
-        competition: "Australia Queensland NPL"
-        state: live
-        stateLabel: "128'"
-        teams:
-          - name: "Moreton City Excelsior"
-            score: "2"
-            active: true
-          - name: "Gold Coast Knights"
-            score: "0"
       - id: football-2588852
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "51'"
         teams:
           - name: "North Eastern MetroStars"
             score: "1"
@@ -55,17 +45,17 @@ sports:
       - id: football-2434574
         competition: "Chinese Super League"
         state: live
-        stateLabel: "74'"
+        stateLabel: "89'"
         teams:
           - name: "Qingdao Hainiu"
             score: "0"
           - name: "Wuhan Three Towns"
-            score: "3"
+            score: "5"
             active: true
       - id: football-2583261
         competition: "Club Friendlies"
         state: live
-        stateLabel: "72'"
+        stateLabel: "87'"
         teams:
           - name: "Lagun Onak"
             score: "2"
@@ -74,11 +64,21 @@ sports:
       - id: football-2573963
         competition: "Club Friendlies"
         state: live
-        stateLabel: "72'"
+        stateLabel: "87'"
         teams:
           - name: "Gimnástica Segoviana"
             score: "0"
           - name: "Real Madrid C"
+            score: "1"
+            active: true
+      - id: football-2573962
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "87'"
+        teams:
+          - name: "Illescas"
+            score: "0"
+          - name: "Pozuelo de Alarcón"
             score: "1"
             active: true
 
