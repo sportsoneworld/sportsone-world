@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 19:33 IST"
+updated: "29 Aug 2026, 19:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,37 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2578219
+        competition: "Angolan Girabola"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Sagrada Esperança"
+            score: "0"
+          - name: "São Salvador"
+            score: "0"
+      - id: football-2535047
+        competition: "Argentinian Torneo Promocional Amateur"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "SAT"
+            score: "0"
+          - name: "Deportivo Metalúrgico"
+            score: "0"
       - id: football-2560446
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "29'"
+        stateLabel: "43'"
         teams:
           - name: "Wals-Grünau"
-            score: "0"
+            score: "1"
           - name: "Pinzgau Saalfelden"
             score: "1"
-            active: true
       - id: football-2514291
         competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "2'"
+        stateLabel: "16'"
         teams:
           - name: "Wienerberg"
             score: "0"
@@ -45,39 +62,20 @@ sports:
       - id: football-2512702
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "2'"
+        stateLabel: "16'"
         teams:
           - name: "Lauterach"
             score: "0"
           - name: "Hohenems"
             score: "0"
-      - id: football-2546632
-        competition: "Azerbaijani Premier League"
+      - id: football-2512706
+        competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "3'"
+        stateLabel: "16'"
         teams:
-          - name: "Qəbələ"
+          - name: "Imst"
             score: "0"
-          - name: "Şamaxı"
-            score: "0"
-      - id: football-2437853
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Dinamo Minsk"
-            score: "0"
-          - name: "Baranovichi"
-            score: "0"
-      - id: football-2452141
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Slutsk"
-            score: "1"
-            active: true
-          - name: "Bumprom Gomel"
+          - name: "Wolfurt"
             score: "0"
 
   - name: Cricket
