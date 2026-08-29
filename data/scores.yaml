@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 20:17 IST"
+updated: "29 Aug 2026, 20:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578218
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "17'"
-        teams:
-          - name: "Kabuscorp"
-            score: "0"
-          - name: "Lunda Sul"
-            score: "0"
       - id: football-2578219
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Sagrada Esperança"
-            score: "0"
+            score: "1"
+            active: true
           - name: "São Salvador"
+            score: "0"
+      - id: football-2578218
+        competition: "Angolan Girabola"
+        state: live
+        stateLabel: "32'"
+        teams:
+          - name: "Kabuscorp"
+            score: "1"
+            active: true
+          - name: "Lunda Sul"
             score: "0"
       - id: football-2535047
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "SAT"
             score: "0"
           - name: "Deportivo Metalúrgico"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2560446
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "45'"
+        stateLabel: "59'"
         teams:
           - name: "Wals-Grünau"
             score: "2"
             active: true
           - name: "Pinzgau Saalfelden"
             score: "1"
-      - id: football-2514292
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Donaufeld Wien"
-            score: "0"
-          - name: "Mattersburg 2020"
-            score: "1"
-            active: true
       - id: football-2514291
         competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Wienerberg"
             score: "0"
           - name: "Favoritner AC"
+            score: "2"
+            active: true
+      - id: football-2514292
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Donaufeld Wien"
+            score: "0"
+          - name: "Mattersburg 2020"
             score: "1"
             active: true
 
