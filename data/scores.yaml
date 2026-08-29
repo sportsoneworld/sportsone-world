@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 05:02 IST"
+updated: "30 Aug 2026, 05:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407024
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Inter Miami"
+            score: "0"
+          - name: "CF Montréal"
+            score: "0"
+      - id: football-2407025
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "DC United"
+            score: "0"
+          - name: "Los Angeles FC"
+            score: "0"
+      - id: football-2407026
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "New York Red Bulls"
+            score: "0"
+          - name: "Philadelphia Union"
+            score: "0"
+      - id: football-2407027
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Toronto FC"
+            score: "0"
+          - name: "New York City FC"
+            score: "0"
+      - id: football-2407028
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Atlanta United"
+            score: "0"
+          - name: "Charlotte FC"
+            score: "0"
       - id: football-2419897
         competition: "American NWSL"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
           - name: "Kansas City Current"
             score: "3"
             active: true
           - name: "North Carolina Courage"
-            score: "0"
-      - id: football-2397290
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Brooklyn FC"
             score: "1"
-            active: true
-          - name: "Sporting JAX"
-            score: "0"
-      - id: football-2397293
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Hartford Athletic"
-            score: "0"
-          - name: "Birmingham Legion"
-            score: "1"
-            active: true
-      - id: football-2397295
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Lexington SC"
-            score: "0"
-          - name: "Colorado Springs Switchbacks"
-            score: "0"
-      - id: football-2397619
-        competition: "American USL League One"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Greenville Triumph"
-            score: "0"
-          - name: "FC Naples"
-            score: "0"
-      - id: football-2397620
-        competition: "American USL League One"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Portland Hearts of Pine"
-            score: "0"
-          - name: "Fort Wayne FC"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
