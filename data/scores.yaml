@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 16:32 IST"
+updated: "29 Aug 2026, 16:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,38 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2590973
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Tuggeranong United"
-            score: "0"
-          - name: "Queanbeyan City"
-            score: "2"
-            active: true
       - id: football-2588852
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "66'"
+        stateLabel: "81'"
         teams:
           - name: "North Eastern MetroStars"
             score: "2"
-            active: true
           - name: "West Torrens Birkalla"
-            score: "1"
+            score: "2"
+      - id: football-2452146
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "Ostrovets"
+            score: "0"
+          - name: "Volna Pinsk"
+            score: "0"
       - id: football-2441251
         competition: "China League One"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Shaanxi Union"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Yanbian Longding"
             score: "0"
       - id: football-2434569
         competition: "Chinese Super League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Tianjin Jinmen Tiger"
             score: "0"
@@ -64,19 +63,21 @@ sports:
       - id: football-2434570
         competition: "Chinese Super League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Zhejiang Professional"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Yunnan Yukun"
             score: "0"
       - id: football-2488372
         competition: "Danish 1st Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "17'"
         teams:
           - name: "Kolding"
-            score: "0"
+            score: "1"
+            active: true
           - name: "AB Gladsaxe"
             score: "0"
 
