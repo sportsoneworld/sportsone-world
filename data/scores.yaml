@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 07:47 IST"
+updated: "29 Aug 2026, 08:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,43 +26,36 @@ sports:
       - id: football-2419896
         competition: "American NWSL"
         state: live
-        stateLabel: "8'"
+        stateLabel: "23'"
         teams:
           - name: "San Diego Wave"
             score: "0"
           - name: "Racing Louisville"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2405037
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "52'"
+        stateLabel: "67'"
         teams:
           - name: "Gimnasia y Tiro"
             score: "0"
           - name: "Chacarita Juniors"
             score: "0"
-      - id: football-2398044
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Boca Juniors"
-            score: "0"
-          - name: "Lanús"
-            score: "0"
       - id: football-2481437
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "58'"
+        stateLabel: "73'"
         teams:
           - name: "Unión Magdalena"
             score: "0"
           - name: "Deportes Quindío"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2488642
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "15'"
+        stateLabel: "30'"
         teams:
           - name: "Sporting San José"
             score: "1"
@@ -72,11 +65,20 @@ sports:
       - id: football-2497240
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "11'"
+        stateLabel: "26'"
         teams:
           - name: "Suchitepéquez"
-            score: "0"
+            score: "1"
           - name: "Cobán Imperial"
+            score: "1"
+      - id: football-2537920
+        competition: "Honduras Liga Nacional de Futbol"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "Juticalpa"
+            score: "0"
+          - name: "Lobos UPNFM"
             score: "0"
 
   - name: Cricket
