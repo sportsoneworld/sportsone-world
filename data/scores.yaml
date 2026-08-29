@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 12:17 IST"
+updated: "29 Aug 2026, 12:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2590972
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Cooma Tigers"
             score: "0"
@@ -36,16 +36,25 @@ sports:
       - id: football-2592836
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
           - name: "Broadmeadow Magic"
             score: "0"
           - name: "Weston Bears"
             score: "0"
+      - id: football-2577498
+        competition: "Australia Queensland NPL"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Moreton City Excelsior"
+            score: "0"
+          - name: "Gold Coast Knights"
+            score: "0"
       - id: football-2588851
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "50'"
+        stateLabel: "64'"
         teams:
           - name: "Playford City Patriots"
             score: "1"
@@ -62,25 +71,15 @@ sports:
             active: true
           - name: "Kingborough Lions United"
             score: "2"
-      - id: football-2432805
-        competition: "Australia Victoria NPL"
+      - id: football-2509461
+        competition: "South Korean K4 League"
         state: live
-        stateLabel: "85'"
+        stateLabel: "2'"
         teams:
-          - name: "Heidelberg United"
-            score: "2"
-            active: true
-          - name: "Bentleigh Greens"
+          - name: "Seosan Pioneer"
             score: "0"
-      - id: football-2432810
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Melbourne City Youth"
-            score: "1"
-          - name: "Green Gully"
-            score: "1"
+          - name: "Namyangju FC"
+            score: "0"
 
   - name: Cricket
     matches:
