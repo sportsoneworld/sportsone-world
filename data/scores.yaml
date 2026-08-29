@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 14:17 IST"
+updated: "29 Aug 2026, 14:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,49 +36,49 @@ sports:
       - id: football-2577498
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "89'"
+        stateLabel: "98'"
         teams:
           - name: "Moreton City Excelsior"
             score: "0"
           - name: "Gold Coast Knights"
             score: "0"
-      - id: football-2502751
-        competition: "Czech Bohemian Football League Group A"
+      - id: football-2434574
+        competition: "Chinese Super League"
         state: live
-        stateLabel: "31'"
+        stateLabel: "1'"
         teams:
-          - name: "Benešov"
-            score: "1"
-          - name: "Povltavská fotbalová akademie"
-            score: "1"
+          - name: "Qingdao Hainiu"
+            score: "0"
+          - name: "Wuhan Three Towns"
+            score: "0"
+      - id: football-2583261
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Lagun Onak"
+            score: "0"
+          - name: "Beasain"
+            score: "0"
       - id: football-2502750
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Aritma Praha"
             score: "0"
           - name: "Králův Dvůr"
             score: "1"
             active: true
-      - id: football-2502634
-        competition: "Czech Bohemian Football League Group B"
+      - id: football-2502751
+        competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "13'"
+        stateLabel: "45'"
         teams:
-          - name: "Velké Hamry"
-            score: "0"
-          - name: "Mladá Boleslav B"
-            score: "0"
-      - id: football-2502630
-        competition: "Czech Bohemian Football League Group B"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Chrudim"
-            score: "0"
-          - name: "Baník Most-Souš"
-            score: "0"
+          - name: "Benešov"
+            score: "1"
+          - name: "Povltavská fotbalová akademie"
+            score: "1"
 
   - name: Cricket
     matches:
