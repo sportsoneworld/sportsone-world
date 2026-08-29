@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 04:02 IST"
+updated: "30 Aug 2026, 04:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407023
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Seattle Sounders"
-            score: "2"
-          - name: "Chicago Fire"
-            score: "2"
       - id: football-2397301
         competition: "American USL Championship"
         state: live
-        stateLabel: "68'"
+        stateLabel: "83'"
         teams:
           - name: "Pittsburgh Riverhounds"
             score: "0"
@@ -44,7 +35,7 @@ sports:
       - id: football-2408580
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
           - name: "Defensores de Cambaceres"
             score: "0"
@@ -53,7 +44,7 @@ sports:
       - id: football-2398048
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Huracán"
             score: "1"
@@ -76,6 +67,16 @@ sports:
           - name: "Grêmio Women"
             score: "0"
           - name: "São Paulo Women"
+            score: "0"
+      - id: football-2590414
+        competition: "Brazil Brasileiro Women"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Flamengo Women"
+            score: "1"
+            active: true
+          - name: "Ferroviária Women"
             score: "0"
 
   - name: Cricket
