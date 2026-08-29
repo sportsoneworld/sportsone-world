@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 10:47 IST"
+updated: "29 Aug 2026, 11:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2580695
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
           - name: "Kahibah"
-            score: "1"
+            score: "2"
             active: true
           - name: "New Lambton"
             score: "0"
       - id: football-2584659
         competition: "Australia Tasmania NPL"
         state: live
-        stateLabel: "59'"
+        stateLabel: "74'"
         teams:
           - name: "South Hobart"
             score: "2"
@@ -45,39 +45,40 @@ sports:
       - id: football-2432805
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "14'"
+        stateLabel: "29'"
         teams:
           - name: "Heidelberg United"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Bentleigh Greens"
             score: "0"
       - id: football-2432804
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "15'"
+        stateLabel: "30'"
         teams:
           - name: "Avondale"
             score: "0"
           - name: "Hume City"
             score: "0"
-      - id: football-2432807
+      - id: football-2432808
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "15'"
+        stateLabel: "31'"
         teams:
-          - name: "Caroline Springs George Cross"
-            score: "1"
+          - name: "Preston Lions"
+            score: "0"
+          - name: "Altona Magic"
+            score: "0"
+      - id: football-2432809
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "St Albans Saints"
+            score: "4"
             active: true
-          - name: "South Melbourne"
-            score: "0"
-      - id: football-2432806
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Oakleigh Cannons"
-            score: "0"
-          - name: "Dandenong City"
+          - name: "Dandenong Thunder"
             score: "0"
 
   - name: Cricket
