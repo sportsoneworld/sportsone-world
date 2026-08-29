@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 20:02 IST"
+updated: "29 Aug 2026, 20:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2578218
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Kabuscorp"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2578219
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Sagrada Esperança"
             score: "0"
@@ -44,40 +44,41 @@ sports:
       - id: football-2535047
         competition: "Argentinian Torneo Promocional Amateur"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "SAT"
             score: "0"
           - name: "Deportivo Metalúrgico"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2560446
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Wals-Grünau"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Pinzgau Saalfelden"
             score: "1"
+      - id: football-2514292
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Donaufeld Wien"
+            score: "0"
+          - name: "Mattersburg 2020"
+            score: "1"
+            active: true
       - id: football-2514291
         competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Wienerberg"
             score: "0"
           - name: "Favoritner AC"
-            score: "1"
-            active: true
-      - id: football-2512702
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Lauterach"
-            score: "0"
-          - name: "Hohenems"
             score: "1"
             active: true
 
