@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 13:32 IST"
+updated: "29 Aug 2026, 13:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2590972
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Cooma Tigers"
-            score: "3"
-            active: true
-          - name: "Canberra Juventus"
-            score: "2"
       - id: football-2592836
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "95'"
+        stateLabel: "110'"
         teams:
           - name: "Broadmeadow Magic"
             score: "0"
           - name: "Weston Bears"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2577498
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Moreton City Excelsior"
             score: "0"
           - name: "Gold Coast Knights"
             score: "0"
+      - id: football-2502750
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Aritma Praha"
+            score: "0"
+          - name: "Králův Dvůr"
+            score: "0"
+      - id: football-2553746
+        competition: "Hong-Kong Premier League"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "North District"
+            score: "0"
+          - name: "Kitchee"
+            score: "0"
       - id: football-2553745
         competition: "Hong-Kong Premier League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Southern District"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Kowloon City"
             score: "0"
-      - id: football-2547492
+      - id: football-2547496
         competition: "Romanian Liga II"
         state: live
-        stateLabel: "1'"
+        stateLabel: "14'"
         teams:
-          - name: "Afumați"
+          - name: "CS Dinamo București"
             score: "0"
-          - name: "Unirea Slobozia"
-            score: "0"
-      - id: football-2547495
-        competition: "Romanian Liga II"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Dumbrăviţa"
-            score: "0"
-          - name: "Râmnicu Vâlcea"
-            score: "0"
+          - name: "1599 Șelimbăr"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
