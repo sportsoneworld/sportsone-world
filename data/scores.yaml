@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 22:02 IST"
+updated: "29 Aug 2026, 22:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578218
-        competition: "Angolan Girabola"
+      - id: football-2533267
+        competition: "Albanian Superliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "15'"
         teams:
-          - name: "Kabuscorp"
+          - name: "Elbasani"
+            score: "0"
+          - name: "Vllaznia Shkodër"
+            score: "0"
+      - id: football-2533264
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Partizani Tirana"
+            score: "0"
+          - name: "Laçi"
             score: "1"
-          - name: "Lunda Sul"
-            score: "1"
+            active: true
       - id: football-2499728
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "72'"
+        stateLabel: "87'"
         teams:
           - name: "Grazer AK"
             score: "0"
@@ -44,7 +54,7 @@ sports:
       - id: football-2505255
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "60'"
         teams:
           - name: "Floridsdorfer AC"
             score: "2"
@@ -54,7 +64,7 @@ sports:
       - id: football-2505257
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Young Violets Austria Wien"
             score: "0"
@@ -63,20 +73,11 @@ sports:
       - id: football-2560447
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Junge Wikinger Ried"
             score: "0"
           - name: "Kuchl"
-            score: "0"
-      - id: football-2560448
-        competition: "Austrian Regionalliga Nord"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Bad Schallerbach"
-            score: "0"
-          - name: "Bad Leonfelden"
             score: "0"
 
   - name: Cricket
