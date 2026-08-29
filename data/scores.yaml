@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 23:47 IST"
+updated: "30 Aug 2026, 00:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,35 +26,45 @@ sports:
       - id: football-2533264
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Partizani Tirana"
-            score: "0"
+            score: "1"
           - name: "Laçi"
             score: "2"
             active: true
       - id: football-2533267
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
           - name: "Elbasani"
             score: "1"
           - name: "Vllaznia Shkodër"
             score: "1"
+      - id: football-2406516
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Defensores Unidos"
+            score: "0"
+          - name: "Deportivo Camioneros"
+            score: "0"
       - id: football-2406513
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "10'"
+        stateLabel: "27'"
         teams:
           - name: "Arsenal de Sarandí"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Excursionistas"
             score: "0"
       - id: football-2406512
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "12'"
+        stateLabel: "29'"
         teams:
           - name: "Argentino de Quilmes"
             score: "0"
@@ -63,20 +73,11 @@ sports:
       - id: football-2406514
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "12'"
+        stateLabel: "29'"
         teams:
           - name: "Brown de Adrogué"
             score: "0"
           - name: "Liniers"
-            score: "0"
-      - id: football-2406521
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "12'"
-        teams:
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-          - name: "UAI Urquiza"
             score: "0"
 
   - name: Cricket
