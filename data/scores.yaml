@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 14:32 IST"
+updated: "29 Aug 2026, 14:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,16 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2590973
+        competition: "Australia ACT NPL"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Tuggeranong United"
+            score: "0"
+          - name: "Queanbeyan City"
+            score: "1"
+            active: true
       - id: football-2592836
         competition: "Australia Northern NSW NPL"
         state: live
@@ -36,49 +46,40 @@ sports:
       - id: football-2577498
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "98'"
+        stateLabel: "109'"
         teams:
           - name: "Moreton City Excelsior"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Gold Coast Knights"
             score: "0"
       - id: football-2434574
         competition: "Chinese Super League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "17'"
         teams:
           - name: "Qingdao Hainiu"
             score: "0"
           - name: "Wuhan Three Towns"
             score: "0"
-      - id: football-2583261
+      - id: football-2573962
         competition: "Club Friendlies"
         state: live
-        stateLabel: "1'"
+        stateLabel: "15'"
         teams:
-          - name: "Lagun Onak"
+          - name: "Illescas"
             score: "0"
-          - name: "Beasain"
+          - name: "Pozuelo de Alarcón"
             score: "0"
-      - id: football-2502750
-        competition: "Czech Bohemian Football League Group A"
+      - id: football-2573963
+        competition: "Club Friendlies"
         state: live
-        stateLabel: "45'"
+        stateLabel: "16'"
         teams:
-          - name: "Aritma Praha"
+          - name: "Gimnástica Segoviana"
             score: "0"
-          - name: "Králův Dvůr"
-            score: "1"
-            active: true
-      - id: football-2502751
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Benešov"
-            score: "1"
-          - name: "Povltavská fotbalová akademie"
-            score: "1"
+          - name: "Real Madrid C"
+            score: "0"
 
   - name: Cricket
     matches:
