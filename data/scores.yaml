@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 06:17 IST"
+updated: "29 Aug 2026, 06:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2419895
         competition: "American NWSL"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "NJ/NY Gotham"
             score: "0"
@@ -35,17 +35,17 @@ sports:
       - id: football-2397617
         competition: "American USL League One"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Charlotte Independence"
-            score: "3"
+            score: "4"
             active: true
           - name: "AV Alta FC"
             score: "0"
       - id: football-2398044
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "18'"
+        stateLabel: "33'"
         teams:
           - name: "Boca Juniors"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2431413
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "53'"
+        stateLabel: "68'"
         teams:
           - name: "Náutico"
             score: "0"
@@ -64,7 +64,7 @@ sports:
       - id: football-2431414
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "55'"
+        stateLabel: "70'"
         teams:
           - name: "Novorizontino"
             score: "1"
@@ -74,7 +74,7 @@ sports:
       - id: football-2427400
         competition: "Canadian Premier League"
         state: live
-        stateLabel: "74'"
+        stateLabel: "89'"
         teams:
           - name: "Supra du Québec"
             score: "1"
