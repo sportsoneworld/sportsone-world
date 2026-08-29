@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 21:32 IST"
+updated: "29 Aug 2026, 21:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578219
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sagrada Esperança"
-            score: "2"
-            active: true
-          - name: "São Salvador"
-            score: "1"
       - id: football-2578218
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "69'"
+        stateLabel: "85'"
         teams:
           - name: "Kabuscorp"
             score: "1"
           - name: "Lunda Sul"
             score: "1"
-      - id: football-2535047
-        competition: "Argentinian Torneo Promocional Amateur"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "SAT"
-            score: "1"
-          - name: "Deportivo Metalúrgico"
-            score: "4"
-            active: true
       - id: football-2499728
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "Grazer AK"
             score: "0"
@@ -64,22 +44,40 @@ sports:
       - id: football-2505255
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Floridsdorfer AC"
-            score: "1"
+            score: "2"
             active: true
           - name: "Wacker Innsbruck"
             score: "0"
-      - id: football-2514292
+      - id: football-2560447
+        competition: "Austrian Regionalliga Nord"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Junge Wikinger Ried"
+            score: "0"
+          - name: "Kuchl"
+            score: "0"
+      - id: football-2560448
+        competition: "Austrian Regionalliga Nord"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Bad Schallerbach"
+            score: "0"
+          - name: "Bad Leonfelden"
+            score: "0"
+      - id: football-2514293
         competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "74'"
+        stateLabel: "44'"
         teams:
-          - name: "Donaufeld Wien"
+          - name: "Leobendorf"
             score: "0"
-          - name: "Mattersburg 2020"
-            score: "2"
+          - name: "Oberwart"
+            score: "1"
             active: true
 
   - name: Cricket
