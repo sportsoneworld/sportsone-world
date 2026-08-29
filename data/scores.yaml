@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Aug 2026, 22:47 IST"
+updated: "29 Aug 2026, 23:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533264
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "44'"
-        teams:
-          - name: "Partizani Tirana"
-            score: "0"
-          - name: "Laçi"
-            score: "1"
-            active: true
       - id: football-2533267
         competition: "Albanian Superliga"
         state: live
@@ -43,30 +33,39 @@ sports:
           - name: "Vllaznia Shkodër"
             score: "1"
             active: true
+      - id: football-2533264
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Partizani Tirana"
+            score: "0"
+          - name: "Laçi"
+            score: "1"
+            active: true
+      - id: football-2499729
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "LASK"
+            score: "0"
+          - name: "SCR Altach"
+            score: "0"
       - id: football-2505257
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Young Violets Austria Wien"
             score: "1"
             active: true
           - name: "Schwarz-Weiß Bregenz"
             score: "0"
-      - id: football-2505255
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Floridsdorfer AC"
-            score: "2"
-            active: true
-          - name: "Wacker Innsbruck"
-            score: "0"
       - id: football-2560447
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "58'"
+        stateLabel: "74'"
         teams:
           - name: "Junge Wikinger Ried"
             score: "0"
@@ -76,10 +75,11 @@ sports:
       - id: football-2560448
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "58'"
+        stateLabel: "74'"
         teams:
           - name: "Bad Schallerbach"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Bad Leonfelden"
             score: "0"
 
