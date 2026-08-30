@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 12:32 IST"
+updated: "30 Aug 2026, 12:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2428294
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Sydney United 58"
-            score: "5"
-            active: true
-          - name: "St George"
-            score: "0"
-      - id: football-2428289
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Marconi Stallions"
-            score: "1"
-          - name: "NWS Spirit"
-            score: "1"
-      - id: football-2546485
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "APIA Leichhardt"
-            score: "4"
-            active: true
-          - name: "St George City"
-            score: "2"
-      - id: football-2428295
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sutherland Sharks"
-            score: "1"
-          - name: "Southern Districts Raiders"
-            score: "2"
-            active: true
-      - id: football-2428291
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Blacktown City"
-            score: "1"
-          - name: "Western Sydney Wanderers Youth"
-            score: "3"
-            active: true
       - id: football-2592837
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Maitland"
             score: "1"
             active: true
           - name: "Edgeworth"
             score: "0"
+      - id: football-2397291
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "El Paso Locomotive"
+            score: "4"
+            active: true
+          - name: "Loudoun United"
+            score: "1"
+      - id: football-2397292
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "FC Tulsa"
+            score: "1"
+            active: true
+          - name: "Rhode Island FC"
+            score: "0"
+      - id: football-2397294
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Las Vegas Lights"
+            score: "0"
+          - name: "Charleston Battery"
+            score: "2"
+            active: true
+      - id: football-2428294
+        competition: "Australia New South Wales NPL"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Sydney United 58"
+            score: "6"
+            active: true
+          - name: "St George"
+            score: "0"
+      - id: football-2428290
+        competition: "Australia New South Wales NPL"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Wollongong Wolves"
+            score: "0"
+          - name: "Manly United"
+            score: "4"
+            active: true
 
   - name: Cricket
     matches:
