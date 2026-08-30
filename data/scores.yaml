@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 07:02 IST"
+updated: "30 Aug 2026, 07:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407028
+      - id: football-2407034
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Atlanta United"
+          - name: "Colorado Rapids"
             score: "0"
-          - name: "Charlotte FC"
-            score: "2"
-            active: true
-      - id: football-2407024
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Inter Miami"
-            score: "6"
-            active: true
-          - name: "CF Montréal"
-            score: "1"
-      - id: football-2407026
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "New York Red Bulls"
-            score: "1"
-          - name: "Philadelphia Union"
-            score: "3"
-            active: true
-      - id: football-2407027
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Toronto FC"
-            score: "1"
-          - name: "New York City FC"
-            score: "1"
-      - id: football-2407025
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "DC United"
-            score: "0"
-          - name: "Los Angeles FC"
+          - name: "Real Salt Lake"
             score: "0"
       - id: football-2407030
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Nashville SC"
             score: "1"
             active: true
           - name: "FC Cincinnati"
             score: "0"
+      - id: football-2407033
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Houston Dynamo"
+            score: "0"
+          - name: "San Jose Earthquakes"
+            score: "0"
+      - id: football-2407031
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Sporting Kansas City"
+            score: "0"
+          - name: "Vancouver Whitecaps"
+            score: "1"
+            active: true
+      - id: football-2407032
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Minnesota United"
+            score: "0"
+          - name: "Orlando City"
+            score: "1"
+            active: true
+      - id: football-2419898
+        competition: "American NWSL"
+        state: live
+        stateLabel: "88'"
+        teams:
+          - name: "Orlando Pride"
+            score: "1"
+          - name: "Utah Royals"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
