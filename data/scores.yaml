@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 22:02 IST"
+updated: "30 Aug 2026, 22:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419900
+        competition: "American NWSL"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Washington Spirit"
+            score: "0"
+          - name: "Bay FC"
+            score: "0"
       - id: football-2406517
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "Deportivo Armenio"
             score: "1"
@@ -36,7 +45,7 @@ sports:
       - id: football-2523510
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Noah"
             score: "2"
@@ -46,7 +55,7 @@ sports:
       - id: football-2499730
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "71'"
+        stateLabel: "85'"
         teams:
           - name: "Rapid Vienna"
             score: "2"
@@ -56,7 +65,7 @@ sports:
       - id: football-2499731
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "73'"
+        stateLabel: "87'"
         teams:
           - name: "TSV Hartberg"
             score: "3"
@@ -66,20 +75,11 @@ sports:
       - id: football-2546633
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "18'"
+        stateLabel: "32'"
         teams:
           - name: "Zirə"
             score: "0"
           - name: "Neftçi PFK"
-            score: "0"
-      - id: football-2487312
-        competition: "Bulgarian First League"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Botev Plovdiv"
-            score: "0"
-          - name: "Levski Sofia"
             score: "0"
 
   - name: Cricket
