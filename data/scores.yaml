@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 04:02 IST"
+updated: "31 Aug 2026, 04:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407029
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Columbus Crew"
-            score: "1"
-          - name: "New England Revolution"
-            score: "3"
-            active: true
       - id: football-2551332
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "71'"
+        stateLabel: "86'"
         teams:
           - name: "Santamarina"
             score: "2"
@@ -46,40 +36,49 @@ sports:
       - id: football-2405042
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "29'"
+        stateLabel: "44'"
         teams:
           - name: "Quilmes"
             score: "0"
           - name: "Temperley"
             score: "0"
-      - id: football-2405038
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "68'"
-        teams:
-          - name: "Godoy Cruz"
-            score: "1"
-            active: true
-          - name: "San Telmo"
-            score: "0"
       - id: football-2405044
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
           - name: "San Martín de Tucumán"
             score: "0"
           - name: "Güemes"
             score: "1"
             active: true
+      - id: football-2405038
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "83'"
+        teams:
+          - name: "Godoy Cruz"
+            score: "2"
+            active: true
+          - name: "San Telmo"
+            score: "0"
       - id: football-2398049
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "17'"
+        stateLabel: "32'"
         teams:
           - name: "Independiente"
             score: "0"
           - name: "Gimnasia y Esgrima de Mendoza"
+            score: "0"
+      - id: football-2398433
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Bahia"
+            score: "0"
+          - name: "Internacional"
             score: "0"
 
   - name: Cricket
