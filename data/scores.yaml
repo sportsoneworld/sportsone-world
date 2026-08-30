@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 17:17 IST"
+updated: "30 Aug 2026, 17:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2512703
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Röthis"
+            score: "0"
+          - name: "Kufstein"
+            score: "0"
       - id: football-2437851
         competition: "Belarus Vyscha Liga"
         state: live
@@ -33,10 +42,19 @@ sports:
             active: true
           - name: "Torpedo-BelAZ Zhodino"
             score: "0"
+      - id: football-2452145
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Dinamo-2 Minsk"
+            score: "0"
+          - name: "Smorgon"
+            score: "0"
       - id: football-2452147
         competition: "Belarusian First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "48'"
         teams:
           - name: "Niva Dolbizno"
             score: "4"
@@ -46,7 +64,7 @@ sports:
       - id: football-2496721
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "16'"
+        stateLabel: "30'"
         teams:
           - name: "Gent"
             score: "0"
@@ -55,32 +73,13 @@ sports:
       - id: football-2441258
         competition: "China League One"
         state: live
-        stateLabel: "17'"
+        stateLabel: "32'"
         teams:
           - name: "Guangdong GZ-Power"
-            score: "1"
+            score: "2"
             active: true
           - name: "Changchun Yatai"
             score: "0"
-      - id: football-2441256
-        competition: "China League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Dalian K'un City"
-            score: "2"
-            active: true
-          - name: "Nantong Zhiyun"
-            score: "0"
-      - id: football-2441257
-        competition: "China League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ningbo Professional"
-            score: "1"
-          - name: "Meizhou Hakka"
-            score: "1"
 
   - name: Cricket
     matches:
