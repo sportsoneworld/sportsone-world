@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 11:02 IST"
+updated: "30 Aug 2026, 11:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2428295
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "21'"
+        stateLabel: "36'"
         teams:
           - name: "Sutherland Sharks"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2428289
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "22'"
+        stateLabel: "37'"
         teams:
           - name: "Marconi Stallions"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2428291
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "23'"
+        stateLabel: "38'"
         teams:
           - name: "Blacktown City"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2546485
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "23'"
+        stateLabel: "38'"
         teams:
           - name: "APIA Leichhardt"
             score: "0"
@@ -63,20 +63,21 @@ sports:
       - id: football-2428294
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "25'"
+        stateLabel: "40'"
         teams:
           - name: "Sydney United 58"
-            score: "2"
+            score: "3"
             active: true
           - name: "St George"
             score: "0"
       - id: football-2428292
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "25'"
+        stateLabel: "40'"
         teams:
           - name: "Rockdale Ilinden"
-            score: "0"
+            score: "1"
+            active: true
           - name: "UNSW"
             score: "0"
 
