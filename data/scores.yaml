@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 13:32 IST"
+updated: "30 Aug 2026, 13:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2592837
-        competition: "Australia Northern NSW NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Maitland"
-            score: "2"
-            active: true
-          - name: "Edgeworth"
-            score: "1"
       - id: football-2577497
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "14'"
+        stateLabel: "29'"
         teams:
           - name: "Queensland Lions"
             score: "1"
           - name: "Peninsula Power"
             score: "1"
+      - id: football-2573967
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Marchamalo"
+            score: "0"
+          - name: "Unión Adarve"
+            score: "0"
+      - id: football-2502636
+        competition: "Czech Bohemian Football League Group B"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Pardubice B"
+            score: "0"
+          - name: "Čáslav"
+            score: "0"
       - id: football-2553747
         competition: "Hong-Kong Premier League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "15'"
         teams:
           - name: "Tai Po"
-            score: "0"
+            score: "1"
           - name: "Eastern SC"
-            score: "0"
+            score: "1"
       - id: football-2430182
         competition: "Korean K3 League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "15'"
         teams:
           - name: "Siheung Citizen"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Pocheon Citizen"
             score: "0"
       - id: football-2547491
         competition: "Romanian Liga II"
         state: live
-        stateLabel: "1'"
+        stateLabel: "15'"
         teams:
           - name: "Știința Poli Timișoara"
-            score: "0"
+            score: "1"
+            active: true
           - name: "ASA Târgu Mureș"
-            score: "0"
-      - id: football-2509463
-        competition: "South Korean K4 League"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Geumsan Insam"
-            score: "0"
-          - name: "Jinju Citizen"
             score: "0"
 
   - name: Cricket
