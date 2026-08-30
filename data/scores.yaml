@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 14:32 IST"
+updated: "30 Aug 2026, 14:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2577497
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "53'"
+        stateLabel: "67'"
         teams:
           - name: "Queensland Lions"
             score: "2"
@@ -36,27 +36,26 @@ sports:
       - id: football-2505259
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "45'"
         teams:
           - name: "Sturm Graz II"
-            score: "0"
+            score: "1"
           - name: "Rapid Wien II"
             score: "1"
-            active: true
       - id: football-2560648
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "23'"
+        stateLabel: "38'"
         teams:
           - name: "TSV Hartberg II"
             score: "1"
-            active: true
           - name: "Allerheiligen"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2573967
         competition: "Club Friendlies"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Marchamalo"
             score: "1"
@@ -66,22 +65,22 @@ sports:
       - id: football-2502755
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "30'"
+        stateLabel: "45'"
         teams:
           - name: "Viktoria Plzeň B"
             score: "1"
           - name: "Dynamo České Budějovice"
             score: "2"
             active: true
-      - id: football-2502757
+      - id: football-2502754
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
-          - name: "Dukla Praha B"
-            score: "2"
+          - name: "Sparta Prague B"
+            score: "3"
             active: true
-          - name: "Slavia Praha C"
+          - name: "Příbram Akademie"
             score: "0"
 
   - name: Cricket
