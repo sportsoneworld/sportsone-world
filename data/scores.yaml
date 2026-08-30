@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 10:47 IST"
+updated: "30 Aug 2026, 11:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,46 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2428294
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "Sydney United 58"
-            score: "0"
-          - name: "St George"
-            score: "0"
-      - id: football-2428292
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "Rockdale Ilinden"
-            score: "0"
-          - name: "UNSW"
-            score: "0"
-      - id: football-2428288
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "11'"
-        teams:
-          - name: "Sydney Olympic"
-            score: "0"
-          - name: "Sydney FC Youth"
-            score: "0"
-      - id: football-2428290
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Wollongong Wolves"
-            score: "0"
-          - name: "Manly United"
-            score: "0"
       - id: football-2428295
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "6'"
+        stateLabel: "21'"
         teams:
           - name: "Sutherland Sharks"
             score: "0"
@@ -71,11 +35,49 @@ sports:
       - id: football-2428289
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "7'"
+        stateLabel: "22'"
         teams:
           - name: "Marconi Stallions"
             score: "0"
           - name: "NWS Spirit"
+            score: "1"
+            active: true
+      - id: football-2428291
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Blacktown City"
+            score: "0"
+          - name: "Western Sydney Wanderers Youth"
+            score: "0"
+      - id: football-2546485
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "APIA Leichhardt"
+            score: "0"
+          - name: "St George City"
+            score: "0"
+      - id: football-2428294
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Sydney United 58"
+            score: "2"
+            active: true
+          - name: "St George"
+            score: "0"
+      - id: football-2428292
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Rockdale Ilinden"
+            score: "0"
+          - name: "UNSW"
             score: "0"
 
   - name: Cricket
