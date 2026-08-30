@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 23:32 IST"
+updated: "30 Aug 2026, 23:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,62 +26,58 @@ sports:
       - id: football-2419900
         competition: "American NWSL"
         state: live
-        stateLabel: "59'"
+        stateLabel: "75'"
         teams:
           - name: "Washington Spirit"
             score: "1"
             active: true
           - name: "Bay FC"
             score: "0"
-      - id: football-2398043
-        competition: "Argentinian Primera Division"
+      - id: football-2406518
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "1'"
+        stateLabel: "12'"
         teams:
-          - name: "Banfield"
+          - name: "Flandria"
             score: "0"
-          - name: "River Plate"
+          - name: "San Martín de Burzaco"
             score: "0"
-      - id: football-2523510
-        competition: "Armenian Premier League"
+      - id: football-2406511
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "13'"
         teams:
-          - name: "Noah"
-            score: "4"
-            active: true
-          - name: "Ararat Yerevan"
+          - name: "Argentino de Merlo"
             score: "0"
-      - id: football-2499732
-        competition: "Austrian Bundesliga"
+          - name: "Villa Dálmine"
+            score: "0"
+      - id: football-2551335
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "11'"
         teams:
-          - name: "Red Bull Salzburg"
-            score: "3"
-            active: true
-          - name: "Austria Vienna"
+          - name: "Sol de Mayo"
             score: "0"
-      - id: football-2546633
-        competition: "Azerbaijani Premier League"
+          - name: "Guillermo Brown"
+            score: "0"
+      - id: football-2551340
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "87'"
+        stateLabel: "12'"
         teams:
-          - name: "Zirə"
-            score: "1"
-            active: true
-          - name: "Neftçi PFK"
+          - name: "Kimberley"
             score: "0"
-      - id: football-2437852
-        competition: "Belarus Vyscha Liga"
+          - name: "Alvarado"
+            score: "0"
+      - id: football-2551339
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "12'"
         teams:
-          - name: "BATE Borisov"
+          - name: "Germinal"
             score: "0"
-          - name: "Minsk"
-            score: "1"
-            active: true
+          - name: "Deportivo Rincón"
+            score: "0"
 
   - name: Cricket
     matches:
