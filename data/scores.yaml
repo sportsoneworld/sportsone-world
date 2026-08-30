@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 08:47 IST"
+updated: "30 Aug 2026, 09:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407034
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Colorado Rapids"
+            score: "1"
+            active: true
+          - name: "Real Salt Lake"
+            score: "0"
       - id: football-2407035
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "San Diego FC"
             score: "1"
@@ -36,52 +46,43 @@ sports:
       - id: football-2407036
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Portland Timbers"
             score: "0"
           - name: "Austin FC"
             score: "1"
             active: true
-      - id: football-2407034
-        competition: "American Major League Soccer"
+      - id: football-2397297
+        competition: "American USL Championship"
         state: live
-        stateLabel: "79'"
+        stateLabel: "68'"
         teams:
-          - name: "Colorado Rapids"
+          - name: "Monterey Bay FC"
             score: "1"
             active: true
-          - name: "Real Salt Lake"
+          - name: "Sacramento Republic"
             score: "0"
+      - id: football-2397294
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Las Vegas Lights"
+            score: "0"
+          - name: "Charleston Battery"
+            score: "1"
+            active: true
       - id: football-2397300
         competition: "American USL Championship"
         state: live
-        stateLabel: "39'"
+        stateLabel: "Live"
         teams:
           - name: "Phoenix Rising"
             score: "2"
             active: true
           - name: "Indy Eleven"
             score: "1"
-      - id: football-2397294
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Las Vegas Lights"
-            score: "0"
-          - name: "Charleston Battery"
-            score: "0"
-      - id: football-2397298
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "New Mexico United"
-            score: "0"
-          - name: "San Antonio"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
