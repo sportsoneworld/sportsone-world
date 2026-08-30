@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 10:32 IST"
+updated: "30 Aug 2026, 10:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2548496
-        competition: "Mexican Liga Femenil"
+      - id: football-2428294
+        competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "90'"
+        stateLabel: "10'"
         teams:
-          - name: "Juárez Femenil"
-            score: "1"
-            active: true
-          - name: "Cruz Azul Femenil"
+          - name: "Sydney United 58"
             score: "0"
-      - id: football-2487503
-        competition: "Mexican Primera League"
+          - name: "St George"
+            score: "0"
+      - id: football-2428292
+        competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "83'"
+        stateLabel: "10'"
         teams:
-          - name: "Santos Laguna"
+          - name: "Rockdale Ilinden"
             score: "0"
-          - name: "Tigres UANL"
+          - name: "UNSW"
             score: "0"
-      - id: football-2407035
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2428288
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "11'"
         teams:
-          - name: "San Diego FC"
-            score: "3"
-            active: true
-          - name: "LA Galaxy"
-            score: "1"
-      - id: football-2407036
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Sydney Olympic"
+            score: "0"
+          - name: "Sydney FC Youth"
+            score: "0"
+      - id: football-2428290
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "15'"
         teams:
-          - name: "Portland Timbers"
-            score: "1"
-          - name: "Austin FC"
-            score: "2"
-            active: true
-      - id: football-2397298
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Wollongong Wolves"
+            score: "0"
+          - name: "Manly United"
+            score: "0"
+      - id: football-2428295
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "6'"
         teams:
-          - name: "New Mexico United"
-            score: "1"
-          - name: "San Antonio"
-            score: "2"
-            active: true
-      - id: football-2397300
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Sutherland Sharks"
+            score: "0"
+          - name: "Southern Districts Raiders"
+            score: "0"
+      - id: football-2428289
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "7'"
         teams:
-          - name: "Phoenix Rising"
-            score: "2"
-            active: true
-          - name: "Indy Eleven"
-            score: "1"
+          - name: "Marconi Stallions"
+            score: "0"
+          - name: "NWS Spirit"
+            score: "0"
 
   - name: Cricket
     matches:
