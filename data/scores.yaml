@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 18:02 IST"
+updated: "30 Aug 2026, 18:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2512703
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Röthis"
             score: "0"
@@ -35,50 +35,51 @@ sports:
       - id: football-2437851
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "71'"
+        stateLabel: "86'"
         teams:
           - name: "Arsenal Dzerzhinsk"
             score: "2"
-            active: true
           - name: "Torpedo-BelAZ Zhodino"
-            score: "1"
+            score: "3"
+            active: true
+      - id: football-2452147
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Niva Dolbizno"
+            score: "6"
+            active: true
+          - name: "Osipovichi"
+            score: "0"
       - id: football-2452145
         competition: "Belarusian First League"
         state: live
-        stateLabel: "30'"
+        stateLabel: "45'"
         teams:
           - name: "Dinamo-2 Minsk"
             score: "0"
           - name: "Smorgon"
             score: "0"
-      - id: football-2452147
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Niva Dolbizno"
-            score: "4"
-            active: true
-          - name: "Osipovichi"
-            score: "0"
       - id: football-2496721
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Gent"
             score: "1"
           - name: "Club Brugge"
             score: "1"
-      - id: football-2441256
+      - id: football-2441258
         competition: "China League One"
         state: live
-        stateLabel: "73'"
+        stateLabel: "59'"
         teams:
-          - name: "Dalian K'un City"
+          - name: "Guangdong GZ-Power"
             score: "2"
-          - name: "Nantong Zhiyun"
-            score: "2"
+            active: true
+          - name: "Changchun Yatai"
+            score: "0"
 
   - name: Cricket
     matches:
