@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 05:17 IST"
+updated: "30 Aug 2026, 05:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407028
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Atlanta United"
+            score: "0"
+          - name: "Charlotte FC"
+            score: "0"
       - id: football-2407024
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "5'"
+        stateLabel: "22'"
         teams:
           - name: "Inter Miami"
-            score: "0"
+            score: "1"
+            active: true
           - name: "CF Montréal"
             score: "0"
       - id: football-2407025
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "23'"
         teams:
           - name: "DC United"
             score: "0"
@@ -44,63 +54,34 @@ sports:
       - id: football-2407026
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "23'"
         teams:
           - name: "New York Red Bulls"
             score: "0"
           - name: "Philadelphia Union"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2407027
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "23'"
         teams:
           - name: "Toronto FC"
             score: "0"
           - name: "New York City FC"
             score: "0"
-      - id: football-2407028
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "6'"
-        teams:
-          - name: "Atlanta United"
-            score: "0"
-          - name: "Charlotte FC"
-            score: "0"
-      - id: football-2419897
+      - id: football-2419898
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "1'"
         teams:
-          - name: "Kansas City Current"
-            score: "3"
-            active: true
-          - name: "North Carolina Courage"
-            score: "1"
+          - name: "Orlando Pride"
+            score: "0"
+          - name: "Utah Royals"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578477
-        competition: "Caribbean Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Trinbago Knight Riders"
-            score: "128"
-            active: true
-          - name: "Barbados Tridents"
-            score: "127"
-      - id: cricket-2578478
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Trinbago Knight Riders"
-            score: "–"
-            detail: "23:00"
-          - name: "Jamaica Kingsmen"
-            score: "–"
       - id: cricket-2578479
         competition: "Caribbean Premier League"
         state: upcoming
@@ -120,4 +101,14 @@ sports:
             score: "–"
             detail: "21:00"
           - name: "Guyana Amazon Warriors"
+            score: "–"
+      - id: cricket-2578481
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "St Kitts and Nevis Patriots"
+            score: "–"
+            detail: "23:00"
+          - name: "Barbados Tridents"
             score: "–"
