@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 06:17 IST"
+updated: "30 Aug 2026, 06:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2407032
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "5'"
+        stateLabel: "20'"
         teams:
           - name: "Minnesota United"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2407030
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "21'"
         teams:
           - name: "Nashville SC"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2407031
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "21'"
         teams:
           - name: "Sporting Kansas City"
             score: "0"
@@ -53,31 +53,31 @@ sports:
       - id: football-2407033
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "21'"
         teams:
           - name: "Houston Dynamo"
             score: "0"
           - name: "San Jose Earthquakes"
             score: "0"
-      - id: football-2407026
+      - id: football-2407024
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "48'"
+        stateLabel: "60'"
         teams:
-          - name: "New York Red Bulls"
-            score: "0"
-          - name: "Philadelphia Union"
-            score: "1"
+          - name: "Inter Miami"
+            score: "3"
             active: true
-      - id: football-2407027
+          - name: "CF Montréal"
+            score: "1"
+      - id: football-2407028
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "48'"
+        stateLabel: "60'"
         teams:
-          - name: "Toronto FC"
+          - name: "Atlanta United"
             score: "0"
-          - name: "New York City FC"
-            score: "1"
+          - name: "Charlotte FC"
+            score: "2"
             active: true
 
   - name: Cricket
