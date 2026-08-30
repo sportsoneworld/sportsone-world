@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 03:32 IST"
+updated: "31 Aug 2026, 03:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,27 +26,36 @@ sports:
       - id: football-2407029
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "61'"
+        stateLabel: "76'"
         teams:
           - name: "Columbus Crew"
             score: "1"
           - name: "New England Revolution"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2551332
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Santamarina"
             score: "0"
           - name: "Círculo Deportivo"
             score: "1"
             active: true
+      - id: football-2405042
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Quilmes"
+            score: "0"
+          - name: "Temperley"
+            score: "0"
       - id: football-2405044
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "San Martín de Tucumán"
             score: "0"
@@ -56,32 +65,22 @@ sports:
       - id: football-2405038
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Godoy Cruz"
             score: "1"
             active: true
           - name: "San Telmo"
             score: "0"
-      - id: football-2578561
-        competition: "Brazil Serie D"
+      - id: football-2398049
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "2'"
         teams:
-          - name: "ABC"
-            score: "1"
-          - name: "Uberlândia"
-            score: "1"
-      - id: football-2398436
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Grêmio"
-            score: "2"
-            active: true
-          - name: "Chapecoense"
-            score: "1"
+          - name: "Independiente"
+            score: "0"
+          - name: "Gimnasia y Esgrima de Mendoza"
+            score: "0"
 
   - name: Cricket
     matches:
