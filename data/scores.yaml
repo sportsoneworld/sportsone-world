@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 16:17 IST"
+updated: "30 Aug 2026, 16:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2437851
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Arsenal Dzerzhinsk"
+            score: "0"
+          - name: "Torpedo-BelAZ Zhodino"
+            score: "0"
+      - id: football-2452147
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Niva Dolbizno"
+            score: "0"
+          - name: "Osipovichi"
+            score: "0"
+      - id: football-2441256
+        competition: "China League One"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Dalian K'un City"
+            score: "0"
+          - name: "Nantong Zhiyun"
+            score: "0"
+      - id: football-2441257
+        competition: "China League One"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Ningbo Professional"
+            score: "0"
+          - name: "Meizhou Hakka"
+            score: "0"
+      - id: football-2488374
+        competition: "Danish 1st Division"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Hvidovre"
+            score: "0"
+          - name: "Fredericia"
+            score: "0"
       - id: football-2489806
         competition: "Dutch Eerste Divisie"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "FC Eindhoven"
             score: "0"
           - name: "Heracles Almelo"
-            score: "0"
-      - id: football-2489095
-        competition: "Dutch Eredivisie"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Utrecht"
             score: "1"
-          - name: "PSV Eindhoven"
-            score: "1"
-      - id: football-2553748
-        competition: "Hong-Kong Premier League"
-        state: live
-        stateLabel: "14'"
-        teams:
-          - name: "Hong Kong Rangers"
-            score: "0"
-          - name: "Eastern District"
-            score: "0"
-      - id: football-2539700
-        competition: "Hungarian NB III Northeast"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Diósgyőr II"
-            score: "1"
-          - name: "Hajdúnánás"
-            score: "2"
-            active: true
-      - id: football-2540536
-        competition: "Hungarian NB III Southeast"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Budapest Honvéd II"
-            score: "1"
-          - name: "Monor"
-            score: "1"
-      - id: football-2540541
-        competition: "Hungarian NB III Southeast"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Szeged-Csanád II"
-            score: "0"
-          - name: "Gyulai Termál"
-            score: "3"
             active: true
 
   - name: Cricket
