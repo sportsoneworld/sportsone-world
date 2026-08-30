@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 19:32 IST"
+updated: "30 Aug 2026, 19:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,25 @@ sports:
       - id: football-2523507
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "46'"
+        stateLabel: "61'"
         teams:
           - name: "Gandzasar"
             score: "0"
           - name: "BKMA"
             score: "0"
+      - id: football-2546634
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Kəpəz"
+            score: "0"
+          - name: "Turan Tovuz"
+            score: "0"
       - id: football-2437854
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Dnepr Mogilev"
             score: "0"
@@ -44,41 +53,32 @@ sports:
       - id: football-2452144
         competition: "Belarusian First League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "58'"
         teams:
           - name: "Slonim-2017"
             score: "1"
           - name: "Orsha"
-            score: "1"
-      - id: football-2497765
-        competition: "Czech First League"
+            score: "2"
+            active: true
+      - id: football-2497016
+        competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "15'"
         teams:
-          - name: "Slovan Liberec"
+          - name: "Virton"
+            score: "0"
+          - name: "Francs Borains"
+            score: "0"
+      - id: football-2496722
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Antwerp"
+            score: "0"
+          - name: "Sint-Truiden"
             score: "1"
             active: true
-          - name: "Hradec Králové"
-            score: "0"
-      - id: football-2488376
-        competition: "Danish 1st Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Esbjerg"
-            score: "0"
-          - name: "Vendsyssel"
-            score: "1"
-            active: true
-      - id: football-2481823
-        competition: "Danish Superliga"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Randers FC"
-            score: "0"
-          - name: "AGF Aarhus"
-            score: "0"
 
   - name: Cricket
     matches:
