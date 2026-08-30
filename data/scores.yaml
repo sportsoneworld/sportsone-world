@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 02:32 IST"
+updated: "31 Aug 2026, 02:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,49 +23,47 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533265
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Teuta Durrës"
-            score: "3"
-            active: true
-          - name: "Tirana"
-            score: "1"
       - id: football-2407029
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "20'"
+        stateLabel: "36'"
         teams:
           - name: "Columbus Crew"
             score: "1"
-            active: true
           - name: "New England Revolution"
+            score: "1"
+      - id: football-2551332
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Santamarina"
+            score: "0"
+          - name: "Círculo Deportivo"
             score: "0"
       - id: football-2551345
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "67'"
+        stateLabel: "82'"
         teams:
           - name: "Atenas de Río Cuarto"
-            score: "0"
-          - name: "Olimpo"
-            score: "0"
-      - id: football-2551342
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "9 de Julio de Rafaela"
             score: "1"
             active: true
-          - name: "Defensores de Belgrano de Villa Ramallo"
+          - name: "Olimpo"
+            score: "0"
+      - id: football-2405038
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Godoy Cruz"
+            score: "0"
+          - name: "San Telmo"
             score: "0"
       - id: football-2405043
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Racing de Córdoba"
             score: "1"
@@ -75,13 +73,12 @@ sports:
       - id: football-2398041
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Argentinos Juniors"
-            score: "0"
+            score: "1"
           - name: "Aldosivi"
             score: "1"
-            active: true
 
   - name: Cricket
     matches:
