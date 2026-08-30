@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 07:47 IST"
+updated: "30 Aug 2026, 08:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,57 +23,58 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407034
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "36'"
-        teams:
-          - name: "Colorado Rapids"
-            score: "0"
-          - name: "Real Salt Lake"
-            score: "0"
-      - id: football-2407032
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Minnesota United"
-            score: "2"
-          - name: "Orlando City"
-            score: "2"
       - id: football-2407031
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "75'"
+        stateLabel: "89'"
         teams:
           - name: "Sporting Kansas City"
             score: "0"
           - name: "Vancouver Whitecaps"
             score: "2"
             active: true
+      - id: football-2407032
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Minnesota United"
+            score: "3"
+            active: true
+          - name: "Orlando City"
+            score: "2"
       - id: football-2407030
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Nashville SC"
-            score: "2"
+            score: "3"
             active: true
           - name: "FC Cincinnati"
             score: "0"
       - id: football-2407033
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Houston Dynamo"
             score: "0"
           - name: "San Jose Earthquakes"
             score: "0"
+      - id: football-2407034
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Colorado Rapids"
+            score: "0"
+          - name: "Real Salt Lake"
+            score: "0"
       - id: football-2419899
         competition: "American NWSL"
         state: live
-        stateLabel: "64'"
+        stateLabel: "78'"
         teams:
           - name: "Denver Summit"
             score: "5"
