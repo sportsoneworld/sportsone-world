@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 23:02 IST"
+updated: "30 Aug 2026, 23:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,27 +36,27 @@ sports:
       - id: football-2523510
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "63'"
+        stateLabel: "77'"
         teams:
           - name: "Noah"
-            score: "3"
+            score: "4"
             active: true
           - name: "Ararat Yerevan"
             score: "0"
       - id: football-2499732
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "31'"
+        stateLabel: "45'"
         teams:
           - name: "Red Bull Salzburg"
-            score: "2"
+            score: "3"
             active: true
           - name: "Austria Vienna"
             score: "0"
       - id: football-2546633
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "57'"
+        stateLabel: "71'"
         teams:
           - name: "Zirə"
             score: "1"
@@ -66,7 +66,7 @@ sports:
       - id: football-2437852
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "44'"
         teams:
           - name: "BATE Borisov"
             score: "0"
@@ -76,10 +76,11 @@ sports:
       - id: football-2497017
         competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "15'"
+        stateLabel: "29'"
         teams:
           - name: "Seraing"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Lierse"
             score: "0"
 
