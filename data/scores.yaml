@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 01:02 IST"
+updated: "31 Aug 2026, 01:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2533265
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "29'"
+        stateLabel: "44'"
         teams:
           - name: "Teuta Durrës"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2406518
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "68'"
+        stateLabel: "83'"
         teams:
           - name: "Flandria"
             score: "2"
@@ -46,16 +46,25 @@ sports:
       - id: football-2406511
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "71'"
+        stateLabel: "86'"
         teams:
           - name: "Argentino de Merlo"
             score: "0"
           - name: "Villa Dálmine"
             score: "0"
+      - id: football-2551345
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Atenas de Río Cuarto"
+            score: "0"
+          - name: "Olimpo"
+            score: "0"
       - id: football-2551337
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "27'"
+        stateLabel: "42'"
         teams:
           - name: "Sportivo Belgrano"
             score: "1"
@@ -65,21 +74,12 @@ sports:
       - id: football-2551342
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "27'"
+        stateLabel: "42'"
         teams:
           - name: "9 de Julio de Rafaela"
             score: "1"
             active: true
           - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "0"
-      - id: football-2551347
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Gimnasia y Esgrima de Chivilcoy"
-            score: "0"
-          - name: "Sarmiento de La Banda"
             score: "0"
 
   - name: Cricket
