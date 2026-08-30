@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 08:02 IST"
+updated: "30 Aug 2026, 08:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407031
+      - id: football-2407035
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "89'"
+        stateLabel: "6'"
         teams:
-          - name: "Sporting Kansas City"
+          - name: "San Diego FC"
             score: "0"
-          - name: "Vancouver Whitecaps"
-            score: "2"
-            active: true
-      - id: football-2407032
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Minnesota United"
-            score: "3"
-            active: true
-          - name: "Orlando City"
-            score: "2"
-      - id: football-2407030
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Nashville SC"
-            score: "3"
-            active: true
-          - name: "FC Cincinnati"
+          - name: "LA Galaxy"
             score: "0"
-      - id: football-2407033
+      - id: football-2407036
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Houston Dynamo"
+          - name: "Portland Timbers"
             score: "0"
-          - name: "San Jose Earthquakes"
+          - name: "Austin FC"
             score: "0"
       - id: football-2407034
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "Live"
+        stateLabel: "49'"
         teams:
           - name: "Colorado Rapids"
             score: "0"
           - name: "Real Salt Lake"
             score: "0"
+      - id: football-2407032
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Minnesota United"
+            score: "3"
+          - name: "Orlando City"
+            score: "3"
       - id: football-2419899
         competition: "American NWSL"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Denver Summit"
-            score: "5"
+            score: "6"
             active: true
           - name: "Chicago Stars"
             score: "1"
+      - id: football-2397294
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "10'"
+        teams:
+          - name: "Las Vegas Lights"
+            score: "0"
+          - name: "Charleston Battery"
+            score: "0"
 
   - name: Cricket
     matches:
