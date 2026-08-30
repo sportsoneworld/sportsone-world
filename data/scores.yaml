@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 18:17 IST"
+updated: "30 Aug 2026, 18:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,30 +32,19 @@ sports:
             score: "0"
           - name: "Kufstein"
             score: "0"
-      - id: football-2437851
+      - id: football-2437854
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "86'"
+        stateLabel: "1'"
         teams:
-          - name: "Arsenal Dzerzhinsk"
-            score: "2"
-          - name: "Torpedo-BelAZ Zhodino"
-            score: "3"
-            active: true
-      - id: football-2452147
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Niva Dolbizno"
-            score: "6"
-            active: true
-          - name: "Osipovichi"
+          - name: "Dnepr Mogilev"
+            score: "0"
+          - name: "Isloch Minsk Raion"
             score: "0"
       - id: football-2452145
         competition: "Belarusian First League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "46'"
         teams:
           - name: "Dinamo-2 Minsk"
             score: "0"
@@ -64,7 +53,7 @@ sports:
       - id: football-2496721
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "58'"
+        stateLabel: "73'"
         teams:
           - name: "Gent"
             score: "1"
@@ -73,12 +62,21 @@ sports:
       - id: football-2441258
         competition: "China League One"
         state: live
-        stateLabel: "59'"
+        stateLabel: "74'"
         teams:
           - name: "Guangdong GZ-Power"
             score: "2"
             active: true
           - name: "Changchun Yatai"
+            score: "0"
+      - id: football-2497765
+        competition: "Czech First League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Slovan Liberec"
+            score: "0"
+          - name: "Hradec Králové"
             score: "0"
 
   - name: Cricket
