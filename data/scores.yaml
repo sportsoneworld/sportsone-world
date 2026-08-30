@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 14:02 IST"
+updated: "30 Aug 2026, 14:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,62 @@ sports:
       - id: football-2577497
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
           - name: "Queensland Lions"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Peninsula Power"
             score: "1"
+      - id: football-2505259
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Sturm Graz II"
+            score: "0"
+          - name: "Rapid Wien II"
+            score: "1"
+            active: true
+      - id: football-2560648
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "TSV Hartberg II"
+            score: "1"
+            active: true
+          - name: "Allerheiligen"
+            score: "0"
       - id: football-2573967
         competition: "Club Friendlies"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "Marchamalo"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Unión Adarve"
             score: "0"
-      - id: football-2502757
+      - id: football-2502755
         competition: "Czech Bohemian Football League Group A"
         state: live
         stateLabel: "15'"
+        teams:
+          - name: "Viktoria Plzeň B"
+            score: "0"
+          - name: "Dynamo České Budějovice"
+            score: "1"
+            active: true
+      - id: football-2502757
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "30'"
         teams:
           - name: "Dukla Praha B"
             score: "1"
             active: true
           - name: "Slavia Praha C"
-            score: "0"
-      - id: football-2502756
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Bohemians 1905 B"
-            score: "1"
-            active: true
-          - name: "Admira Praha"
-            score: "0"
-      - id: football-2502754
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Sparta Prague B"
-            score: "1"
-            active: true
-          - name: "Příbram Akademie"
-            score: "0"
-      - id: football-2502636
-        competition: "Czech Bohemian Football League Group B"
-        state: live
-        stateLabel: "17'"
-        teams:
-          - name: "Pardubice B"
-            score: "0"
-          - name: "Čáslav"
             score: "0"
 
   - name: Cricket
