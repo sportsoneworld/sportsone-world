@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 05:02 IST"
+updated: "31 Aug 2026, 05:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2407037
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "19'"
+        stateLabel: "34'"
         teams:
           - name: "St. Louis City SC"
             score: "1"
@@ -35,7 +35,7 @@ sports:
       - id: football-2419901
         competition: "American NWSL"
         state: live
-        stateLabel: "23'"
+        stateLabel: "38'"
         teams:
           - name: "Seattle Reign"
             score: "0"
@@ -44,41 +44,43 @@ sports:
       - id: football-2405042
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "71'"
+        stateLabel: "86'"
         teams:
           - name: "Quilmes"
             score: "0"
           - name: "Temperley"
-            score: "0"
-      - id: football-2405044
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "San Martín de Tucumán"
             score: "1"
-          - name: "Güemes"
-            score: "1"
+            active: true
       - id: football-2398049
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "57'"
+        stateLabel: "72'"
         teams:
           - name: "Independiente"
             score: "0"
           - name: "Gimnasia y Esgrima de Mendoza"
-            score: "2"
-            active: true
-      - id: football-2398436
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Grêmio"
             score: "3"
             active: true
-          - name: "Chapecoense"
-            score: "1"
+      - id: football-2398433
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "Bahia"
+            score: "3"
+            active: true
+          - name: "Internacional"
+            score: "2"
+      - id: football-2427402
+        competition: "Canadian Premier League"
+        state: live
+        stateLabel: "78'"
+        teams:
+          - name: "Pacific"
+            score: "2"
+          - name: "HFX Wanderers"
+            score: "3"
+            active: true
 
   - name: Cricket
     matches:
