@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 13:17 IST"
+updated: "30 Aug 2026, 13:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,62 +26,58 @@ sports:
       - id: football-2592837
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Maitland"
-            score: "1"
-          - name: "Edgeworth"
-            score: "1"
-      - id: football-2397291
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "El Paso Locomotive"
-            score: "4"
-            active: true
-          - name: "Loudoun United"
-            score: "1"
-      - id: football-2397292
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "FC Tulsa"
-            score: "1"
-            active: true
-          - name: "Rhode Island FC"
-            score: "0"
-      - id: football-2397294
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Las Vegas Lights"
-            score: "0"
-          - name: "Charleston Battery"
             score: "2"
             active: true
-      - id: football-2428294
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Edgeworth"
+            score: "1"
+      - id: football-2577497
+        competition: "Australia Queensland NPL"
+        state: live
+        stateLabel: "14'"
         teams:
-          - name: "Sydney United 58"
-            score: "6"
-            active: true
-          - name: "St George"
-            score: "0"
-      - id: football-2428290
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Queensland Lions"
+            score: "1"
+          - name: "Peninsula Power"
+            score: "1"
+      - id: football-2553747
+        competition: "Hong-Kong Premier League"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "Wollongong Wolves"
+          - name: "Tai Po"
             score: "0"
-          - name: "Manly United"
-            score: "4"
-            active: true
+          - name: "Eastern SC"
+            score: "0"
+      - id: football-2430182
+        competition: "Korean K3 League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Siheung Citizen"
+            score: "0"
+          - name: "Pocheon Citizen"
+            score: "0"
+      - id: football-2547491
+        competition: "Romanian Liga II"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Știința Poli Timișoara"
+            score: "0"
+          - name: "ASA Târgu Mureș"
+            score: "0"
+      - id: football-2509463
+        competition: "South Korean K4 League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Geumsan Insam"
+            score: "0"
+          - name: "Jinju Citizen"
+            score: "0"
 
   - name: Cricket
     matches:
