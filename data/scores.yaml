@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 04:32 IST"
+updated: "31 Aug 2026, 04:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,35 +23,44 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551332
-        competition: "Argentina Torneo Federal A"
+      - id: football-2407037
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "Santamarina"
-            score: "2"
-            active: true
-          - name: "Círculo Deportivo"
+          - name: "St. Louis City SC"
             score: "1"
+            active: true
+          - name: "FC Dallas"
+            score: "0"
+      - id: football-2419901
+        competition: "American NWSL"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Seattle Reign"
+            score: "0"
+          - name: "Houston Dash"
+            score: "0"
+      - id: football-2405042
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Quilmes"
+            score: "0"
+          - name: "Temperley"
+            score: "0"
       - id: football-2405044
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "San Martín de Tucumán"
             score: "0"
           - name: "Güemes"
             score: "1"
             active: true
-      - id: football-2405042
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Quilmes"
-            score: "0"
-          - name: "Temperley"
-            score: "0"
       - id: football-2398049
         competition: "Argentinian Primera Division"
         state: live
@@ -65,21 +74,12 @@ sports:
       - id: football-2398433
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Bahia"
-            score: "1"
-          - name: "Internacional"
-            score: "1"
-      - id: football-2398436
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "68'"
-        teams:
-          - name: "Grêmio"
-            score: "3"
+            score: "2"
             active: true
-          - name: "Chapecoense"
+          - name: "Internacional"
             score: "1"
 
   - name: Cricket
