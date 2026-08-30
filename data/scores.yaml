@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 21:32 IST"
+updated: "30 Aug 2026, 21:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,62 +26,61 @@ sports:
       - id: football-2406517
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "28'"
+        stateLabel: "44'"
         teams:
           - name: "Deportivo Armenio"
             score: "1"
             active: true
           - name: "Villa San Carlos"
             score: "0"
-      - id: football-2499731
-        competition: "Austrian Bundesliga"
+      - id: football-2523510
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "16'"
         teams:
-          - name: "TSV Hartberg"
-            score: "2"
-            active: true
-          - name: "SV Ried"
-            score: "1"
+          - name: "Noah"
+            score: "0"
+          - name: "Ararat Yerevan"
+            score: "0"
       - id: football-2499730
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
           - name: "Rapid Vienna"
             score: "2"
             active: true
           - name: "Sturm Graz"
             score: "1"
+      - id: football-2499731
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "57'"
+        teams:
+          - name: "TSV Hartberg"
+            score: "2"
+            active: true
+          - name: "SV Ried"
+            score: "1"
       - id: football-2560652
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "73'"
+        stateLabel: "89'"
         teams:
           - name: "Wolfsberger AC II"
             score: "1"
           - name: "Bleiburg"
             score: "2"
             active: true
-      - id: football-2546634
+      - id: football-2546633
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "2'"
         teams:
-          - name: "Kəpəz"
-            score: "1"
-            active: true
-          - name: "Turan Tovuz"
+          - name: "Zirə"
             score: "0"
-      - id: football-2398431
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Athletico Paranaense"
-            score: "3"
-          - name: "Fluminense"
-            score: "3"
+          - name: "Neftçi PFK"
+            score: "0"
 
   - name: Cricket
     matches:
