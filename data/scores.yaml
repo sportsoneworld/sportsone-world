@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 20:32 IST"
+updated: "30 Aug 2026, 20:48 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,37 +23,48 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2499730
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Rapid Vienna"
+            score: "1"
+          - name: "Sturm Graz"
+            score: "1"
       - id: football-2499731
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "1'"
+        stateLabel: "17'"
         teams:
           - name: "TSV Hartberg"
-            score: "0"
+            score: "1"
           - name: "SV Ried"
-            score: "0"
+            score: "1"
       - id: football-2560652
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "29'"
+        stateLabel: "45'"
         teams:
           - name: "Wolfsberger AC II"
             score: "0"
           - name: "Bleiburg"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2546634
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
           - name: "Kəpəz"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Turan Tovuz"
             score: "0"
       - id: football-2497016
         competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Virton"
             score: "0"
@@ -62,21 +73,11 @@ sports:
       - id: football-2496722
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Antwerp"
-            score: "0"
+            score: "1"
           - name: "Sint-Truiden"
-            score: "1"
-            active: true
-      - id: football-2398431
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Athletico Paranaense"
-            score: "1"
-          - name: "Fluminense"
             score: "1"
 
   - name: Cricket
