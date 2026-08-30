@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 21:02 IST"
+updated: "30 Aug 2026, 21:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2406517
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Deportivo Armenio"
+            score: "0"
+          - name: "Villa San Carlos"
+            score: "0"
       - id: football-2499730
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Rapid Vienna"
             score: "2"
@@ -36,26 +45,27 @@ sports:
       - id: football-2499731
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "TSV Hartberg"
-            score: "1"
+            score: "2"
+            active: true
           - name: "SV Ried"
             score: "1"
       - id: football-2560652
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Wolfsberger AC II"
-            score: "0"
+            score: "1"
           - name: "Bleiburg"
             score: "2"
             active: true
       - id: football-2546634
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "69'"
+        stateLabel: "84'"
         teams:
           - name: "Kəpəz"
             score: "1"
@@ -65,22 +75,13 @@ sports:
       - id: football-2497016
         competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "73'"
+        stateLabel: "88'"
         teams:
           - name: "Virton"
             score: "0"
           - name: "Francs Borains"
             score: "1"
             active: true
-      - id: football-2496722
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Antwerp"
-            score: "1"
-          - name: "Sint-Truiden"
-            score: "1"
 
   - name: Cricket
     matches:
