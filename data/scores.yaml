@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 10:02 IST"
+updated: "30 Aug 2026, 10:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2397294
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "02:30"
+        teams:
+          - name: "Las Vegas Lights"
+            score: "0"
+          - name: "Charleston Battery"
+            score: "1"
+            active: true
+      - id: football-2548496
+        competition: "Mexican Liga Femenil"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Juárez Femenil"
+            score: "1"
+            active: true
+          - name: "Cruz Azul Femenil"
+            score: "0"
+      - id: football-2487503
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "68'"
+        teams:
+          - name: "Santos Laguna"
+            score: "0"
+          - name: "Tigres UANL"
+            score: "0"
       - id: football-2407035
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "San Diego FC"
             score: "3"
@@ -35,8 +64,8 @@ sports:
             score: "1"
       - id: football-2407036
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Portland Timbers"
             score: "1"
@@ -45,43 +74,14 @@ sports:
             active: true
       - id: football-2397298
         competition: "American USL Championship"
-        state: live
-        stateLabel: "89'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "New Mexico United"
             score: "1"
           - name: "San Antonio"
             score: "2"
             active: true
-      - id: football-2397300
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Phoenix Rising"
-            score: "2"
-            active: true
-          - name: "Indy Eleven"
-            score: "1"
-      - id: football-2397294
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Las Vegas Lights"
-            score: "0"
-          - name: "Charleston Battery"
-            score: "2"
-            active: true
-      - id: football-2548496
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "60'"
-        teams:
-          - name: "Juárez Femenil"
-            score: "0"
-          - name: "Cruz Azul Femenil"
-            score: "0"
 
   - name: Cricket
     matches:
