@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 00:32 IST"
+updated: "31 Aug 2026, 00:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406511
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2533265
+        competition: "Albanian Superliga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "14'"
         teams:
-          - name: "Argentino de Merlo"
+          - name: "Teuta Durrës"
             score: "0"
-          - name: "Villa Dálmine"
-            score: "0"
+          - name: "Tirana"
+            score: "1"
+            active: true
       - id: football-2406518
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Flandria"
             score: "2"
             active: true
           - name: "San Martín de Burzaco"
             score: "0"
+      - id: football-2406511
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Argentino de Merlo"
+            score: "0"
+          - name: "Villa Dálmine"
+            score: "0"
+      - id: football-2551337
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Sportivo Belgrano"
+            score: "1"
+            active: true
+          - name: "Bartolomé Mitre"
+            score: "0"
+      - id: football-2551342
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "9 de Julio de Rafaela"
+            score: "1"
+            active: true
+          - name: "Defensores de Belgrano de Villa Ramallo"
+            score: "0"
       - id: football-2551347
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Gimnasia y Esgrima de Chivilcoy"
             score: "0"
           - name: "Sarmiento de La Banda"
-            score: "0"
-      - id: football-2551341
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "13'"
-        teams:
-          - name: "Argentino de Monte Maíz"
-            score: "0"
-          - name: "Juventud Antoniana"
-            score: "0"
-      - id: football-2551336
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Sportivo Las Parejas"
-            score: "1"
-            active: true
-          - name: "Sarmiento de Resistencia"
-            score: "0"
-      - id: football-2551343
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "26'"
-        teams:
-          - name: "El Linqueño"
-            score: "0"
-          - name: "Atlético Escobar"
             score: "0"
 
   - name: Cricket
