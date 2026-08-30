@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 16:32 IST"
+updated: "30 Aug 2026, 16:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2437851
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Arsenal Dzerzhinsk"
             score: "0"
@@ -35,16 +35,17 @@ sports:
       - id: football-2452147
         competition: "Belarusian First League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Niva Dolbizno"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Osipovichi"
             score: "0"
       - id: football-2441256
         competition: "China League One"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Dalian K'un City"
             score: "0"
@@ -53,31 +54,31 @@ sports:
       - id: football-2441257
         competition: "China League One"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Ningbo Professional"
             score: "0"
           - name: "Meizhou Hakka"
             score: "0"
+      - id: football-2488375
+        competition: "Danish 1st Division"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Hillerød"
+            score: "1"
+            active: true
+          - name: "Hobro"
+            score: "0"
       - id: football-2488374
         competition: "Danish 1st Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Hvidovre"
             score: "0"
           - name: "Fredericia"
             score: "0"
-      - id: football-2489806
-        competition: "Dutch Eerste Divisie"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "FC Eindhoven"
-            score: "0"
-          - name: "Heracles Almelo"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
