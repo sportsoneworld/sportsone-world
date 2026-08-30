@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 00:02 IST"
+updated: "31 Aug 2026, 00:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419900
-        competition: "American NWSL"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Washington Spirit"
-            score: "1"
-            active: true
-          - name: "Bay FC"
-            score: "0"
       - id: football-2406518
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "27'"
+        stateLabel: "42'"
         teams:
           - name: "Flandria"
-            score: "1"
+            score: "2"
             active: true
           - name: "San Martín de Burzaco"
             score: "0"
       - id: football-2406511
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "Argentino de Merlo"
             score: "0"
           - name: "Villa Dálmine"
             score: "0"
-      - id: football-2551340
+      - id: football-2551343
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "26'"
+        stateLabel: "11'"
         teams:
-          - name: "Kimberley"
+          - name: "El Linqueño"
             score: "0"
-          - name: "Alvarado"
+          - name: "Atlético Escobar"
             score: "0"
-      - id: football-2551339
+      - id: football-2551334
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "26'"
+        stateLabel: "12'"
         teams:
-          - name: "Germinal"
+          - name: "Villa Mitre"
+            score: "1"
+            active: true
+          - name: "Huracán Las Heras"
             score: "0"
-          - name: "Deportivo Rincón"
+      - id: football-2551338
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Gimnasia y Esgrima de Concepción del Uruguay"
+            score: "0"
+          - name: "Independiente de Chivilcoy"
             score: "0"
       - id: football-2551335
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "26'"
+        stateLabel: "40'"
         teams:
           - name: "Sol de Mayo"
             score: "0"
           - name: "Guillermo Brown"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
