@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Aug 2026, 09:32 IST"
+updated: "30 Aug 2026, 09:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2407035
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "63'"
+        stateLabel: "79'"
         teams:
           - name: "San Diego FC"
-            score: "2"
+            score: "3"
+            active: true
           - name: "LA Galaxy"
-            score: "2"
+            score: "1"
       - id: football-2407036
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "63'"
+        stateLabel: "80'"
         teams:
           - name: "Portland Timbers"
             score: "0"
@@ -45,7 +46,7 @@ sports:
       - id: football-2397298
         competition: "American USL Championship"
         state: live
-        stateLabel: "58'"
+        stateLabel: "74'"
         teams:
           - name: "New Mexico United"
             score: "1"
@@ -55,7 +56,7 @@ sports:
       - id: football-2397294
         competition: "American USL Championship"
         state: live
-        stateLabel: "65'"
+        stateLabel: "81'"
         teams:
           - name: "Las Vegas Lights"
             score: "0"
@@ -65,22 +66,22 @@ sports:
       - id: football-2397300
         competition: "American USL Championship"
         state: live
-        stateLabel: "65'"
+        stateLabel: "81'"
         teams:
           - name: "Phoenix Rising"
             score: "2"
             active: true
           - name: "Indy Eleven"
             score: "1"
-      - id: football-2397297
-        competition: "American USL Championship"
+      - id: football-2548496
+        competition: "Mexican Liga Femenil"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Monterey Bay FC"
-            score: "1"
-          - name: "Sacramento Republic"
-            score: "1"
+          - name: "Juárez Femenil"
+            score: "0"
+          - name: "Cruz Azul Femenil"
+            score: "0"
 
   - name: Cricket
     matches:
