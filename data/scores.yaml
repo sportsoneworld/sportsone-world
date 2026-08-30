@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 03:02 IST"
+updated: "31 Aug 2026, 03:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2407029
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Columbus Crew"
             score: "1"
@@ -36,26 +36,26 @@ sports:
       - id: football-2551332
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "30'"
+        stateLabel: "45'"
         teams:
           - name: "Santamarina"
             score: "0"
           - name: "Círculo Deportivo"
-            score: "0"
-      - id: football-2551345
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Atenas de Río Cuarto"
             score: "1"
             active: true
-          - name: "Olimpo"
+      - id: football-2405044
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "San Martín de Tucumán"
+            score: "0"
+          - name: "Güemes"
             score: "0"
       - id: football-2405038
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "Godoy Cruz"
             score: "0"
@@ -64,7 +64,7 @@ sports:
       - id: football-2405043
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "73'"
+        stateLabel: "88'"
         teams:
           - name: "Racing de Córdoba"
             score: "1"
@@ -74,7 +74,7 @@ sports:
       - id: football-2398041
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "73'"
+        stateLabel: "88'"
         teams:
           - name: "Argentinos Juniors"
             score: "2"
