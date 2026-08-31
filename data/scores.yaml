@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 07:47 IST"
+updated: "31 Aug 2026, 08:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,11 +26,10 @@ sports:
       - id: football-2398050
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "86'"
+        stateLabel: "00:30"
         teams:
           - name: "Independiente Rivadavia"
-            score: "2"
-            active: true
+            score: "1"
           - name: "Racing Club"
             score: "1"
       - id: football-2413072
@@ -46,7 +45,7 @@ sports:
       - id: football-2481158
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "53'"
         teams:
           - name: "Deportivo Cali"
             score: "0"
@@ -55,7 +54,7 @@ sports:
       - id: football-2497243
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "50'"
+        stateLabel: "65'"
         teams:
           - name: "Xelajú"
             score: "2"
@@ -65,7 +64,7 @@ sports:
       - id: football-2423393
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
           - name: "Real Monarchs"
             score: "0"
@@ -74,12 +73,13 @@ sports:
       - id: football-2487505
         competition: "Mexican Primera League"
         state: live
-        stateLabel: "5'"
+        stateLabel: "21'"
         teams:
           - name: "Monterrey"
             score: "0"
           - name: "Atlético de San Luis"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
