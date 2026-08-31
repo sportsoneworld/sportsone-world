@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 22:02 IST"
+updated: "01 Sep 2026, 01:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533266
+      - id: football-2533263
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "76'"
+        stateLabel: "Live"
         teams:
-          - name: "Vora"
+          - name: "Skënderbeu Korçë"
+            score: "0"
+          - name: "Dinamo City"
+            score: "0"
+      - id: football-2408583
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "CA Fénix"
+            score: "0"
+          - name: "Central Córdoba de Rosario"
             score: "1"
-          - name: "Egnatia"
+            active: true
+      - id: football-2408590
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Leones de Rosario"
+            score: "1"
+            active: true
+          - name: "CA Atlas"
+            score: "0"
+      - id: football-2408584
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "General Lamadrid"
+            score: "0"
+          - name: "Cañuelas"
             score: "2"
             active: true
-      - id: football-2546636
-        competition: "Azerbaijani Premier League"
+      - id: football-2408589
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
-          - name: "Araz-Naxçıvan"
+          - name: "Sportivo Barracas"
             score: "0"
-          - name: "Sabah Baku"
+          - name: "Deportivo Español"
             score: "1"
             active: true
-      - id: football-2561090
-        competition: "Egyptian Premier League"
+      - id: football-2487317
+        competition: "Bulgarian First League"
         state: live
-        stateLabel: "74'"
+        stateLabel: "85'"
         teams:
-          - name: "Asyut Petroleum"
-            score: "0"
-          - name: "National Bank of Egypt"
-            score: "0"
-      - id: football-2542622
-        competition: "English Isthmian League Premier Division"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Stanway Rovers"
-            score: "0"
-          - name: "Aveley"
+          - name: "Arda Kardzhali"
             score: "2"
             active: true
-      - id: football-2542618
-        competition: "English Isthmian League Premier Division"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Cheshunt"
-            score: "1"
-          - name: "St Albans City"
-            score: "1"
-      - id: football-2542616
-        competition: "English Isthmian League Premier Division"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Ramsgate"
-            score: "4"
-            active: true
-          - name: "Whyteleafe"
-            score: "1"
+          - name: "Botev Vratsa"
+            score: "0"
 
   - name: Cricket
     matches:
