@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 21:37 IST"
+updated: "31 Aug 2026, 21:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,16 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2398050
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Independiente Rivadavia"
+            score: "3"
+            active: true
+          - name: "Racing Club"
+            score: "1"
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -52,6 +62,26 @@ sports:
             score: "–"
             detail: "20:00"
           - name: "South Georgia Tormenta"
+            score: "–"
+      - id: football-2405036
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Gimnasia y Esgrima de Jujuy"
+            score: "–"
+            detail: "00:00"
+          - name: "Agropecuario"
+            score: "–"
+      - id: football-2398045
+        competition: "Argentinian Primera Division"
+        state: upcoming
+        stateLabel: "22:00"
+        teams:
+          - name: "Defensa y Justicia"
+            score: "–"
+            detail: "22:00"
+          - name: "Platense"
             score: "–"
 
   - name: Cricket
