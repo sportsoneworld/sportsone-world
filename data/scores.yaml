@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 19:02 IST"
+updated: "31 Aug 2026, 19:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,61 +26,59 @@ sports:
       - id: football-2503637
         competition: "AFC Champions League Two"
         state: live
-        stateLabel: "74'"
+        stateLabel: "89'"
         teams:
           - name: "Persib Bandung"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Manila Digger"
             score: "0"
       - id: football-2523512
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "66'"
+        stateLabel: "82'"
         teams:
           - name: "Sardarapat"
-            score: "2"
+            score: "3"
             active: true
           - name: "Syunik"
             score: "0"
-      - id: football-2513713
-        competition: "Welsh Premier League"
+      - id: football-2593081
+        competition: "Oman Professional League"
         state: live
         stateLabel: "1'"
         teams:
-          - name: "Ammanford"
+          - name: "Samail"
             score: "0"
-          - name: "Cardiff Metropolitan University"
+          - name: "Saham"
             score: "0"
-      - id: football-2398050
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2593080
+        competition: "Oman Professional League"
+        state: live
+        stateLabel: "8'"
         teams:
-          - name: "Independiente Rivadavia"
-            score: "3"
-            active: true
-          - name: "Racing Club"
-            score: "1"
-      - id: football-2397302
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Oman Club"
+            score: "0"
+          - name: "Dhofar"
+            score: "0"
+      - id: football-2513719
+        competition: "Welsh Premier League"
+        state: live
+        stateLabel: "13'"
         teams:
-          - name: "Charleston Battery"
-            score: "–"
-            detail: "23:00"
-          - name: "Hartford Athletic"
-            score: "–"
-      - id: football-2397625
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
+          - name: "Flint Town United"
+            score: "0"
+          - name: "Connah's Quay Nomads"
+            score: "0"
+      - id: football-2513717
+        competition: "Welsh Premier League"
+        state: live
+        stateLabel: "14'"
         teams:
-          - name: "Charlotte Independence"
-            score: "–"
-            detail: "23:30"
-          - name: "Portland Hearts of Pine"
-            score: "–"
+          - name: "Airbus UK Broughton"
+            score: "0"
+          - name: "Holywell Town"
+            score: "0"
 
   - name: Cricket
     matches:
