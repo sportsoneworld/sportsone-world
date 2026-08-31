@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 08:17 IST"
+updated: "31 Aug 2026, 08:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398050
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "00:30"
-        teams:
-          - name: "Independiente Rivadavia"
-            score: "1"
-          - name: "Racing Club"
-            score: "1"
       - id: football-2481158
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "68'"
+        stateLabel: "84'"
         teams:
           - name: "Deportivo Cali"
             score: "0"
           - name: "Atlético Bucaramanga"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2497243
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Xelajú"
-            score: "3"
+            score: "4"
             active: true
           - name: "Mixco"
-            score: "0"
+            score: "1"
       - id: football-2423392
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "11'"
+        stateLabel: "27'"
         teams:
           - name: "San Jose Earthquakes II"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Los Angeles FC II"
             score: "0"
       - id: football-2423393
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "55'"
+        stateLabel: "71'"
         teams:
           - name: "Real Monarchs"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Tacoma Defiance"
             score: "0"
       - id: football-2487505
         competition: "Mexican Primera League"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Monterrey"
             score: "0"
           - name: "Atlético de San Luis"
-            score: "1"
+            score: "2"
             active: true
+      - id: football-2398050
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Independiente Rivadavia"
+            score: "3"
+            active: true
+          - name: "Racing Club"
+            score: "1"
 
   - name: Cricket
     matches:
