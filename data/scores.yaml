@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 10:17 IST"
+updated: "31 Aug 2026, 10:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -43,16 +43,6 @@ sports:
             active: true
           - name: "Los Angeles FC II"
             score: "2"
-      - id: football-2487505
-        competition: "Mexican Primera League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Monterrey"
-            score: "1"
-          - name: "Atlético de San Luis"
-            score: "3"
-            active: true
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -82,6 +72,16 @@ sports:
             score: "–"
             detail: "20:00"
           - name: "South Georgia Tormenta"
+            score: "–"
+      - id: football-2405036
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Gimnasia y Esgrima de Jujuy"
+            score: "–"
+            detail: "00:00"
+          - name: "Agropecuario"
             score: "–"
 
   - name: Cricket
