@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 07:02 IST"
+updated: "31 Aug 2026, 07:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2398050
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Independiente Rivadavia"
             score: "1"
@@ -35,7 +35,7 @@ sports:
       - id: football-2413072
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "70'"
+        stateLabel: "82'"
         teams:
           - name: "Coquimbo Unido"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2481158
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "11'"
+        stateLabel: "26'"
         teams:
           - name: "Deportivo Cali"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2557482
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "71'"
+        stateLabel: "86'"
         teams:
           - name: "Deportivo Saprissa"
             score: "2"
@@ -64,17 +64,17 @@ sports:
       - id: football-2545950
         competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "64'"
+        stateLabel: "83'"
         teams:
           - name: "FAS"
             score: "3"
             active: true
           - name: "Firpo"
-            score: "0"
+            score: "1"
       - id: football-2497243
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "Xelajú"
             score: "1"
