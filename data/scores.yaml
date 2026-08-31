@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 05:02 IST"
+updated: "01 Sep 2026, 05:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2406515
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "69'"
+        stateLabel: "84'"
         teams:
           - name: "Club Comunicaciones"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2405039
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "65'"
+        stateLabel: "80'"
         teams:
           - name: "Los Andes"
             score: "0"
@@ -45,16 +45,17 @@ sports:
       - id: football-2398045
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "68'"
+        stateLabel: "83'"
         teams:
           - name: "Defensa y Justicia"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Platense"
             score: "0"
       - id: football-2398047
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "73'"
+        stateLabel: "88'"
         teams:
           - name: "Estudiantes de La Plata"
             score: "0"
@@ -63,7 +64,7 @@ sports:
       - id: football-2398438
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Remo"
             score: "0"
@@ -72,7 +73,7 @@ sports:
       - id: football-2431410
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "52'"
         teams:
           - name: "Fortaleza"
             score: "1"
