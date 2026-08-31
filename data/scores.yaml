@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 06:47 IST"
+updated: "31 Aug 2026, 07:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,22 +35,32 @@ sports:
       - id: football-2413072
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "55'"
+        stateLabel: "70'"
         teams:
           - name: "Coquimbo Unido"
             score: "0"
           - name: "Huachipato"
+            score: "1"
+            active: true
+      - id: football-2481158
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Deportivo Cali"
+            score: "0"
+          - name: "Atlético Bucaramanga"
             score: "0"
       - id: football-2557482
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "56'"
+        stateLabel: "71'"
         teams:
           - name: "Deportivo Saprissa"
             score: "2"
             active: true
           - name: "Escorpiones de Belén"
-            score: "0"
+            score: "1"
       - id: football-2545950
         competition: "El Salvador Primera Division"
         state: live
@@ -64,22 +74,13 @@ sports:
       - id: football-2497243
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "13'"
+        stateLabel: "28'"
         teams:
           - name: "Xelajú"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Mixco"
             score: "0"
-      - id: football-2537925
-        competition: "Honduras Liga Nacional de Futbol"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Real España"
-            score: "2"
-            active: true
-          - name: "Choloma"
-            score: "1"
 
   - name: Cricket
     matches:
