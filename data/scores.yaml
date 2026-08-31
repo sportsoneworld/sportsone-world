@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 04:02 IST"
+updated: "01 Sep 2026, 04:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2406515
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "Club Comunicaciones"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Deportivo Merlo"
             score: "0"
       - id: football-2405039
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "27'"
+        stateLabel: "42'"
         teams:
           - name: "Los Andes"
             score: "0"
@@ -44,7 +45,7 @@ sports:
       - id: football-2398045
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "30'"
+        stateLabel: "45'"
         teams:
           - name: "Defensa y Justicia"
             score: "0"
@@ -53,31 +54,30 @@ sports:
       - id: football-2398047
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Estudiantes de La Plata"
             score: "0"
           - name: "Newell's Old Boys"
             score: "0"
+      - id: football-2431410
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Fortaleza"
+            score: "0"
+          - name: "Operário Ferroviário"
+            score: "0"
       - id: football-2413077
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "Unión La Calera"
             score: "0"
           - name: "Deportes La Serena"
             score: "0"
-      - id: football-2578072
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Encarnación"
-            score: "0"
-          - name: "Benjamín Aceval"
-            score: "2"
-            active: true
 
   - name: Cricket
     matches:
