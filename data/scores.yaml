@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 06:32 IST"
+updated: "31 Aug 2026, 06:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407037
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "St. Louis City SC"
-            score: "3"
-            active: true
-          - name: "FC Dallas"
-            score: "2"
-      - id: football-2419901
-        competition: "American NWSL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Seattle Reign"
-            score: "1"
-            active: true
-          - name: "Houston Dash"
-            score: "0"
       - id: football-2398050
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Independiente Rivadavia"
-            score: "0"
+            score: "1"
           - name: "Racing Club"
             score: "1"
-            active: true
       - id: football-2413072
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
           - name: "Coquimbo Unido"
             score: "0"
           - name: "Huachipato"
             score: "0"
-      - id: football-2481156
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Millonarios"
-            score: "0"
-          - name: "Internacional de Bogotá"
-            score: "0"
       - id: football-2557482
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Deportivo Saprissa"
-            score: "1"
+            score: "2"
             active: true
           - name: "Escorpiones de Belén"
             score: "0"
+      - id: football-2545950
+        competition: "El Salvador Primera Division"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "FAS"
+            score: "3"
+            active: true
+          - name: "Firpo"
+            score: "0"
+      - id: football-2497243
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Xelajú"
+            score: "0"
+          - name: "Mixco"
+            score: "0"
+      - id: football-2537925
+        competition: "Honduras Liga Nacional de Futbol"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Real España"
+            score: "2"
+            active: true
+          - name: "Choloma"
+            score: "1"
 
   - name: Cricket
     matches:
