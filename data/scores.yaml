@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 09:47 IST"
+updated: "31 Aug 2026, 10:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,13 +26,13 @@ sports:
       - id: football-2423392
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "San Jose Earthquakes II"
             score: "3"
             active: true
           - name: "Los Angeles FC II"
-            score: "1"
+            score: "2"
       - id: football-2398050
         competition: "Argentinian Primera Division"
         state: completed
@@ -42,15 +42,6 @@ sports:
             score: "3"
             active: true
           - name: "Racing Club"
-            score: "1"
-      - id: football-2481158
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Deportivo Cali"
-            score: "1"
-          - name: "Atlético Bucaramanga"
             score: "1"
       - id: football-2423393
         competition: "MLS Next Pro"
@@ -81,6 +72,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Hartford Athletic"
+            score: "–"
+      - id: football-2397625
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Charlotte Independence"
+            score: "–"
+            detail: "23:30"
+          - name: "Portland Hearts of Pine"
             score: "–"
 
   - name: Cricket
