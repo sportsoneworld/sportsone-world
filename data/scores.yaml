@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 01:47 IST"
+updated: "01 Sep 2026, 02:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2533263
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "55'"
+        stateLabel: "70'"
         teams:
           - name: "Skënderbeu Korçë"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2482543
         competition: "Croatian First Football League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "HNK Gorica"
             score: "0"
@@ -44,25 +44,27 @@ sports:
       - id: football-2494017
         competition: "English Premier League"
         state: live
-        stateLabel: "59'"
+        stateLabel: "74'"
         teams:
           - name: "Aston Villa"
             score: "0"
           - name: "Arsenal"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2488734
         competition: "French Ligue 2"
         state: live
-        stateLabel: "72'"
+        stateLabel: "87'"
         teams:
           - name: "Dijon"
             score: "2"
           - name: "Saint-Étienne"
-            score: "2"
+            score: "3"
+            active: true
       - id: football-2419721
         competition: "Icelandic Úrvalsdeild karla"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Breiðablik"
             score: "0"
@@ -72,7 +74,7 @@ sports:
       - id: football-2482154
         competition: "Italian Serie A"
         state: live
-        stateLabel: "75'"
+        stateLabel: "90'"
         teams:
           - name: "Atalanta"
             score: "0"
