@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 02:32 IST"
+updated: "01 Sep 2026, 02:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,60 +26,62 @@ sports:
       - id: football-2482543
         competition: "Croatian First Football League"
         state: live
-        stateLabel: "76'"
+        stateLabel: "Live"
         teams:
           - name: "HNK Gorica"
             score: "0"
           - name: "Rijeka"
             score: "0"
+      - id: football-2506189
+        competition: "Spanish La Liga"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Barcelona"
+            score: "4"
+            active: true
+          - name: "Rayo Vallecano"
+            score: "2"
+      - id: football-2505737
+        competition: "Spanish La Liga 2"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Celta Fortuna"
+            score: "1"
+          - name: "Castellón"
+            score: "2"
+            active: true
+      - id: football-2533263
+        competition: "Albanian Superliga"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Skënderbeu Korçë"
+            score: "0"
+          - name: "Dinamo City"
+            score: "1"
+            active: true
+      - id: football-2398050
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Independiente Rivadavia"
+            score: "3"
+            active: true
+          - name: "Racing Club"
+            score: "1"
       - id: football-2494017
         competition: "English Premier League"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Aston Villa"
             score: "0"
           - name: "Arsenal"
             score: "1"
             active: true
-      - id: football-2419721
-        competition: "Icelandic Úrvalsdeild karla"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Breiðablik"
-            score: "0"
-          - name: "Stjarnan"
-            score: "2"
-            active: true
-      - id: football-2556811
-        competition: "Italian Serie C Girone A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Desenzano"
-            score: "0"
-          - name: "Trento"
-            score: "0"
-      - id: football-2556814
-        competition: "Italian Serie C Girone A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Treviso"
-            score: "0"
-          - name: "Lecco"
-            score: "0"
-      - id: football-2513961
-        competition: "Portuguese Primeira Liga"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Benfica"
-            score: "2"
-            active: true
-          - name: "Estoril Praia"
-            score: "1"
 
   - name: Cricket
     matches:
