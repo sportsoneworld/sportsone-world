@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 19:32 IST"
+updated: "31 Aug 2026, 19:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523512
-        competition: "Armenian Premier League"
+      - id: football-2533266
+        competition: "Albanian Superliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "16'"
         teams:
-          - name: "Sardarapat"
-            score: "3"
-            active: true
-          - name: "Syunik"
-            score: "1"
+          - name: "Vora"
+            score: "0"
+          - name: "Egnatia"
+            score: "0"
       - id: football-2546636
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Araz-Naxçıvan"
             score: "0"
@@ -45,38 +44,39 @@ sports:
       - id: football-2561090
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "18'"
         teams:
           - name: "Asyut Petroleum"
             score: "0"
           - name: "National Bank of Egypt"
             score: "0"
-      - id: football-2542621
+      - id: football-2542622
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "11'"
         teams:
-          - name: "Wingate and Finchley"
+          - name: "Stanway Rovers"
             score: "0"
-          - name: "Enfield Town"
+          - name: "Aveley"
             score: "0"
-      - id: football-2528209
-        competition: "English National League"
+      - id: football-2542618
+        competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "13'"
         teams:
-          - name: "Forest Green Rovers"
+          - name: "Cheshunt"
             score: "0"
-          - name: "Altrincham"
-            score: "0"
-      - id: football-2528218
-        competition: "English National League"
+          - name: "St Albans City"
+            score: "1"
+            active: true
+      - id: football-2542613
+        competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "13'"
         teams:
-          - name: "Boston United"
+          - name: "Leatherhead"
             score: "0"
-          - name: "Hornchurch"
+          - name: "Dulwich Hamlet"
             score: "0"
 
   - name: Cricket
