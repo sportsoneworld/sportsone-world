@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 20:17 IST"
+updated: "31 Aug 2026, 20:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2546636
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Araz-Naxçıvan"
             score: "0"
@@ -50,36 +50,35 @@ sports:
             score: "0"
           - name: "National Bank of Egypt"
             score: "0"
-      - id: football-2542622
+      - id: football-2542617
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
-          - name: "Stanway Rovers"
-            score: "0"
-          - name: "Aveley"
-            score: "1"
+          - name: "Three Bridges"
+            score: "2"
             active: true
-      - id: football-2542618
+          - name: "Carshalton Athletic"
+            score: "1"
+      - id: football-2542621
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
-          - name: "Cheshunt"
-            score: "0"
-          - name: "St Albans City"
+          - name: "Wingate and Finchley"
             score: "1"
+          - name: "Enfield Town"
+            score: "2"
             active: true
-      - id: football-2542613
+      - id: football-2542612
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
-          - name: "Leatherhead"
+          - name: "Dartford"
             score: "0"
-          - name: "Dulwich Hamlet"
-            score: "1"
-            active: true
+          - name: "Chatham Town"
+            score: "0"
 
   - name: Cricket
     matches:
