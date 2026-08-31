@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 19:17 IST"
+updated: "31 Aug 2026, 19:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2503637
-        competition: "AFC Champions League Two"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Persib Bandung"
-            score: "1"
-            active: true
-          - name: "Manila Digger"
-            score: "0"
       - id: football-2523512
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Sardarapat"
             score: "3"
             active: true
           - name: "Syunik"
-            score: "0"
-      - id: football-2593081
-        competition: "Oman Professional League"
+            score: "1"
+      - id: football-2546636
+        competition: "Azerbaijani Premier League"
         state: live
         stateLabel: "1'"
         teams:
-          - name: "Samail"
+          - name: "Araz-Naxçıvan"
             score: "0"
-          - name: "Saham"
+          - name: "Sabah Baku"
             score: "0"
-      - id: football-2593080
-        competition: "Oman Professional League"
+      - id: football-2561090
+        competition: "Egyptian Premier League"
         state: live
-        stateLabel: "8'"
+        stateLabel: "2'"
         teams:
-          - name: "Oman Club"
+          - name: "Asyut Petroleum"
             score: "0"
-          - name: "Dhofar"
+          - name: "National Bank of Egypt"
             score: "0"
-      - id: football-2513719
-        competition: "Welsh Premier League"
+      - id: football-2542621
+        competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "13'"
+        stateLabel: "1'"
         teams:
-          - name: "Flint Town United"
+          - name: "Wingate and Finchley"
             score: "0"
-          - name: "Connah's Quay Nomads"
+          - name: "Enfield Town"
             score: "0"
-      - id: football-2513717
-        competition: "Welsh Premier League"
+      - id: football-2528209
+        competition: "English National League"
         state: live
-        stateLabel: "14'"
+        stateLabel: "1'"
         teams:
-          - name: "Airbus UK Broughton"
+          - name: "Forest Green Rovers"
             score: "0"
-          - name: "Holywell Town"
+          - name: "Altrincham"
+            score: "0"
+      - id: football-2528218
+        competition: "English National League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Boston United"
+            score: "0"
+          - name: "Hornchurch"
             score: "0"
 
   - name: Cricket
