@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 10:02 IST"
+updated: "31 Aug 2026, 10:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2423392
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "San Jose Earthquakes II"
-            score: "3"
-            active: true
-          - name: "Los Angeles FC II"
-            score: "2"
       - id: football-2398050
         competition: "Argentinian Primera Division"
         state: completed
@@ -43,16 +33,16 @@ sports:
             active: true
           - name: "Racing Club"
             score: "1"
-      - id: football-2423393
+      - id: football-2423392
         competition: "MLS Next Pro"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Real Monarchs"
+          - name: "San Jose Earthquakes II"
             score: "3"
             active: true
-          - name: "Tacoma Defiance"
-            score: "0"
+          - name: "Los Angeles FC II"
+            score: "2"
       - id: football-2487505
         competition: "Mexican Primera League"
         state: completed
@@ -82,6 +72,16 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Portland Hearts of Pine"
+            score: "–"
+      - id: football-2397626
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "20:00"
+        teams:
+          - name: "Corpus Christi FC"
+            score: "–"
+            detail: "20:00"
+          - name: "South Georgia Tormenta"
             score: "–"
 
   - name: Cricket
