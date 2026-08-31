@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 05:32 IST"
+updated: "31 Aug 2026, 05:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,42 +36,31 @@ sports:
       - id: football-2419901
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "49'"
         teams:
           - name: "Seattle Reign"
             score: "0"
           - name: "Houston Dash"
             score: "0"
-      - id: football-2398049
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Independiente"
-            score: "0"
-          - name: "Gimnasia y Esgrima de Mendoza"
-            score: "3"
-            active: true
       - id: football-2398433
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "Bahia"
             score: "3"
             active: true
           - name: "Internacional"
             score: "2"
-      - id: football-2427402
-        competition: "Canadian Premier League"
+      - id: football-2413072
+        competition: "Chile Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "15'"
         teams:
-          - name: "Pacific"
-            score: "4"
-            active: true
-          - name: "HFX Wanderers"
-            score: "3"
+          - name: "Coquimbo Unido"
+            score: "0"
+          - name: "Huachipato"
+            score: "0"
       - id: football-2481156
         competition: "Colombia Categoría Primera A"
         state: live
@@ -80,6 +69,15 @@ sports:
           - name: "Millonarios"
             score: "0"
           - name: "Internacional de Bogotá"
+            score: "0"
+      - id: football-2557482
+        competition: "Costa-Rica Liga FPD"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "Deportivo Saprissa"
+            score: "0"
+          - name: "Escorpiones de Belén"
             score: "0"
 
   - name: Cricket
