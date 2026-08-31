@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 06:02 IST"
+updated: "31 Aug 2026, 06:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2407037
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "59'"
+        stateLabel: "73'"
         teams:
           - name: "St. Louis City SC"
-            score: "2"
+            score: "3"
             active: true
           - name: "FC Dallas"
             score: "1"
       - id: football-2419901
         competition: "American NWSL"
         state: live
-        stateLabel: "64'"
+        stateLabel: "79'"
         teams:
           - name: "Seattle Reign"
             score: "1"
@@ -46,7 +46,7 @@ sports:
       - id: football-2398050
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Independiente Rivadavia"
             score: "0"
@@ -55,7 +55,7 @@ sports:
       - id: football-2413072
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "30'"
+        stateLabel: "44'"
         teams:
           - name: "Coquimbo Unido"
             score: "0"
@@ -64,7 +64,7 @@ sports:
       - id: football-2481156
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "59'"
+        stateLabel: "73'"
         teams:
           - name: "Millonarios"
             score: "0"
@@ -73,10 +73,11 @@ sports:
       - id: football-2557482
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Deportivo Saprissa"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Escorpiones de Belén"
             score: "0"
 
