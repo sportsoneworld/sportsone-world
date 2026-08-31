@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 03:17 IST"
+updated: "01 Sep 2026, 03:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,23 +23,23 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2398047
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Estudiantes de La Plata"
+            score: "0"
+          - name: "Newell's Old Boys"
+            score: "0"
       - id: football-2578072
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "Encarnación"
             score: "0"
           - name: "Benjamín Aceval"
-            score: "0"
-      - id: football-2533263
-        competition: "Albanian Superliga"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Skënderbeu Korçë"
-            score: "0"
-          - name: "Dinamo City"
             score: "1"
             active: true
       - id: football-2398050
@@ -71,15 +71,15 @@ sports:
           - name: "Arsenal"
             score: "1"
             active: true
-      - id: football-2488734
-        competition: "French Ligue 2"
+      - id: football-2419721
+        competition: "Icelandic Úrvalsdeild karla"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Dijon"
+          - name: "Breiðablik"
+            score: "0"
+          - name: "Stjarnan"
             score: "2"
-          - name: "Saint-Étienne"
-            score: "3"
             active: true
 
   - name: Cricket
