@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 03:32 IST"
+updated: "01 Sep 2026, 03:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,59 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2406515
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Club Comunicaciones"
+            score: "0"
+          - name: "Deportivo Merlo"
+            score: "0"
+      - id: football-2405039
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Los Andes"
+            score: "0"
+          - name: "Acassuso"
+            score: "0"
+      - id: football-2398045
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Defensa y Justicia"
+            score: "0"
+          - name: "Platense"
+            score: "0"
       - id: football-2398047
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Estudiantes de La Plata"
             score: "0"
           - name: "Newell's Old Boys"
             score: "0"
+      - id: football-2413077
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Unión La Calera"
+            score: "0"
+          - name: "Deportes La Serena"
+            score: "0"
       - id: football-2578072
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Encarnación"
             score: "0"
           - name: "Benjamín Aceval"
-            score: "1"
-            active: true
-      - id: football-2398050
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Independiente Rivadavia"
-            score: "3"
-            active: true
-          - name: "Racing Club"
-            score: "1"
-      - id: football-2482543
-        competition: "Croatian First Football League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "HNK Gorica"
-            score: "0"
-          - name: "Rijeka"
-            score: "0"
-      - id: football-2494017
-        competition: "English Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Aston Villa"
-            score: "0"
-          - name: "Arsenal"
-            score: "1"
-            active: true
-      - id: football-2419721
-        competition: "Icelandic Úrvalsdeild karla"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Breiðablik"
-            score: "0"
-          - name: "Stjarnan"
             score: "2"
             active: true
 
