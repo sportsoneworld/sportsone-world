@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 08:32 IST"
+updated: "31 Aug 2026, 08:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,27 +26,17 @@ sports:
       - id: football-2481158
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "84'"
+        stateLabel: "90'"
         teams:
           - name: "Deportivo Cali"
             score: "0"
           - name: "Atlético Bucaramanga"
             score: "1"
             active: true
-      - id: football-2497243
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Xelajú"
-            score: "4"
-            active: true
-          - name: "Mixco"
-            score: "1"
       - id: football-2423392
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "27'"
+        stateLabel: "41'"
         teams:
           - name: "San Jose Earthquakes II"
             score: "2"
@@ -56,17 +46,17 @@ sports:
       - id: football-2423393
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "71'"
+        stateLabel: "85'"
         teams:
           - name: "Real Monarchs"
-            score: "1"
+            score: "2"
             active: true
           - name: "Tacoma Defiance"
             score: "0"
       - id: football-2487505
         competition: "Mexican Primera League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Monterrey"
             score: "0"
@@ -82,6 +72,16 @@ sports:
             score: "3"
             active: true
           - name: "Racing Club"
+            score: "1"
+      - id: football-2497243
+        competition: "Guatemala Liga Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Xelajú"
+            score: "4"
+            active: true
+          - name: "Mixco"
             score: "1"
 
   - name: Cricket
