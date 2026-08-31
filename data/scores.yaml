@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 20:47 IST"
+updated: "31 Aug 2026, 21:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,16 @@ sports:
       - id: football-2533266
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "55'"
+        stateLabel: "71'"
         teams:
           - name: "Vora"
-            score: "0"
+            score: "1"
           - name: "Egnatia"
-            score: "0"
+            score: "1"
       - id: football-2546636
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "56'"
+        stateLabel: "72'"
         teams:
           - name: "Araz-Naxçıvan"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2561090
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "53'"
+        stateLabel: "69'"
         teams:
           - name: "Asyut Petroleum"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2542622
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "50'"
+        stateLabel: "66'"
         teams:
           - name: "Stanway Rovers"
             score: "0"
@@ -64,20 +64,19 @@ sports:
       - id: football-2542618
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "52'"
+        stateLabel: "68'"
         teams:
           - name: "Cheshunt"
-            score: "0"
+            score: "1"
           - name: "St Albans City"
             score: "1"
-            active: true
       - id: football-2542616
         competition: "English Isthmian League Premier Division"
         state: live
-        stateLabel: "52'"
+        stateLabel: "68'"
         teams:
           - name: "Ramsgate"
-            score: "2"
+            score: "3"
             active: true
           - name: "Whyteleafe"
             score: "0"
