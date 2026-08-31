@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 18:47 IST"
+updated: "31 Aug 2026, 19:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2503637
         competition: "AFC Champions League Two"
         state: live
-        stateLabel: "59'"
+        stateLabel: "74'"
         teams:
           - name: "Persib Bandung"
             score: "0"
@@ -35,11 +35,21 @@ sports:
       - id: football-2523512
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "51'"
+        stateLabel: "66'"
         teams:
           - name: "Sardarapat"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Syunik"
+            score: "0"
+      - id: football-2513713
+        competition: "Welsh Premier League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Ammanford"
+            score: "0"
+          - name: "Cardiff Metropolitan University"
             score: "0"
       - id: football-2398050
         competition: "Argentinian Primera Division"
@@ -70,16 +80,6 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Portland Hearts of Pine"
-            score: "–"
-      - id: football-2397626
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "20:00"
-        teams:
-          - name: "Corpus Christi FC"
-            score: "–"
-            detail: "20:00"
-          - name: "South Georgia Tormenta"
             score: "–"
 
   - name: Cricket
