@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "31 Aug 2026, 18:17 IST"
+updated: "31 Aug 2026, 18:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2523512
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Sardarapat"
             score: "0"
