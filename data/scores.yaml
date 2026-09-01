@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 16:34 IST"
+updated: "01 Sep 2026, 16:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,23 +23,14 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598423
-        competition: "FA Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Perak"
-            score: "0"
-          - name: "Kuala Lumpur City"
-            score: "1"
-            active: true
       - id: football-2576946
         competition: "UEFA Womens Europa Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "23'"
         teams:
           - name: "Kharkiv Women"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Mitrovica Women"
             score: "0"
       - id: football-2405036
@@ -70,6 +61,16 @@ sports:
             score: "0"
           - name: "Barracas Central"
             score: "0"
+      - id: football-2598423
+        competition: "FA Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Perak"
+            score: "0"
+          - name: "Kuala Lumpur City"
+            score: "1"
+            active: true
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
