@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 05:36 IST"
+updated: "01 Sep 2026, 06:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419902
+        competition: "American NWSL"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Boston Legacy"
+            score: "1"
+          - name: "Angel City"
+            score: "3"
+            active: true
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "1'"
+        stateLabel: "29'"
         teams:
           - name: "Gimnasia y Esgrima de Jujuy"
             score: "0"
           - name: "Agropecuario"
             score: "0"
-      - id: football-2405039
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Los Andes"
-            score: "0"
-          - name: "Acassuso"
-            score: "0"
-      - id: football-2398045
+      - id: football-2398054
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "17'"
         teams:
-          - name: "Defensa y Justicia"
-            score: "1"
-            active: true
-          - name: "Platense"
+          - name: "Tigre"
+            score: "0"
+          - name: "Barracas Central"
+            score: "0"
+      - id: football-2398051
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "19'"
+        teams:
+          - name: "Instituto"
+            score: "0"
+          - name: "San Lorenzo"
             score: "0"
       - id: football-2398438
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "71'"
         teams:
           - name: "Remo"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Coritiba"
-            score: "0"
+            score: "1"
       - id: football-2431410
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "71'"
+        stateLabel: "Live"
         teams:
           - name: "Fortaleza"
             score: "1"
           - name: "Operário Ferroviário"
             score: "1"
-      - id: football-2421973
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "5'"
-        teams:
-          - name: "Cobreloa"
-            score: "0"
-          - name: "San Marcos de Arica"
-            score: "0"
 
   - name: Cricket
     matches:
