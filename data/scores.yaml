@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 22:34 IST"
+updated: "01 Sep 2026, 22:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2514299
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Horn"
+            score: "0"
+          - name: "Parndorf"
+            score: "0"
+      - id: football-2560653
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "Deutschlandsberger"
+            score: "1"
+            active: true
+          - name: "Gleisdorf 09"
+            score: "0"
+      - id: football-2560654
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Lafnitz"
+            score: "0"
+          - name: "Kalsdorf"
+            score: "1"
+            active: true
       - id: football-2525292
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Sloga Doboj"
             score: "0"
@@ -35,7 +64,7 @@ sports:
       - id: football-2511470
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Hebar Pazardzhik"
             score: "0"
@@ -44,40 +73,13 @@ sports:
       - id: football-2598608
         competition: "Coppa Italia"
         state: live
-        stateLabel: "Live"
+        stateLabel: "63'"
         teams:
           - name: "Parma"
             score: "0"
           - name: "Cremonese"
             score: "2"
             active: true
-      - id: football-2522898
-        competition: "Denmark A-Liga"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Nordsjælland Women"
-            score: "0"
-          - name: "KoldingQ"
-            score: "0"
-      - id: football-2549473
-        competition: "German Regionalliga SudWest"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Hessen Kassel"
-            score: "0"
-          - name: "Eintracht Trier"
-            score: "0"
-      - id: football-2593101
-        competition: "Greek Football Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Volos"
-            score: "2"
-          - name: "Kalamata"
-            score: "2"
 
   - name: Cricket
     matches:
