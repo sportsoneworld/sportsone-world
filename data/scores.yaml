@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 07:33 IST"
+updated: "01 Sep 2026, 07:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2398054
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "00:15"
+        teams:
+          - name: "Tigre"
+            score: "0"
+          - name: "Barracas Central"
+            score: "0"
+      - id: football-2413075
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "76'"
+        teams:
+          - name: "Universidad Católica"
+            score: "2"
+          - name: "O'Higgins"
+            score: "2"
+      - id: football-2481163
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Deportes Tolima"
+            score: "1"
+            active: true
+          - name: "Cúcuta Deportivo"
+            score: "0"
+      - id: football-2548501
+        competition: "Mexican Liga Femenil"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Santos Laguna Femenil"
+            score: "1"
+            active: true
+          - name: "Atlante Femenil"
+            score: "0"
+      - id: football-2548194
+        competition: "Panama Liga Panamena de Futbol"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "UMECIT"
+            score: "1"
+            active: true
+          - name: "Veraguas United"
+            score: "0"
       - id: football-2419902
         competition: "American NWSL"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Boston Legacy"
             score: "2"
           - name: "Angel City"
             score: "5"
             active: true
-      - id: football-2405036
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Gimnasia y Esgrima de Jujuy"
-            score: "1"
-          - name: "Agropecuario"
-            score: "1"
-      - id: football-2398054
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Tigre"
-            score: "0"
-          - name: "Barracas Central"
-            score: "0"
-      - id: football-2398051
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Instituto"
-            score: "1"
-            active: true
-          - name: "San Lorenzo"
-            score: "0"
-      - id: football-2421973
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cobreloa"
-            score: "2"
-            active: true
-          - name: "San Marcos de Arica"
-            score: "0"
-      - id: football-2413075
-        competition: "Chile Primera Division"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "Universidad Católica"
-            score: "2"
-            active: true
-          - name: "O'Higgins"
-            score: "1"
 
   - name: Cricket
     matches:
