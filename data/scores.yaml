@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 22:17 IST"
+updated: "01 Sep 2026, 22:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,11 +26,20 @@ sports:
       - id: football-2525292
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "13'"
+        stateLabel: "30'"
         teams:
           - name: "Sloga Doboj"
             score: "0"
           - name: "Čelik Zenica"
+            score: "0"
+      - id: football-2511470
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Hebar Pazardzhik"
+            score: "0"
+          - name: "Fratria Varna"
             score: "0"
       - id: football-2598608
         competition: "Coppa Italia"
@@ -42,45 +51,33 @@ sports:
           - name: "Cremonese"
             score: "2"
             active: true
+      - id: football-2522898
+        competition: "Denmark A-Liga"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Nordsjælland Women"
+            score: "0"
+          - name: "KoldingQ"
+            score: "0"
+      - id: football-2549473
+        competition: "German Regionalliga SudWest"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Hessen Kassel"
+            score: "0"
+          - name: "Eintracht Trier"
+            score: "0"
       - id: football-2593101
         competition: "Greek Football Cup"
         state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Volos"
-            score: "1"
-          - name: "Kalamata"
-            score: "2"
-            active: true
-      - id: football-2580659
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Esteghlal Khuzestan"
-            score: "0"
-          - name: "Chadormalou Ardakan"
-            score: "1"
-            active: true
-      - id: football-2580658
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Gol Gohar Sirjan"
-            score: "0"
-          - name: "Aluminium Arak"
-            score: "2"
-            active: true
-      - id: football-2580660
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
         stateLabel: "Live"
         teams:
-          - name: "Shams Azar Qazvin"
-            score: "0"
-          - name: "Tractor"
-            score: "0"
+          - name: "Volos"
+            score: "2"
+          - name: "Kalamata"
+            score: "2"
 
   - name: Cricket
     matches:
