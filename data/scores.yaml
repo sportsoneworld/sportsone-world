@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 18:26 IST"
+updated: "01 Sep 2026, 18:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,10 +32,19 @@ sports:
             score: "0"
           - name: "Terengganu"
             score: "0"
+      - id: football-2598458
+        competition: "FA Cup"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Kelantan Red Warrior"
+            score: "0"
+          - name: "Kuching City"
+            score: "0"
       - id: football-2545577
         competition: "FA Cup"
         state: live
-        stateLabel: "61'"
+        stateLabel: "72'"
         teams:
           - name: "Dalian Yingbo"
             score: "1"
@@ -45,7 +54,7 @@ sports:
       - id: football-2545576
         competition: "FA Cup"
         state: live
-        stateLabel: "62'"
+        stateLabel: "73'"
         teams:
           - name: "Shandong Taishan"
             score: "0"
@@ -55,7 +64,7 @@ sports:
       - id: football-2545915
         competition: "FA Cup"
         state: live
-        stateLabel: "63'"
+        stateLabel: "74'"
         teams:
           - name: "Beijing Guoan"
             score: "1"
@@ -64,21 +73,13 @@ sports:
       - id: football-2561281
         competition: "Polish Cup"
         state: live
-        stateLabel: "24'"
+        stateLabel: "36'"
         teams:
           - name: "Korona Kielce II"
             score: "0"
           - name: "Radomiak Radom"
-            score: "0"
-      - id: football-2405036
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Gimnasia y Esgrima de Jujuy"
             score: "1"
-          - name: "Agropecuario"
-            score: "1"
+            active: true
 
   - name: Cricket
     matches:
