@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 01:17 IST"
+updated: "02 Sep 2026, 01:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,26 @@ sports:
       - id: football-2525288
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "54'"
         teams:
           - name: "Zrinjski Mostar"
-            score: "0"
+            score: "2"
+            active: true
           - name: "BSK Banja Luka"
+            score: "0"
+      - id: football-2481402
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Envigado"
+            score: "0"
+          - name: "Unión Magdalena"
             score: "0"
       - id: football-2594523
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Colón FC"
             score: "3"
@@ -49,37 +59,27 @@ sports:
           - name: "Torino"
             score: "0"
           - name: "Monza"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2483318
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "HEBC Hamburg"
             score: "0"
           - name: "Borussia Dortmund"
-            score: "4"
+            score: "5"
             active: true
-      - id: football-2578613
+      - id: football-2578602
         competition: "Dutch KNVB Cup"
         state: live
-        stateLabel: "82'"
+        stateLabel: "96'"
         teams:
-          - name: "Longa '30"
-            score: "0"
-          - name: "Koninklijke HFC"
-            score: "4"
-            active: true
-      - id: football-2578607
-        competition: "Dutch KNVB Cup"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Be Quick 1887"
-            score: "0"
-          - name: "AFC"
+          - name: "ADO '20"
             score: "1"
-            active: true
+          - name: "Excelsior Maassluis"
+            score: "1"
 
   - name: Cricket
     matches:
