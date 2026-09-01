@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 08:18 IST"
+updated: "01 Sep 2026, 08:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,32 +35,23 @@ sports:
       - id: football-2481163
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Tolima"
             score: "2"
             active: true
           - name: "Cúcuta Deportivo"
-            score: "0"
+            score: "1"
       - id: football-2548501
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Santos Laguna Femenil"
             score: "1"
             active: true
           - name: "Atlante Femenil"
             score: "0"
-      - id: football-2548194
-        competition: "Panama Liga Panamena de Futbol"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "UMECIT"
-            score: "1"
-          - name: "Veraguas United"
-            score: "1"
       - id: football-2419902
         competition: "American NWSL"
         state: completed
@@ -80,6 +71,16 @@ sports:
             score: "1"
           - name: "Agropecuario"
             score: "1"
+      - id: football-2398051
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Instituto"
+            score: "1"
+            active: true
+          - name: "San Lorenzo"
+            score: "0"
 
   - name: Cricket
     matches:
