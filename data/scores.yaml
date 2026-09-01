@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 09:20 IST"
+updated: "01 Sep 2026, 09:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -71,15 +71,16 @@ sports:
             active: true
           - name: "Atlante Femenil"
             score: "0"
-      - id: football-2548194
-        competition: "Panama Liga Panamena de Futbol"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2397302
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "UMECIT"
-            score: "1"
-          - name: "Veraguas United"
-            score: "1"
+          - name: "Charleston Battery"
+            score: "–"
+            detail: "23:00"
+          - name: "Hartford Athletic"
+            score: "–"
 
   - name: Cricket
     matches:
