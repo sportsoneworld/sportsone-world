@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 06:51 IST"
+updated: "01 Sep 2026, 07:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2419902
         competition: "American NWSL"
         state: live
-        stateLabel: "56'"
+        stateLabel: "69'"
         teams:
           - name: "Boston Legacy"
             score: "1"
           - name: "Angel City"
-            score: "3"
+            score: "5"
             active: true
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "54'"
+        stateLabel: "67'"
         teams:
           - name: "Gimnasia y Esgrima de Jujuy"
             score: "0"
@@ -45,16 +45,17 @@ sports:
       - id: football-2398051
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "47'"
+        stateLabel: "60'"
         teams:
           - name: "Instituto"
-            score: "0"
+            score: "1"
+            active: true
           - name: "San Lorenzo"
             score: "0"
       - id: football-2398054
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "47'"
+        stateLabel: "60'"
         teams:
           - name: "Tigre"
             score: "0"
@@ -63,7 +64,7 @@ sports:
       - id: football-2421973
         competition: "Chile Primera B"
         state: live
-        stateLabel: "61'"
+        stateLabel: "74'"
         teams:
           - name: "Cobreloa"
             score: "1"
@@ -73,10 +74,11 @@ sports:
       - id: football-2413075
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Universidad Católica"
-            score: "1"
+            score: "2"
+            active: true
           - name: "O'Higgins"
             score: "1"
 
