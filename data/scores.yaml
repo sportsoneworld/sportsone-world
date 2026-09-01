@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 04:04 IST"
+updated: "02 Sep 2026, 04:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2431412
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "16'"
         teams:
           - name: "Londrina"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2598612
         competition: "Canadian Championship"
         state: live
-        stateLabel: "22'"
+        stateLabel: "35'"
         teams:
           - name: "Supra du Québec"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2545864
         competition: "Chile Segunda División"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Colchagua"
             score: "0"
@@ -53,26 +53,26 @@ sports:
       - id: football-2481438
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "16'"
         teams:
           - name: "Barranquilla"
             score: "0"
           - name: "Boca Juniors de Cali"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2594524
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "75'"
+        stateLabel: "88'"
         teams:
           - name: "Montevideo Wanderers"
-            score: "0"
+            score: "1"
           - name: "Cerro"
             score: "1"
-            active: true
       - id: football-2429446
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "54'"
         teams:
           - name: "Delfín"
             score: "1"
