@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 06:34 IST"
+updated: "01 Sep 2026, 06:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2419902
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Boston Legacy"
             score: "1"
@@ -36,49 +36,49 @@ sports:
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "54'"
         teams:
           - name: "Gimnasia y Esgrima de Jujuy"
             score: "0"
           - name: "Agropecuario"
             score: "0"
-      - id: football-2398054
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Tigre"
-            score: "0"
-          - name: "Barracas Central"
-            score: "0"
       - id: football-2398051
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Instituto"
             score: "0"
           - name: "San Lorenzo"
             score: "0"
-      - id: football-2398438
-        competition: "Brazilian Serie A"
+      - id: football-2398054
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
-          - name: "Remo"
-            score: "2"
-          - name: "Coritiba"
-            score: "3"
-            active: true
+          - name: "Tigre"
+            score: "0"
+          - name: "Barracas Central"
+            score: "0"
       - id: football-2421973
         competition: "Chile Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "61'"
         teams:
           - name: "Cobreloa"
-            score: "0"
+            score: "1"
+            active: true
           - name: "San Marcos de Arica"
             score: "0"
+      - id: football-2413075
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "36'"
+        teams:
+          - name: "Universidad Católica"
+            score: "1"
+          - name: "O'Higgins"
+            score: "1"
 
   - name: Cricket
     matches:
