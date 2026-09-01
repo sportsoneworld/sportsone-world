@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 03:33 IST"
+updated: "02 Sep 2026, 03:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2598612
+        competition: "Canadian Championship"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Supra du Québec"
+            score: "0"
+          - name: "Forge"
+            score: "0"
       - id: football-2545864
         competition: "Chile Segunda División"
         state: live
-        stateLabel: "2'"
+        stateLabel: "19'"
         teams:
           - name: "Colchagua"
             score: "0"
@@ -35,7 +44,7 @@ sports:
       - id: football-2594524
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "Montevideo Wanderers"
             score: "0"
@@ -45,21 +54,12 @@ sports:
       - id: football-2429446
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "33'"
-        teams:
-          - name: "Delfín"
-            score: "0"
-          - name: "Técnico Universitario"
-            score: "0"
-      - id: football-2481672
-        competition: "Peruvian Primera Division"
-        state: live
         stateLabel: "Live"
         teams:
-          - name: "Atlético Grau"
+          - name: "Delfín"
             score: "1"
             active: true
-          - name: "Melgar"
+          - name: "Técnico Universitario"
             score: "0"
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
