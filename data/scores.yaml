@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 19:19 IST"
+updated: "01 Sep 2026, 19:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -41,45 +41,43 @@ sports:
             score: "0"
           - name: "Kuching City"
             score: "0"
-      - id: football-2561276
+      - id: football-2594450
+        competition: "Kyrgyz Premier League"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Neftchi Kochkor-Ata"
+            score: "0"
+          - name: "Alga Bishkek"
+            score: "0"
+      - id: football-2594451
+        competition: "Kyrgyz Premier League"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "OshSU Aldier"
+            score: "0"
+          - name: "Muras United"
+            score: "0"
+      - id: football-2561265
         competition: "Polish Cup"
         state: live
-        stateLabel: "19'"
+        stateLabel: "2'"
         teams:
-          - name: "Podhale Nowy Targ"
+          - name: "Chemik Bydgoszcz"
             score: "0"
-          - name: "Pogoń Grodzisk Mazowiecki"
+          - name: "Piast Gliwice"
             score: "1"
             active: true
-      - id: football-2561281
+      - id: football-2561282
         competition: "Polish Cup"
         state: live
-        stateLabel: "59'"
+        stateLabel: "3'"
         teams:
-          - name: "Korona Kielce II"
+          - name: "Kluczevia Stargard"
             score: "0"
-          - name: "Radomiak Radom"
-            score: "1"
-            active: true
-      - id: football-2501825
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Akron Tolyatti"
+          - name: "Pogoń Siedlce"
             score: "0"
-          - name: "Lokomotiv Moscow"
-            score: "0"
-      - id: football-2528857
-        competition: "Turkish 1 Lig"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Bandırmaspor"
-            score: "0"
-          - name: "Antalyaspor"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
