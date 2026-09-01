@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 02:05 IST"
+updated: "02 Sep 2026, 02:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2525288
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Zrinjski Mostar"
-            score: "2"
-            active: true
-          - name: "BSK Banja Luka"
-            score: "1"
       - id: football-2481402
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Envigado"
             score: "0"
@@ -45,42 +35,51 @@ sports:
       - id: football-2577931
         competition: "Coppa Italia"
         state: live
-        stateLabel: "73'"
+        stateLabel: "87'"
         teams:
           - name: "Torino"
             score: "0"
           - name: "Monza"
             score: "1"
             active: true
-      - id: football-2483318
-        competition: "DFB-Pokal"
+      - id: football-2500187
+        competition: "English League 2"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "HEBC Hamburg"
-            score: "0"
-          - name: "Borussia Dortmund"
-            score: "5"
+          - name: "Accrington Stanley"
+            score: "2"
+          - name: "Grimsby Town"
+            score: "2"
+      - id: football-2501286
+        competition: "English League Championship"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Birmingham City"
+            score: "1"
+          - name: "Southampton"
+            score: "1"
+      - id: football-2501289
+        competition: "English League Championship"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Stoke City"
+            score: "1"
             active: true
-      - id: football-2578602
-        competition: "Dutch KNVB Cup"
+          - name: "Norwich City"
+            score: "0"
+      - id: football-2578521
+        competition: "Italy Coppa Italia Serie C"
         state: live
-        stateLabel: "118'"
+        stateLabel: "89'"
         teams:
-          - name: "ADO '20"
-            score: "1"
-          - name: "Excelsior Maassluis"
-            score: "1"
-      - id: football-2500734
-        competition: "English League 1"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Leicester City"
+          - name: "Ravenna"
             score: "2"
             active: true
-          - name: "Plymouth Argyle"
-            score: "0"
+          - name: "Forlì"
+            score: "1"
 
   - name: Cricket
     matches:
