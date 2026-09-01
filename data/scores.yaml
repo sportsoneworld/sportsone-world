@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 09:34 IST"
+updated: "01 Sep 2026, 09:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -51,26 +51,6 @@ sports:
             score: "0"
           - name: "Barracas Central"
             score: "0"
-      - id: football-2481163
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Deportes Tolima"
-            score: "2"
-            active: true
-          - name: "Cúcuta Deportivo"
-            score: "1"
-      - id: football-2548501
-        competition: "Mexican Liga Femenil"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Santos Laguna Femenil"
-            score: "1"
-            active: true
-          - name: "Atlante Femenil"
-            score: "0"
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -80,6 +60,26 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Hartford Athletic"
+            score: "–"
+      - id: football-2397625
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Charlotte Independence"
+            score: "–"
+            detail: "23:30"
+          - name: "Portland Hearts of Pine"
+            score: "–"
+      - id: football-2397626
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "20:00"
+        teams:
+          - name: "Corpus Christi FC"
+            score: "–"
+            detail: "20:00"
+          - name: "South Georgia Tormenta"
             score: "–"
 
   - name: Cricket
