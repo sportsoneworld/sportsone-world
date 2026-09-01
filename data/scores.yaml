@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 04:49 IST"
+updated: "02 Sep 2026, 05:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,16 +35,17 @@ sports:
       - id: football-2481772
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "12'"
+        stateLabel: "25'"
         teams:
           - name: "Defence Force"
             score: "0"
           - name: "Club Sando"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2598612
         competition: "Canadian Championship"
         state: live
-        stateLabel: "49'"
+        stateLabel: "62'"
         teams:
           - name: "Supra du Québec"
             score: "1"
@@ -54,7 +55,7 @@ sports:
       - id: football-2545864
         competition: "Chile Segunda División"
         state: live
-        stateLabel: "56'"
+        stateLabel: "69'"
         teams:
           - name: "Colchagua"
             score: "0"
@@ -72,7 +73,7 @@ sports:
       - id: football-2594525
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "2'"
+        stateLabel: "15'"
         teams:
           - name: "Montevideo City Torque"
             score: "0"
