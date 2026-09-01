@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 19:06 IST"
+updated: "01 Sep 2026, 19:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2598469
         competition: "FA Cup"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Kelantan Red Warrior"
             score: "0"
@@ -44,16 +44,17 @@ sports:
       - id: football-2561276
         competition: "Polish Cup"
         state: live
-        stateLabel: "5'"
+        stateLabel: "19'"
         teams:
           - name: "Podhale Nowy Targ"
             score: "0"
           - name: "Pogoń Grodzisk Mazowiecki"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2561281
         competition: "Polish Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Korona Kielce II"
             score: "0"
@@ -63,7 +64,7 @@ sports:
       - id: football-2501825
         competition: "Russia Cup"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "Akron Tolyatti"
             score: "0"
@@ -72,7 +73,7 @@ sports:
       - id: football-2528857
         competition: "Turkish 1 Lig"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "Bandırmaspor"
             score: "0"
