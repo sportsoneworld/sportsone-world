@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 20:07 IST"
+updated: "01 Sep 2026, 20:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2578225
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "4'"
+        stateLabel: "20'"
         teams:
           - name: "Primeiro de Agosto"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2561094
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Ghazl El Mahalla"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2561093
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "34'"
+        stateLabel: "45'"
         teams:
           - name: "Tala'ea El Gaish"
             score: "0"
@@ -53,7 +53,7 @@ sports:
       - id: football-2598469
         competition: "FA Cup"
         state: live
-        stateLabel: "78'"
+        stateLabel: "90'"
         teams:
           - name: "Kelantan Red Warrior"
             score: "0"
@@ -62,7 +62,7 @@ sports:
       - id: football-2530968
         competition: "German Regionalliga West"
         state: live
-        stateLabel: "34'"
+        stateLabel: "45'"
         teams:
           - name: "Bochum II"
             score: "0"
@@ -72,7 +72,7 @@ sports:
       - id: football-2594450
         competition: "Kyrgyz Premier League"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "Neftchi Kochkor-Ata"
             score: "2"
