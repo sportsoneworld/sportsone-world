@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 04:33 IST"
+updated: "02 Sep 2026, 04:49 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,25 @@ sports:
       - id: football-2431412
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Londrina"
             score: "0"
           - name: "Juventude"
             score: "0"
+      - id: football-2481772
+        competition: "CONCACAF Caribbean Cup"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Defence Force"
+            score: "0"
+          - name: "Club Sando"
+            score: "0"
       - id: football-2598612
         competition: "Canadian Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "49'"
         teams:
           - name: "Supra du Québec"
             score: "1"
@@ -45,7 +54,7 @@ sports:
       - id: football-2545864
         competition: "Chile Segunda División"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Colchagua"
             score: "0"
@@ -54,31 +63,21 @@ sports:
       - id: football-2481438
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Barranquilla"
             score: "1"
           - name: "Boca Juniors de Cali"
             score: "1"
-      - id: football-2429446
-        competition: "Ecuadorian Serie A"
+      - id: football-2594525
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "71'"
+        stateLabel: "2'"
         teams:
-          - name: "Delfín"
-            score: "1"
-            active: true
-          - name: "Técnico Universitario"
+          - name: "Montevideo City Torque"
             score: "0"
-      - id: football-2405036
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Gimnasia y Esgrima de Jujuy"
-            score: "1"
-          - name: "Agropecuario"
-            score: "1"
+          - name: "Danubio"
+            score: "0"
 
   - name: Cricket
     matches:
