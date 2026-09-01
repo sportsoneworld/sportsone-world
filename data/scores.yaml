@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 08:05 IST"
+updated: "01 Sep 2026, 08:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,20 +32,10 @@ sports:
             score: "0"
           - name: "Barracas Central"
             score: "0"
-      - id: football-2413075
-        competition: "Chile Primera Division"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Universidad Católica"
-            score: "3"
-            active: true
-          - name: "O'Higgins"
-            score: "2"
       - id: football-2481163
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "72'"
+        stateLabel: "85'"
         teams:
           - name: "Deportes Tolima"
             score: "2"
@@ -55,7 +45,7 @@ sports:
       - id: football-2548501
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "69'"
+        stateLabel: "82'"
         teams:
           - name: "Santos Laguna Femenil"
             score: "1"
@@ -65,7 +55,7 @@ sports:
       - id: football-2548194
         competition: "Panama Liga Panamena de Futbol"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "UMECIT"
             score: "1"
@@ -81,6 +71,15 @@ sports:
           - name: "Angel City"
             score: "5"
             active: true
+      - id: football-2405036
+        competition: "Argentinian Primera B Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Gimnasia y Esgrima de Jujuy"
+            score: "1"
+          - name: "Agropecuario"
+            score: "1"
 
   - name: Cricket
     matches:
