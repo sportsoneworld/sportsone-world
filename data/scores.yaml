@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 08:54 IST"
+updated: "01 Sep 2026, 09:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -51,16 +51,6 @@ sports:
             score: "0"
           - name: "Barracas Central"
             score: "0"
-      - id: football-2413075
-        competition: "Chile Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Universidad Católica"
-            score: "3"
-            active: true
-          - name: "O'Higgins"
-            score: "2"
       - id: football-2481163
         competition: "Colombia Categoría Primera A"
         state: completed
@@ -81,6 +71,15 @@ sports:
             active: true
           - name: "Atlante Femenil"
             score: "0"
+      - id: football-2548194
+        competition: "Panama Liga Panamena de Futbol"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "UMECIT"
+            score: "1"
+          - name: "Veraguas United"
+            score: "1"
 
   - name: Cricket
     matches:
