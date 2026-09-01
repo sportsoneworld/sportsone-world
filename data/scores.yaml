@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 00:33 IST"
+updated: "02 Sep 2026, 00:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2499724
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "76'"
+        stateLabel: "Live"
         teams:
           - name: "Wolfsberger AC"
             score: "1"
           - name: "LASK"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2525288
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "12'"
+        stateLabel: "30'"
         teams:
           - name: "Zrinjski Mostar"
             score: "0"
@@ -45,16 +45,17 @@ sports:
       - id: football-2594523
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Colón FC"
             score: "1"
           - name: "Fénix"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2577931
         competition: "Coppa Italia"
         state: live
-        stateLabel: "2'"
+        stateLabel: "20'"
         teams:
           - name: "Torino"
             score: "0"
@@ -63,21 +64,22 @@ sports:
       - id: football-2483318
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "17'"
+        stateLabel: "35'"
         teams:
           - name: "HEBC Hamburg"
             score: "0"
           - name: "Borussia Dortmund"
-            score: "0"
-      - id: football-2578619
+            score: "1"
+            active: true
+      - id: football-2578613
         competition: "Dutch KNVB Cup"
         state: live
-        stateLabel: "46'"
+        stateLabel: "55'"
         teams:
-          - name: "NSVV"
+          - name: "Longa '30"
             score: "0"
-          - name: "Kloetinge"
-            score: "1"
+          - name: "Koninklijke HFC"
+            score: "3"
             active: true
 
   - name: Cricket
