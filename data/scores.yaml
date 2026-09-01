@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 17:35 IST"
+updated: "01 Sep 2026, 17:59 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,34 +23,14 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2545577
+      - id: football-2598434
         competition: "FA Cup"
         state: live
-        stateLabel: "29'"
+        stateLabel: "8'"
         teams:
-          - name: "Dalian Yingbo"
+          - name: "DPMM"
             score: "0"
-          - name: "Shanghai Shenhua"
-            score: "0"
-      - id: football-2545576
-        competition: "FA Cup"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Shandong Taishan"
-            score: "0"
-          - name: "Shanghai Port"
-            score: "2"
-            active: true
-      - id: football-2545915
-        competition: "FA Cup"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Beijing Guoan"
-            score: "1"
-            active: true
-          - name: "Lanzhou Longyuan Athletic"
+          - name: "Terengganu"
             score: "0"
       - id: football-2598433
         competition: "FA Cup"
@@ -61,25 +41,45 @@ sports:
             score: "0"
           - name: "Lanzhou Longyuan Athletic"
             score: "0"
+      - id: football-2545577
+        competition: "FA Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Dalian Yingbo"
+            score: "0"
+          - name: "Shanghai Shenhua"
+            score: "0"
+      - id: football-2545576
+        competition: "FA Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Shandong Taishan"
+            score: "0"
+          - name: "Shanghai Port"
+            score: "2"
+            active: true
+      - id: football-2545915
+        competition: "FA Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Beijing Guoan"
+            score: "1"
+            active: true
+          - name: "Lanzhou Longyuan Athletic"
+            score: "0"
       - id: football-2576946
         competition: "UEFA Womens Europa Cup"
         state: live
-        stateLabel: "47'"
+        stateLabel: "71'"
         teams:
           - name: "Kharkiv Women"
-            score: "2"
+            score: "5"
             active: true
           - name: "Mitrovica Women"
             score: "0"
-      - id: football-2405036
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Gimnasia y Esgrima de Jujuy"
-            score: "1"
-          - name: "Agropecuario"
-            score: "1"
 
   - name: Cricket
     matches:
