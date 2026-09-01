@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 15:21 IST"
+updated: "01 Sep 2026, 15:57 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2598423
         competition: "FA Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Perak"
             score: "0"
