@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 03:17 IST"
+updated: "02 Sep 2026, 03:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481402
-        competition: "Colombian Categoría Primera B"
+      - id: football-2545864
+        competition: "Chile Segunda División"
         state: live
-        stateLabel: "89'"
+        stateLabel: "2'"
         teams:
-          - name: "Envigado"
+          - name: "Colchagua"
             score: "0"
-          - name: "Unión Magdalena"
-            score: "1"
-            active: true
+          - name: "Brujas de Salamanca"
+            score: "0"
       - id: football-2594524
         competition: "Copa AUF Uruguay"
         state: live
@@ -46,7 +45,7 @@ sports:
       - id: football-2429446
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "17'"
+        stateLabel: "33'"
         teams:
           - name: "Delfín"
             score: "0"
@@ -55,7 +54,7 @@ sports:
       - id: football-2481672
         competition: "Peruvian Primera Division"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Atlético Grau"
             score: "1"
