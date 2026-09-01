@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 09:53 IST"
+updated: "01 Sep 2026, 14:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2598423
+        competition: "FA Cup"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Perak"
+            score: "0"
+          - name: "Kuala Lumpur City"
+            score: "0"
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
         state: completed
@@ -70,16 +79,6 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Portland Hearts of Pine"
-            score: "–"
-      - id: football-2397626
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "20:00"
-        teams:
-          - name: "Corpus Christi FC"
-            score: "–"
-            detail: "20:00"
-          - name: "South Georgia Tormenta"
             score: "–"
 
   - name: Cricket
