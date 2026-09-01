@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 00:50 IST"
+updated: "02 Sep 2026, 01:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2499724
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Wolfsberger AC"
-            score: "1"
-          - name: "LASK"
-            score: "3"
-            active: true
       - id: football-2525288
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "42'"
         teams:
           - name: "Zrinjski Mostar"
             score: "0"
@@ -45,17 +35,16 @@ sports:
       - id: football-2594523
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "56'"
+        stateLabel: "68'"
         teams:
           - name: "Colón FC"
-            score: "1"
+            score: "2"
           - name: "Fénix"
             score: "2"
-            active: true
       - id: football-2577931
         competition: "Coppa Italia"
         state: live
-        stateLabel: "20'"
+        stateLabel: "32'"
         teams:
           - name: "Torino"
             score: "0"
@@ -64,23 +53,32 @@ sports:
       - id: football-2483318
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "HEBC Hamburg"
             score: "0"
           - name: "Borussia Dortmund"
-            score: "1"
+            score: "4"
             active: true
       - id: football-2578613
         competition: "Dutch KNVB Cup"
         state: live
-        stateLabel: "55'"
+        stateLabel: "67'"
         teams:
           - name: "Longa '30"
             score: "0"
           - name: "Koninklijke HFC"
-            score: "3"
+            score: "4"
             active: true
+      - id: football-2578607
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Be Quick 1887"
+            score: "0"
+          - name: "AFC"
+            score: "0"
 
   - name: Cricket
     matches:
