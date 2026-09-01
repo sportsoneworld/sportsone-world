@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 20:24 IST"
+updated: "01 Sep 2026, 20:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,20 +26,11 @@ sports:
       - id: football-2578225
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "20'"
+        stateLabel: "30'"
         teams:
           - name: "Primeiro de Agosto"
             score: "0"
           - name: "Interclube"
-            score: "0"
-      - id: football-2561094
-        competition: "Egyptian Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ghazl El Mahalla"
-            score: "0"
-          - name: "ENPPI"
             score: "0"
       - id: football-2561093
         competition: "Egyptian Premier League"
@@ -49,6 +40,15 @@ sports:
           - name: "Tala'ea El Gaish"
             score: "0"
           - name: "ZED"
+            score: "0"
+      - id: football-2561094
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Ghazl El Mahalla"
+            score: "0"
+          - name: "ENPPI"
             score: "0"
       - id: football-2598469
         competition: "FA Cup"
@@ -69,16 +69,15 @@ sports:
           - name: "Köln II"
             score: "2"
             active: true
-      - id: football-2594450
-        competition: "Kyrgyz Premier League"
+      - id: football-2593101
+        competition: "Greek Football Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "1'"
         teams:
-          - name: "Neftchi Kochkor-Ata"
-            score: "2"
-            active: true
-          - name: "Alga Bishkek"
-            score: "1"
+          - name: "Volos"
+            score: "0"
+          - name: "Kalamata"
+            score: "0"
 
   - name: Cricket
     matches:
