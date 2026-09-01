@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 08:34 IST"
+updated: "01 Sep 2026, 08:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,45 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398054
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "00:15"
-        teams:
-          - name: "Tigre"
-            score: "0"
-          - name: "Barracas Central"
-            score: "0"
-      - id: football-2481163
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Deportes Tolima"
-            score: "2"
-            active: true
-          - name: "Cúcuta Deportivo"
-            score: "1"
-      - id: football-2548501
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Santos Laguna Femenil"
-            score: "1"
-            active: true
-          - name: "Atlante Femenil"
-            score: "0"
-      - id: football-2419902
-        competition: "American NWSL"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Boston Legacy"
-            score: "2"
-          - name: "Angel City"
-            score: "5"
-            active: true
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
         state: completed
@@ -80,6 +41,45 @@ sports:
             score: "1"
             active: true
           - name: "San Lorenzo"
+            score: "0"
+      - id: football-2398054
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Tigre"
+            score: "0"
+          - name: "Barracas Central"
+            score: "0"
+      - id: football-2413075
+        competition: "Chile Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Universidad Católica"
+            score: "3"
+            active: true
+          - name: "O'Higgins"
+            score: "2"
+      - id: football-2481163
+        competition: "Colombia Categoría Primera A"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Deportes Tolima"
+            score: "2"
+            active: true
+          - name: "Cúcuta Deportivo"
+            score: "1"
+      - id: football-2548501
+        competition: "Mexican Liga Femenil"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Santos Laguna Femenil"
+            score: "1"
+            active: true
+          - name: "Atlante Femenil"
             score: "0"
 
   - name: Cricket
