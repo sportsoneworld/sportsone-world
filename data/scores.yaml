@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 21:56 IST"
+updated: "01 Sep 2026, 22:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,49 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578225
-        competition: "Angolan Girabola"
+      - id: football-2525292
+        competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "13'"
         teams:
-          - name: "Primeiro de Agosto"
-            score: "2"
-            active: true
-          - name: "Interclube"
-            score: "1"
+          - name: "Sloga Doboj"
+            score: "0"
+          - name: "Čelik Zenica"
+            score: "0"
       - id: football-2598608
         competition: "Coppa Italia"
         state: live
-        stateLabel: "25'"
+        stateLabel: "Live"
         teams:
           - name: "Parma"
             score: "0"
           - name: "Cremonese"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2593101
         competition: "Greek Football Cup"
         state: live
-        stateLabel: "60'"
+        stateLabel: "81'"
         teams:
           - name: "Volos"
-            score: "0"
+            score: "1"
           - name: "Kalamata"
             score: "2"
             active: true
-      - id: football-2580660
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Shams Azar Qazvin"
-            score: "0"
-          - name: "Tractor"
-            score: "0"
       - id: football-2580659
         competition: "Iranian Persian Gulf Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Esteghlal Khuzestan"
             score: "0"
@@ -75,13 +65,22 @@ sports:
       - id: football-2580658
         competition: "Iranian Persian Gulf Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Gol Gohar Sirjan"
             score: "0"
           - name: "Aluminium Arak"
             score: "2"
             active: true
+      - id: football-2580660
+        competition: "Iranian Persian Gulf Pro League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Shams Azar Qazvin"
+            score: "0"
+          - name: "Tractor"
+            score: "0"
 
   - name: Cricket
     matches:
