@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 19:34 IST"
+updated: "01 Sep 2026, 19:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,24 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2561094
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Ghazl El Mahalla"
+            score: "0"
+          - name: "ENPPI"
+            score: "0"
+      - id: football-2561093
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Tala'ea El Gaish"
+            score: "0"
+          - name: "ZED"
+            score: "0"
       - id: football-2598458
         competition: "FA Cup"
         state: live
@@ -35,48 +53,30 @@ sports:
       - id: football-2598469
         competition: "FA Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "65'"
         teams:
           - name: "Kelantan Red Warrior"
             score: "0"
           - name: "Kuching City"
             score: "0"
+      - id: football-2530968
+        competition: "German Regionalliga West"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Bochum II"
+            score: "0"
+          - name: "Köln II"
+            score: "0"
       - id: football-2594450
         competition: "Kyrgyz Premier League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "22'"
         teams:
           - name: "Neftchi Kochkor-Ata"
-            score: "0"
-          - name: "Alga Bishkek"
-            score: "0"
-      - id: football-2594451
-        competition: "Kyrgyz Premier League"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "OshSU Aldier"
-            score: "0"
-          - name: "Muras United"
-            score: "0"
-      - id: football-2561265
-        competition: "Polish Cup"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Chemik Bydgoszcz"
-            score: "0"
-          - name: "Piast Gliwice"
             score: "1"
             active: true
-      - id: football-2561282
-        competition: "Polish Cup"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Kluczevia Stargard"
-            score: "0"
-          - name: "Pogoń Siedlce"
+          - name: "Alga Bishkek"
             score: "0"
 
   - name: Cricket
