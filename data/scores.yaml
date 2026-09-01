@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 05:17 IST"
+updated: "01 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406515
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2405036
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "84'"
+        stateLabel: "1'"
         teams:
-          - name: "Club Comunicaciones"
-            score: "1"
-            active: true
-          - name: "Deportivo Merlo"
+          - name: "Gimnasia y Esgrima de Jujuy"
+            score: "0"
+          - name: "Agropecuario"
             score: "0"
       - id: football-2405039
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Los Andes"
             score: "0"
@@ -45,21 +44,12 @@ sports:
       - id: football-2398045
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Defensa y Justicia"
             score: "1"
             active: true
           - name: "Platense"
-            score: "0"
-      - id: football-2398047
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Estudiantes de La Plata"
-            score: "0"
-          - name: "Newell's Old Boys"
             score: "0"
       - id: football-2398438
         competition: "Brazilian Serie A"
@@ -73,25 +63,24 @@ sports:
       - id: football-2431410
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "52'"
+        stateLabel: "71'"
         teams:
           - name: "Fortaleza"
             score: "1"
           - name: "Operário Ferroviário"
             score: "1"
+      - id: football-2421973
+        competition: "Chile Primera B"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Cobreloa"
+            score: "0"
+          - name: "San Marcos de Arica"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578480
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "21:00"
-        teams:
-          - name: "Trinbago Knight Riders"
-            score: "–"
-            detail: "21:00"
-          - name: "Guyana Amazon Warriors"
-            score: "–"
       - id: cricket-2578481
         competition: "Caribbean Premier League"
         state: upcoming
@@ -101,6 +90,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Barbados Tridents"
+            score: "–"
+      - id: cricket-2578483
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "St Kitts and Nevis Patriots"
+            score: "–"
+            detail: "23:00"
+          - name: "Saint Lucia Kings"
             score: "–"
       - id: cricket-2465896
         competition: "English County Championship Division 1"
