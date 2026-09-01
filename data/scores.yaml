@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 18:36 IST"
+updated: "01 Sep 2026, 18:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2598458
         competition: "FA Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "21'"
         teams:
           - name: "Kelantan Red Warrior"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2545577
         competition: "FA Cup"
         state: live
-        stateLabel: "72'"
+        stateLabel: "89'"
         teams:
           - name: "Dalian Yingbo"
             score: "1"
@@ -54,26 +54,27 @@ sports:
       - id: football-2545576
         competition: "FA Cup"
         state: live
-        stateLabel: "73'"
+        stateLabel: "90'"
         teams:
           - name: "Shandong Taishan"
             score: "0"
           - name: "Shanghai Port"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2545915
         competition: "FA Cup"
         state: live
-        stateLabel: "74'"
+        stateLabel: "Live"
         teams:
           - name: "Beijing Guoan"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Lanzhou Longyuan Athletic"
             score: "1"
       - id: football-2561281
         competition: "Polish Cup"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Korona Kielce II"
             score: "0"
