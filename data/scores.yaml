@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 01:52 IST"
+updated: "02 Sep 2026, 02:05 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2525288
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "73'"
+        stateLabel: "86'"
         teams:
           - name: "Zrinjski Mostar"
             score: "2"
@@ -36,7 +36,7 @@ sports:
       - id: football-2481402
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "21'"
+        stateLabel: "34'"
         teams:
           - name: "Envigado"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2577931
         competition: "Coppa Italia"
         state: live
-        stateLabel: "60'"
+        stateLabel: "73'"
         teams:
           - name: "Torino"
             score: "0"
@@ -55,7 +55,7 @@ sports:
       - id: football-2483318
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "HEBC Hamburg"
             score: "0"
@@ -65,7 +65,7 @@ sports:
       - id: football-2578602
         competition: "Dutch KNVB Cup"
         state: live
-        stateLabel: "108'"
+        stateLabel: "118'"
         teams:
           - name: "ADO '20"
             score: "1"
@@ -74,7 +74,7 @@ sports:
       - id: football-2500734
         competition: "English League 1"
         state: live
-        stateLabel: "72'"
+        stateLabel: "85'"
         teams:
           - name: "Leicester City"
             score: "2"
