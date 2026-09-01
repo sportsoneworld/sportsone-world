@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 06:04 IST"
+updated: "01 Sep 2026, 06:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2419902
         competition: "American NWSL"
         state: live
-        stateLabel: "25'"
+        stateLabel: "45'"
         teams:
           - name: "Boston Legacy"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2405036
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "29'"
+        stateLabel: "Live"
         teams:
           - name: "Gimnasia y Esgrima de Jujuy"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2398054
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "17'"
+        stateLabel: "37'"
         teams:
           - name: "Tigre"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2398051
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "19'"
+        stateLabel: "39'"
         teams:
           - name: "Instituto"
             score: "0"
@@ -63,22 +63,21 @@ sports:
       - id: football-2398438
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "71'"
+        stateLabel: "Live"
         teams:
           - name: "Remo"
             score: "2"
-            active: true
           - name: "Coritiba"
-            score: "1"
-      - id: football-2431410
-        competition: "Brazilian Serie B"
+            score: "2"
+      - id: football-2421973
+        competition: "Chile Primera B"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Fortaleza"
-            score: "1"
-          - name: "Operário Ferroviário"
-            score: "1"
+          - name: "Cobreloa"
+            score: "0"
+          - name: "San Marcos de Arica"
+            score: "0"
 
   - name: Cricket
     matches:
