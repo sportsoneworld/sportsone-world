@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Sep 2026, 18:54 IST"
+updated: "01 Sep 2026, 19:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,54 +23,33 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598434
-        competition: "FA Cup"
-        state: live
-        stateLabel: "12'"
-        teams:
-          - name: "DPMM"
-            score: "0"
-          - name: "Terengganu"
-            score: "0"
       - id: football-2598458
         competition: "FA Cup"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "Kelantan Red Warrior"
             score: "0"
           - name: "Kuching City"
             score: "0"
-      - id: football-2545577
+      - id: football-2598469
         competition: "FA Cup"
         state: live
-        stateLabel: "89'"
+        stateLabel: "33'"
         teams:
-          - name: "Dalian Yingbo"
-            score: "1"
-            active: true
-          - name: "Shanghai Shenhua"
+          - name: "Kelantan Red Warrior"
             score: "0"
-      - id: football-2545576
-        competition: "FA Cup"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Shandong Taishan"
+          - name: "Kuching City"
             score: "0"
-          - name: "Shanghai Port"
-            score: "3"
-            active: true
-      - id: football-2545915
-        competition: "FA Cup"
+      - id: football-2561276
+        competition: "Polish Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "5'"
         teams:
-          - name: "Beijing Guoan"
-            score: "2"
-            active: true
-          - name: "Lanzhou Longyuan Athletic"
-            score: "1"
+          - name: "Podhale Nowy Targ"
+            score: "0"
+          - name: "Pogoń Grodzisk Mazowiecki"
+            score: "0"
       - id: football-2561281
         competition: "Polish Cup"
         state: live
@@ -79,6 +58,25 @@ sports:
           - name: "Korona Kielce II"
             score: "0"
           - name: "Radomiak Radom"
+            score: "1"
+            active: true
+      - id: football-2501825
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Akron Tolyatti"
+            score: "0"
+          - name: "Lokomotiv Moscow"
+            score: "0"
+      - id: football-2528857
+        competition: "Turkish 1 Lig"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "Bandırmaspor"
+            score: "0"
+          - name: "Antalyaspor"
             score: "1"
             active: true
 
