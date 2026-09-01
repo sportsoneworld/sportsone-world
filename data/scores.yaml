@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 02:18 IST"
+updated: "02 Sep 2026, 02:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,54 +32,54 @@ sports:
             score: "0"
           - name: "Unión Magdalena"
             score: "0"
+      - id: football-2594524
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Montevideo Wanderers"
+            score: "0"
+          - name: "Cerro"
+            score: "1"
+            active: true
       - id: football-2577931
         competition: "Coppa Italia"
         state: live
-        stateLabel: "87'"
+        stateLabel: "Live"
         teams:
           - name: "Torino"
             score: "0"
           - name: "Monza"
             score: "1"
             active: true
-      - id: football-2500187
-        competition: "English League 2"
+      - id: football-2481672
+        competition: "Peruvian Primera Division"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Accrington Stanley"
-            score: "2"
-          - name: "Grimsby Town"
-            score: "2"
-      - id: football-2501286
-        competition: "English League Championship"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Birmingham City"
-            score: "1"
-          - name: "Southampton"
-            score: "1"
-      - id: football-2501289
-        competition: "English League Championship"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Stoke City"
-            score: "1"
-            active: true
-          - name: "Norwich City"
+          - name: "Atlético Grau"
             score: "0"
-      - id: football-2578521
-        competition: "Italy Coppa Italia Serie C"
-        state: live
-        stateLabel: "89'"
+          - name: "Melgar"
+            score: "0"
+      - id: football-2405036
+        competition: "Argentinian Primera B Nacional"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Ravenna"
-            score: "2"
-            active: true
-          - name: "Forlì"
+          - name: "Gimnasia y Esgrima de Jujuy"
             score: "1"
+          - name: "Agropecuario"
+            score: "1"
+      - id: football-2398051
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Instituto"
+            score: "1"
+            active: true
+          - name: "San Lorenzo"
+            score: "0"
 
   - name: Cricket
     matches:
