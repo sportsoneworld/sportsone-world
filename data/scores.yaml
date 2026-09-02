@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 17:35 IST"
+updated: "02 Sep 2026, 17:59 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598460
-        competition: "FA Cup"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Sabah"
-            score: "1"
-          - name: "Selangor"
-            score: "1"
       - id: football-2545578
         competition: "FA Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "29'"
         teams:
           - name: "Yunnan Yukun"
             score: "0"
@@ -44,42 +35,50 @@ sports:
       - id: football-2598461
         competition: "FA Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "29'"
         teams:
           - name: "Melaka"
             score: "0"
           - name: "Penang"
-            score: "0"
-      - id: football-2492824
-        competition: "Japanese J1 League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Mito HollyHock"
-            score: "4"
+            score: "1"
             active: true
-          - name: "Kashima Antlers"
-            score: "2"
-      - id: football-2492820
-        competition: "Japanese J1 League"
+      - id: football-2598460
+        competition: "FA Cup"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Avispa Fukuoka"
-            score: "2"
-          - name: "Urawa Red Diamonds"
+          - name: "Sabah"
+            score: "1"
+          - name: "Selangor"
+            score: "1"
+      - id: football-2504154
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "115'"
+        teams:
+          - name: "FC Gifu"
+            score: "0"
+          - name: "Tokushima Vortis"
+            score: "0"
+      - id: football-2597841
+        competition: "Australia New South Wales NPL"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Marconi Stallions"
+            score: "1"
+          - name: "NWS Spirit"
             score: "3"
             active: true
-      - id: football-2492822
-        competition: "Japanese J1 League"
-        state: live
-        stateLabel: "Live"
+      - id: football-2597842
+        competition: "Australia New South Wales NPL"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "JEF United Chiba"
+          - name: "Sutherland Sharks"
             score: "1"
-          - name: "Fagiano Okayama"
-            score: "2"
-            active: true
+          - name: "Manly United"
+            score: "1"
 
   - name: Cricket
     matches:
