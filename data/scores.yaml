@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 03:18 IST"
+updated: "03 Sep 2026, 03:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,28 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2594528
-        competition: "Copa AUF Uruguay"
+      - id: football-2579882
+        competition: "Brazil Serie D"
         state: live
-        stateLabel: "88'"
+        stateLabel: "2'"
         teams:
-          - name: "Liverpool Montevideo"
+          - name: "Goiatuba"
             score: "0"
-          - name: "Boston River"
+          - name: "São José"
             score: "0"
-      - id: football-2578614
-        competition: "Dutch KNVB Cup"
+      - id: football-2413032
+        competition: "Chile Primera Division"
         state: live
-        stateLabel: "129'"
+        stateLabel: "2'"
         teams:
-          - name: "TOGB"
-            score: "3"
-            active: true
-          - name: "VV Katwijk"
-            score: "2"
+          - name: "Coquimbo Unido"
+            score: "0"
+          - name: "Universidad de Concepción"
+            score: "0"
       - id: football-2429447
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "17'"
+        stateLabel: "33'"
         teams:
           - name: "Deportivo Cuenca"
             score: "0"
@@ -54,32 +53,32 @@ sports:
       - id: football-2595546
         competition: "Nicaragua Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Sébaco"
             score: "1"
             active: true
           - name: "Walter Ferretti"
             score: "0"
-      - id: football-2598840
-        competition: "Venezuela Primera Division"
-        state: live
-        stateLabel: "89'"
+      - id: football-2594528
+        competition: "Copa AUF Uruguay"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Zamora FC"
-            score: "2"
-          - name: "Deportivo Táchira"
-            score: "5"
+          - name: "Liverpool Montevideo"
+            score: "0"
+          - name: "Boston River"
+            score: "1"
             active: true
-      - id: football-2595068
-        competition: "Venezuelan Segunda Division"
-        state: live
-        stateLabel: "Live"
+      - id: football-2429451
+        competition: "Ecuadorian Serie A"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Yaracuyanos"
+          - name: "Macará"
             score: "4"
             active: true
-          - name: "Ureña"
+          - name: "Manta"
             score: "3"
 
   - name: Cricket
