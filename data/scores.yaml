@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 19:07 IST"
+updated: "02 Sep 2026, 19:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,25 +26,26 @@ sports:
       - id: football-2579097
         competition: "Coppa Italia"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "Sassuolo"
-            score: "0"
+            score: "1"
           - name: "Frosinone"
-            score: "0"
+            score: "1"
       - id: football-2598462
         competition: "FA Cup"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Kedah Darul Aman"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Imigresen"
             score: "0"
       - id: football-2598461
         competition: "FA Cup"
         state: live
-        stateLabel: "76'"
+        stateLabel: "90'"
         teams:
           - name: "Melaka"
             score: "0"
@@ -54,7 +55,7 @@ sports:
       - id: football-2545578
         competition: "FA Cup"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Yunnan Yukun"
             score: "1"
@@ -64,7 +65,7 @@ sports:
       - id: football-2561283
         competition: "Polish Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Luzino"
             score: "0"
@@ -74,7 +75,7 @@ sports:
       - id: football-2501821
         competition: "Russia Cup"
         state: live
-        stateLabel: "20'"
+        stateLabel: "34'"
         teams:
           - name: "Orenburg"
             score: "0"
