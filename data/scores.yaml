@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 07:04 IST"
+updated: "02 Sep 2026, 07:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,42 +26,30 @@ sports:
       - id: football-2481165
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Fortaleza FC"
             score: "1"
-            active: true
           - name: "Once Caldas"
-            score: "0"
+            score: "1"
       - id: football-2570524
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "63'"
+        stateLabel: "88'"
         teams:
           - name: "Atlético Mineiro"
-            score: "0"
+            score: "1"
           - name: "Cruzeiro"
             score: "1"
-            active: true
       - id: football-2429448
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "72'"
+        stateLabel: "Live"
         teams:
           - name: "LDU Quito"
             score: "0"
           - name: "Mushuc Runa"
             score: "0"
-      - id: football-2423208
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Inter Miami II"
-            score: "4"
-            active: true
-          - name: "New York City FC II"
-            score: "2"
       - id: football-2481772
         competition: "CONCACAF Caribbean Cup"
         state: completed
@@ -82,6 +70,16 @@ sports:
             active: true
           - name: "Danubio"
             score: "0"
+      - id: football-2423208
+        competition: "MLS Next Pro"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Inter Miami II"
+            score: "4"
+            active: true
+          - name: "New York City FC II"
+            score: "2"
 
   - name: Cricket
     matches:
