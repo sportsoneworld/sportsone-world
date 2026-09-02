@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 15:06 IST"
+updated: "02 Sep 2026, 15:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2597841
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Marconi Stallions"
+            score: "0"
+          - name: "NWS Spirit"
+            score: "1"
+            active: true
       - id: football-2597842
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "1'"
+        stateLabel: "15'"
         teams:
           - name: "Sutherland Sharks"
             score: "0"
@@ -35,7 +45,7 @@ sports:
       - id: football-2504152
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "2'"
+        stateLabel: "16'"
         teams:
           - name: "Sagamihara"
             score: "0"
@@ -44,21 +54,23 @@ sports:
       - id: football-2504153
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "2'"
+        stateLabel: "16'"
         teams:
           - name: "Vanraure Hachinohe"
             score: "0"
           - name: "Tochigi City"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2576945
         competition: "UEFA Womens Europa Cup"
         state: live
-        stateLabel: "35'"
+        stateLabel: "45'"
         teams:
           - name: "Gintra Women"
             score: "3"
           - name: "Sturm Graz Women"
-            score: "3"
+            score: "4"
+            active: true
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -68,16 +80,6 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Hartford Athletic"
-            score: "–"
-      - id: football-2397303
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Loudoun United"
-            score: "–"
-            detail: "23:00"
-          - name: "Colorado Springs Switchbacks"
             score: "–"
 
   - name: Cricket
