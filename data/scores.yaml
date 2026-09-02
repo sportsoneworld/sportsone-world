@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 21:34 IST"
+updated: "02 Sep 2026, 21:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2570536
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "24'"
         teams:
           - name: "Malkiya"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2570535
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "24'"
         teams:
           - name: "East Riffa"
             score: "0"
@@ -44,16 +44,17 @@ sports:
       - id: football-2437818
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "Maxline Vitebsk"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Belshina Bobruisk"
             score: "0"
       - id: football-2525291
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "3'"
+        stateLabel: "24'"
         teams:
           - name: "Velež Mostar"
             score: "0"
@@ -62,7 +63,7 @@ sports:
       - id: football-2511472
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "24'"
         teams:
           - name: "Yantra Gabrovo"
             score: "0"
@@ -71,12 +72,13 @@ sports:
       - id: football-2577930
         competition: "Coppa Italia"
         state: live
-        stateLabel: "3'"
+        stateLabel: "24'"
         teams:
           - name: "Udinese"
             score: "0"
           - name: "Venezia"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
