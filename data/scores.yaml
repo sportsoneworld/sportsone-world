@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 17:59 IST"
+updated: "02 Sep 2026, 18:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2545578
         competition: "FA Cup"
         state: live
-        stateLabel: "29'"
+        stateLabel: "44'"
         teams:
           - name: "Yunnan Yukun"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2598461
         competition: "FA Cup"
         state: live
-        stateLabel: "29'"
+        stateLabel: "44'"
         teams:
           - name: "Melaka"
             score: "0"
@@ -45,30 +45,22 @@ sports:
       - id: football-2598460
         competition: "FA Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "51'"
         teams:
           - name: "Sabah"
             score: "1"
           - name: "Selangor"
-            score: "1"
-      - id: football-2504154
-        competition: "Japanese JLeague Cup"
+            score: "2"
+            active: true
+      - id: football-2561283
+        competition: "Polish Cup"
         state: live
-        stateLabel: "115'"
+        stateLabel: "14'"
         teams:
-          - name: "FC Gifu"
+          - name: "Luzino"
             score: "0"
-          - name: "Tokushima Vortis"
-            score: "0"
-      - id: football-2597841
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Marconi Stallions"
-            score: "1"
-          - name: "NWS Spirit"
-            score: "3"
+          - name: "Wisła Płock"
+            score: "2"
             active: true
       - id: football-2597842
         competition: "Australia New South Wales NPL"
@@ -78,6 +70,16 @@ sports:
           - name: "Sutherland Sharks"
             score: "1"
           - name: "Manly United"
+            score: "1"
+      - id: football-2492823
+        competition: "Japanese J1 League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Machida Zelvia"
+            score: "2"
+            active: true
+          - name: "Kawasaki Frontale"
             score: "1"
 
   - name: Cricket
