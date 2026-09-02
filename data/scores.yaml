@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 18:15 IST"
+updated: "02 Sep 2026, 18:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2579097
+        competition: "Coppa Italia"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Sassuolo"
+            score: "0"
+          - name: "Frosinone"
+            score: "0"
+      - id: football-2598462
+        competition: "FA Cup"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Kedah Darul Aman"
+            score: "0"
+          - name: "Imigresen"
+            score: "0"
       - id: football-2545578
         competition: "FA Cup"
         state: live
-        stateLabel: "44'"
+        stateLabel: "46'"
         teams:
           - name: "Yunnan Yukun"
             score: "0"
           - name: "Chongqing Tonglianglong"
             score: "0"
+      - id: football-2598460
+        competition: "FA Cup"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Sabah"
+            score: "2"
+          - name: "Selangor"
+            score: "2"
       - id: football-2598461
         competition: "FA Cup"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
           - name: "Melaka"
             score: "0"
           - name: "Penang"
             score: "1"
             active: true
-      - id: football-2598460
-        competition: "FA Cup"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "Sabah"
-            score: "1"
-          - name: "Selangor"
-            score: "2"
-            active: true
       - id: football-2561283
         competition: "Polish Cup"
         state: live
-        stateLabel: "14'"
+        stateLabel: "33'"
         teams:
           - name: "Luzino"
             score: "0"
           - name: "Wisła Płock"
-            score: "2"
+            score: "1"
             active: true
-      - id: football-2597842
-        competition: "Australia New South Wales NPL"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Sutherland Sharks"
-            score: "1"
-          - name: "Manly United"
-            score: "1"
-      - id: football-2492823
-        competition: "Japanese J1 League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Machida Zelvia"
-            score: "2"
-            active: true
-          - name: "Kawasaki Frontale"
-            score: "1"
 
   - name: Cricket
     matches:
