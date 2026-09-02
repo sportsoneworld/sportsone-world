@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 01:53 IST"
+updated: "03 Sep 2026, 02:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,49 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2499726
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Red Bull Salzburg"
-            score: "5"
-            active: true
-          - name: "Rapid Vienna"
-            score: "1"
-      - id: football-2496725
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sint-Truiden"
-            score: "0"
-          - name: "Union Saint-Gilloise"
-            score: "3"
-            active: true
-      - id: football-2525290
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Borac Banja Luka"
-            score: "2"
-            active: true
-          - name: "Željezničar Sarajevo"
-            score: "0"
-      - id: football-2525289
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Široki Brijeg"
-            score: "1"
-          - name: "FK Sarajevo"
-            score: "1"
       - id: football-2594528
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "22'"
+        stateLabel: "32'"
         teams:
           - name: "Liverpool Montevideo"
             score: "0"
@@ -74,13 +35,50 @@ sports:
       - id: football-2483317
         competition: "DFB-Pokal"
         state: live
-        stateLabel: "80'"
+        stateLabel: "90'"
         teams:
           - name: "Osnabrück"
             score: "1"
           - name: "Bayern Munich"
+            score: "4"
+            active: true
+      - id: football-2578592
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "124'"
+        teams:
+          - name: "Staphorst"
+            score: "2"
+          - name: "UNA"
+            score: "2"
+      - id: football-2578610
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "122'"
+        teams:
+          - name: "HVV Hollandia"
+            score: "2"
+          - name: "Halsteren"
+            score: "2"
+      - id: football-2578614
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "121'"
+        teams:
+          - name: "TOGB"
             score: "3"
             active: true
+          - name: "VV Katwijk"
+            score: "2"
+      - id: football-2429451
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Macará"
+            score: "2"
+          - name: "Manta"
+            score: "2"
 
   - name: Cricket
     matches:
