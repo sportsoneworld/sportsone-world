@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 20:21 IST"
+updated: "02 Sep 2026, 20:39 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2511473
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Chernomorets 1919 Burgas"
+            score: "1"
+            active: true
+          - name: "Ludogorets Razgrad II"
+            score: "0"
       - id: football-2511474
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "51'"
         teams:
           - name: "Marek Dupnitsa"
             score: "1"
@@ -36,50 +46,39 @@ sports:
       - id: football-2511475
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "52'"
         teams:
           - name: "Rilski Sportist Samokov"
             score: "1"
             active: true
           - name: "Sportist Svoge"
             score: "0"
-      - id: football-2511473
-        competition: "Bulgarian Second League"
+      - id: football-2532743
+        competition: "Croatian Druga HNL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Chernomorets 1919 Burgas"
-            score: "1"
-            active: true
-          - name: "Ludogorets Razgrad II"
+          - name: "Croatia Zmijavci"
             score: "0"
-      - id: football-2579097
-        competition: "Coppa Italia"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Sassuolo"
-            score: "1"
-          - name: "Frosinone"
-            score: "1"
-      - id: football-2517548
-        competition: "Czech Moravian-Silesian Football League"
-        state: live
-        stateLabel: "17'"
-        teams:
-          - name: "Karviná B"
+          - name: "BSK Bijelo Brdo"
             score: "0"
-          - name: "Frýdek-Místek"
-            score: "0"
-      - id: football-2517543
-        competition: "Czech Moravian-Silesian Football League"
+      - id: football-2532740
+        competition: "Croatian Druga HNL"
         state: live
-        stateLabel: "17'"
+        stateLabel: "6'"
         teams:
-          - name: "Vitkovice"
-            score: "1"
-            active: true
-          - name: "Uničov"
+          - name: "Jadran Luka Ploče"
+            score: "0"
+          - name: "Dubrava"
+            score: "0"
+      - id: football-2532741
+        competition: "Croatian Druga HNL"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Segesta Sisak"
+            score: "0"
+          - name: "Kustošija"
             score: "0"
 
   - name: Cricket
