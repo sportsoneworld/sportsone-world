@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 23:56 IST"
+updated: "03 Sep 2026, 00:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2499725
+      - id: football-2499726
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "7'"
         teams:
-          - name: "Austria Vienna"
-            score: "0"
-          - name: "WSG Tirol"
+          - name: "Red Bull Salzburg"
             score: "1"
             active: true
+          - name: "Rapid Vienna"
+            score: "0"
       - id: football-2437813
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "53'"
         teams:
           - name: "Dinamo Minsk"
             score: "4"
             active: true
           - name: "Naftan Novopolotsk"
             score: "0"
+      - id: football-2496725
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Sint-Truiden"
+            score: "0"
+          - name: "Union Saint-Gilloise"
+            score: "0"
+      - id: football-2525290
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Borac Banja Luka"
+            score: "0"
+          - name: "Željezničar Sarajevo"
+            score: "0"
+      - id: football-2525289
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Široki Brijeg"
+            score: "0"
+          - name: "FK Sarajevo"
+            score: "0"
       - id: football-2487300
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "61'"
+        stateLabel: "77'"
         teams:
           - name: "Slavia Sofia"
             score: "1"
-            active: true
           - name: "Levski Sofia"
-            score: "0"
-      - id: football-2598613
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "Real Aranjuez"
             score: "1"
-          - name: "Deportivo Alavés C"
-            score: "2"
-            active: true
-      - id: football-2594526
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Cerrito"
-            score: "0"
-          - name: "Deportivo Maldonado"
-            score: "0"
-      - id: football-2594527
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Central Español"
-            score: "0"
-          - name: "Juventud Las Piedras"
-            score: "0"
 
   - name: Cricket
     matches:
