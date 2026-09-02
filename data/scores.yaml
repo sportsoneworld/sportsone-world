@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 17:05 IST"
+updated: "02 Sep 2026, 17:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2597841
+      - id: football-2597842
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "110'"
         teams:
-          - name: "Marconi Stallions"
+          - name: "Sutherland Sharks"
             score: "1"
-          - name: "NWS Spirit"
-            score: "3"
-            active: true
+          - name: "Manly United"
+            score: "1"
       - id: football-2598460
         competition: "FA Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "18'"
         teams:
           - name: "Sabah"
             score: "0"
@@ -45,42 +44,41 @@ sports:
       - id: football-2492822
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "68'"
+        stateLabel: "83'"
         teams:
           - name: "JEF United Chiba"
             score: "1"
           - name: "Fagiano Okayama"
             score: "1"
-      - id: football-2492820
-        competition: "Japanese J1 League"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Avispa Fukuoka"
-            score: "2"
-            active: true
-          - name: "Urawa Red Diamonds"
-            score: "1"
       - id: football-2492824
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "70'"
+        stateLabel: "84'"
         teams:
           - name: "Mito HollyHock"
             score: "4"
             active: true
           - name: "Kashima Antlers"
-            score: "1"
+            score: "2"
+      - id: football-2492820
+        competition: "Japanese J1 League"
+        state: live
+        stateLabel: "85'"
+        teams:
+          - name: "Avispa Fukuoka"
+            score: "2"
+          - name: "Urawa Red Diamonds"
+            score: "3"
+            active: true
       - id: football-2492829
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "Yokohama F Marinos"
-            score: "0"
+            score: "1"
           - name: "Kyoto Sanga"
             score: "1"
-            active: true
 
   - name: Cricket
     matches:
