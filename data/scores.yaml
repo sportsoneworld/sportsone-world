@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 15:19 IST"
+updated: "02 Sep 2026, 15:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2597841
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "11'"
+        stateLabel: "26'"
         teams:
           - name: "Marconi Stallions"
             score: "0"
@@ -36,51 +36,48 @@ sports:
       - id: football-2597842
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "15'"
+        stateLabel: "29'"
         teams:
           - name: "Sutherland Sharks"
             score: "0"
           - name: "Manly United"
             score: "0"
-      - id: football-2504152
-        competition: "Japanese JLeague Cup"
+      - id: football-2492820
+        competition: "Japanese J1 League"
         state: live
-        stateLabel: "16'"
+        stateLabel: "1'"
         teams:
-          - name: "Sagamihara"
+          - name: "Avispa Fukuoka"
             score: "0"
-          - name: "Júbilo Iwata"
+          - name: "Urawa Red Diamonds"
             score: "0"
-      - id: football-2504153
-        competition: "Japanese JLeague Cup"
+      - id: football-2492821
+        competition: "Japanese J1 League"
         state: live
-        stateLabel: "16'"
+        stateLabel: "1'"
         teams:
-          - name: "Vanraure Hachinohe"
+          - name: "Cerezo Osaka"
             score: "0"
-          - name: "Tochigi City"
-            score: "1"
-            active: true
-      - id: football-2576945
-        competition: "UEFA Womens Europa Cup"
+          - name: "Kashiwa Reysol"
+            score: "0"
+      - id: football-2492823
+        competition: "Japanese J1 League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "1'"
         teams:
-          - name: "Gintra Women"
-            score: "3"
-          - name: "Sturm Graz Women"
-            score: "4"
-            active: true
-      - id: football-2397302
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Machida Zelvia"
+            score: "0"
+          - name: "Kawasaki Frontale"
+            score: "0"
+      - id: football-2492824
+        competition: "Japanese J1 League"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "Charleston Battery"
-            score: "–"
-            detail: "23:00"
-          - name: "Hartford Athletic"
-            score: "–"
+          - name: "Mito HollyHock"
+            score: "0"
+          - name: "Kashima Antlers"
+            score: "0"
 
   - name: Cricket
     matches:
