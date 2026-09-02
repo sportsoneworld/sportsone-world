@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 04:18 IST"
+updated: "03 Sep 2026, 04:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,7 +36,7 @@ sports:
       - id: football-2398226
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "18'"
+        stateLabel: "34'"
         teams:
           - name: "Flamengo"
             score: "1"
@@ -46,7 +46,7 @@ sports:
       - id: football-2558748
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
           - name: "Broki"
             score: "0"
@@ -55,30 +55,30 @@ sports:
       - id: football-2413032
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Coquimbo Unido"
             score: "0"
           - name: "Universidad de Concepción"
             score: "0"
+      - id: football-2594529
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Atenas"
+            score: "0"
+          - name: "Peñarol"
+            score: "0"
       - id: football-2598866
         competition: "Copa Colombia"
         state: live
-        stateLabel: "18'"
+        stateLabel: "33'"
         teams:
           - name: "Deportes Quindío"
             score: "1"
             active: true
           - name: "Llaneros"
-            score: "0"
-      - id: football-2429447
-        competition: "Ecuadorian Serie A"
-        state: live
-        stateLabel: "55'"
-        teams:
-          - name: "Deportivo Cuenca"
-            score: "0"
-          - name: "Guayaquil City"
             score: "0"
 
   - name: Cricket
