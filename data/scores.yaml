@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 23:35 IST"
+updated: "02 Sep 2026, 23:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,60 @@ sports:
       - id: football-2499725
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Austria Vienna"
             score: "0"
           - name: "WSG Tirol"
             score: "1"
             active: true
-      - id: football-2570535
-        competition: "Bahrain Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "East Riffa"
-            score: "0"
-          - name: "Sitra"
-            score: "0"
       - id: football-2437813
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "34'"
+        stateLabel: "45'"
         teams:
           - name: "Dinamo Minsk"
-            score: "3"
+            score: "4"
             active: true
           - name: "Naftan Novopolotsk"
             score: "0"
       - id: football-2487300
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "61'"
         teams:
           - name: "Slavia Sofia"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Levski Sofia"
             score: "0"
       - id: football-2598613
         competition: "Club Friendlies"
         state: live
-        stateLabel: "23'"
+        stateLabel: "42'"
         teams:
           - name: "Real Aranjuez"
             score: "1"
           - name: "Deportivo Alavés C"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2594526
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "4'"
+        stateLabel: "22'"
         teams:
           - name: "Cerrito"
             score: "0"
           - name: "Deportivo Maldonado"
+            score: "0"
+      - id: football-2594527
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Central Español"
+            score: "0"
+          - name: "Juventud Las Piedras"
             score: "0"
 
   - name: Cricket
