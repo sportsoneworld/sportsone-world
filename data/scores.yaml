@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 04:33 IST"
+updated: "03 Sep 2026, 04:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,28 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2397302
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Charleston Battery"
+            score: "0"
+          - name: "Hartford Athletic"
+            score: "0"
+      - id: football-2397630
+        competition: "American USL League One"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Westchester SC"
+            score: "0"
+          - name: "Chattanooga Red Wolves"
+            score: "0"
       - id: football-2579882
         competition: "Brazil Serie D"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Goiatuba"
             score: "0"
@@ -36,17 +54,17 @@ sports:
       - id: football-2398226
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "34'"
+        stateLabel: "45'"
         teams:
           - name: "Flamengo"
-            score: "1"
+            score: "2"
             active: true
           - name: "Mirassol"
             score: "0"
       - id: football-2558748
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Broki"
             score: "0"
@@ -55,30 +73,11 @@ sports:
       - id: football-2413032
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "Coquimbo Unido"
             score: "0"
           - name: "Universidad de Concepción"
-            score: "0"
-      - id: football-2594529
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Atenas"
-            score: "0"
-          - name: "Peñarol"
-            score: "0"
-      - id: football-2598866
-        competition: "Copa Colombia"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "Deportes Quindío"
-            score: "1"
-            active: true
-          - name: "Llaneros"
             score: "0"
 
   - name: Cricket
