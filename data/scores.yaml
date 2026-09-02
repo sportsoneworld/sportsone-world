@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 02:51 IST"
+updated: "03 Sep 2026, 03:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2594528
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "62'"
+        stateLabel: "75'"
         teams:
           - name: "Liverpool Montevideo"
             score: "0"
@@ -42,38 +42,39 @@ sports:
             active: true
           - name: "VV Katwijk"
             score: "2"
-      - id: football-2593098
-        competition: "Greek Football Cup"
+      - id: football-2429447
+        competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "PAOK"
+          - name: "Deportivo Cuenca"
             score: "0"
-          - name: "OFI"
+          - name: "Guayaquil City"
             score: "0"
       - id: football-2595546
         competition: "Nicaragua Primera Division"
         state: live
-        stateLabel: "21'"
+        stateLabel: "34'"
         teams:
           - name: "Sébaco"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Walter Ferretti"
             score: "0"
       - id: football-2598840
         competition: "Venezuela Primera Division"
         state: live
-        stateLabel: "63'"
+        stateLabel: "76'"
         teams:
           - name: "Zamora FC"
-            score: "0"
+            score: "1"
           - name: "Deportivo Táchira"
             score: "3"
             active: true
       - id: football-2595068
         competition: "Venezuelan Segunda Division"
         state: live
-        stateLabel: "65'"
+        stateLabel: "78'"
         teams:
           - name: "Yaracuyanos"
             score: "3"
