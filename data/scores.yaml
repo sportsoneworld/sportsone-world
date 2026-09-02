@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 19:20 IST"
+updated: "02 Sep 2026, 19:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,59 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2511473
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Chernomorets 1919 Burgas"
+            score: "0"
+          - name: "Ludogorets Razgrad II"
+            score: "0"
+      - id: football-2511474
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Marek Dupnitsa"
+            score: "0"
+          - name: "Nesebar"
+            score: "0"
+      - id: football-2511475
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Rilski Sportist Samokov"
+            score: "0"
+          - name: "Sportist Svoge"
+            score: "0"
       - id: football-2579097
         competition: "Coppa Italia"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Sassuolo"
             score: "1"
           - name: "Frosinone"
             score: "1"
-      - id: football-2598462
-        competition: "FA Cup"
+      - id: football-2561097
+        competition: "Egyptian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Kedah Darul Aman"
-            score: "1"
-            active: true
-          - name: "Imigresen"
+          - name: "El Gouna"
+            score: "0"
+          - name: "Al-Mokawloon al-Arab"
             score: "0"
       - id: football-2598461
         competition: "FA Cup"
         state: live
-        stateLabel: "90'"
+        stateLabel: "Live"
         teams:
           - name: "Melaka"
             score: "0"
           - name: "Penang"
-            score: "1"
-            active: true
-      - id: football-2545578
-        competition: "FA Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Yunnan Yukun"
-            score: "1"
-            active: true
-          - name: "Chongqing Tonglianglong"
-            score: "0"
-      - id: football-2561283
-        competition: "Polish Cup"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "Luzino"
-            score: "0"
-          - name: "Wisła Płock"
-            score: "2"
-            active: true
-      - id: football-2501821
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Orenburg"
-            score: "0"
-          - name: "Rubin Kazan"
             score: "1"
             active: true
 
