@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 00:51 IST"
+updated: "03 Sep 2026, 01:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -33,16 +33,6 @@ sports:
             active: true
           - name: "Rapid Vienna"
             score: "0"
-      - id: football-2437813
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Dinamo Minsk"
-            score: "5"
-            active: true
-          - name: "Naftan Novopolotsk"
-            score: "1"
       - id: football-2496725
         competition: "Belgian Pro League"
         state: live
@@ -75,13 +65,22 @@ sports:
       - id: football-2598613
         competition: "Club Friendlies"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Real Aranjuez"
             score: "1"
           - name: "Deportivo Alavés C"
             score: "6"
             active: true
+      - id: football-2594526
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "69'"
+        teams:
+          - name: "Cerrito"
+            score: "0"
+          - name: "Deportivo Maldonado"
+            score: "0"
 
   - name: Cricket
     matches:
