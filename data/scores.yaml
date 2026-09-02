@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 16:53 IST"
+updated: "02 Sep 2026, 17:05 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,60 +26,61 @@ sports:
       - id: football-2597841
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "Marconi Stallions"
             score: "1"
           - name: "NWS Spirit"
             score: "3"
             active: true
-      - id: football-2597842
-        competition: "Australia New South Wales NPL"
+      - id: football-2598460
+        competition: "FA Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "Sutherland Sharks"
-            score: "1"
-          - name: "Manly United"
-            score: "1"
+          - name: "Sabah"
+            score: "0"
+          - name: "Selangor"
+            score: "0"
       - id: football-2492822
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "57'"
+        stateLabel: "68'"
         teams:
           - name: "JEF United Chiba"
             score: "1"
           - name: "Fagiano Okayama"
             score: "1"
-      - id: football-2492824
-        competition: "Japanese J1 League"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Mito HollyHock"
-            score: "4"
-            active: true
-          - name: "Kashima Antlers"
-            score: "1"
       - id: football-2492820
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "59'"
+        stateLabel: "70'"
         teams:
           - name: "Avispa Fukuoka"
             score: "2"
             active: true
           - name: "Urawa Red Diamonds"
             score: "1"
+      - id: football-2492824
+        competition: "Japanese J1 League"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Mito HollyHock"
+            score: "4"
+            active: true
+          - name: "Kashima Antlers"
+            score: "1"
       - id: football-2492829
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "59'"
+        stateLabel: "70'"
         teams:
           - name: "Yokohama F Marinos"
             score: "0"
           - name: "Kyoto Sanga"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
