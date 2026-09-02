@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 23:04 IST"
+updated: "02 Sep 2026, 23:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2499725
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "46'"
+        stateLabel: "59'"
         teams:
           - name: "Austria Vienna"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2570535
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "71'"
+        stateLabel: "84'"
         teams:
           - name: "East Riffa"
             score: "0"
@@ -44,35 +44,36 @@ sports:
       - id: football-2570536
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "88'"
         teams:
           - name: "Malkiya"
             score: "0"
           - name: "Al-Najma"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2437813
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "4'"
+        stateLabel: "16'"
         teams:
           - name: "Dinamo Minsk"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Naftan Novopolotsk"
             score: "0"
       - id: football-2525291
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "76'"
+        stateLabel: "89'"
         teams:
           - name: "Velež Mostar"
-            score: "0"
+            score: "1"
           - name: "Radnik Bijeljina"
             score: "1"
-            active: true
       - id: football-2487300
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Slavia Sofia"
             score: "0"
