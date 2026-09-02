@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 09:35 IST"
+updated: "02 Sep 2026, 14:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2576945
+        competition: "UEFA Womens Europa Cup"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Gintra Women"
+            score: "0"
+          - name: "Sturm Graz Women"
+            score: "0"
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -72,16 +81,6 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "One Knoxville"
-            score: "–"
-      - id: football-2398058
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "22:00"
-        teams:
-          - name: "Belgrano"
-            score: "–"
-            detail: "22:00"
-          - name: "Huracán"
             score: "–"
 
   - name: Cricket
