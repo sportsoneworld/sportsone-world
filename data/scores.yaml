@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 21:54 IST"
+updated: "02 Sep 2026, 22:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2499725
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Austria Vienna"
+            score: "0"
+          - name: "WSG Tirol"
+            score: "0"
       - id: football-2570536
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "36'"
         teams:
           - name: "Malkiya"
             score: "0"
@@ -35,7 +44,7 @@ sports:
       - id: football-2570535
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "36'"
         teams:
           - name: "East Riffa"
             score: "0"
@@ -44,7 +53,7 @@ sports:
       - id: football-2437818
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "48'"
         teams:
           - name: "Maxline Vitebsk"
             score: "1"
@@ -54,7 +63,7 @@ sports:
       - id: football-2525291
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "24'"
+        stateLabel: "36'"
         teams:
           - name: "Velež Mostar"
             score: "0"
@@ -63,22 +72,12 @@ sports:
       - id: football-2511472
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "36'"
         teams:
           - name: "Yantra Gabrovo"
             score: "0"
           - name: "Pirin Blagoevgrad"
             score: "0"
-      - id: football-2577930
-        competition: "Coppa Italia"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Udinese"
-            score: "0"
-          - name: "Venezia"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
