@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 01:02 IST"
+updated: "03 Sep 2026, 01:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,60 +26,61 @@ sports:
       - id: football-2499726
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "56'"
         teams:
           - name: "Red Bull Salzburg"
-            score: "3"
+            score: "4"
             active: true
           - name: "Rapid Vienna"
-            score: "0"
+            score: "1"
       - id: football-2496725
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "58'"
         teams:
           - name: "Sint-Truiden"
             score: "0"
           - name: "Union Saint-Gilloise"
-            score: "1"
+            score: "2"
             active: true
-      - id: football-2525290
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Borac Banja Luka"
-            score: "1"
-            active: true
-          - name: "Željezničar Sarajevo"
-            score: "0"
       - id: football-2525289
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Široki Brijeg"
             score: "0"
           - name: "FK Sarajevo"
             score: "0"
-      - id: football-2598613
-        competition: "Club Friendlies"
+      - id: football-2525290
+        competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
-          - name: "Real Aranjuez"
-            score: "1"
-          - name: "Deportivo Alavés C"
-            score: "6"
+          - name: "Borac Banja Luka"
+            score: "2"
             active: true
+          - name: "Željezničar Sarajevo"
+            score: "0"
       - id: football-2594526
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "69'"
+        stateLabel: "83'"
         teams:
           - name: "Cerrito"
             score: "0"
           - name: "Deportivo Maldonado"
+            score: "1"
+            active: true
+      - id: football-2594527
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Central Español"
+            score: "3"
+            active: true
+          - name: "Juventud Las Piedras"
             score: "0"
 
   - name: Cricket
