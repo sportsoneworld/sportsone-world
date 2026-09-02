@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 05:17 IST"
+updated: "02 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2431412
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "59'"
+        stateLabel: "78'"
         teams:
           - name: "Londrina"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2481772
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "40'"
+        stateLabel: "Live"
         teams:
           - name: "Defence Force"
             score: "0"
@@ -45,26 +45,16 @@ sports:
       - id: football-2598612
         competition: "Canadian Championship"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Supra du Québec"
             score: "1"
-            active: true
           - name: "Forge"
-            score: "0"
-      - id: football-2545864
-        competition: "Chile Segunda División"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Colchagua"
-            score: "0"
-          - name: "Brujas de Salamanca"
-            score: "0"
+            score: "1"
       - id: football-2481438
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "58'"
+        stateLabel: "77'"
         teams:
           - name: "Barranquilla"
             score: "2"
@@ -74,25 +64,24 @@ sports:
       - id: football-2594525
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Montevideo City Torque"
             score: "0"
           - name: "Danubio"
             score: "0"
+      - id: football-2570524
+        competition: "Copa do Brasil"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Atlético Mineiro"
+            score: "0"
+          - name: "Cruzeiro"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578481
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "St Kitts and Nevis Patriots"
-            score: "–"
-            detail: "23:00"
-          - name: "Barbados Tridents"
-            score: "–"
       - id: cricket-2578483
         competition: "Caribbean Premier League"
         state: upcoming
@@ -102,6 +91,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Saint Lucia Kings"
+            score: "–"
+      - id: cricket-2578484
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Guyana Amazon Warriors"
+            score: "–"
+            detail: "23:00"
+          - name: "Jamaica Kingsmen"
             score: "–"
       - id: cricket-2465896
         competition: "English County Championship Division 1"
