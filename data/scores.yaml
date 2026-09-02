@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 08:25 IST"
+updated: "02 Sep 2026, 08:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -25,8 +25,8 @@ sports:
     matches:
       - id: football-2481165
         competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Fortaleza FC"
             score: "1"
