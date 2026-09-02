@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 20:58 IST"
+updated: "02 Sep 2026, 21:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2437818
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Maxline Vitebsk"
+            score: "0"
+          - name: "Belshina Bobruisk"
+            score: "0"
       - id: football-2511473
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "67'"
+        stateLabel: "82'"
         teams:
           - name: "Chernomorets 1919 Burgas"
             score: "1"
             active: true
           - name: "Ludogorets Razgrad II"
             score: "0"
-      - id: football-2511475
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Rilski Sportist Samokov"
-            score: "1"
-            active: true
-          - name: "Sportist Svoge"
-            score: "0"
       - id: football-2511474
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "71'"
+        stateLabel: "85'"
         teams:
           - name: "Marek Dupnitsa"
             score: "1"
             active: true
           - name: "Nesebar"
             score: "0"
+      - id: football-2511475
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Rilski Sportist Samokov"
+            score: "2"
+            active: true
+          - name: "Sportist Svoge"
+            score: "1"
+      - id: football-2532742
+        competition: "Croatian Druga HNL"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Opatija"
+            score: "0"
+          - name: "Hrvace"
+            score: "0"
       - id: football-2532743
         competition: "Croatian Druga HNL"
         state: live
-        stateLabel: "25'"
+        stateLabel: "40'"
         teams:
           - name: "Croatia Zmijavci"
             score: "0"
           - name: "BSK Bijelo Brdo"
-            score: "0"
-      - id: football-2532740
-        competition: "Croatian Druga HNL"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Jadran Luka Ploče"
-            score: "0"
-          - name: "Dubrava"
-            score: "0"
-      - id: football-2532741
-        competition: "Croatian Druga HNL"
-        state: live
-        stateLabel: "26'"
-        teams:
-          - name: "Segesta Sisak"
-            score: "0"
-          - name: "Kustošija"
             score: "0"
 
   - name: Cricket
