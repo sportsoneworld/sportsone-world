@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 18:34 IST"
+updated: "02 Sep 2026, 18:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2579097
         competition: "Coppa Italia"
         state: live
-        stateLabel: "2'"
+        stateLabel: "23'"
         teams:
           - name: "Sassuolo"
             score: "0"
@@ -35,16 +35,26 @@ sports:
       - id: football-2598462
         competition: "FA Cup"
         state: live
-        stateLabel: "1'"
+        stateLabel: "22'"
         teams:
           - name: "Kedah Darul Aman"
             score: "0"
           - name: "Imigresen"
             score: "0"
+      - id: football-2598461
+        competition: "FA Cup"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "Melaka"
+            score: "0"
+          - name: "Penang"
+            score: "1"
+            active: true
       - id: football-2545578
         competition: "FA Cup"
         state: live
-        stateLabel: "46'"
+        stateLabel: "67'"
         teams:
           - name: "Yunnan Yukun"
             score: "0"
@@ -53,31 +63,21 @@ sports:
       - id: football-2598460
         competition: "FA Cup"
         state: live
-        stateLabel: "70'"
+        stateLabel: "Live"
         teams:
           - name: "Sabah"
             score: "2"
           - name: "Selangor"
             score: "2"
-      - id: football-2598461
-        competition: "FA Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Melaka"
-            score: "0"
-          - name: "Penang"
-            score: "1"
-            active: true
       - id: football-2561283
         competition: "Polish Cup"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Luzino"
             score: "0"
           - name: "Wisła Płock"
-            score: "1"
+            score: "2"
             active: true
 
   - name: Cricket
