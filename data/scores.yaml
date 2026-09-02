@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 02:19 IST"
+updated: "03 Sep 2026, 02:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2578614
         competition: "Dutch KNVB Cup"
         state: live
-        stateLabel: "135'"
+        stateLabel: "129'"
         teams:
           - name: "TOGB"
             score: "3"
@@ -45,41 +45,41 @@ sports:
       - id: football-2429451
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Macará"
-            score: "3"
-            active: true
-          - name: "Manta"
-            score: "2"
-      - id: football-2500744
-        competition: "English League 1"
-        state: live
         stateLabel: "Live"
         teams:
-          - name: "Reading"
-            score: "5"
+          - name: "Macará"
+            score: "4"
             active: true
-          - name: "Mansfield Town"
-            score: "0"
-      - id: football-2501293
-        competition: "English League Championship"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Burnley"
-            score: "1"
-          - name: "Middlesbrough"
-            score: "1"
+          - name: "Manta"
+            score: "3"
       - id: football-2593098
         competition: "Greek Football Cup"
         state: live
-        stateLabel: "63'"
+        stateLabel: "78'"
         teams:
           - name: "PAOK"
             score: "0"
           - name: "OFI"
             score: "0"
+      - id: football-2595546
+        competition: "Nicaragua Primera Division"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Sébaco"
+            score: "0"
+          - name: "Walter Ferretti"
+            score: "0"
+      - id: football-2598840
+        competition: "Venezuela Primera Division"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Zamora FC"
+            score: "0"
+          - name: "Deportivo Táchira"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
