@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 05:36 IST"
+updated: "02 Sep 2026, 06:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,48 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431412
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "78'"
-        teams:
-          - name: "Londrina"
-            score: "0"
-          - name: "Juventude"
-            score: "0"
       - id: football-2481772
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "66'"
         teams:
           - name: "Defence Force"
             score: "0"
           - name: "Club Sando"
             score: "1"
             active: true
-      - id: football-2598612
-        competition: "Canadian Championship"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Supra du Québec"
-            score: "1"
-          - name: "Forge"
-            score: "1"
-      - id: football-2481438
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Barranquilla"
-            score: "2"
-            active: true
-          - name: "Boca Juniors de Cali"
-            score: "1"
       - id: football-2594525
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Montevideo City Torque"
             score: "0"
@@ -73,11 +45,39 @@ sports:
       - id: football-2570524
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "1'"
+        stateLabel: "27'"
         teams:
           - name: "Atlético Mineiro"
             score: "0"
           - name: "Cruzeiro"
+            score: "0"
+      - id: football-2429448
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "LDU Quito"
+            score: "0"
+          - name: "Mushuc Runa"
+            score: "0"
+      - id: football-2423208
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Inter Miami II"
+            score: "3"
+            active: true
+          - name: "New York City FC II"
+            score: "1"
+      - id: football-2431412
+        competition: "Brazilian Serie B"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Londrina"
+            score: "0"
+          - name: "Juventude"
             score: "0"
 
   - name: Cricket
