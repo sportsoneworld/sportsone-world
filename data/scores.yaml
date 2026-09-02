@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 06:33 IST"
+updated: "02 Sep 2026, 06:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481772
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Defence Force"
-            score: "0"
-          - name: "Club Sando"
-            score: "2"
-            active: true
       - id: football-2481165
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Fortaleza FC"
             score: "0"
           - name: "Once Caldas"
             score: "0"
-      - id: football-2594525
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Montevideo City Torque"
-            score: "2"
-            active: true
-          - name: "Danubio"
-            score: "0"
       - id: football-2570524
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "Live"
+        stateLabel: "51'"
         teams:
           - name: "Atlético Mineiro"
             score: "0"
@@ -65,7 +45,7 @@ sports:
       - id: football-2429448
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "LDU Quito"
             score: "0"
@@ -74,13 +54,32 @@ sports:
       - id: football-2423208
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "69'"
+        stateLabel: "87'"
         teams:
           - name: "Inter Miami II"
             score: "3"
             active: true
           - name: "New York City FC II"
             score: "2"
+      - id: football-2431412
+        competition: "Brazilian Serie B"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Londrina"
+            score: "0"
+          - name: "Juventude"
+            score: "0"
+      - id: football-2481772
+        competition: "CONCACAF Caribbean Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Defence Force"
+            score: "0"
+          - name: "Club Sando"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
