@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 21:24 IST"
+updated: "02 Sep 2026, 21:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,59 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2570536
+        competition: "Bahrain Premier League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Malkiya"
+            score: "0"
+          - name: "Al-Najma"
+            score: "0"
+      - id: football-2570535
+        competition: "Bahrain Premier League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "East Riffa"
+            score: "0"
+          - name: "Sitra"
+            score: "0"
       - id: football-2437818
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "22'"
+        stateLabel: "33'"
         teams:
           - name: "Maxline Vitebsk"
             score: "0"
           - name: "Belshina Bobruisk"
             score: "0"
-      - id: football-2511473
+      - id: football-2525291
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Velež Mostar"
+            score: "0"
+          - name: "Radnik Bijeljina"
+            score: "0"
+      - id: football-2511472
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "Chernomorets 1919 Burgas"
-            score: "1"
-            active: true
-          - name: "Ludogorets Razgrad II"
+          - name: "Yantra Gabrovo"
             score: "0"
-      - id: football-2511475
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Rilski Sportist Samokov"
-            score: "2"
-            active: true
-          - name: "Sportist Svoge"
-            score: "1"
-      - id: football-2511474
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Marek Dupnitsa"
-            score: "1"
-            active: true
-          - name: "Nesebar"
+          - name: "Pirin Blagoevgrad"
             score: "0"
-      - id: football-2532742
-        competition: "Croatian Druga HNL"
+      - id: football-2577930
+        competition: "Coppa Italia"
         state: live
-        stateLabel: "25'"
+        stateLabel: "3'"
         teams:
-          - name: "Opatija"
-            score: "1"
-            active: true
-          - name: "Hrvace"
+          - name: "Udinese"
             score: "0"
-      - id: football-2532744
-        competition: "Croatian Druga HNL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Mladost Ždralovi"
-            score: "0"
-          - name: "Sesvete"
+          - name: "Venezia"
             score: "0"
 
   - name: Cricket
