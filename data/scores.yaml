@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 08:52 IST"
+updated: "02 Sep 2026, 09:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481165
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Fortaleza FC"
-            score: "1"
-          - name: "Once Caldas"
-            score: "2"
-            active: true
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -82,6 +72,16 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "One Knoxville"
+            score: "–"
+      - id: football-2398058
+        competition: "Argentinian Primera Division"
+        state: upcoming
+        stateLabel: "22:00"
+        teams:
+          - name: "Belgrano"
+            score: "–"
+            detail: "22:00"
+          - name: "Huracán"
             score: "–"
 
   - name: Cricket
