@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 15:54 IST"
+updated: "02 Sep 2026, 16:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2597842
+        competition: "Australia New South Wales NPL"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Sutherland Sharks"
+            score: "0"
+          - name: "Manly United"
+            score: "0"
       - id: football-2597841
         competition: "Australia New South Wales NPL"
         state: live
@@ -33,19 +42,10 @@ sports:
           - name: "NWS Spirit"
             score: "1"
             active: true
-      - id: football-2597842
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sutherland Sharks"
-            score: "0"
-          - name: "Manly United"
-            score: "0"
       - id: football-2492821
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "Cerezo Osaka"
             score: "1"
@@ -55,17 +55,17 @@ sports:
       - id: football-2492824
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "Mito HollyHock"
-            score: "1"
+            score: "3"
             active: true
           - name: "Kashima Antlers"
             score: "0"
       - id: football-2492827
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "Tokyo Verdy"
             score: "0"
@@ -75,12 +75,13 @@ sports:
       - id: football-2492822
         competition: "Japanese J1 League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "JEF United Chiba"
             score: "0"
           - name: "Fagiano Okayama"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
