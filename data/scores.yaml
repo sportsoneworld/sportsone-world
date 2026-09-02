@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Sep 2026, 07:50 IST"
+updated: "02 Sep 2026, 08:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,12 +26,13 @@ sports:
       - id: football-2481165
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "62'"
+        stateLabel: "85'"
         teams:
           - name: "Fortaleza FC"
             score: "1"
           - name: "Once Caldas"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2570524
         competition: "Copa do Brasil"
         state: completed
@@ -51,16 +52,6 @@ sports:
             score: "0"
           - name: "Mushuc Runa"
             score: "0"
-      - id: football-2423208
-        competition: "MLS Next Pro"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Inter Miami II"
-            score: "4"
-            active: true
-          - name: "New York City FC II"
-            score: "2"
       - id: football-2397302
         competition: "American USL Championship"
         state: upcoming
@@ -80,6 +71,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Colorado Springs Switchbacks"
+            score: "–"
+      - id: football-2397625
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Charlotte Independence"
+            score: "–"
+            detail: "23:30"
+          - name: "Portland Hearts of Pine"
             score: "–"
 
   - name: Cricket
