@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 01:17 IST"
+updated: "03 Sep 2026, 01:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2499726
         competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "56'"
+        stateLabel: "73'"
         teams:
           - name: "Red Bull Salzburg"
             score: "4"
@@ -36,17 +36,17 @@ sports:
       - id: football-2496725
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "58'"
+        stateLabel: "75'"
         teams:
           - name: "Sint-Truiden"
             score: "0"
           - name: "Union Saint-Gilloise"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2525289
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "57'"
+        stateLabel: "75'"
         teams:
           - name: "Široki Brijeg"
             score: "0"
@@ -55,33 +55,32 @@ sports:
       - id: football-2525290
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "59'"
+        stateLabel: "76'"
         teams:
           - name: "Borac Banja Luka"
             score: "2"
             active: true
           - name: "Željezničar Sarajevo"
             score: "0"
+      - id: football-2594528
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Liverpool Montevideo"
+            score: "0"
+          - name: "Boston River"
+            score: "0"
       - id: football-2594526
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Cerrito"
             score: "0"
           - name: "Deportivo Maldonado"
             score: "1"
             active: true
-      - id: football-2594527
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Central Español"
-            score: "3"
-            active: true
-          - name: "Juventud Las Piedras"
-            score: "0"
 
   - name: Cricket
     matches:
