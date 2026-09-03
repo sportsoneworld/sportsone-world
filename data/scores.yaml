@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 03:17 IST"
+updated: "04 Sep 2026, 03:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,30 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558878
-        competition: "Algerian Ligue 1"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "JS El Biar"
-            score: "0"
-          - name: "Olympique Akbou"
-            score: "1"
-            active: true
       - id: football-2481171
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "América de Cali"
-            score: "1"
+            score: "2"
             active: true
           - name: "Alianza de Valledupar"
             score: "0"
       - id: football-2429449
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "16'"
+        stateLabel: "33'"
         teams:
           - name: "Leones"
             score: "0"
@@ -55,31 +45,40 @@ sports:
       - id: football-2583274
         competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "57'"
+        stateLabel: "74'"
         teams:
           - name: "Vinotinto Ecuador"
-            score: "0"
+            score: "1"
           - name: "San Antonio FC"
+            score: "1"
+      - id: football-2595383
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Sol de América"
             score: "0"
-      - id: football-2598844
+          - name: "General Caballero"
+            score: "0"
+      - id: football-2598843
         competition: "Venezuela Primera Division"
         state: live
-        stateLabel: "87'"
+        stateLabel: "2'"
         teams:
-          - name: "Anzoátegui"
-            score: "1"
-          - name: "Monagas"
-            score: "2"
-            active: true
-      - id: football-2397628
-        competition: "American USL League One"
+          - name: "Estudiantes de Mérida"
+            score: "0"
+          - name: "Universidad Central"
+            score: "0"
+      - id: football-2558878
+        competition: "Algerian Ligue 1"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Forward Madison"
-            score: "1"
-          - name: "One Knoxville"
-            score: "1"
+          - name: "JS El Biar"
+            score: "0"
+          - name: "Olympique Akbou"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
