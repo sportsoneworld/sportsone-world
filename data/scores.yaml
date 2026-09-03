@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 07:20 IST"
+updated: "03 Sep 2026, 07:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,16 @@ sports:
       - id: football-2397628
         competition: "American USL League One"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Forward Madison"
-            score: "0"
+            score: "1"
           - name: "One Knoxville"
-            score: "1"
-            active: true
-      - id: football-2558749
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "Salcedo"
-            score: "1"
-          - name: "Mount Pleasant"
             score: "1"
       - id: football-2413042
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "56'"
+        stateLabel: "74'"
         teams:
           - name: "Deportes Limache"
             score: "1"
@@ -55,7 +45,7 @@ sports:
       - id: football-2481242
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "22'"
+        stateLabel: "40'"
         teams:
           - name: "Independiente Santa Fe"
             score: "0"
@@ -65,7 +55,7 @@ sports:
       - id: football-2540103
         competition: "Copa Argentina"
         state: live
-        stateLabel: "74'"
+        stateLabel: "Live"
         teams:
           - name: "Vélez Sarsfield"
             score: "0"
@@ -74,11 +64,20 @@ sports:
       - id: football-2570521
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "55'"
+        stateLabel: "73'"
         teams:
           - name: "Santos"
             score: "0"
           - name: "Palmeiras"
+            score: "0"
+      - id: football-2570523
+        competition: "Copa do Brasil"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Vitória"
+            score: "0"
+          - name: "Vasco da Gama"
             score: "0"
 
   - name: Cricket
