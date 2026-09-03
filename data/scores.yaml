@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 00:22 IST"
+updated: "04 Sep 2026, 00:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2496711
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "15'"
+        stateLabel: "26'"
         teams:
           - name: "Gent"
             score: "0"
@@ -44,39 +44,39 @@ sports:
       - id: football-2496713
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "Anderlecht"
             score: "0"
           - name: "Kortrijk"
             score: "0"
-      - id: football-2511467
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Beroe"
-            score: "0"
-          - name: "Montana"
-            score: "0"
       - id: football-2594531
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "20'"
+        stateLabel: "31'"
         teams:
           - name: "River Plate Montevideo"
-            score: "1"
+            score: "2"
           - name: "Nacional Montevideo"
-            score: "1"
+            score: "2"
       - id: football-2594532
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Albion"
             score: "1"
             active: true
           - name: "Progreso"
+            score: "0"
+      - id: football-2578589
+        competition: "Coppa Italia"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Cagliari"
+            score: "0"
+          - name: "Hellas Verona"
             score: "0"
 
   - name: Cricket
