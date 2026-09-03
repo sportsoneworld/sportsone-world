@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 00:10 IST"
+updated: "04 Sep 2026, 00:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,58 @@ sports:
       - id: football-2558871
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "40'"
+        stateLabel: "Live"
         teams:
           - name: "ES Sétif"
             score: "0"
           - name: "ES Ben Aknoun"
             score: "0"
-      - id: football-2496713
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "Anderlecht"
-            score: "0"
-          - name: "Kortrijk"
-            score: "0"
       - id: football-2496711
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "15'"
         teams:
           - name: "Gent"
             score: "0"
           - name: "Oud-Heverlee Leuven"
             score: "0"
+      - id: football-2496713
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Anderlecht"
+            score: "0"
+          - name: "Kortrijk"
+            score: "0"
       - id: football-2511467
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Beroe"
             score: "0"
           - name: "Montana"
             score: "0"
+      - id: football-2594531
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "River Plate Montevideo"
+            score: "1"
+          - name: "Nacional Montevideo"
+            score: "1"
       - id: football-2594532
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "40'"
+        stateLabel: "Live"
         teams:
           - name: "Albion"
             score: "1"
             active: true
           - name: "Progreso"
             score: "0"
-      - id: football-2594531
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "9'"
-        teams:
-          - name: "River Plate Montevideo"
-            score: "0"
-          - name: "Nacional Montevideo"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
