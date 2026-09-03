@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 04:33 IST"
+updated: "04 Sep 2026, 04:49 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2579883
+        competition: "Brazil Serie D"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "CSA"
+            score: "0"
+          - name: "Nacional-AM"
+            score: "0"
       - id: football-2431423
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "2'"
+        stateLabel: "18'"
         teams:
           - name: "Náutico"
             score: "0"
@@ -35,7 +44,7 @@ sports:
       - id: football-2481449
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "20'"
         teams:
           - name: "Internacional de Palmira"
             score: "0"
@@ -44,7 +53,7 @@ sports:
       - id: football-2594533
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "2'"
+        stateLabel: "19'"
         teams:
           - name: "Oriental de La Paz"
             score: "0"
@@ -53,30 +62,22 @@ sports:
       - id: football-2570522
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "2'"
+        stateLabel: "19'"
         teams:
           - name: "Grêmio"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Internacional"
             score: "0"
       - id: football-2429449
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "68'"
+        stateLabel: "85'"
         teams:
           - name: "Leones"
             score: "1"
             active: true
           - name: "Orense"
-            score: "0"
-      - id: football-2595549
-        competition: "Nicaragua Primera Division"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Managua"
-            score: "0"
-          - name: "Diriangén"
             score: "0"
 
   - name: Cricket
