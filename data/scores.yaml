@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 20:21 IST"
+updated: "03 Sep 2026, 20:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,35 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2561019
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Baku Sportinq"
-            score: "0"
-          - name: "Karvan"
-            score: "3"
-            active: true
-      - id: football-2561017
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ordu"
-            score: "0"
-          - name: "Şahdağ Qusar"
-            score: "1"
-            active: true
-      - id: football-2561021
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Xankəndi"
-            score: "1"
-          - name: "Səbail"
-            score: "1"
       - id: football-2437817
         competition: "Belarus Vyscha Liga"
         state: live
@@ -81,6 +52,34 @@ sports:
             score: "2"
             active: true
           - name: "Etar Veliko Tarnovo"
+            score: "0"
+      - id: football-2440615
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Locomotive Tbilisi"
+            score: "2"
+            active: true
+          - name: "Tbilisi 2025"
+            score: "0"
+      - id: football-2578053
+        competition: "Italy Coppa Italia Serie C"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Cittadella"
+            score: "0"
+          - name: "Renate"
+            score: "0"
+      - id: football-2452404
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Tobol-M"
+            score: "0"
+          - name: "Kairat-Zhastar"
             score: "0"
 
   - name: Cricket
