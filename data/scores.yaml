@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 11:12 IST"
+updated: "03 Sep 2026, 12:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -42,15 +42,6 @@ sports:
             active: true
           - name: "Ñublense"
             score: "0"
-      - id: football-2594957
-        competition: "Leagues Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "América"
-            score: "2"
-          - name: "Monterrey"
-            score: "2"
       - id: football-2397303
         competition: "American USL Championship"
         state: upcoming
@@ -80,6 +71,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Birmingham Legion"
+            score: "–"
+      - id: football-2397307
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Miami FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Pittsburgh Riverhounds"
             score: "–"
 
   - name: Cricket
