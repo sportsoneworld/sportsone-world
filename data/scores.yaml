@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 19:20 IST"
+updated: "03 Sep 2026, 19:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2561021
+        competition: "Azerbaijan First Division"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Xankəndi"
+            score: "1"
+          - name: "Səbail"
+            score: "1"
       - id: football-2561019
         competition: "Azerbaijan First Division"
         state: live
@@ -33,15 +42,6 @@ sports:
           - name: "Karvan"
             score: "1"
             active: true
-      - id: football-2561021
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Xankəndi"
-            score: "1"
-          - name: "Səbail"
-            score: "1"
       - id: football-2561017
         competition: "Azerbaijan First Division"
         state: live
@@ -52,34 +52,33 @@ sports:
           - name: "Şahdağ Qusar"
             score: "1"
             active: true
-      - id: football-2440612
-        competition: "Georgian Liga 3"
+      - id: football-2437817
+        competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "52'"
+        stateLabel: "2'"
         teams:
-          - name: "Iberia 2010"
-            score: "2"
-            active: true
-          - name: "Orbi Tbilisi"
-            score: "1"
-      - id: football-2440616
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "57'"
-        teams:
-          - name: "Margveti 2006 Zestaponi"
+          - name: "Isloch Minsk Raion"
             score: "0"
-          - name: "Merani Tbilisi"
+          - name: "BATE Borisov"
             score: "0"
-      - id: football-2440614
-        competition: "Georgian Liga 3"
+      - id: football-2511471
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "57'"
+        stateLabel: "1'"
         teams:
-          - name: "Kolkheti Khobi"
-            score: "1"
-          - name: "Didube 2014 Tbilisi"
-            score: "1"
+          - name: "Vihren Sandanski"
+            score: "0"
+          - name: "Etar Veliko Tarnovo"
+            score: "0"
+      - id: football-2511468
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "CSKA Sofia II"
+            score: "0"
+          - name: "Spartak Pleven"
+            score: "0"
 
   - name: Cricket
     matches:
