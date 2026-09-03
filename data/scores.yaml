@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 21:54 IST"
+updated: "03 Sep 2026, 22:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2523513
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "37'"
         teams:
           - name: "Alashkert"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2511469
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "Lokomotiv Gorna Oryahovitsa"
             score: "1"
@@ -46,7 +46,7 @@ sports:
       - id: football-2599077
         competition: "Coppa Italia"
         state: live
-        stateLabel: "22'"
+        stateLabel: "35'"
         teams:
           - name: "Palermo"
             score: "1"
@@ -56,7 +56,7 @@ sports:
       - id: football-2566641
         competition: "Denmark DBU Pokalen"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "Thisted"
             score: "0"
@@ -65,7 +65,7 @@ sports:
       - id: football-2429179
         competition: "Estonian Esiliiga"
         state: live
-        stateLabel: "23'"
+        stateLabel: "36'"
         teams:
           - name: "Viimsi"
             score: "1"
