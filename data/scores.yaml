@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 01:17 IST"
+updated: "04 Sep 2026, 01:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558871
+      - id: football-2558878
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "85'"
+        stateLabel: "1'"
         teams:
-          - name: "ES Sétif"
+          - name: "JS El Biar"
             score: "0"
-          - name: "ES Ben Aknoun"
-            score: "1"
-            active: true
+          - name: "Olympique Akbou"
+            score: "0"
       - id: football-2496711
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "52'"
+        stateLabel: "69'"
         teams:
           - name: "Gent"
             score: "1"
@@ -46,7 +45,7 @@ sports:
       - id: football-2496713
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "58'"
+        stateLabel: "75'"
         teams:
           - name: "Anderlecht"
             score: "1"
@@ -56,32 +55,33 @@ sports:
       - id: football-2594531
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "56'"
+        stateLabel: "73'"
         teams:
           - name: "River Plate Montevideo"
             score: "2"
           - name: "Nacional Montevideo"
             score: "3"
             active: true
-      - id: football-2594532
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Albion"
-            score: "1"
-          - name: "Progreso"
-            score: "1"
       - id: football-2578589
         competition: "Coppa Italia"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Cagliari"
             score: "0"
           - name: "Hellas Verona"
             score: "1"
             active: true
+      - id: football-2429452
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Universidad Católica del Ecuador"
+            score: "1"
+            active: true
+          - name: "Aucas"
+            score: "0"
 
   - name: Cricket
     matches:
