@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 23:56 IST"
+updated: "04 Sep 2026, 00:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,34 @@ sports:
       - id: football-2558871
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "24'"
+        stateLabel: "40'"
         teams:
           - name: "ES Sétif"
             score: "0"
           - name: "ES Ben Aknoun"
             score: "0"
+      - id: football-2496713
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "10'"
+        teams:
+          - name: "Anderlecht"
+            score: "0"
+          - name: "Kortrijk"
+            score: "0"
+      - id: football-2496711
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Gent"
+            score: "0"
+          - name: "Oud-Heverlee Leuven"
+            score: "0"
       - id: football-2511467
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "67'"
+        stateLabel: "82'"
         teams:
           - name: "Beroe"
             score: "0"
@@ -44,41 +62,23 @@ sports:
       - id: football-2594532
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "25'"
+        stateLabel: "40'"
         teams:
           - name: "Albion"
             score: "1"
             active: true
           - name: "Progreso"
             score: "0"
-      - id: football-2481827
-        competition: "Danish Superliga"
+      - id: football-2594531
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "23'"
+        stateLabel: "9'"
         teams:
-          - name: "FC Copenhagen"
+          - name: "River Plate Montevideo"
+            score: "0"
+          - name: "Nacional Montevideo"
             score: "1"
             active: true
-          - name: "FC Nordsjælland"
-            score: "0"
-      - id: football-2561096
-        competition: "Egyptian Premier League"
-        state: live
-        stateLabel: "59'"
-        teams:
-          - name: "Al Ahly"
-            score: "0"
-          - name: "Smouha"
-            score: "0"
-      - id: football-2593097
-        competition: "Greek Football Cup"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Panathinaikos"
-            score: "0"
-          - name: "Niki Volos"
-            score: "0"
 
   - name: Cricket
     matches:
