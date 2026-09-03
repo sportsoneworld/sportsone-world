@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 18:00 IST"
+updated: "03 Sep 2026, 18:16 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,48 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2440614
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Kolkheti Khobi"
+            score: "1"
+            active: true
+          - name: "Didube 2014 Tbilisi"
+            score: "0"
+      - id: football-2440616
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Margveti 2006 Zestaponi"
+            score: "0"
+          - name: "Merani Tbilisi"
+            score: "0"
+      - id: football-2440611
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Iberia-2 1999"
+            score: "0"
+          - name: "Dinamo-2 Tbilisi"
+            score: "0"
+      - id: football-2440612
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Iberia 2010"
+            score: "2"
+            active: true
+          - name: "Orbi Tbilisi"
+            score: "0"
       - id: football-2452401
         competition: "Kazakhstan First League"
         state: live
-        stateLabel: "23'"
+        stateLabel: "38'"
         teams:
           - name: "Arys"
             score: "0"
@@ -35,52 +73,13 @@ sports:
       - id: football-2452400
         competition: "Kazakhstan First League"
         state: live
-        stateLabel: "26'"
+        stateLabel: "41'"
         teams:
           - name: "Shakhter Karagandy"
             score: "2"
             active: true
           - name: "Khan Tengri"
             score: "0"
-      - id: football-2397628
-        competition: "American USL League One"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Forward Madison"
-            score: "1"
-          - name: "One Knoxville"
-            score: "1"
-      - id: football-2413042
-        competition: "Chile Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Deportes Limache"
-            score: "2"
-            active: true
-          - name: "Ñublense"
-            score: "0"
-      - id: football-2397303
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Loudoun United"
-            score: "–"
-            detail: "23:00"
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-      - id: football-2397304
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Hartford Athletic"
-            score: "–"
 
   - name: Cricket
     matches:
