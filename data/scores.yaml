@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 00:33 IST"
+updated: "04 Sep 2026, 00:49 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2558871
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "ES Sétif"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2496711
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "26'"
+        stateLabel: "43'"
         teams:
           - name: "Gent"
             score: "0"
@@ -44,35 +44,37 @@ sports:
       - id: football-2496713
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Anderlecht"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Kortrijk"
             score: "0"
-      - id: football-2594531
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "River Plate Montevideo"
-            score: "2"
-          - name: "Nacional Montevideo"
-            score: "2"
       - id: football-2594532
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "46'"
+        stateLabel: "63'"
         teams:
           - name: "Albion"
             score: "1"
             active: true
           - name: "Progreso"
             score: "0"
+      - id: football-2594531
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "River Plate Montevideo"
+            score: "2"
+          - name: "Nacional Montevideo"
+            score: "3"
+            active: true
       - id: football-2578589
         competition: "Coppa Italia"
         state: live
-        stateLabel: "3'"
+        stateLabel: "20'"
         teams:
           - name: "Cagliari"
             score: "0"
