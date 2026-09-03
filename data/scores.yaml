@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 01:33 IST"
+updated: "04 Sep 2026, 01:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2558878
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "1'"
+        stateLabel: "19'"
         teams:
           - name: "JS El Biar"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2496711
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "69'"
+        stateLabel: "87'"
         teams:
           - name: "Gent"
             score: "1"
@@ -45,7 +45,7 @@ sports:
       - id: football-2496713
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "Live"
         teams:
           - name: "Anderlecht"
             score: "1"
@@ -55,7 +55,7 @@ sports:
       - id: football-2594531
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "73'"
+        stateLabel: "Live"
         teams:
           - name: "River Plate Montevideo"
             score: "2"
@@ -65,17 +65,16 @@ sports:
       - id: football-2578589
         competition: "Coppa Italia"
         state: live
-        stateLabel: "45'"
+        stateLabel: "64'"
         teams:
           - name: "Cagliari"
-            score: "0"
+            score: "1"
           - name: "Hellas Verona"
             score: "1"
-            active: true
       - id: football-2429452
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "53'"
         teams:
           - name: "Universidad Católica del Ecuador"
             score: "1"
