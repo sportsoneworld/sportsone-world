@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 05:17 IST"
+updated: "03 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2397302
         competition: "American USL Championship"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Charleston Battery"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2397627
         competition: "American USL League One"
         state: live
-        stateLabel: "10'"
+        stateLabel: "28'"
         teams:
           - name: "Fort Wayne FC"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2397629
         competition: "American USL League One"
         state: live
-        stateLabel: "11'"
+        stateLabel: "29'"
         teams:
           - name: "New York Cosmos"
             score: "0"
@@ -54,16 +54,17 @@ sports:
       - id: football-2397625
         competition: "American USL League One"
         state: live
-        stateLabel: "11'"
+        stateLabel: "29'"
         teams:
           - name: "Charlotte Independence"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Portland Hearts of Pine"
             score: "0"
       - id: football-2397630
         competition: "American USL League One"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Westchester SC"
             score: "0"
@@ -73,10 +74,11 @@ sports:
       - id: football-2404927
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "25'"
+        stateLabel: "43'"
         teams:
           - name: "Colegiales"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Ferrocarril Midland"
             score: "0"
 
@@ -101,34 +103,4 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Jamaica Kingsmen"
-            score: "–"
-      - id: cricket-2465896
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Hampshire"
-            score: "–"
-            detail: "00:00"
-          - name: "Warwickshire"
-            score: "–"
-      - id: cricket-2465897
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Somerset"
-            score: "–"
-            detail: "00:00"
-          - name: "Glamorgan"
-            score: "–"
-      - id: cricket-2465898
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Nottinghamshire"
-            score: "–"
-            detail: "00:00"
-          - name: "Leicestershire"
             score: "–"
