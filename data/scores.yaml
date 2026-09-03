@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 02:05 IST"
+updated: "04 Sep 2026, 02:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2558878
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "JS El Biar"
             score: "0"
@@ -35,49 +35,49 @@ sports:
       - id: football-2578589
         competition: "Coppa Italia"
         state: live
-        stateLabel: "78'"
+        stateLabel: "90'"
         teams:
           - name: "Cagliari"
             score: "1"
           - name: "Hellas Verona"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2429452
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "67'"
+        stateLabel: "79'"
         teams:
           - name: "Universidad Católica del Ecuador"
             score: "1"
-            active: true
           - name: "Aucas"
-            score: "0"
+            score: "1"
       - id: football-2583274
         competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "6'"
+        stateLabel: "18'"
         teams:
           - name: "Vinotinto Ecuador"
             score: "0"
           - name: "San Antonio FC"
             score: "0"
-      - id: football-2489485
-        competition: "French Ligue 1"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Toulouse"
-            score: "0"
-          - name: "Lille"
-            score: "1"
-            active: true
       - id: football-2508557
         competition: "French Ligue 3"
         state: live
-        stateLabel: "88'"
+        stateLabel: "Live"
         teams:
           - name: "Rouen"
             score: "1"
           - name: "Valenciennes"
+            score: "1"
+      - id: football-2578667
+        competition: "Iraqi Premier League"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Duhok"
+            score: "2"
+            active: true
+          - name: "Al-Quwa Al-Jawiya"
             score: "1"
 
   - name: Cricket
