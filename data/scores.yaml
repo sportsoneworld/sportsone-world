@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 20:34 IST"
+updated: "03 Sep 2026, 20:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,50 +26,51 @@ sports:
       - id: football-2437817
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "68'"
         teams:
           - name: "Isloch Minsk Raion"
             score: "1"
             active: true
           - name: "BATE Borisov"
             score: "0"
-      - id: football-2511468
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "CSKA Sofia II"
-            score: "2"
-            active: true
-          - name: "Spartak Pleven"
-            score: "1"
       - id: football-2511471
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "65'"
         teams:
           - name: "Vihren Sandanski"
-            score: "2"
+            score: "4"
             active: true
           - name: "Etar Veliko Tarnovo"
             score: "0"
+      - id: football-2511468
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "68'"
+        teams:
+          - name: "CSKA Sofia II"
+            score: "4"
+            active: true
+          - name: "Spartak Pleven"
+            score: "1"
       - id: football-2440615
         competition: "Georgian Liga 3"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Locomotive Tbilisi"
-            score: "2"
+            score: "3"
             active: true
           - name: "Tbilisi 2025"
             score: "0"
       - id: football-2578053
         competition: "Italy Coppa Italia Serie C"
         state: live
-        stateLabel: "2'"
+        stateLabel: "25'"
         teams:
           - name: "Cittadella"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Renate"
             score: "0"
       - id: football-2452404
