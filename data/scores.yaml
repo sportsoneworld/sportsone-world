@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 03:52 IST"
+updated: "04 Sep 2026, 04:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,36 +26,26 @@ sports:
       - id: football-2481171
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "59'"
+        stateLabel: "72'"
         teams:
           - name: "América de Cali"
-            score: "2"
+            score: "3"
             active: true
           - name: "Alianza de Valledupar"
             score: "0"
       - id: football-2429449
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Leones"
             score: "0"
           - name: "Orense"
             score: "0"
-      - id: football-2583274
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vinotinto Ecuador"
-            score: "4"
-            active: true
-          - name: "San Antonio FC"
-            score: "2"
       - id: football-2595383
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "20'"
+        stateLabel: "32'"
         teams:
           - name: "Sol de América"
             score: "0"
@@ -65,13 +55,12 @@ sports:
       - id: football-2598843
         competition: "Venezuela Primera Division"
         state: live
-        stateLabel: "20'"
+        stateLabel: "32'"
         teams:
           - name: "Estudiantes de Mérida"
-            score: "0"
+            score: "1"
           - name: "Universidad Central"
             score: "1"
-            active: true
       - id: football-2558878
         competition: "Algerian Ligue 1"
         state: completed
@@ -82,6 +71,15 @@ sports:
           - name: "Olympique Akbou"
             score: "2"
             active: true
+      - id: football-2397628
+        competition: "American USL League One"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Forward Madison"
+            score: "1"
+          - name: "One Knoxville"
+            score: "1"
 
   - name: Cricket
     matches:
