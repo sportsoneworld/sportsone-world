@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 19:34 IST"
+updated: "03 Sep 2026, 19:55 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2561021
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "48'"
-        teams:
-          - name: "Xankəndi"
-            score: "1"
-          - name: "Səbail"
-            score: "1"
       - id: football-2561019
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "Baku Sportinq"
             score: "0"
           - name: "Karvan"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2561017
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "65'"
         teams:
           - name: "Ordu"
             score: "0"
           - name: "Şahdağ Qusar"
             score: "1"
             active: true
+      - id: football-2561021
+        competition: "Azerbaijan First Division"
+        state: live
+        stateLabel: "69'"
+        teams:
+          - name: "Xankəndi"
+            score: "1"
+          - name: "Səbail"
+            score: "1"
       - id: football-2437817
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "2'"
+        stateLabel: "22'"
         teams:
           - name: "Isloch Minsk Raion"
             score: "0"
@@ -64,16 +64,17 @@ sports:
       - id: football-2511471
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "22'"
         teams:
           - name: "Vihren Sandanski"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Etar Veliko Tarnovo"
             score: "0"
       - id: football-2511468
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "24'"
         teams:
           - name: "CSKA Sofia II"
             score: "0"
