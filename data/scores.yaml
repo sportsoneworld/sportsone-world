@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 21:19 IST"
+updated: "03 Sep 2026, 21:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437817
-        competition: "Belarus Vyscha Liga"
+      - id: football-2523513
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "90'"
+        stateLabel: "5'"
         teams:
-          - name: "Isloch Minsk Raion"
-            score: "2"
-            active: true
-          - name: "BATE Borisov"
+          - name: "Alashkert"
             score: "0"
-      - id: football-2511471
+          - name: "Van"
+            score: "0"
+      - id: football-2511469
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "87'"
+        stateLabel: "6'"
         teams:
-          - name: "Vihren Sandanski"
-            score: "4"
-            active: true
-          - name: "Etar Veliko Tarnovo"
+          - name: "Lokomotiv Gorna Oryahovitsa"
             score: "1"
-      - id: football-2511468
-        competition: "Bulgarian Second League"
+            active: true
+          - name: "Dobrudzha Dobrich"
+            score: "0"
+      - id: football-2599077
+        competition: "Coppa Italia"
         state: live
-        stateLabel: "90'"
+        stateLabel: "3'"
         teams:
-          - name: "CSKA Sofia II"
-            score: "5"
-            active: true
-          - name: "Spartak Pleven"
-            score: "1"
+          - name: "Palermo"
+            score: "0"
+          - name: "Mantova"
+            score: "0"
+      - id: football-2566641
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Thisted"
+            score: "0"
+          - name: "Sønderjyske"
+            score: "0"
+      - id: football-2429179
+        competition: "Estonian Esiliiga"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Viimsi"
+            score: "0"
+          - name: "FC Tallinn"
+            score: "0"
       - id: football-2440615
         competition: "Georgian Liga 3"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Locomotive Tbilisi"
             score: "3"
-            active: true
           - name: "Tbilisi 2025"
-            score: "2"
-      - id: football-2580666
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
-        stateLabel: "17'"
-        teams:
-          - name: "Fajr Sepasi Shiraz"
-            score: "0"
-          - name: "Mes Shahr-e Babak"
-            score: "0"
-      - id: football-2578053
-        competition: "Italy Coppa Italia Serie C"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cittadella"
-            score: "2"
-            active: true
-          - name: "Renate"
-            score: "1"
+            score: "3"
 
   - name: Cricket
     matches:
