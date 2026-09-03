@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 07:38 IST"
+updated: "03 Sep 2026, 10:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2594957
+        competition: "Leagues Cup"
+        state: live
+        stateLabel: "63'"
+        teams:
+          - name: "América"
+            score: "1"
+          - name: "Monterrey"
+            score: "1"
       - id: football-2397628
         competition: "American USL League One"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Forward Madison"
             score: "1"
           - name: "One Knoxville"
             score: "1"
+      - id: football-2532328
+        competition: "Canadian Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Vancouver Whitecaps"
+            score: "1"
+          - name: "CF Montréal"
+            score: "1"
       - id: football-2413042
         competition: "Chile Primera Division"
-        state: live
-        stateLabel: "74'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Deportes Limache"
-            score: "1"
+            score: "2"
             active: true
           - name: "Ñublense"
             score: "0"
-      - id: football-2481242
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "40'"
+      - id: football-2397303
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Independiente Santa Fe"
-            score: "0"
-          - name: "Millonarios"
-            score: "1"
-            active: true
-      - id: football-2540103
-        competition: "Copa Argentina"
-        state: live
-        stateLabel: "Live"
+          - name: "Loudoun United"
+            score: "–"
+            detail: "23:00"
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+      - id: football-2397304
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Vélez Sarsfield"
-            score: "0"
-          - name: "Boca Juniors"
-            score: "0"
-      - id: football-2570521
-        competition: "Copa do Brasil"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Santos"
-            score: "0"
-          - name: "Palmeiras"
-            score: "0"
-      - id: football-2570523
-        competition: "Copa do Brasil"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Vitória"
-            score: "0"
-          - name: "Vasco da Gama"
-            score: "0"
+          - name: "Detroit City FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Hartford Athletic"
+            score: "–"
 
   - name: Cricket
     matches:
