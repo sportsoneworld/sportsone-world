@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 02:17 IST"
+updated: "04 Sep 2026, 02:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,25 @@ sports:
       - id: football-2558878
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "JS El Biar"
             score: "0"
           - name: "Olympique Akbou"
             score: "0"
-      - id: football-2578589
-        competition: "Coppa Italia"
+      - id: football-2481171
+        competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "90'"
+        stateLabel: "3'"
         teams:
-          - name: "Cagliari"
-            score: "1"
-          - name: "Hellas Verona"
-            score: "2"
-            active: true
+          - name: "América de Cali"
+            score: "0"
+          - name: "Alianza de Valledupar"
+            score: "0"
       - id: football-2429452
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Universidad Católica del Ecuador"
             score: "1"
@@ -54,21 +53,12 @@ sports:
       - id: football-2583274
         competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "18'"
+        stateLabel: "34'"
         teams:
           - name: "Vinotinto Ecuador"
             score: "0"
           - name: "San Antonio FC"
             score: "0"
-      - id: football-2508557
-        competition: "French Ligue 3"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Rouen"
-            score: "1"
-          - name: "Valenciennes"
-            score: "1"
       - id: football-2578667
         competition: "Iraqi Premier League"
         state: live
@@ -78,6 +68,16 @@ sports:
             score: "2"
             active: true
           - name: "Al-Quwa Al-Jawiya"
+            score: "1"
+      - id: football-2595382
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Deportivo Capiatá"
+            score: "2"
+            active: true
+          - name: "3 de Noviembre"
             score: "1"
 
   - name: Cricket
