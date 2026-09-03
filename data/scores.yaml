@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 23:20 IST"
+updated: "03 Sep 2026, 23:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,59 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523513
-        competition: "Armenian Premier League"
+      - id: football-2558871
+        competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Alashkert"
-            score: "3"
-            active: true
-          - name: "Van"
+          - name: "ES Sétif"
             score: "0"
-      - id: football-2511469
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Lokomotiv Gorna Oryahovitsa"
-            score: "2"
-            active: true
-          - name: "Dobrudzha Dobrich"
+          - name: "ES Ben Aknoun"
             score: "0"
       - id: football-2511467
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Beroe"
             score: "0"
           - name: "Montana"
             score: "0"
-      - id: football-2599077
-        competition: "Coppa Italia"
+      - id: football-2594532
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "86'"
+        stateLabel: "4'"
         teams:
-          - name: "Palermo"
-            score: "3"
-            active: true
-          - name: "Mantova"
-            score: "2"
-      - id: football-2566641
-        competition: "Denmark DBU Pokalen"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Thisted"
+          - name: "Albion"
             score: "0"
-          - name: "Sønderjyske"
-            score: "2"
-            active: true
+          - name: "Progreso"
+            score: "0"
+      - id: football-2481827
+        competition: "Danish Superliga"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "FC Copenhagen"
+            score: "0"
+          - name: "FC Nordsjælland"
+            score: "0"
       - id: football-2561096
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Al Ahly"
             score: "0"
           - name: "Smouha"
+            score: "0"
+      - id: football-2593097
+        competition: "Greek Football Cup"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Panathinaikos"
+            score: "0"
+          - name: "Niki Volos"
             score: "0"
 
   - name: Cricket
