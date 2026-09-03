@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 10:35 IST"
+updated: "03 Sep 2026, 11:12 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,15 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2594957
-        competition: "Leagues Cup"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "América"
-            score: "1"
-          - name: "Monterrey"
-            score: "1"
       - id: football-2397628
         competition: "American USL League One"
         state: completed
@@ -40,15 +31,6 @@ sports:
           - name: "Forward Madison"
             score: "1"
           - name: "One Knoxville"
-            score: "1"
-      - id: football-2532328
-        competition: "Canadian Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Vancouver Whitecaps"
-            score: "1"
-          - name: "CF Montréal"
             score: "1"
       - id: football-2413042
         competition: "Chile Primera Division"
@@ -60,6 +42,15 @@ sports:
             active: true
           - name: "Ñublense"
             score: "0"
+      - id: football-2594957
+        competition: "Leagues Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "América"
+            score: "2"
+          - name: "Monterrey"
+            score: "2"
       - id: football-2397303
         competition: "American USL Championship"
         state: upcoming
@@ -79,6 +70,16 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Hartford Athletic"
+            score: "–"
+      - id: football-2397305
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Indy Eleven"
+            score: "–"
+            detail: "23:00"
+          - name: "Birmingham Legion"
             score: "–"
 
   - name: Cricket
