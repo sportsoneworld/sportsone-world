@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 18:54 IST"
+updated: "03 Sep 2026, 19:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2561019
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "20'"
+        stateLabel: "32'"
         teams:
           - name: "Baku Sportinq"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2561017
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "23'"
+        stateLabel: "35'"
         teams:
           - name: "Ordu"
             score: "0"
@@ -46,23 +46,22 @@ sports:
       - id: football-2561021
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "25'"
+        stateLabel: "37'"
         teams:
           - name: "Xankəndi"
-            score: "0"
+            score: "1"
           - name: "Səbail"
             score: "1"
-            active: true
-      - id: football-2440612
+      - id: football-2440610
         competition: "Georgian Liga 3"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Iberia 2010"
+          - name: "Guria Lanchkhuti"
             score: "2"
             active: true
-          - name: "Orbi Tbilisi"
-            score: "1"
+          - name: "Gonio"
+            score: "0"
       - id: football-2440611
         competition: "Georgian Liga 3"
         state: live
