@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 00:49 IST"
+updated: "04 Sep 2026, 01:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,20 +26,11 @@ sports:
       - id: football-2558871
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "58'"
+        stateLabel: "71'"
         teams:
           - name: "ES Sétif"
             score: "0"
           - name: "ES Ben Aknoun"
-            score: "0"
-      - id: football-2496711
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "43'"
-        teams:
-          - name: "Gent"
-            score: "0"
-          - name: "Oud-Heverlee Leuven"
             score: "0"
       - id: football-2496713
         competition: "Belgian Pro League"
@@ -51,10 +42,19 @@ sports:
             active: true
           - name: "Kortrijk"
             score: "0"
+      - id: football-2496711
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Gent"
+            score: "0"
+          - name: "Oud-Heverlee Leuven"
+            score: "0"
       - id: football-2594532
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "63'"
+        stateLabel: "76'"
         teams:
           - name: "Albion"
             score: "1"
@@ -74,12 +74,13 @@ sports:
       - id: football-2578589
         competition: "Coppa Italia"
         state: live
-        stateLabel: "20'"
+        stateLabel: "33'"
         teams:
           - name: "Cagliari"
             score: "0"
           - name: "Hellas Verona"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
