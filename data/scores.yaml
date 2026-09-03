@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 04:49 IST"
+updated: "04 Sep 2026, 05:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2579883
         competition: "Brazil Serie D"
         state: live
-        stateLabel: "14'"
+        stateLabel: "27'"
         teams:
           - name: "CSA"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2431423
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "18'"
+        stateLabel: "31'"
         teams:
           - name: "Náutico"
             score: "0"
@@ -44,35 +44,37 @@ sports:
       - id: football-2481449
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "20'"
+        stateLabel: "33'"
         teams:
           - name: "Internacional de Palmira"
             score: "0"
           - name: "Real Cundinamarca"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2594533
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "19'"
+        stateLabel: "33'"
         teams:
           - name: "Oriental de La Paz"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Racing Montevideo"
             score: "0"
       - id: football-2570522
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "19'"
+        stateLabel: "32'"
         teams:
           - name: "Grêmio"
-            score: "1"
+            score: "2"
             active: true
           - name: "Internacional"
             score: "0"
       - id: football-2429449
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "Leones"
             score: "1"
