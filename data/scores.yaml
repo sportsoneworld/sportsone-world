@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 18:34 IST"
+updated: "03 Sep 2026, 18:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2561019
+        competition: "Azerbaijan First Division"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Baku Sportinq"
+            score: "0"
+          - name: "Karvan"
+            score: "1"
+            active: true
       - id: football-2561017
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "3'"
+        stateLabel: "23'"
         teams:
           - name: "Ordu"
             score: "0"
           - name: "Şahdağ Qusar"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2561021
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "5'"
+        stateLabel: "25'"
         teams:
           - name: "Xankəndi"
             score: "0"
           - name: "Səbail"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2440612
         competition: "Georgian Liga 3"
         state: live
-        stateLabel: "27'"
+        stateLabel: "Live"
         teams:
           - name: "Iberia 2010"
             score: "2"
             active: true
           - name: "Orbi Tbilisi"
             score: "1"
-      - id: football-2440614
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Kolkheti Khobi"
-            score: "1"
-          - name: "Didube 2014 Tbilisi"
-            score: "1"
-      - id: football-2440616
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Margveti 2006 Zestaponi"
-            score: "0"
-          - name: "Merani Tbilisi"
-            score: "0"
       - id: football-2440611
         competition: "Georgian Liga 3"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Iberia-2 1999"
             score: "1"
             active: true
           - name: "Dinamo-2 Tbilisi"
+            score: "0"
+      - id: football-2440616
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Margveti 2006 Zestaponi"
+            score: "0"
+          - name: "Merani Tbilisi"
             score: "0"
 
   - name: Cricket
