@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 06:03 IST"
+updated: "03 Sep 2026, 06:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,61 +26,61 @@ sports:
       - id: football-2397302
         competition: "American USL Championship"
         state: live
-        stateLabel: "64'"
+        stateLabel: "83'"
         teams:
           - name: "Charleston Battery"
             score: "1"
-            active: true
           - name: "Hartford Athletic"
-            score: "0"
+            score: "1"
       - id: football-2397628
         competition: "American USL League One"
         state: live
-        stateLabel: "26'"
+        stateLabel: "44'"
         teams:
           - name: "Forward Madison"
             score: "0"
           - name: "One Knoxville"
             score: "0"
-      - id: football-2397630
-        competition: "American USL League One"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "Westchester SC"
-            score: "0"
-          - name: "Chattanooga Red Wolves"
-            score: "1"
-            active: true
-      - id: football-2397629
-        competition: "American USL League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "New York Cosmos"
-            score: "0"
-          - name: "Sarasota Paradise"
-            score: "0"
-      - id: football-2397625
-        competition: "American USL League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Charlotte Independence"
-            score: "1"
-            active: true
-          - name: "Portland Hearts of Pine"
-            score: "0"
       - id: football-2397627
         competition: "American USL League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "51'"
         teams:
           - name: "Fort Wayne FC"
             score: "1"
             active: true
           - name: "Richmond Kickers"
             score: "0"
+      - id: football-2397625
+        competition: "American USL League One"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "Charlotte Independence"
+            score: "1"
+            active: true
+          - name: "Portland Hearts of Pine"
+            score: "0"
+      - id: football-2397629
+        competition: "American USL League One"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "New York Cosmos"
+            score: "0"
+          - name: "Sarasota Paradise"
+            score: "1"
+            active: true
+      - id: football-2397630
+        competition: "American USL League One"
+        state: live
+        stateLabel: "83'"
+        teams:
+          - name: "Westchester SC"
+            score: "0"
+          - name: "Chattanooga Red Wolves"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
