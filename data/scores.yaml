@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Sep 2026, 06:33 IST"
+updated: "03 Sep 2026, 06:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397302
-        competition: "American USL Championship"
+      - id: football-2397628
+        competition: "American USL League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
-          - name: "Charleston Battery"
-            score: "1"
-          - name: "Hartford Athletic"
-            score: "1"
+          - name: "Forward Madison"
+            score: "0"
+          - name: "One Knoxville"
+            score: "0"
       - id: football-2397627
         competition: "American USL League One"
         state: live
-        stateLabel: "64'"
+        stateLabel: "85'"
         teams:
           - name: "Fort Wayne FC"
-            score: "1"
+            score: "2"
             active: true
           - name: "Richmond Kickers"
             score: "0"
       - id: football-2397629
         competition: "American USL League One"
         state: live
-        stateLabel: "68'"
+        stateLabel: "90'"
         teams:
           - name: "New York Cosmos"
-            score: "0"
-          - name: "Sarasota Paradise"
             score: "1"
+          - name: "Sarasota Paradise"
+            score: "2"
             active: true
       - id: football-2397625
         competition: "American USL League One"
         state: live
-        stateLabel: "68'"
+        stateLabel: "90'"
         teams:
           - name: "Charlotte Independence"
             score: "1"
           - name: "Portland Hearts of Pine"
             score: "2"
             active: true
-      - id: football-2397630
-        competition: "American USL League One"
+      - id: football-2558749
+        competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
-          - name: "Westchester SC"
-            score: "0"
-          - name: "Chattanooga Red Wolves"
+          - name: "Salcedo"
             score: "1"
-            active: true
-      - id: football-2397628
-        competition: "American USL League One"
+          - name: "Mount Pleasant"
+            score: "1"
+      - id: football-2413042
+        competition: "Chile Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Forward Madison"
+          - name: "Deportes Limache"
             score: "0"
-          - name: "One Knoxville"
+          - name: "Ñublense"
             score: "0"
 
   - name: Cricket
