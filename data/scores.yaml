@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 21:19 IST"
+updated: "04 Sep 2026, 21:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2558877
+        competition: "Algerian Ligue 1"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Khenchela"
+            score: "0"
+          - name: "USM Alger"
+            score: "0"
       - id: football-2560657
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "Live"
+        stateLabel: "48'"
         teams:
           - name: "Bleiburg"
             score: "1"
           - name: "Treibach"
             score: "1"
-      - id: football-2546639
-        competition: "Azerbaijani Premier League"
+      - id: football-2570538
+        competition: "Bahrain Premier League"
         state: live
-        stateLabel: "88'"
+        stateLabel: "2'"
         teams:
-          - name: "Qəbələ"
-            score: "2"
-            active: true
-          - name: "İmişli"
-            score: "1"
+          - name: "Khalidiya"
+            score: "0"
+          - name: "A'Ali"
+            score: "0"
+      - id: football-2570537
+        competition: "Bahrain Premier League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Al-Ittifaq"
+            score: "0"
+          - name: "Al-Muharraq"
+            score: "0"
       - id: football-2452152
         competition: "Belarusian First League"
         state: live
-        stateLabel: "62'"
+        stateLabel: "77'"
         teams:
           - name: "Volna Pinsk"
             score: "2"
             active: true
           - name: "Dinamo-2 Minsk"
             score: "1"
-      - id: football-2452154
-        competition: "Belarusian First League"
+      - id: football-2487321
+        competition: "Bulgarian First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "Molodechno"
-            score: "3"
-            active: true
-          - name: "BATE-2 Borisov"
+          - name: "Septemvri Sofia"
             score: "0"
-      - id: football-2569959
-        competition: "CAF Confederation Cup"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Panthère du Ndé"
-            score: "1"
-            active: true
-          - name: "Rayon Sports"
+          - name: "Botev Vratsa"
             score: "0"
-      - id: football-2569952
-        competition: "CAF Confederation Cup"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "ES Zarzis"
-            score: "2"
-            active: true
-          - name: "Diambars"
-            score: "1"
 
   - name: Cricket
     matches:
