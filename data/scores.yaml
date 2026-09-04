@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 14:53 IST"
+updated: "04 Sep 2026, 15:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,16 +36,17 @@ sports:
       - id: football-2593067
         competition: "Myanmar National League"
         state: live
-        stateLabel: "23'"
+        stateLabel: "36'"
         teams:
           - name: "Chinland"
             score: "1"
           - name: "Yangon United"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2590476
         competition: "Myanmar National League"
         state: live
-        stateLabel: "23'"
+        stateLabel: "36'"
         teams:
           - name: "Yangon City"
             score: "0"
