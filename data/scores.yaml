@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 00:48 IST"
+updated: "05 Sep 2026, 01:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,7 +36,7 @@ sports:
       - id: football-2408604
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
           - name: "Yupanqui"
             score: "0"
@@ -45,41 +45,42 @@ sports:
       - id: football-2553179
         competition: "Austrian Cup"
         state: live
-        stateLabel: "106'"
+        stateLabel: "120'"
         teams:
           - name: "Floridsdorfer AC"
             score: "0"
           - name: "Schwarz-Weiß Bregenz"
             score: "0"
-      - id: football-2560453
-        competition: "Austrian Regionalliga Nord"
+      - id: football-2497018
+        competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "89'"
+        stateLabel: "63'"
         teams:
-          - name: "TSV St. Johann"
+          - name: "Beerschot"
             score: "2"
             active: true
-          - name: "Seekirchen"
+          - name: "Patro Eisden"
             score: "1"
-      - id: football-2514301
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2497019
+        competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "86'"
+        stateLabel: "72'"
         teams:
-          - name: "Oberwart"
-            score: "0"
-          - name: "Donau Wien"
+          - name: "Dender"
             score: "2"
             active: true
-      - id: football-2514300
-        competition: "Austrian Regionalliga Ost"
+          - name: "Seraing"
+            score: "0"
+      - id: football-2496726
+        competition: "Belgian Pro League"
         state: live
-        stateLabel: "90'"
+        stateLabel: "Live"
         teams:
-          - name: "Wiener SC"
+          - name: "Lommel"
             score: "0"
-          - name: "Donaufeld Wien"
-            score: "0"
+          - name: "Club Brugge"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
