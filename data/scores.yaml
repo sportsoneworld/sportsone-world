@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 03:17 IST"
+updated: "05 Sep 2026, 03:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,15 +23,23 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558874
-        competition: "Algerian Ligue 1"
+      - id: football-2398058
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "86'"
+        stateLabel: "2'"
         teams:
-          - name: "JS Kabylie"
-            score: "1"
-            active: true
-          - name: "MB Rouissat"
+          - name: "Belgrano"
+            score: "0"
+          - name: "Huracán"
+            score: "0"
+      - id: football-2398064
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Platense"
+            score: "0"
+          - name: "Deportivo Riestra"
             score: "0"
       - id: football-2398060
         competition: "Argentinian Primera Division"
@@ -46,41 +54,30 @@ sports:
       - id: football-2566607
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "ABB"
             score: "1"
             active: true
           - name: "Universitario de Vinto"
             score: "0"
-      - id: football-2481443
+      - id: football-2421985
+        competition: "Chile Primera B"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Rangers de Talca"
+            score: "0"
+          - name: "Deportes Temuco"
+            score: "0"
+      - id: football-2481444
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "57'"
+        stateLabel: "3'"
         teams:
-          - name: "Itagüí Leones"
+          - name: "Bogotá"
             score: "0"
-          - name: "Atlético Cali"
-            score: "2"
-            active: true
-      - id: football-2583278
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "55'"
-        teams:
-          - name: "Atlético FC"
-            score: "1"
-            active: true
-          - name: "9 de Octubre"
-            score: "0"
-      - id: football-2523983
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "13'"
-        teams:
-          - name: "Crown Legacy"
-            score: "0"
-          - name: "Chicago Fire II"
+          - name: "Independiente Yumbo"
             score: "0"
 
   - name: Cricket
