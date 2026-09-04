@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 22:05 IST"
+updated: "04 Sep 2026, 22:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2533271
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "3'"
+        stateLabel: "16'"
         teams:
           - name: "Egnatia"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Skënderbeu Korçë"
             score: "0"
       - id: football-2558877
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Khenchela"
             score: "0"
@@ -44,17 +45,16 @@ sports:
       - id: football-2523515
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "31'"
+        stateLabel: "45'"
         teams:
           - name: "Noah"
-            score: "0"
+            score: "2"
           - name: "Gandzasar"
-            score: "1"
-            active: true
+            score: "2"
       - id: football-2553180
         competition: "Austrian Cup"
         state: live
-        stateLabel: "2'"
+        stateLabel: "15'"
         teams:
           - name: "Kapfenberger SV"
             score: "0"
@@ -63,22 +63,22 @@ sports:
       - id: football-2560657
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Bleiburg"
-            score: "2"
+            score: "3"
             active: true
           - name: "Treibach"
             score: "1"
       - id: football-2546641
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "20'"
+        stateLabel: "33'"
         teams:
           - name: "Kəpəz"
             score: "0"
           - name: "Şamaxı"
-            score: "1"
+            score: "2"
             active: true
 
   - name: Cricket
