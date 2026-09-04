@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 05:17 IST"
+updated: "04 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2579883
         competition: "Brazil Serie D"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "CSA"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2481449
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Internacional de Palmira"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2594533
         competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "Live"
+        stateLabel: "48'"
         teams:
           - name: "Oriental de La Paz"
             score: "1"
@@ -63,35 +63,25 @@ sports:
       - id: football-2570522
         competition: "Copa do Brasil"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Grêmio"
             score: "2"
             active: true
           - name: "Internacional"
             score: "0"
-      - id: football-2595549
-        competition: "Nicaragua Primera Division"
+      - id: football-2429450
+        competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Managua"
-            score: "2"
-          - name: "Diriangén"
-            score: "2"
+          - name: "Libertad FC"
+            score: "0"
+          - name: "Emelec"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578483
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "St Kitts and Nevis Patriots"
-            score: "–"
-            detail: "23:00"
-          - name: "Saint Lucia Kings"
-            score: "–"
       - id: cricket-2578484
         competition: "Caribbean Premier League"
         state: upcoming
@@ -101,4 +91,34 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Jamaica Kingsmen"
+            score: "–"
+      - id: cricket-2578485
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Barbados Tridents"
+            score: "–"
+            detail: "00:00"
+          - name: "Trinbago Knight Riders"
+            score: "–"
+      - id: cricket-2578486
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "14:00"
+        teams:
+          - name: "Guyana Amazon Warriors"
+            score: "–"
+            detail: "14:00"
+          - name: "St Kitts and Nevis Patriots"
+            score: "–"
+      - id: cricket-2578487
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Barbados Tridents"
+            score: "–"
+            detail: "23:00"
+          - name: "Saint Lucia Kings"
             score: "–"
