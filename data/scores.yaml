@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 22:51 IST"
+updated: "04 Sep 2026, 23:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2558877
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "62'"
+        stateLabel: "74'"
         teams:
           - name: "Khenchela"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2523515
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "60'"
+        stateLabel: "72'"
         teams:
           - name: "Noah"
             score: "2"
@@ -53,16 +53,17 @@ sports:
       - id: football-2553192
         competition: "Austrian Cup"
         state: live
-        stateLabel: "16'"
+        stateLabel: "28'"
         teams:
           - name: "Wallern"
             score: "0"
           - name: "SV Ried"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2553179
         competition: "Austrian Cup"
         state: live
-        stateLabel: "17'"
+        stateLabel: "29'"
         teams:
           - name: "Floridsdorfer AC"
             score: "0"
