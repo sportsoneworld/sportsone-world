@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 17:59 IST"
+updated: "04 Sep 2026, 18:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2599703
         competition: "ASEAN Club Championship"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "Manila Digger"
             score: "4"
@@ -36,7 +36,7 @@ sports:
       - id: football-2523518
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "28'"
+        stateLabel: "43'"
         teams:
           - name: "Syunik"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2594976
         competition: "Australia Western Australia NPL"
         state: live
-        stateLabel: "60'"
+        stateLabel: "76'"
         teams:
           - name: "Bayswater City"
             score: "3"
@@ -54,32 +54,31 @@ sports:
       - id: football-2594977
         competition: "Australia Western Australia NPL"
         state: live
-        stateLabel: "70'"
+        stateLabel: "86'"
         teams:
           - name: "Perth RedStar"
-            score: "0"
+            score: "1"
           - name: "Perth SC"
             score: "1"
-            active: true
       - id: football-2577192
         competition: "Indonesian Super League"
         state: live
-        stateLabel: "19'"
+        stateLabel: "34'"
         teams:
           - name: "Bali United"
             score: "0"
           - name: "PSS Sleman"
             score: "0"
-      - id: football-2422231
-        competition: "South Korean K League 2"
+      - id: football-2546872
+        competition: "Thai League 2"
         state: live
-        stateLabel: "Live"
+        stateLabel: "43'"
         teams:
-          - name: "Chungbuk Cheongju"
-            score: "0"
-          - name: "Seoul E-Land"
-            score: "2"
+          - name: "Uttaradit"
+            score: "1"
             active: true
+          - name: "Muangthong United"
+            score: "0"
 
   - name: Cricket
     matches:
