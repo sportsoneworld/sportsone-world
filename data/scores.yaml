@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 01:33 IST"
+updated: "05 Sep 2026, 01:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2558874
+        competition: "Algerian Ligue 1"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "JS Kabylie"
+            score: "0"
+          - name: "MB Rouissat"
+            score: "0"
       - id: football-2405053
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "74'"
+        stateLabel: "Live"
         teams:
           - name: "Defensores de Belgrano"
             score: "3"
@@ -36,27 +45,17 @@ sports:
       - id: football-2398060
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "20'"
+        stateLabel: "39'"
         teams:
           - name: "Estudiantes de Río Cuarto"
             score: "0"
           - name: "Sarmiento"
             score: "1"
             active: true
-      - id: football-2497018
-        competition: "Belgian Challenger Pro League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Beerschot"
-            score: "4"
-            active: true
-          - name: "Patro Eisden"
-            score: "2"
       - id: football-2496726
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "61'"
+        stateLabel: "80'"
         teams:
           - name: "Lommel"
             score: "0"
@@ -66,23 +65,23 @@ sports:
       - id: football-2566606
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "45'"
+        stateLabel: "64'"
         teams:
           - name: "Real Oruro"
             score: "1"
             active: true
           - name: "San Antonio Bulo Bulo"
             score: "0"
-      - id: football-2487324
-        competition: "Bulgarian First League"
+      - id: football-2528219
+        competition: "English National League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "79'"
         teams:
-          - name: "Arda Kardzhali"
+          - name: "Altrincham"
             score: "2"
-          - name: "Botev Plovdiv"
-            score: "3"
             active: true
+          - name: "Eastleigh"
+            score: "1"
 
   - name: Cricket
     matches:
