@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 04:33 IST"
+updated: "05 Sep 2026, 04:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,28 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2397303
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Loudoun United"
+            score: "0"
+          - name: "Colorado Springs Switchbacks"
+            score: "0"
+      - id: football-2405056
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Ferro Carril Oeste"
+            score: "0"
+          - name: "Mitre"
+            score: "0"
       - id: football-2408601
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Mercedes"
             score: "0"
@@ -36,7 +54,7 @@ sports:
       - id: football-2398058
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "55'"
         teams:
           - name: "Belgrano"
             score: "0"
@@ -45,42 +63,22 @@ sports:
       - id: football-2398064
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "59'"
         teams:
           - name: "Platense"
             score: "1"
             active: true
           - name: "Deportivo Riestra"
             score: "0"
-      - id: football-2566607
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "ABB"
-            score: "2"
-            active: true
-          - name: "Universitario de Vinto"
-            score: "0"
       - id: football-2431419
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Criciúma"
             score: "1"
             active: true
           - name: "Cuiabá"
-            score: "0"
-      - id: football-2421985
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Rangers de Talca"
-            score: "1"
-            active: true
-          - name: "Deportes Temuco"
             score: "0"
 
   - name: Cricket
