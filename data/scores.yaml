@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 16:20 IST"
+updated: "04 Sep 2026, 16:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,24 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2599703
+        competition: "ASEAN Club Championship"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Manila Digger"
+            score: "0"
+          - name: "Kasuka"
+            score: "0"
+      - id: football-2594977
+        competition: "Australia Western Australia NPL"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Perth RedStar"
+            score: "0"
+          - name: "Perth SC"
+            score: "0"
       - id: football-2552578
         competition: "Campeonato de Portugal Serie B"
         state: live
@@ -33,29 +51,10 @@ sports:
           - name: "Machico"
             score: "1"
             active: true
-      - id: football-2593067
-        competition: "Myanmar National League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Chinland"
-            score: "1"
-          - name: "Yangon United"
-            score: "5"
-            active: true
-      - id: football-2590476
-        competition: "Myanmar National League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Yangon City"
-            score: "0"
-          - name: "Yadanarbon"
-            score: "0"
       - id: football-2422231
         competition: "South Korean K League 2"
         state: live
-        stateLabel: "18'"
+        stateLabel: "32'"
         teams:
           - name: "Chungbuk Cheongju"
             score: "0"
@@ -64,7 +63,7 @@ sports:
       - id: football-2422232
         competition: "South Korean K League 2"
         state: live
-        stateLabel: "19'"
+        stateLabel: "33'"
         teams:
           - name: "Paju Frontier"
             score: "0"
@@ -73,7 +72,7 @@ sports:
       - id: football-2523758
         competition: "Ukrainian First League"
         state: live
-        stateLabel: "8'"
+        stateLabel: "22'"
         teams:
           - name: "Kolos-2 Kovalivka"
             score: "0"
