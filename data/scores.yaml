@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 02:05 IST"
+updated: "05 Sep 2026, 02:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,10 +26,11 @@ sports:
       - id: football-2558874
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "28'"
+        stateLabel: "40'"
         teams:
           - name: "JS Kabylie"
-            score: "0"
+            score: "1"
+            active: true
           - name: "MB Rouissat"
             score: "0"
       - id: football-2398060
@@ -42,45 +43,46 @@ sports:
           - name: "Sarmiento"
             score: "1"
             active: true
-      - id: football-2496726
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Lommel"
-            score: "0"
-          - name: "Club Brugge"
-            score: "1"
-            active: true
       - id: football-2566606
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "76'"
+        stateLabel: "88'"
         teams:
           - name: "Real Oruro"
-            score: "1"
+            score: "2"
             active: true
           - name: "San Antonio Bulo Bulo"
             score: "0"
       - id: football-2481443
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "15'"
         teams:
           - name: "Itagüí Leones"
             score: "0"
           - name: "Atlético Cali"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2583278
         competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "4'"
+        stateLabel: "16'"
         teams:
           - name: "Atlético FC"
-            score: "0"
+            score: "1"
+            active: true
           - name: "9 de Octubre"
             score: "0"
+      - id: football-2494027
+        competition: "English Premier League"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Ipswich Town"
+            score: "0"
+          - name: "Liverpool"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
