@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 00:19 IST"
+updated: "05 Sep 2026, 00:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2405053
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "19'"
+        stateLabel: "33'"
         teams:
           - name: "Defensores de Belgrano"
             score: "2"
@@ -42,20 +42,10 @@ sports:
             score: "0"
           - name: "Leones de Rosario"
             score: "0"
-      - id: football-2553192
-        competition: "Austrian Cup"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Wallern"
-            score: "1"
-          - name: "SV Ried"
-            score: "5"
-            active: true
       - id: football-2553179
         competition: "Austrian Cup"
         state: live
-        stateLabel: "90'"
+        stateLabel: "93'"
         teams:
           - name: "Floridsdorfer AC"
             score: "0"
@@ -64,23 +54,32 @@ sports:
       - id: football-2560453
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "60'"
+        stateLabel: "74'"
         teams:
           - name: "TSV St. Johann"
             score: "2"
             active: true
           - name: "Seekirchen"
-            score: "0"
-      - id: football-2560449
-        competition: "Austrian Regionalliga Nord"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Grödig"
-            score: "2"
-            active: true
-          - name: "Hallein"
             score: "1"
+      - id: football-2514301
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "Oberwart"
+            score: "0"
+          - name: "Donau Wien"
+            score: "1"
+            active: true
+      - id: football-2514300
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Wiener SC"
+            score: "0"
+          - name: "Donaufeld Wien"
+            score: "0"
 
   - name: Cricket
     matches:
