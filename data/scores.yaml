@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 09:19 IST"
+updated: "04 Sep 2026, 09:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,46 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481153
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Deportivo Pereira"
-            score: "0"
-          - name: "Independiente Medellín"
-            score: "3"
-            active: true
-      - id: football-2597595
-        competition: "Honduras Liga Nacional de Futbol"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "CD Olimpia"
-            score: "4"
-            active: true
-          - name: "Platense Puerto Cortés"
-            score: "1"
-      - id: football-2521292
-        competition: "Mexican Liga de Expansión MX"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Tepatitlán"
-            score: "1"
-          - name: "Dorados de Sinaloa"
-            score: "4"
-            active: true
-      - id: football-2595550
-        competition: "Nicaragua Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Matagalpa"
-            score: "1"
-            active: true
-          - name: "UNAN Managua"
-            score: "0"
       - id: football-2397303
         competition: "American USL Championship"
         state: upcoming
@@ -82,6 +42,46 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Hartford Athletic"
+            score: "–"
+      - id: football-2397305
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Indy Eleven"
+            score: "–"
+            detail: "23:00"
+          - name: "Birmingham Legion"
+            score: "–"
+      - id: football-2397307
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Miami FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Pittsburgh Riverhounds"
+            score: "–"
+      - id: football-2397306
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:30"
+        teams:
+          - name: "Las Vegas Lights"
+            score: "–"
+            detail: "02:30"
+          - name: "New Mexico United"
+            score: "–"
+      - id: football-2397308
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
+        teams:
+          - name: "Monterey Bay FC"
+            score: "–"
+            detail: "02:00"
+          - name: "Phoenix Rising"
             score: "–"
 
   - name: Cricket
