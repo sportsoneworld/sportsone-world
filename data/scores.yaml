@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 22:17 IST"
+updated: "04 Sep 2026, 22:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2533271
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "16'"
+        stateLabel: "31'"
         teams:
           - name: "Egnatia"
             score: "1"
@@ -45,7 +45,7 @@ sports:
       - id: football-2523515
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Noah"
             score: "2"
@@ -54,32 +54,30 @@ sports:
       - id: football-2553180
         competition: "Austrian Cup"
         state: live
-        stateLabel: "15'"
+        stateLabel: "31'"
         teams:
           - name: "Kapfenberger SV"
             score: "0"
           - name: "Hertha Wels"
             score: "0"
-      - id: football-2560657
+      - id: football-2560658
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "Live"
+        stateLabel: "1'"
         teams:
-          - name: "Bleiburg"
-            score: "3"
-            active: true
-          - name: "Treibach"
-            score: "1"
-      - id: football-2546641
-        competition: "Azerbaijani Premier League"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "Kəpəz"
+          - name: "ATSV Wolfsberg"
             score: "0"
-          - name: "Şamaxı"
-            score: "2"
-            active: true
+          - name: "Donau Klagenfurt"
+            score: "0"
+      - id: football-2512711
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Kufstein"
+            score: "0"
+          - name: "Lauterach"
+            score: "0"
 
   - name: Cricket
     matches:
