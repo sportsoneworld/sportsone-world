@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 18:36 IST"
+updated: "04 Sep 2026, 18:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,61 @@ sports:
       - id: football-2523518
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "63'"
         teams:
           - name: "Syunik"
             score: "0"
           - name: "Pyunik Yerevan"
             score: "0"
-      - id: football-2594976
-        competition: "Australia Western Australia NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Bayswater City"
-            score: "5"
-            active: true
-          - name: "Olympic Kingsway"
-            score: "3"
       - id: football-2561020
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Şi̇mal"
             score: "0"
           - name: "Cəbrayıl"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2561018
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Mingəçevir"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Zaqatala"
             score: "0"
       - id: football-2577192
         competition: "Indonesian Super League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Bali United"
             score: "1"
             active: true
           - name: "PSS Sleman"
             score: "0"
-      - id: football-2546164
-        competition: "Malaysian Super League"
+      - id: football-2452319
+        competition: "Kazakhstan First League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "63'"
         teams:
-          - name: "Kelantan Red Warrior"
+          - name: "Caspiy-M Aktau"
             score: "0"
-          - name: "Kuala Lumpur City"
+          - name: "Turan"
+            score: "3"
+            active: true
+      - id: football-2452403
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "63'"
+        teams:
+          - name: "Jaiyq"
+            score: "1"
+            active: true
+          - name: "Yelimay-M Semey"
             score: "0"
 
   - name: Cricket
