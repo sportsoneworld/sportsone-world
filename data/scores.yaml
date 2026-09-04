@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 15:20 IST"
+updated: "04 Sep 2026, 15:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2577191
         competition: "Indonesian Super League"
         state: live
-        stateLabel: "58'"
+        stateLabel: "72'"
         teams:
           - name: "Arema"
             score: "3"
@@ -36,7 +36,7 @@ sports:
       - id: football-2590476
         competition: "Myanmar National League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Yangon City"
             score: "0"
