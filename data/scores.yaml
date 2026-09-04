@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 22:33 IST"
+updated: "04 Sep 2026, 22:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,16 @@ sports:
       - id: football-2533271
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Egnatia"
             score: "1"
-            active: true
           - name: "Skënderbeu Korçë"
-            score: "0"
+            score: "1"
       - id: football-2558877
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "Khenchela"
             score: "0"
@@ -45,38 +44,38 @@ sports:
       - id: football-2523515
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
           - name: "Noah"
             score: "2"
           - name: "Gandzasar"
             score: "2"
+      - id: football-2553192
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Wallern"
+            score: "0"
+          - name: "SV Ried"
+            score: "0"
+      - id: football-2553179
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "Floridsdorfer AC"
+            score: "0"
+          - name: "Schwarz-Weiß Bregenz"
+            score: "0"
       - id: football-2553180
         competition: "Austrian Cup"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Kapfenberger SV"
             score: "0"
           - name: "Hertha Wels"
-            score: "0"
-      - id: football-2560658
-        competition: "Austrian Regionalliga Süd"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "ATSV Wolfsberg"
-            score: "0"
-          - name: "Donau Klagenfurt"
-            score: "0"
-      - id: football-2512711
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Kufstein"
-            score: "0"
-          - name: "Lauterach"
             score: "0"
 
   - name: Cricket
