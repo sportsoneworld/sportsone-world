@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 00:06 IST"
+updated: "05 Sep 2026, 00:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533271
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Egnatia"
-            score: "2"
-            active: true
-          - name: "Skënderbeu Korçë"
-            score: "1"
       - id: football-2405053
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "6'"
+        stateLabel: "19'"
         teams:
           - name: "Defensores de Belgrano"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Racing de Córdoba"
             score: "0"
       - id: football-2408604
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Yupanqui"
             score: "0"
@@ -54,17 +45,17 @@ sports:
       - id: football-2553192
         competition: "Austrian Cup"
         state: live
-        stateLabel: "74'"
+        stateLabel: "88'"
         teams:
           - name: "Wallern"
-            score: "0"
+            score: "1"
           - name: "SV Ried"
             score: "5"
             active: true
       - id: football-2553179
         competition: "Austrian Cup"
         state: live
-        stateLabel: "77'"
+        stateLabel: "90'"
         teams:
           - name: "Floridsdorfer AC"
             score: "0"
@@ -73,13 +64,23 @@ sports:
       - id: football-2560453
         competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "46'"
+        stateLabel: "60'"
         teams:
           - name: "TSV St. Johann"
-            score: "1"
+            score: "2"
             active: true
           - name: "Seekirchen"
             score: "0"
+      - id: football-2560449
+        competition: "Austrian Regionalliga Nord"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Grödig"
+            score: "2"
+            active: true
+          - name: "Hallein"
+            score: "1"
 
   - name: Cricket
     matches:
