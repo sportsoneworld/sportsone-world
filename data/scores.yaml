@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 17:35 IST"
+updated: "04 Sep 2026, 17:59 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,61 +26,60 @@ sports:
       - id: football-2599703
         competition: "ASEAN Club Championship"
         state: live
-        stateLabel: "46'"
+        stateLabel: "70'"
         teams:
           - name: "Manila Digger"
-            score: "2"
+            score: "4"
             active: true
           - name: "Kasuka"
+            score: "1"
+      - id: football-2523518
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Syunik"
             score: "0"
+          - name: "Pyunik Yerevan"
+            score: "0"
+      - id: football-2594976
+        competition: "Australia Western Australia NPL"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Bayswater City"
+            score: "3"
+          - name: "Olympic Kingsway"
+            score: "3"
       - id: football-2594977
         competition: "Australia Western Australia NPL"
         state: live
-        stateLabel: "47'"
+        stateLabel: "70'"
         teams:
           - name: "Perth RedStar"
             score: "0"
           - name: "Perth SC"
             score: "1"
             active: true
-      - id: football-2594976
-        competition: "Australia Western Australia NPL"
+      - id: football-2577192
+        competition: "Indonesian Super League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "19'"
         teams:
-          - name: "Bayswater City"
-            score: "2"
-          - name: "Olympic Kingsway"
-            score: "3"
-            active: true
+          - name: "Bali United"
+            score: "0"
+          - name: "PSS Sleman"
+            score: "0"
       - id: football-2422231
         competition: "South Korean K League 2"
         state: live
-        stateLabel: "72'"
+        stateLabel: "Live"
         teams:
           - name: "Chungbuk Cheongju"
             score: "0"
           - name: "Seoul E-Land"
             score: "2"
             active: true
-      - id: football-2422232
-        competition: "South Korean K League 2"
-        state: live
-        stateLabel: "76'"
-        teams:
-          - name: "Paju Frontier"
-            score: "0"
-          - name: "Daegu FC"
-            score: "0"
-      - id: football-2546872
-        competition: "Thai League 2"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "Uttaradit"
-            score: "0"
-          - name: "Muangthong United"
-            score: "0"
 
   - name: Cricket
     matches:
