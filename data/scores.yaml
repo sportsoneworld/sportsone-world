@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 19:33 IST"
+updated: "04 Sep 2026, 19:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,46 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523518
-        competition: "Armenian Premier League"
+      - id: football-2561018
+        competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
-          - name: "Syunik"
-            score: "0"
-          - name: "Pyunik Yerevan"
-            score: "0"
+          - name: "Mingəçevir"
+            score: "2"
+            active: true
+          - name: "Zaqatala"
+            score: "1"
       - id: football-2561020
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "Şi̇mal"
             score: "1"
           - name: "Cəbrayıl"
             score: "1"
-      - id: football-2561018
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Mingəçevir"
-            score: "1"
-          - name: "Zaqatala"
-            score: "1"
       - id: football-2546639
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "22'"
         teams:
           - name: "Qəbələ"
-            score: "0"
+            score: "1"
+            active: true
           - name: "İmişli"
             score: "0"
       - id: football-2452154
         competition: "Belarusian First League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "22'"
         teams:
           - name: "Molodechno"
             score: "0"
@@ -71,12 +64,21 @@ sports:
       - id: football-2452156
         competition: "Belarusian First League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Minsk-2"
             score: "2"
             active: true
           - name: "Niva Dolbizno"
+            score: "1"
+      - id: football-2598655
+        competition: "Kosovan Superleague"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Prishtina"
+            score: "0"
+          - name: "Vushtrria"
             score: "0"
 
   - name: Cricket
