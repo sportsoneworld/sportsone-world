@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 16:06 IST"
+updated: "04 Sep 2026, 16:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2552578
         competition: "Campeonato de Portugal Serie B"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Salgueiros"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2593067
         competition: "Myanmar National League"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Chinland"
             score: "1"
@@ -46,7 +46,7 @@ sports:
       - id: football-2590476
         competition: "Myanmar National League"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Yangon City"
             score: "0"
@@ -55,7 +55,7 @@ sports:
       - id: football-2422231
         competition: "South Korean K League 2"
         state: live
-        stateLabel: "4'"
+        stateLabel: "18'"
         teams:
           - name: "Chungbuk Cheongju"
             score: "0"
@@ -64,21 +64,20 @@ sports:
       - id: football-2422232
         competition: "South Korean K League 2"
         state: live
-        stateLabel: "5'"
+        stateLabel: "19'"
         teams:
           - name: "Paju Frontier"
             score: "0"
           - name: "Daegu FC"
             score: "0"
-      - id: football-2577191
-        competition: "Indonesian Super League"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2523758
+        competition: "Ukrainian First League"
+        state: live
+        stateLabel: "8'"
         teams:
-          - name: "Arema"
-            score: "4"
-            active: true
-          - name: "Isenmulang Kalteng"
+          - name: "Kolos-2 Kovalivka"
+            score: "0"
+          - name: "Lokomotyv Kyiv"
             score: "0"
 
   - name: Cricket
