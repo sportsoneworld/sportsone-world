@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 21:54 IST"
+updated: "04 Sep 2026, 22:05 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2533271
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Egnatia"
+            score: "0"
+          - name: "Skënderbeu Korçë"
+            score: "0"
       - id: football-2558877
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "23'"
+        stateLabel: "34'"
         teams:
           - name: "Khenchela"
             score: "0"
@@ -35,49 +44,42 @@ sports:
       - id: football-2523515
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "31'"
         teams:
           - name: "Noah"
             score: "0"
           - name: "Gandzasar"
             score: "1"
             active: true
+      - id: football-2553180
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Kapfenberger SV"
+            score: "0"
+          - name: "Hertha Wels"
+            score: "0"
       - id: football-2560657
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "68'"
+        stateLabel: "79'"
         teams:
           - name: "Bleiburg"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Treibach"
             score: "1"
       - id: football-2546641
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "9'"
+        stateLabel: "20'"
         teams:
           - name: "Kəpəz"
             score: "0"
           - name: "Şamaxı"
-            score: "0"
-      - id: football-2570538
-        competition: "Bahrain Premier League"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Khalidiya"
-            score: "0"
-          - name: "A'Ali"
-            score: "0"
-      - id: football-2570537
-        competition: "Bahrain Premier League"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Al-Ittifaq"
-            score: "0"
-          - name: "Al-Muharraq"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
