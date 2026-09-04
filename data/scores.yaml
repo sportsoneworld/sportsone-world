@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 20:54 IST"
+updated: "04 Sep 2026, 21:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,60 +26,62 @@ sports:
       - id: football-2560657
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "22'"
+        stateLabel: "35'"
         teams:
           - name: "Bleiburg"
             score: "0"
           - name: "Treibach"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2546639
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "63'"
+        stateLabel: "76'"
         teams:
           - name: "Qəbələ"
-            score: "1"
+            score: "2"
+            active: true
           - name: "İmişli"
+            score: "1"
+      - id: football-2452152
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Volna Pinsk"
+            score: "2"
+            active: true
+          - name: "Dinamo-2 Minsk"
             score: "1"
       - id: football-2452154
         competition: "Belarusian First League"
         state: live
-        stateLabel: "67'"
+        stateLabel: "80'"
         teams:
           - name: "Molodechno"
             score: "2"
             active: true
           - name: "BATE-2 Borisov"
             score: "0"
-      - id: football-2452156
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Minsk-2"
-            score: "3"
-          - name: "Niva Dolbizno"
-            score: "4"
-            active: true
-      - id: football-2452152
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Volna Pinsk"
-            score: "1"
-          - name: "Dinamo-2 Minsk"
-            score: "1"
       - id: football-2569959
         competition: "CAF Confederation Cup"
         state: live
-        stateLabel: "20'"
+        stateLabel: "34'"
         teams:
           - name: "Panthère du Ndé"
             score: "1"
             active: true
           - name: "Rayon Sports"
             score: "0"
+      - id: football-2569952
+        competition: "CAF Confederation Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "ES Zarzis"
+            score: "1"
+          - name: "Diambars"
+            score: "1"
 
   - name: Cricket
     matches:
