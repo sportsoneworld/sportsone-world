@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 19:20 IST"
+updated: "04 Sep 2026, 19:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,21 +26,11 @@ sports:
       - id: football-2523518
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "89'"
+        stateLabel: "Live"
         teams:
           - name: "Syunik"
             score: "0"
           - name: "Pyunik Yerevan"
-            score: "0"
-      - id: football-2561018
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Mingəçevir"
-            score: "1"
-            active: true
-          - name: "Zaqatala"
             score: "0"
       - id: football-2561020
         competition: "Azerbaijan First Division"
@@ -51,35 +41,43 @@ sports:
             score: "1"
           - name: "Cəbrayıl"
             score: "1"
+      - id: football-2561018
+        competition: "Azerbaijan First Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Mingəçevir"
+            score: "1"
+          - name: "Zaqatala"
+            score: "1"
+      - id: football-2546639
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Qəbələ"
+            score: "0"
+          - name: "İmişli"
+            score: "0"
+      - id: football-2452154
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Molodechno"
+            score: "0"
+          - name: "BATE-2 Borisov"
+            score: "0"
       - id: football-2452156
         competition: "Belarusian First League"
         state: live
-        stateLabel: "18'"
+        stateLabel: "32'"
         teams:
           - name: "Minsk-2"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Niva Dolbizno"
             score: "0"
-      - id: football-2577192
-        competition: "Indonesian Super League"
-        state: live
-        stateLabel: "82'"
-        teams:
-          - name: "Bali United"
-            score: "3"
-            active: true
-          - name: "PSS Sleman"
-            score: "0"
-      - id: football-2452319
-        competition: "Kazakhstan First League"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Caspiy-M Aktau"
-            score: "0"
-          - name: "Turan"
-            score: "3"
-            active: true
 
   - name: Cricket
     matches:
