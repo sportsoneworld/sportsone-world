@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 21:34 IST"
+updated: "04 Sep 2026, 21:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,25 +26,44 @@ sports:
       - id: football-2558877
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "3'"
+        stateLabel: "23'"
         teams:
           - name: "Khenchela"
             score: "0"
           - name: "USM Alger"
             score: "0"
+      - id: football-2523515
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Noah"
+            score: "0"
+          - name: "Gandzasar"
+            score: "1"
+            active: true
       - id: football-2560657
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "48'"
+        stateLabel: "68'"
         teams:
           - name: "Bleiburg"
             score: "1"
           - name: "Treibach"
             score: "1"
+      - id: football-2546641
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Kəpəz"
+            score: "0"
+          - name: "Şamaxı"
+            score: "0"
       - id: football-2570538
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "22'"
         teams:
           - name: "Khalidiya"
             score: "0"
@@ -53,30 +72,11 @@ sports:
       - id: football-2570537
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "23'"
         teams:
           - name: "Al-Ittifaq"
             score: "0"
           - name: "Al-Muharraq"
-            score: "0"
-      - id: football-2452152
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Volna Pinsk"
-            score: "2"
-            active: true
-          - name: "Dinamo-2 Minsk"
-            score: "1"
-      - id: football-2487321
-        competition: "Bulgarian First League"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "Septemvri Sofia"
-            score: "0"
-          - name: "Botev Vratsa"
             score: "0"
 
   - name: Cricket
