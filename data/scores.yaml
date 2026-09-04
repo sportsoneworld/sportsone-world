@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Sep 2026, 07:34 IST"
+updated: "04 Sep 2026, 07:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2481153
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "62'"
         teams:
           - name: "Deportivo Pereira"
             score: "0"
           - name: "Independiente Medellín"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2597595
         competition: "Honduras Liga Nacional de Futbol"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "CD Olimpia"
             score: "2"
@@ -45,30 +46,21 @@ sports:
       - id: football-2521292
         competition: "Mexican Liga de Expansión MX"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Tepatitlán"
-            score: "1"
+            score: "2"
           - name: "Dorados de Sinaloa"
             score: "3"
             active: true
       - id: football-2595550
         competition: "Nicaragua Primera Division"
         state: live
-        stateLabel: "27'"
+        stateLabel: "Live"
         teams:
           - name: "Matagalpa"
             score: "0"
           - name: "UNAN Managua"
-            score: "0"
-      - id: football-2579883
-        competition: "Brazil Serie D"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "CSA"
-            score: "0"
-          - name: "Nacional-AM"
             score: "0"
       - id: football-2481773
         competition: "CONCACAF Caribbean Cup"
@@ -80,6 +72,15 @@ sports:
           - name: "Portmore United"
             score: "2"
             active: true
+      - id: football-2429450
+        competition: "Ecuadorian Serie A"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Libertad FC"
+            score: "1"
+          - name: "Emelec"
+            score: "1"
 
   - name: Cricket
     matches:
