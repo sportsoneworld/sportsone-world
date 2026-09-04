@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 02:51 IST"
+updated: "05 Sep 2026, 03:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2558874
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "61'"
+        stateLabel: "73'"
         teams:
           - name: "JS Kabylie"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2398060
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "78'"
+        stateLabel: "90'"
         teams:
           - name: "Estudiantes de Río Cuarto"
             score: "0"
@@ -46,7 +46,7 @@ sports:
       - id: football-2566607
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "6'"
+        stateLabel: "18'"
         teams:
           - name: "ABB"
             score: "0"
