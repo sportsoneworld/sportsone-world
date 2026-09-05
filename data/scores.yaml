@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 23:34 IST"
+updated: "05 Sep 2026, 23:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2533272
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "68'"
+        stateLabel: "88'"
         teams:
           - name: "Vllaznia Shkodër"
             score: "2"
@@ -35,50 +35,50 @@ sports:
       - id: football-2558876
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "4'"
+        stateLabel: "23'"
         teams:
           - name: "CR Témouchent"
-            score: "0"
+            score: "1"
+            active: true
           - name: "CS Constantine"
             score: "0"
       - id: football-2406529
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "3'"
+        stateLabel: "22'"
         teams:
           - name: "Sportivo Italiano"
             score: "0"
           - name: "Flandria"
-            score: "0"
-      - id: football-2398061
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "Gimnasia y Esgrima de La Plata"
-            score: "0"
-          - name: "Tigre"
-            score: "0"
-      - id: football-2398056
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Aldosivi"
-            score: "3"
-            active: true
-          - name: "Banfield"
             score: "1"
-      - id: football-2546640
-        competition: "Azerbaijani Premier League"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Neftçi PFK"
-            score: "3"
             active: true
-          - name: "Şəfa"
-            score: "1"
+      - id: football-2406527
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Real Pilar"
+            score: "0"
+          - name: "Talleres de Remedios de Escalada"
+            score: "0"
+      - id: football-2406531
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Villa Dálmine"
+            score: "0"
+          - name: "Arsenal de Sarandí"
+            score: "0"
+      - id: football-2405060
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "San Telmo"
+            score: "0"
+          - name: "Los Andes"
+            score: "0"
 
   - name: Cricket
     matches:
