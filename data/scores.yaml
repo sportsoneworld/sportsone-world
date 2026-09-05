@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 19:17 IST"
+updated: "05 Sep 2026, 19:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,30 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2553191
-        competition: "Austrian Cup"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Voitsberg"
-            score: "0"
-          - name: "Sturm Graz"
-            score: "0"
       - id: football-2553187
         competition: "Austrian Cup"
         state: live
-        stateLabel: "16'"
+        stateLabel: "30'"
         teams:
           - name: "Deutschlandsberger"
             score: "0"
           - name: "LASK"
-            score: "2"
+            score: "3"
+            active: true
+      - id: football-2553191
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Voitsberg"
+            score: "0"
+          - name: "Sturm Graz"
+            score: "1"
             active: true
       - id: football-2553178
         competition: "Austrian Cup"
         state: live
-        stateLabel: "17'"
+        stateLabel: "31'"
         teams:
           - name: "Blau-Weiß Linz"
             score: "1"
@@ -55,7 +56,7 @@ sports:
       - id: football-2553181
         competition: "Austrian Cup"
         state: live
-        stateLabel: "57'"
+        stateLabel: "72'"
         teams:
           - name: "Lafnitz"
             score: "2"
@@ -64,12 +65,12 @@ sports:
       - id: football-2437866
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
           - name: "Torpedo-BelAZ Zhodino"
             score: "0"
           - name: "Gomel"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2452155
         competition: "Belarusian First League"
