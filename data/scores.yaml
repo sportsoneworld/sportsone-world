@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 22:50 IST"
+updated: "05 Sep 2026, 23:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -31,7 +31,8 @@ sports:
           - name: "Vllaznia Shkodër"
             score: "1"
           - name: "Partizani Tirana"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2398056
         competition: "Argentinian Primera Division"
         state: live
@@ -42,20 +43,10 @@ sports:
             active: true
           - name: "Banfield"
             score: "0"
-      - id: football-2553186
-        competition: "Austrian Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Traiskirchen"
-            score: "0"
-          - name: "Austria Vienna"
-            score: "6"
-            active: true
       - id: football-2512709
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "60'"
+        stateLabel: "72'"
         teams:
           - name: "Dornbirn"
             score: "3"
@@ -68,19 +59,29 @@ sports:
         stateLabel: "Live"
         teams:
           - name: "Neftçi PFK"
-            score: "2"
+            score: "1"
             active: true
           - name: "Şəfa"
             score: "0"
       - id: football-2570540
         competition: "Bahrain Premier League"
         state: live
-        stateLabel: "58'"
+        stateLabel: "70'"
         teams:
           - name: "Manama Club"
             score: "1"
           - name: "Al-Riffa"
             score: "3"
+            active: true
+      - id: football-2570539
+        competition: "Bahrain Premier League"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Al-Hidd"
+            score: "0"
+          - name: "Al-Ahli Manama"
+            score: "1"
             active: true
 
   - name: Cricket
