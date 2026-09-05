@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 20:17 IST"
+updated: "05 Sep 2026, 20:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578079
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Iliria Fushë-Krujë"
-            score: "0"
-          - name: "Pogradeci"
-            score: "0"
       - id: football-2578075
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "43'"
+        stateLabel: "Live"
         teams:
           - name: "Kukësi"
             score: "2"
             active: true
           - name: "Besëlidhja"
             score: "0"
+      - id: football-2578079
+        competition: "Albanian Kategoria e Parë"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Iliria Fushë-Krujë"
+            score: "0"
+          - name: "Pogradeci"
+            score: "0"
       - id: football-2578078
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
           - name: "Bylis"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2533269
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
           - name: "Laçi"
             score: "0"
@@ -64,20 +64,20 @@ sports:
       - id: football-2578227
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "15'"
+        stateLabel: "32'"
         teams:
           - name: "Académica do Lobito"
             score: "0"
           - name: "Primeiro de Maio"
             score: "0"
-      - id: football-2553188
-        competition: "Austrian Cup"
+      - id: football-2523514
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "14'"
+        stateLabel: "2'"
         teams:
-          - name: "Austria Salzburg"
+          - name: "Ararat Yerevan"
             score: "0"
-          - name: "First Vienna"
+          - name: "Ararat-Armenia"
             score: "0"
 
   - name: Cricket
