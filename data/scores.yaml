@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 15:50 IST"
+updated: "05 Sep 2026, 16:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,30 +26,20 @@ sports:
       - id: football-2598832
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "56'"
+        stateLabel: "68'"
         teams:
           - name: "Monaro Panthers"
             score: "1"
-            active: true
           - name: "Cooma Tigers"
-            score: "0"
+            score: "1"
       - id: football-2598724
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "87'"
+        stateLabel: "Live"
         teams:
           - name: "Northern Tigers"
             score: "0"
           - name: "St George"
-            score: "0"
-      - id: football-2588854
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "West Torrens Birkalla"
-            score: "0"
-          - name: "North Eastern MetroStars"
             score: "0"
       - id: football-2588853
         competition: "Australia South Australia NPL"
@@ -61,25 +51,35 @@ sports:
             active: true
           - name: "Playford City Patriots"
             score: "0"
+      - id: football-2588854
+        competition: "Australia South Australia NPL"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "West Torrens Birkalla"
+            score: "0"
+          - name: "North Eastern MetroStars"
+            score: "0"
       - id: football-2440406
         competition: "Estonian Esiliiga B"
         state: live
-        stateLabel: "45'"
+        stateLabel: "47'"
         teams:
           - name: "Viljandi Tulevik"
-            score: "1"
+            score: "2"
             active: true
           - name: "Tallinna Legion"
             score: "0"
       - id: football-2539444
         competition: "Germany Women Bundesliga"
         state: live
-        stateLabel: "18'"
+        stateLabel: "29'"
         teams:
           - name: "Hamburg Women"
             score: "0"
           - name: "RB Leipzig Women"
-            score: "0"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
