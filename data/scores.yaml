@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 20:33 IST"
+updated: "05 Sep 2026, 20:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578075
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Kukësi"
-            score: "2"
-            active: true
-          - name: "Besëlidhja"
-            score: "0"
       - id: football-2578079
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
           - name: "Iliria Fushë-Krujë"
             score: "0"
@@ -45,16 +35,26 @@ sports:
       - id: football-2578078
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Bylis"
             score: "0"
           - name: "Sopoti"
             score: "0"
+      - id: football-2578075
+        competition: "Albanian Kategoria e Parë"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Kukësi"
+            score: "2"
+            active: true
+          - name: "Besëlidhja"
+            score: "0"
       - id: football-2533269
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
           - name: "Laçi"
             score: "0"
@@ -64,7 +64,7 @@ sports:
       - id: football-2578227
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Académica do Lobito"
             score: "0"
@@ -73,7 +73,7 @@ sports:
       - id: football-2523514
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "19'"
         teams:
           - name: "Ararat Yerevan"
             score: "0"
