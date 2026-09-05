@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 06:33 IST"
+updated: "05 Sep 2026, 06:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,59 +26,61 @@ sports:
       - id: football-2407038
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "65'"
+        stateLabel: "83'"
         teams:
           - name: "New York City FC"
             score: "0"
           - name: "Nashville SC"
             score: "0"
-      - id: football-2397303
-        competition: "American USL Championship"
+      - id: football-2431416
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "88'"
         teams:
-          - name: "Loudoun United"
+          - name: "Athletic Club-MG"
             score: "4"
-          - name: "Colorado Springs Switchbacks"
-            score: "4"
-      - id: football-2405056
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ferro Carril Oeste"
-            score: "0"
-          - name: "Mitre"
+            active: true
+          - name: "Vila Nova"
             score: "0"
       - id: football-2431418
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "CRB"
             score: "1"
             active: true
           - name: "América Mineiro"
             score: "0"
-      - id: football-2431416
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Athletic Club-MG"
-            score: "3"
-            active: true
-          - name: "Vila Nova"
-            score: "0"
       - id: football-2421983
         competition: "Chile Primera B"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
           - name: "Curicó Unido"
             score: "0"
+      - id: football-2413078
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Deportes Concepción"
+            score: "0"
+          - name: "Audax Italiano"
+            score: "1"
+            active: true
+      - id: football-2481448
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Orsomarso"
+            score: "0"
+          - name: "Real Cartagena"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
