@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 03:50 IST"
+updated: "06 Sep 2026, 04:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2406522
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "17'"
+        stateLabel: "29'"
         teams:
           - name: "Deportivo Merlo"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2398068
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "20'"
+        stateLabel: "32'"
         teams:
           - name: "San Lorenzo"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2566609
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "47'"
+        stateLabel: "59'"
         teams:
           - name: "Aurora"
             score: "3"
@@ -63,7 +63,7 @@ sports:
       - id: football-2431421
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "60'"
+        stateLabel: "72'"
         teams:
           - name: "Juventude"
             score: "2"
