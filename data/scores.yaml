@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 20:51 IST"
+updated: "05 Sep 2026, 21:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2578079
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "53'"
+        stateLabel: "65'"
         teams:
           - name: "Iliria Fushë-Krujë"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2578078
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "59'"
+        stateLabel: "71'"
         teams:
           - name: "Bylis"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2578075
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "59'"
+        stateLabel: "71'"
         teams:
           - name: "Kukësi"
             score: "2"
@@ -54,10 +54,10 @@ sports:
       - id: football-2533269
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "60'"
+        stateLabel: "72'"
         teams:
           - name: "Laçi"
-            score: "0"
+            score: "1"
           - name: "Teuta Durrës"
             score: "2"
             active: true
@@ -69,11 +69,12 @@ sports:
           - name: "Académica do Lobito"
             score: "0"
           - name: "Primeiro de Maio"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2523514
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "19'"
+        stateLabel: "31'"
         teams:
           - name: "Ararat Yerevan"
             score: "0"
