@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 10:17 IST"
+updated: "05 Sep 2026, 10:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,49 +23,30 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2597586
-        competition: "Australia Tasmania NPL"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "South Hobart"
-            score: "4"
-            active: true
-          - name: "Devonport City"
-            score: "1"
       - id: football-2595565
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Avondale"
             score: "2"
             active: true
           - name: "Preston Lions"
             score: "0"
-      - id: football-2548503
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Pumas UNAM Femenil"
-            score: "1"
-          - name: "América Femenil"
-            score: "1"
       - id: football-2521296
         competition: "Mexican Liga de Expansión MX"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Atlético La Paz"
-            score: "2"
+            score: "3"
             active: true
           - name: "Mineros de Zacatecas"
             score: "0"
       - id: football-2487507
         competition: "Mexican Primera League"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Juárez"
             score: "0"
@@ -80,6 +61,26 @@ sports:
           - name: "Bay FC"
             score: "1"
           - name: "Kansas City Current"
+            score: "2"
+            active: true
+      - id: football-2597586
+        competition: "Australia Tasmania NPL"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "South Hobart"
+            score: "5"
+            active: true
+          - name: "Devonport City"
+            score: "1"
+      - id: football-2557483
+        competition: "Costa-Rica Liga FPD"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Escorpiones de Belén"
+            score: "0"
+          - name: "Inter de San Carlos"
             score: "2"
             active: true
 
