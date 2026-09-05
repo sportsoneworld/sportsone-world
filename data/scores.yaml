@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 17:17 IST"
+updated: "05 Sep 2026, 17:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2452155
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Bumprom Gomel"
+            score: "0"
+          - name: "SKA-1938 Minsk"
+            score: "0"
       - id: football-2452153
         competition: "Belarusian First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "49'"
         teams:
           - name: "Osipovichi"
             score: "0"
@@ -36,7 +45,7 @@ sports:
       - id: football-2497021
         competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "15'"
+        stateLabel: "33'"
         teams:
           - name: "Jong Gent"
             score: "2"
@@ -46,7 +55,7 @@ sports:
       - id: football-2585182
         competition: "Belgian Womens Pro League"
         state: live
-        stateLabel: "15'"
+        stateLabel: "33'"
         teams:
           - name: "Les Louviéroises"
             score: "0"
@@ -55,12 +64,13 @@ sports:
       - id: football-2525297
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "15'"
+        stateLabel: "33'"
         teams:
           - name: "BSK Banja Luka"
             score: "0"
           - name: "Čelik Zenica"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2558148
         competition: "Cambodian Premier League"
         state: live
@@ -71,45 +81,3 @@ sports:
           - name: "NagaWorld"
             score: "2"
             active: true
-      - id: football-2441262
-        competition: "China League One"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Foshan Nanshi"
-            score: "0"
-          - name: "Dalian K'un City"
-            score: "0"
-
-  - name: Cricket
-    matches:
-      - id: cricket-2578485
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Barbados Tridents"
-            score: "–"
-            detail: "00:00"
-          - name: "Trinbago Knight Riders"
-            score: "–"
-      - id: cricket-2578486
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "14:00"
-        teams:
-          - name: "Guyana Amazon Warriors"
-            score: "–"
-            detail: "14:00"
-          - name: "St Kitts and Nevis Patriots"
-            score: "–"
-      - id: cricket-2578487
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Barbados Tridents"
-            score: "–"
-            detail: "23:00"
-          - name: "Saint Lucia Kings"
-            score: "–"
