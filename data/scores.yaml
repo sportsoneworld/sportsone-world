@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 07:03 IST"
+updated: "05 Sep 2026, 07:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407038
-        competition: "American Major League Soccer"
+      - id: football-2419903
+        competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "10'"
         teams:
-          - name: "New York City FC"
+          - name: "Utah Royals"
             score: "0"
-          - name: "Nashville SC"
-            score: "0"
-      - id: football-2431416
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Athletic Club-MG"
-            score: "5"
-            active: true
-          - name: "Vila Nova"
+          - name: "Boston Legacy"
             score: "0"
       - id: football-2431418
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "45'"
+        stateLabel: "56'"
         teams:
           - name: "CRB"
-            score: "1"
+            score: "2"
             active: true
           - name: "América Mineiro"
             score: "0"
       - id: football-2421983
         competition: "Chile Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
@@ -64,7 +54,7 @@ sports:
       - id: football-2413078
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "Deportes Concepción"
             score: "0"
@@ -74,13 +64,22 @@ sports:
       - id: football-2481448
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
           - name: "Orsomarso"
             score: "0"
           - name: "Real Cartagena"
             score: "1"
             active: true
+      - id: football-2429460
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Técnico Universitario"
+            score: "1"
+          - name: "LDU Quito"
+            score: "1"
 
   - name: Cricket
     matches:
