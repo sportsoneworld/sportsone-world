@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 19:03 IST"
+updated: "05 Sep 2026, 19:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,28 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2553191
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Voitsberg"
+            score: "0"
+          - name: "Sturm Graz"
+            score: "0"
       - id: football-2553187
         competition: "Austrian Cup"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Deutschlandsberger"
             score: "0"
           - name: "LASK"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2553178
         competition: "Austrian Cup"
         state: live
-        stateLabel: "2'"
+        stateLabel: "17'"
         teams:
           - name: "Blau-Weiß Linz"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Wacker Innsbruck"
             score: "0"
       - id: football-2553181
         competition: "Austrian Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Lafnitz"
             score: "2"
@@ -53,32 +64,23 @@ sports:
       - id: football-2437866
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "60'"
         teams:
           - name: "Torpedo-BelAZ Zhodino"
             score: "0"
           - name: "Gomel"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2452155
         competition: "Belarusian First League"
         state: live
-        stateLabel: "76'"
+        stateLabel: "Live"
         teams:
           - name: "Bumprom Gomel"
             score: "1"
           - name: "SKA-1938 Minsk"
             score: "2"
             active: true
-      - id: football-2525297
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "BSK Banja Luka"
-            score: "3"
-            active: true
-          - name: "Čelik Zenica"
-            score: "2"
 
   - name: Cricket
     matches:
