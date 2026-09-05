@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 05:36 IST"
+updated: "05 Sep 2026, 06:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2407038
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "25'"
+        stateLabel: "45'"
         teams:
           - name: "New York City FC"
             score: "0"
@@ -35,49 +35,49 @@ sports:
       - id: football-2397303
         competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "66'"
         teams:
           - name: "Loudoun United"
-            score: "1"
+            score: "3"
+            active: true
           - name: "Colorado Springs Switchbacks"
-            score: "1"
+            score: "2"
       - id: football-2405056
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "65'"
         teams:
           - name: "Ferro Carril Oeste"
             score: "0"
           - name: "Mitre"
             score: "0"
-      - id: football-2398058
-        competition: "Argentinian Primera Division"
+      - id: football-2431418
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "1'"
         teams:
-          - name: "Belgrano"
-            score: "1"
-          - name: "Huracán"
-            score: "1"
+          - name: "CRB"
+            score: "0"
+          - name: "América Mineiro"
+            score: "0"
       - id: football-2431416
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "35'"
+        stateLabel: "45'"
         teams:
           - name: "Athletic Club-MG"
-            score: "1"
+            score: "3"
             active: true
           - name: "Vila Nova"
             score: "0"
-      - id: football-2431419
-        competition: "Brazilian Serie B"
+      - id: football-2481448
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "73'"
+        stateLabel: "1'"
         teams:
-          - name: "Criciúma"
-            score: "2"
-            active: true
-          - name: "Cuiabá"
+          - name: "Orsomarso"
+            score: "0"
+          - name: "Real Cartagena"
             score: "0"
 
   - name: Cricket
