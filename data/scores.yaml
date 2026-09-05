@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 23:17 IST"
+updated: "05 Sep 2026, 23:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,34 @@ sports:
       - id: football-2533272
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "51'"
+        stateLabel: "68'"
         teams:
           - name: "Vllaznia Shkodër"
-            score: "1"
+            score: "2"
           - name: "Partizani Tirana"
             score: "2"
-            active: true
+      - id: football-2558876
+        competition: "Algerian Ligue 1"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "CR Témouchent"
+            score: "0"
+          - name: "CS Constantine"
+            score: "0"
+      - id: football-2406529
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Sportivo Italiano"
+            score: "0"
+          - name: "Flandria"
+            score: "0"
       - id: football-2398061
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "16'"
+        stateLabel: "33'"
         teams:
           - name: "Gimnasia y Esgrima de La Plata"
             score: "0"
@@ -45,42 +62,23 @@ sports:
       - id: football-2398056
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "56'"
+        stateLabel: "73'"
         teams:
           - name: "Aldosivi"
             score: "3"
             active: true
           - name: "Banfield"
             score: "1"
-      - id: football-2512709
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Dornbirn"
-            score: "4"
-            active: true
-          - name: "Fügen"
-            score: "0"
       - id: football-2546640
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "55'"
+        stateLabel: "73'"
         teams:
           - name: "Neftçi PFK"
-            score: "1"
+            score: "3"
+            active: true
           - name: "Şəfa"
             score: "1"
-      - id: football-2570540
-        competition: "Bahrain Premier League"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Manama Club"
-            score: "1"
-          - name: "Al-Riffa"
-            score: "4"
-            active: true
 
   - name: Cricket
     matches:
