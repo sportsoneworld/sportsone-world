@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 09:34 IST"
+updated: "05 Sep 2026, 09:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397304
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+      - id: football-2597586
+        competition: "Australia Tasmania NPL"
+        state: live
+        stateLabel: "61'"
         teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Hartford Athletic"
-            score: "–"
-      - id: football-2397305
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "South Hobart"
+            score: "3"
+            active: true
+          - name: "Devonport City"
+            score: "1"
+      - id: football-2595565
+        competition: "Australia Victoria NPL"
+        state: live
+        stateLabel: "20'"
         teams:
-          - name: "Indy Eleven"
-            score: "–"
-            detail: "23:00"
-          - name: "Birmingham Legion"
-            score: "–"
-      - id: football-2397307
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Avondale"
+            score: "0"
+          - name: "Preston Lions"
+            score: "0"
+      - id: football-2548503
+        competition: "Mexican Liga Femenil"
+        state: live
+        stateLabel: "61'"
         teams:
-          - name: "Miami FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2397306
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:30"
+          - name: "Pumas UNAM Femenil"
+            score: "1"
+          - name: "América Femenil"
+            score: "1"
+      - id: football-2521296
+        competition: "Mexican Liga de Expansión MX"
+        state: live
+        stateLabel: "58'"
         teams:
-          - name: "Las Vegas Lights"
-            score: "–"
-            detail: "02:30"
-          - name: "New Mexico United"
-            score: "–"
-      - id: football-2397308
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
+          - name: "Atlético La Paz"
+            score: "1"
+            active: true
+          - name: "Mineros de Zacatecas"
+            score: "0"
+      - id: football-2487507
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "58'"
         teams:
-          - name: "Monterey Bay FC"
-            score: "–"
-            detail: "02:00"
-          - name: "Phoenix Rising"
-            score: "–"
-      - id: football-2397309
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
+          - name: "Juárez"
+            score: "0"
+          - name: "Pachuca"
+            score: "1"
+            active: true
+      - id: football-2419903
+        competition: "American NWSL"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Orange County SC"
-            score: "–"
-            detail: "01:00"
-          - name: "Sacramento Republic"
-            score: "–"
+          - name: "Utah Royals"
+            score: "1"
+          - name: "Boston Legacy"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
