@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 02:04 IST"
+updated: "06 Sep 2026, 02:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2558875
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "ASO Chlef"
             score: "2"
           - name: "CR Belouizdad"
-            score: "2"
+            score: "3"
+            active: true
       - id: football-2551352
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "68'"
+        stateLabel: "82'"
         teams:
           - name: "Sarmiento de Resistencia"
             score: "0"
@@ -44,42 +45,42 @@ sports:
       - id: football-2405052
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "29'"
+        stateLabel: "43'"
         teams:
           - name: "Colón"
             score: "0"
           - name: "Deportivo Morón"
-            score: "0"
-      - id: football-2405049
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Chacarita Juniors"
-            score: "0"
-          - name: "Atlanta"
             score: "1"
             active: true
       - id: football-2398062
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "60'"
         teams:
           - name: "Gimnasia y Esgrima de Mendoza"
             score: "1"
           - name: "Boca Juniors"
             score: "2"
             active: true
-      - id: football-2496730
-        competition: "Belgian Pro League"
+      - id: football-2566608
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "90'"
+        stateLabel: "86'"
         teams:
-          - name: "Sint-Truiden"
-            score: "4"
+          - name: "Guabirá"
+            score: "1"
+          - name: "Real Potosí"
+            score: "1"
+      - id: football-2398442
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "84'"
+        teams:
+          - name: "Bragantino"
+            score: "2"
+          - name: "Bahia"
+            score: "3"
             active: true
-          - name: "RAAL La Louvière"
-            score: "0"
 
   - name: Cricket
     matches:
