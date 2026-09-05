@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 14:51 IST"
+updated: "05 Sep 2026, 15:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2598832
         competition: "Australia ACT NPL"
         state: live
-        stateLabel: "16'"
+        stateLabel: "29'"
         teams:
           - name: "Monaro Panthers"
             score: "1"
@@ -36,26 +36,16 @@ sports:
       - id: football-2598724
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Northern Tigers"
             score: "0"
           - name: "St George"
             score: "0"
-      - id: football-2441259
-        competition: "China League One"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Shaanxi Union"
-            score: "2"
-            active: true
-          - name: "Jiangxi Dingnan United"
-            score: "1"
       - id: football-2502765
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "46'"
+        stateLabel: "59'"
         teams:
           - name: "Slavia Praha C"
             score: "1"
@@ -64,7 +54,7 @@ sports:
       - id: football-2502762
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "48'"
+        stateLabel: "61'"
         teams:
           - name: "Motorlet Praha"
             score: "1"
@@ -74,12 +64,22 @@ sports:
       - id: football-2502761
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "51'"
+        stateLabel: "64'"
         teams:
           - name: "Loko Praha"
             score: "2"
           - name: "Benešov"
             score: "2"
+      - id: football-2502643
+        competition: "Czech Bohemian Football League Group B"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Mladá Boleslav B"
+            score: "1"
+          - name: "Zápy"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
