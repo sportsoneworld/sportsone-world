@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 01:17 IST"
+updated: "06 Sep 2026, 01:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558876
+      - id: football-2558875
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "85'"
+        stateLabel: "2'"
         teams:
-          - name: "CR Témouchent"
+          - name: "ASO Chlef"
             score: "1"
-          - name: "CS Constantine"
-            score: "1"
+            active: true
+          - name: "CR Belouizdad"
+            score: "0"
       - id: football-2572243
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "54'"
+        stateLabel: "71'"
         teams:
           - name: "Carroi"
             score: "0"
           - name: "FC Santa Coloma"
-            score: "1"
+            score: "3"
             active: true
       - id: football-2406531
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Villa Dálmine"
             score: "0"
           - name: "Arsenal de Sarandí"
-            score: "0"
-      - id: football-2406527
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Real Pilar"
-            score: "0"
-          - name: "Talleres de Remedios de Escalada"
-            score: "2"
-            active: true
-      - id: football-2406529
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Sportivo Italiano"
-            score: "2"
-            active: true
-          - name: "Flandria"
             score: "1"
+            active: true
       - id: football-2551352
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "41'"
+        stateLabel: "45'"
         teams:
           - name: "Sarmiento de Resistencia"
             score: "0"
           - name: "Tucumán Central"
             score: "0"
+      - id: football-2405049
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Chacarita Juniors"
+            score: "0"
+          - name: "Atlanta"
+            score: "1"
+            active: true
+      - id: football-2405045
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "Acassuso"
+            score: "0"
+          - name: "All Boys"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
