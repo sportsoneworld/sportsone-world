@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 21:34 IST"
+updated: "05 Sep 2026, 21:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,48 +23,30 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578079
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Iliria Fushë-Krujë"
-            score: "0"
-          - name: "Pogradeci"
-            score: "0"
       - id: football-2578227
         competition: "Angolan Girabola"
         state: live
-        stateLabel: "72'"
+        stateLabel: "90'"
         teams:
           - name: "Académica do Lobito"
             score: "0"
           - name: "Primeiro de Maio"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2523514
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "47'"
+        stateLabel: "65'"
         teams:
           - name: "Ararat Yerevan"
             score: "0"
           - name: "Ararat-Armenia"
-            score: "0"
-      - id: football-2553186
-        competition: "Austrian Cup"
-        state: live
-        stateLabel: "32'"
-        teams:
-          - name: "Traiskirchen"
-            score: "0"
-          - name: "Austria Vienna"
-            score: "3"
+            score: "1"
             active: true
       - id: football-2553188
         competition: "Austrian Cup"
         state: live
-        stateLabel: "72'"
+        stateLabel: "90'"
         teams:
           - name: "Austria Salzburg"
             score: "0"
@@ -74,13 +56,33 @@ sports:
       - id: football-2553190
         competition: "Austrian Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "61'"
         teams:
           - name: "Leithaprodersdorf"
             score: "0"
           - name: "WSG Tirol"
-            score: "2"
+            score: "3"
             active: true
+      - id: football-2553186
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Traiskirchen"
+            score: "0"
+          - name: "Austria Vienna"
+            score: "4"
+            active: true
+      - id: football-2514302
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Wiener Viktoria"
+            score: "1"
+            active: true
+          - name: "Scheiblingkirchen-Warth"
+            score: "0"
 
   - name: Cricket
     matches:
