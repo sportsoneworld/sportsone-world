@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 02:17 IST"
+updated: "06 Sep 2026, 02:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,45 +36,46 @@ sports:
       - id: football-2551352
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Sarmiento de Resistencia"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Tucumán Central"
             score: "0"
       - id: football-2405052
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "43'"
+        stateLabel: "Live"
         teams:
           - name: "Colón"
             score: "0"
           - name: "Deportivo Morón"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2398062
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
           - name: "Gimnasia y Esgrima de Mendoza"
-            score: "1"
+            score: "2"
           - name: "Boca Juniors"
             score: "2"
-            active: true
-      - id: football-2566608
-        competition: "Bolivian Primera División"
+      - id: football-2599958
+        competition: "Bolivian Nacional B Copa Simón Bolívar"
         state: live
-        stateLabel: "86'"
+        stateLabel: "72'"
         teams:
-          - name: "Guabirá"
+          - name: "Unión Tarija"
+            score: "0"
+          - name: "Ciudad Nueva Santa Cruz"
             score: "1"
-          - name: "Real Potosí"
-            score: "1"
+            active: true
       - id: football-2398442
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Bragantino"
             score: "2"
