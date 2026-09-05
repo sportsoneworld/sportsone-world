@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 03:33 IST"
+updated: "06 Sep 2026, 03:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405052
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2406522
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "17'"
         teams:
-          - name: "Colón"
-            score: "1"
-          - name: "Deportivo Morón"
-            score: "2"
-            active: true
+          - name: "Deportivo Merlo"
+            score: "0"
+          - name: "Defensores Unidos"
+            score: "0"
       - id: football-2398068
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "2'"
+        stateLabel: "20'"
         teams:
           - name: "San Lorenzo"
             score: "0"
@@ -45,7 +44,7 @@ sports:
       - id: football-2566609
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Aurora"
             score: "3"
@@ -55,31 +54,31 @@ sports:
       - id: football-2398449
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "São Paulo"
             score: "0"
           - name: "Atlético Mineiro"
             score: "0"
-      - id: football-2431417
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "32'"
-        teams:
-          - name: "Ceará"
-            score: "0"
-          - name: "Sport Recife"
-            score: "0"
       - id: football-2431421
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "45'"
+        stateLabel: "60'"
         teams:
           - name: "Juventude"
             score: "2"
             active: true
           - name: "Atlético Goianiense"
             score: "1"
+      - id: football-2431417
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Ceará"
+            score: "0"
+          - name: "Sport Recife"
+            score: "0"
 
   - name: Cricket
     matches:
