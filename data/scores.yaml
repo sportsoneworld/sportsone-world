@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 03:17 IST"
+updated: "06 Sep 2026, 03:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558875
-        competition: "Algerian Ligue 1"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "ASO Chlef"
-            score: "3"
-          - name: "CR Belouizdad"
-            score: "3"
       - id: football-2405052
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Colón"
             score: "1"
           - name: "Deportivo Morón"
             score: "2"
             active: true
+      - id: football-2398068
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "San Lorenzo"
+            score: "0"
+          - name: "Talleres de Córdoba"
+            score: "0"
       - id: football-2566609
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
           - name: "Aurora"
             score: "3"
@@ -55,7 +55,7 @@ sports:
       - id: football-2398449
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "16'"
+        stateLabel: "32'"
         teams:
           - name: "São Paulo"
             score: "0"
@@ -64,7 +64,7 @@ sports:
       - id: football-2431417
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "16'"
+        stateLabel: "32'"
         teams:
           - name: "Ceará"
             score: "0"
@@ -76,7 +76,8 @@ sports:
         stateLabel: "45'"
         teams:
           - name: "Juventude"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Atlético Goianiense"
             score: "1"
 
