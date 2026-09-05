@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 00:07 IST"
+updated: "06 Sep 2026, 00:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533272
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vllaznia Shkodër"
-            score: "2"
-          - name: "Partizani Tirana"
-            score: "3"
-            active: true
       - id: football-2558876
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "CR Témouchent"
             score: "1"
@@ -46,7 +36,7 @@ sports:
       - id: football-2572243
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "3'"
+        stateLabel: "17'"
         teams:
           - name: "Carroi"
             score: "0"
@@ -55,17 +45,16 @@ sports:
       - id: football-2406529
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
           - name: "Sportivo Italiano"
-            score: "0"
+            score: "1"
           - name: "Flandria"
             score: "1"
-            active: true
       - id: football-2406527
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Real Pilar"
             score: "0"
@@ -75,11 +64,20 @@ sports:
       - id: football-2406531
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Villa Dálmine"
             score: "0"
           - name: "Arsenal de Sarandí"
+            score: "0"
+      - id: football-2405060
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "San Telmo"
+            score: "0"
+          - name: "Los Andes"
             score: "0"
 
   - name: Cricket
