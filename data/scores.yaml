@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 17:02 IST"
+updated: "05 Sep 2026, 17:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,39 +23,48 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2588853
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Adelaide City"
-            score: "6"
-            active: true
-          - name: "Playford City Patriots"
-            score: "0"
-      - id: football-2588854
-        competition: "Australia South Australia NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "West Torrens Birkalla"
-            score: "2"
-            active: true
-          - name: "North Eastern MetroStars"
-            score: "0"
       - id: football-2452153
         competition: "Belarusian First League"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Osipovichi"
             score: "0"
           - name: "Lida"
+            score: "1"
+            active: true
+      - id: football-2497021
+        competition: "Belgian Challenger Pro League"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Jong Gent"
+            score: "2"
+            active: true
+          - name: "RSCA Futures"
+            score: "1"
+      - id: football-2585182
+        competition: "Belgian Womens Pro League"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Les Louviéroises"
+            score: "0"
+          - name: "Essevee Women"
+            score: "0"
+      - id: football-2525297
+        competition: "Bosnian Premier Liga"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "BSK Banja Luka"
+            score: "0"
+          - name: "Čelik Zenica"
             score: "0"
       - id: football-2558148
         competition: "Cambodian Premier League"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Phnom Penh Crown"
             score: "1"
@@ -65,20 +74,11 @@ sports:
       - id: football-2441262
         competition: "China League One"
         state: live
-        stateLabel: "1'"
+        stateLabel: "16'"
         teams:
           - name: "Foshan Nanshi"
             score: "0"
           - name: "Dalian K'un City"
-            score: "0"
-      - id: football-2441263
-        competition: "China League One"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Nantong Zhiyun"
-            score: "0"
-          - name: "Guangdong GZ-Power"
             score: "0"
 
   - name: Cricket
