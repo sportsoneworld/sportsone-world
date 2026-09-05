@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 18:50 IST"
+updated: "05 Sep 2026, 19:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,24 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2553187
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Deutschlandsberger"
+            score: "0"
+          - name: "LASK"
+            score: "0"
+      - id: football-2553178
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Blau-Weiß Linz"
+            score: "0"
+          - name: "Wacker Innsbruck"
+            score: "0"
       - id: football-2553181
         competition: "Austrian Cup"
         state: live
@@ -44,40 +62,21 @@ sports:
       - id: football-2452155
         competition: "Belarusian First League"
         state: live
-        stateLabel: "64'"
+        stateLabel: "76'"
         teams:
           - name: "Bumprom Gomel"
             score: "1"
           - name: "SKA-1938 Minsk"
             score: "2"
             active: true
-      - id: football-2497021
-        competition: "Belgian Challenger Pro League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Jong Gent"
-            score: "2"
-            active: true
-          - name: "RSCA Futures"
-            score: "1"
-      - id: football-2585182
-        competition: "Belgian Womens Pro League"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Les Louviéroises"
-            score: "1"
-            active: true
-          - name: "Essevee Women"
-            score: "0"
       - id: football-2525297
         competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "86'"
+        stateLabel: "Live"
         teams:
           - name: "BSK Banja Luka"
-            score: "2"
+            score: "3"
+            active: true
           - name: "Čelik Zenica"
             score: "2"
 
