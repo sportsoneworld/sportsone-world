@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 08:05 IST"
+updated: "05 Sep 2026, 08:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2419904
         competition: "American NWSL"
         state: live
-        stateLabel: "24'"
+        stateLabel: "37'"
         teams:
           - name: "Bay FC"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2419903
         competition: "American NWSL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "52'"
         teams:
           - name: "Utah Royals"
             score: "1"
@@ -45,7 +45,7 @@ sports:
       - id: football-2557483
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Escorpiones de Belén"
             score: "0"
@@ -54,16 +54,17 @@ sports:
       - id: football-2497248
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "71'"
+        stateLabel: "84'"
         teams:
           - name: "Antigua"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Aurora FC"
             score: "1"
       - id: football-2597596
         competition: "Honduras Liga Nacional de Futbol"
         state: live
-        stateLabel: "75'"
+        stateLabel: "88'"
         teams:
           - name: "Choloma"
             score: "0"
@@ -72,7 +73,7 @@ sports:
       - id: football-2423405
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "88'"
+        stateLabel: "Live"
         teams:
           - name: "North Texas SC"
             score: "4"
