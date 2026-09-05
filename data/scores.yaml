@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 07:33 IST"
+updated: "05 Sep 2026, 07:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419904
+        competition: "American NWSL"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Bay FC"
+            score: "0"
+          - name: "Kansas City Current"
+            score: "1"
+            active: true
       - id: football-2419903
         competition: "American NWSL"
         state: live
-        stateLabel: "26'"
+        stateLabel: "45'"
         teams:
           - name: "Utah Royals"
             score: "1"
@@ -35,17 +45,17 @@ sports:
       - id: football-2431418
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "72'"
+        stateLabel: "Live"
         teams:
           - name: "CRB"
             score: "3"
             active: true
           - name: "América Mineiro"
-            score: "0"
+            score: "1"
       - id: football-2421983
         competition: "Chile Primera B"
         state: live
-        stateLabel: "72'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Puerto Montt"
             score: "1"
@@ -55,7 +65,7 @@ sports:
       - id: football-2413078
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "73'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Concepción"
             score: "0"
@@ -65,22 +75,13 @@ sports:
       - id: football-2481448
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "76'"
+        stateLabel: "Live"
         teams:
           - name: "Orsomarso"
             score: "0"
           - name: "Real Cartagena"
             score: "1"
             active: true
-      - id: football-2557483
-        competition: "Costa-Rica Liga FPD"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Escorpiones de Belén"
-            score: "0"
-          - name: "Inter de San Carlos"
-            score: "0"
 
   - name: Cricket
     matches:
