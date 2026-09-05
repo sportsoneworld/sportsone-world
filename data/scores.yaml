@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 17:56 IST"
+updated: "05 Sep 2026, 18:08 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,48 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2553181
+        competition: "Austrian Cup"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Lafnitz"
+            score: "0"
+          - name: "Austria Lustenau"
+            score: "1"
+            active: true
+      - id: football-2437866
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Torpedo-BelAZ Zhodino"
+            score: "0"
+          - name: "Gomel"
+            score: "0"
       - id: football-2452155
         competition: "Belarusian First League"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "Bumprom Gomel"
-            score: "0"
+            score: "1"
           - name: "SKA-1938 Minsk"
-            score: "0"
+            score: "1"
       - id: football-2452153
         competition: "Belarusian First League"
         state: live
-        stateLabel: "70'"
+        stateLabel: "83'"
         teams:
           - name: "Osipovichi"
-            score: "0"
+            score: "1"
           - name: "Lida"
             score: "2"
             active: true
       - id: football-2497021
         competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "50'"
         teams:
           - name: "Jong Gent"
             score: "2"
@@ -55,31 +74,12 @@ sports:
       - id: football-2585182
         competition: "Belgian Womens Pro League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Les Louviéroises"
             score: "0"
           - name: "Essevee Women"
             score: "0"
-      - id: football-2525297
-        competition: "Bosnian Premier Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "BSK Banja Luka"
-            score: "0"
-          - name: "Čelik Zenica"
-            score: "1"
-            active: true
-      - id: football-2558148
-        competition: "Cambodian Premier League"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Phnom Penh Crown"
-            score: "2"
-          - name: "NagaWorld"
-            score: "2"
 
   - name: Cricket
     matches:
