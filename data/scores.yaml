@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 13:34 IST"
+updated: "05 Sep 2026, 13:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2597843
         competition: "Australia Queensland NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "61'"
         teams:
           - name: "Peninsula Power"
             score: "2"
@@ -36,47 +36,48 @@ sports:
       - id: football-2441259
         competition: "China League One"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Shaanxi Union"
             score: "0"
           - name: "Jiangxi Dingnan United"
             score: "0"
-      - id: football-2553749
-        competition: "Hong-Kong Premier League"
+      - id: football-2502765
+        competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "2'"
+        stateLabel: "5'"
         teams:
-          - name: "Tai Po"
+          - name: "Slavia Praha C"
             score: "0"
-          - name: "Hong Kong Rangers"
+          - name: "Písek"
             score: "0"
-      - id: football-2430185
-        competition: "Korean K3 League"
+      - id: football-2502762
+        competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "3'"
+        stateLabel: "6'"
         teams:
-          - name: "Changwon FC"
+          - name: "Motorlet Praha"
             score: "0"
-          - name: "Daejeon Korail"
+          - name: "Aritma Praha"
             score: "0"
-      - id: football-2547502
-        competition: "Romanian Liga II"
+      - id: football-2502761
+        competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "1'"
+        stateLabel: "7'"
         teams:
-          - name: "ASA Târgu Mureș"
+          - name: "Loko Praha"
             score: "0"
-          - name: "Metaloglobus București"
-            score: "0"
-      - id: football-2547503
-        competition: "Romanian Liga II"
+          - name: "Benešov"
+            score: "1"
+            active: true
+      - id: football-2502643
+        competition: "Czech Bohemian Football League Group B"
         state: live
-        stateLabel: "1'"
+        stateLabel: "6'"
         teams:
-          - name: "Râmnicu Vâlcea"
+          - name: "Mladá Boleslav B"
             score: "0"
-          - name: "Reșița"
+          - name: "Zápy"
             score: "0"
 
   - name: Cricket
