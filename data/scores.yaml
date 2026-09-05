@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 06:21 IST"
+updated: "05 Sep 2026, 06:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2407038
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "52'"
+        stateLabel: "65'"
         teams:
           - name: "New York City FC"
             score: "0"
@@ -35,17 +35,16 @@ sports:
       - id: football-2397303
         competition: "American USL Championship"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Loudoun United"
-            score: "3"
-            active: true
+            score: "4"
           - name: "Colorado Springs Switchbacks"
-            score: "2"
+            score: "4"
       - id: football-2405056
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Ferro Carril Oeste"
             score: "0"
@@ -54,7 +53,7 @@ sports:
       - id: football-2431418
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "20'"
+        stateLabel: "32'"
         teams:
           - name: "CRB"
             score: "1"
@@ -64,7 +63,7 @@ sports:
       - id: football-2431416
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "58'"
+        stateLabel: "70'"
         teams:
           - name: "Athletic Club-MG"
             score: "3"
@@ -74,7 +73,7 @@ sports:
       - id: football-2421983
         competition: "Chile Primera B"
         state: live
-        stateLabel: "18'"
+        stateLabel: "30'"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
