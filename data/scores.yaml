@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 04:50 IST"
+updated: "06 Sep 2026, 05:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407039
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Inter Miami"
+            score: "0"
+          - name: "Atlanta United"
+            score: "0"
       - id: football-2419905
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Racing Louisville"
             score: "0"
@@ -35,7 +44,7 @@ sports:
       - id: football-2397304
         competition: "American USL Championship"
         state: live
-        stateLabel: "12'"
+        stateLabel: "24'"
         teams:
           - name: "Detroit City FC"
             score: "0"
@@ -44,38 +53,31 @@ sports:
       - id: football-2397312
         competition: "American USL Championship"
         state: live
-        stateLabel: "12'"
+        stateLabel: "24'"
         teams:
           - name: "Sporting JAX"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Lexington SC"
             score: "0"
       - id: football-2397305
         competition: "American USL Championship"
         state: live
-        stateLabel: "13'"
+        stateLabel: "25'"
         teams:
           - name: "Indy Eleven"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Birmingham Legion"
             score: "0"
       - id: football-2397632
         competition: "American USL League One"
         state: live
-        stateLabel: "13'"
+        stateLabel: "25'"
         teams:
           - name: "Chattanooga Red Wolves"
             score: "0"
           - name: "Greenville Triumph"
-            score: "0"
-      - id: football-2406522
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "54'"
-        teams:
-          - name: "Deportivo Merlo"
-            score: "0"
-          - name: "Defensores Unidos"
             score: "0"
 
   - name: Cricket
