@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 12:19 IST"
+updated: "05 Sep 2026, 12:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,15 +32,14 @@ sports:
             score: "0"
           - name: "Queanbeyan City"
             score: "0"
-      - id: football-2595565
-        competition: "Australia Victoria NPL"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2597843
+        competition: "Australia Queensland NPL"
+        state: live
+        stateLabel: "2'"
         teams:
-          - name: "Avondale"
-            score: "2"
-            active: true
-          - name: "Preston Lions"
+          - name: "Peninsula Power"
+            score: "0"
+          - name: "Moreton City Excelsior"
             score: "0"
       - id: football-2397304
         competition: "American USL Championship"
