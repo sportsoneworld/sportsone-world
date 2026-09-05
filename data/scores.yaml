@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 16:33 IST"
+updated: "05 Sep 2026, 16:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,30 +23,20 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598832
-        competition: "Australia ACT NPL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Monaro Panthers"
-            score: "1"
-          - name: "Cooma Tigers"
-            score: "2"
-            active: true
       - id: football-2588854
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "69'"
+        stateLabel: "86'"
         teams:
           - name: "West Torrens Birkalla"
-            score: "1"
+            score: "2"
             active: true
           - name: "North Eastern MetroStars"
             score: "0"
       - id: football-2588853
         competition: "Australia South Australia NPL"
         state: live
-        stateLabel: "72'"
+        stateLabel: "89'"
         teams:
           - name: "Adelaide City"
             score: "5"
@@ -56,7 +46,7 @@ sports:
       - id: football-2452153
         competition: "Belarusian First League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "20'"
         teams:
           - name: "Osipovichi"
             score: "0"
@@ -65,20 +55,29 @@ sports:
       - id: football-2558148
         competition: "Cambodian Premier League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "20'"
         teams:
           - name: "Phnom Penh Crown"
-            score: "0"
+            score: "1"
           - name: "NagaWorld"
-            score: "0"
+            score: "1"
       - id: football-2441261
         competition: "China League One"
         state: live
-        stateLabel: "2'"
+        stateLabel: "19'"
         teams:
           - name: "Changchun Yatai"
             score: "0"
           - name: "Ningbo Professional"
+            score: "0"
+      - id: football-2441260
+        competition: "China League One"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Wuxi Wugo"
+            score: "0"
+          - name: "Yanbian Longding"
             score: "0"
 
   - name: Cricket
