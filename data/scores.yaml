@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Sep 2026, 08:18 IST"
+updated: "05 Sep 2026, 08:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,25 +23,33 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419904
-        competition: "American NWSL"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Bay FC"
-            score: "0"
-          - name: "Kansas City Current"
-            score: "1"
-            active: true
       - id: football-2419903
         competition: "American NWSL"
         state: live
-        stateLabel: "52'"
+        stateLabel: "68'"
         teams:
           - name: "Utah Royals"
             score: "1"
           - name: "Boston Legacy"
             score: "1"
+      - id: football-2419904
+        competition: "American NWSL"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Bay FC"
+            score: "1"
+          - name: "Kansas City Current"
+            score: "1"
+      - id: football-2597586
+        competition: "Australia Tasmania NPL"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "South Hobart"
+            score: "0"
+          - name: "Devonport City"
+            score: "0"
       - id: football-2557483
         competition: "Costa-Rica Liga FPD"
         state: live
@@ -50,36 +58,27 @@ sports:
           - name: "Escorpiones de Belén"
             score: "0"
           - name: "Inter de San Carlos"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2497248
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Antigua"
             score: "2"
             active: true
           - name: "Aurora FC"
             score: "1"
-      - id: football-2597596
-        competition: "Honduras Liga Nacional de Futbol"
+      - id: football-2548503
+        competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "88'"
+        stateLabel: "3'"
         teams:
-          - name: "Choloma"
+          - name: "Pumas UNAM Femenil"
             score: "0"
-          - name: "Olancho"
+          - name: "América Femenil"
             score: "0"
-      - id: football-2423405
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "North Texas SC"
-            score: "4"
-            active: true
-          - name: "Real Monarchs"
-            score: "1"
 
   - name: Cricket
     matches:
