@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 08:19 IST"
+updated: "06 Sep 2026, 08:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2407051
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "8'"
+        stateLabel: "23'"
         teams:
           - name: "Vancouver Whitecaps"
             score: "1"
@@ -36,16 +36,17 @@ sports:
       - id: football-2407052
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "8'"
+        stateLabel: "23'"
         teams:
           - name: "Portland Timbers"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Minnesota United"
             score: "0"
       - id: football-2407049
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "47'"
+        stateLabel: "62'"
         teams:
           - name: "Real Salt Lake"
             score: "1"
@@ -55,7 +56,7 @@ sports:
       - id: football-2407050
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "49'"
+        stateLabel: "64'"
         teams:
           - name: "LA Galaxy"
             score: "2"
@@ -65,23 +66,21 @@ sports:
       - id: football-2407039
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
           - name: "Inter Miami"
             score: "2"
-            active: true
           - name: "Atlanta United"
-            score: "1"
-      - id: football-2407047
-        competition: "American Major League Soccer"
+            score: "2"
+      - id: football-2397306
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "27'"
         teams:
-          - name: "FC Dallas"
-            score: "4"
-            active: true
-          - name: "Sporting Kansas City"
-            score: "3"
+          - name: "Las Vegas Lights"
+            score: "0"
+          - name: "New Mexico United"
+            score: "0"
 
   - name: Cricket
     matches:
