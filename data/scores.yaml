@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 23:53 IST"
+updated: "07 Sep 2026, 00:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533270
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Dinamo City"
-            score: "2"
-            active: true
-          - name: "Elbasani"
-            score: "1"
       - id: football-2419906
         competition: "American NWSL"
         state: live
-        stateLabel: "17'"
+        stateLabel: "29'"
         teams:
           - name: "Denver Summit"
             score: "0"
@@ -45,39 +35,49 @@ sports:
       - id: football-2572246
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "21'"
+        stateLabel: "33'"
         teams:
           - name: "Penya Encarnada d'Andorra"
             score: "0"
           - name: "Atlètic d'Escaldes"
             score: "0"
-      - id: football-2406532
+      - id: football-2406526
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "17'"
+        stateLabel: "34'"
         teams:
-          - name: "Villa San Carlos"
+          - name: "Liniers"
             score: "0"
-          - name: "Brown de Adrogué"
+          - name: "Laferrere"
             score: "0"
       - id: football-2406530
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "18'"
+        stateLabel: "30'"
         teams:
           - name: "UAI Urquiza"
             score: "2"
             active: true
           - name: "Argentino de Merlo"
             score: "0"
-      - id: football-2406526
+      - id: football-2406532
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "22'"
+        stateLabel: "29'"
         teams:
-          - name: "Liniers"
+          - name: "Villa San Carlos"
             score: "0"
-          - name: "Laferrere"
+          - name: "Brown de Adrogué"
+            score: "0"
+      - id: football-2551359
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "34'"
+        teams:
+          - name: "Juventud Unida Universitario"
+            score: "1"
+            active: true
+          - name: "Santamarina"
             score: "0"
 
   - name: Cricket
