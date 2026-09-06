@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 01:52 IST"
+updated: "07 Sep 2026, 02:05 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,48 +23,50 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419908
+        competition: "American NWSL"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Portland Thorns"
+            score: "1"
+            active: true
+          - name: "Washington Spirit"
+            score: "0"
       - id: football-2419907
         competition: "American NWSL"
         state: live
-        stateLabel: "14'"
+        stateLabel: "27'"
         teams:
           - name: "Chicago Stars"
             score: "0"
           - name: "North Carolina Courage"
-            score: "1"
+            score: "2"
             active: true
-      - id: football-2419908
-        competition: "American NWSL"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Portland Thorns"
-            score: "0"
-          - name: "Washington Spirit"
-            score: "0"
       - id: football-2551362
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "52'"
+        stateLabel: "65'"
         teams:
           - name: "Sarmiento de La Banda"
             score: "0"
           - name: "9 de Julio de Rafaela"
-            score: "3"
+            score: "4"
             active: true
       - id: football-2551357
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "59'"
+        stateLabel: "72'"
         teams:
           - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "0"
+            score: "1"
+            active: true
           - name: "San Martín de Formosa"
             score: "0"
       - id: football-2551350
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "59'"
+        stateLabel: "72'"
         teams:
           - name: "Boca Unidos"
             score: "1"
@@ -74,7 +76,7 @@ sports:
       - id: football-2551354
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "60'"
+        stateLabel: "73'"
         teams:
           - name: "Independiente de Chivilcoy"
             score: "1"
