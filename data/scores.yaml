@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 02:17 IST"
+updated: "07 Sep 2026, 02:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419908
-        competition: "American NWSL"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "Portland Thorns"
-            score: "1"
-            active: true
-          - name: "Washington Spirit"
-            score: "0"
       - id: football-2419907
         competition: "American NWSL"
         state: live
-        stateLabel: "39'"
+        stateLabel: "45'"
         teams:
           - name: "Chicago Stars"
             score: "0"
           - name: "North Carolina Courage"
             score: "2"
             active: true
+      - id: football-2419908
+        competition: "American NWSL"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Portland Thorns"
+            score: "1"
+            active: true
+          - name: "Washington Spirit"
+            score: "0"
       - id: football-2551362
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Sarmiento de La Banda"
-            score: "0"
+            score: "1"
           - name: "9 de Julio de Rafaela"
             score: "4"
             active: true
       - id: football-2551357
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Defensores de Belgrano de Villa Ramallo"
             score: "1"
             active: true
           - name: "San Martín de Formosa"
             score: "0"
-      - id: football-2551350
-        competition: "Argentina Torneo Federal A"
+      - id: football-2405054
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
-          - name: "Boca Unidos"
-            score: "1"
+          - name: "Deportivo Madryn"
+            score: "3"
             active: true
-          - name: "Gimnasia y Esgrima de Concepción del Uruguay"
+          - name: "Ciudad de Bolívar"
+            score: "1"
+      - id: football-2405048
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Central Norte"
             score: "0"
-      - id: football-2551354
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Independiente de Chivilcoy"
-            score: "1"
-            active: true
-          - name: "El Linqueño"
+          - name: "Almirante Brown"
             score: "0"
 
   - name: Cricket
@@ -99,11 +98,11 @@ sports:
       - id: cricket-2578486
         competition: "Caribbean Premier League"
         state: upcoming
-        stateLabel: "14:00"
+        stateLabel: "19:00"
         teams:
           - name: "Guyana Amazon Warriors"
             score: "–"
-            detail: "14:00"
+            detail: "19:00"
           - name: "St Kitts and Nevis Patriots"
             score: "–"
       - id: cricket-2578487
