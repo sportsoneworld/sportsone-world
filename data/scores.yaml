@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 00:33 IST"
+updated: "07 Sep 2026, 00:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,34 +26,27 @@ sports:
       - id: football-2419906
         competition: "American NWSL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "54'"
         teams:
           - name: "Denver Summit"
-            score: "0"
+            score: "1"
+            active: true
           - name: "NJ/NY Gotham"
             score: "0"
       - id: football-2572246
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
           - name: "Penya Encarnada d'Andorra"
             score: "0"
           - name: "Atlètic d'Escaldes"
-            score: "0"
-      - id: football-2406526
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Liniers"
-            score: "0"
-          - name: "Laferrere"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2406530
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "UAI Urquiza"
             score: "2"
@@ -63,21 +56,30 @@ sports:
       - id: football-2406532
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "57'"
         teams:
           - name: "Villa San Carlos"
             score: "0"
           - name: "Brown de Adrogué"
             score: "0"
-      - id: football-2551349
+      - id: football-2406526
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Liniers"
+            score: "2"
+            active: true
+          - name: "Laferrere"
+            score: "0"
+      - id: football-2551354
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "27'"
+        stateLabel: "16'"
         teams:
-          - name: "Olimpo"
-            score: "1"
-            active: true
-          - name: "Cipolletti"
+          - name: "Independiente de Chivilcoy"
+            score: "0"
+          - name: "El Linqueño"
             score: "0"
 
   - name: Cricket
