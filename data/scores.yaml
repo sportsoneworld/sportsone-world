@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 02:05 IST"
+updated: "07 Sep 2026, 02:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2419908
         competition: "American NWSL"
         state: live
-        stateLabel: "21'"
+        stateLabel: "33'"
         teams:
           - name: "Portland Thorns"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2419907
         competition: "American NWSL"
         state: live
-        stateLabel: "27'"
+        stateLabel: "39'"
         teams:
           - name: "Chicago Stars"
             score: "0"
@@ -46,7 +46,7 @@ sports:
       - id: football-2551362
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "65'"
+        stateLabel: "77'"
         teams:
           - name: "Sarmiento de La Banda"
             score: "0"
@@ -56,7 +56,7 @@ sports:
       - id: football-2551357
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "72'"
+        stateLabel: "84'"
         teams:
           - name: "Defensores de Belgrano de Villa Ramallo"
             score: "1"
@@ -66,7 +66,7 @@ sports:
       - id: football-2551350
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "72'"
+        stateLabel: "84'"
         teams:
           - name: "Boca Unidos"
             score: "1"
@@ -76,7 +76,7 @@ sports:
       - id: football-2551354
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "73'"
+        stateLabel: "85'"
         teams:
           - name: "Independiente de Chivilcoy"
             score: "1"
