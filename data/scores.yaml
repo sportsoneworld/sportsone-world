@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 16:33 IST"
+updated: "06 Sep 2026, 16:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572244
-        competition: "Andorran 1a Divisió"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Esperança d'Andorra"
-            score: "2"
-          - name: "Inter Club d'Escaldes"
-            score: "3"
-            active: true
       - id: football-2437864
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "45'"
+        stateLabel: "62'"
         teams:
           - name: "Naftan Novopolotsk"
             score: "0"
@@ -46,25 +36,35 @@ sports:
       - id: football-2452158
         competition: "Belarusian First League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "19'"
         teams:
           - name: "Gomel-2"
             score: "0"
           - name: "Slonim-2017"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2558152
         competition: "Cambodian Premier League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "19'"
         teams:
           - name: "National Defense"
             score: "0"
           - name: "Visakha"
             score: "0"
+      - id: football-2552112
+        competition: "Campeonato de Portugal Serie D"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Santa Clara B"
+            score: "0"
+          - name: "Lagoa"
+            score: "0"
       - id: football-2552111
         competition: "Campeonato de Portugal Serie D"
         state: live
-        stateLabel: "1'"
+        stateLabel: "18'"
         teams:
           - name: "Juventude Lajense"
             score: "0"
@@ -73,7 +73,7 @@ sports:
       - id: football-2552114
         competition: "Campeonato de Portugal Serie D"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Amora"
             score: "0"
