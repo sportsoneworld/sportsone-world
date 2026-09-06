@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 23:02 IST"
+updated: "06 Sep 2026, 23:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2533270
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
           - name: "Dinamo City"
             score: "1"
@@ -35,7 +35,7 @@ sports:
       - id: football-2406524
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "69'"
+        stateLabel: "83'"
         teams:
           - name: "Dock Sud"
             score: "0"
@@ -45,39 +45,40 @@ sports:
       - id: football-2406523
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "64'"
+        stateLabel: "78'"
         teams:
           - name: "Deportivo Camioneros"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Argentino de Quilmes"
             score: "0"
-      - id: football-2553185
-        competition: "Austrian Cup"
-        state: live
-        stateLabel: "119'"
-        teams:
-          - name: "Parndorf"
-            score: "2"
-          - name: "Wolfsberger AC"
-            score: "2"
       - id: football-2546638
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "59'"
+        stateLabel: "73'"
         teams:
           - name: "Qarabağ"
-            score: "1"
+            score: "2"
             active: true
           - name: "Araz-Naxçıvan"
-            score: "0"
+            score: "1"
       - id: football-2437863
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "30'"
+        stateLabel: "44'"
         teams:
           - name: "Maxline Vitebsk"
             score: "0"
           - name: "Dinamo Minsk"
+            score: "0"
+      - id: football-2497024
+        competition: "Belgian Challenger Pro League"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Francs Borains"
+            score: "0"
+          - name: "Lokeren"
             score: "0"
 
   - name: Cricket
