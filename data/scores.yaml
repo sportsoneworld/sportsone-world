@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 13:17 IST"
+updated: "06 Sep 2026, 13:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598976
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "APIA Leichhardt"
-            score: "2"
-            active: true
-          - name: "NWS Spirit"
-            score: "0"
       - id: football-2595566
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "South Melbourne"
             score: "2"
             active: true
           - name: "Heidelberg United"
             score: "1"
-      - id: football-2397306
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2553751
+        competition: "Hong-Kong Premier League"
+        state: live
+        stateLabel: "2'"
         teams:
-          - name: "Las Vegas Lights"
-            score: "1"
-          - name: "New Mexico United"
-            score: "2"
-            active: true
-      - id: football-2397308
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Monterey Bay FC"
-            score: "1"
-          - name: "Phoenix Rising"
-            score: "1"
-      - id: football-2397309
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Orange County SC"
-            score: "1"
-          - name: "Sacramento Republic"
-            score: "1"
-      - id: football-2597737
-        competition: "Australia Northern NSW NPL"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Broadmeadow Magic"
+          - name: "Shatin"
             score: "0"
-          - name: "Maitland"
-            score: "1"
-            active: true
+          - name: "North District"
+            score: "0"
+      - id: football-2430187
+        competition: "Korean K3 League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Yangpyeong FC"
+            score: "0"
+          - name: "Siheung Citizen"
+            score: "0"
+      - id: football-2547509
+        competition: "Romanian Liga II"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "FC Bacău"
+            score: "0"
+          - name: "Dumbrăviţa"
+            score: "0"
+      - id: football-2455348
+        competition: "Russia FNL 2 Group 2"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Yenisey-2 Krasnoyarsk"
+            score: "0"
+          - name: "Spartak-2 Moscow"
+            score: "0"
+      - id: football-2509469
+        competition: "South Korean K4 League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Haman FC"
+            score: "0"
+          - name: "Jincheon HR"
+            score: "0"
 
   - name: Cricket
     matches:
