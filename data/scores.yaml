@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 22:50 IST"
+updated: "06 Sep 2026, 23:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2406524
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "56'"
+        stateLabel: "69'"
         teams:
           - name: "Dock Sud"
             score: "0"
@@ -45,7 +45,7 @@ sports:
       - id: football-2406523
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "50'"
+        stateLabel: "64'"
         teams:
           - name: "Deportivo Camioneros"
             score: "0"
@@ -54,17 +54,16 @@ sports:
       - id: football-2553185
         competition: "Austrian Cup"
         state: live
-        stateLabel: "109'"
+        stateLabel: "119'"
         teams:
           - name: "Parndorf"
-            score: "1"
+            score: "2"
           - name: "Wolfsberger AC"
             score: "2"
-            active: true
       - id: football-2546638
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "46'"
+        stateLabel: "59'"
         teams:
           - name: "Qarabağ"
             score: "1"
@@ -74,7 +73,7 @@ sports:
       - id: football-2437863
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "17'"
+        stateLabel: "30'"
         teams:
           - name: "Maxline Vitebsk"
             score: "0"
