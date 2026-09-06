@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 02:33 IST"
+updated: "07 Sep 2026, 02:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419907
-        competition: "American NWSL"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Chicago Stars"
-            score: "0"
-          - name: "North Carolina Courage"
-            score: "2"
-            active: true
       - id: football-2419908
         competition: "American NWSL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "51'"
         teams:
           - name: "Portland Thorns"
             score: "1"
             active: true
           - name: "Washington Spirit"
             score: "0"
-      - id: football-2551362
-        competition: "Argentina Torneo Federal A"
+      - id: football-2419907
+        competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "55'"
         teams:
-          - name: "Sarmiento de La Banda"
-            score: "1"
-          - name: "9 de Julio de Rafaela"
-            score: "4"
-            active: true
-      - id: football-2551357
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "1"
-            active: true
-          - name: "San Martín de Formosa"
+          - name: "Chicago Stars"
             score: "0"
-      - id: football-2405054
+          - name: "North Carolina Courage"
+            score: "2"
+            active: true
+      - id: football-2405051
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "49'"
         teams:
-          - name: "Deportivo Madryn"
-            score: "3"
+          - name: "Güemes"
+            score: "0"
+          - name: "Gimnasia y Tiro"
+            score: "2"
             active: true
-          - name: "Ciudad de Bolívar"
-            score: "1"
       - id: football-2405048
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "Live"
+        stateLabel: "59'"
         teams:
           - name: "Central Norte"
             score: "0"
           - name: "Almirante Brown"
+            score: "0"
+      - id: football-2398059
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Central Córdoba de Santiago del Estero"
+            score: "0"
+          - name: "Independiente"
+            score: "1"
+            active: true
+      - id: football-2398063
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "63'"
+        teams:
+          - name: "Lanús"
+            score: "0"
+          - name: "Defensa y Justicia"
             score: "0"
 
   - name: Cricket
