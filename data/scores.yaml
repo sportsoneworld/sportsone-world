@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 21:17 IST"
+updated: "06 Sep 2026, 21:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,49 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578076
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Besa Kavajë"
-            score: "3"
-            active: true
-          - name: "Flamurtari Vlorë"
-            score: "2"
       - id: football-2578077
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Burreli"
-            score: "1"
+            score: "2"
           - name: "Kastrioti Krujë"
             score: "2"
-            active: true
-      - id: football-2578080
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Korabi Peshkopi"
-            score: "0"
-          - name: "Oriku"
-            score: "0"
-      - id: football-2533268
-        competition: "Albanian Superliga"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Tirana"
-            score: "4"
-            active: true
-          - name: "Vora"
-            score: "0"
       - id: football-2397307
         competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "52'"
         teams:
           - name: "Miami FC"
             score: "1"
@@ -74,12 +44,40 @@ sports:
       - id: football-2572245
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "43'"
+        stateLabel: "45'"
         teams:
           - name: "Sporting d'Escaldes"
             score: "1"
           - name: "Ordino"
             score: "1"
+      - id: football-2406524
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Dock Sud"
+            score: "0"
+          - name: "Club Comunicaciones"
+            score: "0"
+      - id: football-2551365
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "FADEP"
+            score: "0"
+          - name: "Germinal"
+            score: "0"
+      - id: football-2408592
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Berazategui"
+            score: "2"
+            active: true
+          - name: "Estrella del Sur"
+            score: "0"
 
   - name: Cricket
     matches:
