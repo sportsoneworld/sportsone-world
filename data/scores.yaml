@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 03:33 IST"
+updated: "07 Sep 2026, 03:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419908
-        competition: "American NWSL"
+      - id: football-2397638
+        competition: "American USL League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "14'"
         teams:
-          - name: "Portland Thorns"
+          - name: "Portland Hearts of Pine"
             score: "1"
-          - name: "Washington Spirit"
-            score: "2"
             active: true
-      - id: football-2419907
-        competition: "American NWSL"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Chicago Stars"
+          - name: "Westchester SC"
             score: "0"
-          - name: "North Carolina Courage"
-            score: "6"
-            active: true
       - id: football-2551360
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Sol de América de Formosa"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Sportivo Belgrano"
             score: "0"
-      - id: football-2405051
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2398066
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Güemes"
-            score: "1"
-          - name: "Gimnasia y Tiro"
-            score: "3"
-            active: true
+          - name: "River Plate"
+            score: "0"
+          - name: "Independiente Rivadavia"
+            score: "0"
       - id: football-2566612
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "The Strongest"
             score: "0"
           - name: "Real Tomayapo"
             score: "0"
-      - id: football-2597844
-        competition: "Brazil Serie D"
+      - id: football-2398441
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "ASA"
+          - name: "Botafogo"
             score: "0"
-          - name: "Uberlândia"
-            score: "2"
+          - name: "Palmeiras"
+            score: "0"
+      - id: football-2431425
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Ponte Preta"
+            score: "0"
+          - name: "São Bernardo"
+            score: "1"
             active: true
 
   - name: Cricket
