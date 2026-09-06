@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 13:34 IST"
+updated: "06 Sep 2026, 13:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,57 +26,57 @@ sports:
       - id: football-2595566
         competition: "Australia Victoria NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "South Melbourne"
             score: "2"
             active: true
           - name: "Heidelberg United"
             score: "1"
-      - id: football-2553751
-        competition: "Hong-Kong Premier League"
+      - id: football-2502759
+        competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "2'"
+        stateLabel: "7'"
         teams:
-          - name: "Shatin"
+          - name: "Admira Praha"
             score: "0"
-          - name: "North District"
+          - name: "Viktoria Plzeň B"
             score: "0"
-      - id: football-2430187
-        competition: "Korean K3 League"
+      - id: football-2502642
+        competition: "Czech Bohemian Football League Group B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "4'"
         teams:
-          - name: "Yangpyeong FC"
+          - name: "Jablonec B"
             score: "0"
-          - name: "Siheung Citizen"
+          - name: "Slovan Liberec B"
             score: "0"
-      - id: football-2547509
-        competition: "Romanian Liga II"
+      - id: football-2502645
+        competition: "Czech Bohemian Football League Group B"
         state: live
-        stateLabel: "1'"
+        stateLabel: "5'"
         teams:
-          - name: "FC Bacău"
+          - name: "Hradec Králové B"
             score: "0"
-          - name: "Dumbrăviţa"
+          - name: "Neratovice-Byškovice"
             score: "0"
-      - id: football-2455348
-        competition: "Russia FNL 2 Group 2"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Yenisey-2 Krasnoyarsk"
-            score: "0"
-          - name: "Spartak-2 Moscow"
-            score: "0"
-      - id: football-2509469
-        competition: "South Korean K4 League"
+      - id: football-2517554
+        competition: "Czech Moravian-Silesian Football League"
         state: live
         stateLabel: "3'"
         teams:
-          - name: "Haman FC"
+          - name: "Sigma Olomouc B"
             score: "0"
-          - name: "Jincheon HR"
+          - name: "Artis Brno B"
+            score: "0"
+      - id: football-2517560
+        competition: "Czech Moravian-Silesian Football League"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Karviná B"
+            score: "0"
+          - name: "Hodonín"
             score: "0"
 
   - name: Cricket
