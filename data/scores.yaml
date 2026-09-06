@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 06:50 IST"
+updated: "06 Sep 2026, 07:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,44 +26,26 @@ sports:
       - id: football-2407039
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "14'"
+        stateLabel: "28'"
         teams:
           - name: "Inter Miami"
             score: "0"
           - name: "Atlanta United"
             score: "0"
-      - id: football-2407046
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "Seattle Sounders"
-            score: "0"
-          - name: "New York Red Bulls"
-            score: "0"
       - id: football-2407047
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "39'"
+        stateLabel: "Live"
         teams:
           - name: "FC Dallas"
-            score: "2"
+            score: "3"
+            active: true
           - name: "Sporting Kansas City"
             score: "2"
-      - id: football-2407048
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "Austin FC"
-            score: "0"
-          - name: "San Jose Earthquakes"
-            score: "1"
-            active: true
       - id: football-2407045
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Charlotte FC"
             score: "0"
@@ -72,13 +54,32 @@ sports:
       - id: football-2407042
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Orlando City"
             score: "1"
             active: true
           - name: "San Diego FC"
             score: "0"
+      - id: football-2407040
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Philadelphia Union"
+            score: "2"
+            active: true
+          - name: "CF Montréal"
+            score: "0"
+      - id: football-2407044
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Toronto FC"
+            score: "4"
+          - name: "Chicago Fire"
+            score: "4"
 
   - name: Cricket
     matches:
