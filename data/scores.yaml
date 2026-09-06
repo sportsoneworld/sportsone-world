@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 06:05 IST"
+updated: "06 Sep 2026, 06:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407039
+      - id: football-2407046
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "1'"
+        stateLabel: "13'"
         teams:
-          - name: "Inter Miami"
+          - name: "Seattle Sounders"
             score: "0"
-          - name: "Atlanta United"
+          - name: "New York Red Bulls"
             score: "0"
-      - id: football-2407041
+      - id: football-2407048
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Austin FC"
+            score: "1"
+          - name: "San Jose Earthquakes"
+            score: "1"
+      - id: football-2407047
         competition: "American Major League Soccer"
         state: live
         stateLabel: "14'"
         teams:
-          - name: "FC Cincinnati"
+          - name: "FC Dallas"
             score: "0"
-          - name: "DC United"
-            score: "0"
-      - id: football-2407040
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Philadelphia Union"
-            score: "0"
-          - name: "CF Montréal"
-            score: "0"
+          - name: "Sporting Kansas City"
+            score: "1"
+            active: true
       - id: football-2407042
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "45'"
+        stateLabel: "52'"
         teams:
           - name: "Orlando City"
             score: "1"
             active: true
           - name: "San Diego FC"
             score: "0"
-      - id: football-2407043
+      - id: football-2407045
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "45'"
+        stateLabel: "52'"
         teams:
-          - name: "Columbus Crew"
-            score: "1"
-            active: true
-          - name: "Colorado Rapids"
+          - name: "Charlotte FC"
             score: "0"
-      - id: football-2407044
+          - name: "Houston Dynamo"
+            score: "0"
+      - id: football-2407040
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "45'"
+        stateLabel: "54'"
         teams:
-          - name: "Toronto FC"
-            score: "2"
-            active: true
-          - name: "Chicago Fire"
-            score: "1"
+          - name: "Philadelphia Union"
+            score: "0"
+          - name: "CF Montréal"
+            score: "0"
 
   - name: Cricket
     matches:
