@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 18:22 IST"
+updated: "06 Sep 2026, 18:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -33,10 +33,19 @@ sports:
             active: true
           - name: "FC Rànger's"
             score: "0"
+      - id: football-2523517
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "BKMA"
+            score: "0"
+          - name: "Urartu"
+            score: "0"
       - id: football-2512714
         competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "SCR Altach Juniors"
             score: "2"
@@ -52,20 +61,10 @@ sports:
             score: "0"
           - name: "Neman Grodno"
             score: "0"
-      - id: football-2452158
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Gomel-2"
-            score: "2"
-          - name: "Slonim-2017"
-            score: "5"
-            active: true
       - id: football-2452150
         competition: "Belarusian First League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Orsha"
             score: "1"
@@ -75,7 +74,7 @@ sports:
       - id: football-2496731
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "63'"
+        stateLabel: "75'"
         teams:
           - name: "Cercle Brugge"
             score: "0"
