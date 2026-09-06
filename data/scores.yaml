@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 17:03 IST"
+updated: "06 Sep 2026, 17:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,59 @@ sports:
       - id: football-2437864
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "74'"
+        stateLabel: "88'"
         teams:
           - name: "Naftan Novopolotsk"
             score: "0"
           - name: "Minsk"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2452158
         competition: "Belarusian First League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Gomel-2"
             score: "0"
           - name: "Slonim-2017"
-            score: "1"
+            score: "3"
             active: true
       - id: football-2496731
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "2'"
+        stateLabel: "16'"
         teams:
           - name: "Cercle Brugge"
             score: "0"
           - name: "Gent"
             score: "0"
+      - id: football-2568521
+        competition: "CAF Champions League"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "La Cure Waves"
+            score: "0"
+          - name: "Orlando Pirates"
+            score: "0"
       - id: football-2558152
         competition: "Cambodian Premier League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "National Defense"
             score: "0"
           - name: "Visakha"
-            score: "0"
+            score: "2"
+            active: true
       - id: football-2552112
         competition: "Campeonato de Portugal Serie D"
         state: live
-        stateLabel: "28'"
+        stateLabel: "42'"
         teams:
           - name: "Santa Clara B"
             score: "0"
           - name: "Lagoa"
-            score: "0"
-      - id: football-2552111
-        competition: "Campeonato de Portugal Serie D"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Juventude Lajense"
-            score: "0"
-          - name: "Vitória de Setúbal"
             score: "0"
 
   - name: Cricket
