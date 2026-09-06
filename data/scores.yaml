@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 08:05 IST"
+updated: "06 Sep 2026, 08:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,49 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407051
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Vancouver Whitecaps"
+            score: "1"
+            active: true
+          - name: "St. Louis City SC"
+            score: "0"
+      - id: football-2407052
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Portland Timbers"
+            score: "0"
+          - name: "Minnesota United"
+            score: "0"
+      - id: football-2407049
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Real Salt Lake"
+            score: "1"
+          - name: "Los Angeles FC"
+            score: "2"
+            active: true
+      - id: football-2407050
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "49'"
+        teams:
+          - name: "LA Galaxy"
+            score: "2"
+            active: true
+          - name: "New England Revolution"
+            score: "0"
       - id: football-2407039
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "67'"
+        stateLabel: "81'"
         teams:
           - name: "Inter Miami"
             score: "2"
@@ -39,48 +78,10 @@ sports:
         stateLabel: "Live"
         teams:
           - name: "FC Dallas"
-            score: "3"
+            score: "4"
+            active: true
           - name: "Sporting Kansas City"
             score: "3"
-      - id: football-2407048
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Austin FC"
-            score: "0"
-          - name: "San Jose Earthquakes"
-            score: "1"
-            active: true
-      - id: football-2407046
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Seattle Sounders"
-            score: "0"
-          - name: "New York Red Bulls"
-            score: "0"
-      - id: football-2407049
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Real Salt Lake"
-            score: "1"
-          - name: "Los Angeles FC"
-            score: "2"
-            active: true
-      - id: football-2407050
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "LA Galaxy"
-            score: "2"
-            active: true
-          - name: "New England Revolution"
-            score: "0"
 
   - name: Cricket
     matches:
