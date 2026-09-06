@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 10:18 IST"
+updated: "06 Sep 2026, 10:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397306
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "02:30"
-        teams:
-          - name: "Las Vegas Lights"
-            score: "1"
-          - name: "New Mexico United"
-            score: "1"
-      - id: football-2397308
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "02:00"
-        teams:
-          - name: "Monterey Bay FC"
-            score: "1"
-          - name: "Phoenix Rising"
-            score: "1"
       - id: football-2598975
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "37'"
+        stateLabel: "Live"
         teams:
           - name: "Sydney United 58"
-            score: "1"
+            score: "2"
             active: true
           - name: "Manly United"
-            score: "0"
+            score: "1"
       - id: football-2497246
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "75'"
+        stateLabel: "Live"
         teams:
           - name: "Marquense"
             score: "0"
           - name: "Xelajú"
-            score: "3"
+            score: "4"
             active: true
       - id: football-2551752
         competition: "Japanese J2 League"
         state: live
-        stateLabel: "43'"
+        stateLabel: "Live"
         teams:
           - name: "Hokkaido Consadole Sapporo"
             score: "0"
           - name: "Tochigi City"
             score: "2"
             active: true
-      - id: football-2487512
-        competition: "Mexican Primera League"
-        state: live
-        stateLabel: "86'"
+      - id: football-2407051
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Atlas"
+          - name: "Vancouver Whitecaps"
             score: "1"
-          - name: "Atlante"
+          - name: "St. Louis City SC"
+            score: "3"
+            active: true
+      - id: football-2407052
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Portland Timbers"
+            score: "5"
+            active: true
+          - name: "Minnesota United"
+            score: "4"
+      - id: football-2397306
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Las Vegas Lights"
             score: "1"
+          - name: "New Mexico United"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
