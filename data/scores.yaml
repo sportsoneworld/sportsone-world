@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 01:33 IST"
+updated: "07 Sep 2026, 01:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419906
+      - id: football-2419907
         competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "14'"
         teams:
-          - name: "Denver Summit"
+          - name: "Chicago Stars"
+            score: "0"
+          - name: "North Carolina Courage"
+            score: "1"
+            active: true
+      - id: football-2419908
+        competition: "American NWSL"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Portland Thorns"
+            score: "0"
+          - name: "Washington Spirit"
+            score: "0"
+      - id: football-2551362
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Sarmiento de La Banda"
+            score: "0"
+          - name: "9 de Julio de Rafaela"
             score: "3"
             active: true
-          - name: "NJ/NY Gotham"
-            score: "0"
-      - id: football-2551349
+      - id: football-2551357
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "68'"
+        stateLabel: "59'"
         teams:
-          - name: "Olimpo"
+          - name: "Defensores de Belgrano de Villa Ramallo"
+            score: "0"
+          - name: "San Martín de Formosa"
+            score: "0"
+      - id: football-2551350
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Boca Unidos"
             score: "1"
             active: true
-          - name: "Cipolletti"
+          - name: "Gimnasia y Esgrima de Concepción del Uruguay"
             score: "0"
-      - id: football-2551358
+      - id: football-2551354
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "69'"
+        stateLabel: "60'"
         teams:
-          - name: "Huracán Las Heras"
-            score: "0"
-          - name: "Argentino de Monte Maíz"
-            score: "2"
-            active: true
-      - id: football-2551363
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Bartolomé Mitre"
-            score: "0"
-          - name: "Gimnasia y Esgrima de Chivilcoy"
+          - name: "Independiente de Chivilcoy"
             score: "1"
             active: true
-      - id: football-2551361
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Círculo Deportivo"
-            score: "2"
-            active: true
-          - name: "Sol de Mayo"
-            score: "1"
-      - id: football-2551356
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Alvarado"
-            score: "3"
-            active: true
-          - name: "Atenas de Río Cuarto"
-            score: "2"
+          - name: "El Linqueño"
+            score: "0"
 
   - name: Cricket
     matches:
