@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 17:17 IST"
+updated: "06 Sep 2026, 17:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,46 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437864
+      - id: football-2572370
+        competition: "Andorran 1a Divisió"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Casa de Portugal"
+            score: "0"
+          - name: "FC Rànger's"
+            score: "0"
+      - id: football-2512714
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "SCR Altach Juniors"
+            score: "0"
+          - name: "Röthis"
+            score: "0"
+      - id: football-2437860
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "88'"
+        stateLabel: "4'"
         teams:
-          - name: "Naftan Novopolotsk"
+          - name: "Belshina Bobruisk"
             score: "0"
-          - name: "Minsk"
-            score: "2"
-            active: true
+          - name: "Neman Grodno"
+            score: "0"
+      - id: football-2452150
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Orsha"
+            score: "0"
+          - name: "Ostrovets"
+            score: "0"
       - id: football-2452158
         competition: "Belarusian First League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "48'"
         teams:
           - name: "Gomel-2"
             score: "0"
@@ -46,40 +72,13 @@ sports:
       - id: football-2496731
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "16'"
+        stateLabel: "34'"
         teams:
           - name: "Cercle Brugge"
             score: "0"
           - name: "Gent"
-            score: "0"
-      - id: football-2568521
-        competition: "CAF Champions League"
-        state: live
-        stateLabel: "14'"
-        teams:
-          - name: "La Cure Waves"
-            score: "0"
-          - name: "Orlando Pirates"
-            score: "0"
-      - id: football-2558152
-        competition: "Cambodian Premier League"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "National Defense"
-            score: "0"
-          - name: "Visakha"
-            score: "2"
+            score: "1"
             active: true
-      - id: football-2552112
-        competition: "Campeonato de Portugal Serie D"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "Santa Clara B"
-            score: "0"
-          - name: "Lagoa"
-            score: "0"
 
   - name: Cricket
     matches:
