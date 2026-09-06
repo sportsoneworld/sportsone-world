@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 20:17 IST"
+updated: "06 Sep 2026, 20:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578077
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Burreli"
-            score: "1"
-          - name: "Kastrioti Krujë"
-            score: "2"
-            active: true
       - id: football-2578080
         competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "45'"
+        stateLabel: "Live"
         teams:
           - name: "Korabi Peshkopi"
             score: "0"
@@ -52,6 +42,16 @@ sports:
             active: true
           - name: "Flamurtari Vlorë"
             score: "1"
+      - id: football-2578077
+        competition: "Albanian Kategoria e Parë"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Burreli"
+            score: "1"
+          - name: "Kastrioti Krujë"
+            score: "2"
+            active: true
       - id: football-2533268
         competition: "Albanian Superliga"
         state: live
@@ -62,23 +62,23 @@ sports:
             active: true
           - name: "Vora"
             score: "0"
+      - id: football-2397307
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Miami FC"
+            score: "0"
+          - name: "Pittsburgh Riverhounds"
+            score: "0"
       - id: football-2551365
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "10'"
+        stateLabel: "26'"
         teams:
           - name: "FADEP"
             score: "0"
           - name: "Germinal"
-            score: "0"
-      - id: football-2408592
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "44'"
-        teams:
-          - name: "Berazategui"
-            score: "0"
-          - name: "Estrella del Sur"
             score: "0"
 
   - name: Cricket
