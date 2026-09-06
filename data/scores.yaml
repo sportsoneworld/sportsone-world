@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 00:06 IST"
+updated: "07 Sep 2026, 00:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2419906
         competition: "American NWSL"
         state: live
-        stateLabel: "29'"
+        stateLabel: "41'"
         teams:
           - name: "Denver Summit"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2572246
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "Penya Encarnada d'Andorra"
             score: "0"
@@ -44,7 +44,7 @@ sports:
       - id: football-2406526
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Liniers"
             score: "0"
@@ -53,7 +53,7 @@ sports:
       - id: football-2406530
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "30'"
+        stateLabel: "42'"
         teams:
           - name: "UAI Urquiza"
             score: "2"
@@ -63,7 +63,7 @@ sports:
       - id: football-2406532
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "29'"
+        stateLabel: "41'"
         teams:
           - name: "Villa San Carlos"
             score: "0"
@@ -72,7 +72,7 @@ sports:
       - id: football-2551359
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Juventud Unida Universitario"
             score: "1"
