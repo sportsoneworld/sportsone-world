@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 19:17 IST"
+updated: "06 Sep 2026, 19:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,46 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2578077
+        competition: "Albanian Kategoria e Parë"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Burreli"
+            score: "0"
+          - name: "Kastrioti Krujë"
+            score: "0"
+      - id: football-2578080
+        competition: "Albanian Kategoria e Parë"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Korabi Peshkopi"
+            score: "0"
+          - name: "Oriku"
+            score: "0"
+      - id: football-2578076
+        competition: "Albanian Kategoria e Parë"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Besa Kavajë"
+            score: "0"
+          - name: "Flamurtari Vlorë"
+            score: "0"
+      - id: football-2533268
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Tirana"
+            score: "0"
+          - name: "Vora"
+            score: "0"
       - id: football-2572370
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Casa de Portugal"
             score: "1"
@@ -35,52 +71,13 @@ sports:
       - id: football-2523517
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "48'"
         teams:
           - name: "BKMA"
             score: "1"
             active: true
           - name: "Urartu"
             score: "0"
-      - id: football-2512712
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Wolfurt"
-            score: "0"
-          - name: "SK St. Johann"
-            score: "1"
-            active: true
-      - id: football-2512714
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "SCR Altach Juniors"
-            score: "3"
-            active: true
-          - name: "Röthis"
-            score: "2"
-      - id: football-2437860
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Belshina Bobruisk"
-            score: "2"
-          - name: "Neman Grodno"
-            score: "2"
-      - id: football-2452150
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Orsha"
-            score: "2"
-          - name: "Ostrovets"
-            score: "3"
-            active: true
 
   - name: Cricket
     matches:
