@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 11:17 IST"
+updated: "06 Sep 2026, 11:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,42 +26,22 @@ sports:
       - id: football-2598975
         competition: "Australia New South Wales NPL"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Sydney United 58"
-            score: "2"
+            score: "3"
             active: true
           - name: "Manly United"
             score: "1"
       - id: football-2597737
         competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Broadmeadow Magic"
             score: "0"
           - name: "Maitland"
             score: "0"
-      - id: football-2551752
-        competition: "Japanese J2 League"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Hokkaido Consadole Sapporo"
-            score: "1"
-          - name: "Tochigi City"
-            score: "4"
-            active: true
-      - id: football-2407052
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Portland Timbers"
-            score: "5"
-            active: true
-          - name: "Minnesota United"
-            score: "4"
       - id: football-2397306
         competition: "American USL Championship"
         state: completed
@@ -81,6 +61,25 @@ sports:
             score: "1"
           - name: "Phoenix Rising"
             score: "1"
+      - id: football-2397309
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Orange County SC"
+            score: "1"
+          - name: "Sacramento Republic"
+            score: "1"
+      - id: football-2497246
+        competition: "Guatemala Liga Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Marquense"
+            score: "0"
+          - name: "Xelajú"
+            score: "4"
+            active: true
 
   - name: Cricket
     matches:
