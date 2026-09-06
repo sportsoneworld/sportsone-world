@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 04:50 IST"
+updated: "07 Sep 2026, 05:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,61 +26,60 @@ sports:
       - id: football-2397638
         competition: "American USL League One"
         state: live
-        stateLabel: "55'"
+        stateLabel: "67'"
         teams:
           - name: "Portland Hearts of Pine"
             score: "1"
-            active: true
           - name: "Westchester SC"
-            score: "0"
+            score: "1"
       - id: football-2551360
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "61'"
+        stateLabel: "73'"
         teams:
           - name: "Sol de América de Formosa"
-            score: "1"
+            score: "2"
             active: true
           - name: "Sportivo Belgrano"
             score: "0"
       - id: football-2398066
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "River Plate"
-            score: "1"
+            score: "2"
             active: true
           - name: "Independiente Rivadavia"
             score: "0"
       - id: football-2566612
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "58'"
+        stateLabel: "70'"
         teams:
           - name: "The Strongest"
             score: "2"
             active: true
           - name: "Real Tomayapo"
             score: "0"
-      - id: football-2398443
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Corinthians"
-            score: "1"
-          - name: "Chapecoense"
-            score: "1"
       - id: football-2398441
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "87'"
+        stateLabel: "Live"
         teams:
           - name: "Botafogo"
             score: "0"
           - name: "Palmeiras"
             score: "0"
+      - id: football-2398443
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Corinthians"
+            score: "1"
+          - name: "Chapecoense"
+            score: "1"
 
   - name: Cricket
     matches:
