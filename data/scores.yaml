@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 05:17 IST"
+updated: "06 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,10 +32,19 @@ sports:
             score: "0"
           - name: "Atlanta United"
             score: "0"
+      - id: football-2407041
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "FC Cincinnati"
+            score: "0"
+          - name: "DC United"
+            score: "0"
       - id: football-2407040
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "25'"
         teams:
           - name: "Philadelphia Union"
             score: "0"
@@ -44,7 +53,7 @@ sports:
       - id: football-2407042
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "25'"
         teams:
           - name: "Orlando City"
             score: "0"
@@ -53,25 +62,17 @@ sports:
       - id: football-2407043
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "25'"
         teams:
           - name: "Columbus Crew"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Colorado Rapids"
-            score: "0"
-      - id: football-2407044
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "6'"
-        teams:
-          - name: "Toronto FC"
-            score: "0"
-          - name: "Chicago Fire"
             score: "0"
       - id: football-2407045
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "6'"
+        stateLabel: "25'"
         teams:
           - name: "Charlotte FC"
             score: "0"
@@ -109,4 +110,34 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Saint Lucia Kings"
+            score: "–"
+      - id: cricket-2465901
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Nottinghamshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Hampshire"
+            score: "–"
+      - id: cricket-2465902
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Yorkshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Essex"
+            score: "–"
+      - id: cricket-2465903
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Glamorgan"
+            score: "–"
+            detail: "00:00"
+          - name: "Warwickshire"
             score: "–"
