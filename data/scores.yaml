@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 14:33 IST"
+updated: "06 Sep 2026, 14:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,30 +23,30 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2595566
-        competition: "Australia Victoria NPL"
+      - id: football-2572244
+        competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "Live"
+        stateLabel: "18'"
         teams:
-          - name: "South Melbourne"
-            score: "2"
-            active: true
-          - name: "Heidelberg United"
+          - name: "Esperança d'Andorra"
             score: "1"
+            active: true
+          - name: "Inter Club d'Escaldes"
+            score: "0"
       - id: football-2558151
         competition: "Cambodian Premier League"
         state: live
-        stateLabel: "17'"
+        stateLabel: "35'"
         teams:
           - name: "Kirivong Sok Sen Chey"
             score: "0"
           - name: "Svay Rieng"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2502759
         competition: "Czech Bohemian Football League Group A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Admira Praha"
             score: "0"
@@ -56,22 +56,13 @@ sports:
       - id: football-2502644
         competition: "Czech Bohemian Football League Group B"
         state: live
-        stateLabel: "1'"
+        stateLabel: "19'"
         teams:
           - name: "Teplice B"
             score: "0"
           - name: "Pardubice B"
-            score: "0"
-      - id: football-2502642
-        competition: "Czech Bohemian Football League Group B"
-        state: live
-        stateLabel: "44'"
-        teams:
-          - name: "Jablonec B"
             score: "1"
             active: true
-          - name: "Slovan Liberec B"
-            score: "0"
       - id: football-2502645
         competition: "Czech Bohemian Football League Group B"
         state: live
@@ -80,6 +71,16 @@ sports:
           - name: "Hradec Králové B"
             score: "0"
           - name: "Neratovice-Byškovice"
+            score: "0"
+      - id: football-2502642
+        competition: "Czech Bohemian Football League Group B"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Jablonec B"
+            score: "1"
+            active: true
+          - name: "Slovan Liberec B"
             score: "0"
 
   - name: Cricket
