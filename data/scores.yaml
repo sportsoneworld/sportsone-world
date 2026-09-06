@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Sep 2026, 09:18 IST"
+updated: "06 Sep 2026, 09:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,30 +23,30 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2407052
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Portland Timbers"
+            score: "4"
+            active: true
+          - name: "Minnesota United"
+            score: "3"
       - id: football-2407051
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "49'"
+        stateLabel: "61'"
         teams:
           - name: "Vancouver Whitecaps"
             score: "1"
           - name: "St. Louis City SC"
             score: "3"
             active: true
-      - id: football-2407052
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Portland Timbers"
-            score: "3"
-            active: true
-          - name: "Minnesota United"
-            score: "2"
       - id: football-2397306
         competition: "American USL Championship"
         state: live
-        stateLabel: "52'"
+        stateLabel: "65'"
         teams:
           - name: "Las Vegas Lights"
             score: "1"
@@ -55,17 +55,16 @@ sports:
       - id: football-2397308
         competition: "American USL Championship"
         state: live
-        stateLabel: "85'"
+        stateLabel: "02:00"
         teams:
           - name: "Monterey Bay FC"
-            score: "0"
+            score: "1"
           - name: "Phoenix Rising"
             score: "1"
-            active: true
       - id: football-2397631
         competition: "American USL League One"
         state: live
-        stateLabel: "53'"
+        stateLabel: "66'"
         teams:
           - name: "AV Alta FC"
             score: "1"
@@ -74,7 +73,7 @@ sports:
       - id: football-2488644
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "75'"
+        stateLabel: "88'"
         teams:
           - name: "Alajuelense"
             score: "0"
