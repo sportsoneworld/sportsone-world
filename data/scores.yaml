@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 21:07 IST"
+updated: "07 Sep 2026, 21:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,34 +26,34 @@ sports:
       - id: football-2437862
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Isloch Minsk Raion"
             score: "1"
           - name: "Arsenal Dzerzhinsk"
             score: "1"
-      - id: football-2511484
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "36'"
-        teams:
-          - name: "Fratria Varna"
-            score: "1"
-          - name: "Chernomorets 1919 Burgas"
-            score: "1"
       - id: football-2511483
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Sportist Svoge"
             score: "0"
           - name: "Lokomotiv Gorna Oryahovitsa"
             score: "0"
+      - id: football-2511484
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Fratria Varna"
+            score: "1"
+          - name: "Chernomorets 1919 Burgas"
+            score: "1"
       - id: football-2561101
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "71'"
+        stateLabel: "84'"
         teams:
           - name: "El Qanah"
             score: "1"
@@ -62,16 +62,17 @@ sports:
       - id: football-2561100
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "72'"
+        stateLabel: "85'"
         teams:
           - name: "Al Ittihad Alexandria"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Asyut Petroleum"
             score: "0"
       - id: football-2596790
         competition: "Greek Super League 2"
         state: live
-        stateLabel: "76'"
+        stateLabel: "89'"
         teams:
           - name: "Athens Kallithea"
             score: "2"
