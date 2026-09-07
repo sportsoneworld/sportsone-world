@@ -83,12 +83,6 @@ footer:
       url: "/terms/"
     - name: "Privacy & Cookies Notice"
       url: "/privacy/"
-    - name: "Privacy Options"
-      url: "/privacy-options/"
-    - name: "Accessibility Information"
-      url: "/accessibility/"
-    - name: "Image Credits"
-      url: "/credits/"
     - name: "Contact Us"
       url: "/contact/"
 

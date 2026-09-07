@@ -42,6 +42,86 @@ decisions.
 
 We may update these terms. The version on this page is the one that applies.
 
-> **For the newsroom:** confirm your publishing entity, jurisdiction and any
-> regulator or press-standards body you are signed up to before launch, and
-> add them here. This page is deliberately factual rather than boilerplate.
+## Image credits
+
+Every photograph on this site is published under a licence that permits reuse.
+Each image used on a story carries a credit beneath it indicating the
+photographer and the licence under which it is published. Where a photograph is
+used as a file image rather than as the moment described in the story, the
+caption on that story will say so.
+
+A complete list of images, their credits and licences is maintained by the
+desk and is available on request.
+
+## Accessibility information
+
+SportsOne is built to be read by everyone, on any device, with or without a
+mouse.
+
+What we do
+
+- **Keyboard.** Every link, menu, dropdown, carousel and filter can be reached
+  and operated with a keyboard alone, and the focus outline is always visible.
+- **Screen readers.** Pages use real headings in order, landmarks, and labels
+  on every control. Photographs carry meaningful alternative text; decorative
+  images are hidden from screen readers rather than described.
+- **Motion.** Carousels rotate on their own, but stop while you are hovering,
+  swiping or tabbing through them — and if your system asks for reduced motion
+  they do not rotate at all.
+- **Contrast.** Text meets WCAG 2.1 AA contrast in both the light and dark
+  themes.
+- **Zoom and text size.** The site reflows to 320px and to 200% zoom without
+  loss of content, and nothing scrolls sideways.
+- **No time limits.** Nothing on the site expires or times out as you read.
+
+Where we know we fall short
+
+- Some archive photography carries a generic description rather than a
+  specific one. New stories are captioned properly at the point of publication.
+- Live scores are compiled by hand and update when the site is rebuilt, so a
+  screen reader will not announce a score change while the page is open.
+
+If something on SportsOne is hard to use, get in touch through [Contact Us](/contact/).
+
+## Privacy options
+
+This is where sites normally let you manage tracking and advertising
+preferences. On SportsOne there is nothing to manage, and this explains why.
+
+### Tracking
+
+There is none. SportsOne sets no cookies, loads no analytics and carries no
+advertising or third-party tags. There is no profile of you to opt out of.
+
+### Fonts and images
+
+Every font and image is served from sportsone.world itself. No request leaves
+for a font service, a CDN or an image host as you read, so no third party sees
+your visit.
+
+### Your browser's own controls
+
+The controls that do affect your reading are the ones your browser already
+gives you, and this site respects all of them:
+
+- **Dark mode.** SportsOne follows your system light or dark setting.
+- **Reduced motion.** Turn it on and the carousels stop rotating on their own.
+- **Text size.** Every size on the site scales with your browser's text setting.
+- **Do Not Track.** We have nothing to send, so there is nothing to honour.
+
+If SportsOne ever adds analytics, advertising or third-party embeds, this page
+will become a working set of controls and you will be asked before anything is set.
+
+## For the newsroom
+
+Publishing entity: SportsOne
+
+Publishing jurisdiction: [add jurisdiction here]
+
+Regulator / press-standards body: [add regulator or membership here]
+
+This page is deliberately factual rather than boilerplate. If you are the
+editorial lead preparing the site for launch, replace the bracketed items
+above with the organisation's legal name, the jurisdiction in which it is
+regulated or incorporated, and the press regulator or standards body the
+newsroom is signed up to (if any).
