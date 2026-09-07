@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 23:56 IST"
+updated: "08 Sep 2026, 00:11 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2551364
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "21'"
+        stateLabel: "36'"
         teams:
           - name: "Atlético Escobar"
             score: "0"
@@ -35,26 +35,16 @@ sports:
       - id: football-2408598
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "14'"
+        stateLabel: "29'"
         teams:
           - name: "Muñiz"
             score: "0"
           - name: "Sportivo Barracas"
             score: "0"
-      - id: football-2437861
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Dynamo Brest"
-            score: "1"
-            active: true
-          - name: "BATE Borisov"
-            score: "0"
       - id: football-2487320
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "50'"
         teams:
           - name: "Dunav Ruse"
             score: "0"
@@ -63,21 +53,32 @@ sports:
       - id: football-2590971
         competition: "Copa Paulista"
         state: live
-        stateLabel: "25'"
+        stateLabel: "40'"
         teams:
           - name: "Paulista"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Grêmio Prudente"
             score: "0"
       - id: football-2548678
         competition: "Cypriot First Division"
         state: live
-        stateLabel: "64'"
+        stateLabel: "80'"
         teams:
           - name: "Aris Limassol"
             score: "1"
           - name: "Omonia Nicosia"
-            score: "3"
+            score: "4"
+            active: true
+      - id: football-2481833
+        competition: "Danish Superliga"
+        state: live
+        stateLabel: "83'"
+        teams:
+          - name: "FC Midtjylland"
+            score: "1"
+          - name: "FC Nordsjælland"
+            score: "2"
             active: true
 
   - name: Cricket
