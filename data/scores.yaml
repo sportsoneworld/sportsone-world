@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 23:34 IST"
+updated: "07 Sep 2026, 23:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,38 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2551364
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Atlético Escobar"
+            score: "0"
+          - name: "Defensores de Vilelas"
+            score: "0"
+      - id: football-2408598
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Muñiz"
+            score: "0"
+          - name: "Sportivo Barracas"
+            score: "0"
       - id: football-2437861
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Dynamo Brest"
-            score: "0"
+            score: "1"
+            active: true
           - name: "BATE Borisov"
             score: "0"
       - id: football-2487320
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "Dunav Ruse"
             score: "0"
@@ -44,7 +63,7 @@ sports:
       - id: football-2590971
         competition: "Copa Paulista"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
           - name: "Paulista"
             score: "0"
@@ -53,31 +72,13 @@ sports:
       - id: football-2548678
         competition: "Cypriot First Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "64'"
         teams:
           - name: "Aris Limassol"
-            score: "0"
-          - name: "Omonia Nicosia"
             score: "1"
+          - name: "Omonia Nicosia"
+            score: "3"
             active: true
-      - id: football-2481833
-        competition: "Danish Superliga"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "FC Midtjylland"
-            score: "0"
-          - name: "FC Nordsjælland"
-            score: "0"
-      - id: football-2489817
-        competition: "Dutch Eerste Divisie"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Jong Utrecht"
-            score: "0"
-          - name: "FC Eindhoven"
-            score: "0"
 
   - name: Cricket
     matches:
