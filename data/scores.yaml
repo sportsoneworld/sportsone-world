@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 19:21 IST"
+updated: "07 Sep 2026, 19:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,15 +23,43 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2437862
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Isloch Minsk Raion"
+            score: "0"
+          - name: "Arsenal Dzerzhinsk"
+            score: "0"
+      - id: football-2511483
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Sportist Svoge"
+            score: "0"
+          - name: "Lokomotiv Gorna Oryahovitsa"
+            score: "0"
+      - id: football-2561101
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "El Qanah"
+            score: "0"
+          - name: "Tala'ea El Gaish"
+            score: "0"
       - id: football-2598888
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "45'"
+        stateLabel: "48'"
         teams:
           - name: "New Caledonia U20 Women"
             score: "0"
           - name: "China U20 Women"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2599043
         competition: "FIFA U20 Womens World Cup"
         state: live
@@ -42,43 +70,14 @@ sports:
             active: true
           - name: "Portugal U20 Women"
             score: "0"
-      - id: football-2596792
+      - id: football-2596790
         competition: "Greek Super League 2"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Marko"
+          - name: "Athens Kallithea"
             score: "0"
-          - name: "Panserraikos"
-            score: "0"
-      - id: football-2585525
-        competition: "Rwandan National Soccer League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Rwanda Police"
-            score: "1"
-          - name: "Gicumbi"
-            score: "1"
-      - id: football-2398065
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Racing Club"
-            score: "1"
-          - name: "Atlético Tucumán"
-            score: "2"
-            active: true
-      - id: football-2590230
-        competition: "Russia FNL 2 Group 4"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Orenburg-2"
-            score: "3"
-            active: true
-          - name: "Izhevsk"
+          - name: "Niki Volos"
             score: "0"
 
   - name: Cricket
