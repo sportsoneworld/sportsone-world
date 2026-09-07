@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 16:54 IST"
+updated: "07 Sep 2026, 17:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2590480
-        competition: "Myanmar National League"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "ISPE"
-            score: "2"
-          - name: "Sagaing United"
-            score: "4"
-            active: true
       - id: football-2590230
         competition: "Russia FNL 2 Group 4"
         state: live
-        stateLabel: "21'"
+        stateLabel: "35'"
         teams:
           - name: "Orenburg-2"
             score: "0"
@@ -51,6 +41,16 @@ sports:
             score: "1"
           - name: "Atlético Tucumán"
             score: "2"
+            active: true
+      - id: football-2590480
+        competition: "Myanmar National League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "ISPE"
+            score: "2"
+          - name: "Sagaing United"
+            score: "4"
             active: true
       - id: football-2407053
         competition: "American Major League Soccer"
