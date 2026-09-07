@@ -74,7 +74,6 @@ What we do
   loss of content, and nothing scrolls sideways.
 - **No time limits.** Nothing on the site expires or times out as you read.
 
-If something on SportsOne is hard to use, get in touch through [Contact Us](/contact/).
 
 ## Privacy options
 
