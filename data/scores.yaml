@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 05:17 IST"
+updated: "07 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,47 +26,36 @@ sports:
       - id: football-2397638
         competition: "American USL League One"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "Portland Hearts of Pine"
             score: "2"
             active: true
           - name: "Westchester SC"
             score: "1"
-      - id: football-2551360
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Sol de América de Formosa"
-            score: "2"
-            active: true
-          - name: "Sportivo Belgrano"
-            score: "0"
       - id: football-2398066
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "72'"
+        stateLabel: "Live"
         teams:
           - name: "River Plate"
-            score: "2"
+            score: "3"
             active: true
           - name: "Independiente Rivadavia"
             score: "1"
-      - id: football-2566612
+      - id: football-2566613
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "85'"
+        stateLabel: "4'"
         teams:
-          - name: "The Strongest"
-            score: "3"
-            active: true
-          - name: "Real Tomayapo"
+          - name: "Nacional Potosí"
+            score: "0"
+          - name: "Blooming"
             score: "0"
       - id: football-2398443
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "53'"
+        stateLabel: "72'"
         teams:
           - name: "Corinthians"
             score: "1"
@@ -75,42 +64,31 @@ sports:
       - id: football-2427405
         competition: "Canadian Premier League"
         state: live
-        stateLabel: "78'"
+        stateLabel: "Live"
         teams:
           - name: "Vancouver FC"
             score: "3"
             active: true
           - name: "Supra du Québec"
             score: "2"
+      - id: football-2413084
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "73'"
+        teams:
+          - name: "Palestino"
+            score: "1"
+          - name: "Universidad de Concepción"
+            score: "1"
 
   - name: Cricket
     matches:
-      - id: cricket-2578485
-        competition: "Caribbean Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Barbados Tridents"
-            score: "112"
-          - name: "Trinbago Knight Riders"
-            score: "147"
-            active: true
-      - id: cricket-2578486
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "19:00"
-        teams:
-          - name: "Guyana Amazon Warriors"
-            score: "–"
-            detail: "19:00"
-          - name: "St Kitts and Nevis Patriots"
-            score: "–"
-      - id: cricket-2578487
+      - id: cricket-2578489
         competition: "Caribbean Premier League"
         state: upcoming
         stateLabel: "23:00"
         teams:
-          - name: "Barbados Tridents"
+          - name: "Guyana Amazon Warriors"
             score: "–"
             detail: "23:00"
           - name: "Saint Lucia Kings"
