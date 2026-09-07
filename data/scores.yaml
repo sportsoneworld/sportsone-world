@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 00:22 IST"
+updated: "08 Sep 2026, 00:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,7 +35,7 @@ sports:
       - id: football-2408598
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "40'"
+        stateLabel: "45'"
         teams:
           - name: "Muñiz"
             score: "0"
@@ -44,12 +44,13 @@ sports:
       - id: football-2487320
         competition: "Bulgarian First League"
         state: live
-        stateLabel: "61'"
+        stateLabel: "72'"
         teams:
           - name: "Dunav Ruse"
             score: "0"
           - name: "Slavia Sofia"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2590971
         competition: "Copa Paulista"
         state: live
@@ -60,25 +61,24 @@ sports:
             active: true
           - name: "Grêmio Prudente"
             score: "0"
-      - id: football-2548678
-        competition: "Cypriot First Division"
+      - id: football-2489816
+        competition: "Dutch Eerste Divisie"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Aris Limassol"
-            score: "1"
-          - name: "Omonia Nicosia"
-            score: "4"
-            active: true
-      - id: football-2481833
-        competition: "Danish Superliga"
+          - name: "Jong PSV"
+            score: "0"
+          - name: "Den Bosch"
+            score: "0"
+      - id: football-2489817
+        competition: "Dutch Eerste Divisie"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "FC Midtjylland"
-            score: "2"
-          - name: "FC Nordsjælland"
-            score: "2"
+          - name: "Jong Utrecht"
+            score: "0"
+          - name: "FC Eindhoven"
+            score: "0"
 
   - name: Cricket
     matches:
