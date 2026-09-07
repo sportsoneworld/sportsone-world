@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 21:20 IST"
+updated: "07 Sep 2026, 21:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437862
-        competition: "Belarus Vyscha Liga"
+      - id: football-2599966
+        competition: "Bolivian Nacional B Copa Simón Bolívar"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Isloch Minsk Raion"
+          - name: "Hiska Nacional"
+            score: "0"
+          - name: "Chaco"
             score: "1"
-          - name: "Arsenal Dzerzhinsk"
-            score: "1"
-      - id: football-2511483
+            active: true
+      - id: football-2511481
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Sportist Svoge"
+          - name: "Pirin Blagoevgrad"
             score: "0"
-          - name: "Lokomotiv Gorna Oryahovitsa"
+          - name: "Ludogorets Razgrad II"
+            score: "0"
+      - id: football-2511478
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Spartak Pleven"
+            score: "0"
+          - name: "Hebar Pazardzhik"
             score: "0"
       - id: football-2511484
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Fratria Varna"
             score: "1"
           - name: "Chernomorets 1919 Burgas"
             score: "1"
-      - id: football-2561101
-        competition: "Egyptian Premier League"
+      - id: football-2548677
+        competition: "Cypriot First Division"
         state: live
-        stateLabel: "84'"
+        stateLabel: "3'"
         teams:
-          - name: "El Qanah"
-            score: "1"
-          - name: "Tala'ea El Gaish"
-            score: "1"
+          - name: "Pafos"
+            score: "0"
+          - name: "Olympiakos Nicosia"
+            score: "0"
       - id: football-2561100
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "Al Ittihad Alexandria"
             score: "1"
             active: true
           - name: "Asyut Petroleum"
             score: "0"
-      - id: football-2596790
-        competition: "Greek Super League 2"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Athens Kallithea"
-            score: "2"
-            active: true
-          - name: "Niki Volos"
-            score: "1"
 
   - name: Cricket
     matches:
