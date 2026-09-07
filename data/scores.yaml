@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 17:21 IST"
+updated: "07 Sep 2026, 18:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,10 +26,11 @@ sports:
       - id: football-2590230
         competition: "Russia FNL 2 Group 4"
         state: live
-        stateLabel: "Live"
+        stateLabel: "69'"
         teams:
           - name: "Orenburg-2"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Izhevsk"
             score: "0"
       - id: football-2398065
