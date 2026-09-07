@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 01:18 IST"
+updated: "08 Sep 2026, 01:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551364
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Atlético Escobar"
-            score: "2"
-            active: true
-          - name: "Defensores de Vilelas"
-            score: "1"
       - id: football-2408598
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Muñiz"
             score: "0"
@@ -46,41 +36,52 @@ sports:
       - id: football-2427406
         competition: "Canadian Premier League"
         state: live
-        stateLabel: "37'"
+        stateLabel: "45'"
         teams:
           - name: "HFX Wanderers"
             score: "0"
           - name: "Cavalry"
             score: "0"
-      - id: football-2590971
-        competition: "Copa Paulista"
+      - id: football-2500756
+        competition: "English League 1"
         state: live
-        stateLabel: "87'"
+        stateLabel: "45'"
         teams:
-          - name: "Paulista"
-            score: "2"
-          - name: "Grêmio Prudente"
-            score: "3"
-            active: true
-      - id: football-2489816
-        competition: "Dutch Eerste Divisie"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Jong PSV"
-            score: "3"
-            active: true
-          - name: "Den Bosch"
+          - name: "Bromley"
+            score: "0"
+          - name: "AFC Wimbledon"
             score: "1"
-      - id: football-2489817
-        competition: "Dutch Eerste Divisie"
+            active: true
+      - id: football-2488742
+        competition: "French Ligue 2"
         state: live
-        stateLabel: "89'"
+        stateLabel: "63'"
         teams:
-          - name: "Jong Utrecht"
+          - name: "Nantes"
+            score: "1"
+            active: true
+          - name: "Nancy Lorraine"
             score: "0"
-          - name: "FC Eindhoven"
+      - id: football-2482159
+        competition: "Italian Serie A"
+        state: live
+        stateLabel: "57'"
+        teams:
+          - name: "Udinese"
+            score: "1"
+            active: true
+          - name: "Lazio"
             score: "0"
+      - id: football-2547700
+        competition: "Italian Serie B"
+        state: live
+        stateLabel: "69'"
+        teams:
+          - name: "Palermo"
+            score: "2"
+            active: true
+          - name: "Sampdoria"
+            score: "1"
 
   - name: Cricket
     matches:
