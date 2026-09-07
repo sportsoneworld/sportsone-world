@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 22:33 IST"
+updated: "07 Sep 2026, 22:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2437861
         competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "Dynamo Brest"
             score: "0"
@@ -35,48 +35,50 @@ sports:
       - id: football-2599966
         competition: "Bolivian Nacional B Copa Simón Bolívar"
         state: live
-        stateLabel: "Live"
+        stateLabel: "60'"
         teams:
           - name: "Hiska Nacional"
             score: "1"
           - name: "Chaco"
             score: "2"
             active: true
-      - id: football-2511478
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Spartak Pleven"
-            score: "1"
-          - name: "Hebar Pazardzhik"
-            score: "1"
       - id: football-2511481
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
           - name: "Pirin Blagoevgrad"
             score: "0"
           - name: "Ludogorets Razgrad II"
             score: "2"
             active: true
+      - id: football-2511478
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "66'"
+        teams:
+          - name: "Spartak Pleven"
+            score: "1"
+          - name: "Hebar Pazardzhik"
+            score: "1"
       - id: football-2548678
         competition: "Cypriot First Division"
         state: live
-        stateLabel: "1'"
+        stateLabel: "20'"
         teams:
           - name: "Aris Limassol"
             score: "0"
           - name: "Omonia Nicosia"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2548677
         competition: "Cypriot First Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "61'"
         teams:
           - name: "Pafos"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Olympiakos Nicosia"
             score: "0"
 
