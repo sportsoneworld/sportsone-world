@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Aug 2026, 11:44 IST"
+updated: "07 Sep 2026, 16:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,75 +23,105 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2456825
-        competition: "Australia ACT NPL"
+      - id: football-2590480
+        competition: "Myanmar National League"
         state: live
-        stateLabel: "52'"
+        stateLabel: "67'"
         teams:
-          - name: "Brindabella Blues"
-            score: "1"
-          - name: "Cooma Tigers"
-            score: "3"
+          - name: "ISPE"
+            score: "0"
+          - name: "Sagaing United"
+            score: "4"
             active: true
-      - id: football-2456824
-        competition: "Australia ACT NPL"
+      - id: football-2590230
+        competition: "Russia FNL 2 Group 4"
         state: live
-        stateLabel: "56'"
+        stateLabel: "1'"
         teams:
-          - name: "O'Connor Knights"
+          - name: "Orenburg-2"
+            score: "0"
+          - name: "Izhevsk"
+            score: "0"
+      - id: football-2398065
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Racing Club"
             score: "1"
-            active: true
-          - name: "Canberra White Eagles"
-            score: "0"
-      - id: football-2546483
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "7'"
-        teams:
-          - name: "APIA Leichhardt"
-            score: "0"
-          - name: "Southern Districts Raiders"
-            score: "0"
-      - id: football-2428273
-        competition: "Australia New South Wales NPL"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "Western Sydney Wanderers Youth"
-            score: "0"
-          - name: "St George"
-            score: "1"
-            active: true
-      - id: football-2569947
-        competition: "Australia Tasmania NPL"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Devonport City"
+          - name: "Atlético Tucumán"
             score: "2"
             active: true
-          - name: "Kingborough Lions United"
-            score: "1"
-      - id: football-2432790
-        competition: "Australia Victoria NPL"
-        state: live
-        stateLabel: "54'"
+      - id: football-2407053
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Heidelberg United"
-            score: "2"
-            active: true
-          - name: "Hume City"
-            score: "1"
+          - name: "Philadelphia Union"
+            score: "–"
+            detail: "23:30"
+          - name: "FC Cincinnati"
+            score: "–"
+      - id: football-2407054
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Atlanta United"
+            score: "–"
+            detail: "23:30"
+          - name: "Orlando City"
+            score: "–"
+      - id: football-2404928
+        competition: "Argentinian Primera B Nacional"
+        state: upcoming
+        stateLabel: "18:30"
+        teams:
+          - name: "Defensores de Belgrano"
+            score: "–"
+            detail: "18:30"
+          - name: "Los Andes"
+            score: "–"
 
   - name: Cricket
     matches:
-      - id: cricket-2573300
-        competition: "The Hundred Women"
+      - id: cricket-2578489
+        competition: "Caribbean Premier League"
         state: upcoming
-        stateLabel: "13:15"
+        stateLabel: "23:00"
         teams:
-          - name: "Sunrisers Leeds Women"
+          - name: "Guyana Amazon Warriors"
             score: "–"
-            detail: "13:15"
-          - name: "Trent Rockets Women"
+            detail: "23:00"
+          - name: "Saint Lucia Kings"
+            score: "–"
+      - id: cricket-2465901
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Nottinghamshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Hampshire"
+            score: "–"
+      - id: cricket-2465902
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Yorkshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Essex"
+            score: "–"
+      - id: cricket-2465903
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Glamorgan"
+            score: "–"
+            detail: "00:00"
+          - name: "Warwickshire"
             score: "–"
