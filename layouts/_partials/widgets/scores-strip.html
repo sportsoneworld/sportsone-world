@@ -1,0 +1,112 @@
+{{- /* ------------------------------------------------------------------
+     HORIZONTAL LIVE SCORES STRIP
+
+     Sits between two editorial sections on the homepage, breaks up the run of
+     story cards and gives the page a graphic element that is not a photograph.
+
+     It shows ONLY the matches whose ids the desk listed under
+     `featured_matches` in data/scores.yaml, in that order. Everything else in
+     that file stays on /scores/ and off the front page.
+
+       {{ partial "widgets/scores-strip.html" . }}
+
+     The cards scroll sideways inside their own track, so a long list of
+     fixtures never widens the page itself.
+     ------------------------------------------------------------------ */ -}}
+{{- $d := hugo.Data.scores -}}
+{{- if and site.Params.showLiveScores $d $d.sports -}}
+
+{{- /* Resolve the desk's selection into matches, keeping the desk's order and
+       remembering which sport each one belongs to. */ -}}
+{{- $sel := slice -}}
+{{- $taken := slice -}}
+{{- range $id := ($d.featured_matches | default slice) }}
+  {{- range $s := $d.sports }}
+    {{- range $m := ($s.matches | default slice) }}
+      {{- if and (eq (printf "%v" $m.id) (printf "%v" $id)) (not (in $taken (printf "%v" $m.id))) }}
+        {{- $sel = $sel | append (dict "sport" $s.name "match" $m) -}}
+        {{- $taken = $taken | append (printf "%v" $m.id) -}}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- /* Scores now refresh on their own, so a pinned match eventually finishes
+       and drops out of the feed. When `auto_feature` is on, the strip tops
+       itself up — live matches first, then whatever is coming next — so it is
+       never empty just because the desk has not pinned anything today. The
+       desk's pins always come first. */ -}}
+{{- $cap := int (site.Params.scoreStripCount | default 8) -}}
+{{- if and ($d.auto_feature) (lt (len $sel) $cap) }}
+  {{- range $state := slice "live" "break" "upcoming" "completed" }}
+    {{- range $s := $d.sports }}
+      {{- range $m := ($s.matches | default slice) }}
+        {{- if and (lt (len $sel) $cap)
+                   (eq (lower ($m.state | default "upcoming")) $state)
+                   (not (in $taken (printf "%v" $m.id))) }}
+          {{- $sel = $sel | append (dict "sport" $s.name "match" $m) -}}
+          {{- $taken = $taken | append (printf "%v" $m.id) -}}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- /* Nothing selected is a deliberate editorial state, not an error: the
+       strip simply does not render. */ -}}
+{{- with $sel }}
+{{- $sports := slice -}}
+{{- range . }}{{ if not (in $sports .sport) }}{{ $sports = $sports | append .sport }}{{ end }}{{ end }}
+
+<section class="scorestrip" aria-labelledby="scorestrip-title" data-scorestrip>
+  <div class="scorestrip__head">
+    <h2 class="section-title scorestrip__title" id="scorestrip-title">Live Scores</h2>
+    <span class="livetag"><span class="live-dot" aria-hidden="true"></span>Live</span>
+    <a class="scorestrip__all" href="{{ "/scores/" | relURL }}">
+      All scores {{ partial "func/icon.html" "arrow-right" }}
+    </a>
+  </div>
+
+  {{- if gt (len $sports) 1 }}
+  <div class="scorestrip__filters" role="group" aria-label="Filter live scores by sport">
+    <button class="scorestrip__filter" type="button" data-filter="all" aria-pressed="true">All</button>
+    {{- range $sports }}
+    <button class="scorestrip__filter" type="button" data-filter="{{ urlize . }}" aria-pressed="false">{{ . }}</button>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <div class="scorestrip__track" tabindex="0" role="group" aria-label="Selected matches, scrolls sideways">
+    {{- range $sel }}
+    {{- $m := .match }}
+    {{- $state := lower ($m.state | default "upcoming") }}
+    <article class="mcard" data-sport="{{ urlize .sport }}">
+      <div class="mcard__top">
+        <span class="mcard__comp">{{ $m.competition }}</span>
+        <span class="mcard__state" data-state="{{ $state }}">
+          {{- if eq $state "live" }}<span class="live-dot" aria-hidden="true"></span>{{ end -}}
+          {{ $m.stateLabel | default (upper $state) }}
+        </span>
+      </div>
+      <div class="mcard__teams">
+        {{- range $t := $m.teams }}
+        <div class="mcard__team{{ if $t.active }} is-leading{{ end }}">
+          <span class="mcard__name">{{ $t.name }}</span>
+          <span class="mcard__figures">
+            <span class="mcard__score">{{ $t.score | default "–" }}</span>
+            {{- with $t.detail }}<span class="mcard__detail">{{ . }}</span>{{ end }}
+          </span>
+        </div>
+        {{- end }}
+      </div>
+      {{- with $m.note }}<p class="mcard__note">{{ . }}</p>{{ end }}
+      {{- with $m.link }}
+      <a class="mcard__link" href="{{ . | relURL }}">Match report</a>
+      {{- end }}
+    </article>
+    {{- end }}
+    <p class="mcard__empty" data-empty hidden>No matches selected for this sport.</p>
+  </div>
+</section>
+{{- end }}
+{{- end -}}

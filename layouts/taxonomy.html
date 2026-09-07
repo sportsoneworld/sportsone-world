@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container container--wide">
+  <div class="page-head">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+    {{- with .Params.description | default .Content }}
+    <div class="page-head__desc">{{ . | plainify }}</div>
+    {{- end }}
+  </div>
+
+  {{- with .Data.Terms.ByCount }}
+  <div class="grid grid--4">
+    {{- range . }}
+    {{- with .Page }}
+    <a class="tile" href="{{ .RelPermalink }}">
+      <h2 class="tile__name">{{ .Title }}</h2>
+      <span class="tile__count">{{ len .Pages }} article{{ if ne (len .Pages) 1 }}s{{ end }}</span>
+    </a>
+    {{- end }}
+    {{- end }}
+  </div>
+  {{- else }}
+  <p class="empty-state">Nothing to list yet.</p>
+  {{- end }}
+</div>
+{{ end }}

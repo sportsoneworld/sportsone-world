@@ -1,0 +1,53 @@
+{
+  // --------------------------------------------------------------------------
+  //  Sensible defaults for writing articles. Nothing here affects the website
+  //  itself — it only makes VS Code more comfortable to write in.
+  // --------------------------------------------------------------------------
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "public": true,
+    "resources": true,
+    ".hugo_build.lock": true
+  },
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": { "other": false, "comments": false, "strings": false },
+    "editor.trimAutoWhitespace": false,
+    "files.trimTrailingWhitespace": false
+  },
+
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": "keep"
+  },
+
+  "yaml.format.enable": false,
+
+  // Git: stage-and-commit in one click from the Source Control panel.
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.postCommitCommand": "push",
+
+  "markdownlint.config": {
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
+  },
+
+  "cSpell.words": [
+    "SportsOne",
+    "Hugo",
+    "goldmark",
+    "kabaddi",
+    "changeover",
+    "changeovers",
+    "tabular"
+  ]
+}

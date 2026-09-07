@@ -1,0 +1,73 @@
+# =============================================================================
+#  PHOTO SOURCES — the short name printed under a picture
+#
+#  The line under a photograph on SportsOne is deliberately tiny: the name of
+#  the agency or platform the picture came from, and nothing else. No web
+#  address, no photographer's home town, no licence code.
+#
+#      Photo via Getty Images
+#      Photo via Reuters
+#
+#  Two ways a story gets that name:
+#
+#    1. You write it yourself in the article, which is always best:
+#
+#         imageSource: "Getty Images"
+#
+#    2. You leave imageSource empty and the website works it out from the web
+#       address in imageCreditURL, using the list below.
+#
+#  TO ADD A NEW AGENCY
+#  Add one line: the web address on the left, the short name on the right.
+#  Keep the short name to one or two words. That is the whole point of it.
+# =============================================================================
+
+domains:
+  commons.wikimedia.org:  "Wikimedia Commons"
+  upload.wikimedia.org:   "Wikimedia Commons"
+  wikimedia.org:          "Wikimedia Commons"
+  wikipedia.org:          "Wikipedia"
+  flickr.com:             "Flickr"
+  live.staticflickr.com:  "Flickr"
+  gettyimages.com:        "Getty Images"
+  gettyimages.in:         "Getty Images"
+  gettyimages.co.uk:      "Getty Images"
+  reuters.com:            "Reuters"
+  apnews.com:             "AP"
+  ap.org:                 "AP"
+  afp.com:                "AFP"
+  pa.media:               "PA"
+  panewswire.com:         "PA"
+  shutterstock.com:       "Shutterstock"
+  alamy.com:              "Alamy"
+  imago-images.com:       "Imago"
+  actionimages.com:       "Action Images"
+  unsplash.com:           "Unsplash"
+  pexels.com:             "Pexels"
+  pixabay.com:            "Pixabay"
+  x.com:                  "X"
+  twitter.com:            "X"
+  instagram.com:          "Instagram"
+  facebook.com:           "Facebook"
+  youtube.com:            "YouTube"
+  icc-cricket.com:        "ICC"
+  bcci.tv:                "BCCI"
+  premierleague.com:      "Premier League"
+  fifa.com:               "FIFA"
+  uefa.com:               "UEFA"
+  olympics.com:           "Olympics"
+  nba.com:                "NBA"
+  formula1.com:           "Formula 1"
+  atptour.com:            "ATP Tour"
+  wtatennis.com:          "WTA"
+
+# Words that sometimes appear glued onto a photographer's name and are never
+# part of an agency name. Everything from the first one of these onwards is cut
+# off, so "johnseb, via Flickr" prints as "Flickr" and
+# "Jeremy Weate from Abuja, Nigeria" never reaches the page at all.
+cut_after:
+  - " via "
+  - " from "
+  - " for "
+  - " / "
+  - " | "

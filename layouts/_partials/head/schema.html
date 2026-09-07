@@ -1,0 +1,101 @@
+{{- /* ------------------------------------------------------------------
+     Structured data (schema.org JSON-LD).
+     Home  -> WebSite + Organization (+ site search action)
+     Post  -> NewsArticle with author, publisher, dates and images
+     Terms -> CollectionPage + breadcrumbs
+     ------------------------------------------------------------------ */ -}}
+{{- $logo := urls.JoinPath site.BaseURL (site.Params.logoSquare | default "/images/brand/sportsone-mark-dark-512.png") -}}
+{{- $publisher := dict
+      "@type" "NewsMediaOrganization"
+      "name" (site.Params.publisherName | default site.Title)
+      "url" site.BaseURL
+      "logo" (dict "@type" "ImageObject" "url" $logo "width" 512 "height" 512) -}}
+
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{{ dict
+    "@context" "https://schema.org"
+    "@graph" (slice
+      (dict
+        "@type" "WebSite"
+        "@id" (printf "%s#website" site.BaseURL)
+        "url" site.BaseURL
+        "name" site.Title
+        "description" site.Params.description
+        "publisher" (dict "@id" (printf "%s#org" site.BaseURL))
+        "potentialAction" (dict
+          "@type" "SearchAction"
+          "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%ssearch/?q={search_term_string}" site.BaseURL))
+          "query-input" "required name=search_term_string"))
+      (merge $publisher (dict "@id" (printf "%s#org" site.BaseURL))))
+  | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- else if eq .Kind "page" -}}
+  {{- $img := partial "func/image.html" (dict "page" . "context" "social") -}}
+  {{- $imgAbs := cond (hasPrefix $img "http") $img (urls.JoinPath site.BaseURL $img) -}}
+  {{- $authorName := partial "func/authorname.html" . -}}
+  {{- $type := cond (in (.Params.categories | default slice) "Opinion") "OpinionNewsArticle" "NewsArticle" -}}
+<script type="application/ld+json">
+{{ dict
+    "@context" "https://schema.org"
+    "@type" $type
+    "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+    "headline" (.Title | plainify | truncate 110 "")
+    "description" ((.Params.description | default .Params.summary | default .Summary) | plainify | truncate 200 "")
+    "image" (slice $imgAbs)
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+    "author" (dict "@type" "Person" "name" $authorName)
+    "publisher" $publisher
+    "articleSection" (delimit (.Params.categories | default slice) ", ")
+    "keywords" (delimit (.Params.tags | default slice) ", ")
+    "inLanguage" "en"
+    "isAccessibleForFree" true
+  | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+  {{- with .Params.match -}}
+  {{- if and .home .away -}}
+<script type="application/ld+json">
+{{ dict
+    "@context" "https://schema.org"
+    "@type" "SportsEvent"
+    "name" (printf "%s v %s" (index .home "name") (index .away "name"))
+    "startDate" (.date | default ($.Date.Format "2006-01-02"))
+    "location" (dict "@type" "Place" "name" (.venue | default "Venue to be confirmed"))
+    "competitor" (slice
+      (dict "@type" "SportsTeam" "name" (index .home "name"))
+      (dict "@type" "SportsTeam" "name" (index .away "name")))
+  | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+  {{- end -}}
+  {{- end -}}
+{{- else if in (slice "term" "section" "taxonomy") .Kind -}}
+<script type="application/ld+json">
+{{ dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" .Title
+    "url" .Permalink
+    "description" ((.Params.description | default .Description | default site.Params.description) | plainify | truncate 200 "")
+    "isPartOf" (dict "@type" "WebSite" "name" site.Title "url" site.BaseURL)
+  | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- end -}}
+
+{{- /* Breadcrumbs for every page except the home page */ -}}
+{{- if not .IsHome -}}
+{{- $items := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL) -}}
+{{- if eq .Kind "page" -}}
+  {{- with index (.Params.categories | default slice) 0 -}}
+    {{- $t := site.GetPage (printf "/categories/%s" (urlize .)) -}}
+    {{- with $t -}}
+      {{- $items = $items | append (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $items = $items | append (dict "@type" "ListItem" "position" (add (len $items) 1) "name" .Title "item" .Permalink) -}}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items
+  | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- end -}}

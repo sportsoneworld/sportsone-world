@@ -1,0 +1,23 @@
+{{- /* Accessible numbered pagination. */ -}}
+{{- $p := .Paginator -}}
+{{- if gt $p.TotalPages 1 }}
+<nav aria-label="Pagination">
+  <ul class="pagination">
+    <li class="page-item{{ if not $p.HasPrev }} disabled{{ end }}">
+      {{- if $p.HasPrev }}<a href="{{ $p.Prev.URL }}" rel="prev">‹ Previous</a>
+      {{- else }}<span>‹ Previous</span>{{ end }}
+    </li>
+    {{- range $p.Pagers }}
+      {{- if eq . $p }}
+    <li class="page-item active"><span aria-current="page">{{ .PageNumber }}</span></li>
+      {{- else }}
+    <li class="page-item"><a href="{{ .URL }}" aria-label="Page {{ .PageNumber }}">{{ .PageNumber }}</a></li>
+      {{- end }}
+    {{- end }}
+    <li class="page-item{{ if not $p.HasNext }} disabled{{ end }}">
+      {{- if $p.HasNext }}<a href="{{ $p.Next.URL }}" rel="next">Next ›</a>
+      {{- else }}<span>Next ›</span>{{ end }}
+    </li>
+  </ul>
+</nav>
+{{- end }}

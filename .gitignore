@@ -1,0 +1,33 @@
+# Hugo build output — never commit this, GitHub Actions builds it for you
+/public/
+/resources/_gen/
+/.hugo_build.lock
+hugo_stats.json
+
+# Operating system noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor noise
+*.swp
+*~
+.idea/
+
+# Never commit secrets
+.env
+.env.*
+!.env.example
+
+# The working folder the guide figures are built in — regenerated on demand
+docs/images/.work/
+
+# The publishing tool's working folder — logs and part-finished uploads.
+# Nothing in here belongs to the website.
+/.cms/
+
+# Python's own compiled cache. Rebuilt automatically, never edited, and it
+# must not travel between machines — a .pyc built by one version of Python is
+# ignored by another.
+__pycache__/
+*.pyc

@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container container--wide">
+  <div class="page-head">
+    <p class="eyebrow"><span class="eyebrow__sport">Error 404</span></p>
+    <h1 class="page-head__title">That page has moved on</h1>
+    <p class="page-head__desc">
+      The story you were looking for is not here. It may have been renamed, or
+      the link that brought you here may be out of date.
+    </p>
+  </div>
+
+  <p style="margin-bottom: var(--sp-8); display:flex; gap:var(--sp-3); flex-wrap:wrap">
+    <a class="btn btn--primary" href="{{ "/" | relURL }}">Back to the front page</a>
+    <a class="btn btn--outline" href="{{ "/posts/" | relURL }}">Browse the latest news</a>
+    <a class="btn btn--outline" href="{{ "/search/" | relURL }}">Search the site</a>
+  </p>
+
+  {{- $latest := first 3 (where site.RegularPages "Type" "posts").ByDate.Reverse }}
+  {{- with $latest }}
+  <div class="home-block">
+    <div class="section-head"><h2 class="section-title">Latest Stories</h2></div>
+    <div class="picks">
+      {{- range . }}
+      {{ partial "cards/card.html" (dict "page" . "excerpt" false) }}
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{ end }}

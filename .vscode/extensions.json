@@ -1,0 +1,15 @@
+{
+  // VS Code will offer to install these the first time you open the project.
+  // Click "Install All" — it takes about a minute and you only do it once.
+  "recommendations": [
+    "budparr.language-hugo-vscode",     // understands Hugo files and front matter
+    "yzhang.markdown-all-in-one",       // makes writing Markdown much easier
+    "davidanson.vscode-markdownlint",   // gently points out Markdown mistakes
+    "redhat.vscode-yaml",               // checks data/scores.yaml for typos
+    "eamodio.gitlens",                  // shows who changed what, and when
+    "github.vscode-pull-request-github",// GitHub sign-in and review inside VS Code
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig"
+  ],
+  "unwantedRecommendations": []
+}

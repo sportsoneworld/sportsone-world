@@ -1,0 +1,8 @@
+{{- /* {{< keypoints title="The key points" >}}
+       - First point
+       - Second point
+       {{< /keypoints >}}                                                   */ -}}
+<aside class="keypoints">
+  <h2>{{ .Get "title" | default "The key points" }}</h2>
+  {{ .Inner | markdownify }}
+</aside>

@@ -1,0 +1,18 @@
+{{- /* ------------------------------------------------------------------
+     Text-only headline list. Used for More Headlines beside Editor's Picks
+     and for "More in this sport" on an article, where a run of small cards
+     would read as clutter.
+
+       {{ partial "cards/headline-list.html" (dict "pages" $pages) }}
+       {{ partial "cards/headline-list.html" (dict "pages" $pages "ranked" true) }}
+     ------------------------------------------------------------------ */ -}}
+{{- $ranked := .ranked | default false -}}
+<ul class="headline-list{{ if $ranked }} headline-list--ranked{{ end }}">
+  {{- range .pages }}
+  <li>
+    <div>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </div>
+  </li>
+  {{- end }}
+</ul>

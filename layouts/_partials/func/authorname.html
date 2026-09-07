@@ -1,0 +1,7 @@
+{{- /* Display name for an article's author. Accepts a page. */ -}}
+{{- $name := .Params.author -}}
+{{- if not $name -}}
+  {{- with .Params.authors -}}{{- $name = index . 0 -}}{{- end -}}
+{{- end -}}
+{{- if not $name -}}{{- $name = site.Params.defaultAuthor | default site.Title -}}{{- end -}}
+{{- return $name -}}

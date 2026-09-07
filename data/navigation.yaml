@@ -1,0 +1,104 @@
+# =============================================================================
+#  NAVIGATION
+#
+#  This file is the single source of truth for the main toolbar, the sports
+#  dropdowns, the mobile menu, the footer "Sports" column and the order of the
+#  sport sections on the homepage.
+#
+#  TO ADD A SPORT      add a block under `primary`.
+#  TO ADD A SUB-ITEM   add a line under that sport's `children`.
+#  TO REMOVE ONE       delete its lines.
+#
+#  A sport with no `children` simply renders as a plain link with no dropdown,
+#  so you never have to touch a template to change the navigation.
+#
+#  `url` must point at a page that exists. Sports and sub-items are category
+#  pages, created by adding a folder under content/categories/.
+# =============================================================================
+
+primary:
+  - name: "Home"
+    url: "/"
+
+  - name: "Cricket"
+    url: "/categories/cricket/"
+    children:
+      - name: "International Action"
+        url: "/categories/international-action/"
+      - name: "T20 Leagues"
+        url: "/categories/t20-leagues/"
+
+  - name: "Football"
+    url: "/categories/football/"
+    children:
+      - name: "Premier League"
+        url: "/categories/premier-league/"
+      - name: "La Liga"
+        url: "/categories/la-liga/"
+      - name: "Serie-A"
+        url: "/categories/serie-a/"
+      - name: "Other Leagues"
+        url: "/categories/other-leagues/"
+      - name: "Transfer Mania"
+        url: "/categories/transfer-mania/"
+
+  - name: "Tennis"
+    url: "/categories/tennis/"
+
+  - name: "Other Sports"
+    url: "/categories/other-sports/"
+
+# The highlighted Live Scores button that sits at the end of the toolbar.
+live:
+  name: "Live Scores"
+  url: "/scores/"
+
+# =============================================================================
+#  FOOTER
+#  Three link columns. Same rules: edit a line, the footer changes.
+# =============================================================================
+footer:
+  sports:
+    - name: "Football"
+      url: "/categories/football/"
+    - name: "Cricket"
+      url: "/categories/cricket/"
+    - name: "Tennis"
+      url: "/categories/tennis/"
+    - name: "Other Sports"
+      url: "/categories/other-sports/"
+
+  sections:
+    - name: "Latest News"
+      url: "/posts/"
+    - name: "Live Scores"
+      url: "/scores/"
+    - name: "Categories"
+      url: "/categories/"
+
+  information:
+    - name: "About"
+      url: "/about/"
+    - name: "Terms & Conditions"
+      url: "/terms/"
+    - name: "Privacy & Cookies Notice"
+      url: "/privacy/"
+    - name: "Privacy Options"
+      url: "/privacy-options/"
+    - name: "Accessibility Information"
+      url: "/accessibility/"
+    - name: "Image Credits"
+      url: "/credits/"
+    - name: "Contact Us"
+      url: "/contact/"
+
+# Categories that describe the *kind* of story rather than the sport. They are
+# never used as the red eyebrow above a headline and never appear in the
+# sports navigation.
+editorial:
+  - "Analysis"
+  - "Match Reports"
+  - "Transfers"
+  - "Opinion"
+  - "Features"
+  - "Breaking News"

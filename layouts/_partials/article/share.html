@@ -1,0 +1,41 @@
+{{- /* ------------------------------------------------------------------
+     SHARE BUTTONS — plain links, no third-party tracking scripts.
+
+       {{ partial "article/share.html" . }}                       foot of the
+                                                                  article
+       {{ partial "article/share.html" (dict "page" . "variant" "top") }}
+                                                                  above the
+                                                                  main picture
+
+     The "top" bar is icons only, sitting directly above the photograph, and
+     appears on an article page and nowhere else — never on the front page,
+     never on a section page, never on a card.
+     ------------------------------------------------------------------ */ -}}
+{{- $p := . -}}{{- $variant := "" -}}
+{{- if reflect.IsMap . -}}{{- $p = .page }}{{ $variant = .variant | default "" -}}{{- end -}}
+{{- $url := $p.Permalink -}}
+{{- $t := $p.Title | plainify -}}
+{{- $enc := $url | urlquery -}}
+{{- $enct := $t | urlquery -}}
+{{- $top := eq $variant "top" -}}
+<div class="share{{ if $top }} share--top{{ end }}">
+  {{- if $top }}
+  <span class="visually-hidden">Share this article</span>
+  {{- else }}
+  <span class="share__label">Share</span>
+  {{- end }}
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ $enc }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">{{ partial "func/icon.html" "facebook" }}</a>
+  <a href="https://x.com/intent/tweet?url={{ $enc }}&amp;text={{ $enct }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on X">{{ partial "func/icon.html" "x" }}</a>
+  <a href="https://api.whatsapp.com/send?text={{ $enct }}%20{{ $enc }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on WhatsApp">{{ partial "func/icon.html" "whatsapp" }}</a>
+  {{- if $top }}
+  <a href="https://www.reddit.com/submit?url={{ $enc }}&amp;title={{ $enct }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on Reddit">{{ partial "func/icon.html" "reddit" }}</a>
+  {{- else }}
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $enc }}"
+     target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">{{ partial "func/icon.html" "linkedin" }}</a>
+  {{- end }}
+  <button type="button" data-copy-link="{{ $url }}" aria-label="Copy link to this article">{{ partial "func/icon.html" "link" }}</button>
+</div>

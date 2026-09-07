@@ -1,0 +1,21 @@
+{{- /* {{< figure src="/images/x.jpg" alt="..." caption="..." ratio="wide"
+              source="Getty Images" >}}
+
+       ratio: wide (default) | thumb | portrait | banner
+
+       `source` is the short agency or platform name printed under the
+       picture — one or two words, never a web address. The older
+       credit / creditURL / license attributes still work; the credit line
+       is worked out from them exactly as it is for an article's main
+       photograph. See layouts/_partials/cards/credit.html. */ -}}
+{{- $ratio := .Get "ratio" | default "wide" -}}
+<figure>
+  <div class="frame frame--{{ $ratio }}">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default (.Get "caption") }}" loading="lazy" decoding="async">
+  </div>
+  {{- with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  {{ partial "cards/credit.html" (dict
+      "source" (.Get "source")
+      "credit" (.Get "credit") "creditURL" (.Get "creditURL")
+      "license" (.Get "license") "licenseURL" (.Get "licenseURL")) }}
+</figure>

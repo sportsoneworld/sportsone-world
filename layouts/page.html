@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container container--wide">
+  <div class="page-head">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+    {{- with .Params.summary }}<p class="page-head__desc">{{ . }}</p>{{ end }}
+  </div>
+  <div class="prose" style="margin-bottom: var(--sp-10)">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

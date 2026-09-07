@@ -1,0 +1,51 @@
+{{- /* ------------------------------------------------------------------
+     Fill an editorial slot: the desk's choices first, then a graceful
+     top-up so the slot is never short and never renders an empty card.
+
+       {{ $s := partial "func/slots.html" (dict
+             "refs" $refs        the slugs from the data file
+             "want" 5            how many the slot holds
+             "pool" $posts       everything a ref may point at
+             "fill" $pool        what to top up from (defaults to pool)
+             "used" $used) }}    RelPermalinks already placed on this page
+
+       $s.pages   the stories to render
+       $s.used    the updated used-list, to thread into the next slot
+
+     Rules, in order:
+       1. Named stories win, in the order the desk wrote them.
+       2. A story already placed higher on the page is skipped, so nothing
+          appears twice within one run of slots.
+       3. If the slot is still short, it is topped up with the newest
+          unused story from `fill`.
+       4. If even that runs out the slot simply renders fewer cards. It
+          never renders a blank one.
+
+     Pass "used" as an empty slice when a block is allowed to repeat a story
+     shown elsewhere — the sport sections do this deliberately, because a
+     sport's own top five should not change depending on what the front page
+     happens to be leading with.
+     ------------------------------------------------------------------ */ -}}
+{{- $want := int (.want | default 1) -}}
+{{- $pool := .pool -}}
+{{- $fill := .fill | default .pool -}}
+{{- $used := .used | default slice -}}
+{{- $chosen := slice -}}
+
+{{- range partial "func/pick.html" (dict "refs" (.refs | default slice) "pool" $pool) -}}
+  {{- if and (lt (len $chosen) $want) (not (in $used .RelPermalink)) -}}
+    {{- $chosen = $chosen | append . -}}
+    {{- $used = $used | append .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if lt (len $chosen) $want -}}
+  {{- range partial "func/order.html" $fill -}}
+    {{- if and (lt (len $chosen) $want) (not (in $used .RelPermalink)) -}}
+      {{- $chosen = $chosen | append . -}}
+      {{- $used = $used | append .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return dict "pages" $chosen "used" $used -}}

@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="container container--wide">
+  <div class="page-head">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+    {{- with .Content }}<div class="page-head__desc">{{ . }}</div>{{ end }}
+  </div>
+
+  <div class="searchpage">
+    <div>
+      <form class="search-form" role="search" data-search-form action="{{ .RelPermalink }}" method="get">
+        <label class="visually-hidden" for="q">Search SportsOne articles</label>
+        <div class="searchbar">
+          {{ partial "func/icon.html" "search" }}
+          <input id="q" name="q" type="search" placeholder="Search for a player, team, tournament…"
+                 autocomplete="off" autocapitalize="off" spellcheck="false" data-search-input>
+        </div>
+      </form>
+
+      <p class="search-status" data-search-status>Type at least two characters to search.</p>
+      <ul class="search-results" data-search-results></ul>
+
+      <noscript>
+        <p class="empty-state">
+          Search needs JavaScript. You can still browse
+          <a href="{{ "/posts/" | relURL }}">all articles</a> or pick a
+          <a href="{{ "/categories/" | relURL }}">sport</a>.
+        </p>
+      </noscript>
+    </div>
+
+    <aside class="panel" aria-label="Browse by sport">
+      <h2 class="section-title section-title--sub">Browse by Sport</h2>
+      <ul class="panel__list">
+        {{- range hugo.Data.navigation.primary }}
+        {{- if ne .url "/" }}
+        <li><a href="{{ .url | relURL }}">{{ .name }}</a></li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </aside>
+  </div>
+</div>
+{{ end }}

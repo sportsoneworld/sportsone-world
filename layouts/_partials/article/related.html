@@ -1,0 +1,26 @@
+{{- /* ------------------------------------------------------------------
+     Related stories: articles that share a category or tag with this one,
+     newest first, topped up with the latest news if there are not enough.
+     ------------------------------------------------------------------ */ -}}
+{{- $p := . -}}
+{{- $n := site.Params.relatedCount | default 4 -}}
+{{- $rel := first $n (where (site.RegularPages.Related $p) "Type" "posts") -}}
+{{- if lt (len $rel) $n -}}
+  {{- $used := slice $p.RelPermalink -}}
+  {{- range $rel }}{{ $used = $used | append .RelPermalink }}{{ end -}}
+  {{- $pool := partial "func/exclude.html" (dict "pages" (where site.RegularPages "Type" "posts").ByDate.Reverse "used" $used) -}}
+  {{- $add := first (sub $n (len $rel)) $pool -}}
+  {{- if $add }}{{ $rel = $rel | append $add }}{{ end -}}
+{{- end -}}
+{{- with $rel }}
+<section class="related" aria-labelledby="related-title">
+  <div class="section-head">
+    <h2 class="section-title" id="related-title">Related Stories</h2>
+  </div>
+  <div class="related__grid">
+    {{- range . }}
+    {{ partial "cards/card.html" (dict "page" . "excerpt" false) }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}

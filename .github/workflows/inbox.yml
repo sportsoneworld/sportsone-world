@@ -1,0 +1,120 @@
+# =============================================================================
+#  Import whatever is in the Inbox
+#
+#  What this does, in plain English:
+#    1. Watches the `inbox/` folder in this repository.
+#    2. The moment you upload a story and its picture there, it starts.
+#    3. It resizes the picture, files it, turns the text into a real article,
+#       puts the story wherever you asked for it on the front page, and empties
+#       the inbox.
+#    4. That commit sets the publish workflow going, so two or three minutes
+#       later the story is live on sportsone.world.
+#
+#  YOU NEVER RUN THIS BY HAND. To upload a story with no software at all:
+#    GitHub ▸ the `inbox` folder ▸ "Add file" ▸ "Upload files" ▸ drag both
+#    files in ▸ "Commit changes".
+#
+#  A report of exactly what it did — including anything that needed a second
+#  look — is written to the Actions tab under this run, in plain English.
+#
+#  IF SOMETHING WAS WRONG  the run still finishes and imports everything it
+#  could. Files it could not use are left in the inbox with a reason.
+#
+#  TO TURN IT OFF  Actions tab ▸ "Import from the Inbox" ▸ ⋯ ▸ Disable
+#  workflow. Articles can then still be written by hand exactly as before.
+# =============================================================================
+
+name: Import from the Inbox
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inbox/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  # Needed for the last step. A commit made by a workflow deliberately does NOT
+  # start another workflow — that is GitHub's rule, and it is there to stop two
+  # automations setting each other off for ever. So this one asks for the
+  # publish to run, by name, rather than hoping its commit will do it.
+  actions: write
+
+# One import at a time. Two overlapping runs could both try to empty the inbox.
+concurrency:
+  group: inbox
+  cancel-in-progress: false
+
+jobs:
+  import:
+    name: Turn the inbox into articles
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install the image tool
+        run: python3 -m pip install --quiet --disable-pip-version-check Pillow
+
+      # Nothing to do if the only thing in there is the guide and the
+      # placeholder file. This keeps the workflow silent rather than failing.
+      - name: Is there anything to import?
+        id: check
+        run: |
+          set -euo pipefail
+          count=$(find inbox -maxdepth 1 -type f \
+            ! -name 'README.md' ! -name '.gitkeep' | wc -l | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Files waiting in the inbox: $count"
+
+      - name: Import
+        if: steps.check.outputs.count != '0'
+        run: |
+          set -euo pipefail
+          python3 scripts/import-articles.py inbox | tee import-report.txt
+
+      - name: Write the report where you can read it
+        if: steps.check.outputs.count != '0'
+        run: |
+          {
+            echo '## Inbox import'
+            echo
+            echo '```'
+            cat import-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm -f import-report.txt
+
+      - name: Commit the new articles
+        if: steps.check.outputs.count != '0'
+        run: |
+          set -euo pipefail
+          if git diff --quiet && git diff --cached --quiet && \
+             [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing changed — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "SportsOne inbox bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A content static data inbox
+          git commit -m "Inbox: import new articles"
+          git push
+
+      - name: Ask the site to publish
+        if: steps.check.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if gh workflow run "Build and deploy to GitHub Pages" --ref "$GITHUB_REF_NAME"; then
+            echo "The publish has been started. The story is live in two or three minutes."
+          else
+            echo "Could not start the publish automatically."
+            echo "Do it by hand: Actions tab, 'Build and deploy to GitHub Pages', Run workflow."
+          fi

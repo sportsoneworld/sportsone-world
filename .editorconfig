@@ -1,0 +1,18 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Windows batch files must keep CRLF endings. cmd.exe mis-reads a `goto`
+# label in a file saved with Unix endings, so a .bat "tidied" to LF can stop
+# working on the newsroom laptop while looking perfectly fine here.
+[*.bat]
+end_of_line = crlf

@@ -1,0 +1,16 @@
+{{- /* ------------------------------------------------------------------
+     Remove pages that have already been used elsewhere on the homepage, so
+     the same article never appears twice.
+
+       {{ $fresh := partial "func/exclude.html" (dict "pages" $p "used" $used) }}
+
+     `used` is a slice of RelPermalink strings.
+     ------------------------------------------------------------------ */ -}}
+{{- $used := .used | default slice -}}
+{{- $out := slice -}}
+{{- range .pages -}}
+  {{- if not (in $used .RelPermalink) -}}
+    {{- $out = $out | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

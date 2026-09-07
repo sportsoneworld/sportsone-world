@@ -1,0 +1,105 @@
+{{ define "main" }}
+{{- /* ===================================================================
+     THE SCOREBOARD
+
+     A single column of rows grouped by competition, the way a scores service
+     reads: status on the left, the two teams stacked, the two scores in a
+     fixed column on the right. No cards, no boxes, no repeated furniture —
+     the eye should be able to run straight down the score column.
+
+     Everything comes from data/scores.yaml, which refreshes on its own.
+     =================================================================== */ -}}
+{{- $d := hugo.Data.scores -}}
+{{- $featured := $d.featured_matches | default slice -}}
+
+{{- /* Flatten to one list, then group by competition inside each sport, so a
+       competition heading appears once however many matches sit under it. */ -}}
+{{- $sports := slice -}}
+{{- range $s := ($d.sports | default slice) }}
+  {{- $rows := $s.matches | default slice }}
+  {{- if $rows }}
+  {{- $comps := slice }}
+  {{- $seen := slice }}
+  {{- range $m := $rows }}
+    {{- $c := $m.competition | default $s.name }}
+    {{- if not (in $seen $c) }}
+      {{- $seen = $seen | append $c }}
+      {{- $comps = $comps | append (dict "name" $c "matches" (where $rows "competition" $c)) }}
+    {{- end }}
+  {{- end }}
+  {{- $live := len (where $rows "state" "live") }}
+  {{- $sports = $sports | append (dict "name" $s.name "slug" (urlize $s.name) "comps" $comps "live" $live) }}
+  {{- end }}
+{{- end }}
+
+<div class="container container--wide">
+  <div class="page-head page-head--board">
+    <h1 class="page-head__title">{{ .Title }}</h1>
+    {{- with $d.updated }}<p class="board__stamp">Updated {{ . }}</p>{{ end }}
+  </div>
+
+  {{- if $sports }}
+  <section class="board" data-board>
+    {{- if gt (len $sports) 1 }}
+    <div class="board__filters" role="group" aria-label="Filter scores by sport">
+      <button class="board__filter" type="button" data-board-filter="all" aria-pressed="true">All</button>
+      {{- range $sports }}
+      <button class="board__filter" type="button" data-board-filter="{{ .slug }}" aria-pressed="false">
+        {{ .name }}{{ if .live }}<span class="board__live-count">{{ .live }}</span>{{ end }}
+      </button>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    {{- range $sport := $sports }}
+    <div class="board__sport" data-sport="{{ $sport.slug }}">
+      <h2 class="board__sport-name">{{ $sport.name }}</h2>
+
+      {{- range $comp := $sport.comps }}
+      <h3 class="board__comp">{{ $comp.name }}</h3>
+      <ul class="board__list">
+        {{- range $m := $comp.matches }}
+        {{- $state := lower ($m.state | default "upcoming") }}
+        <li class="board__row">
+          <span class="board__status" data-state="{{ $state }}">
+            {{- if eq $state "live" }}<span class="live-dot" aria-hidden="true"></span>{{ end -}}
+            {{ $m.stateLabel | default (upper $state) }}
+          </span>
+
+          <span class="board__teams">
+            {{- range $t := $m.teams }}
+            <span class="board__team{{ if $t.active }} is-leading{{ end }}">{{ $t.name }}</span>
+            {{- end }}
+          </span>
+
+          <span class="board__scores">
+            {{- range $t := $m.teams }}
+            <span class="board__score{{ if $t.active }} is-leading{{ end }}">{{ $t.score | default "–" }}</span>
+            {{- end }}
+          </span>
+
+          <span class="board__extra">
+            {{- with $m.link }}<a href="{{ . | relURL }}">Report</a>{{ end }}
+            {{- if in $featured $m.id }}<span class="board__pin">Front page</span>{{ end }}
+          </span>
+        </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    <p class="board__empty" data-board-empty hidden>No matches listed for this sport.</p>
+  </section>
+
+  <p class="board__note">
+    Scores refresh automatically from
+    <a href="https://www.thesportsdb.com" rel="noopener nofollow" target="_blank">TheSportsDB</a>.
+    Matches marked &ldquo;front page&rdquo; are the ones the desk has pinned in
+    <code>data/scores.yaml</code>.
+  </p>
+  {{- else }}
+  <p class="empty-state">No scores are listed at the moment.</p>
+  {{- end }}
+</div>
+{{ end }}

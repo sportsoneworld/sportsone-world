@@ -1,0 +1,99 @@
+{{- /* ------------------------------------------------------------------
+     IMAGE CREDIT — the one short line that sits with a picture.
+
+       {{ partial "cards/credit.html" . }}                 (a page)
+       {{ partial "cards/credit.html" (dict "source" "Getty Images") }}
+       {{ partial "cards/credit.html" (dict
+            "source" "…" "prefix" "Video via"
+            "credit" "…" "creditURL" "…"
+            "license" "…" "licenseURL" "…") }}
+
+     WHAT IT PRINTS
+
+       Photo via Getty Images
+
+     …and nothing else. Never a web address, never "https://", never a
+     licence code, and never a link. One agency or platform name, one or two
+     words, in the quietest type on the site.
+
+     WHERE THE NAME COMES FROM, in order:
+
+       1. `imageSource` in the article — always use this if you know it:
+              imageSource: "Getty Images"
+       2. The website named in `imageCreditURL`, looked up in
+          data/photo-sources.yaml (so a Wikimedia link prints
+          "Wikimedia Commons" on its own).
+       3. `imageCredit`, cleaned up: anything that looks like a web address is
+          dropped, a trailing ", Nigeria" or ", via Flickr" is cut off, and
+          what is left is capped at a few words.
+
+     If none of those produce a name, nothing is printed at all — a photograph
+     the desk took itself simply has no line under it.
+
+     THE FULL, LEGAL ATTRIBUTION — photographer and licence — is not deleted.
+     It stays in the article's front matter and is listed in full, with links,
+     on /credits/. Only the display here is shortened.
+     ------------------------------------------------------------------ */ -}}
+
+{{- $credit := "" }}{{ $creditURL := "" }}{{ $license := "" }}{{ $source := "" -}}
+{{- $prefix := site.Params.creditPrefix | default "Photo via" -}}
+{{- if reflect.IsMap . -}}
+  {{- $credit = .credit | default "" }}{{ $creditURL = .creditURL | default "" }}
+  {{- $license = .license | default "" }}{{ $source = .source | default "" -}}
+  {{- with .prefix }}{{ $prefix = . }}{{ end -}}
+{{- else -}}
+  {{- $credit = .Params.imageCredit | default "" }}{{ $creditURL = .Params.imageCreditURL | default "" }}
+  {{- $license = .Params.imageLicense | default "" }}{{ $source = .Params.imageSource | default "" -}}
+{{- end -}}
+
+{{- $cfg := (index hugo.Data "photo-sources") | default dict -}}
+{{- $domains := $cfg.domains | default dict -}}
+{{- $cuts := $cfg.cut_after | default (slice " via " " from " " for " " / " " | ") -}}
+
+{{- /* 2. Look the web address up in data/photo-sources.yaml. Matched on the
+       end of the host name, so "www.gettyimages.co.uk" finds "gettyimages.co.uk". */ -}}
+{{- if and (not $source) $creditURL -}}
+  {{- $host := lower (urls.Parse $creditURL).Host -}}
+  {{- range $d, $name := $domains -}}
+    {{- if and (not $source) (or (eq $host (lower $d)) (hasSuffix $host (printf ".%s" (lower $d)))) -}}
+      {{- $source = $name -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. Fall back to the credit text, scrubbed. */ -}}
+{{- if and (not $source) $credit -}}
+  {{- $t := trim (printf "%v" $credit) " " -}}
+  {{- /* Anything that smells of a web address is not a source name. */ -}}
+  {{- if or (in $t "://") (in $t "www.") (in $t ".com") (in $t ".org") (in $t ".net") (in $t "/") -}}
+    {{- $t = "" -}}
+  {{- end -}}
+  {{- /* "johnseb, via Flickr" -> "Flickr"; "Rae Allen from Brisbane" -> "Rae Allen". */ -}}
+  {{- range $cuts -}}
+    {{- if in (lower $t) . -}}
+      {{- $parts := split $t . -}}
+      {{- if eq . " via " -}}
+        {{- $t = trim (index $parts (sub (len $parts) 1)) " ," -}}
+      {{- else -}}
+        {{- $t = trim (index $parts 0) " ," -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $t = trim (index (split $t ",") 0) " " -}}
+  {{- /* Three words is already generous for an agency name. */ -}}
+  {{- $w := split $t " " -}}
+  {{- if gt (len $w) 3 -}}{{- $t = delimit (first 3 $w) " " -}}{{- end -}}
+  {{- $source = $t -}}
+{{- end -}}
+
+{{- $source = trim (printf "%v" $source) " ·,;-" -}}
+{{- /* Last line of defence: never let a link or a licence code onto the page. */ -}}
+{{- if or (in $source "://") (in $source "/") (gt (len $source) 28) -}}{{- $source = "" -}}{{- end -}}
+
+{{- if $source }}
+  {{- $text := $source -}}
+  {{- if and $prefix (not (or (hasPrefix $source "©") (hasPrefix (lower $source) "photo"))) -}}
+    {{- $text = printf "%s %s" $prefix $source -}}
+  {{- end }}
+<p class="credit"><span itemprop="creditText">{{ $text }}</span></p>
+{{- end }}

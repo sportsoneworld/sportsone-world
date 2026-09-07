@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SportsOne · Publishing tool</title>
+<!-- The site's own mark, so the tool's tab is recognisable. Naming it also
+     stops the browser asking for /favicon.ico, which SportsOne does not
+     have — it ships PNG icons instead. -->
+<link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar__brand">
+    <span class="bar__mark">SportsOne</span>
+    <span class="bar__sub">Publishing tool</span>
+  </div>
+  <nav class="bar__nav">
+    <button class="tab is-on" data-view="write">Write a story</button>
+    <button class="tab" data-view="stories">All stories</button>
+    <button class="tab" data-view="scores">Live scores</button>
+  </nav>
+  <div class="bar__state">
+    <span id="gitState" class="pill pill--wait">checking…</span>
+  </div>
+</header>
+
+<!-- ══════════════════════════════ WRITE ══════════════════════════════ -->
+<main id="view-write" class="split">
+
+  <!-- ─────────── left: the form ─────────── -->
+  <section class="pane pane--form">
+
+    <div class="step">
+      <h2 class="step__title"><span class="step__n">1</span> Write the story</h2>
+
+      <label class="field">
+        <span class="field__label">Headline</span>
+        <textarea id="f-title" rows="2" class="input input--head"
+          placeholder="Robinson takes four for eleven as England close in"></textarea>
+        <span class="field__help">This is the title readers see everywhere.</span>
+      </label>
+
+      <label class="field">
+        <span class="field__label">Sub-headline</span>
+        <textarea id="f-summary" rows="3" class="input"
+          placeholder="One or two sentences. Printed under the headline on the story, and on every card."></textarea>
+        <span class="field__help">
+          Also the sentence Google shows. <span id="sumCount" class="count"></span>
+        </span>
+      </label>
+
+      <div class="field">
+        <span class="field__label">The story</span>
+        <div class="tools">
+          <button type="button" data-md="## " title="Sub-heading">H</button>
+          <button type="button" data-md="**" title="Bold"><b>B</b></button>
+          <button type="button" data-md="- " title="Bullet list">&bull;</button>
+          <button type="button" data-md="> " title="Quote">&ldquo;</button>
+          <span class="tools__gap"></span>
+          <label class="linkish">
+            Load a .txt file
+            <input type="file" id="f-txt" accept=".txt,.md,.markdown" hidden>
+          </label>
+        </div>
+        <textarea id="f-body" rows="16" class="input input--body"
+          placeholder="Write the story here.&#10;&#10;Leave a blank line between paragraphs.&#10;&#10;## A sub-heading looks like this"></textarea>
+        <span class="field__help"><span id="wordCount" class="count"></span></span>
+      </div>
+    </div>
+
+    <div class="step">
+      <h2 class="step__title"><span class="step__n">2</span> The photograph</h2>
+
+      <div id="photoBox" class="photo">
+        <div class="photo__empty" id="photoEmpty">
+          <label class="btn btn--ghost">
+            Choose a picture
+            <input type="file" id="f-photo" accept="image/*" hidden>
+          </label>
+          <p class="photo__hint">
+            Landscape, 2400px across or wider. The website cuts it to every
+            shape it needs — you never crop anything.
+          </p>
+        </div>
+        <div class="photo__has" id="photoHas" hidden>
+          <img id="photoThumb" alt="">
+          <div class="photo__meta">
+            <p id="photoNote" class="photo__note"></p>
+            <button type="button" id="photoClear" class="linkish">Remove</button>
+          </div>
+        </div>
+      </div>
+
+      <label class="field">
+        <span class="field__label">What is in the picture</span>
+        <input id="f-imageAlt" class="input"
+          placeholder="Ellis runs towards the corner flag, arms out">
+        <span class="field__help">For readers who cannot see it. Always worth filling in.</span>
+      </label>
+
+      <div class="row">
+        <label class="field">
+          <span class="field__label">Caption</span>
+          <input id="f-imageCaption" class="input" placeholder="Ellis celebrates the opener">
+        </label>
+        <label class="field">
+          <span class="field__label">Agency</span>
+          <input id="f-imageSource" class="input" placeholder="Getty Images">
+          <span class="field__help">One or two words. Never a web address.</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="step">
+      <h2 class="step__title"><span class="step__n">3</span> File it</h2>
+
+      <div class="row">
+        <label class="field">
+          <span class="field__label">Sport</span>
+          <select id="f-sport" class="input"></select>
+          <span class="field__help">Puts it on that sport's page.</span>
+        </label>
+        <label class="field">
+          <span class="field__label">Published</span>
+          <input id="f-date" type="datetime-local" class="input">
+          <span class="field__help">Leave as it is for "now".</span>
+        </label>
+      </div>
+
+      <div class="field">
+        <span class="field__label">Section <span class="field__opt">optional</span></span>
+        <div id="sectionChips" class="chips"></div>
+        <span class="field__help">A second label. Its page builds itself.</span>
+      </div>
+
+      <div class="row">
+        <label class="field">
+          <span class="field__label">Tags <span class="field__opt">optional</span></span>
+          <input id="f-tags" class="input" placeholder="England, Ashes, Day two">
+        </label>
+        <label class="field">
+          <span class="field__label">Byline</span>
+          <input id="f-author" class="input" placeholder="SportsOne Desk">
+        </label>
+      </div>
+
+      <details class="more">
+        <summary>Web address</summary>
+        <label class="field">
+          <span class="field__label">This story will live at</span>
+          <div class="slug"><span class="slug__fixed">/posts/</span>
+            <input id="f-slug" class="input input--slug" placeholder="made-from-the-headline">
+            <span class="slug__fixed">/</span></div>
+          <span class="field__help">Leave blank and one is made from the headline.</span>
+        </label>
+      </details>
+    </div>
+
+    <div class="step">
+      <h2 class="step__title"><span class="step__n">4</span> Where it appears</h2>
+      <p class="step__intro">
+        Every story is in Latest News and on its sport page automatically.
+        Add a placement below only to put it somewhere prominent.
+      </p>
+
+      <div id="placements" class="places"></div>
+      <button type="button" id="addPlace" class="btn btn--ghost btn--wide">
+        + Choose a place on the site
+      </button>
+    </div>
+
+    <div id="problems" class="problems" hidden></div>
+
+    <div class="actions">
+      <button type="button" id="saveDraft" class="btn btn--quiet">Save draft</button>
+      <button type="button" id="goPublish" class="btn btn--go">Publish…</button>
+    </div>
+    <p id="saveState" class="savestate"></p>
+  </section>
+
+  <!-- ─────────── right: the real website ─────────── -->
+  <section class="pane pane--view">
+    <div class="viewbar">
+      <div id="previewTabs" class="viewtabs"></div>
+      <div class="viewbar__right">
+        <button type="button" id="refresh" class="iconbtn" title="Refresh">↻</button>
+        <select id="widthPick" class="widthpick" title="Screen size">
+          <option value="full">Desktop</option>
+          <option value="820">Tablet</option>
+          <option value="400">Phone</option>
+        </select>
+      </div>
+    </div>
+    <div class="stage" id="stage">
+      <iframe id="preview" title="Preview of the SportsOne website"></iframe>
+      <div class="stage__empty" id="stageEmpty">
+        <p><strong>Your preview appears here.</strong></p>
+        <p>Type a headline and a few words, and this becomes the real
+           SportsOne page — same fonts, same layout, same everything.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ══════════════════════════════ STORIES ══════════════════════════════ -->
+<main id="view-stories" class="listing" hidden>
+  <div class="listing__head">
+    <h2>All stories</h2>
+    <input id="storySearch" class="input input--search" placeholder="Search headlines…">
+  </div>
+  <div id="storyList" class="storylist"></div>
+</main>
+
+<!-- ══════════════════════════════ SCORES ══════════════════════════════ -->
+<main id="view-scores" class="listing" hidden>
+  <div class="listing__head">
+    <h2>Live scores</h2>
+    <p class="listing__note">
+      Scores refresh on their own every fifteen minutes. Tick a match to pin
+      it to the front of the strip on the homepage. Your pins survive every
+      refresh.
+    </p>
+  </div>
+  <div id="scoreList" class="scorelist"></div>
+  <div class="actions actions--left">
+    <button type="button" id="saveScores" class="btn btn--go">Save pinned matches</button>
+    <span id="scoreState" class="savestate"></span>
+  </div>
+</main>
+
+<!-- ══════════════════════════════ PUBLISH ══════════════════════════════ -->
+<div id="confirm" class="sheet" hidden>
+  <div class="sheet__panel">
+    <h2 class="sheet__title">Ready to publish?</h2>
+    <dl id="confirmFacts" class="facts"></dl>
+    <div id="confirmProblems" class="problems" hidden></div>
+    <div class="sheet__actions">
+      <button type="button" id="confirmBack" class="btn btn--quiet">Back</button>
+      <button type="button" id="confirmGo" class="btn btn--go">Publish to SportsOne</button>
+    </div>
+    <div id="publishLog" class="publog" hidden></div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

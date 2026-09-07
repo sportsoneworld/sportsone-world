@@ -1,0 +1,84 @@
+{{- /* ------------------------------------------------------------------
+     <head> — metadata, SEO, social cards, fonts, stylesheet
+     ------------------------------------------------------------------ */ -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0e13" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+
+{{- $brand := site.Params.brandName | default site.Title -}}
+{{- $title := "" -}}
+{{- $desc := "" -}}
+{{- if .IsHome -}}
+  {{- $title = printf "%s — Independent sports newsroom" $brand -}}
+  {{- $desc = site.Params.description -}}
+{{- else -}}
+  {{- $title = printf "%s | %s" (.Params.seoTitle | default .Title) $brand -}}
+  {{- $desc = .Params.description | default .Params.summary | default .Summary -}}
+{{- end -}}
+{{- $desc = $desc | plainify | htmlUnescape | truncate 180 "" | chomp -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Params.canonical | default .Permalink }}">
+
+{{- if .Params.noindex }}
+<meta name="robots" content="noindex, nofollow">
+{{- else }}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{{- end }}
+
+{{- with site.Params.keywords }}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{- end }}
+
+{{- /* ---------------- Social sharing ---------------- */ -}}
+{{- $img := partial "func/image.html" (dict "page" . "context" "social") -}}
+{{- $imgAbs := "" -}}
+{{- with $img }}{{ $imgAbs = cond (hasPrefix . "http") . (urls.JoinPath site.BaseURL .) }}{{ end }}
+
+<meta property="og:site_name" content="{{ $brand }}">
+<meta property="og:locale" content="en_IN">
+<meta property="og:type" content="{{ cond (eq .Kind "page") "article" "website" }}">
+<meta property="og:title" content="{{ .Params.seoTitle | default .Title | default $brand }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with $imgAbs }}
+<meta property="og:image" content="{{ . }}">
+<meta property="og:image:alt" content="{{ $.Params.imageAlt | default $.Title | plainify }}">
+{{- end }}
+{{- if eq .Kind "page" }}
+{{- with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+{{- with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+{{- range .Params.categories }}<meta property="article:section" content="{{ . }}">{{ end }}
+{{- range .Params.tags }}<meta property="article:tag" content="{{ . }}">{{ end }}
+{{- end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Params.seoTitle | default .Title | default $brand }}">
+<meta name="twitter:description" content="{{ $desc }}">
+{{- with $imgAbs }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+
+{{- /* ---------------- Icons ---------------- */ -}}
+<link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/icons/favicon-64.png" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+
+{{- /* ---------------- Fonts (self-hosted, no third-party requests) ------- */ -}}
+<link rel="preload" href="/fonts/cambo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+{{- /* ---------------- Stylesheet ---------------- */ -}}
+{{- partial "head/css.html" . }}
+
+{{- /* ---------------- Feeds ---------------- */ -}}
+{{- with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Title }} — {{ $brand }}">
+{{- end }}
+{{- if not .IsHome }}
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ $brand }}">
+{{- end }}
+
+{{- /* ---------------- Structured data ---------------- */ -}}
+{{- partial "head/schema.html" . }}

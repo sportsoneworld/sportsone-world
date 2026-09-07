@@ -1,0 +1,57 @@
+{{- /* ------------------------------------------------------------------
+     Resolve the image for a page.
+
+       {{ partial "func/image.html" (dict "page" $p "context" "card") }}
+
+     context: "card"   -> the small copy, for the cards in the feeds
+              "panel"  -> the middle copy, for the rotating banners
+              "hero"   -> the full-size copy, for the story page itself
+              "social" -> the full-size copy, then the site's share image
+
+     THREE SIZES, ONE FILE NAME
+
+     Every photograph is filed three times:
+
+       /images/photos/lords-test.jpg         2400px — the story page
+       /images/photos/lords-test-panel.jpg   1800px — the rotating banners
+       /images/photos/lords-test-card.jpg    1200px — the cards in the feeds
+
+     You only ever write the first one in an article. This partial finds the
+     others by name, and only uses one if it is really there — so a photograph
+     with no smaller copies simply serves the big one, and nothing breaks.
+
+     A front page carries about thirty pictures. Serving the 2400px copy to
+     all of them is roughly 12MB of photography for a reader who scrolls to
+     the bottom. Sized properly it is a third of that, and nobody can see the
+     difference. That is the entire reason this exists.
+
+     `thumbnail` in the front matter still wins over both, for the rare story
+     that wants a different picture on the card than at the top.
+
+     Always returns a usable URL, so a card can never render a broken image.
+     ------------------------------------------------------------------ */ -}}
+{{- $p := .page -}}
+{{- $ctx := .context | default "card" -}}
+{{- $img := "" -}}
+
+{{- if or (eq $ctx "card") (eq $ctx "panel") -}}
+  {{- $img = cond (eq $ctx "card") $p.Params.thumbnail "" -}}
+  {{- if not $img -}}
+    {{- with $p.Params.image -}}
+      {{- $ext := path.Ext . -}}
+      {{- $sized := printf "%s-%s%s" (strings.TrimSuffix $ext .) $ctx $ext -}}
+      {{- $img = cond (fileExists (printf "static%s" $sized)) $sized . -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $img = $p.Params.image | default $p.Params.thumbnail -}}
+{{- end -}}
+
+{{- if not $img -}}
+  {{- if eq $ctx "social" -}}
+    {{- $img = site.Params.defaultOgImage | default "/images/brand/sportsone-og.png" -}}
+  {{- else -}}
+    {{- $img = site.Params.fallbackImage | default "/images/placeholder.svg" -}}
+  {{- end -}}
+{{- end -}}
+{{- return $img -}}
