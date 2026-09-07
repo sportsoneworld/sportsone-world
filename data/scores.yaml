@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 04:17 IST"
+updated: "08 Sep 2026, 04:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2406525
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Excursionistas"
+            score: "0"
+          - name: "Ituzaingó"
+            score: "0"
       - id: football-2398057
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Barracas Central"
             score: "0"
           - name: "Argentinos Juniors"
             score: "0"
+      - id: football-2398450
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Vitória"
+            score: "0"
+          - name: "Grêmio"
+            score: "0"
       - id: football-2598663
         competition: "Brazilian Serie C"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
           - name: "Paysandu"
             score: "1"
           - name: "Brusque"
             score: "2"
             active: true
-      - id: football-2545871
-        competition: "Chile Segunda División"
+      - id: football-2413082
+        competition: "Chile Primera Division"
         state: live
-        stateLabel: "86'"
+        stateLabel: "4'"
         teams:
-          - name: "Provincial Ovalle"
-            score: "1"
-            active: true
-          - name: "Atlético Colina"
+          - name: "Deportes Limache"
             score: "0"
-      - id: football-2595685
-        competition: "Uruguayan Segunda División"
+          - name: "Cobresal"
+            score: "0"
+      - id: football-2481134
+        competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "4'"
         teams:
-          - name: "Plaza Colonia"
+          - name: "Llaneros"
             score: "0"
-          - name: "Uruguay Montevideo"
-            score: "0"
-      - id: football-2599055
-        competition: "Venezuela Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Carabobo"
-            score: "1"
-            active: true
-          - name: "Estudiantes de Mérida"
-            score: "0"
-      - id: football-2405057
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Nueva Chicago"
-            score: "1"
-            active: true
-          - name: "Quilmes"
+          - name: "Deportes Tolima"
             score: "0"
 
   - name: Cricket
