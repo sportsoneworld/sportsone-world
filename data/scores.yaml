@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 20:21 IST"
+updated: "07 Sep 2026, 20:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -33,10 +33,19 @@ sports:
             active: true
           - name: "Arsenal Dzerzhinsk"
             score: "0"
+      - id: football-2511484
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Fratria Varna"
+            score: "0"
+          - name: "Chernomorets 1919 Burgas"
+            score: "0"
       - id: football-2511483
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Sportist Svoge"
             score: "0"
@@ -45,7 +54,7 @@ sports:
       - id: football-2561101
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "El Qanah"
             score: "1"
@@ -61,26 +70,16 @@ sports:
             score: "0"
           - name: "Asyut Petroleum"
             score: "0"
-      - id: football-2599043
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "North Korea U20 Women"
-            score: "2"
-            active: true
-          - name: "Portugal U20 Women"
-            score: "0"
-      - id: football-2598888
-        competition: "FIFA U20 Womens World Cup"
+      - id: football-2596790
+        competition: "Greek Super League 2"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "New Caledonia U20 Women"
-            score: "0"
-          - name: "China U20 Women"
-            score: "5"
+          - name: "Athens Kallithea"
+            score: "2"
             active: true
+          - name: "Niki Volos"
+            score: "0"
 
   - name: Cricket
     matches:
