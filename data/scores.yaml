@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 17:07 IST"
+updated: "07 Sep 2026, 17:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2590230
         competition: "Russia FNL 2 Group 4"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "Orenburg-2"
             score: "0"
@@ -55,11 +55,11 @@ sports:
       - id: football-2407053
         competition: "American Major League Soccer"
         state: upcoming
-        stateLabel: "23:30"
+        stateLabel: "23:45"
         teams:
           - name: "Philadelphia Union"
             score: "–"
-            detail: "23:30"
+            detail: "23:45"
           - name: "FC Cincinnati"
             score: "–"
       - id: football-2407054
