@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 19:09 IST"
+updated: "07 Sep 2026, 19:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2598888
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "38'"
+        stateLabel: "45'"
         teams:
           - name: "New Caledonia U20 Women"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2599043
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "North Korea U20 Women"
             score: "1"
@@ -45,7 +45,7 @@ sports:
       - id: football-2596792
         competition: "Greek Super League 2"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Marko"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2585525
         competition: "Rwandan National Soccer League"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Rwanda Police"
             score: "1"
