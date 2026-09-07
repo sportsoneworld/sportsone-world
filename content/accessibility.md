@@ -25,13 +25,6 @@ mouse.
   loss of content, and nothing scrolls sideways.
 - **No time limits.** Nothing on the site expires or times out as you read.
 
-## Where we know we fall short
-
-- Some archive photography carries a generic description rather than a specific
-  one. New stories are captioned properly at the point of publication.
-- Live scores are compiled by hand and update when the site is rebuilt, so a
-  screen reader will not announce a score change while the page is open.
-
 ## Tell us
 
 If something on SportsOne is hard to use, we want to know — it is the fastest
