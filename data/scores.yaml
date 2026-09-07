@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 04:34 IST"
+updated: "08 Sep 2026, 04:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2406525
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "4'"
+        stateLabel: "21'"
         teams:
           - name: "Excursionistas"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2398057
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "47'"
+        stateLabel: "64'"
         teams:
           - name: "Barracas Central"
             score: "0"
@@ -44,26 +44,16 @@ sports:
       - id: football-2398450
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "3'"
+        stateLabel: "20'"
         teams:
           - name: "Vitória"
             score: "0"
           - name: "Grêmio"
             score: "0"
-      - id: football-2598663
-        competition: "Brazilian Serie C"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Paysandu"
-            score: "1"
-          - name: "Brusque"
-            score: "2"
-            active: true
       - id: football-2413082
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "4'"
+        stateLabel: "21'"
         teams:
           - name: "Deportes Limache"
             score: "0"
@@ -72,11 +62,22 @@ sports:
       - id: football-2481134
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "4'"
+        stateLabel: "21'"
         teams:
           - name: "Llaneros"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Deportes Tolima"
+            score: "0"
+      - id: football-2595685
+        competition: "Uruguayan Segunda División"
+        state: live
+        stateLabel: "62'"
+        teams:
+          - name: "Plaza Colonia"
+            score: "1"
+            active: true
+          - name: "Uruguay Montevideo"
             score: "0"
 
   - name: Cricket
