@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 06:34 IST"
+updated: "07 Sep 2026, 06:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2419910
+        competition: "American NWSL"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Seattle Reign"
+            score: "0"
+          - name: "San Diego Wave"
+            score: "0"
       - id: football-2419909
         competition: "American NWSL"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "Orlando Pride"
-            score: "1"
+            score: "2"
             active: true
           - name: "Houston Dash"
             score: "0"
       - id: football-2398065
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "34'"
+        stateLabel: "45'"
         teams:
           - name: "Racing Club"
             score: "0"
@@ -46,39 +55,30 @@ sports:
       - id: football-2566613
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "45'"
+        stateLabel: "62'"
         teams:
           - name: "Nacional Potosí"
             score: "1"
           - name: "Blooming"
             score: "1"
-      - id: football-2481173
-        competition: "Colombia Categoría Primera A"
+      - id: football-2481442
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Deportivo Pereira"
+          - name: "Patriotas Boyacá"
             score: "1"
-          - name: "Millonarios"
-            score: "1"
+            active: true
+          - name: "Tigres FC"
+            score: "0"
       - id: football-2488645
         competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "1'"
+        stateLabel: "19'"
         teams:
           - name: "San Carlos"
             score: "0"
           - name: "Sporting San José"
-            score: "0"
-      - id: football-2429453
-        competition: "Ecuadorian Serie A"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Aucas"
-            score: "1"
-            active: true
-          - name: "Barcelona SC"
             score: "0"
 
   - name: Cricket
