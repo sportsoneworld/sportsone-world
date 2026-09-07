@@ -1,0 +1,130 @@
+===========================================================================
+  SPORTSONE  -  THE PUBLISHING TOOL
+  How to put this on the Windows laptop
+===========================================================================
+
+WHAT THIS ZIP IS
+
+  The publishing tool, and nothing else. It is an ADD-ON to the SportsOne
+  website project you already have. It is not the website, and on its own it
+  does nothing.
+
+  It has to sit inside the sportsone-world folder, because it works by
+  reading and writing that folder's own files - your articles, your
+  photographs and your running orders - and by running Hugo inside it to
+  draw the preview.
+
+
+---------------------------------------------------------------------------
+  INSTALLING IT  -  about two minutes
+---------------------------------------------------------------------------
+
+  1. Find your sportsone-world folder. It is the one containing
+     hugo.toml and Import-Articles.bat. On most machines it is:
+
+         C:\dev\sportsone-world
+
+  2. Right-click this zip file and choose  Extract All...
+
+  3. IMPORTANT. Windows will suggest extracting into a new folder named
+     after the zip. Do not accept that. Click Browse and choose your
+     sportsone-world folder instead, so the box reads something like:
+
+         C:\dev\sportsone-world
+
+  4. Click Extract. If Windows asks about replacing existing files,
+     say yes to all - it is only ever replacing an older copy of the tool,
+     never anything of yours.
+
+  5. Check it worked. Open the sportsone-world folder. You should now see
+     Start-Publishing-Tool.bat sitting in the same list as the files that
+     were already there:
+
+         Build-Website.bat
+         Edit-Website.bat
+         Import-Articles.bat
+         Start-Publishing-Tool.bat      <-- the new one
+         View-Website.bat
+         hugo.toml
+
+     If Start-Publishing-Tool.bat is inside a folder of its own rather than
+     beside those, the extract went to the wrong place. Delete what you
+     extracted and do step 3 again.
+
+
+---------------------------------------------------------------------------
+  USING IT
+---------------------------------------------------------------------------
+
+  Double-click  Start-Publishing-Tool.bat
+
+  A black window opens, then your browser. Leave the black window open
+  while you work; closing it closes the tool.
+
+  The first time, the tool will tell you if Python, Hugo or Git is missing
+  and give you the exact line to install it. That is all covered in the
+  guide, in section 2.
+
+  THE GUIDE:  docs\Publishing-Tool-Guide.docx
+  Read sections 1 to 3 before you start. It has screenshots throughout and
+  there is no code in it.
+
+
+---------------------------------------------------------------------------
+  WHAT IS IN THIS ZIP
+---------------------------------------------------------------------------
+
+  Start-Publishing-Tool.bat        What you double-click.
+
+  scripts\cms\                     The tool.
+      server.py                      Serves the form, runs Hugo, talks to git.
+      hugo_project.py                Reads and writes articles, placements,
+                                     photographs and the live-score pins.
+      ui\index.html                  The page you see.
+      ui\app.css                     Its look - built from the website's own
+                                     colours and fonts.
+      ui\app.js                      What the buttons do.
+
+  docs\Publishing-Tool-Guide.docx  The journalist's guide, with screenshots.
+  docs\images\tool\                The screenshots in that guide.
+
+  scripts\make-tool-guide.py       Rebuilds the guide. Only needed if the
+                                   wording ever changes.
+  scripts\make-tool-figures.py     Re-takes the screenshots. Only needed if
+                                   the tool's appearance ever changes.
+
+
+---------------------------------------------------------------------------
+  WHAT IT NEEDS THAT IS NOT IN HERE
+---------------------------------------------------------------------------
+
+  All of these are already in your project or already on the laptop. They
+  are listed only so nothing is a mystery.
+
+  scripts\import-articles.py    Already in your project. The tool borrows
+                                its picture-resizing and its ability to
+                                slide a story into a slot without disturbing
+                                the notes written around it. Do not delete
+                                it - and do not delete the inbox either;
+                                that way of publishing still works.
+
+  Python 3                      Runs the tool.        winget install Python.Python.3.12
+  Hugo (extended)               Builds every preview. winget install Hugo.Hugo.Extended
+  Git                           Sends stories out.    winget install Git.Git
+  Pillow                        Resizes photographs. The tool installs this
+                                itself, once, the first time it runs.
+
+
+---------------------------------------------------------------------------
+  WHAT IT CHANGES IN YOUR PROJECT
+---------------------------------------------------------------------------
+
+  One line, added automatically the first time it starts: a note in
+  .gitignore telling Git to ignore the tool's own working folder (.cms),
+  which holds nothing but a log file.
+
+  Nothing else. No template, no stylesheet, no layout and no article is
+  altered by installing this. The website is built exactly as it was
+  before, by the same Hugo, from the same files.
+
+===========================================================================
