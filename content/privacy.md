@@ -44,7 +44,3 @@ this page will change first.
 
 Questions about privacy go to the desk via [Contact Us](/contact/).
 
-> **For the newsroom:** this page describes the site as it is built today — a
-> static site with no analytics, no ads and no cookies. If you add analytics,
-> advertising, embedded video or a newsletter, this page must be rewritten
-> before that goes live, and you will then need a consent mechanism.

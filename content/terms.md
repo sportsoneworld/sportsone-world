@@ -112,16 +112,3 @@ gives you, and this site respects all of them:
 If SportsOne ever adds analytics, advertising or third-party embeds, this page
 will become a working set of controls and you will be asked before anything is set.
 
-## For the newsroom
-
-Publishing entity: SportsOne
-
-Publishing jurisdiction: [add jurisdiction here]
-
-Regulator / press-standards body: [add regulator or membership here]
-
-This page is deliberately factual rather than boilerplate. If you are the
-editorial lead preparing the site for launch, replace the bracketed items
-above with the organisation's legal name, the jurisdiction in which it is
-regulated or incorporated, and the press regulator or standards body the
-newsroom is signed up to (if any).
