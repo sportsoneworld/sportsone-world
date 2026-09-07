@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 05:36 IST"
+updated: "07 Sep 2026, 06:05 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,30 +23,28 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397638
-        competition: "American USL League One"
+      - id: football-2419909
+        competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "Portland Hearts of Pine"
-            score: "2"
-            active: true
-          - name: "Westchester SC"
-            score: "1"
-      - id: football-2398066
+          - name: "Orlando Pride"
+            score: "0"
+          - name: "Houston Dash"
+            score: "0"
+      - id: football-2398065
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "5'"
         teams:
-          - name: "River Plate"
-            score: "3"
-            active: true
-          - name: "Independiente Rivadavia"
-            score: "1"
+          - name: "Racing Club"
+            score: "0"
+          - name: "Atlético Tucumán"
+            score: "0"
       - id: football-2566613
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "4'"
+        stateLabel: "32'"
         teams:
           - name: "Nacional Potosí"
             score: "0"
@@ -55,31 +53,32 @@ sports:
       - id: football-2398443
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "72'"
+        stateLabel: "Live"
         teams:
           - name: "Corinthians"
             score: "1"
           - name: "Chapecoense"
-            score: "1"
-      - id: football-2427405
-        competition: "Canadian Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vancouver FC"
-            score: "3"
-            active: true
-          - name: "Supra du Québec"
             score: "2"
+            active: true
       - id: football-2413084
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "73'"
+        stateLabel: "Live"
         teams:
           - name: "Palestino"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Universidad de Concepción"
             score: "1"
+      - id: football-2481173
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "66'"
+        teams:
+          - name: "Deportivo Pereira"
+            score: "0"
+          - name: "Millonarios"
+            score: "0"
 
   - name: Cricket
     matches:
