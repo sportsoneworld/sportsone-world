@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 21:54 IST"
+updated: "07 Sep 2026, 22:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,29 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2437861
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Dynamo Brest"
+            score: "0"
+          - name: "BATE Borisov"
+            score: "0"
       - id: football-2599966
         competition: "Bolivian Nacional B Copa Simón Bolívar"
         state: live
-        stateLabel: "23'"
+        stateLabel: "37'"
         teams:
           - name: "Hiska Nacional"
-            score: "0"
+            score: "1"
           - name: "Chaco"
             score: "2"
             active: true
       - id: football-2511481
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "23'"
+        stateLabel: "37'"
         teams:
           - name: "Pirin Blagoevgrad"
             score: "0"
@@ -46,7 +55,7 @@ sports:
       - id: football-2511478
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "38'"
         teams:
           - name: "Spartak Pleven"
             score: "1"
@@ -55,30 +64,21 @@ sports:
       - id: football-2511484
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "66'"
+        stateLabel: "80'"
         teams:
           - name: "Fratria Varna"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Chernomorets 1919 Burgas"
             score: "1"
       - id: football-2548677
         competition: "Cypriot First Division"
         state: live
-        stateLabel: "23'"
+        stateLabel: "37'"
         teams:
           - name: "Pafos"
             score: "0"
           - name: "Olympiakos Nicosia"
-            score: "0"
-      - id: football-2598890
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Costa Rica U20 Women"
-            score: "1"
-            active: true
-          - name: "Colombia U20 Women"
             score: "0"
 
   - name: Cricket
