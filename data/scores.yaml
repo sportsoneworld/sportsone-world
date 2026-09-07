@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 03:33 IST"
+updated: "08 Sep 2026, 03:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405057
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Nueva Chicago"
-            score: "1"
-            active: true
-          - name: "Quilmes"
-            score: "0"
       - id: football-2398057
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "4'"
+        stateLabel: "22'"
         teams:
           - name: "Barracas Central"
             score: "0"
@@ -45,7 +35,7 @@ sports:
       - id: football-2598663
         competition: "Brazilian Serie C"
         state: live
-        stateLabel: "Live"
+        stateLabel: "58'"
         teams:
           - name: "Paysandu"
             score: "1"
@@ -55,16 +45,17 @@ sports:
       - id: football-2545871
         competition: "Chile Segunda División"
         state: live
-        stateLabel: "Live"
+        stateLabel: "61'"
         teams:
           - name: "Provincial Ovalle"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Atlético Colina"
             score: "0"
       - id: football-2595685
         competition: "Uruguayan Segunda División"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Plaza Colonia"
             score: "0"
@@ -73,11 +64,21 @@ sports:
       - id: football-2599055
         competition: "Venezuela Primera Division"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Carabobo"
             score: "0"
           - name: "Estudiantes de Mérida"
+            score: "0"
+      - id: football-2405057
+        competition: "Argentinian Primera B Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Nueva Chicago"
+            score: "1"
+            active: true
+          - name: "Quilmes"
             score: "0"
 
   - name: Cricket
