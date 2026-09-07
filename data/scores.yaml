@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Sep 2026, 18:35 IST"
+updated: "07 Sep 2026, 18:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,29 +23,28 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2599043
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "North Korea U20 Women"
-            score: "1"
-            active: true
-          - name: "Portugal U20 Women"
-            score: "0"
       - id: football-2598888
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "24'"
         teams:
           - name: "New Caledonia U20 Women"
             score: "0"
           - name: "China U20 Women"
             score: "0"
+      - id: football-2599043
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "North Korea U20 Women"
+            score: "0"
+          - name: "Portugal U20 Women"
+            score: "0"
       - id: football-2596792
         competition: "Greek Super League 2"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
           - name: "Marko"
             score: "0"
@@ -54,12 +53,13 @@ sports:
       - id: football-2585525
         competition: "Rwandan National Soccer League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "24'"
         teams:
           - name: "Rwanda Police"
             score: "0"
           - name: "Gicumbi"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2398065
         competition: "Argentinian Primera Division"
         state: completed
