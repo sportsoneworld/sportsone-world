@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 02:06 IST"
+updated: "08 Sep 2026, 02:19 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2405057
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "32'"
+        stateLabel: "44'"
         teams:
           - name: "Nueva Chicago"
             score: "1"
@@ -36,52 +36,51 @@ sports:
       - id: football-2427406
         competition: "Canadian Premier League"
         state: live
-        stateLabel: "68'"
+        stateLabel: "80'"
         teams:
           - name: "HFX Wanderers"
             score: "0"
           - name: "Cavalry"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2500756
         competition: "English League 1"
         state: live
-        stateLabel: "76'"
+        stateLabel: "88'"
         teams:
           - name: "Bromley"
             score: "0"
           - name: "AFC Wimbledon"
             score: "2"
             active: true
-      - id: football-2488742
-        competition: "French Ligue 2"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Nantes"
-            score: "1"
-            active: true
-          - name: "Nancy Lorraine"
-            score: "0"
-      - id: football-2482159
-        competition: "Italian Serie A"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Udinese"
-            score: "1"
-          - name: "Lazio"
-            score: "2"
-            active: true
       - id: football-2556822
         competition: "Italian Serie C Girone A"
         state: live
-        stateLabel: "75'"
+        stateLabel: "87'"
         teams:
           - name: "Alcione Milano"
             score: "1"
           - name: "Treviso"
             score: "1"
+      - id: football-2556816
+        competition: "Italian Serie C Girone A"
+        state: live
+        stateLabel: "88'"
+        teams:
+          - name: "Pro Vercelli"
+            score: "1"
+            active: true
+          - name: "Folgore Caratese"
+            score: "0"
+      - id: football-2556821
+        competition: "Italian Serie C Girone A"
+        state: live
+        stateLabel: "89'"
+        teams:
+          - name: "Trento"
+            score: "0"
+          - name: "Lecco"
+            score: "0"
 
   - name: Cricket
     matches:
