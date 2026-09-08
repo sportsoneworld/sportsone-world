@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 22:21 IST"
+updated: "08 Sep 2026, 22:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2560659
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Velden"
+            score: "0"
+          - name: "Austria Klagenfurt"
+            score: "0"
       - id: football-2511479
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "48'"
         teams:
           - name: "Montana"
             score: "0"
           - name: "Vihren Sandanski"
             score: "1"
             active: true
+      - id: football-2522903
+        competition: "Denmark A-Liga"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "KoldingQ"
+            score: "0"
+          - name: "Brøndby Women"
+            score: "0"
       - id: football-2489085
         competition: "Dutch Eredivisie"
         state: live
-        stateLabel: "5'"
+        stateLabel: "18'"
         teams:
           - name: "NEC Nijmegen"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Excelsior"
             score: "0"
-      - id: football-2423811
-        competition: "Estonian Meistriliiga"
+      - id: football-2561106
+        competition: "Egyptian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "2'"
         teams:
-          - name: "Nõmme Kalju"
+          - name: "Smouha"
             score: "1"
-          - name: "Nõmme United"
-            score: "2"
             active: true
-      - id: football-2598893
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "England U20 Women"
-            score: "3"
-            active: true
-          - name: "Tanzania U20 Women"
+          - name: "Ceramica Cleopatra"
             score: "0"
-      - id: football-2599038
-        competition: "FIFA U20 Womens World Cup"
+      - id: football-2561105
+        competition: "Egyptian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Poland U20 Women"
-            score: "1"
-          - name: "Mexico U20 Women"
-            score: "1"
-      - id: football-2598995
-        competition: "Finnish Veikkausliiga"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "TPS"
+          - name: "Zamalek"
             score: "0"
-          - name: "SJK Seinajoki"
+          - name: "Abou Qir Fertilizers"
             score: "0"
 
   - name: Cricket
