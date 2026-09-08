@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 03:34 IST"
+updated: "09 Sep 2026, 03:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2421994
         competition: "Chile Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "63'"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
@@ -36,16 +36,17 @@ sports:
       - id: football-2580242
         competition: "Copa Libertadores"
         state: live
-        stateLabel: "4'"
+        stateLabel: "23'"
         teams:
           - name: "Fluminense"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Platense"
             score: "0"
       - id: football-2594419
         competition: "Copa Sudamericana"
         state: live
-        stateLabel: "3'"
+        stateLabel: "22'"
         teams:
           - name: "Independiente Santa Fe"
             score: "0"
@@ -54,7 +55,7 @@ sports:
       - id: football-2423411
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "Live"
+        stateLabel: "56'"
         teams:
           - name: "New York City FC II"
             score: "1"
@@ -63,7 +64,7 @@ sports:
       - id: football-2595392
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "3'"
+        stateLabel: "22'"
         teams:
           - name: "General Caballero"
             score: "0"
