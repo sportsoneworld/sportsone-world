@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 16:21 IST"
+updated: "08 Sep 2026, 16:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,17 @@ sports:
       - id: football-2579865
         competition: "AFC Challenge League"
         state: live
-        stateLabel: "61'"
+        stateLabel: "74'"
         teams:
           - name: "Yangon United"
-            score: "0"
+            score: "2"
+            active: true
           - name: "Ezra"
             score: "0"
-      - id: football-2595656
-        competition: "Bhutan Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ugyen Academy"
-            score: "0"
-          - name: "Paro"
-            score: "10"
-            active: true
       - id: football-2416544
         competition: "South Korean K League 1"
         state: live
-        stateLabel: "20'"
+        stateLabel: "33'"
         teams:
           - name: "Ulsan HD"
             score: "0"
@@ -54,20 +45,21 @@ sports:
       - id: football-2416543
         competition: "South Korean K League 1"
         state: live
-        stateLabel: "21'"
+        stateLabel: "34'"
         teams:
           - name: "Incheon United"
             score: "0"
           - name: "Bucheon FC 1995"
-            score: "0"
-      - id: football-2598290
+            score: "1"
+            active: true
+      - id: football-2598288
         competition: "UEFA Youth League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "1'"
         teams:
-          - name: "AEK Athens Youth"
+          - name: "FC Porto Juniors"
             score: "0"
-          - name: "LASK Youth"
+          - name: "Manchester City Youth"
             score: "0"
       - id: football-2398069
         competition: "Argentinian Primera Division"
@@ -79,6 +71,16 @@ sports:
             active: true
           - name: "Instituto"
             score: "2"
+      - id: football-2595656
+        competition: "Bhutan Premier League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Ugyen Academy"
+            score: "0"
+          - name: "Paro"
+            score: "10"
+            active: true
 
   - name: Cricket
     matches:
