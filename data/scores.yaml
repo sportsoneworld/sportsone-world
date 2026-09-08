@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 03:04 IST"
+updated: "09 Sep 2026, 03:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2421994
         competition: "Chile Primera B"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2423411
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "27'"
+        stateLabel: "41'"
         teams:
           - name: "New York City FC II"
             score: "0"
@@ -63,26 +63,26 @@ sports:
             active: true
           - name: "Instituto"
             score: "2"
-      - id: football-2594457
+      - id: football-2594460
         competition: "EFL Cup"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Crystal Palace"
+          - name: "Millwall"
+            score: "0"
+          - name: "Newcastle United"
+            score: "1"
+            active: true
+      - id: football-2501315
+        competition: "English League Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Bolton Wanderers"
+            score: "2"
+          - name: "West Ham United"
             score: "3"
             active: true
-          - name: "Middlesbrough"
-            score: "0"
-      - id: football-2594453
-        competition: "EFL Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Bournemouth"
-            score: "4"
-            active: true
-          - name: "Lincoln City"
-            score: "0"
 
   - name: Cricket
     matches:
