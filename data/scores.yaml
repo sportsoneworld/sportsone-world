@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 17:20 IST"
+updated: "08 Sep 2026, 17:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,30 +26,50 @@ sports:
       - id: football-2599834
         competition: "Australia Western Australia NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
           - name: "Olympic Kingsway"
             score: "0"
           - name: "Perth SC"
             score: "1"
             active: true
+      - id: football-2489102
+        competition: "Dutch Eredivisie"
+        state: live
+        stateLabel: "68'"
+        teams:
+          - name: "Utrecht"
+            score: "1"
+          - name: "Go Ahead Eagles"
+            score: "3"
+            active: true
       - id: football-2416543
         competition: "South Korean K League 1"
         state: live
-        stateLabel: "62'"
+        stateLabel: "78'"
         teams:
           - name: "Incheon United"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Bucheon FC 1995"
             score: "1"
       - id: football-2416544
         competition: "South Korean K League 1"
         state: live
-        stateLabel: "62'"
+        stateLabel: "78'"
         teams:
           - name: "Ulsan HD"
             score: "0"
           - name: "FC Seoul"
+            score: "0"
+      - id: football-2598286
+        competition: "UEFA Youth League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Club Brugge Youth"
+            score: "0"
+          - name: "Aston Villa Youth"
             score: "0"
       - id: football-2598288
         competition: "UEFA Youth League"
@@ -61,26 +81,6 @@ sports:
             active: true
           - name: "Manchester City Youth"
             score: "0"
-      - id: football-2579865
-        competition: "AFC Challenge League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Yangon United"
-            score: "2"
-            active: true
-          - name: "Ezra"
-            score: "1"
-      - id: football-2398069
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Unión"
-            score: "3"
-            active: true
-          - name: "Instituto"
-            score: "2"
 
   - name: Cricket
     matches:
