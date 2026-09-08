@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 08:54 IST"
+updated: "08 Sep 2026, 09:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -53,16 +53,6 @@ sports:
             active: true
           - name: "Puebla Femenil"
             score: "2"
-      - id: football-2548200
-        competition: "Panama Liga Panamena de Futbol"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "UMECIT"
-            score: "2"
-            active: true
-          - name: "Independiente de La Chorrera"
-            score: "0"
       - id: football-2407053
         competition: "American Major League Soccer"
         state: upcoming
@@ -82,6 +72,16 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Orlando City"
+            score: "–"
+      - id: football-2407057
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "New York City FC"
+            score: "–"
+            detail: "00:00"
+          - name: "New England Revolution"
             score: "–"
 
   - name: Cricket
