@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 04:51 IST"
+updated: "09 Sep 2026, 05:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,19 +23,46 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2431430
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Cuiabá"
+            score: "0"
+          - name: "Athletic Club-MG"
+            score: "0"
       - id: football-2558750
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "15'"
+        stateLabel: "27'"
         teams:
           - name: "Club Sando"
             score: "0"
           - name: "Delfines del Este"
             score: "0"
+      - id: football-2421991
+        competition: "Chile Primera B"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Curicó Unido"
+            score: "0"
+          - name: "Unión Española"
+            score: "0"
+      - id: football-2421993
+        competition: "Chile Primera B"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Deportes Temuco"
+            score: "0"
+          - name: "Santiago Wanderers"
+            score: "0"
       - id: football-2580242
         competition: "Copa Libertadores"
         state: live
-        stateLabel: "63'"
+        stateLabel: "75'"
         teams:
           - name: "Fluminense"
             score: "2"
@@ -45,42 +72,12 @@ sports:
       - id: football-2594419
         competition: "Copa Sudamericana"
         state: live
-        stateLabel: "62'"
+        stateLabel: "74'"
         teams:
           - name: "Independiente Santa Fe"
             score: "0"
           - name: "Vasco da Gama"
             score: "0"
-      - id: football-2595392
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "General Caballero"
-            score: "2"
-            active: true
-          - name: "Resistencia"
-            score: "0"
-      - id: football-2574825
-        competition: "USL Cup"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Hartford Athletic"
-            score: "1"
-            active: true
-          - name: "Colorado Springs Switchbacks"
-            score: "0"
-      - id: football-2408595
-        competition: "Argentinian Primera C"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Claypole"
-            score: "0"
-          - name: "Central Ballester"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
