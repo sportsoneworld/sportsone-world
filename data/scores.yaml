@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 07:06 IST"
+updated: "08 Sep 2026, 07:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "61'"
+        stateLabel: "76'"
         teams:
           - name: "Unión"
-            score: "2"
+            score: "3"
             active: true
           - name: "Instituto"
             score: "1"
       - id: football-2600448
         competition: "Copa Colombia"
         state: live
-        stateLabel: "20'"
+        stateLabel: "35'"
         teams:
           - name: "Atlético Nacional"
             score: "1"
@@ -46,25 +46,26 @@ sports:
       - id: football-2429459
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "69'"
+        stateLabel: "84'"
         teams:
           - name: "Orense"
-            score: "2"
+            score: "3"
           - name: "Guayaquil City"
-            score: "2"
+            score: "3"
       - id: football-2429456
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "Emelec"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Manta"
             score: "0"
       - id: football-2429458
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "70'"
+        stateLabel: "85'"
         teams:
           - name: "Mushuc Runa"
             score: "1"
@@ -73,10 +74,11 @@ sports:
       - id: football-2548510
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "27'"
+        stateLabel: "42'"
         teams:
           - name: "León Femenil"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Puebla Femenil"
             score: "1"
 
