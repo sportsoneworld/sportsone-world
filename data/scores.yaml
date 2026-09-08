@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 04:18 IST"
+updated: "09 Sep 2026, 04:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2421994
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Deportes Puerto Montt"
-            score: "1"
-          - name: "Rangers de Talca"
-            score: "2"
-            active: true
       - id: football-2580242
         competition: "Copa Libertadores"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Fluminense"
             score: "2"
@@ -46,7 +36,7 @@ sports:
       - id: football-2594419
         competition: "Copa Sudamericana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Independiente Santa Fe"
             score: "0"
@@ -55,7 +45,7 @@ sports:
       - id: football-2423411
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
           - name: "New York City FC II"
             score: "4"
@@ -65,7 +55,7 @@ sports:
       - id: football-2595392
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "General Caballero"
             score: "2"
@@ -82,6 +72,16 @@ sports:
           - name: "Central Ballester"
             score: "1"
             active: true
+      - id: football-2398069
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Unión"
+            score: "3"
+            active: true
+          - name: "Instituto"
+            score: "2"
 
   - name: Cricket
     matches:
