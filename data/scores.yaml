@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 07:54 IST"
+updated: "08 Sep 2026, 08:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,27 +36,27 @@ sports:
       - id: football-2600448
         competition: "Copa Colombia"
         state: live
-        stateLabel: "51'"
+        stateLabel: "65'"
         teams:
           - name: "Atlético Nacional"
-            score: "1"
+            score: "2"
             active: true
           - name: "Deportivo Cali"
             score: "0"
       - id: football-2548510
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "58'"
+        stateLabel: "72'"
         teams:
           - name: "León Femenil"
-            score: "3"
+            score: "4"
             active: true
           - name: "Puebla Femenil"
             score: "1"
       - id: football-2548200
         competition: "Panama Liga Panamena de Futbol"
         state: live
-        stateLabel: "67'"
+        stateLabel: "81'"
         teams:
           - name: "UMECIT"
             score: "0"
