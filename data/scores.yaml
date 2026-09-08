@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 02:51 IST"
+updated: "09 Sep 2026, 03:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2421994
         competition: "Chile Primera B"
         state: live
-        stateLabel: "21'"
+        stateLabel: "33'"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
@@ -36,7 +36,7 @@ sports:
       - id: football-2423411
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "15'"
+        stateLabel: "27'"
         teams:
           - name: "New York City FC II"
             score: "0"
