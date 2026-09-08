@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 08:07 IST"
+updated: "08 Sep 2026, 08:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398069
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "00:15"
-        teams:
-          - name: "Unión"
-            score: "2"
-            active: true
-          - name: "Instituto"
-            score: "1"
       - id: football-2600448
         competition: "Copa Colombia"
         state: live
-        stateLabel: "65'"
+        stateLabel: "78'"
         teams:
           - name: "Atlético Nacional"
             score: "2"
@@ -46,22 +36,33 @@ sports:
       - id: football-2548510
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "72'"
+        stateLabel: "85'"
         teams:
           - name: "León Femenil"
-            score: "4"
+            score: "5"
             active: true
           - name: "Puebla Femenil"
-            score: "1"
+            score: "2"
       - id: football-2548200
         competition: "Panama Liga Panamena de Futbol"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
           - name: "UMECIT"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Independiente de La Chorrera"
             score: "0"
+      - id: football-2398069
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Unión"
+            score: "3"
+            active: true
+          - name: "Instituto"
+            score: "2"
       - id: football-2429458
         competition: "Ecuadorian Serie A"
         state: completed
