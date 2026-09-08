@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 23:05 IST"
+updated: "08 Sep 2026, 23:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2560659
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "32'"
+        stateLabel: "45'"
         teams:
           - name: "Velden"
             score: "0"
@@ -35,17 +35,17 @@ sports:
       - id: football-2511479
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Montana"
             score: "1"
           - name: "Vihren Sandanski"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2522903
         competition: "Denmark A-Liga"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "KoldingQ"
             score: "0"
@@ -64,7 +64,7 @@ sports:
       - id: football-2561106
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Smouha"
             score: "0"
@@ -73,7 +73,7 @@ sports:
       - id: football-2561105
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Zamalek"
             score: "1"
