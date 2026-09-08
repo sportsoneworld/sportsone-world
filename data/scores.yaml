@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 18:35 IST"
+updated: "08 Sep 2026, 18:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,47 +23,50 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598463
-        competition: "FA Cup"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Kuching City"
-            score: "1"
-            active: true
-          - name: "Kelantan Red Warrior"
-            score: "0"
       - id: football-2598464
         competition: "FA Cup"
         state: live
-        stateLabel: "3'"
+        stateLabel: "24'"
         teams:
           - name: "Imigresen"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Kedah Darul Aman"
+            score: "0"
+      - id: football-2598463
+        competition: "FA Cup"
+        state: live
+        stateLabel: "36'"
+        teams:
+          - name: "Kuching City"
+            score: "2"
+            active: true
+          - name: "Kelantan Red Warrior"
             score: "0"
       - id: football-2598892
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
           - name: "Benin U20 Women"
             score: "0"
           - name: "Argentina U20 Women"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2598891
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
           - name: "Brazil U20 Women"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Canada U20 Women"
             score: "0"
       - id: football-2595390
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
           - name: "3 de Noviembre"
             score: "0"
@@ -72,7 +75,7 @@ sports:
       - id: football-2595391
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
           - name: "Paraguarí"
             score: "0"
