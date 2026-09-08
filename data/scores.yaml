@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 19:09 IST"
+updated: "08 Sep 2026, 19:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2598464
-        competition: "FA Cup"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Imigresen"
-            score: "1"
-            active: true
-          - name: "Kedah Darul Aman"
-            score: "0"
       - id: football-2598463
         competition: "FA Cup"
         state: live
-        stateLabel: "45'"
+        stateLabel: "47'"
         teams:
           - name: "Kuching City"
             score: "2"
             active: true
           - name: "Kelantan Red Warrior"
             score: "0"
+      - id: football-2598464
+        competition: "FA Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Imigresen"
+            score: "1"
+            active: true
+          - name: "Kedah Darul Aman"
+            score: "0"
       - id: football-2598892
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Benin U20 Women"
             score: "0"
           - name: "Argentina U20 Women"
-            score: "2"
+            score: "3"
             active: true
       - id: football-2598891
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Brazil U20 Women"
             score: "1"
             active: true
           - name: "Canada U20 Women"
             score: "0"
-      - id: football-2595390
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "3 de Noviembre"
-            score: "0"
-          - name: "Sol de América"
-            score: "0"
       - id: football-2595391
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Paraguarí"
             score: "1"
             active: true
           - name: "Guaireña"
+            score: "0"
+      - id: football-2595390
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "3 de Noviembre"
+            score: "0"
+          - name: "Sol de América"
             score: "0"
 
   - name: Cricket
