@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 07:34 IST"
+updated: "08 Sep 2026, 07:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,27 +26,46 @@ sports:
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "89'"
+        stateLabel: "00:15"
         teams:
           - name: "Unión"
-            score: "3"
+            score: "2"
             active: true
           - name: "Instituto"
-            score: "2"
+            score: "1"
       - id: football-2600448
         competition: "Copa Colombia"
         state: live
-        stateLabel: "Live"
+        stateLabel: "51'"
         teams:
           - name: "Atlético Nacional"
             score: "1"
             active: true
           - name: "Deportivo Cali"
             score: "0"
+      - id: football-2548510
+        competition: "Mexican Liga Femenil"
+        state: live
+        stateLabel: "58'"
+        teams:
+          - name: "León Femenil"
+            score: "3"
+            active: true
+          - name: "Puebla Femenil"
+            score: "1"
+      - id: football-2548200
+        competition: "Panama Liga Panamena de Futbol"
+        state: live
+        stateLabel: "67'"
+        teams:
+          - name: "UMECIT"
+            score: "0"
+          - name: "Independiente de La Chorrera"
+            score: "0"
       - id: football-2429458
         competition: "Ecuadorian Serie A"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Mushuc Runa"
             score: "1"
@@ -54,34 +73,14 @@ sports:
             score: "1"
       - id: football-2429459
         competition: "Ecuadorian Serie A"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Orense"
             score: "4"
             active: true
           - name: "Guayaquil City"
             score: "3"
-      - id: football-2429456
-        competition: "Ecuadorian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Emelec"
-            score: "1"
-            active: true
-          - name: "Manta"
-            score: "0"
-      - id: football-2548510
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "León Femenil"
-            score: "3"
-            active: true
-          - name: "Puebla Femenil"
-            score: "1"
 
   - name: Cricket
     matches:
