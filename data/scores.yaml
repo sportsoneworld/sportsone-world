@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 20:35 IST"
+updated: "08 Sep 2026, 20:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,36 +26,35 @@ sports:
       - id: football-2423811
         competition: "Estonian Meistriliiga"
         state: live
-        stateLabel: "3'"
+        stateLabel: "24'"
         teams:
           - name: "Nõmme Kalju"
             score: "0"
           - name: "Nõmme United"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2423812
         competition: "Estonian Meistriliiga"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Narva Trans"
             score: "2"
-            active: true
           - name: "Flora Tallinn"
-            score: "0"
-      - id: football-2598892
-        competition: "FIFA U20 Womens World Cup"
+            score: "2"
+      - id: football-2598995
+        competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "24'"
         teams:
-          - name: "Benin U20 Women"
+          - name: "TPS"
             score: "0"
-          - name: "Argentina U20 Women"
-            score: "8"
-            active: true
+          - name: "SJK Seinajoki"
+            score: "0"
       - id: football-2598993
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "3'"
+        stateLabel: "25'"
         teams:
           - name: "Ilves"
             score: "0"
@@ -64,20 +63,21 @@ sports:
       - id: football-2598994
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "3'"
+        stateLabel: "25'"
         teams:
           - name: "Lahti"
             score: "0"
           - name: "IFK Mariehamn"
             score: "0"
-      - id: football-2598995
+      - id: football-2598992
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "3'"
+        stateLabel: "25'"
         teams:
-          - name: "TPS"
-            score: "0"
-          - name: "SJK Seinajoki"
+          - name: "VPS"
+            score: "1"
+            active: true
+          - name: "AC Oulu"
             score: "0"
 
   - name: Cricket
