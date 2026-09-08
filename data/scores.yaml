@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 02:20 IST"
+updated: "09 Sep 2026, 02:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2594460
-        competition: "EFL Cup"
+      - id: football-2421994
+        competition: "Chile Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Millwall"
+          - name: "Deportes Puerto Montt"
             score: "0"
-          - name: "Newcastle United"
+          - name: "Rangers de Talca"
+            score: "0"
+      - id: football-2408595
+        competition: "Argentinian Primera C"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Claypole"
+            score: "0"
+          - name: "Central Ballester"
             score: "1"
             active: true
-      - id: football-2501315
-        competition: "English League Championship"
-        state: live
-        stateLabel: "Live"
+      - id: football-2398069
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Bolton Wanderers"
+          - name: "Unión"
+            score: "3"
+            active: true
+          - name: "Instituto"
             score: "2"
-          - name: "West Ham United"
+      - id: football-2594457
+        competition: "EFL Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Crystal Palace"
             score: "3"
             active: true
-      - id: football-2423320
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Toronto FC II"
-            score: "3"
-            active: true
-          - name: "Columbus Crew 2"
-            score: "1"
-      - id: football-2561024
-        competition: "San Marino Coppa Titano"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Fiorentino"
+          - name: "Middlesbrough"
             score: "0"
-          - name: "Tre Fiori"
-            score: "1"
-            active: true
-      - id: football-2594572
-        competition: "UEFA Champions League"
-        state: live
-        stateLabel: "88'"
+      - id: football-2594453
+        competition: "EFL Cup"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Borussia Dortmund"
-            score: "3"
+          - name: "Bournemouth"
+            score: "4"
             active: true
-          - name: "Villarreal"
-            score: "1"
-      - id: football-2594591
-        competition: "UEFA Champions League"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Porto"
+          - name: "Lincoln City"
             score: "0"
-          - name: "Manchester City"
+      - id: football-2594465
+        competition: "EFL Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Leyton Orient"
             score: "1"
+          - name: "Bradford City"
+            score: "3"
             active: true
 
   - name: Cricket
