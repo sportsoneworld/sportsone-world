@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 15:55 IST"
+updated: "08 Sep 2026, 16:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2579865
         competition: "AFC Challenge League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "48'"
         teams:
           - name: "Yangon United"
             score: "0"
@@ -35,17 +35,35 @@ sports:
       - id: football-2595656
         competition: "Bhutan Premier League"
         state: live
-        stateLabel: "69'"
+        stateLabel: "82'"
         teams:
           - name: "Ugyen Academy"
             score: "0"
           - name: "Paro"
-            score: "5"
+            score: "9"
             active: true
+      - id: football-2416544
+        competition: "South Korean K League 1"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Ulsan HD"
+            score: "0"
+          - name: "FC Seoul"
+            score: "0"
+      - id: football-2416543
+        competition: "South Korean K League 1"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Incheon United"
+            score: "0"
+          - name: "Bucheon FC 1995"
+            score: "0"
       - id: football-2598290
         competition: "UEFA Youth League"
         state: live
-        stateLabel: "70'"
+        stateLabel: "83'"
         teams:
           - name: "AEK Athens Youth"
             score: "0"
@@ -61,26 +79,6 @@ sports:
             active: true
           - name: "Instituto"
             score: "2"
-      - id: football-2407053
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "23:45"
-        teams:
-          - name: "Philadelphia Union"
-            score: "–"
-            detail: "23:45"
-          - name: "FC Cincinnati"
-            score: "–"
-      - id: football-2407054
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Atlanta United"
-            score: "–"
-            detail: "23:30"
-          - name: "Orlando City"
-            score: "–"
 
   - name: Cricket
     matches:
