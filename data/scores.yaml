@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 23:18 IST"
+updated: "08 Sep 2026, 23:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,16 @@ sports:
       - id: football-2560659
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "45'"
+        stateLabel: "47'"
         teams:
           - name: "Velden"
             score: "0"
           - name: "Austria Klagenfurt"
             score: "0"
-      - id: football-2511479
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Montana"
-            score: "1"
-          - name: "Vihren Sandanski"
-            score: "3"
-            active: true
       - id: football-2522903
         competition: "Denmark A-Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "KoldingQ"
             score: "0"
@@ -55,25 +45,34 @@ sports:
       - id: football-2489085
         competition: "Dutch Eredivisie"
         state: live
-        stateLabel: "45'"
+        stateLabel: "61'"
         teams:
           - name: "NEC Nijmegen"
             score: "1"
           - name: "Excelsior"
             score: "1"
-      - id: football-2561106
-        competition: "Egyptian Premier League"
+      - id: football-2531823
+        competition: "EFL Trophy"
         state: live
-        stateLabel: "Live"
+        stateLabel: "3'"
         teams:
-          - name: "Smouha"
+          - name: "Doncaster Rovers"
             score: "0"
-          - name: "Ceramica Cleopatra"
+          - name: "Huddersfield Town"
+            score: "0"
+      - id: football-2531843
+        competition: "EFL Trophy"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Exeter City"
+            score: "0"
+          - name: "Tottenham Hotspur U21"
             score: "0"
       - id: football-2561105
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Zamalek"
             score: "1"
