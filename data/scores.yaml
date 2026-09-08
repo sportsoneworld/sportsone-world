@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 22:54 IST"
+updated: "08 Sep 2026, 23:05 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2560659
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "21'"
+        stateLabel: "32'"
         teams:
           - name: "Velden"
             score: "0"
@@ -35,36 +35,36 @@ sports:
       - id: football-2511479
         competition: "Bulgarian Second League"
         state: live
-        stateLabel: "68'"
+        stateLabel: "79'"
         teams:
           - name: "Montana"
             score: "1"
           - name: "Vihren Sandanski"
-            score: "1"
+            score: "2"
+            active: true
       - id: football-2522903
         competition: "Denmark A-Liga"
         state: live
-        stateLabel: "23'"
+        stateLabel: "34'"
         teams:
           - name: "KoldingQ"
             score: "0"
           - name: "Brøndby Women"
-            score: "2"
+            score: "4"
             active: true
       - id: football-2489085
         competition: "Dutch Eredivisie"
         state: live
-        stateLabel: "38'"
+        stateLabel: "45'"
         teams:
           - name: "NEC Nijmegen"
             score: "1"
-            active: true
           - name: "Excelsior"
-            score: "0"
+            score: "1"
       - id: football-2561106
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "22'"
+        stateLabel: "33'"
         teams:
           - name: "Smouha"
             score: "0"
@@ -73,7 +73,7 @@ sports:
       - id: football-2561105
         competition: "Egyptian Premier League"
         state: live
-        stateLabel: "23'"
+        stateLabel: "34'"
         teams:
           - name: "Zamalek"
             score: "1"
