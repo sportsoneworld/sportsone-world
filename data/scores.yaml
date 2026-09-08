@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 03:18 IST"
+updated: "09 Sep 2026, 03:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -33,16 +33,42 @@ sports:
           - name: "Rangers de Talca"
             score: "1"
             active: true
+      - id: football-2580242
+        competition: "Copa Libertadores"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Fluminense"
+            score: "0"
+          - name: "Platense"
+            score: "0"
+      - id: football-2594419
+        competition: "Copa Sudamericana"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Independiente Santa Fe"
+            score: "0"
+          - name: "Vasco da Gama"
+            score: "0"
       - id: football-2423411
         competition: "MLS Next Pro"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "New York City FC II"
-            score: "0"
+            score: "1"
           - name: "New York Red Bulls II"
             score: "1"
-            active: true
+      - id: football-2595392
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "General Caballero"
+            score: "0"
+          - name: "Resistencia"
+            score: "0"
       - id: football-2408595
         competition: "Argentinian Primera C"
         state: completed
@@ -52,36 +78,6 @@ sports:
             score: "0"
           - name: "Central Ballester"
             score: "1"
-            active: true
-      - id: football-2398069
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Unión"
-            score: "3"
-            active: true
-          - name: "Instituto"
-            score: "2"
-      - id: football-2594460
-        competition: "EFL Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Millwall"
-            score: "0"
-          - name: "Newcastle United"
-            score: "1"
-            active: true
-      - id: football-2501315
-        competition: "English League Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Bolton Wanderers"
-            score: "2"
-          - name: "West Ham United"
-            score: "3"
             active: true
 
   - name: Cricket
