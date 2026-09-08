@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 02:33 IST"
+updated: "09 Sep 2026, 02:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,12 +26,23 @@ sports:
       - id: football-2421994
         competition: "Chile Primera B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "21'"
         teams:
           - name: "Deportes Puerto Montt"
             score: "0"
           - name: "Rangers de Talca"
+            score: "1"
+            active: true
+      - id: football-2423411
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "New York City FC II"
             score: "0"
+          - name: "New York Red Bulls II"
+            score: "1"
+            active: true
       - id: football-2408595
         competition: "Argentinian Primera C"
         state: completed
@@ -72,16 +83,6 @@ sports:
             active: true
           - name: "Lincoln City"
             score: "0"
-      - id: football-2594465
-        competition: "EFL Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Leyton Orient"
-            score: "1"
-          - name: "Bradford City"
-            score: "3"
-            active: true
 
   - name: Cricket
     matches:
