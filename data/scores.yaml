@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 06:35 IST"
+updated: "08 Sep 2026, 06:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,35 @@ sports:
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "48'"
         teams:
           - name: "Unión"
             score: "1"
           - name: "Instituto"
             score: "1"
-      - id: football-2398450
-        competition: "Brazilian Serie A"
+      - id: football-2600448
+        competition: "Copa Colombia"
         state: live
-        stateLabel: "Live"
+        stateLabel: "7'"
         teams:
-          - name: "Vitória"
+          - name: "Atlético Nacional"
             score: "1"
             active: true
-          - name: "Grêmio"
+          - name: "Deportivo Cali"
             score: "0"
+      - id: football-2429459
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Orense"
+            score: "2"
+          - name: "Guayaquil City"
+            score: "2"
       - id: football-2429456
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "Emelec"
             score: "0"
@@ -54,29 +63,21 @@ sports:
       - id: football-2429458
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "57'"
         teams:
           - name: "Mushuc Runa"
             score: "1"
           - name: "Leones"
             score: "1"
-      - id: football-2429459
-        competition: "Ecuadorian Serie A"
+      - id: football-2548510
+        competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "45'"
+        stateLabel: "14'"
         teams:
-          - name: "Orense"
-            score: "2"
-          - name: "Guayaquil City"
-            score: "2"
-      - id: football-2548200
-        competition: "Panama Liga Panamena de Futbol"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "UMECIT"
-            score: "0"
-          - name: "Independiente de La Chorrera"
+          - name: "León Femenil"
+            score: "1"
+            active: true
+          - name: "Puebla Femenil"
             score: "0"
 
   - name: Cricket
