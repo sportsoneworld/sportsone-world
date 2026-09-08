@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 01:53 IST"
+updated: "09 Sep 2026, 02:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -36,7 +36,7 @@ sports:
       - id: football-2594460
         competition: "EFL Cup"
         state: live
-        stateLabel: "66'"
+        stateLabel: "80'"
         teams:
           - name: "Millwall"
             score: "0"
@@ -45,40 +45,40 @@ sports:
       - id: football-2594461
         competition: "EFL Cup"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
           - name: "Sunderland"
             score: "1"
             active: true
           - name: "Hull City"
             score: "0"
-      - id: football-2594465
-        competition: "EFL Cup"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Leyton Orient"
-            score: "1"
-          - name: "Bradford City"
-            score: "2"
-            active: true
       - id: football-2594457
         competition: "EFL Cup"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Crystal Palace"
             score: "3"
             active: true
           - name: "Middlesbrough"
             score: "0"
+      - id: football-2594465
+        competition: "EFL Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Leyton Orient"
+            score: "1"
+          - name: "Bradford City"
+            score: "3"
+            active: true
       - id: football-2594453
         competition: "EFL Cup"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
           - name: "Bournemouth"
-            score: "2"
+            score: "4"
             active: true
           - name: "Lincoln City"
             score: "0"
