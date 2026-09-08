@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 18:18 IST"
+updated: "08 Sep 2026, 18:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2599834
-        competition: "Australia Western Australia NPL"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Olympic Kingsway"
-            score: "0"
-          - name: "Perth SC"
-            score: "1"
-            active: true
       - id: football-2598463
         competition: "FA Cup"
         state: live
@@ -43,45 +33,51 @@ sports:
             active: true
           - name: "Kelantan Red Warrior"
             score: "0"
-      - id: football-2416543
-        competition: "South Korean K League 1"
+      - id: football-2598464
+        competition: "FA Cup"
         state: live
-        stateLabel: "10:30"
+        stateLabel: "3'"
         teams:
-          - name: "Incheon United"
-            score: "1"
-          - name: "Bucheon FC 1995"
-            score: "1"
-      - id: football-2598286
-        competition: "UEFA Youth League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Club Brugge Youth"
-            score: "2"
-            active: true
-          - name: "Aston Villa Youth"
+          - name: "Imigresen"
             score: "0"
-      - id: football-2598288
-        competition: "UEFA Youth League"
+          - name: "Kedah Darul Aman"
+            score: "0"
+      - id: football-2598892
+        competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "84'"
+        stateLabel: "4'"
         teams:
-          - name: "FC Porto Juniors"
-            score: "3"
-            active: true
-          - name: "Manchester City Youth"
-            score: "1"
-      - id: football-2398069
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Benin U20 Women"
+            score: "0"
+          - name: "Argentina U20 Women"
+            score: "0"
+      - id: football-2598891
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "4'"
         teams:
-          - name: "Unión"
-            score: "3"
-            active: true
-          - name: "Instituto"
-            score: "2"
+          - name: "Brazil U20 Women"
+            score: "0"
+          - name: "Canada U20 Women"
+            score: "0"
+      - id: football-2595390
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "3 de Noviembre"
+            score: "0"
+          - name: "Sol de América"
+            score: "0"
+      - id: football-2595391
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Paraguarí"
+            score: "0"
+          - name: "Guaireña"
+            score: "0"
 
   - name: Cricket
     matches:
