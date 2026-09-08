@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 20:56 IST"
+updated: "08 Sep 2026, 21:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2423811
         competition: "Estonian Meistriliiga"
         state: live
-        stateLabel: "24'"
+        stateLabel: "38'"
         teams:
           - name: "Nõmme Kalju"
             score: "0"
           - name: "Nõmme United"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2423812
         competition: "Estonian Meistriliiga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "51'"
         teams:
           - name: "Narva Trans"
             score: "2"
@@ -45,7 +45,7 @@ sports:
       - id: football-2598995
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "24'"
+        stateLabel: "38'"
         teams:
           - name: "TPS"
             score: "0"
@@ -54,7 +54,7 @@ sports:
       - id: football-2598993
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "25'"
+        stateLabel: "39'"
         teams:
           - name: "Ilves"
             score: "0"
@@ -63,16 +63,17 @@ sports:
       - id: football-2598994
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "25'"
+        stateLabel: "39'"
         teams:
           - name: "Lahti"
-            score: "0"
+            score: "1"
+            active: true
           - name: "IFK Mariehamn"
             score: "0"
       - id: football-2598992
         competition: "Finnish Veikkausliiga"
         state: live
-        stateLabel: "25'"
+        stateLabel: "39'"
         teams:
           - name: "VPS"
             score: "1"
