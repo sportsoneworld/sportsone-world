@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 08:34 IST"
+updated: "08 Sep 2026, 08:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,26 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2600448
-        competition: "Copa Colombia"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Atlético Nacional"
-            score: "2"
-            active: true
-          - name: "Deportivo Cali"
-            score: "0"
-      - id: football-2548510
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "León Femenil"
-            score: "5"
-            active: true
-          - name: "Puebla Femenil"
-            score: "2"
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: completed
@@ -53,35 +33,56 @@ sports:
             active: true
           - name: "Instituto"
             score: "2"
-      - id: football-2429458
-        competition: "Ecuadorian Serie A"
+      - id: football-2600448
+        competition: "Copa Colombia"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Mushuc Runa"
-            score: "1"
-          - name: "Leones"
-            score: "1"
-      - id: football-2429459
-        competition: "Ecuadorian Serie A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Orense"
-            score: "4"
-            active: true
-          - name: "Guayaquil City"
+          - name: "Atlético Nacional"
             score: "3"
-      - id: football-2429456
-        competition: "Ecuadorian Serie A"
+            active: true
+          - name: "Deportivo Cali"
+            score: "0"
+      - id: football-2548510
+        competition: "Mexican Liga Femenil"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Emelec"
-            score: "1"
+          - name: "León Femenil"
+            score: "5"
             active: true
-          - name: "Manta"
+          - name: "Puebla Femenil"
+            score: "2"
+      - id: football-2548200
+        competition: "Panama Liga Panamena de Futbol"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "UMECIT"
+            score: "2"
+            active: true
+          - name: "Independiente de La Chorrera"
             score: "0"
+      - id: football-2407053
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "23:45"
+        teams:
+          - name: "Philadelphia Union"
+            score: "–"
+            detail: "23:45"
+          - name: "FC Cincinnati"
+            score: "–"
+      - id: football-2407054
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Atlanta United"
+            score: "–"
+            detail: "23:30"
+          - name: "Orlando City"
+            score: "–"
 
   - name: Cricket
     matches:
