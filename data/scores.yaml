@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 05:04 IST"
+updated: "09 Sep 2026, 05:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2431430
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "4'"
+        stateLabel: "17'"
         teams:
           - name: "Cuiabá"
             score: "0"
@@ -35,7 +35,7 @@ sports:
       - id: football-2558750
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "27'"
+        stateLabel: "41'"
         teams:
           - name: "Club Sando"
             score: "0"
@@ -44,16 +44,17 @@ sports:
       - id: football-2421991
         competition: "Chile Primera B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "16'"
         teams:
           - name: "Curicó Unido"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Unión Española"
             score: "0"
       - id: football-2421993
         competition: "Chile Primera B"
         state: live
-        stateLabel: "4'"
+        stateLabel: "17'"
         teams:
           - name: "Deportes Temuco"
             score: "0"
@@ -62,7 +63,7 @@ sports:
       - id: football-2580242
         competition: "Copa Libertadores"
         state: live
-        stateLabel: "75'"
+        stateLabel: "88'"
         teams:
           - name: "Fluminense"
             score: "2"
@@ -72,7 +73,7 @@ sports:
       - id: football-2594419
         competition: "Copa Sudamericana"
         state: live
-        stateLabel: "74'"
+        stateLabel: "87'"
         teams:
           - name: "Independiente Santa Fe"
             score: "0"
