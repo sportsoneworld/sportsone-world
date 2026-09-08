@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 07:21 IST"
+updated: "08 Sep 2026, 07:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,58 +26,59 @@ sports:
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "76'"
+        stateLabel: "89'"
         teams:
           - name: "Unión"
             score: "3"
             active: true
           - name: "Instituto"
-            score: "1"
+            score: "2"
       - id: football-2600448
         competition: "Copa Colombia"
         state: live
-        stateLabel: "35'"
+        stateLabel: "Live"
         teams:
           - name: "Atlético Nacional"
             score: "1"
             active: true
           - name: "Deportivo Cali"
             score: "0"
+      - id: football-2429458
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Mushuc Runa"
+            score: "1"
+          - name: "Leones"
+            score: "1"
       - id: football-2429459
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "84'"
+        stateLabel: "Live"
         teams:
           - name: "Orense"
-            score: "3"
+            score: "4"
+            active: true
           - name: "Guayaquil City"
             score: "3"
       - id: football-2429456
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "Emelec"
             score: "1"
             active: true
           - name: "Manta"
             score: "0"
-      - id: football-2429458
-        competition: "Ecuadorian Serie A"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Mushuc Runa"
-            score: "1"
-          - name: "Leones"
-            score: "1"
       - id: football-2548510
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
           - name: "León Femenil"
-            score: "2"
+            score: "3"
             active: true
           - name: "Puebla Femenil"
             score: "1"
