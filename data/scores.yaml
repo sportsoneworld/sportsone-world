@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 18:56 IST"
+updated: "08 Sep 2026, 19:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2598464
         competition: "FA Cup"
         state: live
-        stateLabel: "24'"
+        stateLabel: "37'"
         teams:
           - name: "Imigresen"
             score: "1"
@@ -36,7 +36,7 @@ sports:
       - id: football-2598463
         competition: "FA Cup"
         state: live
-        stateLabel: "36'"
+        stateLabel: "45'"
         teams:
           - name: "Kuching City"
             score: "2"
@@ -46,17 +46,17 @@ sports:
       - id: football-2598892
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "Benin U20 Women"
             score: "0"
           - name: "Argentina U20 Women"
-            score: "1"
+            score: "2"
             active: true
       - id: football-2598891
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "Brazil U20 Women"
             score: "1"
@@ -66,7 +66,7 @@ sports:
       - id: football-2595390
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "3 de Noviembre"
             score: "0"
@@ -75,10 +75,11 @@ sports:
       - id: football-2595391
         competition: "Paraguayan División Intermedia"
         state: live
-        stateLabel: "25'"
+        stateLabel: "38'"
         teams:
           - name: "Paraguarí"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Guaireña"
             score: "0"
 
