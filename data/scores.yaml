@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 06:53 IST"
+updated: "08 Sep 2026, 07:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,16 +26,17 @@ sports:
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "48'"
+        stateLabel: "61'"
         teams:
           - name: "Unión"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Instituto"
             score: "1"
       - id: football-2600448
         competition: "Copa Colombia"
         state: live
-        stateLabel: "7'"
+        stateLabel: "20'"
         teams:
           - name: "Atlético Nacional"
             score: "1"
@@ -45,7 +46,7 @@ sports:
       - id: football-2429459
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "56'"
+        stateLabel: "69'"
         teams:
           - name: "Orense"
             score: "2"
@@ -54,7 +55,7 @@ sports:
       - id: football-2429456
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "57'"
+        stateLabel: "70'"
         teams:
           - name: "Emelec"
             score: "0"
@@ -63,7 +64,7 @@ sports:
       - id: football-2429458
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "57'"
+        stateLabel: "70'"
         teams:
           - name: "Mushuc Runa"
             score: "1"
@@ -72,13 +73,12 @@ sports:
       - id: football-2548510
         competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "14'"
+        stateLabel: "27'"
         teams:
           - name: "León Femenil"
             score: "1"
-            active: true
           - name: "Puebla Femenil"
-            score: "0"
+            score: "1"
 
   - name: Cricket
     matches:
