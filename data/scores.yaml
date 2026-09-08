@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 00:12 IST"
+updated: "09 Sep 2026, 00:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2408595
         competition: "Argentinian Primera C"
         state: live
-        stateLabel: "37'"
+        stateLabel: "Live"
         teams:
           - name: "Claypole"
             score: "0"
@@ -35,51 +35,49 @@ sports:
       - id: football-2560659
         competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "Velden"
-            score: "1"
+            score: "2"
           - name: "Austria Klagenfurt"
             score: "2"
-            active: true
       - id: football-2522903
         competition: "Denmark A-Liga"
         state: live
-        stateLabel: "85'"
+        stateLabel: "Live"
         teams:
           - name: "KoldingQ"
             score: "0"
           - name: "Brøndby Women"
             score: "5"
             active: true
-      - id: football-2489085
-        competition: "Dutch Eredivisie"
+      - id: football-2594457
+        competition: "EFL Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "10'"
         teams:
-          - name: "NEC Nijmegen"
-            score: "2"
-          - name: "Excelsior"
-            score: "2"
-      - id: football-2531823
-        competition: "EFL Trophy"
-        state: live
-        stateLabel: "41'"
-        teams:
-          - name: "Doncaster Rovers"
-            score: "1"
-            active: true
-          - name: "Huddersfield Town"
+          - name: "Crystal Palace"
             score: "0"
-      - id: football-2531843
-        competition: "EFL Trophy"
+          - name: "Middlesbrough"
+            score: "0"
+      - id: football-2594465
+        competition: "EFL Cup"
         state: live
-        stateLabel: "43'"
+        stateLabel: "10'"
         teams:
-          - name: "Exeter City"
+          - name: "Leyton Orient"
+            score: "0"
+          - name: "Bradford City"
+            score: "0"
+      - id: football-2594453
+        competition: "EFL Cup"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Bournemouth"
             score: "1"
             active: true
-          - name: "Tottenham Hotspur U21"
+          - name: "Lincoln City"
             score: "0"
 
   - name: Cricket
