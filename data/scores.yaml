@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 19:56 IST"
+updated: "08 Sep 2026, 20:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2423812
+        competition: "Estonian Meistriliiga"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Narva Trans"
+            score: "0"
+          - name: "Flora Tallinn"
+            score: "0"
       - id: football-2598464
         competition: "FA Cup"
         state: live
-        stateLabel: "64'"
+        stateLabel: "78'"
         teams:
           - name: "Imigresen"
             score: "2"
@@ -36,27 +45,27 @@ sports:
       - id: football-2598463
         competition: "FA Cup"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "Kuching City"
-            score: "4"
+            score: "5"
             active: true
           - name: "Kelantan Red Warrior"
             score: "1"
       - id: football-2598892
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "61'"
+        stateLabel: "75'"
         teams:
           - name: "Benin U20 Women"
             score: "0"
           - name: "Argentina U20 Women"
-            score: "5"
+            score: "7"
             active: true
       - id: football-2598891
         competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "65'"
+        stateLabel: "79'"
         teams:
           - name: "Brazil U20 Women"
             score: "3"
@@ -66,23 +75,13 @@ sports:
       - id: football-2599063
         competition: "Kosovan Superleague"
         state: live
-        stateLabel: "24'"
+        stateLabel: "38'"
         teams:
           - name: "Drenica"
             score: "0"
           - name: "Prishtina"
             score: "1"
             active: true
-      - id: football-2595390
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "3 de Noviembre"
-            score: "1"
-            active: true
-          - name: "Sol de América"
-            score: "0"
 
   - name: Cricket
     matches:
