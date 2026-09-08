@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 06:24 IST"
+updated: "08 Sep 2026, 06:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,20 +23,10 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406525
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Excursionistas"
-            score: "2"
-            active: true
-          - name: "Ituzaingó"
-            score: "1"
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "39'"
+        stateLabel: "45'"
         teams:
           - name: "Unión"
             score: "1"
@@ -52,35 +42,42 @@ sports:
             active: true
           - name: "Grêmio"
             score: "0"
-      - id: football-2413082
-        competition: "Chile Primera Division"
+      - id: football-2429456
+        competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Deportes Limache"
-            score: "3"
-            active: true
-          - name: "Cobresal"
+          - name: "Emelec"
             score: "0"
-      - id: football-2481134
-        competition: "Colombia Categoría Primera A"
+          - name: "Manta"
+            score: "0"
+      - id: football-2429458
+        competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Llaneros"
+          - name: "Mushuc Runa"
             score: "1"
-          - name: "Deportes Tolima"
-            score: "2"
-            active: true
+          - name: "Leones"
+            score: "1"
       - id: football-2429459
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
           - name: "Orense"
             score: "2"
           - name: "Guayaquil City"
             score: "2"
+      - id: football-2548200
+        competition: "Panama Liga Panamena de Futbol"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "UMECIT"
+            score: "0"
+          - name: "Independiente de La Chorrera"
+            score: "0"
 
   - name: Cricket
     matches:
