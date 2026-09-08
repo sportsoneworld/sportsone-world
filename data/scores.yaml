@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 14:55 IST"
+updated: "08 Sep 2026, 15:08 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2579865
+        competition: "AFC Challenge League"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Yangon United"
+            score: "0"
+          - name: "Ezra"
+            score: "0"
       - id: football-2595656
         competition: "Bhutan Premier League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "37'"
         teams:
           - name: "Ugyen Academy"
             score: "0"
@@ -36,7 +45,7 @@ sports:
       - id: football-2598290
         competition: "UEFA Youth League"
         state: live
-        stateLabel: "25'"
+        stateLabel: "37'"
         teams:
           - name: "AEK Athens Youth"
             score: "0"
@@ -71,16 +80,6 @@ sports:
             score: "–"
             detail: "23:30"
           - name: "Orlando City"
-            score: "–"
-      - id: football-2407057
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "New York City FC"
-            score: "–"
-            detail: "00:00"
-          - name: "New England Revolution"
             score: "–"
 
   - name: Cricket
