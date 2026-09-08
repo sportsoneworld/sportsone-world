@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 18:00 IST"
+updated: "08 Sep 2026, 18:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,26 +26,17 @@ sports:
       - id: football-2599834
         competition: "Australia Western Australia NPL"
         state: live
-        stateLabel: "70'"
+        stateLabel: "88'"
         teams:
           - name: "Olympic Kingsway"
             score: "0"
           - name: "Perth SC"
             score: "1"
             active: true
-      - id: football-2489102
-        competition: "Dutch Eredivisie"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Utrecht"
-            score: "3"
-          - name: "Go Ahead Eagles"
-            score: "3"
       - id: football-2598463
         competition: "FA Cup"
         state: live
-        stateLabel: "12'"
+        stateLabel: "29'"
         teams:
           - name: "Kuching City"
             score: "1"
@@ -55,33 +46,42 @@ sports:
       - id: football-2416543
         competition: "South Korean K League 1"
         state: live
-        stateLabel: "Live"
+        stateLabel: "10:30"
         teams:
           - name: "Incheon United"
-            score: "2"
-            active: true
+            score: "1"
           - name: "Bucheon FC 1995"
             score: "1"
       - id: football-2598286
         competition: "UEFA Youth League"
         state: live
-        stateLabel: "28'"
+        stateLabel: "Live"
         teams:
           - name: "Club Brugge Youth"
-            score: "1"
+            score: "2"
             active: true
           - name: "Aston Villa Youth"
             score: "0"
       - id: football-2598288
         competition: "UEFA Youth League"
         state: live
-        stateLabel: "66'"
+        stateLabel: "84'"
         teams:
           - name: "FC Porto Juniors"
-            score: "2"
+            score: "3"
             active: true
           - name: "Manchester City Youth"
-            score: "0"
+            score: "1"
+      - id: football-2398069
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Unión"
+            score: "3"
+            active: true
+          - name: "Instituto"
+            score: "2"
 
   - name: Cricket
     matches:
