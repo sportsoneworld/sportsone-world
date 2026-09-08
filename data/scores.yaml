@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Sep 2026, 06:04 IST"
+updated: "08 Sep 2026, 06:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2406525
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "76'"
+        stateLabel: "Live"
         teams:
           - name: "Excursionistas"
             score: "2"
@@ -36,17 +36,16 @@ sports:
       - id: football-2398069
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "18'"
+        stateLabel: "39'"
         teams:
           - name: "Unión"
-            score: "0"
+            score: "1"
           - name: "Instituto"
             score: "1"
-            active: true
       - id: football-2398450
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "71'"
+        stateLabel: "Live"
         teams:
           - name: "Vitória"
             score: "1"
@@ -56,32 +55,32 @@ sports:
       - id: football-2413082
         competition: "Chile Primera Division"
         state: live
-        stateLabel: "73'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Limache"
-            score: "2"
+            score: "3"
             active: true
           - name: "Cobresal"
             score: "0"
       - id: football-2481134
         competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "75'"
+        stateLabel: "Live"
         teams:
           - name: "Llaneros"
             score: "1"
           - name: "Deportes Tolima"
             score: "2"
             active: true
-      - id: football-2429456
+      - id: football-2429459
         competition: "Ecuadorian Serie A"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
-          - name: "Emelec"
-            score: "0"
-          - name: "Manta"
-            score: "0"
+          - name: "Orense"
+            score: "2"
+          - name: "Guayaquil City"
+            score: "2"
 
   - name: Cricket
     matches:
