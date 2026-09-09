@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 06:34 IST"
+updated: "09 Sep 2026, 06:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,38 +23,39 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2431429
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Criciúma"
+            score: "0"
+          - name: "Juventude"
+            score: "0"
       - id: football-2431430
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "71'"
+        stateLabel: "Live"
         teams:
           - name: "Cuiabá"
             score: "3"
             active: true
           - name: "Athletic Club-MG"
             score: "0"
-      - id: football-2431429
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Criciúma"
-            score: "0"
-          - name: "Juventude"
-            score: "0"
       - id: football-2421991
         competition: "Chile Primera B"
         state: live
-        stateLabel: "73'"
+        stateLabel: "Live"
         teams:
           - name: "Curicó Unido"
-            score: "1"
+            score: "2"
+            active: true
           - name: "Unión Española"
             score: "1"
       - id: football-2421993
         competition: "Chile Primera B"
         state: live
-        stateLabel: "74'"
+        stateLabel: "Live"
         teams:
           - name: "Deportes Temuco"
             score: "2"
@@ -64,7 +65,7 @@ sports:
       - id: football-2481416
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "33'"
+        stateLabel: "Live"
         teams:
           - name: "Internacional de Palmira"
             score: "0"
@@ -73,7 +74,7 @@ sports:
       - id: football-2579901
         competition: "Copa Sudamericana"
         state: live
-        stateLabel: "33'"
+        stateLabel: "45'"
         teams:
           - name: "Boca Juniors"
             score: "0"
