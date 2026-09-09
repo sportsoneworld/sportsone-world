@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 17:20 IST"
+updated: "09 Sep 2026, 17:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2491617
-        competition: "Japanese J3 League"
+      - id: football-2523500
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "88'"
+        stateLabel: "4'"
         teams:
-          - name: "FC Ryukyu"
-            score: "2"
-            active: true
-          - name: "Giravanz Kitakyushu"
+          - name: "Sardarapat"
             score: "0"
-      - id: football-2504169
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Tochigi SC"
+          - name: "Pyunik Yerevan"
             score: "0"
-          - name: "Montedio Yamagata"
-            score: "1"
-            active: true
-      - id: football-2504170
-        competition: "Japanese JLeague Cup"
+      - id: football-2595657
+        competition: "Bhutan Premier League"
         state: live
-        stateLabel: "89'"
+        stateLabel: "4'"
         teams:
-          - name: "Kamatamare Sanuki"
+          - name: "BFF Academy"
             score: "0"
-          - name: "JEF United Chiba"
-            score: "2"
-            active: true
-      - id: football-2504173
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Kochi United"
+          - name: "Transport United"
             score: "0"
-          - name: "V-Varen Nagasaki"
-            score: "1"
-            active: true
-      - id: football-2504171
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Fukushima United"
-            score: "4"
-            active: true
-          - name: "Vegalta Sendai"
-            score: "2"
       - id: football-2504172
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "90'"
+        stateLabel: "99'"
         teams:
           - name: "Nagano Parceiro"
             score: "0"
           - name: "Mito HollyHock"
             score: "0"
+      - id: football-2504168
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "99'"
+        teams:
+          - name: "Matsumoto Yamaga"
+            score: "3"
+          - name: "Shonan Bellmare"
+            score: "3"
+      - id: football-2594411
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Volna Nizhny Novgorod Oblast"
+            score: "1"
+            active: true
+          - name: "Rotor Volgograd"
+            score: "0"
+      - id: football-2416545
+        competition: "South Korean K League 1"
+        state: live
+        stateLabel: "74'"
+        teams:
+          - name: "Daejeon Hana Citizen"
+            score: "2"
+            active: true
+          - name: "FC Anyang"
+            score: "1"
 
   - name: Cricket
     matches:
