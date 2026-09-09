@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 07:54 IST"
+updated: "09 Sep 2026, 08:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,45 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481416
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Internacional de Palmira"
-            score: "0"
-          - name: "Atlético Cali"
-            score: "1"
-            active: true
-      - id: football-2579901
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Boca Juniors"
-            score: "1"
-            active: true
-          - name: "São Paulo"
-            score: "0"
-      - id: football-2574826
-        competition: "USL Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "San Antonio"
-            score: "0"
-          - name: "Louisville City"
-            score: "0"
-      - id: football-2431430
-        competition: "Brazilian Serie B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Cuiabá"
-            score: "3"
-            active: true
-          - name: "Athletic Club-MG"
-            score: "0"
       - id: football-2431429
         competition: "Brazilian Serie B"
         state: completed
@@ -72,16 +33,55 @@ sports:
           - name: "Juventude"
             score: "2"
             active: true
-      - id: football-2421993
-        competition: "Chile Primera B"
+      - id: football-2481416
+        competition: "Colombian Categoría Primera B"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Deportes Temuco"
-            score: "3"
-            active: true
-          - name: "Santiago Wanderers"
+          - name: "Internacional de Palmira"
             score: "0"
+          - name: "Atlético Cali"
+            score: "1"
+            active: true
+      - id: football-2579901
+        competition: "Copa Sudamericana"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Boca Juniors"
+            score: "1"
+            active: true
+          - name: "São Paulo"
+            score: "0"
+      - id: football-2545957
+        competition: "El Salvador Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "INCA-Aruba"
+            score: "1"
+            active: true
+          - name: "Atlético Balboa"
+            score: "0"
+      - id: football-2574826
+        competition: "USL Cup"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "San Antonio"
+            score: "0"
+          - name: "Louisville City"
+            score: "0"
+      - id: football-2407053
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "23:45"
+        teams:
+          - name: "Philadelphia Union"
+            score: "–"
+            detail: "23:45"
+          - name: "FC Cincinnati"
+            score: "–"
 
   - name: Cricket
     matches:
