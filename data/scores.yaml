@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 05:17 IST"
+updated: "09 Sep 2026, 05:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,10 +23,19 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2431429
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Criciúma"
+            score: "0"
+          - name: "Juventude"
+            score: "0"
       - id: football-2431430
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "17'"
+        stateLabel: "36'"
         teams:
           - name: "Cuiabá"
             score: "0"
@@ -35,7 +44,7 @@ sports:
       - id: football-2558750
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "41'"
+        stateLabel: "Live"
         teams:
           - name: "Club Sando"
             score: "0"
@@ -44,40 +53,31 @@ sports:
       - id: football-2421991
         competition: "Chile Primera B"
         state: live
-        stateLabel: "16'"
+        stateLabel: "35'"
         teams:
           - name: "Curicó Unido"
-            score: "1"
-            active: true
+            score: "0"
           - name: "Unión Española"
             score: "0"
       - id: football-2421993
         competition: "Chile Primera B"
         state: live
-        stateLabel: "17'"
+        stateLabel: "36'"
         teams:
           - name: "Deportes Temuco"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Santiago Wanderers"
             score: "0"
-      - id: football-2580242
-        competition: "Copa Libertadores"
+      - id: football-2574825
+        competition: "USL Cup"
         state: live
-        stateLabel: "88'"
+        stateLabel: "Live"
         teams:
-          - name: "Fluminense"
+          - name: "Hartford Athletic"
             score: "2"
             active: true
-          - name: "Platense"
-            score: "0"
-      - id: football-2594419
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Independiente Santa Fe"
-            score: "0"
-          - name: "Vasco da Gama"
+          - name: "Colorado Springs Switchbacks"
             score: "0"
 
   - name: Cricket
@@ -102,33 +102,13 @@ sports:
             detail: "23:00"
           - name: "St Kitts and Nevis Patriots"
             score: "–"
-      - id: cricket-2465901
-        competition: "English County Championship Division 1"
+      - id: cricket-2578491
+        competition: "Caribbean Premier League"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "23:00"
         teams:
-          - name: "Nottinghamshire"
+          - name: "Guyana Amazon Warriors"
             score: "–"
-            detail: "00:00"
-          - name: "Hampshire"
-            score: "–"
-      - id: cricket-2465902
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Yorkshire"
-            score: "–"
-            detail: "00:00"
-          - name: "Essex"
-            score: "–"
-      - id: cricket-2465903
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Glamorgan"
-            score: "–"
-            detail: "00:00"
-          - name: "Warwickshire"
+            detail: "23:00"
+          - name: "Trinbago Knight Riders"
             score: "–"
