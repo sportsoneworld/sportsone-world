@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 05:36 IST"
+updated: "09 Sep 2026, 06:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2431429
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "31'"
         teams:
           - name: "Criciúma"
             score: "0"
@@ -35,49 +35,49 @@ sports:
       - id: football-2431430
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "36'"
+        stateLabel: "45'"
         teams:
           - name: "Cuiabá"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Athletic Club-MG"
             score: "0"
       - id: football-2558750
         competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "70'"
         teams:
           - name: "Club Sando"
             score: "0"
           - name: "Delfines del Este"
             score: "0"
-      - id: football-2421991
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "Curicó Unido"
-            score: "0"
-          - name: "Unión Española"
-            score: "0"
       - id: football-2421993
         competition: "Chile Primera B"
         state: live
-        stateLabel: "36'"
+        stateLabel: "45'"
         teams:
           - name: "Deportes Temuco"
             score: "1"
             active: true
           - name: "Santiago Wanderers"
             score: "0"
-      - id: football-2574825
-        competition: "USL Cup"
+      - id: football-2421991
+        competition: "Chile Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Hartford Athletic"
-            score: "2"
-            active: true
-          - name: "Colorado Springs Switchbacks"
+          - name: "Curicó Unido"
+            score: "1"
+          - name: "Unión Española"
+            score: "1"
+      - id: football-2481416
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Internacional de Palmira"
+            score: "0"
+          - name: "Atlético Cali"
             score: "0"
 
   - name: Cricket
