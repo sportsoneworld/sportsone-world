@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 17:06 IST"
+updated: "09 Sep 2026, 17:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,37 +26,27 @@ sports:
       - id: football-2491617
         competition: "Japanese J3 League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "88'"
         teams:
           - name: "FC Ryukyu"
-            score: "1"
+            score: "2"
             active: true
           - name: "Giravanz Kitakyushu"
             score: "0"
       - id: football-2504169
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "76'"
+        stateLabel: "89'"
         teams:
           - name: "Tochigi SC"
             score: "0"
           - name: "Montedio Yamagata"
             score: "1"
             active: true
-      - id: football-2504171
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "76'"
-        teams:
-          - name: "Fukushima United"
-            score: "4"
-            active: true
-          - name: "Vegalta Sendai"
-            score: "1"
       - id: football-2504170
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "76'"
+        stateLabel: "89'"
         teams:
           - name: "Kamatamare Sanuki"
             score: "0"
@@ -66,16 +56,27 @@ sports:
       - id: football-2504173
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "77'"
+        stateLabel: "90'"
         teams:
           - name: "Kochi United"
             score: "0"
           - name: "V-Varen Nagasaki"
-            score: "0"
+            score: "1"
+            active: true
+      - id: football-2504171
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Fukushima United"
+            score: "4"
+            active: true
+          - name: "Vegalta Sendai"
+            score: "2"
       - id: football-2504172
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "77'"
+        stateLabel: "90'"
         teams:
           - name: "Nagano Parceiro"
             score: "0"
