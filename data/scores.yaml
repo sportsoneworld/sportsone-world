@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 16:07 IST"
+updated: "09 Sep 2026, 16:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2580339
         competition: "Australia Cup"
         state: live
-        stateLabel: "48'"
+        stateLabel: "61'"
         teams:
           - name: "Sydney FC"
             score: "0"
@@ -36,50 +36,51 @@ sports:
       - id: football-2491617
         competition: "Japanese J3 League"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "FC Ryukyu"
             score: "0"
           - name: "Giravanz Kitakyushu"
             score: "0"
-      - id: football-2504173
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Kochi United"
-            score: "0"
-          - name: "V-Varen Nagasaki"
-            score: "0"
       - id: football-2504169
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Tochigi SC"
             score: "0"
           - name: "Montedio Yamagata"
             score: "1"
             active: true
-      - id: football-2504171
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Fukushima United"
-            score: "0"
-          - name: "Vegalta Sendai"
-            score: "0"
       - id: football-2504170
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
           - name: "Kamatamare Sanuki"
             score: "0"
           - name: "JEF United Chiba"
             score: "1"
             active: true
+      - id: football-2504167
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "62'"
+        teams:
+          - name: "Reilac Shiga"
+            score: "0"
+          - name: "Tokyo Verdy"
+            score: "0"
+      - id: football-2504171
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Fukushima United"
+            score: "1"
+            active: true
+          - name: "Vegalta Sendai"
+            score: "0"
 
   - name: Cricket
     matches:
