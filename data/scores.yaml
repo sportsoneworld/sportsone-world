@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 08:54 IST"
+updated: "09 Sep 2026, 09:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,26 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481416
-        competition: "Colombian Categoría Primera B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Internacional de Palmira"
-            score: "0"
-          - name: "Atlético Cali"
-            score: "1"
-            active: true
-      - id: football-2579901
-        competition: "Copa Sudamericana"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Boca Juniors"
-            score: "1"
-            active: true
-          - name: "São Paulo"
-            score: "0"
       - id: football-2574826
         competition: "USL Cup"
         state: completed
@@ -81,6 +61,26 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "New England Revolution"
+            score: "–"
+      - id: football-2407059
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:30"
+        teams:
+          - name: "Chicago Fire"
+            score: "–"
+            detail: "00:30"
+          - name: "Inter Miami"
+            score: "–"
+      - id: football-2407060
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:30"
+        teams:
+          - name: "Minnesota United"
+            score: "–"
+            detail: "00:30"
+          - name: "FC Dallas"
             score: "–"
 
   - name: Cricket
