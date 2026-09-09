@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 18:23 IST"
+updated: "09 Sep 2026, 18:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -35,51 +35,49 @@ sports:
       - id: football-2580039
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "23'"
+        stateLabel: "34'"
         teams:
           - name: "Şahdağ Qusar"
-            score: "1"
+            score: "2"
             active: true
           - name: "Karvan"
             score: "0"
       - id: football-2595657
         competition: "Bhutan Premier League"
         state: live
-        stateLabel: "45'"
+        stateLabel: "46'"
         teams:
           - name: "BFF Academy"
             score: "0"
           - name: "Transport United"
             score: "1"
             active: true
-      - id: football-2598470
-        competition: "FA Cup"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "DPMM"
-            score: "2"
-            active: true
-          - name: "Terengganu"
-            score: "1"
       - id: football-2598466
         competition: "FA Cup"
         state: live
-        stateLabel: "38'"
+        stateLabel: "Live"
         teams:
           - name: "Kuala Lumpur City"
             score: "0"
           - name: "Perak"
             score: "0"
-      - id: football-2594411
-        competition: "Russia Cup"
+      - id: football-2598470
+        competition: "FA Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Volna Nizhny Novgorod Oblast"
+          - name: "DPMM"
             score: "2"
-            active: true
-          - name: "Rotor Volgograd"
+          - name: "Terengganu"
+            score: "2"
+      - id: football-2598894
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Ghana U20 Women"
+            score: "0"
+          - name: "South Korea U20 Women"
             score: "0"
 
   - name: Cricket
