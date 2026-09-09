@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 07:21 IST"
+updated: "09 Sep 2026, 07:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2431429
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "87'"
+        stateLabel: "Live"
         teams:
           - name: "Criciúma"
             score: "0"
@@ -36,16 +36,17 @@ sports:
       - id: football-2481416
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "63'"
+        stateLabel: "76'"
         teams:
           - name: "Internacional de Palmira"
             score: "0"
           - name: "Atlético Cali"
-            score: "0"
+            score: "1"
+            active: true
       - id: football-2579901
         competition: "Copa Sudamericana"
         state: live
-        stateLabel: "59'"
+        stateLabel: "72'"
         teams:
           - name: "Boca Juniors"
             score: "1"
@@ -55,16 +56,17 @@ sports:
       - id: football-2545957
         competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "82'"
+        stateLabel: "Live"
         teams:
           - name: "INCA-Aruba"
-            score: "0"
+            score: "1"
+            active: true
           - name: "Atlético Balboa"
             score: "0"
       - id: football-2574826
         competition: "USL Cup"
         state: live
-        stateLabel: "58'"
+        stateLabel: "71'"
         teams:
           - name: "San Antonio"
             score: "0"
