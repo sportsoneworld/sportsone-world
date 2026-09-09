@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 14:55 IST"
+updated: "09 Sep 2026, 15:08 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,35 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2580339
+        competition: "Australia Cup"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Sydney FC"
+            score: "0"
+          - name: "Melbourne Victory"
+            score: "1"
+            active: true
       - id: football-2598465
         competition: "FA Cup"
         state: live
-        stateLabel: "Live"
+        stateLabel: "47'"
         teams:
           - name: "Penang"
             score: "0"
           - name: "Melaka"
             score: "1"
             active: true
+      - id: football-2504167
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Reilac Shiga"
+            score: "0"
+          - name: "Tokyo Verdy"
+            score: "0"
       - id: football-2407053
         competition: "American Major League Soccer"
         state: upcoming
@@ -62,26 +81,6 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "New England Revolution"
-            score: "–"
-      - id: football-2407059
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:30"
-        teams:
-          - name: "Chicago Fire"
-            score: "–"
-            detail: "00:30"
-          - name: "Inter Miami"
-            score: "–"
-      - id: football-2407060
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:30"
-        teams:
-          - name: "Minnesota United"
-            score: "–"
-            detail: "00:30"
-          - name: "FC Dallas"
             score: "–"
 
   - name: Cricket
