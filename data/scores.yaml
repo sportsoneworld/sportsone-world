@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 19:21 IST"
+updated: "09 Sep 2026, 22:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523500
-        competition: "Armenian Premier League"
+      - id: football-2525273
+        competition: "Bosnian Premier Liga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "68'"
         teams:
-          - name: "Sardarapat"
-            score: "2"
-          - name: "Pyunik Yerevan"
-            score: "4"
-            active: true
-      - id: football-2580039
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "61'"
-        teams:
-          - name: "Şahdağ Qusar"
-            score: "2"
-            active: true
-          - name: "Karvan"
-            score: "0"
-      - id: football-2595657
-        competition: "Bhutan Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "BFF Academy"
-            score: "0"
-          - name: "Transport United"
-            score: "5"
-            active: true
-      - id: football-2598466
-        competition: "FA Cup"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "Kuala Lumpur City"
-            score: "0"
-          - name: "Perak"
-            score: "0"
-      - id: football-2598470
-        competition: "FA Cup"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "DPMM"
-            score: "2"
-          - name: "Terengganu"
-            score: "2"
-      - id: football-2598468
-        competition: "FA Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Selangor"
+          - name: "Željezničar Sarajevo"
             score: "1"
             active: true
-          - name: "Sabah"
+          - name: "FK Sarajevo"
             score: "0"
+      - id: football-2499481
+        competition: "Bulgarian Supercup"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Levski Sofia"
+            score: "2"
+          - name: "CSKA Sofia"
+            score: "4"
+            active: true
+      - id: football-2497762
+        competition: "Czech First League"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Hradec Králové"
+            score: "0"
+          - name: "Viktoria Plzeň"
+            score: "0"
+      - id: football-2595364
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Kolding"
+            score: "0"
+          - name: "Odense BK"
+            score: "0"
+      - id: football-2595362
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Nykøbing"
+            score: "0"
+          - name: "Middelfart"
+            score: "1"
+            active: true
+      - id: football-2595369
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "VSK Aarhus"
+            score: "0"
+          - name: "Lyngby"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
