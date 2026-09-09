@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 15:34 IST"
+updated: "09 Sep 2026, 15:55 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,7 +26,7 @@ sports:
       - id: football-2580339
         competition: "Australia Cup"
         state: live
-        stateLabel: "31'"
+        stateLabel: "Live"
         teams:
           - name: "Sydney FC"
             score: "0"
@@ -36,50 +36,49 @@ sports:
       - id: football-2598465
         competition: "FA Cup"
         state: live
-        stateLabel: "73'"
+        stateLabel: "Live"
         teams:
           - name: "Penang"
-            score: "0"
+            score: "1"
           - name: "Melaka"
+            score: "1"
+      - id: football-2491617
+        competition: "Japanese J3 League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "FC Ryukyu"
+            score: "0"
+          - name: "Giravanz Kitakyushu"
+            score: "0"
+      - id: football-2504171
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Fukushima United"
+            score: "0"
+          - name: "Vegalta Sendai"
+            score: "0"
+      - id: football-2504170
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Kamatamare Sanuki"
+            score: "0"
+          - name: "JEF United Chiba"
             score: "1"
             active: true
       - id: football-2504173
         competition: "Japanese JLeague Cup"
         state: live
-        stateLabel: "1'"
+        stateLabel: "21'"
         teams:
           - name: "Kochi United"
             score: "0"
           - name: "V-Varen Nagasaki"
             score: "0"
-      - id: football-2504169
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Tochigi SC"
-            score: "0"
-          - name: "Montedio Yamagata"
-            score: "0"
-      - id: football-2504167
-        competition: "Japanese JLeague Cup"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Reilac Shiga"
-            score: "0"
-          - name: "Tokyo Verdy"
-            score: "0"
-      - id: football-2407053
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "23:45"
-        teams:
-          - name: "Philadelphia Union"
-            score: "–"
-            detail: "23:45"
-          - name: "FC Cincinnati"
-            score: "–"
 
   - name: Cricket
     matches:
