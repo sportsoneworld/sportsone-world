@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 19:09 IST"
+updated: "09 Sep 2026, 19:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -26,17 +26,17 @@ sports:
       - id: football-2523500
         competition: "Armenian Premier League"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
           - name: "Sardarapat"
-            score: "1"
+            score: "2"
           - name: "Pyunik Yerevan"
-            score: "3"
+            score: "4"
             active: true
       - id: football-2580039
         competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "48'"
+        stateLabel: "61'"
         teams:
           - name: "Şahdağ Qusar"
             score: "2"
@@ -46,27 +46,17 @@ sports:
       - id: football-2595657
         competition: "Bhutan Premier League"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
           - name: "BFF Academy"
             score: "0"
           - name: "Transport United"
             score: "5"
             active: true
-      - id: football-2598468
-        competition: "FA Cup"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Selangor"
-            score: "1"
-            active: true
-          - name: "Sabah"
-            score: "0"
       - id: football-2598466
         competition: "FA Cup"
         state: live
-        stateLabel: "60'"
+        stateLabel: "73'"
         teams:
           - name: "Kuala Lumpur City"
             score: "0"
@@ -75,12 +65,22 @@ sports:
       - id: football-2598470
         competition: "FA Cup"
         state: live
-        stateLabel: "61'"
+        stateLabel: "74'"
         teams:
           - name: "DPMM"
             score: "2"
           - name: "Terengganu"
             score: "2"
+      - id: football-2598468
+        competition: "FA Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Selangor"
+            score: "1"
+            active: true
+          - name: "Sabah"
+            score: "0"
 
   - name: Cricket
     matches:
