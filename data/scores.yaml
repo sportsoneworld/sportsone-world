@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Sep 2026, 01:24 IST"
+updated: "10 Sep 2026, 03:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2404928
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2421995
+        competition: "Chile Primera B"
         state: live
-        stateLabel: "66'"
+        stateLabel: "46'"
         teams:
-          - name: "Defensores de Belgrano"
+          - name: "Deportes Recoleta"
             score: "0"
-          - name: "Los Andes"
+          - name: "San Marcos de Arica"
             score: "1"
             active: true
-      - id: football-2585517
-        competition: "Copa AUF Uruguay"
+      - id: football-2481417
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "Live"
+        stateLabel: "77'"
         teams:
-          - name: "Boston River"
-            score: "2"
-            active: true
-          - name: "Colón FC"
+          - name: "Independiente Yumbo"
             score: "0"
-      - id: football-2585516
-        competition: "Copa AUF Uruguay"
+          - name: "Deportes Quindío"
+            score: "0"
+      - id: football-2592824
+        competition: "Copa Argentina"
         state: live
-        stateLabel: "Live"
+        stateLabel: "4'"
         teams:
-          - name: "Racing Montevideo"
-            score: "2"
-          - name: "Central Español"
-            score: "4"
-            active: true
-      - id: football-2498002
+          - name: "Deportivo Riestra"
+            score: "0"
+          - name: "Banfield"
+            score: "0"
+      - id: football-2600653
+        competition: "Copa Libertadores"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Palmeiras"
+            score: "0"
+          - name: "LDU Quito"
+            score: "0"
+      - id: football-2600655
+        competition: "Copa Sudamericana"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Santos"
+            score: "0"
+          - name: "Atlético Mineiro"
+            score: "0"
+      - id: football-2497999
         competition: "Copa Venezuela"
         state: live
-        stateLabel: "23'"
+        stateLabel: "35'"
         teams:
-          - name: "Atlético Barinas"
+          - name: "Barquisimeto"
             score: "0"
-          - name: "Atlético El Vigía"
-            score: "0"
-      - id: football-2497997
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Real Frontera"
-            score: "0"
-          - name: "Zamora FC"
-            score: "0"
-      - id: football-2595370
-        competition: "Denmark DBU Pokalen"
-        state: live
-        stateLabel: "127'"
-        teams:
-          - name: "Vanløse"
+          - name: "Caracas"
             score: "2"
             active: true
-          - name: "Hillerød"
-            score: "1"
 
   - name: Cricket
     matches:
