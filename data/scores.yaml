@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Sep 2026, 08:07 IST"
+updated: "09 Sep 2026, 08:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,6 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431429
-        competition: "Brazilian Serie B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Criciúma"
-            score: "0"
-          - name: "Juventude"
-            score: "2"
-            active: true
       - id: football-2481416
         competition: "Colombian Categoría Primera B"
         state: completed
@@ -53,16 +43,6 @@ sports:
             active: true
           - name: "São Paulo"
             score: "0"
-      - id: football-2545957
-        competition: "El Salvador Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "INCA-Aruba"
-            score: "1"
-            active: true
-          - name: "Atlético Balboa"
-            score: "0"
       - id: football-2574826
         competition: "USL Cup"
         state: completed
@@ -81,6 +61,26 @@ sports:
             score: "–"
             detail: "23:45"
           - name: "FC Cincinnati"
+            score: "–"
+      - id: football-2407054
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Atlanta United"
+            score: "–"
+            detail: "23:30"
+          - name: "Orlando City"
+            score: "–"
+      - id: football-2407057
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "New York City FC"
+            score: "–"
+            detail: "00:00"
+          - name: "New England Revolution"
             score: "–"
 
   - name: Cricket
