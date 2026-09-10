@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Sep 2026, 19:04 IST"
+updated: "10 Sep 2026, 22:41 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580040
-        competition: "Azerbaijan First Division"
+      - id: football-2570541
+        competition: "Bahrain Premier League"
         state: live
-        stateLabel: "8'"
+        stateLabel: "49'"
         teams:
-          - name: "Cəbrayıl"
+          - name: "Al-Riffa"
             score: "0"
-          - name: "Xankəndi"
+          - name: "Khalidiya"
             score: "0"
-      - id: football-2580038
-        competition: "Azerbaijan First Division"
+      - id: football-2570542
+        competition: "Bahrain Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "50'"
         teams:
-          - name: "Zaqatala"
-            score: "0"
-          - name: "Baku Sportinq"
-            score: "0"
-      - id: football-2580036
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Səbail"
-            score: "2"
-            active: true
-          - name: "Mingəçevir"
-            score: "0"
-      - id: football-2598898
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "North Korea U20 Women"
+          - name: "Al-Muharraq"
             score: "1"
             active: true
-          - name: "Costa Rica U20 Women"
+          - name: "Manama Club"
             score: "0"
-      - id: football-2598897
-        competition: "FIFA U20 Womens World Cup"
+      - id: football-2595373
+        competition: "Denmark DBU Pokalen"
         state: live
-        stateLabel: "34'"
+        stateLabel: "54'"
         teams:
-          - name: "Spain U20 Women"
-            score: "3"
-            active: true
-          - name: "New Caledonia U20 Women"
+          - name: "Sundby"
             score: "0"
-      - id: football-2440617
-        competition: "Georgian Liga 3"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Betlemi Keda"
-            score: "0"
-          - name: "Margveti 2006 Zestaponi"
+          - name: "FC Midtjylland"
             score: "5"
             active: true
+      - id: football-2429187
+        competition: "Estonian Esiliiga"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "Levadia U21 Tallinn"
+            score: "0"
+          - name: "Tartu Welco"
+            score: "0"
+      - id: football-2429188
+        competition: "Estonian Esiliiga"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Viimsi"
+            score: "3"
+            active: true
+          - name: "Elva"
+            score: "0"
+      - id: football-2429184
+        competition: "Estonian Esiliiga"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "FC Tallinn"
+            score: "4"
+            active: true
+          - name: "Maardu Linnameeskond"
+            score: "2"
 
   - name: Cricket
     matches:
