@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Sep 2026, 03:36 IST"
+updated: "10 Sep 2026, 05:41 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,75 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2421995
-        competition: "Chile Primera B"
+      - id: football-2407053
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "46'"
+        stateLabel: "16'"
         teams:
-          - name: "Deportes Recoleta"
+          - name: "Philadelphia Union"
             score: "0"
-          - name: "San Marcos de Arica"
+          - name: "FC Cincinnati"
+            score: "0"
+      - id: football-2407056
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "DC United"
             score: "1"
             active: true
-      - id: football-2481417
-        competition: "Colombian Categoría Primera B"
+          - name: "Columbus Crew"
+            score: "0"
+      - id: football-2407054
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "77'"
+        stateLabel: "32'"
         teams:
-          - name: "Independiente Yumbo"
-            score: "0"
-          - name: "Deportes Quindío"
-            score: "0"
-      - id: football-2592824
-        competition: "Copa Argentina"
+          - name: "Atlanta United"
+            score: "1"
+          - name: "Orlando City"
+            score: "1"
+      - id: football-2407055
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "4'"
+        stateLabel: "32'"
         teams:
-          - name: "Deportivo Riestra"
+          - name: "Toronto FC"
             score: "0"
-          - name: "Banfield"
-            score: "0"
-      - id: football-2600653
-        competition: "Copa Libertadores"
-        state: live
-        stateLabel: "6'"
-        teams:
-          - name: "Palmeiras"
-            score: "0"
-          - name: "LDU Quito"
-            score: "0"
-      - id: football-2600655
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "6'"
-        teams:
-          - name: "Santos"
-            score: "0"
-          - name: "Atlético Mineiro"
-            score: "0"
-      - id: football-2497999
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "Barquisimeto"
-            score: "0"
-          - name: "Caracas"
-            score: "2"
+          - name: "Nashville SC"
+            score: "1"
             active: true
+      - id: football-2407058
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "32'"
+        teams:
+          - name: "CF Montréal"
+            score: "0"
+          - name: "Charlotte FC"
+            score: "0"
+      - id: football-2431432
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "Operário Ferroviário"
+            score: "0"
+          - name: "CRB"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578489
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Guyana Amazon Warriors"
-            score: "–"
-            detail: "23:00"
-          - name: "Saint Lucia Kings"
-            score: "–"
       - id: cricket-2578490
         competition: "Caribbean Premier League"
         state: upcoming
