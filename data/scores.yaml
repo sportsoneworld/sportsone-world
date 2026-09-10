@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Sep 2026, 05:41 IST"
+updated: "10 Sep 2026, 10:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407053
+      - id: football-2407066
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "16'"
+        stateLabel: "Live"
         teams:
-          - name: "Philadelphia Union"
-            score: "0"
-          - name: "FC Cincinnati"
-            score: "0"
-      - id: football-2407056
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "DC United"
+          - name: "San Diego FC"
             score: "1"
+          - name: "San Jose Earthquakes"
+            score: "3"
             active: true
-          - name: "Columbus Crew"
-            score: "0"
-      - id: football-2407054
+      - id: football-2407067
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
-          - name: "Atlanta United"
-            score: "1"
-          - name: "Orlando City"
-            score: "1"
-      - id: football-2407055
+          - name: "Portland Timbers"
+            score: "2"
+          - name: "St. Louis City SC"
+            score: "2"
+      - id: football-2407063
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
-          - name: "Toronto FC"
-            score: "0"
-          - name: "Nashville SC"
-            score: "1"
+          - name: "Los Angeles FC"
+            score: "2"
             active: true
-      - id: football-2407058
+          - name: "New York Red Bulls"
+            score: "0"
+      - id: football-2595375
+        competition: "CONCACAF Central American Cup"
+        state: live
+        stateLabel: "74'"
+        teams:
+          - name: "Motagua"
+            score: "2"
+            active: true
+          - name: "Alianza FC"
+            score: "0"
+      - id: football-2407064
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "32'"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "CF Montréal"
+          - name: "Vancouver Whitecaps"
+            score: "3"
+            active: true
+          - name: "LA Galaxy"
             score: "0"
-          - name: "Charlotte FC"
-            score: "0"
-      - id: football-2431432
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "39'"
+      - id: football-2407057
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Operário Ferroviário"
-            score: "0"
-          - name: "CRB"
-            score: "0"
+          - name: "New York City FC"
+            score: "1"
+          - name: "New England Revolution"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
