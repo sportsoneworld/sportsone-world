@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Sep 2026, 14:40 IST"
+updated: "10 Sep 2026, 19:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2595658
-        competition: "Bhutan Premier League"
+      - id: football-2580040
+        competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "11'"
+        stateLabel: "8'"
         teams:
-          - name: "Royal Thimphu College"
+          - name: "Cəbrayıl"
             score: "0"
-          - name: "Thimphu City"
+          - name: "Xankəndi"
             score: "0"
-      - id: football-2598291
-        competition: "UEFA Youth League"
+      - id: football-2580038
+        competition: "Azerbaijan First Division"
         state: live
-        stateLabel: "79'"
+        stateLabel: "Live"
         teams:
-          - name: "Barcelona Youth"
-            score: "1"
-          - name: "Feyenoord Academy"
+          - name: "Zaqatala"
+            score: "0"
+          - name: "Baku Sportinq"
+            score: "0"
+      - id: football-2580036
+        competition: "Azerbaijan First Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Səbail"
             score: "2"
             active: true
-      - id: football-2407057
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Mingəçevir"
+            score: "0"
+      - id: football-2598898
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "34'"
         teams:
-          - name: "New York City FC"
+          - name: "North Korea U20 Women"
             score: "1"
-          - name: "New England Revolution"
-            score: "2"
             active: true
-      - id: football-2407059
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Costa Rica U20 Women"
+            score: "0"
+      - id: football-2598897
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "34'"
         teams:
-          - name: "Chicago Fire"
-            score: "1"
-          - name: "Inter Miami"
-            score: "1"
-      - id: football-2407060
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Minnesota United"
-            score: "1"
-          - name: "FC Dallas"
-            score: "2"
+          - name: "Spain U20 Women"
+            score: "3"
             active: true
-      - id: football-2397314
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
+          - name: "New Caledonia U20 Women"
+            score: "0"
+      - id: football-2440617
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "72'"
         teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-            detail: "02:00"
-          - name: "San Antonio"
-            score: "–"
+          - name: "Betlemi Keda"
+            score: "0"
+          - name: "Margveti 2006 Zestaponi"
+            score: "5"
+            active: true
 
   - name: Cricket
     matches:
