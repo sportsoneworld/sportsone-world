@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 03:23 IST"
+updated: "11 Sep 2026, 05:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558881
-        competition: "Algerian Ligue 1"
+      - id: football-2408617
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "Live"
+        stateLabel: "74'"
         teams:
-          - name: "USM Alger"
+          - name: "Mercedes"
+            score: "1"
+          - name: "Deportivo Español"
+            score: "1"
+      - id: football-2431435
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Vila Nova"
+            score: "0"
+          - name: "Goiás"
+            score: "0"
+      - id: football-2451038
+        competition: "Canadian Northern Super League"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Roses de Montréal"
+            score: "1"
+            active: true
+          - name: "AFC Toronto"
+            score: "0"
+      - id: football-2421989
+        competition: "Chile Primera B"
+        state: live
+        stateLabel: "33'"
+        teams:
+          - name: "Deportes Antofagasta"
+            score: "0"
+          - name: "Cobreloa"
+            score: "0"
+      - id: football-2481408
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "76'"
+        teams:
+          - name: "Orsomarso"
+            score: "0"
+          - name: "Tigres FC"
             score: "2"
             active: true
-          - name: "JS El Biar"
-            score: "0"
-      - id: football-2583281
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "San Antonio FC"
-            score: "0"
-          - name: "Atlético FC"
-            score: "1"
-            active: true
-      - id: football-2595416
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "59'"
-        teams:
-          - name: "Cumbayá"
-            score: "0"
-          - name: "Gualaceo"
-            score: "0"
-      - id: football-2497256
-        competition: "Guatemala Liga Nacional"
+      - id: football-2481403
+        competition: "Colombian Categoría Primera B"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Aurora FC"
-            score: "0"
-          - name: "Municipal"
-            score: "1"
-            active: true
-      - id: football-2600503
-        competition: "Nicaragua Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Sébaco"
-            score: "0"
-          - name: "Diriangén"
-            score: "1"
-            active: true
-      - id: football-2407057
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "New York City FC"
-            score: "1"
-          - name: "New England Revolution"
+          - name: "Patriotas Boyacá"
             score: "2"
             active: true
+          - name: "Barranquilla"
+            score: "0"
 
   - name: Cricket
     matches:
