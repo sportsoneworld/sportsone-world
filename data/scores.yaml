@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Sep 2026, 10:09 IST"
+updated: "10 Sep 2026, 14:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,55 +23,25 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407066
-        competition: "American Major League Soccer"
+      - id: football-2595658
+        competition: "Bhutan Premier League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "11'"
         teams:
-          - name: "San Diego FC"
+          - name: "Royal Thimphu College"
+            score: "0"
+          - name: "Thimphu City"
+            score: "0"
+      - id: football-2598291
+        competition: "UEFA Youth League"
+        state: live
+        stateLabel: "79'"
+        teams:
+          - name: "Barcelona Youth"
             score: "1"
-          - name: "San Jose Earthquakes"
-            score: "3"
-            active: true
-      - id: football-2407067
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Portland Timbers"
-            score: "2"
-          - name: "St. Louis City SC"
-            score: "2"
-      - id: football-2407063
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Los Angeles FC"
+          - name: "Feyenoord Academy"
             score: "2"
             active: true
-          - name: "New York Red Bulls"
-            score: "0"
-      - id: football-2595375
-        competition: "CONCACAF Central American Cup"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Motagua"
-            score: "2"
-            active: true
-          - name: "Alianza FC"
-            score: "0"
-      - id: football-2407064
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Vancouver Whitecaps"
-            score: "3"
-            active: true
-          - name: "LA Galaxy"
-            score: "0"
       - id: football-2407057
         competition: "American Major League Soccer"
         state: completed
@@ -82,6 +52,35 @@ sports:
           - name: "New England Revolution"
             score: "2"
             active: true
+      - id: football-2407059
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Chicago Fire"
+            score: "1"
+          - name: "Inter Miami"
+            score: "1"
+      - id: football-2407060
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Minnesota United"
+            score: "1"
+          - name: "FC Dallas"
+            score: "2"
+            active: true
+      - id: football-2397314
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
+        teams:
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+            detail: "02:00"
+          - name: "San Antonio"
+            score: "–"
 
   - name: Cricket
     matches:
