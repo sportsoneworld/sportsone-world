@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 01:10 IST"
+updated: "11 Sep 2026, 03:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558886
+      - id: football-2558881
         competition: "Algerian Ligue 1"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "ES Ben Aknoun"
-            score: "1"
-          - name: "US Biskra"
-            score: "2"
-            active: true
-      - id: football-2585519
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Cerro"
-            score: "0"
-          - name: "Cerrito"
-            score: "1"
-            active: true
-      - id: football-2500763
-        competition: "English League 1"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Stevenage"
-            score: "1"
-            active: true
-          - name: "Luton Town"
-            score: "0"
-      - id: football-2508567
-        competition: "French Ligue 3"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Cannes"
-            score: "0"
-          - name: "Amiens"
-            score: "0"
-      - id: football-2539921
-        competition: "Greek Super League 1"
-        state: live
-        stateLabel: "62'"
-        teams:
-          - name: "Panathinaikos"
-            score: "1"
-            active: true
-          - name: "Kifisia"
-            score: "0"
-      - id: football-2496061
-        competition: "Montenegrin First League"
-        state: live
-        stateLabel: "80'"
-        teams:
-          - name: "Bokelj"
+          - name: "USM Alger"
             score: "2"
             active: true
-          - name: "Otrant-Olympic"
+          - name: "JS El Biar"
+            score: "0"
+      - id: football-2583281
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "58'"
+        teams:
+          - name: "San Antonio FC"
+            score: "0"
+          - name: "Atlético FC"
             score: "1"
+            active: true
+      - id: football-2595416
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Cumbayá"
+            score: "0"
+          - name: "Gualaceo"
+            score: "0"
+      - id: football-2497256
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Aurora FC"
+            score: "0"
+          - name: "Municipal"
+            score: "1"
+            active: true
+      - id: football-2600503
+        competition: "Nicaragua Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Sébaco"
+            score: "0"
+          - name: "Diriangén"
+            score: "1"
+            active: true
+      - id: football-2407057
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "New York City FC"
+            score: "1"
+          - name: "New England Revolution"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
