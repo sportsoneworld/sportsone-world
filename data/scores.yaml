@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 00:00 IST"
+updated: "12 Sep 2026, 02:47 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558880
+      - id: football-2558879
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "29'"
+        stateLabel: "59'"
         teams:
-          - name: "MC Oran"
+          - name: "CR Belouizdad"
             score: "0"
-          - name: "CR Témouchent"
+          - name: "ES Sétif"
             score: "0"
-      - id: football-2499737
-        competition: "Austrian Bundesliga"
+      - id: football-2398082
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "45'"
+        stateLabel: "55'"
         teams:
-          - name: "SV Ried"
+          - name: "Newell's Old Boys"
             score: "0"
-          - name: "Red Bull Salzburg"
-            score: "0"
-      - id: football-2505266
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "SKU Amstetten"
-            score: "4"
-            active: true
-          - name: "Young Violets Austria Wien"
-            score: "2"
-      - id: football-2514311
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "67'"
-        teams:
-          - name: "Donau Wien"
+          - name: "Vélez Sarsfield"
             score: "1"
             active: true
-          - name: "Favoritner AC"
+      - id: football-2583282
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Cuenca Juniors"
             score: "0"
-      - id: football-2514304
-        competition: "Austrian Regionalliga Ost"
+          - name: "Vinotinto Ecuador"
+            score: "2"
+            active: true
+      - id: football-2481685
+        competition: "Peruvian Primera Division"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Universidad Técnica de Cajamarca"
+            score: "1"
+          - name: "Juan Pablo II College"
+            score: "1"
+      - id: football-2512971
+        competition: "Portuguese LigaPro"
         state: live
         stateLabel: "74'"
         teams:
-          - name: "Marchfeld Donauauen"
-            score: "2"
-            active: true
-          - name: "Horn"
-            score: "1"
-      - id: football-2514305
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Parndorf"
-            score: "1"
-          - name: "Traiskirchen"
+          - name: "Académica de Coimbra"
+            score: "0"
+          - name: "Benfica B"
             score: "3"
             active: true
+      - id: football-2582800
+        competition: "Spanish Primera Federación Group 2"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Gimnàstic"
+            score: "4"
+            active: true
+          - name: "Algeciras"
+            score: "2"
 
   - name: Cricket
     matches:
