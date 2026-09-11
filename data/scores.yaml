@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 02:47 IST"
+updated: "12 Sep 2026, 04:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558879
-        competition: "Algerian Ligue 1"
+      - id: football-2419911
+        competition: "American NWSL"
         state: live
-        stateLabel: "59'"
+        stateLabel: "45'"
         teams:
-          - name: "CR Belouizdad"
-            score: "0"
-          - name: "ES Sétif"
-            score: "0"
-      - id: football-2398082
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "55'"
-        teams:
-          - name: "Newell's Old Boys"
-            score: "0"
-          - name: "Vélez Sarsfield"
+          - name: "Racing Louisville"
             score: "1"
-            active: true
-      - id: football-2583282
-        competition: "Ecuadorian Serie B"
+          - name: "NJ/NY Gotham"
+            score: "1"
+      - id: football-2397640
+        competition: "American USL League One"
         state: live
-        stateLabel: "86'"
+        stateLabel: "15'"
         teams:
-          - name: "Cuenca Juniors"
+          - name: "One Knoxville"
             score: "0"
-          - name: "Vinotinto Ecuador"
+          - name: "FC Naples"
+            score: "0"
+      - id: football-2406533
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Argentino de Merlo"
+            score: "0"
+          - name: "Real Pilar"
+            score: "0"
+      - id: football-2406541
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "Ituzaingó"
             score: "2"
-            active: true
-      - id: football-2481685
-        competition: "Peruvian Primera Division"
+          - name: "Club Comunicaciones"
+            score: "2"
+      - id: football-2398075
+        competition: "Argentinian Primera Division"
         state: live
         stateLabel: "50'"
         teams:
-          - name: "Universidad Técnica de Cajamarca"
+          - name: "Defensa y Justicia"
             score: "1"
-          - name: "Juan Pablo II College"
-            score: "1"
-      - id: football-2512971
-        competition: "Portuguese LigaPro"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Académica de Coimbra"
+            active: true
+          - name: "Gimnasia y Esgrima de Mendoza"
             score: "0"
-          - name: "Benfica B"
-            score: "3"
-            active: true
-      - id: football-2582800
-        competition: "Spanish Primera Federación Group 2"
+      - id: football-2566614
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
-          - name: "Gimnàstic"
-            score: "4"
-            active: true
-          - name: "Algeciras"
+          - name: "San Antonio Bulo Bulo"
+            score: "0"
+          - name: "Aurora"
             score: "2"
+            active: true
 
   - name: Cricket
     matches:
