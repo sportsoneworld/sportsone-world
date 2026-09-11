@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 17:06 IST"
+updated: "11 Sep 2026, 20:41 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2483285
-        competition: "ASEAN Club Championship"
+      - id: football-2523522
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "6'"
+        stateLabel: "9'"
         teams:
-          - name: "Ezra"
+          - name: "Ararat-Armenia"
             score: "0"
-          - name: "Shan United"
+          - name: "Syunik"
             score: "0"
-      - id: football-2600591
-        competition: "Australia South Australia NPL"
+      - id: football-2452164
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "78'"
+        stateLabel: "85'"
         teams:
-          - name: "Adelaide City"
+          - name: "Dinamo-2 Minsk"
+            score: "0"
+          - name: "Orsha"
+            score: "0"
+      - id: football-2568542
+        competition: "CAF Champions League"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "SOBEMAP"
+            score: "0"
+          - name: "Rangers International"
             score: "1"
-          - name: "West Torrens Birkalla"
+            active: true
+      - id: football-2532756
+        competition: "Croatian Druga HNL"
+        state: live
+        stateLabel: "85'"
+        teams:
+          - name: "Opatija"
             score: "2"
             active: true
-      - id: football-2492841
-        competition: "Japanese J1 League"
+          - name: "BSK Bijelo Brdo"
+            score: "1"
+      - id: football-2540968
+        competition: "Croatian Second Football League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "40'"
         teams:
-          - name: "Kyoto Sanga"
+          - name: "Uljanik Pula"
             score: "2"
-          - name: "Kashiwa Reysol"
-            score: "3"
             active: true
-      - id: football-2492848
-        competition: "Japanese J1 League"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Vissel Kobe"
+          - name: "Lučko"
             score: "1"
-          - name: "Kashima Antlers"
-            score: "1"
-      - id: football-2452406
-        competition: "Kazakhstan First League"
+      - id: football-2519383
+        competition: "Czech National Football League"
         state: live
-        stateLabel: "34'"
+        stateLabel: "10'"
         teams:
-          - name: "Ekibastuz"
+          - name: "Třinec"
             score: "0"
-          - name: "Tobol-M"
-            score: "1"
-            active: true
-      - id: football-2430191
-        competition: "Korean K3 League"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Daejeon Korail"
-            score: "0"
-          - name: "Ulsan Citizen"
+          - name: "Karviná"
             score: "1"
             active: true
 
