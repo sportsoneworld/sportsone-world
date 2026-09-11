@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 05:03 IST"
+updated: "11 Sep 2026, 06:57 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,76 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2408617
-        competition: "Argentinian Primera C"
+      - id: football-2431433
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "74'"
+        stateLabel: "77'"
         teams:
-          - name: "Mercedes"
+          - name: "São Bernardo"
             score: "1"
-          - name: "Deportivo Español"
-            score: "1"
-      - id: football-2431435
+          - name: "Londrina"
+            score: "2"
+            active: true
+      - id: football-2431434
         competition: "Brazilian Serie B"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Vila Nova"
+          - name: "Sport Recife"
+            score: "2"
+            active: true
+          - name: "Ponte Preta"
             score: "0"
-          - name: "Goiás"
-            score: "0"
-      - id: football-2451038
-        competition: "Canadian Northern Super League"
+      - id: football-2595376
+        competition: "CONCACAF Central American Cup"
         state: live
-        stateLabel: "24'"
+        stateLabel: "20'"
         teams:
-          - name: "Roses de Montréal"
+          - name: "Marathón"
             score: "1"
-            active: true
-          - name: "AFC Toronto"
-            score: "0"
-      - id: football-2421989
-        competition: "Chile Primera B"
+          - name: "Alajuelense"
+            score: "1"
+      - id: football-2481126
+        competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "33'"
+        stateLabel: "26'"
         teams:
-          - name: "Deportes Antofagasta"
+          - name: "Millonarios"
             score: "0"
-          - name: "Cobreloa"
+          - name: "Deportivo Cali"
             score: "0"
-      - id: football-2481408
-        competition: "Colombian Categoría Primera B"
+      - id: football-2592843
+        competition: "Copa Libertadores"
         state: live
-        stateLabel: "76'"
+        stateLabel: "45'"
         teams:
-          - name: "Orsomarso"
+          - name: "Independiente del Valle"
             score: "0"
-          - name: "Tigres FC"
+          - name: "Flamengo"
+            score: "0"
+      - id: football-2600656
+        competition: "Copa Sudamericana"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Cienciano"
             score: "2"
             active: true
-      - id: football-2481403
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Patriotas Boyacá"
-            score: "2"
-            active: true
-          - name: "Barranquilla"
+          - name: "Montevideo City Torque"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578490
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Barbados Tridents"
-            score: "–"
-            detail: "23:00"
-          - name: "St Kitts and Nevis Patriots"
-            score: "–"
       - id: cricket-2578491
         competition: "Caribbean Premier League"
         state: upcoming
@@ -102,4 +92,14 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Trinbago Knight Riders"
+            score: "–"
+      - id: cricket-2578492
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Barbados Tridents"
+            score: "–"
+            detail: "00:00"
+          - name: "Jamaica Kingsmen"
             score: "–"
