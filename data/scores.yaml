@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 20:41 IST"
+updated: "12 Sep 2026, 00:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523522
-        competition: "Armenian Premier League"
+      - id: football-2558880
+        competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "9'"
+        stateLabel: "29'"
         teams:
-          - name: "Ararat-Armenia"
+          - name: "MC Oran"
             score: "0"
-          - name: "Syunik"
+          - name: "CR Témouchent"
             score: "0"
-      - id: football-2452164
-        competition: "Belarusian First League"
+      - id: football-2499737
+        competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "85'"
+        stateLabel: "45'"
         teams:
-          - name: "Dinamo-2 Minsk"
+          - name: "SV Ried"
             score: "0"
-          - name: "Orsha"
+          - name: "Red Bull Salzburg"
             score: "0"
-      - id: football-2568542
-        competition: "CAF Champions League"
+      - id: football-2505266
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "55'"
+        stateLabel: "Live"
         teams:
-          - name: "SOBEMAP"
-            score: "0"
-          - name: "Rangers International"
+          - name: "SKU Amstetten"
+            score: "4"
+            active: true
+          - name: "Young Violets Austria Wien"
+            score: "2"
+      - id: football-2514311
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "67'"
+        teams:
+          - name: "Donau Wien"
             score: "1"
             active: true
-      - id: football-2532756
-        competition: "Croatian Druga HNL"
+          - name: "Favoritner AC"
+            score: "0"
+      - id: football-2514304
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "85'"
+        stateLabel: "74'"
         teams:
-          - name: "Opatija"
+          - name: "Marchfeld Donauauen"
             score: "2"
             active: true
-          - name: "BSK Bijelo Brdo"
+          - name: "Horn"
             score: "1"
-      - id: football-2540968
-        competition: "Croatian Second Football League"
+      - id: football-2514305
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "40'"
+        stateLabel: "75'"
         teams:
-          - name: "Uljanik Pula"
-            score: "2"
-            active: true
-          - name: "Lučko"
+          - name: "Parndorf"
             score: "1"
-      - id: football-2519383
-        competition: "Czech National Football League"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "Třinec"
-            score: "0"
-          - name: "Karviná"
-            score: "1"
+          - name: "Traiskirchen"
+            score: "3"
             active: true
 
   - name: Cricket
