@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 11:53 IST"
+updated: "11 Sep 2026, 17:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397314
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
+      - id: football-2483285
+        competition: "ASEAN Club Championship"
+        state: live
+        stateLabel: "6'"
         teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-            detail: "02:00"
-          - name: "San Antonio"
-            score: "–"
-      - id: football-2397315
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Ezra"
+            score: "0"
+          - name: "Shan United"
+            score: "0"
+      - id: football-2600591
+        competition: "Australia South Australia NPL"
+        state: live
+        stateLabel: "78'"
         teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Miami FC"
-            score: "–"
-      - id: football-2397316
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Adelaide City"
+            score: "1"
+          - name: "West Torrens Birkalla"
+            score: "2"
+            active: true
+      - id: football-2492841
+        competition: "Japanese J1 League"
+        state: live
+        stateLabel: "75'"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Tampa Bay Rowdies"
-            score: "–"
-      - id: football-2397318
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
+          - name: "Kyoto Sanga"
+            score: "2"
+          - name: "Kashiwa Reysol"
+            score: "3"
+            active: true
+      - id: football-2492848
+        competition: "Japanese J1 League"
+        state: live
+        stateLabel: "77'"
         teams:
-          - name: "Oakland Roots"
-            score: "–"
-            detail: "02:00"
-          - name: "Lexington SC"
-            score: "–"
-      - id: football-2397319
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
+          - name: "Vissel Kobe"
+            score: "1"
+          - name: "Kashima Antlers"
+            score: "1"
+      - id: football-2452406
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "34'"
         teams:
-          - name: "Orange County SC"
-            score: "–"
-            detail: "02:00"
-          - name: "Las Vegas Lights"
-            score: "–"
-      - id: football-2397320
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
+          - name: "Ekibastuz"
+            score: "0"
+          - name: "Tobol-M"
+            score: "1"
+            active: true
+      - id: football-2430191
+        competition: "Korean K3 League"
+        state: live
+        stateLabel: "79'"
         teams:
-          - name: "Phoenix Rising"
-            score: "–"
-            detail: "02:00"
-          - name: "FC Tulsa"
-            score: "–"
+          - name: "Daejeon Korail"
+            score: "0"
+          - name: "Ulsan Citizen"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
