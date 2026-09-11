@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Sep 2026, 06:57 IST"
+updated: "11 Sep 2026, 11:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431433
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "77'"
+      - id: football-2397314
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
         teams:
-          - name: "São Bernardo"
-            score: "1"
-          - name: "Londrina"
-            score: "2"
-            active: true
-      - id: football-2431434
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "45'"
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+            detail: "02:00"
+          - name: "San Antonio"
+            score: "–"
+      - id: football-2397315
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Sport Recife"
-            score: "2"
-            active: true
-          - name: "Ponte Preta"
-            score: "0"
-      - id: football-2595376
-        competition: "CONCACAF Central American Cup"
-        state: live
-        stateLabel: "20'"
+          - name: "Brooklyn FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Miami FC"
+            score: "–"
+      - id: football-2397316
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Marathón"
-            score: "1"
-          - name: "Alajuelense"
-            score: "1"
-      - id: football-2481126
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "26'"
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "23:00"
+          - name: "Tampa Bay Rowdies"
+            score: "–"
+      - id: football-2397318
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
         teams:
-          - name: "Millonarios"
-            score: "0"
-          - name: "Deportivo Cali"
-            score: "0"
-      - id: football-2592843
-        competition: "Copa Libertadores"
-        state: live
-        stateLabel: "45'"
+          - name: "Oakland Roots"
+            score: "–"
+            detail: "02:00"
+          - name: "Lexington SC"
+            score: "–"
+      - id: football-2397319
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
         teams:
-          - name: "Independiente del Valle"
-            score: "0"
-          - name: "Flamengo"
-            score: "0"
-      - id: football-2600656
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "45'"
+          - name: "Orange County SC"
+            score: "–"
+            detail: "02:00"
+          - name: "Las Vegas Lights"
+            score: "–"
+      - id: football-2397320
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
         teams:
-          - name: "Cienciano"
-            score: "2"
-            active: true
-          - name: "Montevideo City Torque"
-            score: "0"
+          - name: "Phoenix Rising"
+            score: "–"
+            detail: "02:00"
+          - name: "FC Tulsa"
+            score: "–"
 
   - name: Cricket
     matches:
