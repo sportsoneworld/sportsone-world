@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 04:54 IST"
+updated: "12 Sep 2026, 06:48 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,75 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419911
+      - id: football-2419912
         competition: "American NWSL"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Racing Louisville"
-            score: "1"
-          - name: "NJ/NY Gotham"
-            score: "1"
-      - id: football-2397640
-        competition: "American USL League One"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "One Knoxville"
-            score: "0"
-          - name: "FC Naples"
-            score: "0"
-      - id: football-2406533
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Argentino de Merlo"
-            score: "0"
-          - name: "Real Pilar"
-            score: "0"
-      - id: football-2406541
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "Ituzaingó"
-            score: "2"
-          - name: "Club Comunicaciones"
-            score: "2"
-      - id: football-2398075
-        competition: "Argentinian Primera Division"
         state: live
         stateLabel: "50'"
         teams:
-          - name: "Defensa y Justicia"
+          - name: "Kansas City Current"
+            score: "0"
+          - name: "Orlando Pride"
             score: "1"
             active: true
-          - name: "Gimnasia y Esgrima de Mendoza"
+      - id: football-2397639
+        competition: "American USL League One"
+        state: live
+        stateLabel: "10'"
+        teams:
+          - name: "AC Boise"
             score: "0"
-      - id: football-2566614
+          - name: "New York Cosmos"
+            score: "0"
+      - id: football-2405073
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Gimnasia y Tiro"
+            score: "0"
+          - name: "Tristán Suárez"
+            score: "0"
+      - id: football-2398074
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Boca Juniors"
+            score: "2"
+            active: true
+          - name: "Central Córdoba de Santiago del Estero"
+            score: "0"
+      - id: football-2566615
         competition: "Bolivian Primera División"
         state: live
         stateLabel: "62'"
         teams:
-          - name: "San Antonio Bulo Bulo"
-            score: "0"
-          - name: "Aurora"
+          - name: "Real Potosí"
+            score: "1"
+          - name: "Oriente Petrolero"
+            score: "1"
+      - id: football-2398455
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Coritiba"
+            score: "1"
+          - name: "Athletico Paranaense"
             score: "2"
             active: true
 
   - name: Cricket
     matches:
-      - id: cricket-2578491
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Guyana Amazon Warriors"
-            score: "–"
-            detail: "23:00"
-          - name: "Trinbago Knight Riders"
-            score: "–"
       - id: cricket-2578492
         competition: "Caribbean Premier League"
         state: upcoming
