@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Sep 2026, 00:14 IST"
+updated: "13 Sep 2026, 04:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558885
-        competition: "Algerian Ligue 1"
+      - id: football-2419915
+        competition: "American NWSL"
+        state: live
+        stateLabel: "19'"
+        teams:
+          - name: "San Diego Wave"
+            score: "0"
+          - name: "North Carolina Courage"
+            score: "0"
+      - id: football-2397643
+        competition: "American USL League One"
         state: live
         stateLabel: "44'"
         teams:
-          - name: "MB Rouissat"
+          - name: "Forward Madison"
             score: "0"
-          - name: "Olympique Akbou"
-            score: "0"
-      - id: football-2572247
-        competition: "Andorran 1a Divisió"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Atlètic d'Escaldes"
-            score: "0"
-          - name: "Sporting d'Escaldes"
-            score: "0"
-      - id: football-2406535
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "41'"
-        teams:
-          - name: "Arsenal de Sarandí"
+          - name: "Sarasota Paradise"
             score: "1"
             active: true
-          - name: "UAI Urquiza"
-            score: "0"
-      - id: football-2406537
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2566617
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "42'"
+        stateLabel: "63'"
         teams:
-          - name: "Defensores Unidos"
-            score: "0"
-          - name: "Dock Sud"
-            score: "0"
-      - id: football-2406543
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "43'"
-        teams:
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-          - name: "Liniers"
-            score: "1"
+          - name: "The Strongest"
+            score: "3"
             active: true
-      - id: football-2406538
-        competition: "Argentina Primera B Metropolitana"
+          - name: "Real Oruro"
+            score: "0"
+      - id: football-2398459
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "44'"
+        stateLabel: "60'"
         teams:
-          - name: "Deportivo Armenio"
+          - name: "Palmeiras"
+            score: "2"
+            active: true
+          - name: "São Paulo"
             score: "0"
-          - name: "Sportivo Italiano"
+      - id: football-2598665
+        competition: "Brazilian Serie C"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Maringá"
             score: "0"
+          - name: "Santa Cruz"
+            score: "0"
+      - id: football-2481178
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "88'"
+        teams:
+          - name: "Internacional de Bogotá"
+            score: "3"
+            active: true
+          - name: "Llaneros"
+            score: "2"
 
   - name: Cricket
     matches:
