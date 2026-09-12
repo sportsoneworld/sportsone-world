@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 11:31 IST"
+updated: "12 Sep 2026, 16:11 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397314
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2600017
+        competition: "Australia Queensland NPL"
+        state: live
+        stateLabel: "83'"
         teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "2"
-            active: true
-          - name: "San Antonio"
-            score: "1"
-      - id: football-2548512
-        competition: "Mexican Liga Femenil"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Atlas Femenil"
-            score: "1"
-            active: true
-          - name: "Atlante Femenil"
+          - name: "Queensland Lions"
             score: "0"
-      - id: football-2487517
-        competition: "Mexican Primera League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Atlante"
+          - name: "Peninsula Power"
             score: "0"
-          - name: "Pachuca"
-            score: "3"
-            active: true
-      - id: football-2487516
-        competition: "Mexican Primera League"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2602807
+        competition: "Australia Western Australia NPL"
+        state: live
+        stateLabel: "21'"
         teams:
-          - name: "Tijuana"
+          - name: "Bayswater City"
             score: "0"
-          - name: "Querétaro"
+          - name: "Perth SC"
+            score: "0"
+      - id: football-2452161
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "SKA-1938 Minsk"
+            score: "0"
+          - name: "Smorgon"
             score: "1"
             active: true
-      - id: football-2456046
-        competition: "Russia FNL 2 Group 3"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2600030
+        competition: "China league Two"
+        state: live
+        stateLabel: "81'"
         teams:
-          - name: "SKA-Khabarovsk-2"
+          - name: "Hubei Istar"
+            score: "0"
+          - name: "Changchun Xidu"
             score: "1"
-          - name: "Metallurg Lipetsk"
-            score: "3"
             active: true
-      - id: football-2397315
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+      - id: football-2600031
+        competition: "China league Two"
+        state: live
+        stateLabel: "81'"
         teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Miami FC"
-            score: "–"
+          - name: "Tai'an Tiankuang"
+            score: "0"
+          - name: "Wuhan Three Towns B"
+            score: "0"
+      - id: football-2539452
+        competition: "Germany Women Bundesliga"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "RB Leipzig Women"
+            score: "1"
+            active: true
+          - name: "Nürnberg Women"
+            score: "0"
 
   - name: Cricket
     matches:
