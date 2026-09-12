@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 19:14 IST"
+updated: "12 Sep 2026, 22:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2604317
-        competition: "ASEAN Club Championship"
+      - id: football-2523521
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Urartu"
+            score: "0"
+          - name: "Noah"
+            score: "0"
+      - id: football-2499734
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "73'"
+        teams:
+          - name: "SCR Altach"
+            score: "1"
+          - name: "Grazer AK"
+            score: "2"
+            active: true
+      - id: football-2505264
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Blau-Weiß Linz"
+            score: "0"
+          - name: "Hertha Wels"
+            score: "1"
+            active: true
+      - id: football-2514306
+        competition: "Austrian Regionalliga Ost"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Kasuka"
+          - name: "Scheiblingkirchen-Warth"
             score: "1"
-          - name: "Manila Digger"
-            score: "2"
-            active: true
-      - id: football-2505269
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "12'"
-        teams:
-          - name: "Schwarz-Weiß Bregenz"
+          - name: "Gloggnitz"
             score: "1"
-            active: true
-          - name: "Floridsdorfer AC"
-            score: "0"
-      - id: football-2505267
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "13'"
-        teams:
-          - name: "Austria Salzburg"
-            score: "1"
-            active: true
-          - name: "Sturm Graz II"
-            score: "0"
-      - id: football-2546645
+      - id: football-2546646
         competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "12'"
+        stateLabel: "44'"
         teams:
-          - name: "Kəpəz"
+          - name: "Sumqayıt"
+            score: "1"
+            active: true
+          - name: "Şamaxı"
             score: "0"
-          - name: "Qəbələ"
-            score: "0"
-      - id: football-2437867
-        competition: "Belarus Vyscha Liga"
+      - id: football-2570545
+        competition: "Bahrain Premier League"
         state: live
-        stateLabel: "43'"
+        stateLabel: "28'"
         teams:
-          - name: "Arsenal Dzerzhinsk"
+          - name: "Al-Ahli Manama"
             score: "0"
-          - name: "Baranovichi"
-            score: "0"
-      - id: football-2452159
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "57'"
-        teams:
-          - name: "Slutsk"
-            score: "0"
-          - name: "Volna Pinsk"
+          - name: "Al-Ittifaq"
             score: "0"
 
   - name: Cricket
