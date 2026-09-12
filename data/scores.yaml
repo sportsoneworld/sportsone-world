@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 22:00 IST"
+updated: "13 Sep 2026, 00:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523521
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Urartu"
-            score: "0"
-          - name: "Noah"
-            score: "0"
-      - id: football-2499734
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "73'"
-        teams:
-          - name: "SCR Altach"
-            score: "1"
-          - name: "Grazer AK"
-            score: "2"
-            active: true
-      - id: football-2505264
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Blau-Weiß Linz"
-            score: "0"
-          - name: "Hertha Wels"
-            score: "1"
-            active: true
-      - id: football-2514306
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Scheiblingkirchen-Warth"
-            score: "1"
-          - name: "Gloggnitz"
-            score: "1"
-      - id: football-2546646
-        competition: "Azerbaijani Premier League"
+      - id: football-2558885
+        competition: "Algerian Ligue 1"
         state: live
         stateLabel: "44'"
         teams:
-          - name: "Sumqayıt"
+          - name: "MB Rouissat"
+            score: "0"
+          - name: "Olympique Akbou"
+            score: "0"
+      - id: football-2572247
+        competition: "Andorran 1a Divisió"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Atlètic d'Escaldes"
+            score: "0"
+          - name: "Sporting d'Escaldes"
+            score: "0"
+      - id: football-2406535
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "41'"
+        teams:
+          - name: "Arsenal de Sarandí"
             score: "1"
             active: true
-          - name: "Şamaxı"
+          - name: "UAI Urquiza"
             score: "0"
-      - id: football-2570545
-        competition: "Bahrain Premier League"
+      - id: football-2406537
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "28'"
+        stateLabel: "42'"
         teams:
-          - name: "Al-Ahli Manama"
+          - name: "Defensores Unidos"
             score: "0"
-          - name: "Al-Ittifaq"
+          - name: "Dock Sud"
+            score: "0"
+      - id: football-2406543
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Talleres de Remedios de Escalada"
+            score: "0"
+          - name: "Liniers"
+            score: "1"
+            active: true
+      - id: football-2406538
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "44'"
+        teams:
+          - name: "Deportivo Armenio"
+            score: "0"
+          - name: "Sportivo Italiano"
             score: "0"
 
   - name: Cricket
