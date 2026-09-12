@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 06:48 IST"
+updated: "12 Sep 2026, 11:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419912
-        competition: "American NWSL"
-        state: live
-        stateLabel: "50'"
+      - id: football-2397314
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Kansas City Current"
-            score: "0"
-          - name: "Orlando Pride"
-            score: "1"
-            active: true
-      - id: football-2397639
-        competition: "American USL League One"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "AC Boise"
-            score: "0"
-          - name: "New York Cosmos"
-            score: "0"
-      - id: football-2405073
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "13'"
-        teams:
-          - name: "Gimnasia y Tiro"
-            score: "0"
-          - name: "Tristán Suárez"
-            score: "0"
-      - id: football-2398074
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Boca Juniors"
+          - name: "Colorado Springs Switchbacks"
             score: "2"
             active: true
-          - name: "Central Córdoba de Santiago del Estero"
-            score: "0"
-      - id: football-2566615
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "62'"
+          - name: "San Antonio"
+            score: "1"
+      - id: football-2548512
+        competition: "Mexican Liga Femenil"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Real Potosí"
+          - name: "Atlas Femenil"
             score: "1"
-          - name: "Oriente Petrolero"
-            score: "1"
-      - id: football-2398455
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Coritiba"
-            score: "1"
-          - name: "Athletico Paranaense"
-            score: "2"
             active: true
+          - name: "Atlante Femenil"
+            score: "0"
+      - id: football-2487517
+        competition: "Mexican Primera League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Atlante"
+            score: "0"
+          - name: "Pachuca"
+            score: "3"
+            active: true
+      - id: football-2487516
+        competition: "Mexican Primera League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Tijuana"
+            score: "0"
+          - name: "Querétaro"
+            score: "1"
+            active: true
+      - id: football-2456046
+        competition: "Russia FNL 2 Group 3"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "SKA-Khabarovsk-2"
+            score: "1"
+          - name: "Metallurg Lipetsk"
+            score: "3"
+            active: true
+      - id: football-2397315
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Brooklyn FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Miami FC"
+            score: "–"
 
   - name: Cricket
     matches:
