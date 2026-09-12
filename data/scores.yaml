@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Sep 2026, 16:11 IST"
+updated: "12 Sep 2026, 19:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2600017
-        competition: "Australia Queensland NPL"
+      - id: football-2604317
+        competition: "ASEAN Club Championship"
         state: live
-        stateLabel: "83'"
+        stateLabel: "Live"
         teams:
-          - name: "Queensland Lions"
-            score: "0"
-          - name: "Peninsula Power"
-            score: "0"
-      - id: football-2602807
-        competition: "Australia Western Australia NPL"
+          - name: "Kasuka"
+            score: "1"
+          - name: "Manila Digger"
+            score: "2"
+            active: true
+      - id: football-2505269
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "21'"
+        stateLabel: "12'"
         teams:
-          - name: "Bayswater City"
+          - name: "Schwarz-Weiß Bregenz"
+            score: "1"
+            active: true
+          - name: "Floridsdorfer AC"
             score: "0"
-          - name: "Perth SC"
+      - id: football-2505267
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "13'"
+        teams:
+          - name: "Austria Salzburg"
+            score: "1"
+            active: true
+          - name: "Sturm Graz II"
             score: "0"
-      - id: football-2452161
+      - id: football-2546645
+        competition: "Azerbaijani Premier League"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Kəpəz"
+            score: "0"
+          - name: "Qəbələ"
+            score: "0"
+      - id: football-2437867
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Arsenal Dzerzhinsk"
+            score: "0"
+          - name: "Baranovichi"
+            score: "0"
+      - id: football-2452159
         competition: "Belarusian First League"
         state: live
-        stateLabel: "39'"
+        stateLabel: "57'"
         teams:
-          - name: "SKA-1938 Minsk"
+          - name: "Slutsk"
             score: "0"
-          - name: "Smorgon"
-            score: "1"
-            active: true
-      - id: football-2600030
-        competition: "China league Two"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Hubei Istar"
-            score: "0"
-          - name: "Changchun Xidu"
-            score: "1"
-            active: true
-      - id: football-2600031
-        competition: "China league Two"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Tai'an Tiankuang"
-            score: "0"
-          - name: "Wuhan Three Towns B"
-            score: "0"
-      - id: football-2539452
-        competition: "Germany Women Bundesliga"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "RB Leipzig Women"
-            score: "1"
-            active: true
-          - name: "Nürnberg Women"
+          - name: "Volna Pinsk"
             score: "0"
 
   - name: Cricket
