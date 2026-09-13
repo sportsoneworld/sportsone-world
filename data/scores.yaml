@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Sep 2026, 15:48 IST"
+updated: "13 Sep 2026, 20:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572371
-        competition: "Andorran 1a Divisió"
+      - id: football-2533275
+        competition: "Albanian Superliga"
         state: live
-        stateLabel: "55'"
+        stateLabel: "29'"
         teams:
-          - name: "Ordino"
+          - name: "Laçi"
+            score: "0"
+          - name: "Vllaznia Shkodër"
+            score: "0"
+      - id: football-2551366
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Santamarina"
+            score: "0"
+          - name: "Costa Brava"
+            score: "0"
+      - id: football-2499733
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Austria Vienna"
             score: "2"
             active: true
-          - name: "Casa de Portugal"
+          - name: "Austria Lustenau"
             score: "1"
-      - id: football-2505265
-        competition: "Austrian Erste Liga"
+      - id: football-2546648
+        competition: "Azerbaijani Premier League"
         state: live
-        stateLabel: "88'"
+        stateLabel: "Live"
         teams:
-          - name: "FC Liefering"
-            score: "1"
-          - name: "SKN St. Polten"
+          - name: "Araz-Naxçıvan"
             score: "2"
-            active: true
-      - id: football-2512720
-        competition: "Austrian Regionalliga West"
+          - name: "Turan Tovuz"
+            score: "2"
+      - id: football-2497030
+        competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "59'"
+        stateLabel: "29'"
         teams:
-          - name: "Röthis"
+          - name: "RFC Liège"
             score: "0"
-          - name: "Dornbirn"
+          - name: "Club NXT"
             score: "1"
             active: true
-      - id: football-2452160
-        competition: "Belarusian First League"
+      - id: football-2496741
+        competition: "Belgian Pro League"
         state: live
-        stateLabel: "17'"
+        stateLabel: "28'"
         teams:
-          - name: "Soligorsk"
+          - name: "Genk"
+            score: "0"
+          - name: "Gent"
             score: "1"
             active: true
-          - name: "Osipovichi"
-            score: "0"
-      - id: football-2552499
-        competition: "Campeonato de Portugal Serie B"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Guarda"
-            score: "0"
-          - name: "Camacha"
-            score: "0"
-      - id: football-2502771
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Viktoria Plzeň B"
-            score: "3"
-            active: true
-          - name: "Příbram Akademie"
-            score: "1"
 
   - name: Cricket
     matches:
