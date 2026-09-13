@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Sep 2026, 01:15 IST"
+updated: "14 Sep 2026, 03:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572250
-        competition: "Andorran 1a Divisió"
+      - id: football-2407081
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "80'"
+        stateLabel: "17'"
         teams:
-          - name: "FC Santa Coloma"
-            score: "3"
-            active: true
-          - name: "Penya Encarnada d'Andorra"
+          - name: "Chicago Fire"
             score: "0"
-      - id: football-2406540
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "81'"
-        teams:
-          - name: "Flandria"
-            score: "2"
-            active: true
-          - name: "Deportivo Camioneros"
-            score: "1"
-      - id: football-2406534
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "82'"
-        teams:
-          - name: "Argentino de Quilmes"
-            score: "1"
-            active: true
-          - name: "Deportivo Merlo"
+          - name: "New England Revolution"
             score: "0"
-      - id: football-2551378
+      - id: football-2551375
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "13'"
+        stateLabel: "Live"
         teams:
-          - name: "Atenas de Río Cuarto"
+          - name: "9 de Julio de Rafaela"
             score: "0"
-          - name: "Juventud Antoniana"
-            score: "0"
-      - id: football-2551368
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Sol de Mayo"
-            score: "0"
-          - name: "Juventud Unida Universitario"
+          - name: "Bartolomé Mitre"
             score: "1"
             active: true
-      - id: football-2551376
-        competition: "Argentina Torneo Federal A"
+      - id: football-2405080
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "42'"
+        stateLabel: "22'"
         teams:
-          - name: "El Linqueño"
+          - name: "San Martín de Tucumán"
+            score: "0"
+          - name: "Agropecuario"
+            score: "0"
+      - id: football-2405074
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Godoy Cruz"
             score: "1"
             active: true
-          - name: "Boca Unidos"
+          - name: "Colón"
             score: "0"
+      - id: football-2398071
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Argentinos Juniors"
+            score: "1"
+          - name: "Gimnasia y Esgrima de La Plata"
+            score: "1"
+      - id: football-2566620
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Universitario de Vinto"
+            score: "0"
+          - name: "Independiente Petrolero"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
