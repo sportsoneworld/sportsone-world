@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Sep 2026, 04:21 IST"
+updated: "13 Sep 2026, 06:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419915
-        competition: "American NWSL"
+      - id: football-2407070
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "19'"
+        stateLabel: "Live"
         teams:
-          - name: "San Diego Wave"
-            score: "0"
-          - name: "North Carolina Courage"
-            score: "0"
-      - id: football-2397643
-        competition: "American USL League One"
+          - name: "FC Cincinnati"
+            score: "1"
+          - name: "Charlotte FC"
+            score: "2"
+            active: true
+      - id: football-2407071
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "44'"
+        stateLabel: "Live"
         teams:
-          - name: "Forward Madison"
-            score: "0"
-          - name: "Sarasota Paradise"
+          - name: "Orlando City"
             score: "1"
             active: true
-      - id: football-2566617
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "The Strongest"
-            score: "3"
-            active: true
-          - name: "Real Oruro"
+          - name: "Toronto FC"
             score: "0"
-      - id: football-2398459
-        competition: "Brazilian Serie A"
+      - id: football-2407068
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "60'"
+        stateLabel: "45'"
         teams:
-          - name: "Palmeiras"
-            score: "2"
-            active: true
-          - name: "São Paulo"
-            score: "0"
-      - id: football-2598665
-        competition: "Brazilian Serie C"
+          - name: "Inter Miami"
+            score: "1"
+          - name: "Nashville SC"
+            score: "1"
+      - id: football-2407069
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "20'"
+        stateLabel: "45'"
         teams:
-          - name: "Maringá"
+          - name: "Columbus Crew"
             score: "0"
-          - name: "Santa Cruz"
+          - name: "New York Red Bulls"
             score: "0"
-      - id: football-2481178
-        competition: "Colombia Categoría Primera A"
+      - id: football-2407072
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "88'"
+        stateLabel: "45'"
         teams:
-          - name: "Internacional de Bogotá"
-            score: "3"
-            active: true
-          - name: "Llaneros"
-            score: "2"
+          - name: "DC United"
+            score: "0"
+          - name: "Atlanta United"
+            score: "0"
+      - id: football-2419913
+        competition: "American NWSL"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Seattle Reign"
+            score: "0"
+          - name: "Bay FC"
+            score: "0"
 
   - name: Cricket
     matches:
@@ -93,4 +91,34 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "Jamaica Kingsmen"
+            score: "–"
+      - id: cricket-2465906
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Sussex"
+            score: "–"
+            detail: "00:00"
+          - name: "Nottinghamshire"
+            score: "–"
+      - id: cricket-2465907
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Surrey"
+            score: "–"
+            detail: "00:00"
+          - name: "Glamorgan"
+            score: "–"
+      - id: cricket-2465908
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Yorkshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Somerset"
             score: "–"
