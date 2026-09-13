@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Sep 2026, 20:00 IST"
+updated: "13 Sep 2026, 23:08 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533275
+      - id: football-2533277
         competition: "Albanian Superliga"
         state: live
-        stateLabel: "29'"
+        stateLabel: "46'"
         teams:
-          - name: "Laçi"
-            score: "0"
-          - name: "Vllaznia Shkodër"
-            score: "0"
-      - id: football-2551366
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Santamarina"
-            score: "0"
-          - name: "Costa Brava"
-            score: "0"
-      - id: football-2499733
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Austria Vienna"
+          - name: "Elbasani"
             score: "2"
             active: true
-          - name: "Austria Lustenau"
+          - name: "Egnatia"
             score: "1"
-      - id: football-2546648
-        competition: "Azerbaijani Premier League"
+      - id: football-2419917
+        competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "29'"
         teams:
-          - name: "Araz-Naxçıvan"
-            score: "2"
-          - name: "Turan Tovuz"
-            score: "2"
-      - id: football-2497030
+          - name: "Washington Spirit"
+            score: "0"
+          - name: "Boston Legacy"
+            score: "0"
+      - id: football-2437869
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "26'"
+        teams:
+          - name: "Dinamo Minsk"
+            score: "0"
+          - name: "Dynamo Brest"
+            score: "0"
+      - id: football-2497031
         competition: "Belgian Challenger Pro League"
         state: live
-        stateLabel: "29'"
+        stateLabel: "21'"
         teams:
-          - name: "RFC Liège"
+          - name: "Patro Eisden"
             score: "0"
-          - name: "Club NXT"
+          - name: "Eupen"
             score: "1"
             active: true
-      - id: football-2496741
+      - id: football-2496743
         competition: "Belgian Pro League"
         state: live
-        stateLabel: "28'"
+        stateLabel: "22'"
         teams:
-          - name: "Genk"
+          - name: "RAAL La Louvière"
+            score: "1"
+            active: true
+          - name: "Kortrijk"
             score: "0"
-          - name: "Gent"
+      - id: football-2496742
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Zulte Waregem"
+            score: "0"
+          - name: "Charleroi"
             score: "1"
             active: true
 
