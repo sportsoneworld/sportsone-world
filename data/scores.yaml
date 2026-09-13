@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Sep 2026, 06:00 IST"
+updated: "13 Sep 2026, 10:44 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407070
-        competition: "American Major League Soccer"
+      - id: football-2600238
+        competition: "Australia Northern NSW NPL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "54'"
         teams:
-          - name: "FC Cincinnati"
+          - name: "Weston Bears"
             score: "1"
-          - name: "Charlotte FC"
+            active: true
+          - name: "Maitland"
+            score: "0"
+      - id: football-2487520
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "85'"
+        teams:
+          - name: "Cruz Azul"
+            score: "4"
+            active: true
+          - name: "América"
+            score: "1"
+      - id: football-2407079
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "San Jose Earthquakes"
+            score: "1"
+            active: true
+          - name: "Houston Dynamo"
+            score: "0"
+      - id: football-2407078
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "LA Galaxy"
+            score: "1"
+          - name: "Seattle Sounders"
+            score: "1"
+      - id: football-2397318
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Oakland Roots"
+            score: "1"
+          - name: "Lexington SC"
+            score: "4"
+            active: true
+      - id: football-2397319
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Orange County SC"
+            score: "0"
+          - name: "Las Vegas Lights"
             score: "2"
             active: true
-      - id: football-2407071
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Orlando City"
-            score: "1"
-            active: true
-          - name: "Toronto FC"
-            score: "0"
-      - id: football-2407068
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Inter Miami"
-            score: "1"
-          - name: "Nashville SC"
-            score: "1"
-      - id: football-2407069
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Columbus Crew"
-            score: "0"
-          - name: "New York Red Bulls"
-            score: "0"
-      - id: football-2407072
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "DC United"
-            score: "0"
-          - name: "Atlanta United"
-            score: "0"
-      - id: football-2419913
-        competition: "American NWSL"
-        state: live
-        stateLabel: "21'"
-        teams:
-          - name: "Seattle Reign"
-            score: "0"
-          - name: "Bay FC"
-            score: "0"
 
   - name: Cricket
     matches:
