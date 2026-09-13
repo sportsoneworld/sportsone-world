@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Sep 2026, 03:26 IST"
+updated: "14 Sep 2026, 05:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407081
+      - id: football-2407080
         competition: "American Major League Soccer"
         state: live
-        stateLabel: "17'"
+        stateLabel: "50'"
         teams:
-          - name: "Chicago Fire"
-            score: "0"
-          - name: "New England Revolution"
-            score: "0"
-      - id: football-2551375
-        competition: "Argentina Torneo Federal A"
+          - name: "Vancouver Whitecaps"
+            score: "1"
+          - name: "Austin FC"
+            score: "1"
+      - id: football-2419918
+        competition: "American NWSL"
         state: live
-        stateLabel: "Live"
+        stateLabel: "42'"
         teams:
-          - name: "9 de Julio de Rafaela"
-            score: "0"
-          - name: "Bartolomé Mitre"
+          - name: "Portland Thorns"
             score: "1"
             active: true
-      - id: football-2405080
-        competition: "Argentinian Primera B Nacional"
+          - name: "Chicago Stars"
+            score: "0"
+      - id: football-2397646
+        competition: "American USL League One"
         state: live
-        stateLabel: "22'"
+        stateLabel: "85'"
         teams:
-          - name: "San Martín de Tucumán"
+          - name: "Portland Hearts of Pine"
             score: "0"
-          - name: "Agropecuario"
+          - name: "AV Alta FC"
             score: "0"
-      - id: football-2405074
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Godoy Cruz"
-            score: "1"
-            active: true
-          - name: "Colón"
-            score: "0"
-      - id: football-2398071
+      - id: football-2398079
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "74'"
         teams:
-          - name: "Argentinos Juniors"
+          - name: "Independiente"
             score: "1"
-          - name: "Gimnasia y Esgrima de La Plata"
+          - name: "San Lorenzo"
             score: "1"
-      - id: football-2566620
-        competition: "Bolivian Primera División"
+      - id: football-2427411
+        competition: "Canadian Premier League"
         state: live
-        stateLabel: "24'"
+        stateLabel: "80'"
         teams:
-          - name: "Universitario de Vinto"
+          - name: "Pacific"
             score: "0"
-          - name: "Independiente Petrolero"
+          - name: "Cavalry"
+            score: "0"
+      - id: football-2413086
+        competition: "Chile Primera Division"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Audax Italiano"
             score: "1"
             active: true
+          - name: "O'Higgins"
+            score: "0"
 
   - name: Cricket
     matches:
