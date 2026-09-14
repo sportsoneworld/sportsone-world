@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Sep 2026, 07:57 IST"
+updated: "14 Sep 2026, 13:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407082
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "50'"
-        teams:
-          - name: "San Diego FC"
-            score: "0"
-          - name: "Philadelphia Union"
-            score: "1"
-            active: true
       - id: football-2398078
         competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Huracán"
             score: "2"
             active: true
           - name: "Racing Club"
             score: "1"
-      - id: football-2481185
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "51'"
+      - id: football-2397180
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Cúcuta Deportivo"
-            score: "0"
-          - name: "Millonarios"
-            score: "0"
-      - id: football-2497263
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "60'"
+          - name: "Indy Eleven"
+            score: "–"
+            detail: "23:00"
+          - name: "Brooklyn FC"
+            score: "–"
+      - id: football-2397326
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "22:00"
         teams:
-          - name: "Municipal"
-            score: "0"
-          - name: "Malacateco"
-            score: "1"
-            active: true
-      - id: football-2597606
-        competition: "Honduras Liga Nacional de Futbol"
-        state: live
-        stateLabel: "45'"
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "22:00"
+          - name: "Sporting JAX"
+            score: "–"
+      - id: football-2397649
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Atlético Independiente"
-            score: "1"
-          - name: "Juticalpa"
-            score: "1"
-      - id: football-2423425
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "23'"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
+            detail: "23:00"
+          - name: "Forward Madison"
+            score: "–"
+      - id: football-2397650
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Ventura County"
-            score: "0"
-          - name: "Tacoma Defiance"
-            score: "0"
+          - name: "Fort Wayne FC"
+            score: "–"
+            detail: "23:30"
+          - name: "One Knoxville"
+            score: "–"
+      - id: football-2408609
+        competition: "Argentinian Primera C"
+        state: upcoming
+        stateLabel: "18:00"
+        teams:
+          - name: "Claypole"
+            score: "–"
+            detail: "18:00"
+          - name: "Sacachispas"
+            score: "–"
 
   - name: Cricket
     matches:
