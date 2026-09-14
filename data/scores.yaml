@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Sep 2026, 05:20 IST"
+updated: "14 Sep 2026, 07:57 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,75 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407080
+      - id: football-2407082
         competition: "American Major League Soccer"
         state: live
         stateLabel: "50'"
         teams:
-          - name: "Vancouver Whitecaps"
-            score: "1"
-          - name: "Austin FC"
-            score: "1"
-      - id: football-2419918
-        competition: "American NWSL"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "Portland Thorns"
+          - name: "San Diego FC"
+            score: "0"
+          - name: "Philadelphia Union"
             score: "1"
             active: true
-          - name: "Chicago Stars"
-            score: "0"
-      - id: football-2397646
-        competition: "American USL League One"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "Portland Hearts of Pine"
-            score: "0"
-          - name: "AV Alta FC"
-            score: "0"
-      - id: football-2398079
+      - id: football-2398078
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "74'"
+        stateLabel: "Live"
         teams:
-          - name: "Independiente"
+          - name: "Huracán"
+            score: "2"
+            active: true
+          - name: "Racing Club"
             score: "1"
-          - name: "San Lorenzo"
-            score: "1"
-      - id: football-2427411
-        competition: "Canadian Premier League"
+      - id: football-2481185
+        competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "80'"
+        stateLabel: "51'"
         teams:
-          - name: "Pacific"
+          - name: "Cúcuta Deportivo"
             score: "0"
-          - name: "Cavalry"
+          - name: "Millonarios"
             score: "0"
-      - id: football-2413086
-        competition: "Chile Primera Division"
+      - id: football-2497263
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Municipal"
+            score: "0"
+          - name: "Malacateco"
+            score: "1"
+            active: true
+      - id: football-2597606
+        competition: "Honduras Liga Nacional de Futbol"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Audax Italiano"
+          - name: "Atlético Independiente"
             score: "1"
-            active: true
-          - name: "O'Higgins"
+          - name: "Juticalpa"
+            score: "1"
+      - id: football-2423425
+        competition: "MLS Next Pro"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Ventura County"
+            score: "0"
+          - name: "Tacoma Defiance"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2578492
-        competition: "Caribbean Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Barbados Tridents"
-            score: "151"
-            active: true
-          - name: "Jamaica Kingsmen"
-            score: "150"
       - id: cricket-2465906
         competition: "English County Championship Division 1"
         state: upcoming
