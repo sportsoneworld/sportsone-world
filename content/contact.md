@@ -33,8 +33,3 @@ Problems using the site go straight to the desk — see
 ## Follow the newsroom
 
 We post every story to our social accounts, linked at the foot of every page.
-
-> **For the newsroom:** add your real contact routes here before launch — a
-> newsroom email address, a tips address, a postal address if your jurisdiction
-> requires one, and the name of the editor responsible for complaints. This page
-> deliberately does not invent them.
