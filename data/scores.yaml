@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Sep 2026, 20:29 IST"
+updated: "15 Sep 2026, 01:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579903
+      - id: football-2579907
         competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "69'"
+        teams:
+          - name: "Al-Ahli"
+            score: "0"
+          - name: "Pakhtakor"
+            score: "0"
+      - id: football-2579908
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Al-Qadsiah"
+            score: "2"
+            active: true
+          - name: "Al Wasl"
+            score: "0"
+      - id: football-2579904
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "71'"
+        teams:
+          - name: "Esteghlal"
+            score: "2"
+            active: true
+          - name: "Al-Sadd"
+            score: "0"
+      - id: football-2405071
+        competition: "Argentinian Primera B Nacional"
         state: live
         stateLabel: "55'"
         teams:
-          - name: "Neftchi Fergana"
+          - name: "Defensores de Belgrano"
+            score: "2"
+            active: true
+          - name: "Deportivo Madryn"
             score: "0"
-          - name: "Al-Quwa Al-Jawiya"
-            score: "0"
-      - id: football-2511489
-        competition: "Bulgarian Second League"
+      - id: football-2408614
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "12'"
+        stateLabel: "82'"
         teams:
-          - name: "Hebar Pazardzhik"
+          - name: "CA Fénix"
             score: "0"
-          - name: "Etar Veliko Tarnovo"
-            score: "0"
-      - id: football-2561110
-        competition: "Egyptian Premier League"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Tala'ea El Gaish"
-            score: "0"
-          - name: "Smouha"
-            score: "0"
-      - id: football-2598033
-        competition: "Greek Super League 2"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Panthrakikos"
+          - name: "Centro Español"
             score: "1"
             active: true
-          - name: "PAOK II"
-            score: "0"
-      - id: football-2603367
-        competition: "Kosovan Superleague"
+      - id: football-2489848
+        competition: "Dutch Eerste Divisie"
         state: live
-        stateLabel: "Live"
+        stateLabel: "86'"
         teams:
-          - name: "Ballkani"
-            score: "0"
-          - name: "Dukagjini"
-            score: "0"
-      - id: football-2603368
-        competition: "Kosovan Superleague"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Llapi"
-            score: "0"
-          - name: "Malisheva"
+          - name: "Jong PSV"
             score: "1"
-            active: true
+          - name: "Jong AZ"
+            score: "1"
 
   - name: Cricket
     matches:
