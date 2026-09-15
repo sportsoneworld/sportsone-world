@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Sep 2026, 11:38 IST"
+updated: "15 Sep 2026, 17:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398081
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2579912
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "77'"
         teams:
-          - name: "Instituto"
-            score: "2"
-            active: true
-          - name: "Estudiantes de Río Cuarto"
+          - name: "Ratchaburi"
             score: "1"
-      - id: football-2397180
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Shanghai Port"
+            score: "4"
+            active: true
+      - id: football-2579909
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "79'"
         teams:
-          - name: "Indy Eleven"
-            score: "–"
-            detail: "23:00"
-          - name: "Brooklyn FC"
-            score: "–"
-      - id: football-2397326
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "22:00"
+          - name: "Kashima Antlers"
+            score: "7"
+            active: true
+          - name: "Newcastle Jets"
+            score: "0"
+      - id: football-2579911
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "80'"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "22:00"
-          - name: "Sporting JAX"
-            score: "–"
-      - id: football-2397223
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "00:30"
+          - name: "Daejeon Hana Citizen"
+            score: "1"
+            active: true
+          - name: "Kyoto Sanga"
+            score: "0"
+      - id: football-2579910
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "80'"
         teams:
-          - name: "Birmingham Legion"
-            score: "–"
-            detail: "00:30"
-          - name: "New Mexico United"
-            score: "–"
-      - id: football-2397649
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Gamba Osaka"
+            score: "3"
+            active: true
+          - name: "Công An Hà Nội"
+            score: "1"
+      - id: football-2604852
+        competition: "Asian Games Soccer"
+        state: live
+        stateLabel: "49'"
         teams:
-          - name: "Chattanooga Red Wolves"
-            score: "–"
-            detail: "23:00"
-          - name: "Forward Madison"
-            score: "–"
-      - id: football-2397650
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
+          - name: "Qatar U23"
+            score: "0"
+          - name: "South Korea U23"
+            score: "3"
+            active: true
+      - id: football-2604851
+        competition: "Asian Games Soccer"
+        state: live
+        stateLabel: "80'"
         teams:
-          - name: "Fort Wayne FC"
-            score: "–"
-            detail: "23:30"
-          - name: "One Knoxville"
-            score: "–"
+          - name: "Vietnam U23"
+            score: "0"
+          - name: "Kuwait U23"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
