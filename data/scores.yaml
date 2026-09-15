@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Sep 2026, 06:34 IST"
+updated: "15 Sep 2026, 11:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -25,61 +25,64 @@ sports:
     matches:
       - id: football-2398081
         competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "45'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Instituto"
-            score: "0"
-          - name: "Estudiantes de Río Cuarto"
-            score: "0"
-      - id: football-2398452
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Bahia"
             score: "2"
             active: true
-          - name: "Remo"
+          - name: "Estudiantes de Río Cuarto"
             score: "1"
-      - id: football-2431438
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "30'"
+      - id: football-2397180
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Avaí"
-            score: "0"
-          - name: "Vila Nova"
-            score: "0"
-      - id: football-2422000
-        competition: "Chile Primera B"
-        state: live
-        stateLabel: "71'"
+          - name: "Indy Eleven"
+            score: "–"
+            detail: "23:00"
+          - name: "Brooklyn FC"
+            score: "–"
+      - id: football-2397326
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "22:00"
         teams:
-          - name: "Rangers de Talca"
-            score: "0"
-          - name: "Deportes Iquique"
-            score: "1"
-            active: true
-      - id: football-2413093
-        competition: "Chile Primera Division"
-        state: live
-        stateLabel: "73'"
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "22:00"
+          - name: "Sporting JAX"
+            score: "–"
+      - id: football-2397223
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "00:30"
         teams:
-          - name: "Unión La Calera"
-            score: "1"
-            active: true
-          - name: "Deportes Limache"
-            score: "0"
-      - id: football-2481181
-        competition: "Colombia Categoría Primera A"
-        state: live
-        stateLabel: "3'"
+          - name: "Birmingham Legion"
+            score: "–"
+            detail: "00:30"
+          - name: "New Mexico United"
+            score: "–"
+      - id: football-2397649
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "América de Cali"
-            score: "0"
-          - name: "Deportivo Pasto"
-            score: "0"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
+            detail: "23:00"
+          - name: "Forward Madison"
+            score: "–"
+      - id: football-2397650
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Fort Wayne FC"
+            score: "–"
+            detail: "23:30"
+          - name: "One Knoxville"
+            score: "–"
 
   - name: Cricket
     matches:
