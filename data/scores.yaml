@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Sep 2026, 04:15 IST"
+updated: "15 Sep 2026, 06:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398073
+      - id: football-2398081
         competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Instituto"
+            score: "0"
+          - name: "Estudiantes de Río Cuarto"
+            score: "0"
+      - id: football-2398452
+        competition: "Brazilian Serie A"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Banfield"
-            score: "0"
-          - name: "Barracas Central"
-            score: "0"
-      - id: football-2398076
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Deportivo Riestra"
-            score: "0"
-          - name: "Lanús"
-            score: "1"
+          - name: "Bahia"
+            score: "2"
             active: true
-      - id: football-2431436
+          - name: "Remo"
+            score: "1"
+      - id: football-2431438
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "14'"
+        stateLabel: "30'"
         teams:
-          - name: "América Mineiro"
+          - name: "Avaí"
             score: "0"
-          - name: "São Bernardo"
+          - name: "Vila Nova"
             score: "0"
-      - id: football-2431439
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Botafogo-SP"
-            score: "0"
-          - name: "Goiás"
-            score: "0"
-      - id: football-2421997
+      - id: football-2422000
         competition: "Chile Primera B"
         state: live
-        stateLabel: "88'"
+        stateLabel: "71'"
         teams:
-          - name: "Deportes Santa Cruz"
+          - name: "Rangers de Talca"
             score: "0"
-          - name: "Deportes Recoleta"
-            score: "0"
-      - id: football-2604588
-        competition: "Jamaican Premier League"
+          - name: "Deportes Iquique"
+            score: "1"
+            active: true
+      - id: football-2413093
+        competition: "Chile Primera Division"
         state: live
-        stateLabel: "40'"
+        stateLabel: "73'"
         teams:
-          - name: "Molynes United"
+          - name: "Unión La Calera"
+            score: "1"
+            active: true
+          - name: "Deportes Limache"
             score: "0"
-          - name: "Treasure Beach"
+      - id: football-2481181
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "América de Cali"
+            score: "0"
+          - name: "Deportivo Pasto"
             score: "0"
 
   - name: Cricket
@@ -110,4 +112,14 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "Somerset"
+            score: "–"
+      - id: cricket-2524747
+        competition: "Twenty20 International Series"
+        state: upcoming
+        stateLabel: "17:30"
+        teams:
+          - name: "England Cricket"
+            score: "–"
+            detail: "17:30"
+          - name: "Sri Lanka Cricket"
             score: "–"
