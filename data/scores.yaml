@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Sep 2026, 17:09 IST"
+updated: "15 Sep 2026, 21:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579912
-        competition: "AFC Champions League Elite"
+      - id: football-2580248
+        competition: "AFC Champions League Two"
         state: live
-        stateLabel: "77'"
+        stateLabel: "Live"
         teams:
-          - name: "Ratchaburi"
-            score: "1"
-          - name: "Shanghai Port"
-            score: "4"
-            active: true
-      - id: football-2579909
-        competition: "AFC Champions League Elite"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Kashima Antlers"
-            score: "7"
-            active: true
-          - name: "Newcastle Jets"
+          - name: "Gol Gohar Sirjan"
             score: "0"
-      - id: football-2579911
-        competition: "AFC Champions League Elite"
+          - name: "Al Jazira"
+            score: "0"
+      - id: football-2580249
+        competition: "AFC Champions League Two"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
-          - name: "Daejeon Hana Citizen"
+          - name: "Arkadag"
             score: "1"
             active: true
-          - name: "Kyoto Sanga"
+          - name: "Al-Muharraq"
             score: "0"
-      - id: football-2579910
-        competition: "AFC Champions League Elite"
+      - id: football-2511488
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "80'"
+        stateLabel: "9'"
         teams:
-          - name: "Gamba Osaka"
-            score: "3"
-            active: true
-          - name: "Công An Hà Nội"
+          - name: "Lokomotiv Gorna Oryahovitsa"
+            score: "0"
+          - name: "Nesebar"
+            score: "0"
+      - id: football-2561113
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "Wadi Degla"
+            score: "0"
+          - name: "Al-Mokawloon al-Arab"
+            score: "0"
+      - id: football-2561114
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Asyut Petroleum"
+            score: "0"
+          - name: "Modern Sport"
             score: "1"
-      - id: football-2604852
-        competition: "Asian Games Soccer"
-        state: live
-        stateLabel: "49'"
-        teams:
-          - name: "Qatar U23"
-            score: "0"
-          - name: "South Korea U23"
-            score: "3"
             active: true
-      - id: football-2604851
-        competition: "Asian Games Soccer"
+      - id: football-2440420
+        competition: "Estonian Esiliiga B"
         state: live
-        stateLabel: "80'"
+        stateLabel: "7'"
         teams:
-          - name: "Vietnam U23"
+          - name: "Levadia U19 Tallinn"
             score: "0"
-          - name: "Kuwait U23"
+          - name: "Viljandi Tulevik"
             score: "1"
             active: true
 
