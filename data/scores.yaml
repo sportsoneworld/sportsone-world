@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Sep 2026, 00:41 IST"
+updated: "16 Sep 2026, 03:42 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579916
-        competition: "AFC Champions League Elite"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Al-Hilal"
-            score: "1"
-            active: true
-          - name: "Al-Gharafa"
-            score: "0"
-      - id: football-2408609
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Claypole"
-            score: "0"
-          - name: "Sacachispas"
-            score: "0"
-      - id: football-2566622
+      - id: football-2566623
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "9'"
+        stateLabel: "41'"
         teams:
-          - name: "Real Oruro"
-            score: "0"
-          - name: "Real Potosí"
-            score: "0"
-      - id: football-2579099
-        competition: "Coppa Italia"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Fiorentina"
-            score: "0"
-          - name: "Pisa"
-            score: "0"
-      - id: football-2489119
-        competition: "Dutch Eredivisie"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Ajax"
+          - name: "ABB"
             score: "2"
             active: true
-          - name: "Willem II"
+          - name: "The Strongest"
             score: "0"
-      - id: football-2594459
-        competition: "EFL Cup"
+      - id: football-2422002
+        competition: "Chile Primera B"
         state: live
-        stateLabel: "10'"
+        stateLabel: "49'"
         teams:
-          - name: "Ipswich Town"
-            score: "0"
-          - name: "Arsenal"
-            score: "1"
+          - name: "San Luis de Quillota"
+            score: "2"
             active: true
+          - name: "Deportes Antofagasta"
+            score: "0"
+      - id: football-2481454
+        competition: "Colombian Categoría Primera B"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Barranquilla"
+            score: "0"
+          - name: "Independiente Yumbo"
+            score: "0"
+      - id: football-2600652
+        competition: "Copa Libertadores"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Platense"
+            score: "0"
+          - name: "Fluminense"
+            score: "0"
+      - id: football-2594420
+        competition: "Copa Sudamericana"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Vasco da Gama"
+            score: "0"
+          - name: "Independiente Santa Fe"
+            score: "0"
+      - id: football-2595405
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Tacuary"
+            score: "0"
+          - name: "12 de Junio de Villa Hayes"
+            score: "0"
 
   - name: Cricket
     matches:
@@ -122,4 +121,14 @@ sports:
             score: "–"
             detail: "17:30"
           - name: "Sri Lanka Cricket"
+            score: "–"
+      - id: cricket-2605556
+        competition: "Twenty20 International Series"
+        state: upcoming
+        stateLabel: "16:00"
+        teams:
+          - name: "India Cricket"
+            score: "–"
+            detail: "16:00"
+          - name: "Afghanistan Cricket"
             score: "–"
