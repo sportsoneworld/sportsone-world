@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Sep 2026, 21:10 IST"
+updated: "16 Sep 2026, 00:41 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580248
-        competition: "AFC Champions League Two"
+      - id: football-2579916
+        competition: "AFC Champions League Elite"
         state: live
-        stateLabel: "Live"
+        stateLabel: "45'"
         teams:
-          - name: "Gol Gohar Sirjan"
-            score: "0"
-          - name: "Al Jazira"
-            score: "0"
-      - id: football-2580249
-        competition: "AFC Champions League Two"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Arkadag"
+          - name: "Al-Hilal"
             score: "1"
             active: true
-          - name: "Al-Muharraq"
+          - name: "Al-Gharafa"
             score: "0"
-      - id: football-2511488
-        competition: "Bulgarian Second League"
+      - id: football-2408609
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Claypole"
+            score: "0"
+          - name: "Sacachispas"
+            score: "0"
+      - id: football-2566622
+        competition: "Bolivian Primera División"
         state: live
         stateLabel: "9'"
         teams:
-          - name: "Lokomotiv Gorna Oryahovitsa"
+          - name: "Real Oruro"
             score: "0"
-          - name: "Nesebar"
+          - name: "Real Potosí"
             score: "0"
-      - id: football-2561113
-        competition: "Egyptian Premier League"
+      - id: football-2579099
+        competition: "Coppa Italia"
         state: live
-        stateLabel: "72'"
+        stateLabel: "8'"
         teams:
-          - name: "Wadi Degla"
+          - name: "Fiorentina"
             score: "0"
-          - name: "Al-Mokawloon al-Arab"
+          - name: "Pisa"
             score: "0"
-      - id: football-2561114
-        competition: "Egyptian Premier League"
+      - id: football-2489119
+        competition: "Dutch Eredivisie"
         state: live
-        stateLabel: "75'"
+        stateLabel: "53'"
         teams:
-          - name: "Asyut Petroleum"
-            score: "0"
-          - name: "Modern Sport"
-            score: "1"
+          - name: "Ajax"
+            score: "2"
             active: true
-      - id: football-2440420
-        competition: "Estonian Esiliiga B"
-        state: live
-        stateLabel: "7'"
-        teams:
-          - name: "Levadia U19 Tallinn"
+          - name: "Willem II"
             score: "0"
-          - name: "Viljandi Tulevik"
+      - id: football-2594459
+        competition: "EFL Cup"
+        state: live
+        stateLabel: "10'"
+        teams:
+          - name: "Ipswich Town"
+            score: "0"
+          - name: "Arsenal"
             score: "1"
             active: true
 
