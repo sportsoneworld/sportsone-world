@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Sep 2026, 03:42 IST"
+updated: "16 Sep 2026, 05:48 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,94 +23,77 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2566623
-        competition: "Bolivian Primera División"
+      - id: football-2397180
+        competition: "American USL Championship"
         state: live
-        stateLabel: "41'"
+        stateLabel: "51'"
         teams:
-          - name: "ABB"
+          - name: "Indy Eleven"
+            score: "4"
+            active: true
+          - name: "Brooklyn FC"
+            score: "0"
+      - id: football-2431440
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "CRB"
+            score: "1"
+            active: true
+          - name: "Sport Recife"
+            score: "0"
+      - id: football-2431444
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Náutico"
             score: "2"
             active: true
-          - name: "The Strongest"
-            score: "0"
-      - id: football-2422002
-        competition: "Chile Primera B"
+          - name: "Operário Ferroviário"
+            score: "1"
+      - id: football-2431443
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "49'"
+        stateLabel: "90'"
         teams:
-          - name: "San Luis de Quillota"
-            score: "2"
+          - name: "Londrina"
+            score: "6"
             active: true
-          - name: "Deportes Antofagasta"
+          - name: "Ponte Preta"
             score: "0"
-      - id: football-2481454
-        competition: "Colombian Categoría Primera B"
+      - id: football-2558752
+        competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "11'"
+        stateLabel: "55'"
         teams:
-          - name: "Barranquilla"
+          - name: "Delfines del Este"
+            score: "3"
+            active: true
+          - name: "Defence Force"
             score: "0"
-          - name: "Independiente Yumbo"
-            score: "0"
-      - id: football-2600652
-        competition: "Copa Libertadores"
+      - id: football-2481776
+        competition: "CONCACAF Caribbean Cup"
         state: live
-        stateLabel: "11'"
+        stateLabel: "56'"
         teams:
-          - name: "Platense"
+          - name: "Violette"
             score: "0"
-          - name: "Fluminense"
-            score: "0"
-      - id: football-2594420
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "11'"
-        teams:
-          - name: "Vasco da Gama"
-            score: "0"
-          - name: "Independiente Santa Fe"
-            score: "0"
-      - id: football-2595405
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "11'"
-        teams:
-          - name: "Tacuary"
-            score: "0"
-          - name: "12 de Junio de Villa Hayes"
+          - name: "Club Sando"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2465906
-        competition: "English County Championship Division 1"
+      - id: cricket-2524727
+        competition: "One Day International Series"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "07:30"
         teams:
-          - name: "Sussex"
+          - name: "Zimbabwe Cricket"
             score: "–"
-            detail: "00:00"
-          - name: "Nottinghamshire"
-            score: "–"
-      - id: cricket-2465907
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Surrey"
-            score: "–"
-            detail: "00:00"
-          - name: "Glamorgan"
-            score: "–"
-      - id: cricket-2465908
-        competition: "English County Championship Division 1"
-        state: upcoming
-        stateLabel: "00:00"
-        teams:
-          - name: "Yorkshire"
-            score: "–"
-            detail: "00:00"
-          - name: "Somerset"
+            detail: "07:30"
+          - name: "Australia Cricket"
             score: "–"
       - id: cricket-2524747
         competition: "Twenty20 International Series"
