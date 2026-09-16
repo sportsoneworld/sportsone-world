@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Sep 2026, 02:58 IST"
+updated: "17 Sep 2026, 05:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2413072
-        competition: "Chile Primera Division"
+      - id: football-2397326
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "79'"
         teams:
-          - name: "Coquimbo Unido"
-            score: "0"
-          - name: "Huachipato"
+          - name: "Hartford Athletic"
             score: "1"
             active: true
-      - id: football-2583285
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cuenca Juniors"
+          - name: "Sporting JAX"
             score: "0"
-          - name: "San Antonio FC"
-            score: "0"
-      - id: football-2604319
-        competition: "Spanish Copa Federacion"
+      - id: football-2397649
+        competition: "American USL League One"
         state: live
-        stateLabel: "121'"
+        stateLabel: "37'"
         teams:
-          - name: "Orihuela"
+          - name: "Chattanooga Red Wolves"
             score: "1"
-          - name: "Real Murcia"
-            score: "4"
             active: true
-      - id: football-2604321
-        competition: "Spanish Copa Federacion"
-        state: live
-        stateLabel: "129'"
-        teams:
-          - name: "Terrassa"
-            score: "4"
-            active: true
-          - name: "Binéfar"
+          - name: "Forward Madison"
             score: "0"
-      - id: football-2506219
-        competition: "Spanish La Liga"
+      - id: football-2397653
+        competition: "American USL League One"
         state: live
-        stateLabel: "65'"
+        stateLabel: "37'"
         teams:
-          - name: "Barcelona"
-            score: "4"
+          - name: "Westchester SC"
+            score: "3"
             active: true
-          - name: "Racing de Santander"
-            score: "2"
-      - id: football-2595084
-        competition: "Venezuelan Segunda Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Zamora FC B"
+          - name: "Richmond Kickers"
             score: "0"
-          - name: "Barquisimeto"
-            score: "2"
+      - id: football-2397650
+        competition: "American USL League One"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Fort Wayne FC"
+            score: "0"
+          - name: "One Knoxville"
+            score: "0"
+      - id: football-2532329
+        competition: "Canadian Championship"
+        state: live
+        stateLabel: "33'"
+        teams:
+          - name: "CF Montréal"
+            score: "1"
             active: true
+          - name: "Vancouver Whitecaps"
+            score: "0"
+      - id: football-2598263
+        competition: "Copa Argentina"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Independiente Rivadavia"
+            score: "1"
+            active: true
+          - name: "Atlético Tucumán"
+            score: "0"
 
   - name: Cricket
     matches:
