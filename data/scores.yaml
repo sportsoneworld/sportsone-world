@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Sep 2026, 23:48 IST"
+updated: "17 Sep 2026, 02:58 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580255
-        competition: "AFC Champions League Two"
+      - id: football-2413072
+        competition: "Chile Primera Division"
         state: live
-        stateLabel: "3'"
+        stateLabel: "Live"
         teams:
-          - name: "Al-Rayyan"
+          - name: "Coquimbo Unido"
             score: "0"
-          - name: "Al-Faisaly Amman"
-            score: "0"
-      - id: football-2580256
-        competition: "AFC Champions League Two"
+          - name: "Huachipato"
+            score: "1"
+            active: true
+      - id: football-2583285
+        competition: "Ecuadorian Serie B"
         state: live
-        stateLabel: "3'"
+        stateLabel: "Live"
         teams:
-          - name: "Al-Shorta"
+          - name: "Cuenca Juniors"
             score: "0"
-          - name: "Al-Seeb"
+          - name: "San Antonio FC"
             score: "0"
-      - id: football-2397652
-        competition: "American USL League One"
+      - id: football-2604319
+        competition: "Spanish Copa Federacion"
         state: live
-        stateLabel: "50'"
+        stateLabel: "121'"
         teams:
-          - name: "Union Omaha"
+          - name: "Orihuela"
+            score: "1"
+          - name: "Real Murcia"
+            score: "4"
+            active: true
+      - id: football-2604321
+        competition: "Spanish Copa Federacion"
+        state: live
+        stateLabel: "129'"
+        teams:
+          - name: "Terrassa"
+            score: "4"
+            active: true
+          - name: "Binéfar"
+            score: "0"
+      - id: football-2506219
+        competition: "Spanish La Liga"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "Barcelona"
+            score: "4"
+            active: true
+          - name: "Racing de Santander"
+            score: "2"
+      - id: football-2595084
+        competition: "Venezuelan Segunda Division"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Zamora FC B"
+            score: "0"
+          - name: "Barquisimeto"
             score: "2"
             active: true
-          - name: "Spokane Velocity"
-            score: "0"
-      - id: football-2404935
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "12'"
-        teams:
-          - name: "San Martín de San Juan"
-            score: "0"
-          - name: "Tristán Suárez"
-            score: "0"
-      - id: football-2599811
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "Albion"
-            score: "0"
-          - name: "River Plate Montevideo"
-            score: "0"
-      - id: football-2599810
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "Progreso"
-            score: "0"
-          - name: "Nacional Montevideo"
-            score: "0"
 
   - name: Cricket
     matches:
