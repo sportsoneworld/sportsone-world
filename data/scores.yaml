@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Sep 2026, 19:58 IST"
+updated: "16 Sep 2026, 23:48 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578090
-        competition: "Albanian Kategoria e Parë"
+      - id: football-2580255
+        competition: "AFC Champions League Two"
         state: live
-        stateLabel: "25'"
+        stateLabel: "3'"
         teams:
-          - name: "Burreli"
-            score: "1"
+          - name: "Al-Rayyan"
+            score: "0"
+          - name: "Al-Faisaly Amman"
+            score: "0"
+      - id: football-2580256
+        competition: "AFC Champions League Two"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Al-Shorta"
+            score: "0"
+          - name: "Al-Seeb"
+            score: "0"
+      - id: football-2397652
+        competition: "American USL League One"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Union Omaha"
+            score: "2"
             active: true
-          - name: "Sopoti"
+          - name: "Spokane Velocity"
             score: "0"
-      - id: football-2578092
-        competition: "Albanian Kategoria e Parë"
+      - id: football-2404935
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "26'"
+        stateLabel: "12'"
         teams:
-          - name: "Korabi Peshkopi"
+          - name: "San Martín de San Juan"
             score: "0"
-          - name: "Iliria Fushë-Krujë"
-            score: "1"
-            active: true
-      - id: football-2578087
-        competition: "Albanian Kategoria e Parë"
+          - name: "Tristán Suárez"
+            score: "0"
+      - id: football-2599811
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "26'"
+        stateLabel: "19'"
         teams:
-          - name: "Kukësi"
+          - name: "Albion"
             score: "0"
-          - name: "Pogradeci"
+          - name: "River Plate Montevideo"
             score: "0"
-      - id: football-2578089
-        competition: "Albanian Kategoria e Parë"
+      - id: football-2599810
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "27'"
+        stateLabel: "19'"
         teams:
-          - name: "Besa Kavajë"
-            score: "1"
-            active: true
-          - name: "Oriku"
+          - name: "Progreso"
             score: "0"
-      - id: football-2578091
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Bylis"
-            score: "0"
-          - name: "Besëlidhja"
-            score: "0"
-      - id: football-2578088
-        competition: "Albanian Kategoria e Parë"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Kastrioti Krujë"
-            score: "0"
-          - name: "Flamurtari Vlorë"
+          - name: "Nacional Montevideo"
             score: "0"
 
   - name: Cricket
