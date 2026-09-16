@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Sep 2026, 05:48 IST"
+updated: "16 Sep 2026, 10:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397180
+      - id: football-2397326
         competition: "American USL Championship"
-        state: live
-        stateLabel: "51'"
+        state: upcoming
+        stateLabel: "22:00"
         teams:
-          - name: "Indy Eleven"
-            score: "4"
-            active: true
-          - name: "Brooklyn FC"
-            score: "0"
-      - id: football-2431440
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "17'"
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "22:00"
+          - name: "Sporting JAX"
+            score: "–"
+      - id: football-2397223
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "00:30"
         teams:
-          - name: "CRB"
-            score: "1"
-            active: true
-          - name: "Sport Recife"
-            score: "0"
-      - id: football-2431444
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "86'"
+          - name: "Birmingham Legion"
+            score: "–"
+            detail: "00:30"
+          - name: "New Mexico United"
+            score: "–"
+      - id: football-2397649
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Náutico"
-            score: "2"
-            active: true
-          - name: "Operário Ferroviário"
-            score: "1"
-      - id: football-2431443
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "90'"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
+            detail: "23:00"
+          - name: "Forward Madison"
+            score: "–"
+      - id: football-2397650
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Londrina"
-            score: "6"
-            active: true
-          - name: "Ponte Preta"
-            score: "0"
-      - id: football-2558752
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "55'"
+          - name: "Fort Wayne FC"
+            score: "–"
+            detail: "23:30"
+          - name: "One Knoxville"
+            score: "–"
+      - id: football-2397648
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "01:00"
         teams:
-          - name: "Delfines del Este"
-            score: "3"
-            active: true
-          - name: "Defence Force"
-            score: "0"
-      - id: football-2481776
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "56'"
+          - name: "AC Boise"
+            score: "–"
+            detail: "01:00"
+          - name: "Charlotte Independence"
+            score: "–"
+      - id: football-2398089
+        competition: "Argentinian Primera Division"
+        state: upcoming
+        stateLabel: "21:00"
         teams:
-          - name: "Violette"
-            score: "0"
-          - name: "Club Sando"
-            score: "0"
+          - name: "Central Córdoba de Santiago del Estero"
+            score: "–"
+            detail: "21:00"
+          - name: "Defensa y Justicia"
+            score: "–"
 
   - name: Cricket
     matches:
