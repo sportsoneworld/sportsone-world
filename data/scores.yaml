@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Sep 2026, 10:31 IST"
+updated: "16 Sep 2026, 15:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,6 +23,35 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2595664
+        competition: "Bhutan Premier League"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Tsirang"
+            score: "0"
+          - name: "Thimphu"
+            score: "2"
+            active: true
+      - id: football-2577209
+        competition: "Indonesian Super League"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "Borneo Samarinda"
+            score: "1"
+          - name: "Dewa United Banten"
+            score: "1"
+      - id: football-2604853
+        competition: "Asian Games Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Thailand U23"
+            score: "3"
+            active: true
+          - name: "Kyrgyzstan U23"
+            score: "2"
       - id: football-2397326
         competition: "American USL Championship"
         state: upcoming
@@ -52,36 +81,6 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Forward Madison"
-            score: "–"
-      - id: football-2397650
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Fort Wayne FC"
-            score: "–"
-            detail: "23:30"
-          - name: "One Knoxville"
-            score: "–"
-      - id: football-2397648
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "01:00"
-        teams:
-          - name: "AC Boise"
-            score: "–"
-            detail: "01:00"
-          - name: "Charlotte Independence"
-            score: "–"
-      - id: football-2398089
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "21:00"
-        teams:
-          - name: "Central Córdoba de Santiago del Estero"
-            score: "–"
-            detail: "21:00"
-          - name: "Defensa y Justicia"
             score: "–"
 
   - name: Cricket
