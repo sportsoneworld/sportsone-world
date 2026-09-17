@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Sep 2026, 12:09 IST"
+updated: "17 Sep 2026, 17:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397223
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2452414
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Birmingham Legion"
-            score: "4"
-          - name: "New Mexico United"
-            score: "4"
-      - id: football-2397648
-        competition: "American USL League One"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Shakhter Karagandy"
+            score: "0"
+          - name: "Taraz"
+            score: "0"
+      - id: football-2452415
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "AC Boise"
+          - name: "Arys"
+            score: "2"
+            active: true
+          - name: "Aktobe-2"
+            score: "0"
+      - id: football-2452412
+        competition: "Kazakhstan First League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Akademiya Ontustik"
+            score: "0"
+          - name: "Jaiyq"
+            score: "0"
+      - id: football-2456054
+        competition: "Russia FNL 2 Group 3"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Rotor-2 Volgograd"
+            score: "0"
+          - name: "Volna Nizhny Novgorod Oblast"
+            score: "0"
+      - id: football-2548868
+        competition: "Thai League 2"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Muang Loei United"
+            score: "0"
+          - name: "Phrae United"
+            score: "0"
+      - id: football-2546895
+        competition: "Thai League 2"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Chanthaburi"
             score: "1"
-          - name: "Charlotte Independence"
-            score: "1"
-      - id: football-2397327
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "FC Tulsa"
-            score: "–"
-      - id: football-2397328
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Charleston Battery"
-            score: "–"
-            detail: "23:00"
-          - name: "Monterey Bay FC"
-            score: "–"
-      - id: football-2397330
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2398089
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "21:00"
-        teams:
-          - name: "Central Córdoba de Santiago del Estero"
-            score: "–"
-            detail: "21:00"
-          - name: "Defensa y Justicia"
-            score: "–"
+            active: true
+          - name: "Kasetsart"
+            score: "0"
 
   - name: Cricket
     matches:
