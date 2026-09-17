@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Sep 2026, 05:14 IST"
+updated: "17 Sep 2026, 07:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397326
+      - id: football-2419919
+        competition: "American NWSL"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "Denver Summit"
+            score: "0"
+          - name: "Bay FC"
+            score: "0"
+      - id: football-2397223
         competition: "American USL Championship"
         state: live
-        stateLabel: "79'"
+        stateLabel: "46'"
         teams:
-          - name: "Hartford Athletic"
+          - name: "Birmingham Legion"
             score: "1"
+          - name: "New Mexico United"
+            score: "2"
             active: true
-          - name: "Sporting JAX"
-            score: "0"
-      - id: football-2397649
+      - id: football-2397648
         competition: "American USL League One"
         state: live
-        stateLabel: "37'"
+        stateLabel: "35'"
         teams:
-          - name: "Chattanooga Red Wolves"
+          - name: "AC Boise"
+            score: "0"
+          - name: "Charlotte Independence"
+            score: "0"
+      - id: football-2566626
+        competition: "Bolivian Primera División"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Blooming"
+            score: "0"
+          - name: "Universitario de Vinto"
             score: "1"
             active: true
-          - name: "Forward Madison"
-            score: "0"
-      - id: football-2397653
-        competition: "American USL League One"
+      - id: football-2595378
+        competition: "CONCACAF Central American Cup"
         state: live
-        stateLabel: "37'"
+        stateLabel: "49'"
         teams:
-          - name: "Westchester SC"
-            score: "3"
-            active: true
-          - name: "Richmond Kickers"
-            score: "0"
-      - id: football-2397650
-        competition: "American USL League One"
+          - name: "Cartaginés"
+            score: "1"
+          - name: "Deportivo Saprissa"
+            score: "1"
+      - id: football-2481211
+        competition: "Colombia Categoría Primera A"
         state: live
-        stateLabel: "6'"
+        stateLabel: "23'"
         teams:
-          - name: "Fort Wayne FC"
-            score: "0"
-          - name: "One Knoxville"
-            score: "0"
-      - id: football-2532329
-        competition: "Canadian Championship"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "CF Montréal"
+          - name: "Internacional de Bogotá"
             score: "1"
             active: true
-          - name: "Vancouver Whitecaps"
-            score: "0"
-      - id: football-2598263
-        competition: "Copa Argentina"
-        state: live
-        stateLabel: "82'"
-        teams:
-          - name: "Independiente Rivadavia"
-            score: "1"
-            active: true
-          - name: "Atlético Tucumán"
+          - name: "Atlético Nacional"
             score: "0"
 
   - name: Cricket
@@ -114,4 +112,14 @@ sports:
             score: "–"
             detail: "16:00"
           - name: "Afghanistan Cricket"
+            score: "–"
+      - id: cricket-2524748
+        competition: "Twenty20 International Series"
+        state: upcoming
+        stateLabel: "17:30"
+        teams:
+          - name: "England Cricket"
+            score: "–"
+            detail: "17:30"
+          - name: "Sri Lanka Cricket"
             score: "–"
