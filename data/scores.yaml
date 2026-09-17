@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "17 Sep 2026, 17:34 IST"
+updated: "17 Sep 2026, 22:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2452414
-        competition: "Kazakhstan First League"
+      - id: football-2595360
+        competition: "Denmark DBU Pokalen"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Vejle"
+            score: "0"
+          - name: "Brøndby"
+            score: "0"
+      - id: football-2429194
+        competition: "Estonian Esiliiga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Shakhter Karagandy"
+          - name: "Viimsi"
             score: "0"
-          - name: "Taraz"
-            score: "0"
-      - id: football-2452415
-        competition: "Kazakhstan First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Arys"
-            score: "2"
-            active: true
-          - name: "Aktobe-2"
-            score: "0"
-      - id: football-2452412
-        competition: "Kazakhstan First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Akademiya Ontustik"
-            score: "0"
-          - name: "Jaiyq"
-            score: "0"
-      - id: football-2456054
-        competition: "Russia FNL 2 Group 3"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Rotor-2 Volgograd"
-            score: "0"
-          - name: "Volna Nizhny Novgorod Oblast"
-            score: "0"
-      - id: football-2548868
-        competition: "Thai League 2"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "Muang Loei United"
-            score: "0"
-          - name: "Phrae United"
-            score: "0"
-      - id: football-2546895
-        competition: "Thai League 2"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Chanthaburi"
+          - name: "Tartu Welco"
             score: "1"
             active: true
-          - name: "Kasetsart"
+      - id: football-2605395
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "North Korea U20 Women"
+            score: "0"
+          - name: "Japan U20 Women"
+            score: "0"
+      - id: football-2605396
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Poland U20 Women"
+            score: "0"
+          - name: "Colombia U20 Women"
+            score: "0"
+      - id: football-2420065
+        competition: "Georgian Erovnuli Liga"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Iberia 1999"
+            score: "0"
+          - name: "Dila Gori"
+            score: "0"
+      - id: football-2440631
+        competition: "Georgian Liga 3"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Locomotive Tbilisi"
+            score: "2"
+            active: true
+          - name: "Orbi Tbilisi"
             score: "0"
 
   - name: Cricket
