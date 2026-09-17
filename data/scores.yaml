@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Sep 2026, 01:28 IST"
+updated: "18 Sep 2026, 04:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558891
-        competition: "Algerian Ligue 1"
+      - id: football-2566627
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "Live"
+        stateLabel: "41'"
         teams:
-          - name: "CR Témouchent"
+          - name: "Real Tomayapo"
             score: "0"
-          - name: "JS Kabylie"
-            score: "0"
-      - id: football-2599815
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "Central Español"
-            score: "0"
-          - name: "Oriental de La Paz"
+          - name: "Oriente Petrolero"
             score: "1"
             active: true
-      - id: football-2599814
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "69'"
+      - id: football-2397223
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Juventud Las Piedras"
-            score: "2"
+          - name: "Birmingham Legion"
+            score: "4"
+          - name: "New Mexico United"
+            score: "4"
+      - id: football-2397648
+        competition: "American USL League One"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "AC Boise"
+            score: "1"
+          - name: "Charlotte Independence"
+            score: "1"
+      - id: football-2595419
+        competition: "Ecuadorian Serie B"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "22 de Julio"
+            score: "1"
+          - name: "Cumbayá"
+            score: "7"
             active: true
-          - name: "Racing Montevideo"
-            score: "0"
-      - id: football-2594456
-        competition: "EFL Cup"
-        state: live
-        stateLabel: "71'"
+      - id: football-2583284
+        competition: "Ecuadorian Serie B"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Manchester City"
+          - name: "Vinotinto Ecuador"
+            score: "1"
+            active: true
+          - name: "9 de Octubre"
+            score: "0"
+      - id: football-2413318
+        competition: "Swedish Division 1 South"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Eskilsminne"
             score: "4"
             active: true
-          - name: "Norwich City"
-            score: "0"
-      - id: football-2583283
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Independiente Juniors"
-            score: "1"
-          - name: "Atlético FC"
-            score: "1"
-      - id: football-2500774
-        competition: "English League 1"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "AFC Wimbledon"
-            score: "0"
-          - name: "Milton Keynes Dons"
-            score: "0"
+          - name: "Tvååker"
+            score: "2"
 
   - name: Cricket
     matches:
