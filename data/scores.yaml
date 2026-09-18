@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Sep 2026, 19:31 IST"
+updated: "18 Sep 2026, 23:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2546651
-        competition: "Azerbaijani Premier League"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Qəbələ"
-            score: "0"
-          - name: "Neftçi PFK"
-            score: "1"
-            active: true
-      - id: football-2437876
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "32'"
-        teams:
-          - name: "Belshina Bobruisk"
-            score: "1"
-            active: true
-          - name: "Minsk"
-            score: "0"
-      - id: football-2452176
-        competition: "Belarusian First League"
+      - id: football-2533281
+        competition: "Albanian Superliga"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Gomel-2"
+          - name: "Vllaznia Shkodër"
             score: "0"
-          - name: "Dinamo-2 Minsk"
+          - name: "Teuta Durrës"
             score: "1"
             active: true
-      - id: football-2532764
-        competition: "Croatian Druga HNL"
+      - id: football-2523528
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "1'"
+        stateLabel: "77'"
         teams:
-          - name: "Mladost Ždralovi"
-            score: "0"
-          - name: "Segesta Sisak"
-            score: "0"
-      - id: football-2540971
-        competition: "Croatian Second Football League"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Lučko"
-            score: "0"
-          - name: "Dugo Selo"
-            score: "0"
-      - id: football-2577211
-        competition: "Indonesian Super League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Madura United"
+          - name: "Noah"
             score: "2"
             active: true
-          - name: "PSIM Yogyakarta"
+          - name: "Van"
+            score: "0"
+      - id: football-2499740
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Rapid Vienna"
+            score: "0"
+          - name: "WSG Tirol"
+            score: "0"
+      - id: football-2505277
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "51'"
+        teams:
+          - name: "Hertha Wels"
             score: "1"
+            active: true
+          - name: "First Vienna"
+            score: "0"
+      - id: football-2505273
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Kapfenberger SV"
+            score: "1"
+          - name: "SKU Amstetten"
+            score: "2"
+            active: true
+      - id: football-2505272
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "54'"
+        teams:
+          - name: "Floridsdorfer AC"
+            score: "1"
+            active: true
+          - name: "FC Liefering"
+            score: "0"
 
   - name: Cricket
     matches:
