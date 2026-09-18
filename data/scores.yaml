@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Sep 2026, 23:09 IST"
+updated: "19 Sep 2026, 01:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533281
-        competition: "Albanian Superliga"
+      - id: football-2558888
+        competition: "Algerian Ligue 1"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Vllaznia Shkodër"
-            score: "0"
-          - name: "Teuta Durrës"
-            score: "1"
-            active: true
-      - id: football-2523528
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Noah"
+          - name: "MC Alger"
             score: "2"
             active: true
-          - name: "Van"
+          - name: "MB Rouissat"
             score: "0"
-      - id: football-2499740
-        competition: "Austrian Bundesliga"
+      - id: football-2406544
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "8'"
+        stateLabel: "Live"
         teams:
-          - name: "Rapid Vienna"
-            score: "0"
-          - name: "WSG Tirol"
-            score: "0"
-      - id: football-2505277
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "Hertha Wels"
-            score: "1"
-            active: true
-          - name: "First Vienna"
-            score: "0"
-      - id: football-2505273
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "52'"
-        teams:
-          - name: "Kapfenberger SV"
-            score: "1"
-          - name: "SKU Amstetten"
+          - name: "Club Comunicaciones"
             score: "2"
             active: true
-      - id: football-2505272
+          - name: "Defensores Unidos"
+            score: "0"
+      - id: football-2505271
         competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "54'"
+        stateLabel: "68'"
         teams:
-          - name: "Floridsdorfer AC"
-            score: "1"
+          - name: "Blau-Weiß Linz"
+            score: "2"
             active: true
-          - name: "FC Liefering"
+          - name: "Admira Wacker"
             score: "0"
+      - id: football-2497033
+        competition: "Belgian Challenger Pro League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Club NXT"
+            score: "2"
+          - name: "Jong Gent"
+            score: "2"
+      - id: football-2497032
+        competition: "Belgian Challenger Pro League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Francs Borains"
+            score: "3"
+            active: true
+          - name: "RSCA Futures"
+            score: "2"
+      - id: football-2496744
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "49'"
+        teams:
+          - name: "Gent"
+            score: "1"
+          - name: "Standard Liège"
+            score: "1"
 
   - name: Cricket
     matches:
