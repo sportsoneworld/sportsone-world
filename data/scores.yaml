@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Sep 2026, 10:54 IST"
+updated: "18 Sep 2026, 15:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,26 +23,44 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551767
-        competition: "Japanese J2 League"
+      - id: football-2600042
+        competition: "China league Two"
         state: live
-        stateLabel: "64'"
+        stateLabel: "Live"
         teams:
-          - name: "Vanraure Hachinohe"
+          - name: "Changchun Xidu"
             score: "0"
-          - name: "Tegevajaro Miyazaki"
+          - name: "Guangdong Mingtu"
+            score: "0"
+      - id: football-2600041
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Lanzhou Longyuan Athletic"
             score: "2"
             active: true
-      - id: football-2595381
-        competition: "CONCACAF Central American Cup"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "CD Olimpia"
-            score: "3"
-            active: true
-          - name: "Firpo"
+          - name: "Wenzhou Professional"
             score: "0"
+      - id: football-2600043
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Wuhan Three Towns B"
+            score: "0"
+          - name: "Nantong Haimen Codion"
+            score: "1"
+            active: true
+      - id: football-2577210
+        competition: "Indonesian Super League"
+        state: live
+        stateLabel: "67'"
+        teams:
+          - name: "Arema"
+            score: "1"
+          - name: "Persik Kediri"
+            score: "1"
       - id: football-2397327
         competition: "American USL Championship"
         state: upcoming
@@ -62,26 +80,6 @@ sports:
             score: "–"
             detail: "23:00"
           - name: "Monterey Bay FC"
-            score: "–"
-      - id: football-2397330
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Pittsburgh Riverhounds"
-            score: "–"
-      - id: football-2397329
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
-        teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-            detail: "01:00"
-          - name: "New Mexico United"
             score: "–"
 
   - name: Cricket
