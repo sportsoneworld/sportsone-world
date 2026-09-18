@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 01:27 IST"
+updated: "19 Sep 2026, 03:43 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,67 +23,88 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558888
-        competition: "Algerian Ligue 1"
+      - id: football-2408623
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "Live"
+        stateLabel: "42'"
         teams:
-          - name: "MC Alger"
-            score: "2"
-            active: true
-          - name: "MB Rouissat"
+          - name: "Defensores de Cambaceres"
             score: "0"
-      - id: football-2406544
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Club Comunicaciones"
-            score: "2"
-            active: true
-          - name: "Defensores Unidos"
+          - name: "Justo José de Urquiza"
             score: "0"
-      - id: football-2505271
-        competition: "Austrian Erste Liga"
+      - id: football-2398089
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "68'"
+        stateLabel: "52'"
         teams:
-          - name: "Blau-Weiß Linz"
-            score: "2"
-            active: true
-          - name: "Admira Wacker"
+          - name: "Central Córdoba de Santiago del Estero"
             score: "0"
-      - id: football-2497033
-        competition: "Belgian Challenger Pro League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Club NXT"
-            score: "2"
-          - name: "Jong Gent"
-            score: "2"
-      - id: football-2497032
-        competition: "Belgian Challenger Pro League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Francs Borains"
-            score: "3"
-            active: true
-          - name: "RSCA Futures"
-            score: "2"
-      - id: football-2496744
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "49'"
-        teams:
-          - name: "Gent"
+          - name: "Defensa y Justicia"
             score: "1"
-          - name: "Standard Liège"
+            active: true
+      - id: football-2481193
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "51'"
+        teams:
+          - name: "Rionegro Águilas"
+            score: "1"
+            active: true
+          - name: "Deportivo Pereira"
+            score: "0"
+      - id: football-2597607
+        competition: "Honduras Liga Nacional de Futbol"
+        state: live
+        stateLabel: "53'"
+        teams:
+          - name: "Platense Puerto Cortés"
+            score: "0"
+          - name: "Lobos UPNFM"
+            score: "2"
+            active: true
+      - id: football-2558890
+        competition: "Algerian Ligue 1"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "ASO Chlef"
+            score: "0"
+          - name: "MC Oran"
+            score: "1"
+            active: true
+      - id: football-2398726
+        competition: "Irish Premier Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Bohemians"
+            score: "2"
+            active: true
+          - name: "Drogheda United"
             score: "1"
 
   - name: Cricket
     matches:
+      - id: cricket-2607489
+        competition: "Caribbean Premier League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Guyana Amazon Warriors"
+            score: "76"
+          - name: "Antigua and Barbuda Falcons"
+            score: "77"
+            active: true
+      - id: cricket-2607490
+        competition: "Caribbean Premier League"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Guyana Amazon Warriors"
+            score: "–"
+            detail: "23:00"
+          - name: "Jamaica Kingsmen"
+            score: "–"
       - id: cricket-2524727
         competition: "One Day International Series"
         state: upcoming
