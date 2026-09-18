@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "18 Sep 2026, 04:10 IST"
+updated: "18 Sep 2026, 06:16 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2566627
+      - id: football-2566628
         competition: "Bolivian Primera División"
         state: live
-        stateLabel: "41'"
+        stateLabel: "15'"
         teams:
-          - name: "Real Tomayapo"
+          - name: "Bolívar"
             score: "0"
-          - name: "Oriente Petrolero"
-            score: "1"
-            active: true
-      - id: football-2397223
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Birmingham Legion"
-            score: "4"
-          - name: "New Mexico United"
-            score: "4"
-      - id: football-2397648
-        competition: "American USL League One"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "AC Boise"
-            score: "1"
-          - name: "Charlotte Independence"
-            score: "1"
-      - id: football-2595419
-        competition: "Ecuadorian Serie B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "22 de Julio"
-            score: "1"
-          - name: "Cumbayá"
-            score: "7"
-            active: true
-      - id: football-2583284
-        competition: "Ecuadorian Serie B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Vinotinto Ecuador"
-            score: "1"
-            active: true
-          - name: "9 de Octubre"
+          - name: "GV San José"
             score: "0"
-      - id: football-2413318
-        competition: "Swedish Division 1 South"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2481777
+        competition: "CONCACAF Caribbean Cup"
+        state: live
+        stateLabel: "82'"
         teams:
-          - name: "Eskilsminne"
-            score: "4"
-            active: true
-          - name: "Tvååker"
+          - name: "Cibao"
+            score: "0"
+          - name: "Portmore United"
             score: "2"
+            active: true
+      - id: football-2558753
+        competition: "CONCACAF Caribbean Cup"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Mount Pleasant"
+            score: "1"
+            active: true
+          - name: "Cavalier"
+            score: "0"
+      - id: football-2595380
+        competition: "CONCACAF Central American Cup"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Alajuelense"
+            score: "0"
+          - name: "Marathón"
+            score: "0"
+      - id: football-2481166
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Atlético Bucaramanga"
+            score: "2"
+            active: true
+          - name: "Independiente Medellín"
+            score: "0"
+      - id: football-2592844
+        competition: "Copa Libertadores"
+        state: live
+        stateLabel: "15'"
+        teams:
+          - name: "Flamengo"
+            score: "0"
+          - name: "Independiente del Valle"
+            score: "0"
 
   - name: Cricket
     matches:
@@ -94,25 +93,15 @@ sports:
             detail: "07:30"
           - name: "Australia Cricket"
             score: "–"
-      - id: cricket-2524747
-        competition: "Twenty20 International Series"
+      - id: cricket-2524728
+        competition: "One Day International Series"
         state: upcoming
-        stateLabel: "17:30"
+        stateLabel: "07:30"
         teams:
-          - name: "England Cricket"
+          - name: "Zimbabwe Cricket"
             score: "–"
-            detail: "17:30"
-          - name: "Sri Lanka Cricket"
-            score: "–"
-      - id: cricket-2605556
-        competition: "Twenty20 International Series"
-        state: upcoming
-        stateLabel: "16:00"
-        teams:
-          - name: "India Cricket"
-            score: "–"
-            detail: "16:00"
-          - name: "Afghanistan Cricket"
+            detail: "07:30"
+          - name: "Australia Cricket"
             score: "–"
       - id: cricket-2524748
         competition: "Twenty20 International Series"
