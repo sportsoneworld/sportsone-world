@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 00:11 IST"
+updated: "20 Sep 2026, 02:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558887
-        competition: "Algerian Ligue 1"
+      - id: football-2419922
+        competition: "American NWSL"
         state: live
-        stateLabel: "42'"
+        stateLabel: "45'"
         teams:
-          - name: "ES Sétif"
+          - name: "Orlando Pride"
             score: "1"
-          - name: "CS Constantine"
-            score: "1"
-      - id: football-2572251
-        competition: "Andorran 1a Divisió"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Carroi"
-            score: "0"
-          - name: "Penya Encarnada d'Andorra"
-            score: "0"
-      - id: football-2406550
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "San Martín de Burzaco"
-            score: "1"
+          - name: "Portland Thorns"
+            score: "2"
             active: true
-          - name: "Laferrere"
-            score: "0"
-      - id: football-2406549
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2405097
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "36'"
+        stateLabel: "Live"
         teams:
-          - name: "Real Pilar"
-            score: "1"
+          - name: "Temperley"
+            score: "3"
             active: true
-          - name: "Arsenal de Sarandí"
-            score: "0"
-      - id: football-2406553
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Villa Dálmine"
+          - name: "Almagro"
             score: "1"
+      - id: football-2405083
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Atlético de Rafaela"
+            score: "4"
             active: true
-          - name: "Ituzaingó"
-            score: "0"
-      - id: football-2406552
-        competition: "Argentina Primera B Metropolitana"
+          - name: "San Martín de Tucumán"
+            score: "2"
+      - id: football-2398099
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "41'"
+        stateLabel: "49'"
         teams:
-          - name: "UAI Urquiza"
+          - name: "Unión"
+            score: "0"
+          - name: "Independiente"
+            score: "0"
+      - id: football-2398466
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Mirassol"
+            score: "2"
+            active: true
+          - name: "Botafogo"
+            score: "0"
+      - id: football-2431454
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "Sport Recife"
             score: "1"
-          - name: "Excursionistas"
-            score: "1"
+          - name: "Juventude"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
