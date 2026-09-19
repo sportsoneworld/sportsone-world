@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 21:57 IST"
+updated: "20 Sep 2026, 00:11 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558893
+      - id: football-2558887
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "67'"
+        stateLabel: "42'"
         teams:
-          - name: "Olympique Akbou"
-            score: "2"
-          - name: "USM Alger"
-            score: "2"
-      - id: football-2578240
-        competition: "Angolan Girabola"
+          - name: "ES Sétif"
+            score: "1"
+          - name: "CS Constantine"
+            score: "1"
+      - id: football-2572251
+        competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "Live"
+        stateLabel: "8'"
         teams:
-          - name: "Primeiro de Agosto"
-            score: "3"
-            active: true
-          - name: "FC Luanda"
-            score: "2"
-      - id: football-2523530
-        competition: "Armenian Premier League"
+          - name: "Carroi"
+            score: "0"
+          - name: "Penya Encarnada d'Andorra"
+            score: "0"
+      - id: football-2406550
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "70'"
+        stateLabel: "35'"
         teams:
-          - name: "BKMA"
-            score: "0"
-          - name: "Sardarapat"
-            score: "0"
-      - id: football-2499743
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "69'"
-        teams:
-          - name: "Austria Lustenau"
-            score: "2"
-            active: true
-          - name: "SCR Altach"
-            score: "0"
-      - id: football-2505270
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "SKN St. Polten"
-            score: "0"
-          - name: "Schwarz-Weiß Bregenz"
+          - name: "San Martín de Burzaco"
             score: "1"
             active: true
-      - id: football-2514318
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "69'"
-        teams:
-          - name: "Wiener Viktoria"
-            score: "3"
-            active: true
-          - name: "Wienerberg"
+          - name: "Laferrere"
             score: "0"
+      - id: football-2406549
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "36'"
+        teams:
+          - name: "Real Pilar"
+            score: "1"
+            active: true
+          - name: "Arsenal de Sarandí"
+            score: "0"
+      - id: football-2406553
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Villa Dálmine"
+            score: "1"
+            active: true
+          - name: "Ituzaingó"
+            score: "0"
+      - id: football-2406552
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "41'"
+        teams:
+          - name: "UAI Urquiza"
+            score: "1"
+          - name: "Excursionistas"
+            score: "1"
 
   - name: Cricket
     matches:
