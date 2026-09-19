@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 14:34 IST"
+updated: "19 Sep 2026, 18:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2600048
-        competition: "China league Two"
+      - id: football-2523525
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "3'"
+        stateLabel: "Live"
         teams:
-          - name: "Dalian Kewei"
+          - name: "Alashkert"
+            score: "1"
+          - name: "Pyunik Yerevan"
+            score: "2"
+            active: true
+      - id: football-2512726
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Kufstein"
             score: "0"
-          - name: "Shenzhen 2028"
+          - name: "Kitzbühel"
             score: "0"
-      - id: football-2600045
-        competition: "China league Two"
+      - id: football-2512731
+        competition: "Austrian Regionalliga West"
         state: live
         stateLabel: "46'"
         teams:
-          - name: "Shanxi Chongde Ronghai"
-            score: "0"
-          - name: "Guizhou Guiyang Athletic"
-            score: "0"
-      - id: football-2600047
-        competition: "China league Two"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Dalian Yingbo B"
+          - name: "SK St. Johann"
             score: "1"
-            active: true
-          - name: "Guangzhou Dandelion"
-            score: "0"
-      - id: football-2600046
-        competition: "China league Two"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Shanghai Second"
-            score: "0"
-          - name: "Hubei Istar"
-            score: "0"
-      - id: football-2502778
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Motorlet Praha"
-            score: "0"
-          - name: "Benešov"
-            score: "0"
-      - id: football-2502781
-        competition: "Czech Bohemian Football League Group A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Slavia Praha C"
-            score: "0"
-          - name: "Jiskra Domažlice"
+          - name: "Lochau"
             score: "1"
+      - id: football-2452174
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "3'"
+        teams:
+          - name: "UniXLabs Minsk"
+            score: "0"
+          - name: "Slonim-2017"
+            score: "0"
+      - id: football-2452170
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "32'"
+        teams:
+          - name: "Volna Pinsk"
+            score: "0"
+          - name: "SKA-1938 Minsk"
+            score: "2"
             active: true
+      - id: football-2452168
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "51'"
+        teams:
+          - name: "Orsha"
+            score: "0"
+          - name: "Slutsk"
+            score: "0"
 
   - name: Cricket
     matches:
