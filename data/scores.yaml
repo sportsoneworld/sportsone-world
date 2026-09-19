@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 02:30 IST"
+updated: "20 Sep 2026, 04:28 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419922
+      - id: football-2419923
         competition: "American NWSL"
         state: live
-        stateLabel: "45'"
+        stateLabel: "26'"
         teams:
-          - name: "Orlando Pride"
+          - name: "North Carolina Courage"
+            score: "0"
+          - name: "NJ/NY Gotham"
             score: "1"
-          - name: "Portland Thorns"
-            score: "2"
             active: true
-      - id: football-2405097
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2397658
+        competition: "American USL League One"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Temperley"
-            score: "3"
-            active: true
-          - name: "Almagro"
+          - name: "Richmond Kickers"
             score: "1"
-      - id: football-2405083
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Atlético de Rafaela"
-            score: "4"
-            active: true
-          - name: "San Martín de Tucumán"
+          - name: "Charlotte Independence"
             score: "2"
-      - id: football-2398099
+            active: true
+      - id: football-2398096
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "49'"
+        stateLabel: "Live"
         teams:
-          - name: "Unión"
+          - name: "River Plate"
             score: "0"
-          - name: "Independiente"
-            score: "0"
-      - id: football-2398466
+          - name: "Huracán"
+            score: "1"
+            active: true
+      - id: football-2398467
         competition: "Brazilian Serie A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "66'"
         teams:
-          - name: "Mirassol"
-            score: "2"
-            active: true
-          - name: "Botafogo"
+          - name: "Remo"
             score: "0"
-      - id: football-2431454
+          - name: "Santos"
+            score: "0"
+      - id: football-2431446
         competition: "Brazilian Serie B"
         state: live
-        stateLabel: "65'"
+        stateLabel: "70'"
         teams:
-          - name: "Sport Recife"
+          - name: "Athletic Club-MG"
             score: "1"
-          - name: "Juventude"
+          - name: "Botafogo-SP"
+            score: "1"
+      - id: football-2451042
+        competition: "Canadian Northern Super League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Vancouver Rise"
             score: "2"
-            active: true
+          - name: "Roses de Montréal"
+            score: "2"
 
   - name: Cricket
     matches:
