@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 05:51 IST"
+updated: "19 Sep 2026, 10:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407083
-        competition: "American Major League Soccer"
+      - id: football-2548520
+        competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "40'"
+        stateLabel: "84'"
         teams:
-          - name: "New York City FC"
+          - name: "Monterrey Femenil"
+            score: "8"
+            active: true
+          - name: "Necaxa Femenil"
             score: "0"
-          - name: "New York Red Bulls"
-            score: "0"
-      - id: football-2551391
-        competition: "Argentina Torneo Federal A"
+      - id: football-2521312
+        competition: "Mexican Liga de Expansión MX"
         state: live
-        stateLabel: "19'"
+        stateLabel: "82'"
         teams:
-          - name: "Juventud Antoniana"
-            score: "0"
-          - name: "Cipolletti"
-            score: "0"
-      - id: football-2398095
-        competition: "Argentinian Primera Division"
+          - name: "Atlético La Paz"
+            score: "3"
+            active: true
+          - name: "Correcaminos UAT"
+            score: "1"
+      - id: football-2487525
+        competition: "Mexican Primera League"
         state: live
-        stateLabel: "6'"
+        stateLabel: "86'"
         teams:
-          - name: "Racing Club"
-            score: "0"
-          - name: "Sarmiento"
-            score: "0"
-      - id: football-2566629
-        competition: "Bolivian Primera División"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Independiente Petrolero"
-            score: "0"
-          - name: "San Antonio Bulo Bulo"
+          - name: "Juárez"
             score: "2"
             active: true
-      - id: football-2431453
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "20'"
+          - name: "Tigres UANL"
+            score: "0"
+      - id: football-2419921
+        competition: "American NWSL"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "São Bernardo"
+          - name: "San Diego Wave"
+            score: "2"
+            active: true
+          - name: "Kansas City Current"
             score: "0"
-          - name: "Atlético Goianiense"
-            score: "0"
-      - id: football-2431447
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "Live"
+      - id: football-2488654
+        competition: "Costa-Rica Liga FPD"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Ceará"
-            score: "0"
-          - name: "Novorizontino"
-            score: "0"
+          - name: "Pérez Zeledón"
+            score: "1"
+          - name: "Sporting San José"
+            score: "2"
+            active: true
+      - id: football-2497266
+        competition: "Guatemala Liga Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Comunicaciones"
+            score: "1"
+          - name: "Guastatoya"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
