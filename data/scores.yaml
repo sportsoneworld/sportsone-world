@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 10:18 IST"
+updated: "19 Sep 2026, 14:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,69 +23,74 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2548520
-        competition: "Mexican Liga Femenil"
+      - id: football-2600048
+        competition: "China league Two"
         state: live
-        stateLabel: "84'"
+        stateLabel: "3'"
         teams:
-          - name: "Monterrey Femenil"
-            score: "8"
-            active: true
-          - name: "Necaxa Femenil"
+          - name: "Dalian Kewei"
             score: "0"
-      - id: football-2521312
-        competition: "Mexican Liga de Expansión MX"
+          - name: "Shenzhen 2028"
+            score: "0"
+      - id: football-2600045
+        competition: "China league Two"
         state: live
-        stateLabel: "82'"
+        stateLabel: "46'"
         teams:
-          - name: "Atlético La Paz"
-            score: "3"
-            active: true
-          - name: "Correcaminos UAT"
-            score: "1"
-      - id: football-2487525
-        competition: "Mexican Primera League"
+          - name: "Shanxi Chongde Ronghai"
+            score: "0"
+          - name: "Guizhou Guiyang Athletic"
+            score: "0"
+      - id: football-2600047
+        competition: "China league Two"
         state: live
-        stateLabel: "86'"
+        stateLabel: "47'"
         teams:
-          - name: "Juárez"
-            score: "2"
-            active: true
-          - name: "Tigres UANL"
-            score: "0"
-      - id: football-2419921
-        competition: "American NWSL"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "San Diego Wave"
-            score: "2"
-            active: true
-          - name: "Kansas City Current"
-            score: "0"
-      - id: football-2488654
-        competition: "Costa-Rica Liga FPD"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Pérez Zeledón"
+          - name: "Dalian Yingbo B"
             score: "1"
-          - name: "Sporting San José"
-            score: "2"
             active: true
-      - id: football-2497266
-        competition: "Guatemala Liga Nacional"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Guangzhou Dandelion"
+            score: "0"
+      - id: football-2600046
+        competition: "China league Two"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Comunicaciones"
+          - name: "Shanghai Second"
+            score: "0"
+          - name: "Hubei Istar"
+            score: "0"
+      - id: football-2502778
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Motorlet Praha"
+            score: "0"
+          - name: "Benešov"
+            score: "0"
+      - id: football-2502781
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Slavia Praha C"
+            score: "0"
+          - name: "Jiskra Domažlice"
             score: "1"
-          - name: "Guastatoya"
-            score: "2"
             active: true
 
   - name: Cricket
     matches:
+      - id: cricket-2607511
+        competition: "Caribbean Premier League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Antigua and Barbuda Falcons"
+            score: "–"
+          - name: "Jamaica Kingsmen"
+            score: "–"
       - id: cricket-2524728
         competition: "One Day International Series"
         state: upcoming
