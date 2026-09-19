@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 03:43 IST"
+updated: "19 Sep 2026, 05:51 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,98 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2408623
-        competition: "Argentinian Primera C"
+      - id: football-2407083
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "42'"
+        stateLabel: "40'"
         teams:
-          - name: "Defensores de Cambaceres"
+          - name: "New York City FC"
             score: "0"
-          - name: "Justo José de Urquiza"
+          - name: "New York Red Bulls"
             score: "0"
-      - id: football-2398089
+      - id: football-2551391
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "19'"
+        teams:
+          - name: "Juventud Antoniana"
+            score: "0"
+          - name: "Cipolletti"
+            score: "0"
+      - id: football-2398095
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "52'"
+        stateLabel: "6'"
         teams:
-          - name: "Central Córdoba de Santiago del Estero"
+          - name: "Racing Club"
             score: "0"
-          - name: "Defensa y Justicia"
-            score: "1"
-            active: true
-      - id: football-2481193
-        competition: "Colombia Categoría Primera A"
+          - name: "Sarmiento"
+            score: "0"
+      - id: football-2566629
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "51'"
+        stateLabel: "46'"
         teams:
-          - name: "Rionegro Águilas"
-            score: "1"
-            active: true
-          - name: "Deportivo Pereira"
+          - name: "Independiente Petrolero"
             score: "0"
-      - id: football-2597607
-        competition: "Honduras Liga Nacional de Futbol"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Platense Puerto Cortés"
-            score: "0"
-          - name: "Lobos UPNFM"
+          - name: "San Antonio Bulo Bulo"
             score: "2"
             active: true
-      - id: football-2558890
-        competition: "Algerian Ligue 1"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2431453
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "20'"
         teams:
-          - name: "ASO Chlef"
+          - name: "São Bernardo"
             score: "0"
-          - name: "MC Oran"
-            score: "1"
-            active: true
-      - id: football-2398726
-        competition: "Irish Premier Division"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Atlético Goianiense"
+            score: "0"
+      - id: football-2431447
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Bohemians"
-            score: "2"
-            active: true
-          - name: "Drogheda United"
-            score: "1"
+          - name: "Ceará"
+            score: "0"
+          - name: "Novorizontino"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2607489
-        competition: "Caribbean Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Guyana Amazon Warriors"
-            score: "76"
-          - name: "Antigua and Barbuda Falcons"
-            score: "77"
-            active: true
-      - id: cricket-2607490
-        competition: "Caribbean Premier League"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Guyana Amazon Warriors"
-            score: "–"
-            detail: "23:00"
-          - name: "Jamaica Kingsmen"
-            score: "–"
-      - id: cricket-2524727
-        competition: "One Day International Series"
-        state: upcoming
-        stateLabel: "07:30"
-        teams:
-          - name: "Zimbabwe Cricket"
-            score: "–"
-            detail: "07:30"
-          - name: "Australia Cricket"
-            score: "–"
       - id: cricket-2524728
         competition: "One Day International Series"
         state: upcoming
