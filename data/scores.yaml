@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "19 Sep 2026, 18:36 IST"
+updated: "19 Sep 2026, 21:57 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2523525
-        competition: "Armenian Premier League"
+      - id: football-2558893
+        competition: "Algerian Ligue 1"
+        state: live
+        stateLabel: "67'"
+        teams:
+          - name: "Olympique Akbou"
+            score: "2"
+          - name: "USM Alger"
+            score: "2"
+      - id: football-2578240
+        competition: "Angolan Girabola"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Alashkert"
-            score: "1"
-          - name: "Pyunik Yerevan"
+          - name: "Primeiro de Agosto"
+            score: "3"
+            active: true
+          - name: "FC Luanda"
+            score: "2"
+      - id: football-2523530
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "BKMA"
+            score: "0"
+          - name: "Sardarapat"
+            score: "0"
+      - id: football-2499743
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "69'"
+        teams:
+          - name: "Austria Lustenau"
             score: "2"
             active: true
-      - id: football-2512726
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "5'"
-        teams:
-          - name: "Kufstein"
+          - name: "SCR Altach"
             score: "0"
-          - name: "Kitzbühel"
-            score: "0"
-      - id: football-2512731
-        competition: "Austrian Regionalliga West"
+      - id: football-2505270
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "46'"
+        stateLabel: "Live"
         teams:
-          - name: "SK St. Johann"
+          - name: "SKN St. Polten"
+            score: "0"
+          - name: "Schwarz-Weiß Bregenz"
             score: "1"
-          - name: "Lochau"
-            score: "1"
-      - id: football-2452174
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "3'"
-        teams:
-          - name: "UniXLabs Minsk"
-            score: "0"
-          - name: "Slonim-2017"
-            score: "0"
-      - id: football-2452170
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "32'"
-        teams:
-          - name: "Volna Pinsk"
-            score: "0"
-          - name: "SKA-1938 Minsk"
-            score: "2"
             active: true
-      - id: football-2452168
-        competition: "Belarusian First League"
+      - id: football-2514318
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "51'"
+        stateLabel: "69'"
         teams:
-          - name: "Orsha"
-            score: "0"
-          - name: "Slutsk"
+          - name: "Wiener Viktoria"
+            score: "3"
+            active: true
+          - name: "Wienerberg"
             score: "0"
 
   - name: Cricket
