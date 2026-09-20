@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 10:56 IST"
+updated: "20 Sep 2026, 15:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2604857
-        competition: "Asian Games Soccer"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Iran U23"
-            score: "0"
-          - name: "China U23"
-            score: "0"
-      - id: football-2492443
-        competition: "Japanese J3 League"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Zweigen Kanazawa"
-            score: "1"
-          - name: "Renofa Yamaguchi"
-            score: "1"
-      - id: football-2487529
-        competition: "Mexican Primera League"
+      - id: football-2572252
+        competition: "Andorran 1a Divisió"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "América"
+          - name: "Sporting d'Escaldes"
+            score: "0"
+          - name: "FC Santa Coloma"
             score: "2"
-          - name: "CD Guadalajara"
-            score: "2"
-      - id: football-2524805
-        competition: "Russia FNL 2 Division A Gold Group"
+            active: true
+      - id: football-2505274
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "62'"
+        stateLabel: "64'"
         teams:
-          - name: "Dynamo Vladivostok"
-            score: "0"
-          - name: "Rodina-2 Moscow"
-            score: "0"
-      - id: football-2407096
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Young Violets Austria Wien"
+            score: "2"
+            active: true
+          - name: "Rapid Wien II"
+            score: "1"
+      - id: football-2595667
+        competition: "Bhutan Premier League"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Portland Timbers"
-            score: "0"
-          - name: "Atlanta United"
+          - name: "Tensung"
+            score: "1"
+          - name: "Drukpa"
+            score: "2"
+            active: true
+      - id: football-2558161
+        competition: "Cambodian Premier League"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Kirivong Sok Sen Chey"
             score: "1"
             active: true
-      - id: football-2407093
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Angkor Tiger"
+            score: "0"
+      - id: football-2502780
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "78'"
         teams:
-          - name: "Colorado Rapids"
+          - name: "Bohemians 1905 B"
             score: "3"
-          - name: "Seattle Sounders"
+            active: true
+          - name: "Viktoria Plzeň B"
+            score: "0"
+      - id: football-2502775
+        competition: "Czech Bohemian Football League Group A"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Admira Praha"
             score: "3"
+            active: true
+          - name: "Písek"
+            score: "0"
 
   - name: Cricket
     matches:
