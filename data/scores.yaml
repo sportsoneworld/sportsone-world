@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Sep 2026, 00:56 IST"
+updated: "21 Sep 2026, 03:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419925
+      - id: football-2419926
         competition: "American NWSL"
         state: live
-        stateLabel: "59'"
+        stateLabel: "35'"
         teams:
-          - name: "Boston Legacy"
-            score: "1"
-          - name: "Houston Dash"
-            score: "1"
-      - id: football-2572254
-        competition: "Andorran 1a Divisió"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Inter Club d'Escaldes"
-            score: "1"
+          - name: "Chicago Stars"
+            score: "0"
+          - name: "Washington Spirit"
+            score: "2"
             active: true
-          - name: "FC Rànger's"
+      - id: football-2397337
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "36'"
+        teams:
+          - name: "Indy Eleven"
             score: "0"
-      - id: football-2406547
+          - name: "Oakland Roots"
+            score: "0"
+      - id: football-2406545
         competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "62'"
+        stateLabel: "78'"
         teams:
-          - name: "Dock Sud"
+          - name: "Deportivo Merlo"
+            score: "2"
+            active: true
+          - name: "Flandria"
             score: "0"
-          - name: "Argentino de Quilmes"
-            score: "0"
-      - id: football-2406554
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "Villa San Carlos"
-            score: "0"
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-      - id: football-2406548
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "68'"
-        teams:
-          - name: "Liniers"
-            score: "1"
-          - name: "Argentino de Merlo"
-            score: "1"
-      - id: football-2405089
+      - id: football-2405094
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "22'"
+        stateLabel: "77'"
         teams:
-          - name: "Deportivo Madryn"
+          - name: "San Martín de San Juan"
+            score: "2"
+            active: true
+          - name: "Colegiales"
             score: "0"
-          - name: "Racing de Córdoba"
+      - id: football-2405084
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "79'"
+        teams:
+          - name: "Central Norte"
+            score: "0"
+          - name: "Defensores de Belgrano"
+            score: "1"
+            active: true
+      - id: football-2405086
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "80'"
+        teams:
+          - name: "Chaco For Ever"
+            score: "1"
+            active: true
+          - name: "Almirante Brown"
             score: "0"
 
   - name: Cricket
