@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 04:28 IST"
+updated: "20 Sep 2026, 06:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419923
-        competition: "American NWSL"
+      - id: football-2407088
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "26'"
+        stateLabel: "4'"
         teams:
-          - name: "North Carolina Courage"
+          - name: "Minnesota United"
             score: "0"
-          - name: "NJ/NY Gotham"
+          - name: "LA Galaxy"
+            score: "0"
+      - id: football-2407089
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Houston Dynamo"
+            score: "0"
+          - name: "FC Cincinnati"
+            score: "0"
+      - id: football-2407090
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Sporting Kansas City"
+            score: "0"
+          - name: "Philadelphia Union"
+            score: "0"
+      - id: football-2407091
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "FC Dallas"
+            score: "0"
+          - name: "Austin FC"
+            score: "0"
+      - id: football-2407092
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "St. Louis City SC"
+            score: "0"
+          - name: "Toronto FC"
+            score: "0"
+      - id: football-2407087
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "DC United"
+            score: "0"
+          - name: "Charlotte FC"
             score: "1"
             active: true
-      - id: football-2397658
-        competition: "American USL League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Richmond Kickers"
-            score: "1"
-          - name: "Charlotte Independence"
-            score: "2"
-            active: true
-      - id: football-2398096
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "River Plate"
-            score: "0"
-          - name: "Huracán"
-            score: "1"
-            active: true
-      - id: football-2398467
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Remo"
-            score: "0"
-          - name: "Santos"
-            score: "0"
-      - id: football-2431446
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Athletic Club-MG"
-            score: "1"
-          - name: "Botafogo-SP"
-            score: "1"
-      - id: football-2451042
-        competition: "Canadian Northern Super League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vancouver Rise"
-            score: "2"
-          - name: "Roses de Montréal"
-            score: "2"
 
   - name: Cricket
     matches:
@@ -102,13 +100,13 @@ sports:
             detail: "07:30"
           - name: "Australia Cricket"
             score: "–"
-      - id: cricket-2524748
-        competition: "Twenty20 International Series"
+      - id: cricket-2524729
+        competition: "One Day International Series"
         state: upcoming
-        stateLabel: "17:30"
+        stateLabel: "11:30"
         teams:
           - name: "England Cricket"
             score: "–"
-            detail: "17:30"
+            detail: "11:30"
           - name: "Sri Lanka Cricket"
             score: "–"
