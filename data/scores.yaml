@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 22:38 IST"
+updated: "21 Sep 2026, 00:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2533280
-        competition: "Albanian Superliga"
+      - id: football-2419925
+        competition: "American NWSL"
         state: live
-        stateLabel: "38'"
+        stateLabel: "59'"
         teams:
-          - name: "Egnatia"
+          - name: "Boston Legacy"
+            score: "1"
+          - name: "Houston Dash"
+            score: "1"
+      - id: football-2572254
+        competition: "Andorran 1a Divisió"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "Inter Club d'Escaldes"
             score: "1"
             active: true
-          - name: "Partizani Tirana"
+          - name: "FC Rànger's"
             score: "0"
-      - id: football-2578243
-        competition: "Angolan Girabola"
+      - id: football-2406547
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
-          - name: "Wiliete"
+          - name: "Dock Sud"
+            score: "0"
+          - name: "Argentino de Quilmes"
+            score: "0"
+      - id: football-2406554
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "Villa San Carlos"
+            score: "0"
+          - name: "Talleres de Remedios de Escalada"
+            score: "0"
+      - id: football-2406548
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "68'"
+        teams:
+          - name: "Liniers"
             score: "1"
-            active: true
-          - name: "Recreativo do Libolo"
-            score: "0"
-      - id: football-2496751
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Club Brugge"
+          - name: "Argentino de Merlo"
             score: "1"
-            active: true
-          - name: "Genk"
-            score: "0"
-      - id: football-2511499
-        competition: "Bulgarian Second League"
+      - id: football-2405089
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "46'"
+        stateLabel: "22'"
         teams:
-          - name: "Pirin Blagoevgrad"
-            score: "1"
-          - name: "Fratria Varna"
-            score: "2"
-            active: true
-      - id: football-2511500
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "52'"
-        teams:
-          - name: "Yantra Gabrovo"
+          - name: "Deportivo Madryn"
             score: "0"
-          - name: "Lokomotiv Gorna Oryahovitsa"
+          - name: "Racing de Córdoba"
             score: "0"
-      - id: football-2607367
-        competition: "Burkina Faso 1ere Division"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Rahimo"
-            score: "2"
-            active: true
-          - name: "Réal du Faso"
-            score: "1"
 
   - name: Cricket
     matches:
