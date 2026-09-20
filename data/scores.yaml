@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 19:19 IST"
+updated: "20 Sep 2026, 22:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572253
-        competition: "Andorran 1a Divisió"
+      - id: football-2533280
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Egnatia"
+            score: "1"
+            active: true
+          - name: "Partizani Tirana"
+            score: "0"
+      - id: football-2578243
+        competition: "Angolan Girabola"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Esperança d'Andorra"
-            score: "4"
-            active: true
-          - name: "Ordino"
-            score: "0"
-      - id: football-2523527
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Ararat Yerevan"
+          - name: "Wiliete"
             score: "1"
             active: true
-          - name: "Syunik"
+          - name: "Recreativo do Libolo"
             score: "0"
-      - id: football-2499741
-        competition: "Austrian Bundesliga"
+      - id: football-2496751
+        competition: "Belgian Pro League"
         state: live
-        stateLabel: "61'"
+        stateLabel: "38'"
         teams:
-          - name: "SV Ried"
-            score: "3"
-            active: true
-          - name: "Wolfsberger AC"
-            score: "0"
-      - id: football-2499742
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "TSV Hartberg"
-            score: "1"
-          - name: "LASK"
-            score: "3"
-            active: true
-      - id: football-2514314
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Scheiblingkirchen-Warth"
-            score: "0"
-          - name: "Donaufeld Wien"
+          - name: "Club Brugge"
             score: "1"
             active: true
-      - id: football-2512729
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "SCR Altach Juniors"
+          - name: "Genk"
             score: "0"
-          - name: "Schwaz"
+      - id: football-2511499
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Pirin Blagoevgrad"
+            score: "1"
+          - name: "Fratria Varna"
             score: "2"
             active: true
+      - id: football-2511500
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Yantra Gabrovo"
+            score: "0"
+          - name: "Lokomotiv Gorna Oryahovitsa"
+            score: "0"
+      - id: football-2607367
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Rahimo"
+            score: "2"
+            active: true
+          - name: "Réal du Faso"
+            score: "1"
 
   - name: Cricket
     matches:
