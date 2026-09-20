@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "20 Sep 2026, 06:14 IST"
+updated: "20 Sep 2026, 10:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407088
-        competition: "American Major League Soccer"
+      - id: football-2604857
+        competition: "Asian Games Soccer"
         state: live
-        stateLabel: "4'"
+        stateLabel: "25'"
         teams:
-          - name: "Minnesota United"
+          - name: "Iran U23"
             score: "0"
-          - name: "LA Galaxy"
+          - name: "China U23"
             score: "0"
-      - id: football-2407089
-        competition: "American Major League Soccer"
+      - id: football-2492443
+        competition: "Japanese J3 League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "64'"
         teams:
-          - name: "Houston Dynamo"
-            score: "0"
-          - name: "FC Cincinnati"
-            score: "0"
-      - id: football-2407090
-        competition: "American Major League Soccer"
+          - name: "Zweigen Kanazawa"
+            score: "1"
+          - name: "Renofa Yamaguchi"
+            score: "1"
+      - id: football-2487529
+        competition: "Mexican Primera League"
         state: live
-        stateLabel: "4'"
+        stateLabel: "Live"
         teams:
-          - name: "Sporting Kansas City"
-            score: "0"
-          - name: "Philadelphia Union"
-            score: "0"
-      - id: football-2407091
-        competition: "American Major League Soccer"
+          - name: "América"
+            score: "2"
+          - name: "CD Guadalajara"
+            score: "2"
+      - id: football-2524805
+        competition: "Russia FNL 2 Division A Gold Group"
         state: live
-        stateLabel: "4'"
+        stateLabel: "62'"
         teams:
-          - name: "FC Dallas"
+          - name: "Dynamo Vladivostok"
             score: "0"
-          - name: "Austin FC"
+          - name: "Rodina-2 Moscow"
             score: "0"
-      - id: football-2407092
+      - id: football-2407096
         competition: "American Major League Soccer"
-        state: live
-        stateLabel: "4'"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "St. Louis City SC"
+          - name: "Portland Timbers"
             score: "0"
-          - name: "Toronto FC"
-            score: "0"
-      - id: football-2407087
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "DC United"
-            score: "0"
-          - name: "Charlotte FC"
+          - name: "Atlanta United"
             score: "1"
             active: true
+      - id: football-2407093
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Colorado Rapids"
+            score: "3"
+          - name: "Seattle Sounders"
+            score: "3"
 
   - name: Cricket
     matches:
