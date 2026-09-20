@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Sep 2026, 03:13 IST"
+updated: "21 Sep 2026, 05:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419926
+      - id: football-2407097
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Inter Miami"
+            score: "0"
+          - name: "San Diego FC"
+            score: "1"
+            active: true
+      - id: football-2419927
         competition: "American NWSL"
         state: live
-        stateLabel: "35'"
+        stateLabel: "23'"
         teams:
-          - name: "Chicago Stars"
+          - name: "Bay FC"
             score: "0"
-          - name: "Washington Spirit"
-            score: "2"
-            active: true
-      - id: football-2397337
+          - name: "Racing Louisville"
+            score: "0"
+      - id: football-2419928
+        competition: "American NWSL"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Utah Royals"
+            score: "0"
+          - name: "Angel City"
+            score: "0"
+      - id: football-2397338
         competition: "American USL Championship"
         state: live
-        stateLabel: "36'"
+        stateLabel: "22'"
         teams:
-          - name: "Indy Eleven"
+          - name: "Sacramento Republic"
             score: "0"
-          - name: "Oakland Roots"
+          - name: "San Antonio"
             score: "0"
-      - id: football-2406545
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2397662
+        competition: "American USL League One"
         state: live
-        stateLabel: "78'"
+        stateLabel: "20'"
         teams:
-          - name: "Deportivo Merlo"
-            score: "2"
-            active: true
-          - name: "Flandria"
+          - name: "Spokane Velocity"
             score: "0"
-      - id: football-2405094
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "San Martín de San Juan"
-            score: "2"
-            active: true
-          - name: "Colegiales"
+          - name: "AC Boise"
             score: "0"
-      - id: football-2405084
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2398088
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "79'"
+        stateLabel: "57'"
         teams:
-          - name: "Central Norte"
+          - name: "Belgrano"
             score: "0"
-          - name: "Defensores de Belgrano"
-            score: "1"
-            active: true
-      - id: football-2405086
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "80'"
-        teams:
-          - name: "Chaco For Ever"
-            score: "1"
-            active: true
-          - name: "Almirante Brown"
+          - name: "Estudiantes de Río Cuarto"
             score: "0"
 
   - name: Cricket
