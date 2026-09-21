@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Sep 2026, 19:33 IST"
+updated: "22 Sep 2026, 00:53 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2511502
-        competition: "Bulgarian Second League"
+      - id: football-2405098
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "4'"
+        stateLabel: "60'"
         teams:
-          - name: "Sportist Svoge"
+          - name: "Tristán Suárez"
             score: "0"
-          - name: "Vihren Sandanski"
+          - name: "Atlanta"
             score: "0"
-      - id: football-2608318
-        competition: "FA Cup"
+      - id: football-2408621
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "29'"
+        stateLabel: "59'"
         teams:
-          - name: "Al-Nahda"
+          - name: "Claypole"
             score: "1"
             active: true
-          - name: "Saham"
+          - name: "Yupanqui"
             score: "0"
-      - id: football-2598044
-        competition: "Greek Super League 2"
+      - id: football-2408624
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "4'"
+        stateLabel: "62'"
         teams:
-          - name: "PAOK II"
+          - name: "El Porvenir"
             score: "0"
-          - name: "Nestos Chrysoupoli"
-            score: "0"
-      - id: football-2598046
-        competition: "Greek Super League 2"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Pyrgos"
-            score: "0"
-          - name: "AEL"
+          - name: "Deportivo Español"
             score: "1"
             active: true
-      - id: football-2585831
-        competition: "Iranian Azadegan League"
+      - id: football-2408631
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "Live"
+        stateLabel: "62'"
         teams:
-          - name: "Niroye Zamini"
+          - name: "Sportivo Barracas"
             score: "0"
-          - name: "Fard Alborz"
-            score: "1"
+          - name: "Cañuelas"
+            score: "2"
             active: true
-      - id: football-2573636
-        competition: "Italy Serie D Girone A"
+      - id: football-2408620
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "75'"
+        stateLabel: "63'"
         teams:
-          - name: "Fezzanese"
+          - name: "Central Ballester"
             score: "0"
-          - name: "Gozzano"
-            score: "1"
-            active: true
+          - name: "Central Córdoba de Rosario"
+            score: "0"
+      - id: football-2408625
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "63'"
+        teams:
+          - name: "CA Fénix"
+            score: "0"
+          - name: "Muñiz"
+            score: "0"
 
   - name: Cricket
     matches:
