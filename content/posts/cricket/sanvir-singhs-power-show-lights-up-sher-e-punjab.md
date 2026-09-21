@@ -6,8 +6,6 @@ draft: false
 summary: "The Fazilka Falcons captain turned a record price tag into runs, sixes and match-defining performances."
 image: "/images/photos/sanvir-singh-s-power-show-lights-up-sher-e-punjab.jpg"
 imageAlt: "Sanvir Singh celebrates a half-century while his teammates applaud."
-imageCaption: "Sanvir Singh celebrates a half-century while his teammates applaud the swashbuckling display"
-imageSource: "Instagram/@sherepunjabt20"
 categories: ["Cricket", "T20 Leagues"]
 tags: ["Sanvir Singh", "Sher-E-Punjab", "Shubman Gill", "Arshdeep Singh"]
 author: "SportsOne Desk"
