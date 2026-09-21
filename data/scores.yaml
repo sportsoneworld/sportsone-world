@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Sep 2026, 00:53 IST"
+updated: "22 Sep 2026, 04:10 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405098
+      - id: football-2405093
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "60'"
+        stateLabel: "35'"
         teams:
-          - name: "Tristán Suárez"
+          - name: "Nueva Chicago"
             score: "0"
-          - name: "Atlanta"
-            score: "0"
-      - id: football-2408621
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "59'"
-        teams:
-          - name: "Claypole"
+          - name: "Patronato"
             score: "1"
             active: true
-          - name: "Yupanqui"
-            score: "0"
-      - id: football-2408624
-        competition: "Argentinian Primera C"
+      - id: football-2398087
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "62'"
+        stateLabel: "40'"
         teams:
-          - name: "El Porvenir"
+          - name: "Barracas Central"
             score: "0"
-          - name: "Deportivo Español"
+          - name: "Independiente Rivadavia"
             score: "1"
             active: true
-      - id: football-2408631
-        competition: "Argentinian Primera C"
+      - id: football-2481464
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "62'"
+        stateLabel: "40'"
         teams:
-          - name: "Sportivo Barracas"
-            score: "0"
-          - name: "Cañuelas"
+          - name: "Real Cundinamarca"
             score: "2"
             active: true
-      - id: football-2408620
-        competition: "Argentinian Primera C"
+          - name: "Deportes Quindío"
+            score: "0"
+      - id: football-2605939
+        competition: "Jamaican Premier League"
         state: live
-        stateLabel: "63'"
+        stateLabel: "35'"
         teams:
-          - name: "Central Ballester"
+          - name: "Humble Lions"
             score: "0"
-          - name: "Central Córdoba de Rosario"
-            score: "0"
-      - id: football-2408625
-        competition: "Argentinian Primera C"
+          - name: "Waterhouse"
+            score: "1"
+            active: true
+      - id: football-2548525
+        competition: "Mexican Liga Femenil"
         state: live
-        stateLabel: "63'"
+        stateLabel: "Live"
         teams:
-          - name: "CA Fénix"
+          - name: "Atlante Femenil"
+            score: "1"
+            active: true
+          - name: "Querétaro Femenil"
             score: "0"
-          - name: "Muñiz"
+      - id: football-2595413
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "40'"
+        teams:
+          - name: "Encarnación"
+            score: "3"
+            active: true
+          - name: "Deportivo Capiatá"
             score: "0"
 
   - name: Cricket
