@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Sep 2026, 12:39 IST"
+updated: "21 Sep 2026, 19:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2606643
-        competition: "International Friendlies"
+      - id: football-2511502
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "7'"
+        stateLabel: "4'"
         teams:
-          - name: "Fiji"
+          - name: "Sportist Svoge"
             score: "0"
-          - name: "Vanuatu"
+          - name: "Vihren Sandanski"
             score: "0"
-      - id: football-2398100
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2608318
+        competition: "FA Cup"
+        state: live
+        stateLabel: "29'"
         teams:
-          - name: "Vélez Sarsfield"
-            score: "3"
+          - name: "Al-Nahda"
+            score: "1"
             active: true
-          - name: "Tigre"
-            score: "2"
-      - id: football-2397339
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "16:00"
+          - name: "Saham"
+            score: "0"
+      - id: football-2598044
+        competition: "Greek Super League 2"
+        state: live
+        stateLabel: "4'"
         teams:
-          - name: "Birmingham Legion"
-            score: "–"
-            detail: "16:00"
-          - name: "Brooklyn FC"
-            score: "–"
-      - id: football-2398086
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "17:30"
+          - name: "PAOK II"
+            score: "0"
+          - name: "Nestos Chrysoupoli"
+            score: "0"
+      - id: football-2598046
+        competition: "Greek Super League 2"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Aldosivi"
-            score: "–"
-            detail: "17:30"
-          - name: "Atlético Tucumán"
-            score: "–"
-      - id: football-2398087
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "22:00"
+          - name: "Pyrgos"
+            score: "0"
+          - name: "AEL"
+            score: "1"
+            active: true
+      - id: football-2585831
+        competition: "Iranian Azadegan League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Barracas Central"
-            score: "–"
-            detail: "22:00"
-          - name: "Independiente Rivadavia"
-            score: "–"
-      - id: football-2398093
-        competition: "Argentinian Primera Division"
-        state: upcoming
-        stateLabel: "00:15"
+          - name: "Niroye Zamini"
+            score: "0"
+          - name: "Fard Alborz"
+            score: "1"
+            active: true
+      - id: football-2573636
+        competition: "Italy Serie D Girone A"
+        state: live
+        stateLabel: "75'"
         teams:
-          - name: "Lanús"
-            score: "–"
-            detail: "00:15"
-          - name: "Estudiantes de La Plata"
-            score: "–"
+          - name: "Fezzanese"
+            score: "0"
+          - name: "Gozzano"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
