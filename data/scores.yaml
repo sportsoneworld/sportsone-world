@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "21 Sep 2026, 05:02 IST"
+updated: "21 Sep 2026, 07:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,83 +23,68 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407097
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "18'"
-        teams:
-          - name: "Inter Miami"
-            score: "0"
-          - name: "San Diego FC"
-            score: "1"
-            active: true
-      - id: football-2419927
-        competition: "American NWSL"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Bay FC"
-            score: "0"
-          - name: "Racing Louisville"
-            score: "0"
-      - id: football-2419928
-        competition: "American NWSL"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Utah Royals"
-            score: "0"
-          - name: "Angel City"
-            score: "0"
-      - id: football-2397338
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "22'"
-        teams:
-          - name: "Sacramento Republic"
-            score: "0"
-          - name: "San Antonio"
-            score: "0"
-      - id: football-2397662
-        competition: "American USL League One"
-        state: live
-        stateLabel: "20'"
-        teams:
-          - name: "Spokane Velocity"
-            score: "0"
-          - name: "AC Boise"
-            score: "0"
-      - id: football-2398088
+      - id: football-2398100
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "57'"
+        stateLabel: "53'"
         teams:
-          - name: "Belgrano"
+          - name: "Vélez Sarsfield"
+            score: "1"
+            active: true
+          - name: "Tigre"
             score: "0"
-          - name: "Estudiantes de Río Cuarto"
+      - id: football-2481195
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Llaneros"
+            score: "1"
+            active: true
+          - name: "Atlético Nacional"
             score: "0"
+      - id: football-2488656
+        competition: "Costa-Rica Liga FPD"
+        state: live
+        stateLabel: "39'"
+        teams:
+          - name: "San Carlos"
+            score: "1"
+            active: true
+          - name: "Cartaginés"
+            score: "0"
+      - id: football-2605710
+        competition: "Ecuadorian Serie A"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "LDU Quito"
+            score: "2"
+            active: true
+          - name: "Universidad Católica del Ecuador"
+            score: "1"
+      - id: football-2497267
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "34'"
+        teams:
+          - name: "Malacateco"
+            score: "0"
+          - name: "Mixco"
+            score: "0"
+      - id: football-2487530
+        competition: "Mexican Primera League"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "Toluca"
+            score: "2"
+            active: true
+          - name: "Santos Laguna"
+            score: "1"
 
   - name: Cricket
     matches:
-      - id: cricket-2607511
-        competition: "Caribbean Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Antigua and Barbuda Falcons"
-            score: "–"
-          - name: "Jamaica Kingsmen"
-            score: "–"
-      - id: cricket-2524728
-        competition: "One Day International Series"
-        state: upcoming
-        stateLabel: "07:30"
-        teams:
-          - name: "Zimbabwe Cricket"
-            score: "–"
-            detail: "07:30"
-          - name: "Australia Cricket"
-            score: "–"
       - id: cricket-2524729
         competition: "One Day International Series"
         state: upcoming
