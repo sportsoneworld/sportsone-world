@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Sep 2026, 17:03 IST"
+updated: "22 Sep 2026, 21:11 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,15 +23,53 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2604861
-        competition: "Asian Games Soccer"
+      - id: football-2585836
+        competition: "Iranian Azadegan League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "22'"
         teams:
-          - name: "South Korea U23"
+          - name: "Kara Gostar"
+            score: "0"
+          - name: "Mes Rafsanjan"
+            score: "0"
+      - id: football-2585835
+        competition: "Iranian Azadegan League"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Havadar"
+            score: "0"
+          - name: "Be'sat Kermanshah"
             score: "2"
             active: true
-          - name: "Saudi Arabia U23"
+      - id: football-2603715
+        competition: "Qatar QSL Cup"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Al Bidda"
+            score: "0"
+          - name: "Al-Shamal"
+            score: "1"
+            active: true
+      - id: football-2547527
+        competition: "Romanian Liga II"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Dumbrăviţa"
+            score: "0"
+          - name: "Reșița"
+            score: "1"
+            active: true
+      - id: football-2494810
+        competition: "USL Super League"
+        state: live
+        stateLabel: "33'"
+        teams:
+          - name: "DC Power"
+            score: "0"
+          - name: "Fort Lauderdale United Women"
             score: "0"
       - id: football-2398093
         competition: "Argentinian Primera Division"
@@ -43,46 +81,6 @@ sports:
             active: true
           - name: "Estudiantes de La Plata"
             score: "1"
-      - id: football-2595669
-        competition: "Bhutan Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Royal Thimphu College"
-            score: "6"
-            active: true
-          - name: "Tsirang"
-            score: "1"
-      - id: football-2431449
-        competition: "Brazilian Serie B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Cuiabá"
-            score: "3"
-            active: true
-          - name: "Náutico"
-            score: "0"
-      - id: football-2406811
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "01:30"
-        teams:
-          - name: "Seattle Sounders"
-            score: "–"
-            detail: "01:30"
-          - name: "Real Salt Lake"
-            score: "–"
-      - id: football-2397339
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "16:00"
-        teams:
-          - name: "Birmingham Legion"
-            score: "–"
-            detail: "16:00"
-          - name: "Brooklyn FC"
-            score: "–"
 
   - name: Cricket
     matches:
