@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Sep 2026, 04:10 IST"
+updated: "22 Sep 2026, 06:39 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,69 +23,96 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405093
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "Nueva Chicago"
-            score: "0"
-          - name: "Patronato"
-            score: "1"
-            active: true
-      - id: football-2398087
+      - id: football-2398093
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "40'"
+        stateLabel: "45'"
         teams:
-          - name: "Barracas Central"
-            score: "0"
-          - name: "Independiente Rivadavia"
+          - name: "Lanús"
             score: "1"
             active: true
-      - id: football-2481464
+          - name: "Estudiantes de La Plata"
+            score: "0"
+      - id: football-2431449
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "40'"
+        teams:
+          - name: "Cuiabá"
+            score: "1"
+            active: true
+          - name: "Náutico"
+            score: "0"
+      - id: football-2481461
         competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "40'"
+        stateLabel: "38'"
         teams:
-          - name: "Real Cundinamarca"
-            score: "2"
-            active: true
-          - name: "Deportes Quindío"
+          - name: "Real Cartagena"
             score: "0"
-      - id: football-2605939
+          - name: "Envigado"
+            score: "0"
+      - id: football-2605940
         competition: "Jamaican Premier League"
         state: live
-        stateLabel: "35'"
+        stateLabel: "9'"
         teams:
-          - name: "Humble Lions"
+          - name: "Arnett Gardens"
             score: "0"
-          - name: "Waterhouse"
-            score: "1"
-            active: true
-      - id: football-2548525
+          - name: "Dunbeholden"
+            score: "0"
+      - id: football-2548528
+        competition: "Mexican Liga Femenil"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Santos Laguna Femenil"
+            score: "0"
+          - name: "Cruz Azul Femenil"
+            score: "0"
+      - id: football-2548527
         competition: "Mexican Liga Femenil"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Atlante Femenil"
+          - name: "Toluca Femenil"
             score: "1"
+          - name: "Tigres UANL Femenil"
+            score: "5"
             active: true
-          - name: "Querétaro Femenil"
-            score: "0"
-      - id: football-2595413
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Encarnación"
-            score: "3"
-            active: true
-          - name: "Deportivo Capiatá"
-            score: "0"
 
   - name: Cricket
     matches:
+      - id: cricket-2465911
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Warwickshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Leicestershire"
+            score: "–"
+      - id: cricket-2465912
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Nottinghamshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Yorkshire"
+            score: "–"
+      - id: cricket-2465913
+        competition: "English County Championship Division 1"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "Hampshire"
+            score: "–"
+            detail: "00:00"
+          - name: "Sussex"
+            score: "–"
       - id: cricket-2524729
         competition: "One Day International Series"
         state: upcoming
