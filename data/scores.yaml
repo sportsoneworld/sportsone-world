@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Sep 2026, 00:40 IST"
+updated: "23 Sep 2026, 03:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2514297
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2481463
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "84'"
+        stateLabel: "46'"
         teams:
-          - name: "Traiskirchen"
-            score: "2"
-            active: true
-          - name: "Krems"
+          - name: "Atlético Cali"
             score: "0"
-      - id: football-2560676
-        competition: "Austrian Regionalliga Süd"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Austria Klagenfurt"
-            score: "2"
-            active: true
-          - name: "Donau Klagenfurt"
-            score: "1"
-      - id: football-2599941
-        competition: "Dutch KNVB Cup"
+          - name: "Tigres FC"
+            score: "0"
+      - id: football-2481465
+        competition: "Colombian Categoría Primera B"
         state: live
         stateLabel: "47'"
         teams:
-          - name: "Koninklijke HFC"
+          - name: "Independiente Yumbo"
             score: "0"
-          - name: "DOVO"
+          - name: "Internacional de Palmira"
             score: "0"
-      - id: football-2599939
-        competition: "Dutch KNVB Cup"
+      - id: football-2481462
+        competition: "Colombian Categoría Primera B"
         state: live
-        stateLabel: "47'"
+        stateLabel: "Live"
         teams:
-          - name: "RKAV Volendam"
+          - name: "Real Santander"
+            score: "0"
+          - name: "Orsomarso"
+            score: "0"
+      - id: football-2599867
+        competition: "Copa Chile"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Deportes Puerto Montt"
+            score: "0"
+          - name: "Ñublense"
+            score: "0"
+      - id: football-2603663
+        competition: "Copa Paraguay"
+        state: live
+        stateLabel: "34'"
+        teams:
+          - name: "2 de Mayo"
+            score: "0"
+          - name: "Sol de América"
             score: "1"
             active: true
-          - name: "SV Spakenburg"
-            score: "0"
-      - id: football-2599948
-        competition: "Dutch KNVB Cup"
-        state: live
-        stateLabel: "48'"
+      - id: football-2398093
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "EVV"
-            score: "3"
+          - name: "Lanús"
+            score: "2"
             active: true
-          - name: "Halsteren"
+          - name: "Estudiantes de La Plata"
             score: "1"
-      - id: football-2599951
-        competition: "Dutch KNVB Cup"
-        state: live
-        stateLabel: "48'"
-        teams:
-          - name: "Sportlust '46"
-            score: "0"
-          - name: "Excelsior Maassluis"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
