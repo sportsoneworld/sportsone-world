@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Sep 2026, 06:39 IST"
+updated: "22 Sep 2026, 11:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398093
-        competition: "Argentinian Primera Division"
+      - id: football-2604860
+        competition: "Asian Games Soccer"
         state: live
-        stateLabel: "45'"
+        stateLabel: "52'"
         teams:
-          - name: "Lanús"
+          - name: "Vietnam U23"
+            score: "0"
+          - name: "Uzbekistan U23"
             score: "1"
             active: true
-          - name: "Estudiantes de La Plata"
+      - id: football-2604876
+        competition: "Asian Games Soccer"
+        state: live
+        stateLabel: "53'"
+        teams:
+          - name: "Philippines U23"
+            score: "1"
+            active: true
+          - name: "Kuwait U23"
             score: "0"
+      - id: football-2398093
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Lanús"
+            score: "2"
+            active: true
+          - name: "Estudiantes de La Plata"
+            score: "1"
       - id: football-2431449
         competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "40'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Cuiabá"
-            score: "1"
+            score: "3"
             active: true
           - name: "Náutico"
             score: "0"
-      - id: football-2481461
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "38'"
+      - id: football-2406811
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "01:30"
         teams:
-          - name: "Real Cartagena"
-            score: "0"
-          - name: "Envigado"
-            score: "0"
-      - id: football-2605940
-        competition: "Jamaican Premier League"
-        state: live
-        stateLabel: "9'"
+          - name: "Seattle Sounders"
+            score: "–"
+            detail: "01:30"
+          - name: "Real Salt Lake"
+            score: "–"
+      - id: football-2397339
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "16:00"
         teams:
-          - name: "Arnett Gardens"
-            score: "0"
-          - name: "Dunbeholden"
-            score: "0"
-      - id: football-2548528
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Santos Laguna Femenil"
-            score: "0"
-          - name: "Cruz Azul Femenil"
-            score: "0"
-      - id: football-2548527
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Toluca Femenil"
-            score: "1"
-          - name: "Tigres UANL Femenil"
-            score: "5"
-            active: true
+          - name: "Birmingham Legion"
+            score: "–"
+            detail: "16:00"
+          - name: "Brooklyn FC"
+            score: "–"
 
   - name: Cricket
     matches:
