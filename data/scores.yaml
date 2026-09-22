@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Sep 2026, 21:11 IST"
+updated: "23 Sep 2026, 00:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2585836
-        competition: "Iranian Azadegan League"
+      - id: football-2514297
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "22'"
+        stateLabel: "84'"
         teams:
-          - name: "Kara Gostar"
-            score: "0"
-          - name: "Mes Rafsanjan"
-            score: "0"
-      - id: football-2585835
-        competition: "Iranian Azadegan League"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Havadar"
-            score: "0"
-          - name: "Be'sat Kermanshah"
+          - name: "Traiskirchen"
             score: "2"
             active: true
-      - id: football-2603715
-        competition: "Qatar QSL Cup"
+          - name: "Krems"
+            score: "0"
+      - id: football-2560676
+        competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "38'"
+        stateLabel: "64'"
         teams:
-          - name: "Al Bidda"
-            score: "0"
-          - name: "Al-Shamal"
-            score: "1"
-            active: true
-      - id: football-2547527
-        competition: "Romanian Liga II"
-        state: live
-        stateLabel: "52'"
-        teams:
-          - name: "Dumbrăviţa"
-            score: "0"
-          - name: "Reșița"
-            score: "1"
-            active: true
-      - id: football-2494810
-        competition: "USL Super League"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "DC Power"
-            score: "0"
-          - name: "Fort Lauderdale United Women"
-            score: "0"
-      - id: football-2398093
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Lanús"
+          - name: "Austria Klagenfurt"
             score: "2"
             active: true
-          - name: "Estudiantes de La Plata"
+          - name: "Donau Klagenfurt"
             score: "1"
+      - id: football-2599941
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Koninklijke HFC"
+            score: "0"
+          - name: "DOVO"
+            score: "0"
+      - id: football-2599939
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "RKAV Volendam"
+            score: "1"
+            active: true
+          - name: "SV Spakenburg"
+            score: "0"
+      - id: football-2599948
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "EVV"
+            score: "3"
+            active: true
+          - name: "Halsteren"
+            score: "1"
+      - id: football-2599951
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Sportlust '46"
+            score: "0"
+          - name: "Excelsior Maassluis"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
