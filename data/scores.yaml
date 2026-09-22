@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "22 Sep 2026, 11:40 IST"
+updated: "22 Sep 2026, 17:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,25 +23,15 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2604860
+      - id: football-2604861
         competition: "Asian Games Soccer"
         state: live
-        stateLabel: "52'"
+        stateLabel: "75'"
         teams:
-          - name: "Vietnam U23"
-            score: "0"
-          - name: "Uzbekistan U23"
-            score: "1"
+          - name: "South Korea U23"
+            score: "2"
             active: true
-      - id: football-2604876
-        competition: "Asian Games Soccer"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Philippines U23"
-            score: "1"
-            active: true
-          - name: "Kuwait U23"
+          - name: "Saudi Arabia U23"
             score: "0"
       - id: football-2398093
         competition: "Argentinian Primera Division"
@@ -52,6 +42,16 @@ sports:
             score: "2"
             active: true
           - name: "Estudiantes de La Plata"
+            score: "1"
+      - id: football-2595669
+        competition: "Bhutan Premier League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Royal Thimphu College"
+            score: "6"
+            active: true
+          - name: "Tsirang"
             score: "1"
       - id: football-2431449
         competition: "Brazilian Serie B"
