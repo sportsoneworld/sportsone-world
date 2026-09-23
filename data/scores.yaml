@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Sep 2026, 20:03 IST"
+updated: "24 Sep 2026, 00:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608187
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Italy U20 Women"
-            score: "0"
-          - name: "Spain U20 Women"
-            score: "2"
-            active: true
-      - id: football-2599841
-        competition: "UEFA Womens Europa Cup"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "PAOK Women"
-            score: "2"
-          - name: "Spartak Myjava Women"
-            score: "2"
-      - id: football-2595670
-        competition: "Bhutan Premier League"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Thimphu City"
-            score: "3"
-            active: true
-          - name: "Transport United"
-            score: "0"
-      - id: football-2481202
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Independiente Santa Fe"
-            score: "0"
-          - name: "Deportivo Cali"
-            score: "1"
-            active: true
-      - id: football-2406811
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "01:30"
-        teams:
-          - name: "Seattle Sounders"
-            score: "–"
-            detail: "01:30"
-          - name: "Real Salt Lake"
-            score: "–"
       - id: football-2397339
         competition: "American USL Championship"
-        state: upcoming
+        state: live
         stateLabel: "16:00"
         teams:
           - name: "Birmingham Legion"
-            score: "–"
-            detail: "16:00"
+            score: "4"
+            active: true
           - name: "Brooklyn FC"
-            score: "–"
+            score: "0"
+      - id: football-2599818
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Liverpool Montevideo"
+            score: "0"
+          - name: "Colón FC"
+            score: "0"
+      - id: football-2599819
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Boston River"
+            score: "0"
+          - name: "Fénix"
+            score: "0"
+      - id: football-2599950
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "33'"
+        teams:
+          - name: "JOS Watergraafsmeer"
+            score: "1"
+          - name: "TEC"
+            score: "1"
+      - id: football-2599955
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "34'"
+        teams:
+          - name: "TOGB"
+            score: "2"
+            active: true
+          - name: "ROHDA Raalte"
+            score: "0"
+      - id: football-2599945
+        competition: "Dutch KNVB Cup"
+        state: live
+        stateLabel: "34'"
+        teams:
+          - name: "Zwaluwen"
+            score: "0"
+          - name: "Purmersteijn"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
