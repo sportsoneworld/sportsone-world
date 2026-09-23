@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Sep 2026, 10:29 IST"
+updated: "23 Sep 2026, 15:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481202
-        competition: "Colombia Categoría Primera A"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2593319
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "86'"
         teams:
-          - name: "Independiente Santa Fe"
+          - name: "Gamba Osaka"
+            score: "3"
+            active: true
+          - name: "Tokushima Vortis"
             score: "0"
-          - name: "Deportivo Cali"
+      - id: football-2593323
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Machida Zelvia"
+            score: "2"
+            active: true
+          - name: "Tochigi City"
+            score: "1"
+      - id: football-2593322
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "87'"
+        teams:
+          - name: "Kyoto Sanga"
+            score: "0"
+          - name: "Fujieda MYFC"
+            score: "0"
+      - id: football-2593315
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "88'"
+        teams:
+          - name: "Vissel Kobe"
             score: "1"
             active: true
-      - id: football-2406811
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "01:30"
+          - name: "Sagan Tosu"
+            score: "0"
+      - id: football-2593311
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "89'"
         teams:
-          - name: "Seattle Sounders"
-            score: "–"
-            detail: "01:30"
-          - name: "Real Salt Lake"
-            score: "–"
-      - id: football-2397339
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "16:00"
+          - name: "Kashiwa Reysol"
+            score: "4"
+            active: true
+          - name: "FC Imabari"
+            score: "0"
+      - id: football-2593316
+        competition: "Japan Emperors Cup"
+        state: live
+        stateLabel: "90'"
         teams:
-          - name: "Birmingham Legion"
-            score: "–"
-            detail: "16:00"
-          - name: "Brooklyn FC"
-            score: "–"
-      - id: football-2481692
-        competition: "Peruvian Primera Division"
-        state: upcoming
-        stateLabel: "20:00"
-        teams:
-          - name: "ADT"
-            score: "–"
-            detail: "20:00"
-          - name: "Cienciano"
-            score: "–"
-      - id: football-2269515
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Belgium U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Belarus U21"
-            score: "–"
-      - id: football-2269519
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "18:30"
-        teams:
-          - name: "San Marino U21"
-            score: "–"
-            detail: "18:30"
-          - name: "Kosovo U21"
-            score: "–"
+          - name: "Kashima Antlers"
+            score: "3"
+            active: true
+          - name: "Ventforet Kofu"
+            score: "1"
 
   - name: Cricket
     matches:
