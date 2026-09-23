@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Sep 2026, 00:07 IST"
+updated: "24 Sep 2026, 03:16 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397339
-        competition: "American USL Championship"
+      - id: football-2608352
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "16:00"
+        stateLabel: "86'"
         teams:
-          - name: "Birmingham Legion"
-            score: "4"
+          - name: "Bahamas"
+            score: "0"
+          - name: "St Martin"
+            score: "8"
             active: true
-          - name: "Brooklyn FC"
-            score: "0"
-      - id: football-2599818
-        competition: "Copa AUF Uruguay"
+      - id: football-2599870
+        competition: "Copa Chile"
         state: live
-        stateLabel: "7'"
+        stateLabel: "43'"
         teams:
-          - name: "Liverpool Montevideo"
+          - name: "Curicó Unido"
             score: "0"
-          - name: "Colón FC"
-            score: "0"
-      - id: football-2599819
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Boston River"
-            score: "0"
-          - name: "Fénix"
-            score: "0"
-      - id: football-2599950
-        competition: "Dutch KNVB Cup"
-        state: live
-        stateLabel: "33'"
-        teams:
-          - name: "JOS Watergraafsmeer"
-            score: "1"
-          - name: "TEC"
-            score: "1"
-      - id: football-2599955
-        competition: "Dutch KNVB Cup"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "TOGB"
+          - name: "Deportes Concepción"
             score: "2"
             active: true
-          - name: "ROHDA Raalte"
-            score: "0"
-      - id: football-2599945
-        competition: "Dutch KNVB Cup"
+      - id: football-2603665
+        competition: "Copa Paraguay"
         state: live
-        stateLabel: "34'"
+        stateLabel: "15'"
         teams:
-          - name: "Zwaluwen"
+          - name: "Fernando de la Mora"
             score: "0"
-          - name: "Purmersteijn"
+          - name: "Club Libertad"
+            score: "0"
+      - id: football-2590435
+        competition: "Dominican LDF"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Salcedo"
+            score: "0"
+          - name: "Cibao"
+            score: "0"
+      - id: football-2590434
+        competition: "Dominican LDF"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Universidad O and M"
             score: "1"
-            active: true
+          - name: "Atlántico"
+            score: "1"
+      - id: football-2481692
+        competition: "Peruvian Primera Division"
+        state: live
+        stateLabel: "85'"
+        teams:
+          - name: "ADT"
+            score: "1"
+          - name: "Cienciano"
+            score: "1"
 
   - name: Cricket
     matches:
