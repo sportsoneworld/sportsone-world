@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Sep 2026, 03:34 IST"
+updated: "23 Sep 2026, 05:58 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481463
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Atlético Cali"
-            score: "0"
-          - name: "Tigres FC"
-            score: "0"
-      - id: football-2481465
-        competition: "Colombian Categoría Primera B"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Independiente Yumbo"
-            score: "0"
-          - name: "Internacional de Palmira"
-            score: "0"
-      - id: football-2481462
-        competition: "Colombian Categoría Primera B"
+      - id: football-2431448
+        competition: "Brazilian Serie B"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Real Santander"
+          - name: "Criciúma"
             score: "0"
-          - name: "Orsomarso"
-            score: "0"
-      - id: football-2599867
+          - name: "Operário Ferroviário"
+            score: "1"
+            active: true
+      - id: football-2481189
+        competition: "Colombia Categoría Primera A"
+        state: live
+        stateLabel: "69'"
+        teams:
+          - name: "Independiente Medellín"
+            score: "1"
+          - name: "Jaguares de Córdoba"
+            score: "1"
+      - id: football-2599868
         competition: "Copa Chile"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Deportes Puerto Montt"
+          - name: "Audax Italiano"
             score: "0"
-          - name: "Ñublense"
+          - name: "Colo-Colo"
             score: "0"
-      - id: football-2603663
-        competition: "Copa Paraguay"
+      - id: football-2599869
+        competition: "Copa Chile"
         state: live
-        stateLabel: "34'"
+        stateLabel: "Live"
         teams:
-          - name: "2 de Mayo"
+          - name: "Cobreloa"
             score: "0"
-          - name: "Sol de América"
-            score: "1"
-            active: true
-      - id: football-2398093
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Coquimbo Unido"
+            score: "0"
+      - id: football-2406811
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "01:30"
         teams:
-          - name: "Lanús"
-            score: "2"
-            active: true
-          - name: "Estudiantes de La Plata"
-            score: "1"
+          - name: "Seattle Sounders"
+            score: "–"
+            detail: "01:30"
+          - name: "Real Salt Lake"
+            score: "–"
+      - id: football-2397339
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "16:00"
+        teams:
+          - name: "Birmingham Legion"
+            score: "–"
+            detail: "16:00"
+          - name: "Brooklyn FC"
+            score: "–"
 
   - name: Cricket
     matches:
@@ -111,14 +112,4 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "Sussex"
-            score: "–"
-      - id: cricket-2524729
-        competition: "One Day International Series"
-        state: upcoming
-        stateLabel: "11:30"
-        teams:
-          - name: "England Cricket"
-            score: "–"
-            detail: "11:30"
-          - name: "Sri Lanka Cricket"
             score: "–"
