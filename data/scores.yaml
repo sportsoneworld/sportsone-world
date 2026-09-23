@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "23 Sep 2026, 15:18 IST"
+updated: "23 Sep 2026, 20:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2593319
-        competition: "Japan Emperors Cup"
+      - id: football-2608187
+        competition: "FIFA U20 Womens World Cup"
         state: live
-        stateLabel: "86'"
+        stateLabel: "74'"
         teams:
-          - name: "Gamba Osaka"
-            score: "3"
-            active: true
-          - name: "Tokushima Vortis"
+          - name: "Italy U20 Women"
             score: "0"
-      - id: football-2593323
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Machida Zelvia"
+          - name: "Spain U20 Women"
             score: "2"
             active: true
-          - name: "Tochigi City"
-            score: "1"
-      - id: football-2593322
-        competition: "Japan Emperors Cup"
+      - id: football-2599841
+        competition: "UEFA Womens Europa Cup"
         state: live
-        stateLabel: "87'"
+        stateLabel: "75'"
         teams:
-          - name: "Kyoto Sanga"
-            score: "0"
-          - name: "Fujieda MYFC"
-            score: "0"
-      - id: football-2593315
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "88'"
+          - name: "PAOK Women"
+            score: "2"
+          - name: "Spartak Myjava Women"
+            score: "2"
+      - id: football-2595670
+        competition: "Bhutan Premier League"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Vissel Kobe"
-            score: "1"
-            active: true
-          - name: "Sagan Tosu"
-            score: "0"
-      - id: football-2593311
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "89'"
-        teams:
-          - name: "Kashiwa Reysol"
-            score: "4"
-            active: true
-          - name: "FC Imabari"
-            score: "0"
-      - id: football-2593316
-        competition: "Japan Emperors Cup"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Kashima Antlers"
+          - name: "Thimphu City"
             score: "3"
             active: true
-          - name: "Ventforet Kofu"
+          - name: "Transport United"
+            score: "0"
+      - id: football-2481202
+        competition: "Colombia Categoría Primera A"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Independiente Santa Fe"
+            score: "0"
+          - name: "Deportivo Cali"
             score: "1"
+            active: true
+      - id: football-2406811
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "01:30"
+        teams:
+          - name: "Seattle Sounders"
+            score: "–"
+            detail: "01:30"
+          - name: "Real Salt Lake"
+            score: "–"
+      - id: football-2397339
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "16:00"
+        teams:
+          - name: "Birmingham Legion"
+            score: "–"
+            detail: "16:00"
+          - name: "Brooklyn FC"
+            score: "–"
 
   - name: Cricket
     matches:
