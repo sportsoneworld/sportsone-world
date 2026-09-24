@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Sep 2026, 00:00 IST"
+updated: "25 Sep 2026, 03:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2269515
-        competition: "UEFA European Under-21 Championship"
+      - id: football-2599873
+        competition: "Copa Chile"
         state: live
-        stateLabel: "30'"
+        stateLabel: "Live"
         teams:
-          - name: "Belgium U21"
+          - name: "O'Higgins"
+            score: "1"
+            active: true
+          - name: "Deportes Santa Cruz"
             score: "0"
-          - name: "Belarus U21"
-            score: "0"
-      - id: football-2475935
-        competition: "African Cup of Nations Qualifying"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2603667
+        competition: "Copa Paraguay"
+        state: live
+        stateLabel: "17'"
         teams:
-          - name: "Mauritania"
+          - name: "Recoleta"
+            score: "0"
+          - name: "Guaireña"
+            score: "0"
+      - id: football-2595421
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "LDU Portoviejo"
+            score: "0"
+          - name: "22 de Julio"
+            score: "0"
+      - id: football-2583286
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Independiente Juniors"
+            score: "1"
+          - name: "Vinotinto Ecuador"
+            score: "1"
+      - id: football-2596802
+        competition: "Moroccan Championship"
+        state: live
+        stateLabel: "88'"
+        teams:
+          - name: "Amal Tiznit"
+            score: "1"
+          - name: "IR Tanger"
             score: "3"
             active: true
-          - name: "Central African Republic"
-            score: "1"
-      - id: football-2475927
+      - id: football-2475942
         competition: "African Cup of Nations Qualifying"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "DR Congo"
+          - name: "Sierra Leone"
             score: "2"
-            active: true
-          - name: "Equatorial Guinea"
-            score: "0"
-      - id: football-2475932
-        competition: "African Cup of Nations Qualifying"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Libya"
-            score: "2"
-          - name: "Botswana"
-            score: "2"
-      - id: football-2406811
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Seattle Sounders"
-            score: "2"
-            active: true
-          - name: "Real Salt Lake"
-            score: "0"
-      - id: football-2493779
-        competition: "Israeli Liga Leumit"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Hapoel Akko"
-            score: "0"
-          - name: "Hapoel Afula"
+          - name: "Zimbabwe"
             score: "3"
             active: true
 
