@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Sep 2026, 19:56 IST"
+updated: "25 Sep 2026, 00:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,35 +23,44 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475937
+      - id: football-2269515
+        competition: "UEFA European Under-21 Championship"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Belgium U21"
+            score: "0"
+          - name: "Belarus U21"
+            score: "0"
+      - id: football-2475935
         competition: "African Cup of Nations Qualifying"
-        state: live
-        stateLabel: "60'"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Namibia"
-            score: "1"
+          - name: "Mauritania"
+            score: "3"
             active: true
-          - name: "Congo"
-            score: "0"
-      - id: football-2606646
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "21'"
+          - name: "Central African Republic"
+            score: "1"
+      - id: football-2475927
+        competition: "African Cup of Nations Qualifying"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Romania U19"
-            score: "1"
-          - name: "Hungary U19"
-            score: "1"
-      - id: football-2600296
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Uzbekistan"
-            score: "1"
+          - name: "DR Congo"
+            score: "2"
             active: true
-          - name: "Iran"
+          - name: "Equatorial Guinea"
             score: "0"
+      - id: football-2475932
+        competition: "African Cup of Nations Qualifying"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Libya"
+            score: "2"
+          - name: "Botswana"
+            score: "2"
       - id: football-2406811
         competition: "American Major League Soccer"
         state: completed
@@ -62,26 +71,16 @@ sports:
             active: true
           - name: "Real Salt Lake"
             score: "0"
-      - id: football-2606330
-        competition: "International Friendlies"
+      - id: football-2493779
+        competition: "Israeli Liga Leumit"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "China"
+          - name: "Hapoel Akko"
+            score: "0"
+          - name: "Hapoel Afula"
             score: "3"
             active: true
-          - name: "Maldives"
-            score: "0"
-      - id: football-2269515
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Belgium U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Belarus U21"
-            score: "–"
 
   - name: Cricket
     matches:
