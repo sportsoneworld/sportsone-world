@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Sep 2026, 10:13 IST"
+updated: "24 Sep 2026, 15:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,24 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2606644
+      - id: football-2595671
+        competition: "Bhutan Premier League"
+        state: live
+        stateLabel: "32'"
+        teams:
+          - name: "Ugyen Academy"
+            score: "0"
+          - name: "Drukpa"
+            score: "0"
+      - id: football-2606329
         competition: "International Friendlies"
         state: live
-        stateLabel: "41'"
+        stateLabel: "1'"
         teams:
-          - name: "Solomon Islands"
+          - name: "Palestine"
             score: "0"
-          - name: "Vanuatu"
-            score: "1"
-            active: true
+          - name: "New Zealand"
+            score: "0"
       - id: football-2406811
         competition: "American Major League Soccer"
         state: completed
@@ -43,25 +51,16 @@ sports:
             active: true
           - name: "Real Salt Lake"
             score: "0"
-      - id: football-2427416
-        competition: "Canadian Premier League"
+      - id: football-2606645
+        competition: "International Friendlies"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Vancouver FC"
-            score: "3"
-          - name: "Inter Toronto"
-            score: "3"
-      - id: football-2497232
-        competition: "Guatemala Liga Nacional"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Xelajú"
-            score: "4"
+          - name: "Papua New Guinea"
+            score: "1"
+          - name: "New Caledonia"
+            score: "2"
             active: true
-          - name: "Antigua"
-            score: "0"
       - id: football-2269515
         competition: "UEFA European Under-21 Championship"
         state: upcoming
