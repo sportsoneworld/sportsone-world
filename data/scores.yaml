@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Sep 2026, 15:03 IST"
+updated: "24 Sep 2026, 19:56 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,23 +23,34 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2595671
-        competition: "Bhutan Premier League"
+      - id: football-2475937
+        competition: "African Cup of Nations Qualifying"
         state: live
-        stateLabel: "32'"
+        stateLabel: "60'"
         teams:
-          - name: "Ugyen Academy"
+          - name: "Namibia"
+            score: "1"
+            active: true
+          - name: "Congo"
             score: "0"
-          - name: "Drukpa"
-            score: "0"
-      - id: football-2606329
+      - id: football-2606646
         competition: "International Friendlies"
         state: live
-        stateLabel: "1'"
+        stateLabel: "21'"
         teams:
-          - name: "Palestine"
-            score: "0"
-          - name: "New Zealand"
+          - name: "Romania U19"
+            score: "1"
+          - name: "Hungary U19"
+            score: "1"
+      - id: football-2600296
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Uzbekistan"
+            score: "1"
+            active: true
+          - name: "Iran"
             score: "0"
       - id: football-2406811
         competition: "American Major League Soccer"
@@ -51,16 +62,16 @@ sports:
             active: true
           - name: "Real Salt Lake"
             score: "0"
-      - id: football-2606645
+      - id: football-2606330
         competition: "International Friendlies"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Papua New Guinea"
-            score: "1"
-          - name: "New Caledonia"
-            score: "2"
+          - name: "China"
+            score: "3"
             active: true
+          - name: "Maldives"
+            score: "0"
       - id: football-2269515
         competition: "UEFA European Under-21 Championship"
         state: upcoming
@@ -70,16 +81,6 @@ sports:
             score: "–"
             detail: "15:00"
           - name: "Belarus U21"
-            score: "–"
-      - id: football-2269519
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "18:30"
-        teams:
-          - name: "San Marino U21"
-            score: "–"
-            detail: "18:30"
-          - name: "Kosovo U21"
             score: "–"
 
   - name: Cricket
