@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Sep 2026, 03:16 IST"
+updated: "24 Sep 2026, 05:37 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608352
+      - id: football-2608353
         competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "86'"
+        stateLabel: "49'"
         teams:
-          - name: "Bahamas"
+          - name: "Aruba"
             score: "0"
-          - name: "St Martin"
-            score: "8"
+          - name: "Antigua and Barbuda"
+            score: "0"
+      - id: football-2599816
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Montevideo Wanderers"
+            score: "1"
+          - name: "Cerrito"
+            score: "1"
+      - id: football-2599817
+        competition: "Copa AUF Uruguay"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Cerro"
+            score: "0"
+          - name: "Deportivo Maldonado"
+            score: "1"
             active: true
-      - id: football-2599870
+      - id: football-2599871
         competition: "Copa Chile"
         state: live
-        stateLabel: "43'"
+        stateLabel: "35'"
         teams:
-          - name: "Curicó Unido"
-            score: "0"
-          - name: "Deportes Concepción"
-            score: "2"
+          - name: "Deportes Iquique"
+            score: "1"
             active: true
-      - id: football-2603665
-        competition: "Copa Paraguay"
+          - name: "Deportes Antofagasta"
+            score: "0"
+      - id: football-2599872
+        competition: "Copa Chile"
         state: live
-        stateLabel: "15'"
+        stateLabel: "35'"
         teams:
-          - name: "Fernando de la Mora"
+          - name: "Unión La Calera"
             score: "0"
-          - name: "Club Libertad"
+          - name: "Universidad Católica"
             score: "0"
-      - id: football-2590435
-        competition: "Dominican LDF"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Salcedo"
-            score: "0"
-          - name: "Cibao"
-            score: "0"
-      - id: football-2590434
+      - id: football-2590436
         competition: "Dominican LDF"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Universidad O and M"
-            score: "1"
-          - name: "Atlántico"
-            score: "1"
-      - id: football-2481692
-        competition: "Peruvian Primera Division"
-        state: live
-        stateLabel: "85'"
-        teams:
-          - name: "ADT"
-            score: "1"
-          - name: "Cienciano"
+          - name: "Atlético Vega Real"
+            score: "3"
+            active: true
+          - name: "Jarabacoa"
             score: "1"
 
   - name: Cricket
