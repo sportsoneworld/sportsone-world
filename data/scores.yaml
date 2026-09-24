@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "24 Sep 2026, 05:37 IST"
+updated: "24 Sep 2026, 10:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608353
-        competition: "CONCACAF Nations League"
+      - id: football-2606644
+        competition: "International Friendlies"
         state: live
-        stateLabel: "49'"
+        stateLabel: "41'"
         teams:
-          - name: "Aruba"
+          - name: "Solomon Islands"
             score: "0"
-          - name: "Antigua and Barbuda"
-            score: "0"
-      - id: football-2599816
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Montevideo Wanderers"
-            score: "1"
-          - name: "Cerrito"
-            score: "1"
-      - id: football-2599817
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "50'"
-        teams:
-          - name: "Cerro"
-            score: "0"
-          - name: "Deportivo Maldonado"
+          - name: "Vanuatu"
             score: "1"
             active: true
-      - id: football-2599871
-        competition: "Copa Chile"
-        state: live
-        stateLabel: "35'"
+      - id: football-2406811
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Deportes Iquique"
-            score: "1"
+          - name: "Seattle Sounders"
+            score: "2"
             active: true
-          - name: "Deportes Antofagasta"
+          - name: "Real Salt Lake"
             score: "0"
-      - id: football-2599872
-        competition: "Copa Chile"
-        state: live
-        stateLabel: "35'"
+      - id: football-2427416
+        competition: "Canadian Premier League"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Unión La Calera"
-            score: "0"
-          - name: "Universidad Católica"
-            score: "0"
-      - id: football-2590436
-        competition: "Dominican LDF"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Atlético Vega Real"
+          - name: "Vancouver FC"
             score: "3"
+          - name: "Inter Toronto"
+            score: "3"
+      - id: football-2497232
+        competition: "Guatemala Liga Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Xelajú"
+            score: "4"
             active: true
-          - name: "Jarabacoa"
-            score: "1"
+          - name: "Antigua"
+            score: "0"
+      - id: football-2269515
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
+        teams:
+          - name: "Belgium U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Belarus U21"
+            score: "–"
+      - id: football-2269519
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "18:30"
+        teams:
+          - name: "San Marino U21"
+            score: "–"
+            detail: "18:30"
+          - name: "Kosovo U21"
+            score: "–"
 
   - name: Cricket
     matches:
