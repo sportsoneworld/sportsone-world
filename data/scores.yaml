@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Sep 2026, 05:40 IST"
+updated: "25 Sep 2026, 10:22 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,53 +23,26 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608355
+      - id: football-2608358
         competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "9'"
-        teams:
-          - name: "Dominican Republic"
-            score: "1"
-            active: true
-          - name: "Nicaragua"
-            score: "0"
-      - id: football-2599874
-        competition: "Copa Chile"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Everton de Viña del Mar"
-            score: "0"
-          - name: "Universidad de Chile"
-            score: "0"
-      - id: football-2580551
-        competition: "Copa Ecuador"
-        state: live
-        stateLabel: "9'"
-        teams:
-          - name: "Gualaceo"
-            score: "0"
-          - name: "Independiente del Valle"
-            score: "0"
-      - id: football-2603667
-        competition: "Copa Paraguay"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Recoleta"
+          - name: "Costa Rica"
+            score: "3"
+          - name: "Curaçao"
+            score: "4"
+            active: true
+      - id: football-2497274
+        competition: "Guatemala Liga Nacional"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Municipal"
             score: "3"
             active: true
-          - name: "Guaireña"
-            score: "1"
-      - id: football-2595421
-        competition: "Ecuadorian Serie B"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "LDU Portoviejo"
-            score: "2"
-          - name: "22 de Julio"
-            score: "2"
+          - name: "Suchitepéquez"
+            score: "0"
       - id: football-2397346
         competition: "American USL Championship"
         state: upcoming
@@ -79,6 +52,36 @@ sports:
             score: "–"
             detail: "02:00"
           - name: "Lexington SC"
+            score: "–"
+      - id: football-2397347
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "01:00"
+        teams:
+          - name: "New Mexico United"
+            score: "–"
+            detail: "01:00"
+          - name: "Sacramento Republic"
+            score: "–"
+      - id: football-2397348
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
+        teams:
+          - name: "Oakland Roots"
+            score: "–"
+            detail: "02:00"
+          - name: "Phoenix Rising"
+            score: "–"
+      - id: football-2269516
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
+        teams:
+          - name: "Estonia U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Faroe Islands U21"
             score: "–"
 
   - name: Cricket
