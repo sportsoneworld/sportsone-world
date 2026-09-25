@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Sep 2026, 00:32 IST"
+updated: "26 Sep 2026, 03:46 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475924
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2406562
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "1'"
+        stateLabel: "14'"
         teams:
-          - name: "Algeria"
+          - name: "Ituzaingó"
             score: "0"
-          - name: "Zambia"
+          - name: "Defensores Unidos"
             score: "0"
-      - id: football-2514323
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2408643
+        competition: "Argentinian Primera C"
         state: live
-        stateLabel: "70'"
+        stateLabel: "11'"
         teams:
-          - name: "Krems"
-            score: "3"
-            active: true
-          - name: "Mattersburg 2020"
+          - name: "Mercedes"
             score: "0"
-      - id: football-2514322
-        competition: "Austrian Regionalliga Ost"
+          - name: "Puerto Nuevo"
+            score: "0"
+      - id: football-2608360
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "74'"
+        stateLabel: "58'"
         teams:
-          - name: "Horn"
+          - name: "Grenada"
+            score: "0"
+          - name: "Cuba"
             score: "1"
-          - name: "Traiskirchen"
-            score: "4"
             active: true
-      - id: football-2585194
-        competition: "Belgian Womens Pro League"
+      - id: football-2608107
+        competition: "Paraguayan División Intermedia"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "General Caballero"
+            score: "0"
+          - name: "3 de Noviembre"
+            score: "2"
+            active: true
+      - id: football-2606283
+        competition: "Peruvian Segunda División"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Genk Ladies"
+          - name: "Comerciantes"
             score: "0"
-          - name: "Gent Ladies"
-            score: "0"
-      - id: football-2608359
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "1'"
+          - name: "Sport Huancayo II"
+            score: "1"
+            active: true
+      - id: football-2582823
+        competition: "Spanish Primera Federación Group 2"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Bermuda"
+          - name: "Ibiza"
             score: "0"
-          - name: "Guadeloupe"
-            score: "0"
-      - id: football-2489840
-        competition: "Dutch Eerste Divisie"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Dordrecht"
-            score: "0"
-          - name: "Almere City"
-            score: "0"
+          - name: "Real Zaragoza"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
