@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Sep 2026, 20:22 IST"
+updated: "26 Sep 2026, 00:32 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475941
+      - id: football-2475924
         competition: "African Cup of Nations Qualifying"
         state: live
-        stateLabel: "89'"
+        stateLabel: "1'"
         teams:
-          - name: "Mozambique"
+          - name: "Algeria"
+            score: "0"
+          - name: "Zambia"
+            score: "0"
+      - id: football-2514323
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Krems"
+            score: "3"
+            active: true
+          - name: "Mattersburg 2020"
+            score: "0"
+      - id: football-2514322
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "74'"
+        teams:
+          - name: "Horn"
             score: "1"
-          - name: "Senegal"
-            score: "1"
-      - id: football-2475945
-        competition: "African Cup of Nations Qualifying"
+          - name: "Traiskirchen"
+            score: "4"
+            active: true
+      - id: football-2585194
+        competition: "Belgian Womens Pro League"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Tanzania"
+          - name: "Genk Ladies"
             score: "0"
-          - name: "Guinea-Bissau"
-            score: "2"
-            active: true
-      - id: football-2452180
-        competition: "Belarusian First League"
+          - name: "Gent Ladies"
+            score: "0"
+      - id: football-2608359
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "64'"
+        stateLabel: "1'"
         teams:
-          - name: "Lida"
+          - name: "Bermuda"
             score: "0"
-          - name: "Smorgon"
+          - name: "Guadeloupe"
             score: "0"
-      - id: football-2452181
-        competition: "Belarusian First League"
+      - id: football-2489840
+        competition: "Dutch Eerste Divisie"
         state: live
-        stateLabel: "65'"
+        stateLabel: "1'"
         teams:
-          - name: "Slonim-2017"
-            score: "2"
-            active: true
-          - name: "BATE-2 Borisov"
-            score: "1"
-      - id: football-2606311
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "20'"
-        teams:
-          - name: "Stuttgart"
+          - name: "Dordrecht"
             score: "0"
-          - name: "Heidenheim"
-            score: "0"
-      - id: football-2540978
-        competition: "Croatian Second Football League"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Hrvatski Dragovoljac"
-            score: "0"
-          - name: "Radnik Križevci"
+          - name: "Almere City"
             score: "0"
 
   - name: Cricket
