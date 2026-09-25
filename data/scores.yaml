@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Sep 2026, 03:17 IST"
+updated: "25 Sep 2026, 05:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,93 +23,93 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2599873
-        competition: "Copa Chile"
+      - id: football-2608355
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "9'"
         teams:
-          - name: "O'Higgins"
+          - name: "Dominican Republic"
             score: "1"
             active: true
-          - name: "Deportes Santa Cruz"
+          - name: "Nicaragua"
+            score: "0"
+      - id: football-2599874
+        competition: "Copa Chile"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Everton de Viña del Mar"
+            score: "0"
+          - name: "Universidad de Chile"
+            score: "0"
+      - id: football-2580551
+        competition: "Copa Ecuador"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Gualaceo"
+            score: "0"
+          - name: "Independiente del Valle"
             score: "0"
       - id: football-2603667
         competition: "Copa Paraguay"
-        state: live
-        stateLabel: "17'"
-        teams:
-          - name: "Recoleta"
-            score: "0"
-          - name: "Guaireña"
-            score: "0"
-      - id: football-2595421
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "17'"
-        teams:
-          - name: "LDU Portoviejo"
-            score: "0"
-          - name: "22 de Julio"
-            score: "0"
-      - id: football-2583286
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Independiente Juniors"
-            score: "1"
-          - name: "Vinotinto Ecuador"
-            score: "1"
-      - id: football-2596802
-        competition: "Moroccan Championship"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Amal Tiznit"
-            score: "1"
-          - name: "IR Tanger"
-            score: "3"
-            active: true
-      - id: football-2475942
-        competition: "African Cup of Nations Qualifying"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Sierra Leone"
-            score: "2"
-          - name: "Zimbabwe"
+          - name: "Recoleta"
             score: "3"
             active: true
+          - name: "Guaireña"
+            score: "1"
+      - id: football-2595421
+        competition: "Ecuadorian Serie B"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "LDU Portoviejo"
+            score: "2"
+          - name: "22 de Julio"
+            score: "2"
+      - id: football-2397346
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:00"
+        teams:
+          - name: "Monterey Bay FC"
+            score: "–"
+            detail: "02:00"
+          - name: "Lexington SC"
+            score: "–"
 
   - name: Cricket
     matches:
-      - id: cricket-2465911
-        competition: "English County Championship Division 1"
+      - id: cricket-2524732
+        competition: "One Day International Series"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "08:00"
         teams:
-          - name: "Warwickshire"
+          - name: "South Africa Cricket"
             score: "–"
-            detail: "00:00"
-          - name: "Leicestershire"
+            detail: "08:00"
+          - name: "Australia Cricket"
             score: "–"
-      - id: cricket-2465912
-        competition: "English County Championship Division 1"
+      - id: cricket-2524733
+        competition: "One Day International Series"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "08:30"
         teams:
-          - name: "Nottinghamshire"
+          - name: "India Cricket"
             score: "–"
-            detail: "00:00"
-          - name: "Yorkshire"
+            detail: "08:30"
+          - name: "West Indies Cricket"
             score: "–"
-      - id: cricket-2465913
-        competition: "English County Championship Division 1"
+      - id: cricket-2524734
+        competition: "One Day International Series"
         state: upcoming
-        stateLabel: "00:00"
+        stateLabel: "09:30"
         teams:
-          - name: "Hampshire"
+          - name: "England Cricket"
             score: "–"
-            detail: "00:00"
-          - name: "Sussex"
+            detail: "09:30"
+          - name: "Sri Lanka Cricket"
             score: "–"
