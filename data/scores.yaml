@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "25 Sep 2026, 10:22 IST"
+updated: "25 Sep 2026, 15:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,25 +23,52 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608358
-        competition: "CONCACAF Nations League"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2610106
+        competition: "FIFA ASEAN Cup"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Costa Rica"
-            score: "3"
-          - name: "Curaçao"
-            score: "4"
+          - name: "Bangladesh"
+            score: "0"
+          - name: "Malaysia"
+            score: "2"
             active: true
-      - id: football-2497274
-        competition: "Guatemala Liga Nacional"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2606333
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "22'"
         teams:
-          - name: "Municipal"
-            score: "3"
+          - name: "Poland U19"
+            score: "0"
+          - name: "Switzerland U19"
+            score: "0"
+      - id: football-2606332
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "Poland U17"
+            score: "0"
+          - name: "Czech Republic U17"
+            score: "0"
+      - id: football-2606331
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Finland U17"
+            score: "1"
             active: true
-          - name: "Suchitepéquez"
+          - name: "France U17"
+            score: "0"
+      - id: football-2590245
+        competition: "Russia FNL 2 Group 4"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Dynamo Barnaul"
+            score: "0"
+          - name: "Pobeda Nizhny Novgorod"
             score: "0"
       - id: football-2397346
         competition: "American USL Championship"
@@ -52,36 +79,6 @@ sports:
             score: "–"
             detail: "02:00"
           - name: "Lexington SC"
-            score: "–"
-      - id: football-2397347
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
-        teams:
-          - name: "New Mexico United"
-            score: "–"
-            detail: "01:00"
-          - name: "Sacramento Republic"
-            score: "–"
-      - id: football-2397348
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:00"
-        teams:
-          - name: "Oakland Roots"
-            score: "–"
-            detail: "02:00"
-          - name: "Phoenix Rising"
-            score: "–"
-      - id: football-2269516
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Estonia U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Faroe Islands U21"
             score: "–"
 
   - name: Cricket
