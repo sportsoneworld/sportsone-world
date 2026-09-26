@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Sep 2026, 23:30 IST"
+updated: "27 Sep 2026, 02:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419932
-        competition: "American NWSL"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "Kansas City Current"
-            score: "3"
-            active: true
-          - name: "Denver Summit"
-            score: "1"
-      - id: football-2610196
-        competition: "Burkina Faso 1ere Division"
+      - id: football-2610090
+        competition: "Argentinian Supercopa Internacional"
         state: live
         stateLabel: "86'"
         teams:
-          - name: "Comoé"
+          - name: "Estudiantes de La Plata"
             score: "1"
+          - name: "Rosario Central"
+            score: "2"
             active: true
-          - name: "Majestic"
+      - id: football-2431462
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "67'"
+        teams:
+          - name: "Náutico"
+            score: "2"
+            active: true
+          - name: "Sport Recife"
             score: "0"
-      - id: football-2500232
-        competition: "English League 2"
+      - id: football-2431464
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "68'"
+        stateLabel: "70'"
         teams:
-          - name: "Oldham Athletic"
-            score: "1"
-          - name: "Salford City"
-            score: "3"
+          - name: "Operário Ferroviário"
+            score: "2"
             active: true
-      - id: football-2610010
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "96'"
-        teams:
-          - name: "Italy U20 Women"
+          - name: "Ceará"
             score: "1"
-          - name: "Colombia U20 Women"
-            score: "1"
-      - id: football-2569218
-        competition: "Italy Serie A Women"
+      - id: football-2598673
+        competition: "Brazilian Serie C"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Como 1907 Women"
-            score: "4"
-            active: true
-          - name: "AC Milan Women"
+          - name: "Floresta"
             score: "1"
-      - id: football-2608604
-        competition: "Moroccan Botola 2"
+            active: true
+          - name: "Santa Cruz"
+            score: "0"
+      - id: football-2598672
+        competition: "Brazilian Serie C"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "KAC Kenitra"
+          - name: "Botafogo-PB"
             score: "0"
-          - name: "Wydad de Fès"
-            score: "1"
-            active: true
+          - name: "Maringá"
+            score: "0"
+      - id: football-2608368
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "4'"
+        teams:
+          - name: "St Vincent and the Grenadines"
+            score: "0"
+          - name: "French Guiana"
+            score: "0"
 
   - name: Cricket
     matches:
