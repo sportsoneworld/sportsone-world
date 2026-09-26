@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Sep 2026, 15:44 IST"
+updated: "26 Sep 2026, 20:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2610108
-        competition: "FIFA ASEAN Cup"
+      - id: football-2475943
+        competition: "African Cup of Nations Qualifying"
         state: live
-        stateLabel: "55'"
+        stateLabel: "65'"
         teams:
-          - name: "Pakistan"
-            score: "0"
-          - name: "Thailand"
-            score: "2"
-            active: true
-      - id: football-2539723
-        competition: "Hungarian NB III Northeast"
-        state: live
-        stateLabel: "57'"
-        teams:
-          - name: "Diósgyőr II"
-            score: "4"
-            active: true
-          - name: "DEAC"
+          - name: "South Africa"
             score: "1"
-      - id: football-2540562
-        competition: "Hungarian NB III Southeast"
+            active: true
+          - name: "Guinea"
+            score: "0"
+      - id: football-2475931
+        competition: "African Cup of Nations Qualifying"
         state: live
-        stateLabel: "55'"
+        stateLabel: "70'"
         teams:
-          - name: "Gyulai Termál"
-            score: "2"
-          - name: "Budapest Honvéd II"
-            score: "2"
-      - id: football-2540563
-        competition: "Hungarian NB III Southeast"
+          - name: "Kenya"
+            score: "0"
+          - name: "Eritrea"
+            score: "1"
+            active: true
+      - id: football-2514325
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "55'"
+        stateLabel: "26'"
         teams:
-          - name: "Újpest II"
+          - name: "Donaufeld Wien"
+            score: "1"
+            active: true
+          - name: "Gloggnitz"
             score: "0"
-          - name: "Szolnok"
-            score: "0"
-      - id: football-2508114
-        competition: "Polish III liga Group II"
+      - id: football-2514327
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "11'"
+        stateLabel: "28'"
         teams:
-          - name: "Luzino"
+          - name: "Donau Wien"
             score: "0"
-          - name: "Noteć Czarnków"
-            score: "0"
-      - id: football-2508109
-        competition: "Polish III liga Group II"
+          - name: "Wiener SC"
+            score: "1"
+            active: true
+      - id: football-2514324
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "12'"
+        stateLabel: "29'"
         teams:
-          - name: "Polonia Środa Wielkopolska"
+          - name: "Wienerberg"
             score: "0"
-          - name: "Elana Toruń"
+          - name: "Scheiblingkirchen-Warth"
+            score: "0"
+      - id: football-2512736
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Lauterach"
+            score: "1"
+            active: true
+          - name: "Reichenau"
             score: "0"
 
   - name: Cricket
