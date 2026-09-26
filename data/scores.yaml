@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Sep 2026, 11:01 IST"
+updated: "26 Sep 2026, 15:44 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608472
-        competition: "International Friendlies Women"
+      - id: football-2610108
+        competition: "FIFA ASEAN Cup"
         state: live
-        stateLabel: "73'"
+        stateLabel: "55'"
         teams:
-          - name: "New Caledonia Women"
+          - name: "Pakistan"
             score: "0"
-          - name: "Solomon Islands Women"
-            score: "0"
-      - id: football-2492454
-        competition: "Japanese J3 League"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Renofa Yamaguchi"
-            score: "0"
-          - name: "Sagamihara"
+          - name: "Thailand"
             score: "2"
             active: true
-      - id: football-2492453
-        competition: "Japanese J3 League"
+      - id: football-2539723
+        competition: "Hungarian NB III Northeast"
         state: live
-        stateLabel: "71'"
+        stateLabel: "57'"
         teams:
-          - name: "Zweigen Kanazawa"
-            score: "3"
+          - name: "Diósgyőr II"
+            score: "4"
             active: true
-          - name: "Gainare Tottori"
-            score: "0"
-      - id: football-2610391
-        competition: "Mongolian Premier League"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "Erchim"
+          - name: "DEAC"
             score: "1"
-          - name: "Khovdyn Khuleguud"
-            score: "2"
-            active: true
-      - id: football-2456062
-        competition: "Russia FNL 2 Group 3"
+      - id: football-2540562
+        competition: "Hungarian NB III Southeast"
         state: live
-        stateLabel: "70'"
+        stateLabel: "55'"
         teams:
-          - name: "SKA-Khabarovsk-2"
-            score: "0"
-          - name: "Oryol"
+          - name: "Gyulai Termál"
             score: "2"
-            active: true
-      - id: football-2608365
-        competition: "CONCACAF Nations League"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Budapest Honvéd II"
+            score: "2"
+      - id: football-2540563
+        competition: "Hungarian NB III Southeast"
+        state: live
+        stateLabel: "55'"
         teams:
-          - name: "El Salvador"
-            score: "3"
-            active: true
-          - name: "Martinique"
-            score: "1"
+          - name: "Újpest II"
+            score: "0"
+          - name: "Szolnok"
+            score: "0"
+      - id: football-2508114
+        competition: "Polish III liga Group II"
+        state: live
+        stateLabel: "11'"
+        teams:
+          - name: "Luzino"
+            score: "0"
+          - name: "Noteć Czarnków"
+            score: "0"
+      - id: football-2508109
+        competition: "Polish III liga Group II"
+        state: live
+        stateLabel: "12'"
+        teams:
+          - name: "Polonia Środa Wielkopolska"
+            score: "0"
+          - name: "Elana Toruń"
+            score: "0"
 
   - name: Cricket
     matches:
