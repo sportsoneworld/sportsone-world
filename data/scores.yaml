@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Sep 2026, 20:00 IST"
+updated: "26 Sep 2026, 23:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475943
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2419932
+        competition: "American NWSL"
         state: live
-        stateLabel: "65'"
+        stateLabel: "63'"
         teams:
-          - name: "South Africa"
+          - name: "Kansas City Current"
+            score: "3"
+            active: true
+          - name: "Denver Summit"
+            score: "1"
+      - id: football-2610196
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Comoé"
             score: "1"
             active: true
-          - name: "Guinea"
+          - name: "Majestic"
             score: "0"
-      - id: football-2475931
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2500232
+        competition: "English League 2"
         state: live
-        stateLabel: "70'"
+        stateLabel: "68'"
         teams:
-          - name: "Kenya"
+          - name: "Oldham Athletic"
+            score: "1"
+          - name: "Salford City"
+            score: "3"
+            active: true
+      - id: football-2610010
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "96'"
+        teams:
+          - name: "Italy U20 Women"
+            score: "1"
+          - name: "Colombia U20 Women"
+            score: "1"
+      - id: football-2569218
+        competition: "Italy Serie A Women"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Como 1907 Women"
+            score: "4"
+            active: true
+          - name: "AC Milan Women"
+            score: "1"
+      - id: football-2608604
+        competition: "Moroccan Botola 2"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "KAC Kenitra"
             score: "0"
-          - name: "Eritrea"
+          - name: "Wydad de Fès"
             score: "1"
             active: true
-      - id: football-2514325
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "26'"
-        teams:
-          - name: "Donaufeld Wien"
-            score: "1"
-            active: true
-          - name: "Gloggnitz"
-            score: "0"
-      - id: football-2514327
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "Donau Wien"
-            score: "0"
-          - name: "Wiener SC"
-            score: "1"
-            active: true
-      - id: football-2514324
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Wienerberg"
-            score: "0"
-          - name: "Scheiblingkirchen-Warth"
-            score: "0"
-      - id: football-2512736
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "Lauterach"
-            score: "1"
-            active: true
-          - name: "Reichenau"
-            score: "0"
 
   - name: Cricket
     matches:
