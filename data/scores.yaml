@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "26 Sep 2026, 06:13 IST"
+updated: "26 Sep 2026, 11:01 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419930
-        competition: "American NWSL"
+      - id: football-2608472
+        competition: "International Friendlies Women"
         state: live
-        stateLabel: "32'"
+        stateLabel: "73'"
         teams:
-          - name: "NJ/NY Gotham"
-            score: "1"
-            active: true
-          - name: "Chicago Stars"
+          - name: "New Caledonia Women"
             score: "0"
-      - id: football-2419931
-        competition: "American NWSL"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "Seattle Reign"
+          - name: "Solomon Islands Women"
             score: "0"
-          - name: "Boston Legacy"
+      - id: football-2492454
+        competition: "Japanese J3 League"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Renofa Yamaguchi"
             score: "0"
-      - id: football-2397351
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "47'"
-        teams:
-          - name: "Sporting JAX"
-            score: "1"
-          - name: "Loudoun United"
-            score: "1"
-      - id: football-2397342
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "78'"
-        teams:
-          - name: "Hartford Athletic"
-            score: "2"
-          - name: "Louisville City"
-            score: "2"
-      - id: football-2406560
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "80'"
-        teams:
-          - name: "Excursionistas"
+          - name: "Sagamihara"
             score: "2"
             active: true
-          - name: "Real Pilar"
-            score: "0"
-      - id: football-2431465
-        competition: "Brazilian Serie B"
+      - id: football-2492453
+        competition: "Japanese J3 League"
         state: live
-        stateLabel: "52'"
+        stateLabel: "71'"
         teams:
-          - name: "Vila Nova"
+          - name: "Zweigen Kanazawa"
+            score: "3"
+            active: true
+          - name: "Gainare Tottori"
+            score: "0"
+      - id: football-2610391
+        competition: "Mongolian Premier League"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Erchim"
+            score: "1"
+          - name: "Khovdyn Khuleguud"
             score: "2"
             active: true
-          - name: "Londrina"
+      - id: football-2456062
+        competition: "Russia FNL 2 Group 3"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "SKA-Khabarovsk-2"
             score: "0"
+          - name: "Oryol"
+            score: "2"
+            active: true
+      - id: football-2608365
+        competition: "CONCACAF Nations League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "El Salvador"
+            score: "3"
+            active: true
+          - name: "Martinique"
+            score: "1"
 
   - name: Cricket
     matches:
