@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "27 Sep 2026, 02:35 IST"
+updated: "27 Sep 2026, 05:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2610090
-        competition: "Argentinian Supercopa Internacional"
+      - id: football-2419933
+        competition: "American NWSL"
         state: live
-        stateLabel: "86'"
+        stateLabel: "45'"
         teams:
-          - name: "Estudiantes de La Plata"
+          - name: "Washington Spirit"
+            score: "0"
+          - name: "Angel City"
+            score: "0"
+      - id: football-2397343
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Charleston Battery"
+            score: "0"
+          - name: "Rhode Island FC"
+            score: "0"
+      - id: football-2397344
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Detroit City FC"
+            score: "0"
+          - name: "Colorado Springs Switchbacks"
+            score: "0"
+      - id: football-2397345
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Indy Eleven"
+            score: "0"
+          - name: "Miami FC"
             score: "1"
-          - name: "Rosario Central"
-            score: "2"
             active: true
-      - id: football-2431462
-        competition: "Brazilian Serie B"
+      - id: football-2397667
+        competition: "American USL League One"
         state: live
-        stateLabel: "67'"
+        stateLabel: "27'"
         teams:
-          - name: "Náutico"
-            score: "2"
-            active: true
-          - name: "Sport Recife"
-            score: "0"
-      - id: football-2431464
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "70'"
-        teams:
-          - name: "Operário Ferroviário"
-            score: "2"
-            active: true
-          - name: "Ceará"
+          - name: "Greenville Triumph"
             score: "1"
-      - id: football-2598673
-        competition: "Brazilian Serie C"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Floresta"
+          - name: "Union Omaha"
             score: "1"
-            active: true
-          - name: "Santa Cruz"
-            score: "0"
-      - id: football-2598672
-        competition: "Brazilian Serie C"
+      - id: football-2397665
+        competition: "American USL League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "28'"
         teams:
-          - name: "Botafogo-PB"
+          - name: "FC Naples"
             score: "0"
-          - name: "Maringá"
-            score: "0"
-      - id: football-2608368
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "St Vincent and the Grenadines"
-            score: "0"
-          - name: "French Guiana"
+          - name: "Chattanooga Red Wolves"
             score: "0"
 
   - name: Cricket
