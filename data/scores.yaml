@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "27 Sep 2026, 23:13 IST"
+updated: "28 Sep 2026, 01:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2511507
-        competition: "Bulgarian Second League"
+      - id: football-2397668
+        competition: "American USL League One"
         state: live
-        stateLabel: "84'"
+        stateLabel: "17'"
         teams:
-          - name: "Hebar Pazardzhik"
+          - name: "New York Cosmos"
             score: "1"
-          - name: "Dobrudzha Dobrich"
+            active: true
+          - name: "Richmond Kickers"
+            score: "0"
+      - id: football-2608580
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "88'"
+        teams:
+          - name: "Olimpo"
             score: "2"
             active: true
-      - id: football-2511511
-        competition: "Bulgarian Second League"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Fratria Varna"
-            score: "3"
-            active: true
-          - name: "Spartak Pleven"
+          - name: "Gimnasia y Esgrima de Chivilcoy"
             score: "0"
-      - id: football-2551549
-        competition: "Campeonato de Portugal Serie A"
+      - id: football-2608581
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "85'"
+        stateLabel: "90'"
         teams:
-          - name: "Os Limianos"
-            score: "1"
-          - name: "Rebordosa"
-            score: "1"
-      - id: football-2532766
-        competition: "Croatian Druga HNL"
+          - name: "Defensores de Belgrano de Villa Ramallo"
+            score: "2"
+          - name: "Alvarado"
+            score: "2"
+      - id: football-2405116
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "54'"
+        stateLabel: "21'"
         teams:
-          - name: "Cibalia"
+          - name: "Racing de Córdoba"
             score: "0"
-          - name: "Dugopolje"
-            score: "0"
-      - id: football-2610011
-        competition: "FIFA U20 Womens World Cup"
-        state: live
-        stateLabel: "86'"
-        teams:
-          - name: "Spain U20 Women"
-            score: "0"
-          - name: "North Korea U20 Women"
-            score: "0"
-      - id: football-2606337
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "41'"
-        teams:
-          - name: "Jordan"
+          - name: "Godoy Cruz"
             score: "1"
             active: true
-          - name: "Syria"
+      - id: football-2405114
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "58'"
+        teams:
+          - name: "Patronato"
+            score: "2"
+            active: true
+          - name: "San Martín de San Juan"
             score: "0"
+      - id: football-2405104
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "60'"
+        teams:
+          - name: "Mitre"
+            score: "0"
+          - name: "San Telmo"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
