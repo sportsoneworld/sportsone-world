@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "27 Sep 2026, 05:04 IST"
+updated: "27 Sep 2026, 07:16 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419933
-        competition: "American NWSL"
+      - id: football-2407108
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Real Salt Lake"
+            score: "1"
+            active: true
+          - name: "New England Revolution"
+            score: "0"
+      - id: football-2407103
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "FC Dallas"
+            score: "1"
+            active: true
+          - name: "Los Angeles FC"
+            score: "0"
+      - id: football-2407104
+        competition: "American Major League Soccer"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Washington Spirit"
-            score: "0"
-          - name: "Angel City"
-            score: "0"
-      - id: football-2397343
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Charleston Battery"
-            score: "0"
-          - name: "Rhode Island FC"
-            score: "0"
-      - id: football-2397344
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Detroit City FC"
-            score: "0"
-          - name: "Colorado Springs Switchbacks"
-            score: "0"
-      - id: football-2397345
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "Indy Eleven"
-            score: "0"
-          - name: "Miami FC"
-            score: "1"
+          - name: "Seattle Sounders"
+            score: "2"
             active: true
-      - id: football-2397667
-        competition: "American USL League One"
-        state: live
-        stateLabel: "27'"
-        teams:
-          - name: "Greenville Triumph"
-            score: "1"
-          - name: "Union Omaha"
-            score: "1"
-      - id: football-2397665
-        competition: "American USL League One"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "FC Naples"
+          - name: "Minnesota United"
             score: "0"
-          - name: "Chattanooga Red Wolves"
+      - id: football-2407105
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Nashville SC"
+            score: "2"
+            active: true
+          - name: "Toronto FC"
             score: "0"
+      - id: football-2407106
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Austin FC"
+            score: "0"
+          - name: "San Diego FC"
+            score: "0"
+      - id: football-2407107
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Houston Dynamo"
+            score: "0"
+          - name: "Sporting Kansas City"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
