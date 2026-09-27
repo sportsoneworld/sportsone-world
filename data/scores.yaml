@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "27 Sep 2026, 12:50 IST"
+updated: "27 Sep 2026, 18:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2610110
-        competition: "FIFA ASEAN Cup"
+      - id: football-2512733
+        competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "20'"
+        stateLabel: "9'"
         teams:
-          - name: "Hong Kong"
+          - name: "Hohenems"
+            score: "0"
+          - name: "Kufstein"
+            score: "0"
+      - id: football-2512737
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Röthis"
+            score: "2"
+            active: true
+          - name: "WSG Tirol II"
+            score: "0"
+      - id: football-2452182
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "53'"
+        teams:
+          - name: "Osipovichi"
+            score: "2"
+          - name: "Bumprom Gomel"
+            score: "2"
+      - id: football-2557399
+        competition: "Campeonato de Portugal Serie B"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Estrela da Calheta"
             score: "1"
             active: true
-          - name: "Laos"
+          - name: "Cinfães"
             score: "0"
-      - id: football-2606649
-        competition: "International Friendlies"
+      - id: football-2598618
+        competition: "Club Friendlies"
         state: live
-        stateLabel: "20'"
+        stateLabel: "50'"
         teams:
-          - name: "Fiji"
-            score: "1"
-            active: true
-          - name: "Papua New Guinea"
+          - name: "Shanghai Shenhua"
             score: "0"
-      - id: football-2610402
-        competition: "Philippines Football League"
+          - name: "Zenit Saint Petersburg"
+            score: "0"
+      - id: football-2608526
+        competition: "Copa Paulista"
         state: live
-        stateLabel: "20'"
+        stateLabel: "8'"
         teams:
-          - name: "Kaya–Iloilo"
-            score: "2"
-            active: true
-          - name: "Philippine Army"
+          - name: "Noroeste"
             score: "0"
-      - id: football-2397346
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Monterey Bay FC"
-            score: "2"
-          - name: "Lexington SC"
-            score: "3"
-            active: true
-      - id: football-2397347
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "New Mexico United"
-            score: "2"
-          - name: "Sacramento Republic"
-            score: "3"
-            active: true
-      - id: football-2397348
-        competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Oakland Roots"
-            score: "3"
-            active: true
-          - name: "Phoenix Rising"
+          - name: "São José-SP"
             score: "0"
 
   - name: Cricket
