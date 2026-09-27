@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "27 Sep 2026, 18:40 IST"
+updated: "27 Sep 2026, 23:13 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2512733
-        competition: "Austrian Regionalliga West"
+      - id: football-2511507
+        competition: "Bulgarian Second League"
         state: live
-        stateLabel: "9'"
+        stateLabel: "84'"
         teams:
-          - name: "Hohenems"
-            score: "0"
-          - name: "Kufstein"
-            score: "0"
-      - id: football-2512737
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "Röthis"
+          - name: "Hebar Pazardzhik"
+            score: "1"
+          - name: "Dobrudzha Dobrich"
             score: "2"
             active: true
-          - name: "WSG Tirol II"
+      - id: football-2511511
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "84'"
+        teams:
+          - name: "Fratria Varna"
+            score: "3"
+            active: true
+          - name: "Spartak Pleven"
             score: "0"
-      - id: football-2452182
-        competition: "Belarusian First League"
+      - id: football-2551549
+        competition: "Campeonato de Portugal Serie A"
         state: live
-        stateLabel: "53'"
+        stateLabel: "85'"
         teams:
-          - name: "Osipovichi"
-            score: "2"
-          - name: "Bumprom Gomel"
-            score: "2"
-      - id: football-2557399
-        competition: "Campeonato de Portugal Serie B"
+          - name: "Os Limianos"
+            score: "1"
+          - name: "Rebordosa"
+            score: "1"
+      - id: football-2532766
+        competition: "Croatian Druga HNL"
         state: live
-        stateLabel: "9'"
+        stateLabel: "54'"
         teams:
-          - name: "Estrela da Calheta"
+          - name: "Cibalia"
+            score: "0"
+          - name: "Dugopolje"
+            score: "0"
+      - id: football-2610011
+        competition: "FIFA U20 Womens World Cup"
+        state: live
+        stateLabel: "86'"
+        teams:
+          - name: "Spain U20 Women"
+            score: "0"
+          - name: "North Korea U20 Women"
+            score: "0"
+      - id: football-2606337
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "41'"
+        teams:
+          - name: "Jordan"
             score: "1"
             active: true
-          - name: "Cinfães"
-            score: "0"
-      - id: football-2598618
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "50'"
-        teams:
-          - name: "Shanghai Shenhua"
-            score: "0"
-          - name: "Zenit Saint Petersburg"
-            score: "0"
-      - id: football-2608526
-        competition: "Copa Paulista"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Noroeste"
-            score: "0"
-          - name: "São José-SP"
+          - name: "Syria"
             score: "0"
 
   - name: Cricket
