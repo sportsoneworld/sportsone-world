@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "28 Sep 2026, 01:54 IST"
+updated: "28 Sep 2026, 04:41 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397668
+      - id: football-2419936
+        competition: "American NWSL"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Utah Royals"
+            score: "0"
+          - name: "North Carolina Courage"
+            score: "0"
+      - id: football-2397670
         competition: "American USL League One"
         state: live
-        stateLabel: "17'"
+        stateLabel: "2'"
         teams:
-          - name: "New York Cosmos"
-            score: "1"
-            active: true
-          - name: "Richmond Kickers"
+          - name: "One Knoxville"
             score: "0"
-      - id: football-2608580
+          - name: "Westchester SC"
+            score: "0"
+      - id: football-2608583
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "88'"
+        stateLabel: "40'"
         teams:
-          - name: "Olimpo"
-            score: "2"
-            active: true
-          - name: "Gimnasia y Esgrima de Chivilcoy"
+          - name: "Atenas de Río Cuarto"
             score: "0"
-      - id: football-2608581
+          - name: "San Martín de Formosa"
+            score: "0"
+      - id: football-2608582
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "90'"
+        stateLabel: "51'"
         teams:
-          - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "2"
-          - name: "Alvarado"
-            score: "2"
+          - name: "Sol de América de Formosa"
+            score: "0"
+          - name: "Cipolletti"
+            score: "0"
       - id: football-2405116
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "21'"
+        stateLabel: "46'"
         teams:
           - name: "Racing de Córdoba"
-            score: "0"
-          - name: "Godoy Cruz"
-            score: "1"
-            active: true
-      - id: football-2405114
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Patronato"
             score: "2"
-            active: true
-          - name: "San Martín de San Juan"
-            score: "0"
-      - id: football-2405104
-        competition: "Argentinian Primera B Nacional"
+          - name: "Godoy Cruz"
+            score: "2"
+      - id: football-2431460
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "60'"
+        stateLabel: "75'"
         teams:
-          - name: "Mitre"
-            score: "0"
-          - name: "San Telmo"
-            score: "1"
-            active: true
+          - name: "Fortaleza"
+            score: "2"
+          - name: "Athletic Club-MG"
+            score: "2"
 
   - name: Cricket
     matches:
