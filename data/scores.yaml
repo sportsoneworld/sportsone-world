@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "28 Sep 2026, 13:07 IST"
+updated: "28 Sep 2026, 21:26 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405110
-        competition: "Argentinian Primera B Nacional"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2610202
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "25'"
         teams:
-          - name: "Gimnasia y Esgrima de Jujuy"
-            score: "2"
-          - name: "San Martín de Tucumán"
-            score: "2"
-      - id: football-2406561
-        competition: "Argentina Primera B Metropolitana"
-        state: upcoming
-        stateLabel: "18:00"
+          - name: "Vitesse de Bobo-Dioulasso"
+            score: "0"
+          - name: "ASFA Yennenga"
+            score: "0"
+      - id: football-2611007
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "46'"
         teams:
-          - name: "Flandria"
-            score: "–"
-            detail: "18:00"
-          - name: "Dock Sud"
-            score: "–"
-      - id: football-2269532
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "Petrovac"
+            score: "0"
+          - name: "Mladost Donja Gorica"
+            score: "1"
+            active: true
+      - id: football-2606338
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Denmark U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Belarus U21"
-            score: "–"
-      - id: football-2269533
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "18:00"
+          - name: "Kyrgyzstan"
+            score: "5"
+            active: true
+          - name: "Maldives"
+            score: "0"
+      - id: football-2606339
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Belgium U21"
-            score: "–"
-            detail: "18:00"
-          - name: "Wales U21"
-            score: "–"
-      - id: football-2269534
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "Slovakia U19"
+            score: "1"
+            active: true
+          - name: "Poland U19"
+            score: "0"
+      - id: football-2585845
+        competition: "Iranian Azadegan League"
+        state: live
+        stateLabel: "23'"
         teams:
-          - name: "Estonia U21"
-            score: "–"
-            detail: "15:00"
-          - name: "France U21"
-            score: "–"
-      - id: football-2269535
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "Naft Bandar Abbas"
+            score: "0"
+          - name: "Naft Gachsaran"
+            score: "0"
+      - id: football-2585844
+        competition: "Iranian Azadegan League"
+        state: live
+        stateLabel: "23'"
         teams:
-          - name: "Iceland U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Switzerland U21"
-            score: "–"
+          - name: "Pars Jonoubi Jam"
+            score: "1"
+          - name: "Naft Masjed Soleyman"
+            score: "1"
 
   - name: Cricket
     matches:
