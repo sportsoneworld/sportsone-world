@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "28 Sep 2026, 07:08 IST"
+updated: "28 Sep 2026, 13:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -25,63 +25,63 @@ sports:
     matches:
       - id: football-2405110
         competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "69'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Gimnasia y Esgrima de Jujuy"
             score: "2"
           - name: "San Martín de Tucumán"
             score: "2"
-      - id: football-2608375
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "37'"
+      - id: football-2406561
+        competition: "Argentina Primera B Metropolitana"
+        state: upcoming
+        stateLabel: "18:00"
         teams:
-          - name: "Trinidad and Tobago"
-            score: "1"
-            active: true
-          - name: "Dominican Republic"
-            score: "0"
-      - id: football-2608373
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "81'"
+          - name: "Flandria"
+            score: "–"
+            detail: "18:00"
+          - name: "Dock Sud"
+            score: "–"
+      - id: football-2269532
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Curaçao"
-            score: "5"
-            active: true
-          - name: "Nicaragua"
-            score: "1"
-      - id: football-2608374
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "81'"
+          - name: "Denmark U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Belarus U21"
+            score: "–"
+      - id: football-2269533
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "18:00"
         teams:
-          - name: "Dominica"
-            score: "0"
-          - name: "Puerto Rico"
-            score: "2"
-            active: true
-      - id: football-2481107
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "27'"
+          - name: "Belgium U21"
+            score: "–"
+            detail: "18:00"
+          - name: "Wales U21"
+            score: "–"
+      - id: football-2269534
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Deportivo Cali"
-            score: "1"
-            active: true
-          - name: "Rionegro Águilas"
-            score: "0"
-      - id: football-2610390
-        competition: "Jamaican Premier League"
-        state: live
-        stateLabel: "37'"
+          - name: "Estonia U21"
+            score: "–"
+            detail: "15:00"
+          - name: "France U21"
+            score: "–"
+      - id: football-2269535
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Waterhouse"
-            score: "2"
-            active: true
-          - name: "Treasure Beach"
-            score: "0"
+          - name: "Iceland U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Switzerland U21"
+            score: "–"
 
   - name: Cricket
     matches:
