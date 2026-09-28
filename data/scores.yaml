@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "28 Sep 2026, 04:41 IST"
+updated: "28 Sep 2026, 07:08 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,74 +23,69 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419936
-        competition: "American NWSL"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "Utah Royals"
-            score: "0"
-          - name: "North Carolina Courage"
-            score: "0"
-      - id: football-2397670
-        competition: "American USL League One"
-        state: live
-        stateLabel: "2'"
-        teams:
-          - name: "One Knoxville"
-            score: "0"
-          - name: "Westchester SC"
-            score: "0"
-      - id: football-2608583
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Atenas de Río Cuarto"
-            score: "0"
-          - name: "San Martín de Formosa"
-            score: "0"
-      - id: football-2608582
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "Sol de América de Formosa"
-            score: "0"
-          - name: "Cipolletti"
-            score: "0"
-      - id: football-2405116
+      - id: football-2405110
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "46'"
+        stateLabel: "69'"
         teams:
-          - name: "Racing de Córdoba"
+          - name: "Gimnasia y Esgrima de Jujuy"
             score: "2"
-          - name: "Godoy Cruz"
+          - name: "San Martín de Tucumán"
             score: "2"
-      - id: football-2431460
-        competition: "Brazilian Serie B"
+      - id: football-2608375
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "75'"
+        stateLabel: "37'"
         teams:
-          - name: "Fortaleza"
+          - name: "Trinidad and Tobago"
+            score: "1"
+            active: true
+          - name: "Dominican Republic"
+            score: "0"
+      - id: football-2608373
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "81'"
+        teams:
+          - name: "Curaçao"
+            score: "5"
+            active: true
+          - name: "Nicaragua"
+            score: "1"
+      - id: football-2608374
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "81'"
+        teams:
+          - name: "Dominica"
+            score: "0"
+          - name: "Puerto Rico"
             score: "2"
-          - name: "Athletic Club-MG"
+            active: true
+      - id: football-2481107
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Deportivo Cali"
+            score: "1"
+            active: true
+          - name: "Rionegro Águilas"
+            score: "0"
+      - id: football-2610390
+        competition: "Jamaican Premier League"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Waterhouse"
             score: "2"
+            active: true
+          - name: "Treasure Beach"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2524732
-        competition: "One Day International Series"
-        state: upcoming
-        stateLabel: "08:00"
-        teams:
-          - name: "South Africa Cricket"
-            score: "–"
-            detail: "08:00"
-          - name: "Australia Cricket"
-            score: "–"
-      - id: cricket-2524733
+      - id: cricket-2524735
         competition: "One Day International Series"
         state: upcoming
         stateLabel: "08:30"
@@ -100,13 +95,13 @@ sports:
             detail: "08:30"
           - name: "West Indies Cricket"
             score: "–"
-      - id: cricket-2524734
+      - id: cricket-2524736
         competition: "One Day International Series"
         state: upcoming
-        stateLabel: "09:30"
+        stateLabel: "11:30"
         teams:
-          - name: "England Cricket"
+          - name: "South Africa Cricket"
             score: "–"
-            detail: "09:30"
-          - name: "Sri Lanka Cricket"
+            detail: "11:30"
+          - name: "Australia Cricket"
             score: "–"
