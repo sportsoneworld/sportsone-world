@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Sep 2026, 12:37 IST"
+updated: "29 Sep 2026, 19:31 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608476
-        competition: "International Friendlies Women"
+      - id: football-2475951
+        competition: "African Cup of Nations Qualifying"
         state: live
-        stateLabel: "5'"
+        stateLabel: "45'"
         teams:
-          - name: "Fiji Women"
+          - name: "Burundi"
+            score: "2"
+            active: true
+          - name: "Algeria"
+            score: "1"
+      - id: football-2475958
+        competition: "African Cup of Nations Qualifying"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Ethiopia"
             score: "0"
-          - name: "New Caledonia Women"
+          - name: "Senegal"
+            score: "1"
+            active: true
+      - id: football-2475963
+        competition: "African Cup of Nations Qualifying"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Lesotho"
             score: "0"
-      - id: football-2269533
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "18:00"
+          - name: "Morocco"
+            score: "1"
+            active: true
+      - id: football-2475966
+        competition: "African Cup of Nations Qualifying"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Belgium U21"
-            score: "–"
-            detail: "18:00"
-          - name: "Wales U21"
-            score: "–"
-      - id: football-2269534
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "Mozambique"
+            score: "1"
+            active: true
+          - name: "Sudan"
+            score: "0"
+      - id: football-2475968
+        competition: "African Cup of Nations Qualifying"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Estonia U21"
-            score: "–"
-            detail: "15:00"
-          - name: "France U21"
-            score: "–"
-      - id: football-2269535
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "South Sudan"
+            score: "0"
+          - name: "Egypt"
+            score: "1"
+            active: true
+      - id: football-2610115
+        competition: "FIFA ASEAN Cup"
+        state: live
+        stateLabel: "71'"
         teams:
-          - name: "Iceland U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Switzerland U21"
-            score: "–"
-      - id: football-2269539
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Faroe Islands U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Luxembourg U21"
-            score: "–"
-      - id: football-2269540
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Portugal U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Gibraltar U21"
-            score: "–"
+          - name: "Thailand"
+            score: "1"
+            active: true
+          - name: "Vietnam"
+            score: "0"
 
   - name: Cricket
     matches:
