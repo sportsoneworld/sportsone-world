@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Sep 2026, 06:45 IST"
+updated: "29 Sep 2026, 12:37 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608380
-        competition: "CONCACAF Nations League"
+      - id: football-2608476
+        competition: "International Friendlies Women"
         state: live
-        stateLabel: "55'"
+        stateLabel: "5'"
         teams:
-          - name: "St Kitts and Nevis"
-            score: "2"
-            active: true
-          - name: "Grenada"
+          - name: "Fiji Women"
             score: "0"
-      - id: football-2608379
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "56'"
+          - name: "New Caledonia Women"
+            score: "0"
+      - id: football-2269533
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "18:00"
         teams:
-          - name: "Jamaica"
-            score: "0"
-          - name: "Honduras"
-            score: "1"
-            active: true
-      - id: football-2608381
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "57'"
+          - name: "Belgium U21"
+            score: "–"
+            detail: "18:00"
+          - name: "Wales U21"
+            score: "–"
+      - id: football-2269534
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "St Lucia"
-            score: "4"
-            active: true
-          - name: "Bermuda"
-            score: "1"
-      - id: football-2548537
-        competition: "Mexican Liga Femenil"
-        state: live
-        stateLabel: "7'"
+          - name: "Estonia U21"
+            score: "–"
+            detail: "15:00"
+          - name: "France U21"
+            score: "–"
+      - id: football-2269535
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Necaxa Femenil"
-            score: "0"
-          - name: "Toluca Femenil"
-            score: "1"
-            active: true
-      - id: football-2548218
-        competition: "Panama Liga Panamena de Futbol"
-        state: live
-        stateLabel: "8'"
+          - name: "Iceland U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Switzerland U21"
+            score: "–"
+      - id: football-2269539
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Alianza"
-            score: "0"
-          - name: "Independiente de La Chorrera"
-            score: "0"
-      - id: football-2431456
-        competition: "Brazilian Serie B"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Faroe Islands U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Luxembourg U21"
+            score: "–"
+      - id: football-2269540
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "América Mineiro"
-            score: "0"
-          - name: "Juventude"
-            score: "1"
-            active: true
+          - name: "Portugal U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Gibraltar U21"
+            score: "–"
 
   - name: Cricket
     matches:
