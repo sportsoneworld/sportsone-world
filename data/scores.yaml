@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Sep 2026, 00:53 IST"
+updated: "30 Sep 2026, 04:33 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475959
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2431457
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "14'"
+        stateLabel: "34'"
         teams:
-          - name: "Gabon"
+          - name: "Botafogo-SP"
+            score: "1"
+            active: true
+          - name: "Ponte Preta"
             score: "0"
-          - name: "Niger"
-            score: "0"
-      - id: football-2475949
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2608386
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "20'"
+        stateLabel: "4'"
         teams:
-          - name: "Benin"
+          - name: "Anguilla"
             score: "0"
-          - name: "Mauritania"
+          - name: "Aruba"
             score: "0"
-      - id: football-2475955
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2481470
+        competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "20'"
+        stateLabel: "3'"
         teams:
-          - name: "Congo"
+          - name: "Unión Magdalena"
             score: "0"
-          - name: "Cameroon"
+          - name: "Real Cartagena"
             score: "0"
-      - id: football-2475964
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2545983
+        competition: "El Salvador Primera Division"
         state: live
-        stateLabel: "21'"
+        stateLabel: "Live"
         teams:
-          - name: "Liberia"
+          - name: "Atlético Balboa"
             score: "0"
-          - name: "Mali"
-            score: "0"
-      - id: football-2475967
-        competition: "African Cup of Nations Qualifying"
-        state: live
-        stateLabel: "21'"
-        teams:
-          - name: "Somalia"
-            score: "0"
-          - name: "Ivory Coast"
-            score: "0"
-      - id: football-2408639
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "67'"
-        teams:
-          - name: "Muñiz"
+          - name: "Cacahuatique"
             score: "2"
-          - name: "El Porvenir"
+            active: true
+      - id: football-2608385
+        competition: "CONCACAF Nations League"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "French Guiana"
+            score: "1"
+            active: true
+          - name: "St Maarten"
+            score: "0"
+      - id: football-2481114
+        competition: "Colombian Liga DIMAYOR"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Deportivo Pereira"
+            score: "1"
+          - name: "Independiente Santa Fe"
             score: "2"
+            active: true
 
   - name: Cricket
     matches:
