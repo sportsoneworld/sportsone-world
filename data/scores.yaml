@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "29 Sep 2026, 03:02 IST"
+updated: "29 Sep 2026, 06:45 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608377
+      - id: football-2608380
         competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "55'"
         teams:
-          - name: "Cuba"
-            score: "1"
-            active: true
-          - name: "Bonaire"
-            score: "0"
-      - id: football-2481472
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Internacional de Palmira"
-            score: "0"
-          - name: "Itagüí Leones"
-            score: "0"
-      - id: football-2481473
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Independiente Yumbo"
-            score: "1"
-            active: true
-          - name: "Orsomarso"
-            score: "0"
-      - id: football-2608112
-        competition: "Paraguayan División Intermedia"
-        state: live
-        stateLabel: "69'"
-        teams:
-          - name: "Atlético Tembetary"
+          - name: "St Kitts and Nevis"
             score: "2"
             active: true
-          - name: "Paraguarí"
+          - name: "Grenada"
+            score: "0"
+      - id: football-2608379
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Jamaica"
+            score: "0"
+          - name: "Honduras"
             score: "1"
-      - id: football-2476067
-        competition: "African Cup of Nations Qualifying"
+            active: true
+      - id: football-2608381
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "57'"
+        teams:
+          - name: "St Lucia"
+            score: "4"
+            active: true
+          - name: "Bermuda"
+            score: "1"
+      - id: football-2548537
+        competition: "Mexican Liga Femenil"
+        state: live
+        stateLabel: "7'"
+        teams:
+          - name: "Necaxa Femenil"
+            score: "0"
+          - name: "Toluca Femenil"
+            score: "1"
+            active: true
+      - id: football-2548218
+        competition: "Panama Liga Panamena de Futbol"
+        state: live
+        stateLabel: "8'"
+        teams:
+          - name: "Alianza"
+            score: "0"
+          - name: "Independiente de La Chorrera"
+            score: "0"
+      - id: football-2431456
+        competition: "Brazilian Serie B"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Tunisia"
-            score: "2"
-          - name: "Botswana"
-            score: "2"
-      - id: football-2406561
-        competition: "Argentina Primera B Metropolitana"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Flandria"
+          - name: "América Mineiro"
+            score: "0"
+          - name: "Juventude"
             score: "1"
-          - name: "Dock Sud"
-            score: "2"
             active: true
 
   - name: Cricket
