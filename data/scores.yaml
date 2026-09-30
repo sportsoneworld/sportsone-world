@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Oct 2026, 01:29 IST"
+updated: "01 Oct 2026, 05:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2599813
-        competition: "Copa AUF Uruguay"
+      - id: football-2397352
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Brooklyn FC"
+            score: "0"
+          - name: "Detroit City FC"
+            score: "0"
+      - id: football-2397354
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Miami FC"
+            score: "0"
+          - name: "Sporting JAX"
+            score: "0"
+      - id: football-2397577
+        competition: "American USL League One"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Chattanooga Red Wolves"
+            score: "0"
+          - name: "Spokane Velocity"
+            score: "0"
+      - id: football-2427421
+        competition: "Canadian Premier League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Atlético Ottawa"
+            score: "0"
+          - name: "Cavalry"
+            score: "1"
+            active: true
+      - id: football-2611509
+        competition: "Copa Chile"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Deportes Concepción"
+            score: "0"
+          - name: "O'Higgins"
+            score: "0"
+      - id: football-2604316
+        competition: "Copa Paraguay"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Cerro Largo"
-            score: "0"
-          - name: "Rentistas"
-            score: "0"
-      - id: football-2599812
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Defensor Sporting"
-            score: "0"
-          - name: "Plaza Colonia"
+          - name: "Cerro Porteño"
             score: "1"
             active: true
-      - id: football-2542647
-        competition: "English Isthmian League Premier Division"
-        state: live
-        stateLabel: "50'"
-        teams:
-          - name: "Whyteleafe"
-            score: "1"
-          - name: "Brentwood Town"
-            score: "1"
-      - id: football-2528290
-        competition: "English National League"
-        state: live
-        stateLabel: "54'"
-        teams:
-          - name: "Tamworth"
-            score: "2"
-            active: true
-          - name: "Sutton United"
+          - name: "Rubio Ñu"
             score: "0"
-      - id: football-2528289
-        competition: "English National League"
-        state: live
-        stateLabel: "56'"
-        teams:
-          - name: "Eastleigh"
-            score: "0"
-          - name: "Southend United"
-            score: "1"
-            active: true
-      - id: football-2542193
-        competition: "English Southern Football League Division South"
-        state: live
-        stateLabel: "55'"
-        teams:
-          - name: "Gosport Borough"
-            score: "0"
-          - name: "Bracknell Town"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
