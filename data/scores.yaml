@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Sep 2026, 20:36 IST"
+updated: "01 Oct 2026, 01:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2547158
-        competition: "Ghanaian Premier League"
+      - id: football-2599813
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "6'"
+        stateLabel: "Live"
         teams:
-          - name: "Medeama"
+          - name: "Cerro Largo"
             score: "0"
-          - name: "Port City FC"
+          - name: "Rentistas"
             score: "0"
-      - id: football-2611387
-        competition: "International Friendlies"
+      - id: football-2599812
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
-          - name: "Albania U19"
+          - name: "Defensor Sporting"
+            score: "0"
+          - name: "Plaza Colonia"
             score: "1"
-          - name: "Lithuania U19"
-            score: "1"
-      - id: football-2496167
-        competition: "Montenegrin Second League"
-        state: live
-        stateLabel: "5'"
-        teams:
-          - name: "Zeta"
-            score: "0"
-          - name: "Kom"
-            score: "0"
-      - id: football-2611563
-        competition: "Nigerian NPFL"
-        state: live
-        stateLabel: "7'"
-        teams:
-          - name: "Sporting Lagos"
-            score: "0"
-          - name: "Ikorodu City"
-            score: "0"
-      - id: football-2598755
-        competition: "Norwegian Cupen"
+            active: true
+      - id: football-2542647
+        competition: "English Isthmian League Premier Division"
         state: live
         stateLabel: "50'"
         teams:
-          - name: "Follo"
+          - name: "Whyteleafe"
+            score: "1"
+          - name: "Brentwood Town"
+            score: "1"
+      - id: football-2528290
+        competition: "English National League"
+        state: live
+        stateLabel: "54'"
+        teams:
+          - name: "Tamworth"
+            score: "2"
+            active: true
+          - name: "Sutton United"
             score: "0"
-          - name: "Sarpsborg 08"
+      - id: football-2528289
+        competition: "English National League"
+        state: live
+        stateLabel: "56'"
+        teams:
+          - name: "Eastleigh"
+            score: "0"
+          - name: "Southend United"
             score: "1"
             active: true
-      - id: football-2599864
-        competition: "UEFA Womens Europa Cup"
+      - id: football-2542193
+        competition: "English Southern Football League Division South"
         state: live
-        stateLabel: "49'"
+        stateLabel: "55'"
         teams:
-          - name: "Farul Constanţa Women"
+          - name: "Gosport Borough"
             score: "0"
-          - name: "Sparta Praha Women"
-            score: "2"
+          - name: "Bracknell Town"
+            score: "1"
             active: true
 
   - name: Cricket
