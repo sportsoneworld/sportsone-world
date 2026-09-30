@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Sep 2026, 04:33 IST"
+updated: "30 Sep 2026, 07:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431457
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Botafogo-SP"
-            score: "1"
-            active: true
-          - name: "Ponte Preta"
-            score: "0"
-      - id: football-2608386
+      - id: football-2608387
         competition: "CONCACAF Nations League"
         state: live
         stateLabel: "4'"
         teams:
-          - name: "Anguilla"
+          - name: "Belize"
             score: "0"
-          - name: "Aruba"
+          - name: "St Vincent and the Grenadines"
             score: "0"
+      - id: football-2481117
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Independiente Medellín"
+            score: "1"
+          - name: "Millonarios"
+            score: "2"
+            active: true
       - id: football-2481470
         competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "3'"
+        stateLabel: "83'"
         teams:
           - name: "Unión Magdalena"
-            score: "0"
+            score: "1"
           - name: "Real Cartagena"
-            score: "0"
-      - id: football-2545983
-        competition: "El Salvador Primera Division"
+            score: "1"
+      - id: football-2578512
+        competition: "International Friendlies"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Atlético Balboa"
-            score: "0"
-          - name: "Cacahuatique"
-            score: "2"
+          - name: "USA"
+            score: "4"
             active: true
-      - id: football-2608385
-        competition: "CONCACAF Nations League"
-        state: completed
-        stateLabel: "Full time"
+          - name: "Chile"
+            score: "2"
+      - id: football-2578511
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "French Guiana"
+          - name: "Mexico"
+            score: "0"
+          - name: "Peru"
             score: "1"
             active: true
-          - name: "St Maarten"
-            score: "0"
-      - id: football-2481114
-        competition: "Colombian Liga DIMAYOR"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2269539
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Deportivo Pereira"
-            score: "1"
-          - name: "Independiente Santa Fe"
-            score: "2"
-            active: true
+          - name: "Faroe Islands U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Luxembourg U21"
+            score: "–"
 
   - name: Cricket
     matches:
