@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Sep 2026, 13:58 IST"
+updated: "30 Sep 2026, 20:36 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2606653
+      - id: football-2547158
+        competition: "Ghanaian Premier League"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Medeama"
+            score: "0"
+          - name: "Port City FC"
+            score: "0"
+      - id: football-2611387
         competition: "International Friendlies"
         state: live
-        stateLabel: "69'"
+        stateLabel: "80'"
         teams:
-          - name: "Fiji"
-            score: "2"
-            active: true
-          - name: "New Caledonia"
+          - name: "Albania U19"
             score: "1"
-      - id: football-2611498
-        competition: "Mongolian Premier League"
+          - name: "Lithuania U19"
+            score: "1"
+      - id: football-2496167
+        competition: "Montenegrin Second League"
         state: live
-        stateLabel: "26'"
+        stateLabel: "5'"
         teams:
-          - name: "Khovdyn Khuleguud"
+          - name: "Zeta"
             score: "0"
-          - name: "FC Ulaanbaatar"
+          - name: "Kom"
             score: "0"
-      - id: football-2610933
-        competition: "Asian Games Soccer"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2611563
+        competition: "Nigerian NPFL"
+        state: live
+        stateLabel: "7'"
         teams:
-          - name: "South Korea U23"
+          - name: "Sporting Lagos"
+            score: "0"
+          - name: "Ikorodu City"
+            score: "0"
+      - id: football-2598755
+        competition: "Norwegian Cupen"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Follo"
+            score: "0"
+          - name: "Sarpsborg 08"
+            score: "1"
+            active: true
+      - id: football-2599864
+        competition: "UEFA Womens Europa Cup"
+        state: live
+        stateLabel: "49'"
+        teams:
+          - name: "Farul Constanţa Women"
+            score: "0"
+          - name: "Sparta Praha Women"
             score: "2"
             active: true
-          - name: "China U23"
-            score: "1"
-      - id: football-2269539
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Faroe Islands U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Luxembourg U21"
-            score: "–"
-      - id: football-2269540
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Portugal U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Gibraltar U21"
-            score: "–"
-      - id: football-2269541
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
-        teams:
-          - name: "Czech Republic U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Bulgaria U21"
-            score: "–"
 
   - name: Cricket
     matches:
