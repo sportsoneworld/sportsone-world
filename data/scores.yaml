@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "30 Sep 2026, 07:34 IST"
+updated: "30 Sep 2026, 13:58 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,54 +23,35 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608387
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "4'"
-        teams:
-          - name: "Belize"
-            score: "0"
-          - name: "St Vincent and the Grenadines"
-            score: "0"
-      - id: football-2481117
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Independiente Medellín"
-            score: "1"
-          - name: "Millonarios"
-            score: "2"
-            active: true
-      - id: football-2481470
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "Unión Magdalena"
-            score: "1"
-          - name: "Real Cartagena"
-            score: "1"
-      - id: football-2578512
+      - id: football-2606653
         competition: "International Friendlies"
         state: live
-        stateLabel: "Live"
+        stateLabel: "69'"
         teams:
-          - name: "USA"
-            score: "4"
-            active: true
-          - name: "Chile"
+          - name: "Fiji"
             score: "2"
-      - id: football-2578511
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Mexico"
-            score: "0"
-          - name: "Peru"
-            score: "1"
             active: true
+          - name: "New Caledonia"
+            score: "1"
+      - id: football-2611498
+        competition: "Mongolian Premier League"
+        state: live
+        stateLabel: "26'"
+        teams:
+          - name: "Khovdyn Khuleguud"
+            score: "0"
+          - name: "FC Ulaanbaatar"
+            score: "0"
+      - id: football-2610933
+        competition: "Asian Games Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "South Korea U23"
+            score: "2"
+            active: true
+          - name: "China U23"
+            score: "1"
       - id: football-2269539
         competition: "UEFA European Under-21 Championship"
         state: upcoming
@@ -80,6 +61,26 @@ sports:
             score: "–"
             detail: "15:00"
           - name: "Luxembourg U21"
+            score: "–"
+      - id: football-2269540
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
+        teams:
+          - name: "Portugal U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Gibraltar U21"
+            score: "–"
+      - id: football-2269541
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
+        teams:
+          - name: "Czech Republic U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Bulgaria U21"
             score: "–"
 
   - name: Cricket
