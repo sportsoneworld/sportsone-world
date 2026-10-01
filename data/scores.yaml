@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Oct 2026, 21:54 IST"
+updated: "02 Oct 2026, 02:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475961
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2608390
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "20'"
+        stateLabel: "9'"
         teams:
-          - name: "Guinea"
+          - name: "Dominica"
             score: "0"
-          - name: "Kenya"
+          - name: "Guyana"
             score: "0"
-      - id: football-2611517
-        competition: "Club Friendlies"
+      - id: football-2608389
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "50'"
         teams:
-          - name: "Trabzonspor"
+          - name: "US Virgin Islands"
             score: "0"
-          - name: "Drogheda United"
-            score: "0"
-      - id: football-2606313
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Stuttgart"
-            score: "3"
+          - name: "St Martin"
+            score: "2"
             active: true
-          - name: "Greuther Fürth"
-            score: "0"
-      - id: football-2547181
-        competition: "Ghanaian Premier League"
+      - id: football-2608388
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "21'"
+        stateLabel: "51'"
         teams:
-          - name: "Asante Kotoko"
+          - name: "British Virgin Islands"
+            score: "0"
+          - name: "Montserrat"
+            score: "2"
+            active: true
+      - id: football-2481434
+        competition: "Colombian Torneo DIMAYOR"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Envigado"
+            score: "0"
+          - name: "Orsomarso"
+            score: "0"
+      - id: football-2594521
+        competition: "Peruvian Copa de la Liga"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Sporting Cristal"
+            score: "2"
+            active: true
+          - name: "ADT"
+            score: "0"
+      - id: football-2508589
+        competition: "French Ligue 3"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Bastia"
             score: "1"
-            active: true
-          - name: "Karela United"
-            score: "0"
-      - id: football-2611392
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "19'"
-        teams:
-          - name: "Morocco U23"
-            score: "0"
-          - name: "Mali U23"
-            score: "0"
-      - id: football-2611393
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "23'"
-        teams:
-          - name: "Brazil U20"
-            score: "0"
-          - name: "United States U20"
-            score: "0"
+          - name: "Orléans"
+            score: "1"
 
   - name: Cricket
     matches:
