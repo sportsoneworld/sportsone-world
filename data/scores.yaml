@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Oct 2026, 07:54 IST"
+updated: "01 Oct 2026, 14:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397356
-        competition: "American USL Championship"
+      - id: football-2611745
+        competition: "Mongolian Premier League"
         state: live
-        stateLabel: "13'"
+        stateLabel: "51'"
         teams:
-          - name: "Sacramento Republic"
+          - name: "Erchim"
             score: "0"
-          - name: "Las Vegas Lights"
+          - name: "Central Stallions"
             score: "1"
             active: true
-      - id: football-2611513
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "61'"
-        teams:
-          - name: "Alianza Lima"
-            score: "1"
-          - name: "Palestino"
-            score: "2"
-            active: true
-      - id: football-2481112
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Atlético Nacional"
-            score: "2"
-            active: true
-          - name: "Atlético Junior"
-            score: "1"
-      - id: football-2407102
-        competition: "American Major League Soccer"
+      - id: football-2583247
+        competition: "International Friendlies"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "New York Red Bulls"
-            score: "0"
-          - name: "St. Louis City SC"
-            score: "3"
-            active: true
-      - id: football-2397355
+          - name: "Panama"
+            score: "1"
+          - name: "New Zealand"
+            score: "1"
+      - id: football-2397357
         competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
+          - name: "Brooklyn FC"
+            score: "–"
+            detail: "23:00"
           - name: "Rhode Island FC"
-            score: "1"
-            active: true
-          - name: "Indy Eleven"
-            score: "0"
-      - id: football-2397353
+            score: "–"
+      - id: football-2397359
         competition: "American USL Championship"
-        state: completed
-        stateLabel: "Full time"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "FC Tulsa"
-            score: "1"
-            active: true
-          - name: "New Mexico United"
-            score: "0"
+          - name: "Detroit City FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Birmingham Legion"
+            score: "–"
+      - id: football-2397363
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Lexington SC"
+            score: "–"
+            detail: "23:00"
+          - name: "El Paso Locomotive"
+            score: "–"
+      - id: football-2269545
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "18:15"
+        teams:
+          - name: "San Marino U21"
+            score: "–"
+            detail: "18:15"
+          - name: "Spain U21"
+            score: "–"
 
   - name: Cricket
     matches:
