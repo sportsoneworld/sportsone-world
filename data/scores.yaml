@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "01 Oct 2026, 05:02 IST"
+updated: "01 Oct 2026, 07:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,70 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397352
+      - id: football-2397356
         competition: "American USL Championship"
         state: live
-        stateLabel: "25'"
+        stateLabel: "13'"
         teams:
-          - name: "Brooklyn FC"
+          - name: "Sacramento Republic"
             score: "0"
-          - name: "Detroit City FC"
+          - name: "Las Vegas Lights"
+            score: "1"
+            active: true
+      - id: football-2611513
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "61'"
+        teams:
+          - name: "Alianza Lima"
+            score: "1"
+          - name: "Palestino"
+            score: "2"
+            active: true
+      - id: football-2481112
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "Atlético Nacional"
+            score: "2"
+            active: true
+          - name: "Atlético Junior"
+            score: "1"
+      - id: football-2407102
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "New York Red Bulls"
             score: "0"
-      - id: football-2397354
+          - name: "St. Louis City SC"
+            score: "3"
+            active: true
+      - id: football-2397355
         competition: "American USL Championship"
-        state: live
-        stateLabel: "25'"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Miami FC"
-            score: "0"
-          - name: "Sporting JAX"
-            score: "0"
-      - id: football-2397577
-        competition: "American USL League One"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Chattanooga Red Wolves"
-            score: "0"
-          - name: "Spokane Velocity"
-            score: "0"
-      - id: football-2427421
-        competition: "Canadian Premier League"
-        state: live
-        stateLabel: "21'"
-        teams:
-          - name: "Atlético Ottawa"
-            score: "0"
-          - name: "Cavalry"
+          - name: "Rhode Island FC"
             score: "1"
             active: true
-      - id: football-2611509
-        competition: "Copa Chile"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "Deportes Concepción"
+          - name: "Indy Eleven"
             score: "0"
-          - name: "O'Higgins"
-            score: "0"
-      - id: football-2604316
-        competition: "Copa Paraguay"
-        state: live
-        stateLabel: "Live"
+      - id: football-2397353
+        competition: "American USL Championship"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Cerro Porteño"
+          - name: "FC Tulsa"
             score: "1"
             active: true
-          - name: "Rubio Ñu"
+          - name: "New Mexico United"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2524735
+      - id: cricket-2524737
         competition: "One Day International Series"
         state: upcoming
         stateLabel: "08:30"
@@ -91,14 +95,4 @@ sports:
             score: "–"
             detail: "08:30"
           - name: "West Indies Cricket"
-            score: "–"
-      - id: cricket-2524736
-        competition: "One Day International Series"
-        state: upcoming
-        stateLabel: "11:30"
-        teams:
-          - name: "South Africa Cricket"
-            score: "–"
-            detail: "11:30"
-          - name: "Australia Cricket"
             score: "–"
