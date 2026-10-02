@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Oct 2026, 18:25 IST"
+updated: "02 Oct 2026, 23:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2611287
-        competition: "Club Friendlies"
+      - id: football-2560477
+        competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "22'"
+        stateLabel: "50'"
         teams:
-          - name: "Grasshoppers"
+          - name: "Seekirchen"
             score: "0"
-          - name: "Yverdon Sport"
+          - name: "Union Gurten"
             score: "0"
-      - id: football-2606314
-        competition: "Club Friendlies"
+      - id: football-2514331
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "Live"
+        stateLabel: "34'"
         teams:
-          - name: "Heidenheim"
+          - name: "Krems"
             score: "3"
             active: true
-          - name: "Würzburger Kickers"
+          - name: "Wiener SC"
+            score: "2"
+      - id: football-2514332
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "Oberwart"
             score: "1"
-      - id: football-2611286
-        competition: "Club Friendlies"
+          - name: "Horn"
+            score: "1"
+      - id: football-2514330
+        competition: "Austrian Regionalliga Ost"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Sigma Olomouc"
+          - name: "Favoritner AC"
+            score: "0"
+          - name: "Marchfeld Donauauen"
+            score: "0"
+      - id: football-2560689
+        competition: "Austrian Regionalliga Süd"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Velden"
             score: "1"
-            active: true
-          - name: "Žilina"
-            score: "0"
-      - id: football-2611525
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Mladost Donja Gorica"
-            score: "0"
-          - name: "Mornar"
-            score: "2"
-            active: true
-      - id: football-2611279
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Wisła Płock"
+          - name: "Treibach"
             score: "1"
-            active: true
-          - name: "Unia Skierniewice"
-            score: "0"
-      - id: football-2598450
-        competition: "International Friendlies"
+      - id: football-2560687
+        competition: "Austrian Regionalliga Süd"
         state: live
-        stateLabel: "53'"
+        stateLabel: "54'"
         teams:
-          - name: "China"
+          - name: "Gleisdorf 09"
             score: "0"
-          - name: "Palestine"
-            score: "3"
-            active: true
+          - name: "Tillmitsch"
+            score: "0"
 
   - name: Cricket
     matches:
