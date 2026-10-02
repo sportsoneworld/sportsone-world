@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Oct 2026, 06:14 IST"
+updated: "02 Oct 2026, 11:45 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431474
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "44'"
+      - id: football-2397357
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Novorizontino"
-            score: "1"
-            active: true
-          - name: "Goiás"
-            score: "0"
-      - id: football-2431466
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "48'"
+          - name: "Brooklyn FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Rhode Island FC"
+            score: "–"
+      - id: football-2397359
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Athletic Club-MG"
-            score: "1"
-          - name: "Sport Recife"
-            score: "2"
-            active: true
-      - id: football-2608393
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "35'"
+          - name: "Detroit City FC"
+            score: "–"
+            detail: "23:00"
+          - name: "Birmingham Legion"
+            score: "–"
+      - id: football-2397363
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Dominican Republic"
-            score: "0"
-          - name: "Haiti"
-            score: "1"
-            active: true
-      - id: football-2608394
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "43'"
+          - name: "Lexington SC"
+            score: "–"
+            detail: "23:00"
+          - name: "El Paso Locomotive"
+            score: "–"
+      - id: football-2397358
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "01:00"
         teams:
-          - name: "Cayman Islands"
-            score: "0"
-          - name: "Puerto Rico"
-            score: "1"
-            active: true
-      - id: football-2608392
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "83'"
+          - name: "Colorado Springs Switchbacks"
+            score: "–"
+            detail: "01:00"
+          - name: "Oakland Roots"
+            score: "–"
+      - id: football-2397360
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "00:00"
         teams:
-          - name: "Anguilla"
-            score: "0"
-          - name: "Antigua and Barbuda"
-            score: "3"
-            active: true
-      - id: football-2598264
-        competition: "Copa Argentina"
-        state: live
-        stateLabel: "27'"
+          - name: "FC Tulsa"
+            score: "–"
+            detail: "00:00"
+          - name: "Sacramento Republic"
+            score: "–"
+      - id: football-2397362
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "02:30"
         teams:
-          - name: "Platense"
-            score: "0"
-          - name: "Estudiantes de La Plata"
-            score: "0"
+          - name: "Las Vegas Lights"
+            score: "–"
+            detail: "02:30"
+          - name: "San Antonio"
+            score: "–"
 
   - name: Cricket
     matches:
