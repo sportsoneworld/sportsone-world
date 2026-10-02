@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Oct 2026, 02:38 IST"
+updated: "02 Oct 2026, 06:14 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608390
-        competition: "CONCACAF Nations League"
+      - id: football-2431474
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "9'"
+        stateLabel: "44'"
         teams:
-          - name: "Dominica"
-            score: "0"
-          - name: "Guyana"
-            score: "0"
-      - id: football-2608389
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "50'"
-        teams:
-          - name: "US Virgin Islands"
-            score: "0"
-          - name: "St Martin"
-            score: "2"
+          - name: "Novorizontino"
+            score: "1"
             active: true
-      - id: football-2608388
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "British Virgin Islands"
+          - name: "Goiás"
             score: "0"
-          - name: "Montserrat"
-            score: "2"
-            active: true
-      - id: football-2481434
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Envigado"
-            score: "0"
-          - name: "Orsomarso"
-            score: "0"
-      - id: football-2594521
-        competition: "Peruvian Copa de la Liga"
+      - id: football-2431466
+        competition: "Brazilian Serie B"
         state: live
         stateLabel: "48'"
         teams:
-          - name: "Sporting Cristal"
+          - name: "Athletic Club-MG"
+            score: "1"
+          - name: "Sport Recife"
             score: "2"
             active: true
-          - name: "ADT"
-            score: "0"
-      - id: football-2508589
-        competition: "French Ligue 3"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2608393
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "35'"
         teams:
-          - name: "Bastia"
+          - name: "Dominican Republic"
+            score: "0"
+          - name: "Haiti"
             score: "1"
-          - name: "Orléans"
+            active: true
+      - id: football-2608394
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "43'"
+        teams:
+          - name: "Cayman Islands"
+            score: "0"
+          - name: "Puerto Rico"
             score: "1"
+            active: true
+      - id: football-2608392
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "83'"
+        teams:
+          - name: "Anguilla"
+            score: "0"
+          - name: "Antigua and Barbuda"
+            score: "3"
+            active: true
+      - id: football-2598264
+        competition: "Copa Argentina"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Platense"
+            score: "0"
+          - name: "Estudiantes de La Plata"
+            score: "0"
 
   - name: Cricket
     matches:
