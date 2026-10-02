@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Oct 2026, 11:45 IST"
+updated: "02 Oct 2026, 18:25 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397357
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+      - id: football-2611287
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "22'"
         teams:
-          - name: "Brooklyn FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Rhode Island FC"
-            score: "–"
-      - id: football-2397359
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Grasshoppers"
+            score: "0"
+          - name: "Yverdon Sport"
+            score: "0"
+      - id: football-2606314
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Birmingham Legion"
-            score: "–"
-      - id: football-2397363
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Heidenheim"
+            score: "3"
+            active: true
+          - name: "Würzburger Kickers"
+            score: "1"
+      - id: football-2611286
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Lexington SC"
-            score: "–"
-            detail: "23:00"
-          - name: "El Paso Locomotive"
-            score: "–"
-      - id: football-2397358
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
+          - name: "Sigma Olomouc"
+            score: "1"
+            active: true
+          - name: "Žilina"
+            score: "0"
+      - id: football-2611525
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Colorado Springs Switchbacks"
-            score: "–"
-            detail: "01:00"
-          - name: "Oakland Roots"
-            score: "–"
-      - id: football-2397360
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "00:00"
+          - name: "Mladost Donja Gorica"
+            score: "0"
+          - name: "Mornar"
+            score: "2"
+            active: true
+      - id: football-2611279
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "FC Tulsa"
-            score: "–"
-            detail: "00:00"
-          - name: "Sacramento Republic"
-            score: "–"
-      - id: football-2397362
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:30"
+          - name: "Wisła Płock"
+            score: "1"
+            active: true
+          - name: "Unia Skierniewice"
+            score: "0"
+      - id: football-2598450
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "53'"
         teams:
-          - name: "Las Vegas Lights"
-            score: "–"
-            detail: "02:30"
-          - name: "San Antonio"
-            score: "–"
+          - name: "China"
+            score: "0"
+          - name: "Palestine"
+            score: "3"
+            active: true
 
   - name: Cricket
     matches:
