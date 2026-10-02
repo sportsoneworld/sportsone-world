@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "02 Oct 2026, 23:38 IST"
+updated: "03 Oct 2026, 03:39 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2560477
-        competition: "Austrian Regionalliga Nord"
+      - id: football-2405126
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "50'"
+        stateLabel: "5'"
         teams:
-          - name: "Seekirchen"
+          - name: "Ferro Carril Oeste"
             score: "0"
-          - name: "Union Gurten"
+          - name: "Deportivo Madryn"
             score: "0"
-      - id: football-2514331
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Krems"
-            score: "3"
-            active: true
-          - name: "Wiener SC"
-            score: "2"
-      - id: football-2514332
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2408651
+        competition: "Argentinian Primera C"
         state: live
         stateLabel: "35'"
         teams:
-          - name: "Oberwart"
-            score: "1"
-          - name: "Horn"
-            score: "1"
-      - id: football-2514330
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Favoritner AC"
+          - name: "Defensores de Cambaceres"
             score: "0"
-          - name: "Marchfeld Donauauen"
+          - name: "Victoriano Arenas"
             score: "0"
-      - id: football-2560689
-        competition: "Austrian Regionalliga Süd"
+      - id: football-2608398
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "47'"
+        stateLabel: "10'"
         teams:
-          - name: "Velden"
-            score: "1"
-          - name: "Treibach"
-            score: "1"
-      - id: football-2560687
-        competition: "Austrian Regionalliga Süd"
-        state: live
-        stateLabel: "54'"
-        teams:
-          - name: "Gleisdorf 09"
+          - name: "Suriname"
             score: "0"
-          - name: "Tillmitsch"
+          - name: "Guatemala"
+            score: "0"
+      - id: football-2608397
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "St Kitts and Nevis"
+            score: "1"
+          - name: "Cuba"
+            score: "3"
+            active: true
+      - id: football-2481480
+        competition: "Colombian Torneo DIMAYOR"
+        state: live
+        stateLabel: "9'"
+        teams:
+          - name: "Atlético Cali"
+            score: "0"
+          - name: "Real Cundinamarca"
+            score: "0"
+      - id: football-2583290
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "78'"
+        teams:
+          - name: "San Antonio FC"
+            score: "0"
+          - name: "Vinotinto Ecuador"
             score: "0"
 
   - name: Cricket
