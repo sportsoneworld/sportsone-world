@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Oct 2026, 11:58 IST"
+updated: "03 Oct 2026, 17:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2611936
+      - id: football-2611937
         competition: "Asian Games Soccer"
         state: live
-        stateLabel: "26'"
+        stateLabel: "64'"
         teams:
-          - name: "China U23"
+          - name: "South Korea U23"
             score: "1"
             active: true
-          - name: "Uzbekistan U23"
+          - name: "Japan U23"
             score: "0"
-      - id: football-2605561
+      - id: football-2452187
+        competition: "Belarusian First League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Slonim-2017"
+            score: "0"
+          - name: "Soligorsk"
+            score: "1"
+            active: true
+      - id: football-2585198
+        competition: "Belgian Womens Pro League"
+        state: live
+        stateLabel: "21'"
+        teams:
+          - name: "Club YLA"
+            score: "1"
+            active: true
+          - name: "Anderlecht Women"
+            score: "0"
+      - id: football-2612688
         competition: "Club Friendlies"
         state: live
-        stateLabel: "27'"
+        stateLabel: "21'"
         teams:
-          - name: "Perth Glory"
+          - name: "Crystal Palace"
             score: "0"
-          - name: "Adelaide United"
+          - name: "Bristol City"
             score: "1"
             active: true
-      - id: football-2611398
-        competition: "International Friendlies"
+      - id: football-2611533
+        competition: "Club Friendlies"
         state: live
-        stateLabel: "61'"
+        stateLabel: "76'"
         teams:
-          - name: "Australia U23"
-            score: "1"
-          - name: "South Korea U23"
+          - name: "Chrobry Głogów"
+            score: "0"
+          - name: "Warta Poznań"
             score: "2"
             active: true
-      - id: football-2551787
-        competition: "Japanese J2 League"
+      - id: football-2611534
+        competition: "Club Friendlies"
         state: live
-        stateLabel: "66'"
+        stateLabel: "90'"
         teams:
-          - name: "Albirex Niigata"
+          - name: "Žalgiris Vilnius"
+            score: "0"
+          - name: "Panevėžys"
             score: "2"
-            active: true
-          - name: "Tokushima Vortis"
-            score: "1"
-      - id: football-2551788
-        competition: "Japanese J2 League"
-        state: live
-        stateLabel: "67'"
-        teams:
-          - name: "Fujieda MYFC"
-            score: "1"
-            active: true
-          - name: "Shonan Bellmare"
-            score: "0"
-      - id: football-2492466
-        competition: "Japanese J3 League"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Ehime FC"
-            score: "0"
-          - name: "Thespa Gunma"
-            score: "1"
             active: true
 
   - name: Cricket
