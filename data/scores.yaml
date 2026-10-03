@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Oct 2026, 06:39 IST"
+updated: "03 Oct 2026, 11:58 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419937
-        competition: "American NWSL"
+      - id: football-2611936
+        competition: "Asian Games Soccer"
         state: live
-        stateLabel: "45'"
+        stateLabel: "26'"
         teams:
-          - name: "Orlando Pride"
+          - name: "China U23"
+            score: "1"
+            active: true
+          - name: "Uzbekistan U23"
             score: "0"
-          - name: "San Diego Wave"
+      - id: football-2605561
+        competition: "Club Friendlies"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Perth Glory"
+            score: "0"
+          - name: "Adelaide United"
+            score: "1"
+            active: true
+      - id: football-2611398
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "61'"
+        teams:
+          - name: "Australia U23"
+            score: "1"
+          - name: "South Korea U23"
             score: "2"
             active: true
-      - id: football-2398104
-        competition: "Argentinian Primera Division"
+      - id: football-2551787
+        competition: "Japanese J2 League"
         state: live
-        stateLabel: "40'"
+        stateLabel: "66'"
         teams:
-          - name: "Boca Juniors"
-            score: "1"
-            active: true
-          - name: "Unión"
-            score: "0"
-      - id: football-2398111
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Independiente Rivadavia"
-            score: "1"
-            active: true
-          - name: "Gimnasia y Esgrima de La Plata"
-            score: "0"
-      - id: football-2398399
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "São Paulo"
-            score: "1"
-          - name: "Santos"
+          - name: "Albirex Niigata"
             score: "2"
             active: true
-      - id: football-2431471
-        competition: "Brazilian Serie B"
+          - name: "Tokushima Vortis"
+            score: "1"
+      - id: football-2551788
+        competition: "Japanese J2 League"
         state: live
-        stateLabel: "32'"
+        stateLabel: "67'"
         teams:
-          - name: "Fortaleza"
-            score: "0"
-          - name: "Náutico"
+          - name: "Fujieda MYFC"
             score: "1"
             active: true
-      - id: football-2431472
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "62'"
-        teams:
-          - name: "Juventude"
-            score: "3"
-            active: true
-          - name: "Operário Ferroviário"
+          - name: "Shonan Bellmare"
             score: "0"
+      - id: football-2492466
+        competition: "Japanese J3 League"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Ehime FC"
+            score: "0"
+          - name: "Thespa Gunma"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
