@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Oct 2026, 20:55 IST"
+updated: "04 Oct 2026, 00:16 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2560483
-        competition: "Austrian Regionalliga Nord"
+      - id: football-2406569
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "63'"
+        stateLabel: "39'"
         teams:
-          - name: "Wals-Grünau"
+          - name: "Deportivo Camioneros"
+            score: "1"
+            active: true
+          - name: "Laferrere"
+            score: "0"
+      - id: football-2406571
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "Liniers"
+            score: "0"
+          - name: "Excursionistas"
+            score: "0"
+      - id: football-2406572
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "Real Pilar"
             score: "2"
             active: true
-          - name: "Junge Wikinger Ried"
+          - name: "Villa Dálmine"
             score: "0"
-      - id: football-2560480
-        competition: "Austrian Regionalliga Nord"
+      - id: football-2406573
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "67'"
+        stateLabel: "42'"
         teams:
-          - name: "LASK Amateure OÖ"
+          - name: "San Martín de Burzaco"
             score: "1"
             active: true
-          - name: "Vorwärts Steyr"
+          - name: "Argentino de Merlo"
             score: "0"
-      - id: football-2514334
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2406576
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "20'"
+        stateLabel: "43'"
         teams:
-          - name: "Wiener Viktoria"
+          - name: "Villa San Carlos"
             score: "0"
-          - name: "Donau Wien"
+          - name: "Arsenal de Sarandí"
             score: "0"
-      - id: football-2514335
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2406570
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "25'"
+        stateLabel: "43'"
         teams:
-          - name: "Mattersburg 2020"
+          - name: "Dock Sud"
+            score: "0"
+          - name: "Deportivo Armenio"
             score: "1"
             active: true
-          - name: "Parndorf"
-            score: "0"
-      - id: football-2514333
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Donaufeld Wien"
-            score: "1"
-            active: true
-          - name: "Wienerberg"
-            score: "0"
-      - id: football-2512744
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "63'"
-        teams:
-          - name: "SCR Altach Juniors"
-            score: "1"
-            active: true
-          - name: "Hohenems"
-            score: "0"
 
   - name: Cricket
     matches:
