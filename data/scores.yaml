@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "03 Oct 2026, 17:23 IST"
+updated: "03 Oct 2026, 20:55 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2611937
-        competition: "Asian Games Soccer"
+      - id: football-2560483
+        competition: "Austrian Regionalliga Nord"
         state: live
-        stateLabel: "64'"
+        stateLabel: "63'"
         teams:
-          - name: "South Korea U23"
-            score: "1"
-            active: true
-          - name: "Japan U23"
-            score: "0"
-      - id: football-2452187
-        competition: "Belarusian First League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Slonim-2017"
-            score: "0"
-          - name: "Soligorsk"
-            score: "1"
-            active: true
-      - id: football-2585198
-        competition: "Belgian Womens Pro League"
-        state: live
-        stateLabel: "21'"
-        teams:
-          - name: "Club YLA"
-            score: "1"
-            active: true
-          - name: "Anderlecht Women"
-            score: "0"
-      - id: football-2612688
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "21'"
-        teams:
-          - name: "Crystal Palace"
-            score: "0"
-          - name: "Bristol City"
-            score: "1"
-            active: true
-      - id: football-2611533
-        competition: "Club Friendlies"
-        state: live
-        stateLabel: "76'"
-        teams:
-          - name: "Chrobry Głogów"
-            score: "0"
-          - name: "Warta Poznań"
+          - name: "Wals-Grünau"
             score: "2"
             active: true
-      - id: football-2611534
-        competition: "Club Friendlies"
+          - name: "Junge Wikinger Ried"
+            score: "0"
+      - id: football-2560480
+        competition: "Austrian Regionalliga Nord"
+        state: live
+        stateLabel: "67'"
+        teams:
+          - name: "LASK Amateure OÖ"
+            score: "1"
+            active: true
+          - name: "Vorwärts Steyr"
+            score: "0"
+      - id: football-2514334
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "20'"
+        teams:
+          - name: "Wiener Viktoria"
+            score: "0"
+          - name: "Donau Wien"
+            score: "0"
+      - id: football-2514335
+        competition: "Austrian Regionalliga Ost"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Mattersburg 2020"
+            score: "1"
+            active: true
+          - name: "Parndorf"
+            score: "0"
+      - id: football-2514333
+        competition: "Austrian Regionalliga Ost"
         state: live
         stateLabel: "90'"
         teams:
-          - name: "Žalgiris Vilnius"
-            score: "0"
-          - name: "Panevėžys"
-            score: "2"
+          - name: "Donaufeld Wien"
+            score: "1"
             active: true
+          - name: "Wienerberg"
+            score: "0"
+      - id: football-2512744
+        competition: "Austrian Regionalliga West"
+        state: live
+        stateLabel: "63'"
+        teams:
+          - name: "SCR Altach Juniors"
+            score: "1"
+            active: true
+          - name: "Hohenems"
+            score: "0"
 
   - name: Cricket
     matches:
