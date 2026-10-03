@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Oct 2026, 00:16 IST"
+updated: "04 Oct 2026, 03:23 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406569
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2419939
+        competition: "American NWSL"
         state: live
-        stateLabel: "39'"
+        stateLabel: "89'"
         teams:
-          - name: "Deportivo Camioneros"
+          - name: "Racing Louisville"
             score: "1"
             active: true
-          - name: "Laferrere"
+          - name: "Utah Royals"
             score: "0"
-      - id: football-2406571
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2398112
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
-          - name: "Liniers"
+          - name: "Newell's Old Boys"
             score: "0"
-          - name: "Excursionistas"
+          - name: "Lanús"
             score: "0"
-      - id: football-2406572
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2398102
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "42'"
+        stateLabel: "Live"
         teams:
-          - name: "Real Pilar"
+          - name: "Atlético Tucumán"
+            score: "2"
+          - name: "Barracas Central"
+            score: "3"
+            active: true
+      - id: football-2398391
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Atlético Mineiro"
+            score: "1"
+            active: true
+          - name: "Bragantino"
+            score: "0"
+      - id: football-2431469
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "24'"
+        teams:
+          - name: "Botafogo-SP"
+            score: "0"
+          - name: "Vila Nova"
+            score: "0"
+      - id: football-2431470
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Cuiabá"
             score: "2"
             active: true
-          - name: "Villa Dálmine"
+          - name: "Ponte Preta"
             score: "0"
-      - id: football-2406573
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "San Martín de Burzaco"
-            score: "1"
-            active: true
-          - name: "Argentino de Merlo"
-            score: "0"
-      - id: football-2406576
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "43'"
-        teams:
-          - name: "Villa San Carlos"
-            score: "0"
-          - name: "Arsenal de Sarandí"
-            score: "0"
-      - id: football-2406570
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "43'"
-        teams:
-          - name: "Dock Sud"
-            score: "0"
-          - name: "Deportivo Armenio"
-            score: "1"
-            active: true
 
   - name: Cricket
     matches:
