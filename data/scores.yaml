@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Oct 2026, 21:28 IST"
+updated: "05 Oct 2026, 00:44 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608585
+      - id: football-2406566
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Club Comunicaciones"
+            score: "1"
+            active: true
+          - name: "Flandria"
+            score: "0"
+      - id: football-2406574
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Sportivo Italiano"
+            score: "0"
+          - name: "Talleres de Remedios de Escalada"
+            score: "0"
+      - id: football-2608584
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "90'"
+        stateLabel: "14'"
         teams:
-          - name: "Cipolletti"
-            score: "6"
-            active: true
-          - name: "Sol de América de Formosa"
-            score: "1"
-      - id: football-2585201
-        competition: "Belgian Womens Pro League"
+          - name: "San Martín de Formosa"
+            score: "0"
+          - name: "Atenas de Río Cuarto"
+            score: "0"
+      - id: football-2608586
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "Live"
+        stateLabel: "34'"
         teams:
-          - name: "Oud-Heverlee Leuven Women"
+          - name: "Alvarado"
             score: "0"
-          - name: "Les Louviéroises"
+          - name: "Defensores de Belgrano de Villa Ramallo"
             score: "0"
-      - id: football-2611739
-        competition: "Burkina Faso 1ere Division"
+      - id: football-2405121
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "26'"
+        stateLabel: "38'"
         teams:
-          - name: "Sporting des Tannounyan"
-            score: "1"
-          - name: "FocuSport"
-            score: "1"
-      - id: football-2611741
-        competition: "Burkina Faso 1ere Division"
+          - name: "Chacarita Juniors"
+            score: "0"
+          - name: "Patronato"
+            score: "0"
+      - id: football-2405132
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "26'"
+        stateLabel: "40'"
         teams:
-          - name: "Rail Club du Kadiogo"
-            score: "0"
-          - name: "USFA"
-            score: "0"
-      - id: football-2611740
-        competition: "Burkina Faso 1ere Division"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "Maaya"
-            score: "0"
-          - name: "CFFEB"
-            score: "0"
-      - id: football-2552105
-        competition: "Campeonato de Portugal Serie D"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Juventude Lajense"
+          - name: "San Telmo"
             score: "2"
             active: true
-          - name: "Juventude de Évora"
-            score: "0"
+          - name: "Almirante Brown"
+            score: "1"
 
   - name: Cricket
     matches:
