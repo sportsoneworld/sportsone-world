@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Oct 2026, 17:02 IST"
+updated: "04 Oct 2026, 21:28 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2514329
-        competition: "Austrian Regionalliga Ost"
+      - id: football-2608585
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "32'"
+        stateLabel: "90'"
         teams:
-          - name: "Scheiblingkirchen-Warth"
-            score: "1"
+          - name: "Cipolletti"
+            score: "6"
             active: true
-          - name: "Leobendorf"
+          - name: "Sol de América de Formosa"
+            score: "1"
+      - id: football-2585201
+        competition: "Belgian Womens Pro League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Oud-Heverlee Leuven Women"
             score: "0"
-      - id: football-2552099
+          - name: "Les Louviéroises"
+            score: "0"
+      - id: football-2611739
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "26'"
+        teams:
+          - name: "Sporting des Tannounyan"
+            score: "1"
+          - name: "FocuSport"
+            score: "1"
+      - id: football-2611741
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "26'"
+        teams:
+          - name: "Rail Club du Kadiogo"
+            score: "0"
+          - name: "USFA"
+            score: "0"
+      - id: football-2611740
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "Maaya"
+            score: "0"
+          - name: "CFFEB"
+            score: "0"
+      - id: football-2552105
         competition: "Campeonato de Portugal Serie D"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Santa Clara B"
-            score: "1"
+          - name: "Juventude Lajense"
+            score: "2"
             active: true
-          - name: "Real SC"
-            score: "0"
-      - id: football-2555542
-        competition: "English Womens Super League 2"
-        state: live
-        stateLabel: "29'"
-        teams:
-          - name: "Durham WFC"
-            score: "0"
-          - name: "Newcastle Women"
-            score: "0"
-      - id: football-2540328
-        competition: "Hungarian NB III Northwest"
-        state: live
-        stateLabel: "28'"
-        teams:
-          - name: "1908 SZAC"
-            score: "0"
-          - name: "Sopron"
-            score: "1"
-            active: true
-      - id: football-2541459
-        competition: "Hungarian NB III Southeast"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Dabas"
-            score: "0"
-          - name: "Csepel"
-            score: "0"
-      - id: football-2556869
-        competition: "Italian Serie C Girone A"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Lecco"
-            score: "1"
-            active: true
-          - name: "Union Brescia"
+          - name: "Juventude de Évora"
             score: "0"
 
   - name: Cricket
