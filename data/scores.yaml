@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Oct 2026, 11:25 IST"
+updated: "04 Oct 2026, 17:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2551792
-        competition: "Japanese J2 League"
+      - id: football-2514329
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "Live"
+        stateLabel: "32'"
         teams:
-          - name: "Hokkaido Consadole Sapporo"
-            score: "2"
-            active: true
-          - name: "Iwaki FC"
+          - name: "Scheiblingkirchen-Warth"
             score: "1"
-      - id: football-2551793
-        competition: "Japanese J2 League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Vanraure Hachinohe"
-            score: "0"
-          - name: "Yokohama FC"
-            score: "2"
             active: true
-      - id: football-2551794
-        competition: "Japanese J2 League"
+          - name: "Leobendorf"
+            score: "0"
+      - id: football-2552099
+        competition: "Campeonato de Portugal Serie D"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Blaublitz Akita"
-            score: "0"
-          - name: "Sagan Tosu"
-            score: "0"
-      - id: football-2492465
-        competition: "Japanese J3 League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Kamatamare Sanuki"
-            score: "0"
-          - name: "Tochigi SC"
-            score: "0"
-      - id: football-2430203
-        competition: "Korean K3 League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Dangjin Citizen"
+          - name: "Santa Clara B"
             score: "1"
-          - name: "Gyeongju KHNP"
-            score: "2"
             active: true
-      - id: football-2430204
-        competition: "Korean K3 League"
+          - name: "Real SC"
+            score: "0"
+      - id: football-2555542
+        competition: "English Womens Super League 2"
+        state: live
+        stateLabel: "29'"
+        teams:
+          - name: "Durham WFC"
+            score: "0"
+          - name: "Newcastle Women"
+            score: "0"
+      - id: football-2540328
+        competition: "Hungarian NB III Northwest"
+        state: live
+        stateLabel: "28'"
+        teams:
+          - name: "1908 SZAC"
+            score: "0"
+          - name: "Sopron"
+            score: "1"
+            active: true
+      - id: football-2541459
+        competition: "Hungarian NB III Southeast"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "Dabas"
+            score: "0"
+          - name: "Csepel"
+            score: "0"
+      - id: football-2556869
+        competition: "Italian Serie C Girone A"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "FC Mokpo"
-            score: "2"
-            active: true
-          - name: "Busan Transportation Corporation"
+          - name: "Lecco"
             score: "1"
+            active: true
+          - name: "Union Brescia"
+            score: "0"
 
   - name: Cricket
     matches:
