@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Oct 2026, 00:44 IST"
+updated: "05 Oct 2026, 03:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406566
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2397365
+        competition: "American USL Championship"
         state: live
-        stateLabel: "47'"
+        stateLabel: "11'"
         teams:
-          - name: "Club Comunicaciones"
+          - name: "New Mexico United"
             score: "1"
             active: true
-          - name: "Flandria"
+          - name: "Phoenix Rising"
             score: "0"
-      - id: football-2406574
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "52'"
-        teams:
-          - name: "Sportivo Italiano"
-            score: "0"
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-      - id: football-2608584
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "14'"
-        teams:
-          - name: "San Martín de Formosa"
-            score: "0"
-          - name: "Atenas de Río Cuarto"
-            score: "0"
-      - id: football-2608586
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Alvarado"
-            score: "0"
-          - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "0"
-      - id: football-2405121
+      - id: football-2405130
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "38'"
+        stateLabel: "45'"
         teams:
-          - name: "Chacarita Juniors"
+          - name: "San Martín de Tucumán"
             score: "0"
-          - name: "Patronato"
+          - name: "Gimnasia y Tiro"
             score: "0"
-      - id: football-2405132
+      - id: football-2405127
         competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "40'"
+        stateLabel: "51'"
         teams:
-          - name: "San Telmo"
+          - name: "Godoy Cruz"
+            score: "0"
+          - name: "Los Andes"
+            score: "0"
+      - id: football-2405119
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Atlético de Rafaela"
+            score: "1"
+          - name: "Atlanta"
+            score: "3"
+            active: true
+      - id: football-2405122
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Chaco For Ever"
             score: "2"
-            active: true
-          - name: "Almirante Brown"
-            score: "1"
+          - name: "Defensores de Belgrano"
+            score: "2"
+      - id: football-2398101
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "5'"
+        teams:
+          - name: "Argentinos Juniors"
+            score: "0"
+          - name: "Tigre"
+            score: "0"
 
   - name: Cricket
     matches:
