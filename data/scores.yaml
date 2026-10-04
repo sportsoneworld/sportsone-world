@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "04 Oct 2026, 03:23 IST"
+updated: "04 Oct 2026, 05:44 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,74 +23,74 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419939
+      - id: football-2419940
         competition: "American NWSL"
         state: live
-        stateLabel: "89'"
+        stateLabel: "78'"
         teams:
-          - name: "Racing Louisville"
+          - name: "Kansas City Current"
+            score: "4"
+            active: true
+          - name: "Bay FC"
+            score: "1"
+      - id: football-2397368
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Tampa Bay Rowdies"
+            score: "0"
+          - name: "Miami FC"
             score: "1"
             active: true
-          - name: "Utah Royals"
-            score: "0"
-      - id: football-2398112
-        competition: "Argentinian Primera Division"
+      - id: football-2397360
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "6'"
         teams:
-          - name: "Newell's Old Boys"
+          - name: "FC Tulsa"
             score: "0"
-          - name: "Lanús"
+          - name: "Sacramento Republic"
             score: "0"
-      - id: football-2398102
-        competition: "Argentinian Primera Division"
+      - id: football-2397363
+        competition: "American USL Championship"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
-          - name: "Atlético Tucumán"
+          - name: "Lexington SC"
+            score: "1"
+          - name: "El Paso Locomotive"
+            score: "1"
+      - id: football-2397357
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Brooklyn FC"
+            score: "0"
+          - name: "Rhode Island FC"
             score: "2"
-          - name: "Barracas Central"
-            score: "3"
             active: true
-      - id: football-2398391
-        competition: "Brazilian Serie A"
+      - id: football-2397359
+        competition: "American USL Championship"
         state: live
-        stateLabel: "24'"
+        stateLabel: "48'"
         teams:
-          - name: "Atlético Mineiro"
+          - name: "Detroit City FC"
             score: "1"
             active: true
-          - name: "Bragantino"
-            score: "0"
-      - id: football-2431469
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Botafogo-SP"
-            score: "0"
-          - name: "Vila Nova"
-            score: "0"
-      - id: football-2431470
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Cuiabá"
-            score: "2"
-            active: true
-          - name: "Ponte Preta"
+          - name: "Birmingham Legion"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2524737
-        competition: "One Day International Series"
+      - id: cricket-2524749
+        competition: "Twenty20 International Series"
         state: upcoming
-        stateLabel: "08:30"
+        stateLabel: "13:30"
         teams:
           - name: "India Cricket"
             score: "–"
-            detail: "08:30"
+            detail: "13:30"
           - name: "West Indies Cricket"
             score: "–"
