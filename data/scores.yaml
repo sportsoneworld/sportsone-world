@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Oct 2026, 06:34 IST"
+updated: "05 Oct 2026, 12:28 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2419944
-        competition: "American NWSL"
-        state: live
-        stateLabel: "Live"
+      - id: football-2613145
+        competition: "Mongolian Premier League"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Houston Dash"
-            score: "2"
-          - name: "Washington Spirit"
-            score: "3"
+          - name: "FC Ulaanbaatar"
+            score: "8"
             active: true
-      - id: football-2398108
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Estudiantes de Río Cuarto"
+          - name: "Ulaangom City"
             score: "0"
-          - name: "Racing Club"
-            score: "1"
-            active: true
-      - id: football-2608411
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "47'"
+      - id: football-2397682
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Costa Rica"
-            score: "2"
-            active: true
-          - name: "Haiti"
-            score: "0"
-      - id: football-2481210
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "Live"
+          - name: "FC Naples"
+            score: "–"
+            detail: "23:00"
+          - name: "Richmond Kickers"
+            score: "–"
+      - id: football-2397683
+        competition: "American USL League One"
+        state: upcoming
+        stateLabel: "23:00"
         teams:
-          - name: "Atlético Bucaramanga"
-            score: "3"
-            active: true
-          - name: "Atlético Junior"
-            score: "1"
-      - id: football-2497280
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "Live"
+          - name: "One Knoxville"
+            score: "–"
+            detail: "23:00"
+          - name: "Chattanooga Red Wolves"
+            score: "–"
+      - id: football-2398472
+        competition: "Brazilian Serie A"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Guastatoya"
-            score: "2"
-            active: true
-          - name: "Aurora FC"
-            score: "1"
-      - id: football-2611668
-        competition: "Jamaican Premier League"
-        state: live
-        stateLabel: "34'"
+          - name: "Botafogo"
+            score: "–"
+            detail: "23:30"
+          - name: "Vasco da Gama"
+            score: "–"
+      - id: football-2269558
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
         teams:
-          - name: "Mount Pleasant"
-            score: "1"
-          - name: "Cavalier"
-            score: "1"
+          - name: "Montenegro U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Armenia U21"
+            score: "–"
+      - id: football-2269559
+        competition: "UEFA European Under-21 Championship"
+        state: upcoming
+        stateLabel: "15:00"
+        teams:
+          - name: "Italy U21"
+            score: "–"
+            detail: "15:00"
+          - name: "Poland U21"
+            score: "–"
 
   - name: Cricket
     matches:
