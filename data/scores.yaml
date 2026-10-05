@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Oct 2026, 03:50 IST"
+updated: "05 Oct 2026, 06:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397365
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "11'"
-        teams:
-          - name: "New Mexico United"
-            score: "1"
-            active: true
-          - name: "Phoenix Rising"
-            score: "0"
-      - id: football-2405130
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "San Martín de Tucumán"
-            score: "0"
-          - name: "Gimnasia y Tiro"
-            score: "0"
-      - id: football-2405127
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "51'"
-        teams:
-          - name: "Godoy Cruz"
-            score: "0"
-          - name: "Los Andes"
-            score: "0"
-      - id: football-2405119
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "90'"
-        teams:
-          - name: "Atlético de Rafaela"
-            score: "1"
-          - name: "Atlanta"
-            score: "3"
-            active: true
-      - id: football-2405122
-        competition: "Argentinian Primera B Nacional"
+      - id: football-2419944
+        competition: "American NWSL"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Chaco For Ever"
+          - name: "Houston Dash"
             score: "2"
-          - name: "Defensores de Belgrano"
-            score: "2"
-      - id: football-2398101
+          - name: "Washington Spirit"
+            score: "3"
+            active: true
+      - id: football-2398108
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "5'"
+        stateLabel: "34'"
         teams:
-          - name: "Argentinos Juniors"
+          - name: "Estudiantes de Río Cuarto"
             score: "0"
-          - name: "Tigre"
+          - name: "Racing Club"
+            score: "1"
+            active: true
+      - id: football-2608411
+        competition: "CONCACAF Nations League"
+        state: live
+        stateLabel: "47'"
+        teams:
+          - name: "Costa Rica"
+            score: "2"
+            active: true
+          - name: "Haiti"
             score: "0"
+      - id: football-2481210
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Atlético Bucaramanga"
+            score: "3"
+            active: true
+          - name: "Atlético Junior"
+            score: "1"
+      - id: football-2497280
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Guastatoya"
+            score: "2"
+            active: true
+          - name: "Aurora FC"
+            score: "1"
+      - id: football-2611668
+        competition: "Jamaican Premier League"
+        state: live
+        stateLabel: "34'"
+        teams:
+          - name: "Mount Pleasant"
+            score: "1"
+          - name: "Cavalier"
+            score: "1"
 
   - name: Cricket
     matches:
