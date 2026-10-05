@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Oct 2026, 21:07 IST"
+updated: "06 Oct 2026, 03:41 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,60 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2611736
-        competition: "Burkina Faso 1ere Division"
+      - id: football-2406568
+        competition: "Argentina Primera B Metropolitana"
         state: live
-        stateLabel: "7'"
+        stateLabel: "8'"
         teams:
-          - name: "SONABEL"
+          - name: "Deportivo Merlo"
             score: "0"
-          - name: "Comoé"
+          - name: "Brown de Adrogué"
             score: "0"
-      - id: football-2612659
-        competition: "FIFA ASEAN Cup"
+      - id: football-2398115
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "118'"
+        stateLabel: "10'"
         teams:
-          - name: "Indonesia"
-            score: "2"
-          - name: "Thailand"
-            score: "2"
-      - id: football-2600307
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "Mauritius"
+          - name: "Vélez Sarsfield"
             score: "1"
-          - name: "Sri Lanka"
+          - name: "Platense"
             score: "1"
-      - id: football-2611590
-        competition: "International Friendlies"
+      - id: football-2398107
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "80'"
+        stateLabel: "12'"
         teams:
-          - name: "Montenegro U19"
+          - name: "Estudiantes de La Plata"
             score: "0"
-          - name: "Israel U19"
-            score: "1"
-            active: true
-      - id: football-2585853
-        competition: "Iranian Azadegan League"
+          - name: "Gimnasia y Esgrima de Mendoza"
+            score: "0"
+      - id: football-2608415
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "10'"
         teams:
-          - name: "Mes Rafsanjan"
+          - name: "Martinique"
+            score: "0"
+          - name: "El Salvador"
             score: "1"
             active: true
-          - name: "Ario Eslamshahr"
-            score: "0"
-      - id: football-2491467
-        competition: "Serbian Prva Liga"
+      - id: football-2608414
+        competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "78'"
+        stateLabel: "53'"
         teams:
-          - name: "Napredak Kruševac"
-            score: "2"
-            active: true
-          - name: "Loznica"
+          - name: "Cuba"
+            score: "1"
+          - name: "St Kitts and Nevis"
+            score: "1"
+      - id: football-2481477
+        competition: "Colombian Torneo DIMAYOR"
+        state: live
+        stateLabel: "10'"
+        teams:
+          - name: "Bogotá"
+            score: "0"
+          - name: "Envigado"
             score: "0"
 
   - name: Cricket
