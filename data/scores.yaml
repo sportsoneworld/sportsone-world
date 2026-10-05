@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "05 Oct 2026, 12:28 IST"
+updated: "05 Oct 2026, 21:07 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2613145
-        competition: "Mongolian Premier League"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2611736
+        competition: "Burkina Faso 1ere Division"
+        state: live
+        stateLabel: "7'"
         teams:
-          - name: "FC Ulaanbaatar"
-            score: "8"
-            active: true
-          - name: "Ulaangom City"
+          - name: "SONABEL"
             score: "0"
-      - id: football-2397682
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Comoé"
+            score: "0"
+      - id: football-2612659
+        competition: "FIFA ASEAN Cup"
+        state: live
+        stateLabel: "118'"
         teams:
-          - name: "FC Naples"
-            score: "–"
-            detail: "23:00"
-          - name: "Richmond Kickers"
-            score: "–"
-      - id: football-2397683
-        competition: "American USL League One"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Indonesia"
+            score: "2"
+          - name: "Thailand"
+            score: "2"
+      - id: football-2600307
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "35'"
         teams:
-          - name: "One Knoxville"
-            score: "–"
-            detail: "23:00"
-          - name: "Chattanooga Red Wolves"
-            score: "–"
-      - id: football-2398472
-        competition: "Brazilian Serie A"
-        state: upcoming
-        stateLabel: "23:30"
+          - name: "Mauritius"
+            score: "1"
+          - name: "Sri Lanka"
+            score: "1"
+      - id: football-2611590
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "80'"
         teams:
-          - name: "Botafogo"
-            score: "–"
-            detail: "23:30"
-          - name: "Vasco da Gama"
-            score: "–"
-      - id: football-2269558
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "Montenegro U19"
+            score: "0"
+          - name: "Israel U19"
+            score: "1"
+            active: true
+      - id: football-2585853
+        competition: "Iranian Azadegan League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Montenegro U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Armenia U21"
-            score: "–"
-      - id: football-2269559
-        competition: "UEFA European Under-21 Championship"
-        state: upcoming
-        stateLabel: "15:00"
+          - name: "Mes Rafsanjan"
+            score: "1"
+            active: true
+          - name: "Ario Eslamshahr"
+            score: "0"
+      - id: football-2491467
+        competition: "Serbian Prva Liga"
+        state: live
+        stateLabel: "78'"
         teams:
-          - name: "Italy U21"
-            score: "–"
-            detail: "15:00"
-          - name: "Poland U21"
-            score: "–"
+          - name: "Napredak Kruševac"
+            score: "2"
+            active: true
+          - name: "Loznica"
+            score: "0"
 
   - name: Cricket
     matches:
