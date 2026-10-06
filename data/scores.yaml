@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Oct 2026, 03:41 IST"
+updated: "06 Oct 2026, 07:46 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2406568
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "8'"
-        teams:
-          - name: "Deportivo Merlo"
-            score: "0"
-          - name: "Brown de Adrogué"
-            score: "0"
-      - id: football-2398115
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "Vélez Sarsfield"
-            score: "1"
-          - name: "Platense"
-            score: "1"
-      - id: football-2398107
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "12'"
-        teams:
-          - name: "Estudiantes de La Plata"
-            score: "0"
-          - name: "Gimnasia y Esgrima de Mendoza"
-            score: "0"
-      - id: football-2608415
+      - id: football-2608419
         competition: "CONCACAF Nations League"
         state: live
-        stateLabel: "10'"
+        stateLabel: "16'"
         teams:
-          - name: "Martinique"
+          - name: "Honduras"
             score: "0"
-          - name: "El Salvador"
-            score: "1"
-            active: true
-      - id: football-2608414
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "53'"
-        teams:
-          - name: "Cuba"
-            score: "1"
-          - name: "St Kitts and Nevis"
-            score: "1"
-      - id: football-2481477
+          - name: "Jamaica"
+            score: "0"
+      - id: football-2481481
         competition: "Colombian Torneo DIMAYOR"
         state: live
+        stateLabel: "87'"
+        teams:
+          - name: "Orsomarso"
+            score: "0"
+          - name: "Deportes Quindío"
+            score: "1"
+            active: true
+      - id: football-2611404
+        competition: "International Friendlies"
+        state: live
         stateLabel: "10'"
         teams:
-          - name: "Bogotá"
+          - name: "Australia U23"
             score: "0"
-          - name: "Envigado"
+          - name: "South Korea U23"
             score: "0"
+      - id: football-2612192
+        competition: "Jamaican Premier League"
+        state: live
+        stateLabel: "55'"
+        teams:
+          - name: "Arnett Gardens"
+            score: "1"
+            active: true
+          - name: "Portmore United"
+            score: "0"
+      - id: football-2548224
+        competition: "Panama Liga Panamena de Futbol"
+        state: live
+        stateLabel: "58'"
+        teams:
+          - name: "Sporting San Miguelito"
+            score: "3"
+            active: true
+          - name: "Unión Coclé"
+            score: "1"
+      - id: football-2398103
+        competition: "Argentinian Primera Division"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Banfield"
+            score: "1"
+          - name: "Rosario Central"
+            score: "1"
 
   - name: Cricket
     matches:
