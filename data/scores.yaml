@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Oct 2026, 14:39 IST"
+updated: "06 Oct 2026, 21:24 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2600057
-        competition: "China league Two"
+      - id: football-2600309
+        competition: "International Friendlies"
         state: live
-        stateLabel: "9'"
+        stateLabel: "56'"
         teams:
-          - name: "Hubei Istar"
+          - name: "India"
+            score: "1"
+          - name: "Uruguay"
+            score: "3"
+            active: true
+      - id: football-2611405
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Portugal U19"
+            score: "4"
+            active: true
+          - name: "Austria U19"
+            score: "0"
+      - id: football-2612863
+        competition: "Ivory Coast Ligue 1"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "Mouna"
+            score: "0"
+          - name: "Yamoussoukro"
             score: "1"
             active: true
-          - name: "Lanzhou Longyuan Athletic"
-            score: "0"
-      - id: football-2600054
-        competition: "China league Two"
+      - id: football-2606577
+        competition: "Norwegian Cupen"
         state: live
-        stateLabel: "80'"
+        stateLabel: "Live"
         teams:
-          - name: "Beijing Institute of Technology"
+          - name: "Raufoss"
+            score: "1"
+          - name: "Start"
+            score: "3"
+            active: true
+      - id: football-2496511
+        competition: "Slovenian 2 SNL"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Bilje"
             score: "2"
             active: true
-          - name: "Chengdu Rongcheng B"
+          - name: "Jadran Dekani"
             score: "0"
-      - id: football-2600056
-        competition: "China league Two"
+      - id: football-2479134
+        competition: "Svenska Cupen"
         state: live
-        stateLabel: "81'"
+        stateLabel: "Live"
         teams:
-          - name: "Shanghai Second"
-            score: "1"
-          - name: "Wenzhou Professional"
-            score: "1"
-      - id: football-2600055
-        competition: "China league Two"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "Qingdao Red Lions"
-            score: "0"
-          - name: "Wuhan Three Towns B"
+          - name: "Trollhättan"
             score: "1"
             active: true
-      - id: football-2595558
-        competition: "Vietnamese Cup"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Lâm Đồng"
+          - name: "Mjällby"
             score: "0"
-          - name: "Sông Lam Nghệ An"
-            score: "0"
-      - id: football-2600053
-        competition: "China league Two"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Changchun Xidu"
-            score: "1"
-          - name: "Guangzhou Dandelion"
-            score: "1"
 
   - name: Cricket
     matches:
