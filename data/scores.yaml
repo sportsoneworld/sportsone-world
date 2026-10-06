@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "06 Oct 2026, 07:46 IST"
+updated: "06 Oct 2026, 14:39 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2608419
-        competition: "CONCACAF Nations League"
+      - id: football-2600057
+        competition: "China league Two"
         state: live
-        stateLabel: "16'"
+        stateLabel: "9'"
         teams:
-          - name: "Honduras"
-            score: "0"
-          - name: "Jamaica"
-            score: "0"
-      - id: football-2481481
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "87'"
-        teams:
-          - name: "Orsomarso"
-            score: "0"
-          - name: "Deportes Quindío"
+          - name: "Hubei Istar"
             score: "1"
             active: true
-      - id: football-2611404
-        competition: "International Friendlies"
-        state: live
-        stateLabel: "10'"
-        teams:
-          - name: "Australia U23"
+          - name: "Lanzhou Longyuan Athletic"
             score: "0"
-          - name: "South Korea U23"
-            score: "0"
-      - id: football-2612192
-        competition: "Jamaican Premier League"
+      - id: football-2600054
+        competition: "China league Two"
         state: live
-        stateLabel: "55'"
+        stateLabel: "80'"
         teams:
-          - name: "Arnett Gardens"
+          - name: "Beijing Institute of Technology"
+            score: "2"
+            active: true
+          - name: "Chengdu Rongcheng B"
+            score: "0"
+      - id: football-2600056
+        competition: "China league Two"
+        state: live
+        stateLabel: "81'"
+        teams:
+          - name: "Shanghai Second"
+            score: "1"
+          - name: "Wenzhou Professional"
+            score: "1"
+      - id: football-2600055
+        competition: "China league Two"
+        state: live
+        stateLabel: "83'"
+        teams:
+          - name: "Qingdao Red Lions"
+            score: "0"
+          - name: "Wuhan Three Towns B"
             score: "1"
             active: true
-          - name: "Portmore United"
-            score: "0"
-      - id: football-2548224
-        competition: "Panama Liga Panamena de Futbol"
+      - id: football-2595558
+        competition: "Vietnamese Cup"
         state: live
-        stateLabel: "58'"
+        stateLabel: "38'"
         teams:
-          - name: "Sporting San Miguelito"
-            score: "3"
-            active: true
-          - name: "Unión Coclé"
-            score: "1"
-      - id: football-2398103
-        competition: "Argentinian Primera Division"
+          - name: "Lâm Đồng"
+            score: "0"
+          - name: "Sông Lam Nghệ An"
+            score: "0"
+      - id: football-2600053
+        competition: "China league Two"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Banfield"
+          - name: "Changchun Xidu"
             score: "1"
-          - name: "Rosario Central"
+          - name: "Guangzhou Dandelion"
             score: "1"
 
   - name: Cricket
