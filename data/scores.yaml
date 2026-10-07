@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Oct 2026, 02:09 IST"
+updated: "07 Oct 2026, 05:37 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,70 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2475948
-        competition: "African Cup of Nations Qualifying"
+      - id: football-2431480
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "78'"
+        stateLabel: "37'"
         teams:
-          - name: "Angola"
-            score: "3"
-            active: true
-          - name: "Malawi"
-            score: "1"
-      - id: football-2608420
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "Montserrat"
-            score: "1"
-            active: true
-          - name: "Turks and Caicos Islands"
+          - name: "Goiás"
             score: "0"
-      - id: football-2608421
-        competition: "CONCACAF Nations League"
-        state: live
-        stateLabel: "39'"
-        teams:
-          - name: "St Martin"
-            score: "3"
-            active: true
-          - name: "Bahamas"
+          - name: "Athletic Club-MG"
             score: "0"
-      - id: football-2498007
-        competition: "Copa Venezuela"
+      - id: football-2431484
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "75'"
+        teams:
+          - name: "Sport Recife"
+            score: "1"
+          - name: "São Bernardo"
+            score: "1"
+      - id: football-2608423
+        competition: "CONCACAF Nations League"
         state: live
         stateLabel: "50'"
         teams:
-          - name: "Real Frontera"
-            score: "0"
-          - name: "Atlético El Vigía"
+          - name: "Antigua and Barbuda"
+            score: "2"
+            active: true
+          - name: "Aruba"
+            score: "1"
+      - id: football-2611009
+        competition: "Copa Chile"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Colo-Colo"
             score: "1"
             active: true
-      - id: football-2531866
-        competition: "EFL Trophy"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Crawley Town"
-            score: "4"
-            active: true
-          - name: "Bromley"
+          - name: "Deportes Puerto Montt"
             score: "0"
-      - id: football-2542675
-        competition: "English Isthmian League Premier Division"
+      - id: football-2583253
+        competition: "International Friendlies"
         state: live
-        stateLabel: "Live"
+        stateLabel: "21'"
         teams:
-          - name: "Chatham Town"
-            score: "3"
-            active: true
-          - name: "Leatherhead"
+          - name: "Colombia"
+            score: "0"
+          - name: "Peru"
+            score: "0"
+      - id: football-2606658
+        competition: "International Friendlies"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Argentina"
+            score: "0"
+          - name: "Benin"
             score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2524749
+      - id: cricket-2524750
         competition: "Twenty20 International Series"
         state: upcoming
         stateLabel: "13:30"
