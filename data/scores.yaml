@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "07 Oct 2026, 17:49 IST"
+updated: "08 Oct 2026, 00:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,60 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2491159
-        competition: "ASEAN Club Championship"
+      - id: football-2558898
+        competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "18'"
+        stateLabel: "Live"
         teams:
-          - name: "Ratchaburi"
+          - name: "CS Constantine"
+            score: "4"
+            active: true
+          - name: "US Biskra"
             score: "0"
-          - name: "Công An Hồ Chí Minh City"
-            score: "0"
-      - id: football-2483935
-        competition: "ASEAN Club Championship"
+      - id: football-2558902
+        competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "19'"
+        stateLabel: "Live"
         teams:
-          - name: "Buriram United"
-            score: "0"
-          - name: "Borneo Samarinda"
-            score: "0"
-      - id: football-2580048
-        competition: "Azerbaijan First Division"
+          - name: "ES Ben Aknoun"
+            score: "2"
+          - name: "JS El Biar"
+            score: "2"
+      - id: football-2612185
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "45'"
+        stateLabel: "30'"
         teams:
-          - name: "Şahdağ Qusar"
+          - name: "Cerrito"
+            score: "1"
+            active: true
+          - name: "Montevideo Wanderers"
+            score: "0"
+      - id: football-2606364
+        competition: "Egypt League Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Zamalek"
+            score: "0"
+          - name: "ZED"
             score: "3"
             active: true
-          - name: "Zaqatala"
-            score: "0"
-      - id: football-2441288
-        competition: "China League One"
-        state: live
-        stateLabel: "62'"
-        teams:
-          - name: "Shenzhen Juniors"
-            score: "1"
-          - name: "Guangdong GZ-Power"
-            score: "1"
-      - id: football-2441290
-        competition: "China League One"
+      - id: football-2606365
+        competition: "Egypt League Cup"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Nanjing City"
-            score: "1"
-          - name: "Shaanxi Union"
-            score: "1"
-      - id: football-2441289
-        competition: "China League One"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Foshan Nanshi"
+          - name: "Ceramica Cleopatra"
             score: "0"
-          - name: "Guangxi Hengchen"
+          - name: "Al Masry"
+            score: "1"
+            active: true
+      - id: football-2543139
+        competition: "English Northern Premier League Premier Division"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Avro"
+            score: "1"
+            active: true
+          - name: "Lancaster City"
             score: "0"
 
   - name: Cricket
