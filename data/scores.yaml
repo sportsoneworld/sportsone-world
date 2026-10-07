@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Oct 2026, 00:30 IST"
+updated: "08 Oct 2026, 05:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558898
-        competition: "Algerian Ligue 1"
+      - id: football-2397682
+        competition: "American USL League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "27'"
         teams:
-          - name: "CS Constantine"
-            score: "4"
-            active: true
-          - name: "US Biskra"
-            score: "0"
-      - id: football-2558902
-        competition: "Algerian Ligue 1"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "ES Ben Aknoun"
-            score: "2"
-          - name: "JS El Biar"
-            score: "2"
-      - id: football-2612185
-        competition: "Copa AUF Uruguay"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Cerrito"
+          - name: "FC Naples"
             score: "1"
             active: true
-          - name: "Montevideo Wanderers"
+          - name: "Richmond Kickers"
             score: "0"
-      - id: football-2606364
-        competition: "Egypt League Cup"
+      - id: football-2397683
+        competition: "American USL League One"
         state: live
-        stateLabel: "Live"
+        stateLabel: "27'"
         teams:
-          - name: "Zamalek"
-            score: "0"
-          - name: "ZED"
-            score: "3"
-            active: true
-      - id: football-2606365
-        competition: "Egypt League Cup"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Ceramica Cleopatra"
-            score: "0"
-          - name: "Al Masry"
+          - name: "One Knoxville"
             score: "1"
             active: true
-      - id: football-2543139
-        competition: "English Northern Premier League Premier Division"
+          - name: "Chattanooga Red Wolves"
+            score: "0"
+      - id: football-2398472
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "14'"
+        stateLabel: "3'"
         teams:
-          - name: "Avro"
+          - name: "Botafogo"
+            score: "0"
+          - name: "Vasco da Gama"
+            score: "0"
+      - id: football-2398480
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "31'"
+        teams:
+          - name: "Vitória"
             score: "1"
             active: true
-          - name: "Lancaster City"
+          - name: "Chapecoense"
+            score: "0"
+      - id: football-2398473
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Bragantino"
+            score: "0"
+          - name: "Mirassol"
+            score: "0"
+      - id: football-2398476
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Internacional"
+            score: "1"
+            active: true
+          - name: "Corinthians"
             score: "0"
 
   - name: Cricket
