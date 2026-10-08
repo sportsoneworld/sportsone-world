@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Oct 2026, 15:13 IST"
+updated: "08 Oct 2026, 22:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397681
-        competition: "American USL League One"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2599012
+        competition: "Finnish Veikkausliiga"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Corpus Christi FC"
+          - name: "KuPS"
+            score: "0"
+          - name: "AC Oulu"
             score: "1"
-          - name: "Fort Wayne FC"
-            score: "3"
             active: true
-      - id: football-2398474
-        competition: "Brazilian Serie A"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2605462
+        competition: "Iranian Persian Gulf Pro League"
+        state: live
+        stateLabel: "71'"
         teams:
-          - name: "Cruzeiro"
+          - name: "Foolad Khuzestan"
             score: "2"
             active: true
-          - name: "São Paulo"
+          - name: "Mes Shahr-e Babak"
             score: "0"
-      - id: football-2397369
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:30"
+      - id: football-2605461
+        competition: "Iranian Persian Gulf Pro League"
+        state: live
+        stateLabel: "77'"
         teams:
-          - name: "Lexington SC"
-            score: "–"
-            detail: "23:30"
-          - name: "FC Tulsa"
-            score: "–"
-      - id: football-2397370
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "22:00"
+          - name: "Sepahan"
+            score: "5"
+            active: true
+          - name: "Fajr Sepasi Shiraz"
+            score: "1"
+      - id: football-2578705
+        competition: "Iraqi Premier League"
+        state: live
+        stateLabel: "50'"
         teams:
-          - name: "Charleston Battery"
-            score: "–"
-            detail: "22:00"
-          - name: "Louisville City"
-            score: "–"
-      - id: football-2397371
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Naft Maysan"
+            score: "0"
+          - name: "Erbil"
+            score: "1"
+            active: true
+      - id: football-2578707
+        competition: "Iraqi Premier League"
+        state: live
+        stateLabel: "89'"
         teams:
-          - name: "Detroit City FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Rhode Island FC"
-            score: "–"
-      - id: football-2397373
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Duhok"
+            score: "3"
+            active: true
+          - name: "Al-Zawraa"
+            score: "0"
+      - id: football-2612019
+        competition: "Jordanian Pro League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Indy Eleven"
-            score: "–"
-            detail: "23:00"
-          - name: "Tampa Bay Rowdies"
-            score: "–"
+          - name: "Shabab Al-Ordon"
+            score: "0"
+          - name: "Al-Baqa'a"
+            score: "3"
+            active: true
 
   - name: Cricket
     matches:
