@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "08 Oct 2026, 22:27 IST"
+updated: "09 Oct 2026, 03:18 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,61 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2599012
-        competition: "Finnish Veikkausliiga"
+      - id: football-2481422
+        competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "45'"
+        stateLabel: "59'"
         teams:
-          - name: "KuPS"
-            score: "0"
-          - name: "AC Oulu"
+          - name: "Atlético Cali"
             score: "1"
-            active: true
-      - id: football-2605462
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Foolad Khuzestan"
+          - name: "Real Cartagena"
             score: "2"
             active: true
-          - name: "Mes Shahr-e Babak"
-            score: "0"
-      - id: football-2605461
-        competition: "Iranian Persian Gulf Pro League"
+      - id: football-2481425
+        competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "77'"
+        stateLabel: "59'"
         teams:
-          - name: "Sepahan"
-            score: "5"
-            active: true
-          - name: "Fajr Sepasi Shiraz"
+          - name: "Independiente Yumbo"
+            score: "0"
+          - name: "Tigres FC"
+            score: "0"
+      - id: football-2595427
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "58'"
+        teams:
+          - name: "Deportivo Santo Domingo"
+            score: "0"
+          - name: "LDU Portoviejo"
+            score: "0"
+      - id: football-2616589
+        competition: "Jamaican Premier League"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Portmore United"
             score: "1"
-      - id: football-2578705
-        competition: "Iraqi Premier League"
-        state: live
-        stateLabel: "50'"
-        teams:
-          - name: "Naft Maysan"
-            score: "0"
-          - name: "Erbil"
+          - name: "Waterhouse"
             score: "1"
-            active: true
-      - id: football-2578707
-        competition: "Iraqi Premier League"
+      - id: football-2615572
+        competition: "Moroccan Championship"
         state: live
-        stateLabel: "89'"
+        stateLabel: "87'"
         teams:
-          - name: "Duhok"
-            score: "3"
-            active: true
-          - name: "Al-Zawraa"
+          - name: "Maghreb Fez"
             score: "0"
-      - id: football-2612019
-        competition: "Jordanian Pro League"
+          - name: "Raja Casablanca"
+            score: "0"
+      - id: football-2481707
+        competition: "Peruvian Primera Division"
         state: live
-        stateLabel: "Live"
+        stateLabel: "53'"
         teams:
-          - name: "Shabab Al-Ordon"
+          - name: "Atlético Grau"
             score: "0"
-          - name: "Al-Baqa'a"
-            score: "3"
-            active: true
+          - name: "Los Chankas"
+            score: "0"
 
   - name: Cricket
     matches:
