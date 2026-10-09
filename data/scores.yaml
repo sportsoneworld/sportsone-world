@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Oct 2026, 20:34 IST"
+updated: "10 Oct 2026, 01:35 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578251
-        competition: "Angolan Girabola"
+      - id: football-2558896
+        competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "32'"
+        stateLabel: "Live"
         teams:
-          - name: "Atlético Petróleos"
+          - name: "MC Alger"
             score: "0"
-          - name: "Recreativo da Caála"
+          - name: "CR Témouchent"
             score: "0"
-      - id: football-2511517
-        competition: "Bulgarian Second League"
+      - id: football-2398116
+        competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "34'"
+        stateLabel: "17:30"
         teams:
-          - name: "Yantra Gabrovo"
-            score: "0"
-          - name: "Vihren Sandanski"
-            score: "0"
-      - id: football-2616771
-        competition: "CAF Womens Olympic Qualifying Tournament"
+          - name: "Aldosivi"
+            score: "1"
+          - name: "Sarmiento"
+            score: "3"
+            active: true
+      - id: football-2505282
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "77'"
+        teams:
+          - name: "First Vienna"
+            score: "3"
+            active: true
+          - name: "SKN St. Polten"
+            score: "1"
+      - id: football-2496757
+        competition: "Belgian Pro League"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "Beveren"
+            score: "1"
+          - name: "Lommel"
+            score: "3"
+            active: true
+      - id: football-2569200
+        competition: "Bolivian Primera División"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Malawi Women"
-            score: "1"
-            active: true
-          - name: "Zimbabwe Women"
+          - name: "San Antonio Bulo Bulo"
             score: "0"
-      - id: football-2532775
-        competition: "Croatian Druga HNL"
-        state: live
-        stateLabel: "74'"
-        teams:
-          - name: "Opatija"
+          - name: "Real Tomayapo"
             score: "0"
-          - name: "Kustošija"
-            score: "1"
-            active: true
-      - id: football-2532778
-        competition: "Croatian Druga HNL"
+      - id: football-2481424
+        competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "75'"
+        stateLabel: "4'"
         teams:
-          - name: "Mladost Ždralovi"
-            score: "1"
-          - name: "Cibalia"
-            score: "1"
-      - id: football-2540992
-        competition: "Croatian Second Football League"
-        state: live
-        stateLabel: "75'"
-        teams:
-          - name: "Hrvatski Dragovoljac"
+          - name: "Real Cundinamarca"
             score: "0"
-          - name: "Uskok Klis"
-            score: "3"
-            active: true
+          - name: "Real Santander"
+            score: "0"
 
   - name: Cricket
     matches:
