@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Oct 2026, 03:18 IST"
+updated: "09 Oct 2026, 07:04 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,77 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2481422
-        competition: "Colombian Torneo DIMAYOR"
+      - id: football-2398475
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "59'"
+        stateLabel: "45'"
         teams:
-          - name: "Atlético Cali"
+          - name: "Fluminense"
             score: "1"
-          - name: "Real Cartagena"
-            score: "2"
             active: true
-      - id: football-2481425
-        competition: "Colombian Torneo DIMAYOR"
+          - name: "Coritiba"
+            score: "0"
+      - id: football-2398477
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "59'"
+        stateLabel: "45'"
         teams:
-          - name: "Independiente Yumbo"
-            score: "0"
-          - name: "Tigres FC"
-            score: "0"
-      - id: football-2595427
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Deportivo Santo Domingo"
-            score: "0"
-          - name: "LDU Portoviejo"
-            score: "0"
-      - id: football-2616589
-        competition: "Jamaican Premier League"
-        state: live
-        stateLabel: "59'"
-        teams:
-          - name: "Portmore United"
+          - name: "Palmeiras"
             score: "1"
-          - name: "Waterhouse"
+            active: true
+          - name: "Bahia"
+            score: "0"
+      - id: football-2481224
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Fortaleza FC"
+            score: "0"
+          - name: "Millonarios"
+            score: "0"
+      - id: football-2497265
+        competition: "Guatemala Liga Nacional"
+        state: live
+        stateLabel: "27'"
+        teams:
+          - name: "Antigua"
+            score: "0"
+          - name: "Municipal"
             score: "1"
-      - id: football-2615572
-        competition: "Moroccan Championship"
+            active: true
+      - id: football-2521334
+        competition: "Mexican Liga de Expansión MX"
         state: live
-        stateLabel: "87'"
+        stateLabel: "31'"
         teams:
-          - name: "Maghreb Fez"
+          - name: "Alebrijes de Oaxaca"
             score: "0"
-          - name: "Raja Casablanca"
+          - name: "Correcaminos UAT"
             score: "0"
-      - id: football-2481707
-        competition: "Peruvian Primera Division"
-        state: live
-        stateLabel: "53'"
+      - id: football-2398479
+        competition: "Brazilian Serie A"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Atlético Grau"
-            score: "0"
-          - name: "Los Chankas"
-            score: "0"
+          - name: "Santos"
+            score: "2"
+          - name: "Flamengo"
+            score: "2"
 
   - name: Cricket
     matches:
       - id: cricket-2524750
+        competition: "Twenty20 International Series"
+        state: upcoming
+        stateLabel: "13:30"
+        teams:
+          - name: "India Cricket"
+            score: "–"
+            detail: "13:30"
+          - name: "West Indies Cricket"
+            score: "–"
+      - id: cricket-2524751
         competition: "Twenty20 International Series"
         state: upcoming
         stateLabel: "13:30"
