@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "09 Oct 2026, 07:04 IST"
+updated: "09 Oct 2026, 13:29 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398475
-        competition: "Brazilian Serie A"
+      - id: football-2416563
+        competition: "South Korean K League 1"
         state: live
-        stateLabel: "45'"
+        stateLabel: "28'"
         teams:
-          - name: "Fluminense"
+          - name: "Incheon United"
             score: "1"
             active: true
-          - name: "Coritiba"
+          - name: "Pohang Steelers"
             score: "0"
-      - id: football-2398477
-        competition: "Brazilian Serie A"
+      - id: football-2416562
+        competition: "South Korean K League 1"
         state: live
-        stateLabel: "45'"
+        stateLabel: "29'"
         teams:
-          - name: "Palmeiras"
-            score: "1"
-            active: true
-          - name: "Bahia"
+          - name: "Gangwon FC"
             score: "0"
-      - id: football-2481224
-        competition: "Colombian Liga DIMAYOR"
+          - name: "Bucheon FC 1995"
+            score: "0"
+      - id: football-2422256
+        competition: "South Korean K League 2"
         state: live
-        stateLabel: "23'"
+        stateLabel: "28'"
         teams:
-          - name: "Fortaleza FC"
+          - name: "Chungbuk Cheongju"
             score: "0"
-          - name: "Millonarios"
+          - name: "Seongnam FC"
             score: "0"
-      - id: football-2497265
-        competition: "Guatemala Liga Nacional"
+      - id: football-2422257
+        competition: "South Korean K League 2"
         state: live
-        stateLabel: "27'"
+        stateLabel: "28'"
         teams:
-          - name: "Antigua"
+          - name: "Gimpo FC"
             score: "0"
-          - name: "Municipal"
-            score: "1"
-            active: true
-      - id: football-2521334
-        competition: "Mexican Liga de Expansión MX"
-        state: live
-        stateLabel: "31'"
-        teams:
-          - name: "Alebrijes de Oaxaca"
+          - name: "Seoul E-Land"
             score: "0"
-          - name: "Correcaminos UAT"
-            score: "0"
-      - id: football-2398479
-        competition: "Brazilian Serie A"
+      - id: football-2430207
+        competition: "Korean K3 League"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Santos"
+          - name: "Yangpyeong FC"
             score: "2"
-          - name: "Flamengo"
+            active: true
+          - name: "Ulsan Citizen"
+            score: "1"
+      - id: football-2416561
+        competition: "South Korean K League 1"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Daejeon Hana Citizen"
             score: "2"
+            active: true
+          - name: "Jeonbuk Hyundai Motors"
+            score: "1"
 
   - name: Cricket
     matches:
