@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Oct 2026, 01:35 IST"
+updated: "10 Oct 2026, 05:30 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,76 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558896
-        competition: "Algerian Ligue 1"
+      - id: football-2397369
+        competition: "American USL Championship"
+        state: live
+        stateLabel: "23'"
+        teams:
+          - name: "Lexington SC"
+            score: "0"
+          - name: "FC Tulsa"
+            score: "0"
+      - id: football-2406581
+        competition: "Argentina Primera B Metropolitana"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "MC Alger"
+          - name: "Excursionistas"
+            score: "3"
+            active: true
+          - name: "Villa San Carlos"
             score: "0"
-          - name: "CR Témouchent"
+      - id: football-2406585
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Talleres de Remedios de Escalada"
             score: "0"
-      - id: football-2398116
+          - name: "Deportivo Camioneros"
+            score: "0"
+      - id: football-2398121
         competition: "Argentinian Primera Division"
         state: live
-        stateLabel: "17:30"
+        stateLabel: "66'"
         teams:
-          - name: "Aldosivi"
-            score: "1"
-          - name: "Sarmiento"
-            score: "3"
-            active: true
-      - id: football-2505282
-        competition: "Austrian Erste Liga"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "First Vienna"
-            score: "3"
-            active: true
-          - name: "SKN St. Polten"
-            score: "1"
-      - id: football-2496757
-        competition: "Belgian Pro League"
-        state: live
-        stateLabel: "59'"
-        teams:
-          - name: "Beveren"
-            score: "1"
-          - name: "Lommel"
-            score: "3"
-            active: true
-      - id: football-2569200
-        competition: "Bolivian Primera División"
+          - name: "Instituto"
+            score: "2"
+          - name: "Boca Juniors"
+            score: "2"
+      - id: football-2481223
+        competition: "Colombian Liga DIMAYOR"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "San Antonio Bulo Bulo"
+          - name: "Alianza de Valledupar"
             score: "0"
-          - name: "Real Tomayapo"
-            score: "0"
-      - id: football-2481424
-        competition: "Colombian Torneo DIMAYOR"
+          - name: "Rionegro Águilas"
+            score: "2"
+            active: true
+      - id: football-2578454
+        competition: "International Friendlies Women"
         state: live
-        stateLabel: "4'"
+        stateLabel: "Live"
         teams:
-          - name: "Real Cundinamarca"
+          - name: "Canada Women"
             score: "0"
-          - name: "Real Santander"
-            score: "0"
+          - name: "Denmark Women"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
-      - id: cricket-2524750
-        competition: "Twenty20 International Series"
-        state: upcoming
-        stateLabel: "13:30"
-        teams:
-          - name: "India Cricket"
-            score: "–"
-            detail: "13:30"
-          - name: "West Indies Cricket"
-            score: "–"
       - id: cricket-2524751
         competition: "Twenty20 International Series"
         state: upcoming
