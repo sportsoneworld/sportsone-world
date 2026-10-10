@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Oct 2026, 21:52 IST"
+updated: "11 Oct 2026, 01:42 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578254
-        competition: "Angolan Girabola"
+      - id: football-2407113
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "19'"
+        stateLabel: "71'"
         teams:
-          - name: "Kabuscorp"
-            score: "0"
-          - name: "Wiliete"
-            score: "0"
-      - id: football-2523533
-        competition: "Armenian Premier League"
-        state: live
-        stateLabel: "61'"
-        teams:
-          - name: "Ararat-Armenia"
+          - name: "Chicago Fire"
             score: "1"
-          - name: "Alashkert"
+          - name: "New York City FC"
             score: "1"
-      - id: football-2499750
-        competition: "Austrian Bundesliga"
+      - id: football-2572255
+        competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "64'"
+        stateLabel: "84'"
         teams:
-          - name: "Grazer AK"
+          - name: "Ordino"
             score: "0"
-          - name: "Red Bull Salzburg"
-            score: "0"
-      - id: football-2499749
-        competition: "Austrian Bundesliga"
-        state: live
-        stateLabel: "65'"
-        teams:
-          - name: "WSG Tirol"
-            score: "1"
-          - name: "SV Ried"
-            score: "2"
-            active: true
-      - id: football-2514339
-        competition: "Austrian Regionalliga Ost"
-        state: live
-        stateLabel: "58'"
-        teams:
-          - name: "Horn"
-            score: "0"
-          - name: "Favoritner AC"
-            score: "0"
-      - id: football-2512752
-        competition: "Austrian Regionalliga West"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Lauterach"
+          - name: "Inter Club d'Escaldes"
             score: "4"
             active: true
-          - name: "Wolfurt"
-            score: "2"
+      - id: football-2406580
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "82'"
+        teams:
+          - name: "Deportivo Armenio"
+            score: "0"
+          - name: "Club Comunicaciones"
+            score: "0"
+      - id: football-2608589
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "50'"
+        teams:
+          - name: "Deportivo Rincón"
+            score: "0"
+          - name: "Kimberley"
+            score: "0"
+      - id: football-2615755
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "52'"
+        teams:
+          - name: "Defensores de Vilelas"
+            score: "0"
+          - name: "Gimnasia y Esgrima de Chivilcoy"
+            score: "0"
+      - id: football-2405148
+        competition: "Argentinian Primera B Nacional"
+        state: live
+        stateLabel: "22'"
+        teams:
+          - name: "Ferrocarril Midland"
+            score: "1"
+            active: true
+          - name: "Atlético de Rafaela"
+            score: "0"
 
   - name: Cricket
     matches:
