@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Oct 2026, 11:15 IST"
+updated: "10 Oct 2026, 17:06 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2492861
-        competition: "Japanese J1 League"
+      - id: football-2578099
+        competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "42'"
+        stateLabel: "4'"
         teams:
-          - name: "Cerezo Osaka"
+          - name: "Flamurtari Vlorë"
             score: "0"
-          - name: "Yokohama F Marinos"
+          - name: "Sopoti"
             score: "0"
-      - id: football-2551798
-        competition: "Japanese J2 League"
+      - id: football-2578103
+        competition: "Albanian Kategoria e Parë"
         state: live
-        stateLabel: "40'"
+        stateLabel: "5'"
         teams:
-          - name: "Tokushima Vortis"
+          - name: "Bylis"
             score: "0"
-          - name: "FC Imabari"
+          - name: "Kukësi"
+            score: "0"
+      - id: football-2580049
+        competition: "Azerbaijan First Division"
+        state: live
+        stateLabel: "6'"
+        teams:
+          - name: "Cəbrayıl"
+            score: "0"
+          - name: "Baku Sportinq"
+            score: "0"
+      - id: football-2437887
+        competition: "Belarus Vyscha Liga"
+        state: live
+        stateLabel: "80'"
+        teams:
+          - name: "Minsk"
+            score: "0"
+          - name: "Torpedo-BelAZ Zhodino"
             score: "1"
             active: true
-      - id: football-2551799
-        competition: "Japanese J2 League"
+      - id: football-2452203
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "42'"
+        stateLabel: "32'"
         teams:
-          - name: "Yokohama FC"
+          - name: "Niva Dolbizno"
             score: "0"
-          - name: "Oita Trinita"
+          - name: "Gomel-2"
             score: "1"
             active: true
-      - id: football-2551800
-        competition: "Japanese J2 League"
+      - id: football-2452199
+        competition: "Belarusian First League"
         state: live
-        stateLabel: "42'"
+        stateLabel: "34'"
         teams:
-          - name: "RB Omiya Ardija"
-            score: "0"
-          - name: "Vanraure Hachinohe"
-            score: "0"
-      - id: football-2551797
-        competition: "Japanese J2 League"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "Sagan Tosu"
-            score: "0"
-          - name: "Fujieda MYFC"
-            score: "0"
-      - id: football-2492480
-        competition: "Japanese J3 League"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "Kochi United"
-            score: "0"
-          - name: "Nagano Parceiro"
-            score: "0"
+          - name: "Osipovichi"
+            score: "1"
+          - name: "Volna Pinsk"
+            score: "1"
 
   - name: Cricket
     matches:
