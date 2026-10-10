@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Oct 2026, 05:30 IST"
+updated: "10 Oct 2026, 11:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397369
-        competition: "American USL Championship"
+      - id: football-2492861
+        competition: "Japanese J1 League"
         state: live
-        stateLabel: "23'"
+        stateLabel: "42'"
         teams:
-          - name: "Lexington SC"
+          - name: "Cerezo Osaka"
             score: "0"
-          - name: "FC Tulsa"
+          - name: "Yokohama F Marinos"
             score: "0"
-      - id: football-2406581
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2551798
+        competition: "Japanese J2 League"
         state: live
-        stateLabel: "Live"
+        stateLabel: "40'"
         teams:
-          - name: "Excursionistas"
-            score: "3"
-            active: true
-          - name: "Villa San Carlos"
+          - name: "Tokushima Vortis"
             score: "0"
-      - id: football-2406585
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Talleres de Remedios de Escalada"
-            score: "0"
-          - name: "Deportivo Camioneros"
-            score: "0"
-      - id: football-2398121
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Instituto"
-            score: "2"
-          - name: "Boca Juniors"
-            score: "2"
-      - id: football-2481223
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Alianza de Valledupar"
-            score: "0"
-          - name: "Rionegro Águilas"
-            score: "2"
-            active: true
-      - id: football-2578454
-        competition: "International Friendlies Women"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Canada Women"
-            score: "0"
-          - name: "Denmark Women"
+          - name: "FC Imabari"
             score: "1"
             active: true
+      - id: football-2551799
+        competition: "Japanese J2 League"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "Yokohama FC"
+            score: "0"
+          - name: "Oita Trinita"
+            score: "1"
+            active: true
+      - id: football-2551800
+        competition: "Japanese J2 League"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "RB Omiya Ardija"
+            score: "0"
+          - name: "Vanraure Hachinohe"
+            score: "0"
+      - id: football-2551797
+        competition: "Japanese J2 League"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "Sagan Tosu"
+            score: "0"
+          - name: "Fujieda MYFC"
+            score: "0"
+      - id: football-2492480
+        competition: "Japanese J3 League"
+        state: live
+        stateLabel: "42'"
+        teams:
+          - name: "Kochi United"
+            score: "0"
+          - name: "Nagano Parceiro"
+            score: "0"
 
   - name: Cricket
     matches:
