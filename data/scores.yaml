@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "10 Oct 2026, 17:06 IST"
+updated: "10 Oct 2026, 21:52 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2578099
-        competition: "Albanian Kategoria e Parë"
+      - id: football-2578254
+        competition: "Angolan Girabola"
         state: live
-        stateLabel: "4'"
+        stateLabel: "19'"
         teams:
-          - name: "Flamurtari Vlorë"
+          - name: "Kabuscorp"
             score: "0"
-          - name: "Sopoti"
+          - name: "Wiliete"
             score: "0"
-      - id: football-2578103
-        competition: "Albanian Kategoria e Parë"
+      - id: football-2523533
+        competition: "Armenian Premier League"
         state: live
-        stateLabel: "5'"
+        stateLabel: "61'"
         teams:
-          - name: "Bylis"
-            score: "0"
-          - name: "Kukësi"
-            score: "0"
-      - id: football-2580049
-        competition: "Azerbaijan First Division"
-        state: live
-        stateLabel: "6'"
-        teams:
-          - name: "Cəbrayıl"
-            score: "0"
-          - name: "Baku Sportinq"
-            score: "0"
-      - id: football-2437887
-        competition: "Belarus Vyscha Liga"
-        state: live
-        stateLabel: "80'"
-        teams:
-          - name: "Minsk"
-            score: "0"
-          - name: "Torpedo-BelAZ Zhodino"
+          - name: "Ararat-Armenia"
             score: "1"
+          - name: "Alashkert"
+            score: "1"
+      - id: football-2499750
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "64'"
+        teams:
+          - name: "Grazer AK"
+            score: "0"
+          - name: "Red Bull Salzburg"
+            score: "0"
+      - id: football-2499749
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "65'"
+        teams:
+          - name: "WSG Tirol"
+            score: "1"
+          - name: "SV Ried"
+            score: "2"
             active: true
-      - id: football-2452203
-        competition: "Belarusian First League"
+      - id: football-2514339
+        competition: "Austrian Regionalliga Ost"
         state: live
-        stateLabel: "32'"
+        stateLabel: "58'"
         teams:
-          - name: "Niva Dolbizno"
+          - name: "Horn"
             score: "0"
-          - name: "Gomel-2"
-            score: "1"
-            active: true
-      - id: football-2452199
-        competition: "Belarusian First League"
+          - name: "Favoritner AC"
+            score: "0"
+      - id: football-2512752
+        competition: "Austrian Regionalliga West"
         state: live
-        stateLabel: "34'"
+        stateLabel: "46'"
         teams:
-          - name: "Osipovichi"
-            score: "1"
-          - name: "Volna Pinsk"
-            score: "1"
+          - name: "Lauterach"
+            score: "4"
+            active: true
+          - name: "Wolfurt"
+            score: "2"
 
   - name: Cricket
     matches:
