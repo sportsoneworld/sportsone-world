@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Oct 2026, 01:02 IST"
+updated: "12 Oct 2026, 04:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397692
-        competition: "American USL League One"
+      - id: football-2405142
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "25'"
+        stateLabel: "34'"
         teams:
-          - name: "One Knoxville"
+          - name: "Ciudad de Bolívar"
             score: "0"
-          - name: "Spokane Velocity"
+          - name: "San Telmo"
+            score: "0"
+      - id: football-2398124
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Racing Club"
+            score: "0"
+          - name: "Belgrano"
             score: "1"
             active: true
-      - id: football-2572258
-        competition: "Andorran 1a Divisió"
+      - id: football-2569204
+        competition: "Bolivian Primera División"
         state: live
-        stateLabel: "74'"
+        stateLabel: "81'"
         teams:
-          - name: "Atlètic d'Escaldes"
+          - name: "Aurora"
+            score: "2"
+          - name: "Nacional Potosí"
+            score: "2"
+      - id: football-2398482
+        competition: "Brazilian Serie A"
+        state: live
+        stateLabel: "38'"
+        teams:
+          - name: "Bahia"
             score: "0"
-          - name: "Esperança d'Andorra"
+          - name: "Mirassol"
+            score: "0"
+      - id: football-2431490
+        competition: "Brazilian Serie B"
+        state: live
+        stateLabel: "76'"
+        teams:
+          - name: "Cuiabá"
+            score: "0"
+          - name: "Avaí"
             score: "1"
             active: true
-      - id: football-2406577
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2431494
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "71'"
+        stateLabel: "76'"
         teams:
-          - name: "Argentino de Merlo"
+          - name: "Operário Ferroviário"
             score: "0"
-          - name: "Sportivo Italiano"
-            score: "1"
-            active: true
-      - id: football-2615751
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "26'"
-        teams:
-          - name: "Olimpo"
-            score: "0"
-          - name: "San Martín de Formosa"
-            score: "1"
-            active: true
-      - id: football-2608592
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Gimnasia y Esgrima de Concepción del Uruguay"
+          - name: "Goiás"
             score: "2"
             active: true
-          - name: "9 de Julio de Rafaela"
-            score: "0"
-      - id: football-2615753
-        competition: "Argentina Torneo Federal A"
-        state: live
-        stateLabel: "30'"
-        teams:
-          - name: "Sportivo Las Parejas"
-            score: "1"
-            active: true
-          - name: "Defensores de Belgrano de Villa Ramallo"
-            score: "0"
 
   - name: Cricket
     matches:
