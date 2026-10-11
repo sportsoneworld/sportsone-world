@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Oct 2026, 20:37 IST"
+updated: "12 Oct 2026, 01:02 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,61 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2572373
+      - id: football-2397692
+        competition: "American USL League One"
+        state: live
+        stateLabel: "25'"
+        teams:
+          - name: "One Knoxville"
+            score: "0"
+          - name: "Spokane Velocity"
+            score: "1"
+            active: true
+      - id: football-2572258
         competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "5'"
+        stateLabel: "74'"
         teams:
-          - name: "FC Santa Coloma"
+          - name: "Atlètic d'Escaldes"
             score: "0"
-          - name: "Casa de Portugal"
-            score: "0"
-      - id: football-2578247
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Primeiro de Maio"
-            score: "1"
-          - name: "Bravos do Maquis"
-            score: "1"
-      - id: football-2578253
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "FC Luanda"
-            score: "0"
-          - name: "Recreativo do Libolo"
-            score: "0"
-      - id: football-2578248
-        competition: "Angolan Girabola"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "Académica do Lobito"
+          - name: "Esperança d'Andorra"
             score: "1"
             active: true
-          - name: "Primeiro de Agosto"
+      - id: football-2406577
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "71'"
+        teams:
+          - name: "Argentino de Merlo"
             score: "0"
-      - id: football-2615756
+          - name: "Sportivo Italiano"
+            score: "1"
+            active: true
+      - id: football-2615751
         competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "26'"
         teams:
-          - name: "FADEP"
+          - name: "Olimpo"
+            score: "0"
+          - name: "San Martín de Formosa"
             score: "1"
             active: true
-          - name: "Atenas de Río Cuarto"
-            score: "0"
-      - id: football-2499747
-        competition: "Austrian Bundesliga"
+      - id: football-2608592
+        competition: "Argentina Torneo Federal A"
         state: live
-        stateLabel: "4'"
+        stateLabel: "30'"
         teams:
-          - name: "LASK"
+          - name: "Gimnasia y Esgrima de Concepción del Uruguay"
+            score: "2"
+            active: true
+          - name: "9 de Julio de Rafaela"
             score: "0"
-          - name: "Rapid Vienna"
+      - id: football-2615753
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "30'"
+        teams:
+          - name: "Sportivo Las Parejas"
+            score: "1"
+            active: true
+          - name: "Defensores de Belgrano de Villa Ramallo"
             score: "0"
 
   - name: Cricket
