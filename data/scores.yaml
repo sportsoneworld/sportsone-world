@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Oct 2026, 07:40 IST"
+updated: "11 Oct 2026, 14:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2407125
-        competition: "American Major League Soccer"
+      - id: football-2505278
+        competition: "Austrian Erste Liga"
         state: live
-        stateLabel: "29'"
+        stateLabel: "12'"
         teams:
-          - name: "Colorado Rapids"
+          - name: "Admira Wacker"
             score: "1"
-            active: true
-          - name: "San Jose Earthquakes"
-            score: "0"
-      - id: football-2407124
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "64'"
-        teams:
-          - name: "Sporting Kansas City"
+          - name: "Voitsberg"
             score: "1"
-          - name: "Portland Timbers"
-            score: "3"
-            active: true
-      - id: football-2407122
-        competition: "American Major League Soccer"
+      - id: football-2441295
+        competition: "China League One"
         state: live
-        stateLabel: "70'"
+        stateLabel: "55'"
         teams:
-          - name: "Austin FC"
-            score: "0"
-          - name: "Nashville SC"
+          - name: "Shaanxi Union"
             score: "2"
             active: true
-      - id: football-2407123
-        competition: "American Major League Soccer"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Minnesota United"
+          - name: "Foshan Nanshi"
             score: "1"
-          - name: "Houston Dynamo"
+      - id: football-2441294
+        competition: "China League One"
+        state: live
+        stateLabel: "84'"
+        teams:
+          - name: "Yanbian Longding"
+            score: "0"
+          - name: "Nantong Zhiyun"
             score: "1"
-      - id: football-2397376
-        competition: "American USL Championship"
+            active: true
+      - id: football-2600065
+        competition: "China league Two"
         state: live
-        stateLabel: "2'"
+        stateLabel: "42'"
         teams:
-          - name: "Oakland Roots"
-            score: "0"
-          - name: "San Antonio"
-            score: "0"
-      - id: football-2397377
-        competition: "American USL Championship"
+          - name: "Lanzhou Longyuan Athletic"
+            score: "1"
+          - name: "Guangdong Mingtu"
+            score: "1"
+      - id: football-2600068
+        competition: "China league Two"
         state: live
-        stateLabel: "2'"
+        stateLabel: "43'"
         teams:
-          - name: "Phoenix Rising"
+          - name: "Dalian Yingbo B"
             score: "0"
-          - name: "Las Vegas Lights"
+          - name: "Hubei Istar"
             score: "0"
+      - id: football-2600066
+        competition: "China league Two"
+        state: live
+        stateLabel: "54'"
+        teams:
+          - name: "Shandong Taishan B"
+            score: "1"
+          - name: "Guizhou Guiyang Athletic"
+            score: "1"
 
   - name: Cricket
     matches:
