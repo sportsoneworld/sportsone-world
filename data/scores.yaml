@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Oct 2026, 05:02 IST"
+updated: "11 Oct 2026, 07:40 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397371
-        competition: "American USL Championship"
+      - id: football-2407125
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "24'"
+        stateLabel: "29'"
         teams:
-          - name: "Detroit City FC"
-            score: "0"
-          - name: "Rhode Island FC"
-            score: "0"
-      - id: football-2397373
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "24'"
-        teams:
-          - name: "Indy Eleven"
+          - name: "Colorado Rapids"
             score: "1"
             active: true
-          - name: "Tampa Bay Rowdies"
+          - name: "San Jose Earthquakes"
             score: "0"
-      - id: football-2397374
-        competition: "American USL Championship"
+      - id: football-2407124
+        competition: "American Major League Soccer"
         state: live
-        stateLabel: "25'"
+        stateLabel: "64'"
         teams:
-          - name: "Miami FC"
-            score: "0"
-          - name: "Loudoun United"
-            score: "0"
-      - id: football-2397378
-        competition: "American USL Championship"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Pittsburgh Riverhounds"
+          - name: "Sporting Kansas City"
             score: "1"
+          - name: "Portland Timbers"
+            score: "3"
             active: true
-          - name: "Hartford Athletic"
+      - id: football-2407122
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "70'"
+        teams:
+          - name: "Austin FC"
             score: "0"
-      - id: football-2397370
+          - name: "Nashville SC"
+            score: "2"
+            active: true
+      - id: football-2407123
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "71'"
+        teams:
+          - name: "Minnesota United"
+            score: "1"
+          - name: "Houston Dynamo"
+            score: "1"
+      - id: football-2397376
         competition: "American USL Championship"
         state: live
-        stateLabel: "69'"
+        stateLabel: "2'"
         teams:
-          - name: "Charleston Battery"
+          - name: "Oakland Roots"
             score: "0"
-          - name: "Louisville City"
-            score: "1"
-            active: true
-      - id: football-2397685
-        competition: "American USL League One"
+          - name: "San Antonio"
+            score: "0"
+      - id: football-2397377
+        competition: "American USL Championship"
         state: live
-        stateLabel: "16'"
+        stateLabel: "2'"
         teams:
-          - name: "Charlotte Independence"
+          - name: "Phoenix Rising"
             score: "0"
-          - name: "New York Cosmos"
+          - name: "Las Vegas Lights"
             score: "0"
 
   - name: Cricket
