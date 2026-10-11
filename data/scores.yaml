@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "11 Oct 2026, 14:15 IST"
+updated: "11 Oct 2026, 20:37 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2505278
-        competition: "Austrian Erste Liga"
+      - id: football-2572373
+        competition: "Andorran 1a Divisió"
         state: live
-        stateLabel: "12'"
+        stateLabel: "5'"
         teams:
-          - name: "Admira Wacker"
-            score: "1"
-          - name: "Voitsberg"
-            score: "1"
-      - id: football-2441295
-        competition: "China League One"
+          - name: "FC Santa Coloma"
+            score: "0"
+          - name: "Casa de Portugal"
+            score: "0"
+      - id: football-2578247
+        competition: "Angolan Girabola"
         state: live
-        stateLabel: "55'"
+        stateLabel: "34'"
         teams:
-          - name: "Shaanxi Union"
-            score: "2"
+          - name: "Primeiro de Maio"
+            score: "1"
+          - name: "Bravos do Maquis"
+            score: "1"
+      - id: football-2578253
+        competition: "Angolan Girabola"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "FC Luanda"
+            score: "0"
+          - name: "Recreativo do Libolo"
+            score: "0"
+      - id: football-2578248
+        competition: "Angolan Girabola"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "Académica do Lobito"
+            score: "1"
             active: true
-          - name: "Foshan Nanshi"
-            score: "1"
-      - id: football-2441294
-        competition: "China League One"
-        state: live
-        stateLabel: "84'"
-        teams:
-          - name: "Yanbian Longding"
+          - name: "Primeiro de Agosto"
             score: "0"
-          - name: "Nantong Zhiyun"
+      - id: football-2615756
+        competition: "Argentina Torneo Federal A"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "FADEP"
             score: "1"
             active: true
-      - id: football-2600065
-        competition: "China league Two"
-        state: live
-        stateLabel: "42'"
-        teams:
-          - name: "Lanzhou Longyuan Athletic"
-            score: "1"
-          - name: "Guangdong Mingtu"
-            score: "1"
-      - id: football-2600068
-        competition: "China league Two"
-        state: live
-        stateLabel: "43'"
-        teams:
-          - name: "Dalian Yingbo B"
+          - name: "Atenas de Río Cuarto"
             score: "0"
-          - name: "Hubei Istar"
-            score: "0"
-      - id: football-2600066
-        competition: "China league Two"
+      - id: football-2499747
+        competition: "Austrian Bundesliga"
         state: live
-        stateLabel: "54'"
+        stateLabel: "4'"
         teams:
-          - name: "Shandong Taishan B"
-            score: "1"
-          - name: "Guizhou Guiyang Athletic"
-            score: "1"
+          - name: "LASK"
+            score: "0"
+          - name: "Rapid Vienna"
+            score: "0"
 
   - name: Cricket
     matches:
