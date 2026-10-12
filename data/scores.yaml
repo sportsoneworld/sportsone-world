@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Oct 2026, 04:38 IST"
+updated: "12 Oct 2026, 07:50 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,67 +23,68 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405142
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "34'"
-        teams:
-          - name: "Ciudad de Bolívar"
-            score: "0"
-          - name: "San Telmo"
-            score: "0"
-      - id: football-2398124
+      - id: football-2398128
         competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "Talleres de Córdoba"
+            score: "0"
+          - name: "Independiente"
+            score: "1"
+            active: true
+      - id: football-2481221
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "46'"
+        teams:
+          - name: "América de Cali"
+            score: "1"
+          - name: "Independiente Medellín"
+            score: "1"
+      - id: football-2497283
+        competition: "Guatemala Liga Nacional"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Racing Club"
-            score: "0"
-          - name: "Belgrano"
+          - name: "Antigua"
             score: "1"
             active: true
-      - id: football-2569204
-        competition: "Bolivian Primera División"
+          - name: "Cobán Imperial"
+            score: "0"
+      - id: football-2608531
+        competition: "MLS Next Pro"
         state: live
-        stateLabel: "81'"
+        stateLabel: "107'"
         teams:
-          - name: "Aurora"
+          - name: "San Jose Earthquakes II"
+            score: "4"
+            active: true
+          - name: "Tacoma Defiance"
+            score: "3"
+      - id: football-2487550
+        competition: "Mexican Liga MX"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Pumas UNAM"
             score: "2"
-          - name: "Nacional Potosí"
-            score: "2"
-      - id: football-2398482
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "38'"
-        teams:
-          - name: "Bahia"
-            score: "0"
-          - name: "Mirassol"
-            score: "0"
-      - id: football-2431490
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "76'"
-        teams:
-          - name: "Cuiabá"
-            score: "0"
-          - name: "Avaí"
+            active: true
+          - name: "Cruz Azul"
             score: "1"
-            active: true
-      - id: football-2431494
-        competition: "Brazilian Serie B"
+      - id: football-2603378
+        competition: "Nicaragua Primera Division"
         state: live
-        stateLabel: "76'"
+        stateLabel: "63'"
         teams:
-          - name: "Operário Ferroviário"
+          - name: "Rancho Santana"
             score: "0"
-          - name: "Goiás"
-            score: "2"
-            active: true
+          - name: "UNAN Managua"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2524751
+      - id: cricket-2524752
         competition: "Twenty20 International Series"
         state: upcoming
         stateLabel: "13:30"
