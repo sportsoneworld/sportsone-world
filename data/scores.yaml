@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Oct 2026, 15:00 IST"
+updated: "13 Oct 2026, 00:48 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2600073
-        competition: "China league Two"
+      - id: football-2579923
+        competition: "AFC Champions League Elite"
         state: live
-        stateLabel: "71'"
+        stateLabel: "3'"
         teams:
-          - name: "Guangzhou Dandelion"
-            score: "3"
-            active: true
-          - name: "Shanghai Second"
-            score: "1"
-      - id: football-2600074
-        competition: "China league Two"
+          - name: "Al-Nassr"
+            score: "0"
+          - name: "Neftchi Fergana"
+            score: "0"
+      - id: football-2579924
+        competition: "AFC Champions League Elite"
         state: live
-        stateLabel: "72'"
+        stateLabel: "45'"
         teams:
-          - name: "Dalian Kewei"
-            score: "1"
-          - name: "Hangzhou Linping Wuyue"
-            score: "1"
-      - id: football-2398128
-        competition: "Argentinian Primera Division"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Talleres de Córdoba"
+          - name: "Al-Quwa Al-Jawiya"
             score: "0"
-          - name: "Independiente"
-            score: "0"
-      - id: football-2600072
-        competition: "China league Two"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Shanxi Chongde Ronghai"
-            score: "2"
+          - name: "Al Ain"
+            score: "4"
             active: true
-          - name: "Jiangxi Lushan"
+      - id: football-2579922
+        competition: "AFC Champions League Elite"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Al-Gharafa"
+            score: "0"
+          - name: "Esteghlal"
             score: "1"
-      - id: football-2397035
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:30"
+            active: true
+      - id: football-2406586
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "51'"
         teams:
-          - name: "Rhode Island FC"
-            score: "–"
-            detail: "23:30"
-          - name: "Loudoun United"
-            score: "–"
-      - id: football-2397361
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "UAI Urquiza"
+            score: "0"
+          - name: "Real Pilar"
+            score: "0"
+      - id: football-2406579
+        competition: "Argentina Primera B Metropolitana"
+        state: live
+        stateLabel: "52'"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Charleston Battery"
-            score: "–"
+          - name: "Brown de Adrogué"
+            score: "0"
+          - name: "Dock Sud"
+            score: "0"
+      - id: football-2408661
+        competition: "Argentinian Primera C"
+        state: live
+        stateLabel: "48'"
+        teams:
+          - name: "Argentino de Rosario"
+            score: "0"
+          - name: "Sacachispas"
+            score: "0"
 
   - name: Cricket
     matches:
