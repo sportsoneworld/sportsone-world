@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "12 Oct 2026, 07:50 IST"
+updated: "12 Oct 2026, 15:00 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
+      - id: football-2600073
+        competition: "China league Two"
+        state: live
+        stateLabel: "71'"
+        teams:
+          - name: "Guangzhou Dandelion"
+            score: "3"
+            active: true
+          - name: "Shanghai Second"
+            score: "1"
+      - id: football-2600074
+        competition: "China league Two"
+        state: live
+        stateLabel: "72'"
+        teams:
+          - name: "Dalian Kewei"
+            score: "1"
+          - name: "Hangzhou Linping Wuyue"
+            score: "1"
       - id: football-2398128
         competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "90'"
+        state: completed
+        stateLabel: "Full time"
         teams:
           - name: "Talleres de Córdoba"
             score: "0"
           - name: "Independiente"
-            score: "1"
-            active: true
-      - id: football-2481221
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "América de Cali"
-            score: "1"
-          - name: "Independiente Medellín"
-            score: "1"
-      - id: football-2497283
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Antigua"
-            score: "1"
-            active: true
-          - name: "Cobán Imperial"
             score: "0"
-      - id: football-2608531
-        competition: "MLS Next Pro"
-        state: live
-        stateLabel: "107'"
+      - id: football-2600072
+        competition: "China league Two"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "San Jose Earthquakes II"
-            score: "4"
-            active: true
-          - name: "Tacoma Defiance"
-            score: "3"
-      - id: football-2487550
-        competition: "Mexican Liga MX"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "Pumas UNAM"
+          - name: "Shanxi Chongde Ronghai"
             score: "2"
             active: true
-          - name: "Cruz Azul"
+          - name: "Jiangxi Lushan"
             score: "1"
-      - id: football-2603378
-        competition: "Nicaragua Primera Division"
-        state: live
-        stateLabel: "63'"
+      - id: football-2397035
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:30"
         teams:
-          - name: "Rancho Santana"
-            score: "0"
-          - name: "UNAN Managua"
-            score: "0"
+          - name: "Rhode Island FC"
+            score: "–"
+            detail: "23:30"
+          - name: "Loudoun United"
+            score: "–"
+      - id: football-2397361
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "23:00"
+          - name: "Charleston Battery"
+            score: "–"
 
   - name: Cricket
     matches:
