@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Oct 2026, 21:27 IST"
+updated: "14 Oct 2026, 02:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558904
+      - id: football-2558905
         competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "Live"
+        stateLabel: "80'"
         teams:
-          - name: "US Biskra"
-            score: "0"
-          - name: "MC Oran"
+          - name: "USM Alger"
             score: "1"
             active: true
-      - id: football-2511514
-        competition: "Bulgarian Second League"
+          - name: "JS Saoura"
+            score: "0"
+      - id: football-2618410
+        competition: "CAF Womens Olympic Qualifying Tournament"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Montana"
-            score: "2"
+          - name: "Ivory Coast Women"
+            score: "3"
             active: true
-          - name: "Ludogorets Razgrad II"
-            score: "1"
-      - id: football-2517605
-        competition: "Czech Moravian-Silesian Football League"
-        state: live
-        stateLabel: "25'"
-        teams:
-          - name: "Artis Brno B"
+          - name: "DR Congo Women"
             score: "0"
-          - name: "Zbrojovka Brno B"
-            score: "0"
-      - id: football-2561127
-        competition: "Egyptian Premier League"
+      - id: football-2501360
+        competition: "English League Championship"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Abou Qir Fertilizers"
-            score: "0"
-          - name: "Asyut Petroleum"
-            score: "2"
+          - name: "Birmingham City"
+            score: "4"
             active: true
-      - id: football-2561126
-        competition: "Egyptian Premier League"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "National Bank of Egypt"
-            score: "2"
-            active: true
-          - name: "Tala'ea El Gaish"
+          - name: "Preston North End"
             score: "0"
-      - id: football-2423831
-        competition: "Estonian Meistriliiga"
+      - id: football-2543157
+        competition: "English Northern Premier League Premier Division"
         state: live
         stateLabel: "Live"
         teams:
-          - name: "Harju Laagri"
+          - name: "Bamber Bridge"
+            score: "0"
+          - name: "Warrington Town"
             score: "1"
             active: true
-          - name: "Nõmme United"
+      - id: football-2543778
+        competition: "English Southern Football League Division Central"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Stamford"
             score: "0"
+          - name: "Stratford Town"
+            score: "0"
+      - id: football-2615579
+        competition: "Moroccan Championship"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "FUS Rabat"
+            score: "0"
+          - name: "Raja Casablanca"
+            score: "1"
+            active: true
 
   - name: Cricket
     matches:
