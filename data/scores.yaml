@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Oct 2026, 00:48 IST"
+updated: "13 Oct 2026, 06:59 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579923
-        competition: "AFC Champions League Elite"
+      - id: football-2405135
+        competition: "Argentinian Primera B Nacional"
         state: live
-        stateLabel: "3'"
+        stateLabel: "46'"
         teams:
-          - name: "Al-Nassr"
+          - name: "All Boys"
             score: "0"
-          - name: "Neftchi Fergana"
+          - name: "Godoy Cruz"
             score: "0"
-      - id: football-2579924
-        competition: "AFC Champions League Elite"
+      - id: football-2398483
+        competition: "Brazilian Serie A"
         state: live
-        stateLabel: "45'"
+        stateLabel: "66'"
         teams:
-          - name: "Al-Quwa Al-Jawiya"
-            score: "0"
-          - name: "Al Ain"
-            score: "4"
+          - name: "Bragantino"
+            score: "3"
             active: true
-      - id: football-2579922
-        competition: "AFC Champions League Elite"
+          - name: "Cruzeiro"
+            score: "1"
+      - id: football-2431488
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "45'"
+        stateLabel: "71'"
         teams:
-          - name: "Al-Gharafa"
+          - name: "Botafogo-SP"
             score: "0"
-          - name: "Esteghlal"
+          - name: "Ceará"
+            score: "0"
+      - id: football-2616787
+        competition: "Jamaican Premier League"
+        state: live
+        stateLabel: "18'"
+        teams:
+          - name: "Waterhouse"
+            score: "0"
+          - name: "Tru-Juice"
             score: "1"
             active: true
-      - id: football-2406586
-        competition: "Argentina Primera B Metropolitana"
+      - id: football-2610067
+        competition: "Peruvian Segunda División"
         state: live
-        stateLabel: "51'"
+        stateLabel: "27'"
         teams:
-          - name: "UAI Urquiza"
+          - name: "Carlos A. Mannucci"
+            score: "2"
+            active: true
+          - name: "Alianza Universidad"
             score: "0"
-          - name: "Real Pilar"
-            score: "0"
-      - id: football-2406579
-        competition: "Argentina Primera B Metropolitana"
-        state: live
-        stateLabel: "52'"
+      - id: football-2398484
+        competition: "Brazilian Serie A"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Brown de Adrogué"
-            score: "0"
-          - name: "Dock Sud"
-            score: "0"
-      - id: football-2408661
-        competition: "Argentinian Primera C"
-        state: live
-        stateLabel: "48'"
-        teams:
-          - name: "Argentino de Rosario"
-            score: "0"
-          - name: "Sacachispas"
-            score: "0"
+          - name: "Chapecoense"
+            score: "1"
+          - name: "Athletico Paranaense"
+            score: "4"
+            active: true
 
   - name: Cricket
     matches:
