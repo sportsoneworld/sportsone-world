@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Oct 2026, 13:42 IST"
+updated: "13 Oct 2026, 21:27 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2579925
-        competition: "AFC Champions League Elite"
+      - id: football-2558904
+        competition: "Algerian Ligue 1"
         state: live
-        stateLabel: "27'"
+        stateLabel: "Live"
         teams:
-          - name: "Newcastle Jets"
+          - name: "US Biskra"
             score: "0"
-          - name: "Gamba Osaka"
-            score: "0"
-      - id: football-2398483
-        competition: "Brazilian Serie A"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Bragantino"
-            score: "4"
+          - name: "MC Oran"
+            score: "1"
             active: true
-          - name: "Cruzeiro"
+      - id: football-2511514
+        competition: "Bulgarian Second League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Montana"
             score: "2"
-      - id: football-2407134
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:30"
+            active: true
+          - name: "Ludogorets Razgrad II"
+            score: "1"
+      - id: football-2517605
+        competition: "Czech Moravian-Silesian Football League"
+        state: live
+        stateLabel: "25'"
         teams:
-          - name: "FC Dallas"
-            score: "–"
-            detail: "00:30"
-          - name: "Seattle Sounders"
-            score: "–"
-      - id: football-2407135
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:30"
+          - name: "Artis Brno B"
+            score: "0"
+          - name: "Zbrojovka Brno B"
+            score: "0"
+      - id: football-2561127
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Chicago Fire"
-            score: "–"
-            detail: "00:30"
-          - name: "Philadelphia Union"
-            score: "–"
-      - id: football-2397035
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:30"
+          - name: "Abou Qir Fertilizers"
+            score: "0"
+          - name: "Asyut Petroleum"
+            score: "2"
+            active: true
+      - id: football-2561126
+        competition: "Egyptian Premier League"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Rhode Island FC"
-            score: "–"
-            detail: "23:30"
-          - name: "Loudoun United"
-            score: "–"
-      - id: football-2397361
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "National Bank of Egypt"
+            score: "2"
+            active: true
+          - name: "Tala'ea El Gaish"
+            score: "0"
+      - id: football-2423831
+        competition: "Estonian Meistriliiga"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Charleston Battery"
-            score: "–"
+          - name: "Harju Laagri"
+            score: "1"
+            active: true
+          - name: "Nõmme United"
+            score: "0"
 
   - name: Cricket
     matches:
