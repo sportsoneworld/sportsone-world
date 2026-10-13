@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "13 Oct 2026, 06:59 IST"
+updated: "13 Oct 2026, 13:42 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2405135
-        competition: "Argentinian Primera B Nacional"
-        state: live
-        stateLabel: "46'"
-        teams:
-          - name: "All Boys"
-            score: "0"
-          - name: "Godoy Cruz"
-            score: "0"
-      - id: football-2398483
-        competition: "Brazilian Serie A"
-        state: live
-        stateLabel: "66'"
-        teams:
-          - name: "Bragantino"
-            score: "3"
-            active: true
-          - name: "Cruzeiro"
-            score: "1"
-      - id: football-2431488
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "71'"
-        teams:
-          - name: "Botafogo-SP"
-            score: "0"
-          - name: "Ceará"
-            score: "0"
-      - id: football-2616787
-        competition: "Jamaican Premier League"
-        state: live
-        stateLabel: "18'"
-        teams:
-          - name: "Waterhouse"
-            score: "0"
-          - name: "Tru-Juice"
-            score: "1"
-            active: true
-      - id: football-2610067
-        competition: "Peruvian Segunda División"
+      - id: football-2579925
+        competition: "AFC Champions League Elite"
         state: live
         stateLabel: "27'"
         teams:
-          - name: "Carlos A. Mannucci"
-            score: "2"
-            active: true
-          - name: "Alianza Universidad"
+          - name: "Newcastle Jets"
             score: "0"
-      - id: football-2398484
+          - name: "Gamba Osaka"
+            score: "0"
+      - id: football-2398483
         competition: "Brazilian Serie A"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "Chapecoense"
-            score: "1"
-          - name: "Athletico Paranaense"
+          - name: "Bragantino"
             score: "4"
             active: true
+          - name: "Cruzeiro"
+            score: "2"
+      - id: football-2407134
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:30"
+        teams:
+          - name: "FC Dallas"
+            score: "–"
+            detail: "00:30"
+          - name: "Seattle Sounders"
+            score: "–"
+      - id: football-2407135
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:30"
+        teams:
+          - name: "Chicago Fire"
+            score: "–"
+            detail: "00:30"
+          - name: "Philadelphia Union"
+            score: "–"
+      - id: football-2397035
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Rhode Island FC"
+            score: "–"
+            detail: "23:30"
+          - name: "Loudoun United"
+            score: "–"
+      - id: football-2397361
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "23:00"
+          - name: "Charleston Battery"
+            score: "–"
 
   - name: Cricket
     matches:
