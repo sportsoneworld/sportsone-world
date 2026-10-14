@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Oct 2026, 05:38 IST"
+updated: "14 Oct 2026, 10:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,63 +23,66 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2431486
-        competition: "Brazilian Serie B"
-        state: live
-        stateLabel: "77'"
-        teams:
-          - name: "Athletic Club-MG"
-            score: "1"
-          - name: "Londrina"
-            score: "1"
-      - id: football-2607178
-        competition: "CONCACAF Caribbean Cup"
-        state: live
-        stateLabel: "1'"
-        teams:
-          - name: "Portmore United"
-            score: "0"
-          - name: "Violette"
-            score: "0"
-      - id: football-2481146
-        competition: "Colombian Liga DIMAYOR"
-        state: live
-        stateLabel: "37'"
-        teams:
-          - name: "Atlético Bucaramanga"
-            score: "1"
-            active: true
-          - name: "Rionegro Águilas"
-            score: "0"
-      - id: football-2488665
+      - id: football-2488667
         competition: "Costa-Rica Liga FPD"
-        state: live
-        stateLabel: "8'"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Cartaginés"
-            score: "0"
-          - name: "Puntarenas"
-            score: "0"
-      - id: football-2608479
-        competition: "International Friendlies Women"
-        state: live
-        stateLabel: "35'"
-        teams:
-          - name: "Brazil Women"
+          - name: "San Carlos"
+            score: "1"
+          - name: "Inter de San Carlos"
             score: "2"
             active: true
-          - name: "Argentina Women"
-            score: "1"
-      - id: football-2606273
-        competition: "International Friendlies Women"
-        state: live
-        stateLabel: "46'"
+      - id: football-2407134
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:30"
         teams:
-          - name: "Venezuela Women"
-            score: "1"
-          - name: "Colombia Women"
-            score: "2"
-            active: true
+          - name: "FC Dallas"
+            score: "–"
+            detail: "00:30"
+          - name: "Seattle Sounders"
+            score: "–"
+      - id: football-2407135
+        competition: "American Major League Soccer"
+        state: upcoming
+        stateLabel: "00:30"
+        teams:
+          - name: "Chicago Fire"
+            score: "–"
+            detail: "00:30"
+          - name: "Philadelphia Union"
+            score: "–"
+      - id: football-2397035
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:30"
+        teams:
+          - name: "Rhode Island FC"
+            score: "–"
+            detail: "23:30"
+          - name: "Loudoun United"
+            score: "–"
+      - id: football-2397361
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "23:00"
+          - name: "Charleston Battery"
+            score: "–"
+      - id: football-2397380
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Sporting JAX"
+            score: "–"
+            detail: "23:00"
+          - name: "Birmingham Legion"
+            score: "–"
 
   - name: Cricket
     matches:
