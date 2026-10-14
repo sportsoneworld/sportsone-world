@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Oct 2026, 20:17 IST"
+updated: "15 Oct 2026, 00:34 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,16 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580266
+      - id: football-2580271
         competition: "AFC Champions League Two"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Nasaf"
-            score: "0"
-          - name: "Al Wahda"
-            score: "2"
+          - name: "Al-Faisaly Amman"
+            score: "1"
             active: true
+          - name: "Al-Nahda"
+            score: "0"
       - id: football-2570162
         competition: "Burundi Ligue A"
         state: live
@@ -42,43 +42,42 @@ sports:
             score: "0"
           - name: "Kayanza United"
             score: "0"
-      - id: football-2502623
-        competition: "Czech Bohemian Football League Group B"
+      - id: football-2612184
+        competition: "Copa AUF Uruguay"
         state: live
-        stateLabel: "56'"
+        stateLabel: "30'"
         teams:
-          - name: "Baník Most-Souš"
+          - name: "Boston River"
             score: "0"
-          - name: "Benátky nad Jizerou"
+          - name: "River Plate Montevideo"
+            score: "0"
+      - id: football-2498020
+        competition: "Copa Venezuela"
+        state: live
+        stateLabel: "2'"
+        teams:
+          - name: "Bolívar SC"
+            score: "0"
+          - name: "Mineros de Guayana"
+            score: "0"
+      - id: football-2542677
+        competition: "English Isthmian League Premier Division"
+        state: live
+        stateLabel: "17'"
+        teams:
+          - name: "Whyteleafe"
             score: "1"
             active: true
-      - id: football-2423833
-        competition: "Estonian Meistriliiga"
-        state: live
-        stateLabel: "88'"
-        teams:
-          - name: "Narva Trans"
+          - name: "Whitehawk"
             score: "0"
-          - name: "Kuressaare"
-            score: "1"
-            active: true
-      - id: football-2611124
-        competition: "Indian Super League"
+      - id: football-2501365
+        competition: "English League Championship"
         state: live
-        stateLabel: "45'"
+        stateLabel: "18'"
         teams:
-          - name: "Punjab"
-            score: "1"
-          - name: "Odisha"
-            score: "1"
-      - id: football-2580681
-        competition: "Iranian Persian Gulf Pro League"
-        state: live
-        stateLabel: "49'"
-        teams:
-          - name: "Kheybar Khorramabad"
+          - name: "Norwich City"
             score: "0"
-          - name: "Persepolis"
+          - name: "Southampton"
             score: "0"
 
   - name: Cricket
