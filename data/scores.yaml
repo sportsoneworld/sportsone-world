@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Oct 2026, 15:20 IST"
+updated: "14 Oct 2026, 20:17 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2611570
-        competition: "Japanese JLeague Cup"
+      - id: football-2580266
+        competition: "AFC Champions League Two"
         state: live
-        stateLabel: "16'"
+        stateLabel: "45'"
         teams:
-          - name: "Yokohama FC"
+          - name: "Nasaf"
             score: "0"
-          - name: "Urawa Red Diamonds"
+          - name: "Al Wahda"
             score: "2"
             active: true
-      - id: football-2618467
-        competition: "Mongolian Premier League"
+      - id: football-2570162
+        competition: "Burundi Ligue A"
         state: live
-        stateLabel: "90'"
+        stateLabel: "11'"
         teams:
-          - name: "FC Ulaanbaatar"
-            score: "8"
-            active: true
-          - name: "Khovd Western"
+          - name: "Vision Buyumbura"
             score: "0"
-      - id: football-2603701
-        competition: "Russia Cup"
+          - name: "Kayanza United"
+            score: "0"
+      - id: football-2502623
+        competition: "Czech Bohemian Football League Group B"
         state: live
-        stateLabel: "59'"
+        stateLabel: "56'"
         teams:
-          - name: "SKA-Khabarovsk"
+          - name: "Baník Most-Souš"
+            score: "0"
+          - name: "Benátky nad Jizerou"
             score: "1"
             active: true
-          - name: "Dynamo Kirov"
-            score: "0"
-      - id: football-2598315
-        competition: "UEFA Youth League"
+      - id: football-2423833
+        competition: "Estonian Meistriliiga"
         state: live
-        stateLabel: "Live"
+        stateLabel: "88'"
         teams:
-          - name: "Bodø/Glimt Youth"
+          - name: "Narva Trans"
             score: "0"
-          - name: "Borussia Dortmund Youth"
-            score: "2"
+          - name: "Kuressaare"
+            score: "1"
             active: true
-      - id: football-2580265
-        competition: "AFC Champions League Two"
-        state: completed
-        stateLabel: "Full time"
+      - id: football-2611124
+        competition: "Indian Super League"
+        state: live
+        stateLabel: "45'"
         teams:
-          - name: "Melbourne Victory"
-            score: "3"
-            active: true
-          - name: "FC Seoul"
+          - name: "Punjab"
+            score: "1"
+          - name: "Odisha"
+            score: "1"
+      - id: football-2580681
+        competition: "Iranian Persian Gulf Pro League"
+        state: live
+        stateLabel: "49'"
+        teams:
+          - name: "Kheybar Khorramabad"
             score: "0"
-      - id: football-2407134
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:30"
-        teams:
-          - name: "FC Dallas"
-            score: "–"
-            detail: "00:30"
-          - name: "Seattle Sounders"
-            score: "–"
+          - name: "Persepolis"
+            score: "0"
 
   - name: Cricket
     matches:
