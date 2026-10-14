@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Oct 2026, 00:34 IST"
+updated: "15 Oct 2026, 03:45 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,62 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2580271
-        competition: "AFC Champions League Two"
+      - id: football-2398113
+        competition: "Argentinian Primera Division"
+        state: live
+        stateLabel: "14'"
+        teams:
+          - name: "Sarmiento"
+            score: "0"
+          - name: "River Plate"
+            score: "0"
+      - id: football-2481119
+        competition: "Colombian Liga DIMAYOR"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Al-Faisaly Amman"
+          - name: "Atlético Junior"
             score: "1"
             active: true
-          - name: "Al-Nahda"
+          - name: "Deportivo Pereira"
             score: "0"
-      - id: football-2570162
-        competition: "Burundi Ligue A"
+      - id: football-2481488
+        competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "11'"
+        stateLabel: "15'"
         teams:
-          - name: "Vision Buyumbura"
+          - name: "Real Cundinamarca"
             score: "0"
-          - name: "Kayanza United"
+          - name: "Bogotá"
             score: "0"
-      - id: football-2612184
-        competition: "Copa AUF Uruguay"
+      - id: football-2607486
+        competition: "Copa Sudamericana"
         state: live
-        stateLabel: "30'"
+        stateLabel: "16'"
         teams:
-          - name: "Boston River"
+          - name: "Atlético Mineiro"
             score: "0"
-          - name: "River Plate Montevideo"
+          - name: "Montevideo City Torque"
             score: "0"
-      - id: football-2498020
+      - id: football-2498013
         competition: "Copa Venezuela"
         state: live
-        stateLabel: "2'"
+        stateLabel: "15'"
         teams:
-          - name: "Bolívar SC"
+          - name: "Monagas"
             score: "0"
-          - name: "Mineros de Guayana"
+          - name: "Dynamo Puerto"
             score: "0"
-      - id: football-2542677
-        competition: "English Isthmian League Premier Division"
-        state: live
-        stateLabel: "17'"
+      - id: football-2615720
+        competition: "Copa Paraguay"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Whyteleafe"
-            score: "1"
+          - name: "Atlético Tembetary"
+            score: "2"
+          - name: "Sol de América"
+            score: "3"
             active: true
-          - name: "Whitehawk"
-            score: "0"
-      - id: football-2501365
-        competition: "English League Championship"
-        state: live
-        stateLabel: "18'"
-        teams:
-          - name: "Norwich City"
-            score: "0"
-          - name: "Southampton"
-            score: "0"
 
   - name: Cricket
     matches:
