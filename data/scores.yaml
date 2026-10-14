@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Oct 2026, 02:27 IST"
+updated: "14 Oct 2026, 05:38 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,62 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2558905
-        competition: "Algerian Ligue 1"
+      - id: football-2431486
+        competition: "Brazilian Serie B"
         state: live
-        stateLabel: "80'"
+        stateLabel: "77'"
         teams:
-          - name: "USM Alger"
+          - name: "Athletic Club-MG"
+            score: "1"
+          - name: "Londrina"
+            score: "1"
+      - id: football-2607178
+        competition: "CONCACAF Caribbean Cup"
+        state: live
+        stateLabel: "1'"
+        teams:
+          - name: "Portmore United"
+            score: "0"
+          - name: "Violette"
+            score: "0"
+      - id: football-2481146
+        competition: "Colombian Liga DIMAYOR"
+        state: live
+        stateLabel: "37'"
+        teams:
+          - name: "Atlético Bucaramanga"
             score: "1"
             active: true
-          - name: "JS Saoura"
+          - name: "Rionegro Águilas"
             score: "0"
-      - id: football-2618410
-        competition: "CAF Womens Olympic Qualifying Tournament"
+      - id: football-2488665
+        competition: "Costa-Rica Liga FPD"
         state: live
-        stateLabel: "Live"
+        stateLabel: "8'"
         teams:
-          - name: "Ivory Coast Women"
-            score: "3"
+          - name: "Cartaginés"
+            score: "0"
+          - name: "Puntarenas"
+            score: "0"
+      - id: football-2608479
+        competition: "International Friendlies Women"
+        state: live
+        stateLabel: "35'"
+        teams:
+          - name: "Brazil Women"
+            score: "2"
             active: true
-          - name: "DR Congo Women"
-            score: "0"
-      - id: football-2501360
-        competition: "English League Championship"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Birmingham City"
-            score: "4"
-            active: true
-          - name: "Preston North End"
-            score: "0"
-      - id: football-2543157
-        competition: "English Northern Premier League Premier Division"
-        state: live
-        stateLabel: "Live"
-        teams:
-          - name: "Bamber Bridge"
-            score: "0"
-          - name: "Warrington Town"
+          - name: "Argentina Women"
             score: "1"
-            active: true
-      - id: football-2543778
-        competition: "English Southern Football League Division Central"
+      - id: football-2606273
+        competition: "International Friendlies Women"
         state: live
-        stateLabel: "Live"
+        stateLabel: "46'"
         teams:
-          - name: "Stamford"
-            score: "0"
-          - name: "Stratford Town"
-            score: "0"
-      - id: football-2615579
-        competition: "Moroccan Championship"
-        state: live
-        stateLabel: "45'"
-        teams:
-          - name: "FUS Rabat"
-            score: "0"
-          - name: "Raja Casablanca"
+          - name: "Venezuela Women"
             score: "1"
+          - name: "Colombia Women"
+            score: "2"
             active: true
 
   - name: Cricket
