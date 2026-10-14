@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "14 Oct 2026, 10:17 IST"
+updated: "14 Oct 2026, 15:20 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,16 +23,56 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2488667
-        competition: "Costa-Rica Liga FPD"
+      - id: football-2611570
+        competition: "Japanese JLeague Cup"
+        state: live
+        stateLabel: "16'"
+        teams:
+          - name: "Yokohama FC"
+            score: "0"
+          - name: "Urawa Red Diamonds"
+            score: "2"
+            active: true
+      - id: football-2618467
+        competition: "Mongolian Premier League"
+        state: live
+        stateLabel: "90'"
+        teams:
+          - name: "FC Ulaanbaatar"
+            score: "8"
+            active: true
+          - name: "Khovd Western"
+            score: "0"
+      - id: football-2603701
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "59'"
+        teams:
+          - name: "SKA-Khabarovsk"
+            score: "1"
+            active: true
+          - name: "Dynamo Kirov"
+            score: "0"
+      - id: football-2598315
+        competition: "UEFA Youth League"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Bodø/Glimt Youth"
+            score: "0"
+          - name: "Borussia Dortmund Youth"
+            score: "2"
+            active: true
+      - id: football-2580265
+        competition: "AFC Champions League Two"
         state: completed
         stateLabel: "Full time"
         teams:
-          - name: "San Carlos"
-            score: "1"
-          - name: "Inter de San Carlos"
-            score: "2"
+          - name: "Melbourne Victory"
+            score: "3"
             active: true
+          - name: "FC Seoul"
+            score: "0"
       - id: football-2407134
         competition: "American Major League Soccer"
         state: upcoming
@@ -42,46 +82,6 @@ sports:
             score: "–"
             detail: "00:30"
           - name: "Seattle Sounders"
-            score: "–"
-      - id: football-2407135
-        competition: "American Major League Soccer"
-        state: upcoming
-        stateLabel: "00:30"
-        teams:
-          - name: "Chicago Fire"
-            score: "–"
-            detail: "00:30"
-          - name: "Philadelphia Union"
-            score: "–"
-      - id: football-2397035
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:30"
-        teams:
-          - name: "Rhode Island FC"
-            score: "–"
-            detail: "23:30"
-          - name: "Loudoun United"
-            score: "–"
-      - id: football-2397361
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Charleston Battery"
-            score: "–"
-      - id: football-2397380
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
-        teams:
-          - name: "Sporting JAX"
-            score: "–"
-            detail: "23:00"
-          - name: "Birmingham Legion"
             score: "–"
 
   - name: Cricket
