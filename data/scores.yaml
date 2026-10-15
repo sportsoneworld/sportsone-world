@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Oct 2026, 10:40 IST"
+updated: "15 Oct 2026, 15:21 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,53 +23,25 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2497288
-        competition: "Guatemala Liga Nacional"
+      - id: football-2606402
+        competition: "Australian Championship"
         state: live
-        stateLabel: "90'"
+        stateLabel: "58'"
         teams:
-          - name: "Marquense"
-            score: "1"
-          - name: "Mixco"
-            score: "1"
-      - id: football-2618655
+          - name: "Preston Lions"
+            score: "0"
+          - name: "Wollongong Wolves"
+            score: "0"
+      - id: football-2618999
         competition: "Mongolian Premier League"
         state: live
-        stateLabel: "9'"
+        stateLabel: "Live"
         teams:
-          - name: "Hunters"
-            score: "0"
-          - name: "Khovdyn Khuleguud"
-            score: "0"
-      - id: football-2407140
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Los Angeles FC"
-            score: "3"
+          - name: "Amtat"
+            score: "4"
             active: true
-          - name: "Austin FC"
-            score: "1"
-      - id: football-2407141
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "LA Galaxy"
+          - name: "Ulaangom City"
             score: "2"
-            active: true
-          - name: "Portland Timbers"
-            score: "0"
-      - id: football-2407142
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "San Diego FC"
-            score: "3"
-          - name: "Houston Dynamo"
-            score: "3"
       - id: football-2407134
         competition: "American Major League Soccer"
         state: completed
@@ -80,6 +52,36 @@ sports:
             active: true
           - name: "Seattle Sounders"
             score: "0"
+      - id: football-2407135
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "Chicago Fire"
+            score: "1"
+          - name: "Philadelphia Union"
+            score: "3"
+            active: true
+      - id: football-2397383
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Hartford Athletic"
+            score: "–"
+            detail: "23:00"
+          - name: "Brooklyn FC"
+            score: "–"
+      - id: football-2397385
+        competition: "American USL Championship"
+        state: upcoming
+        stateLabel: "23:00"
+        teams:
+          - name: "Louisville City"
+            score: "–"
+            detail: "23:00"
+          - name: "Indy Eleven"
+            score: "–"
 
   - name: Cricket
     matches:
