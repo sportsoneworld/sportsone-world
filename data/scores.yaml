@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Oct 2026, 00:08 IST"
+updated: "16 Oct 2026, 03:15 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,64 +23,63 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2437826
-        competition: "Belarus Vyscha Liga"
+      - id: football-2481487
+        competition: "Colombian Torneo DIMAYOR"
         state: live
-        stateLabel: "50'"
+        stateLabel: "44'"
         teams:
-          - name: "Maxline Vitebsk"
-            score: "1"
+          - name: "Barranquilla"
+            score: "2"
             active: true
-          - name: "Torpedo-BelAZ Zhodino"
+          - name: "Tigres FC"
             score: "0"
-      - id: football-2497293
+      - id: football-2595431
+        competition: "Ecuadorian Serie B"
+        state: live
+        stateLabel: "83'"
+        teams:
+          - name: "Cumbayá"
+            score: "6"
+            active: true
+          - name: "22 de Julio"
+            score: "0"
+      - id: football-2497290
         competition: "Guatemala Liga Nacional"
         state: live
-        stateLabel: "32'"
+        stateLabel: "40'"
         teams:
-          - name: "Xelajú"
+          - name: "Cobán Imperial"
             score: "0"
-          - name: "Malacateco"
+          - name: "Municipal"
+            score: "0"
+      - id: football-2407134
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
+        teams:
+          - name: "FC Dallas"
             score: "1"
             active: true
-      - id: football-2501833
-        competition: "Russia Cup"
-        state: live
-        stateLabel: "Live"
+          - name: "Seattle Sounders"
+            score: "0"
+      - id: football-2407135
+        competition: "American Major League Soccer"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Rodina Moscow"
-            score: "2"
-            active: true
-          - name: "Spartak Moscow"
+          - name: "Chicago Fire"
             score: "1"
-      - id: football-2528911
-        competition: "Turkish 1 Lig"
-        state: live
-        stateLabel: "77'"
+          - name: "Philadelphia Union"
+            score: "3"
+            active: true
+      - id: football-2481482
+        competition: "Colombian Torneo DIMAYOR"
+        state: completed
+        stateLabel: "Full time"
         teams:
-          - name: "Muğlaspor"
-            score: "0"
-          - name: "Bursaspor"
+          - name: "Envigado"
             score: "1"
-            active: true
-      - id: football-2528906
-        competition: "Turkish 1 Lig"
-        state: live
-        stateLabel: "79'"
-        teams:
-          - name: "Manisa"
-            score: "0"
-          - name: "Esenler Erokspor"
-            score: "0"
-      - id: football-2594752
-        competition: "UEFA Conference League"
-        state: live
-        stateLabel: "80'"
-        teams:
-          - name: "Hajduk Split"
-            score: "2"
-            active: true
-          - name: "Ajax"
+          - name: "Real Santander"
             score: "1"
 
   - name: Cricket
