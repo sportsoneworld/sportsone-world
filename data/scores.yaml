@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Oct 2026, 03:45 IST"
+updated: "15 Oct 2026, 06:09 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,68 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2398113
-        competition: "Argentinian Primera Division"
-        state: live
-        stateLabel: "14'"
-        teams:
-          - name: "Sarmiento"
-            score: "0"
-          - name: "River Plate"
-            score: "0"
-      - id: football-2481119
-        competition: "Colombian Liga DIMAYOR"
+      - id: football-2407128
+        competition: "American Major League Soccer"
         state: live
         stateLabel: "45'"
         teams:
-          - name: "Atlético Junior"
-            score: "1"
-            active: true
-          - name: "Deportivo Pereira"
-            score: "0"
-      - id: football-2481488
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Real Cundinamarca"
-            score: "0"
-          - name: "Bogotá"
-            score: "0"
-      - id: football-2607486
-        competition: "Copa Sudamericana"
-        state: live
-        stateLabel: "16'"
-        teams:
-          - name: "Atlético Mineiro"
-            score: "0"
-          - name: "Montevideo City Torque"
-            score: "0"
-      - id: football-2498013
-        competition: "Copa Venezuela"
-        state: live
-        stateLabel: "15'"
-        teams:
-          - name: "Monagas"
-            score: "0"
-          - name: "Dynamo Puerto"
-            score: "0"
-      - id: football-2615720
-        competition: "Copa Paraguay"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Atlético Tembetary"
+          - name: "Inter Miami"
             score: "2"
-          - name: "Sol de América"
-            score: "3"
             active: true
+          - name: "New York City FC"
+            score: "0"
+      - id: football-2407129
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Columbus Crew"
+            score: "1"
+          - name: "Charlotte FC"
+            score: "1"
+      - id: football-2407130
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "FC Cincinnati"
+            score: "1"
+          - name: "New England Revolution"
+            score: "2"
+            active: true
+      - id: football-2407131
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "Toronto FC"
+            score: "1"
+          - name: "Orlando City"
+            score: "1"
+      - id: football-2407132
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "CF Montréal"
+            score: "0"
+          - name: "Atlanta United"
+            score: "2"
+            active: true
+      - id: football-2407133
+        competition: "American Major League Soccer"
+        state: live
+        stateLabel: "45'"
+        teams:
+          - name: "DC United"
+            score: "2"
+            active: true
+          - name: "New York Red Bulls"
+            score: "0"
 
   - name: Cricket
     matches:
-      - id: cricket-2524752
+      - id: cricket-2524753
         competition: "Twenty20 International Series"
         state: upcoming
         stateLabel: "13:30"
