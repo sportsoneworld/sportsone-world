@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "15 Oct 2026, 20:02 IST"
+updated: "16 Oct 2026, 00:08 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,65 +23,65 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2619064
-        competition: "Kyrgyz Premier League"
+      - id: football-2437826
+        competition: "Belarus Vyscha Liga"
         state: live
-        stateLabel: "72'"
+        stateLabel: "50'"
         teams:
-          - name: "Toktogul"
-            score: "2"
-            active: true
-          - name: "Abdysh-Ata Kant"
-            score: "0"
-      - id: football-2619062
-        competition: "Kyrgyz Premier League"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Kyrgyzaltyn"
-            score: "0"
-          - name: "Neftchi Kochkor-Ata"
+          - name: "Maxline Vitebsk"
             score: "1"
             active: true
-      - id: football-2619063
-        competition: "Kyrgyz Premier League"
-        state: live
-        stateLabel: "72'"
-        teams:
-          - name: "Bishkek City"
-            score: "1"
-            active: true
-          - name: "OshSU Aldier"
+          - name: "Torpedo-BelAZ Zhodino"
             score: "0"
-      - id: football-2426509
-        competition: "Latvian Higher League"
+      - id: football-2497293
+        competition: "Guatemala Liga Nacional"
         state: live
         stateLabel: "32'"
         teams:
-          - name: "RFS"
+          - name: "Xelajú"
+            score: "0"
+          - name: "Malacateco"
+            score: "1"
+            active: true
+      - id: football-2501833
+        competition: "Russia Cup"
+        state: live
+        stateLabel: "Live"
+        teams:
+          - name: "Rodina Moscow"
             score: "2"
             active: true
-          - name: "Super Nova"
-            score: "0"
-      - id: football-2617708
-        competition: "Montenegrin Cup"
+          - name: "Spartak Moscow"
+            score: "1"
+      - id: football-2528911
+        competition: "Turkish 1 Lig"
         state: live
-        stateLabel: "76'"
+        stateLabel: "77'"
         teams:
-          - name: "Berane"
+          - name: "Muğlaspor"
             score: "0"
-          - name: "Jedinstvo"
-            score: "4"
+          - name: "Bursaspor"
+            score: "1"
             active: true
-      - id: football-2573375
-        competition: "Saudi-Arabian Pro League"
+      - id: football-2528906
+        competition: "Turkish 1 Lig"
         state: live
-        stateLabel: "45'"
+        stateLabel: "79'"
         teams:
-          - name: "Al-Faisaly"
+          - name: "Manisa"
+            score: "0"
+          - name: "Esenler Erokspor"
+            score: "0"
+      - id: football-2594752
+        competition: "UEFA Conference League"
+        state: live
+        stateLabel: "80'"
+        teams:
+          - name: "Hajduk Split"
             score: "2"
-          - name: "Al-Kholood"
-            score: "2"
+            active: true
+          - name: "Ajax"
+            score: "1"
 
   - name: Cricket
     matches:
