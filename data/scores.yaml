@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Oct 2026, 03:15 IST"
+updated: "16 Oct 2026, 08:54 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -21,69 +21,18 @@ featured_matches:
   # none pinned — the strip is filling itself from the live matches below
 
 sports:
-  - name: Football
-    matches:
-      - id: football-2481487
-        competition: "Colombian Torneo DIMAYOR"
-        state: live
-        stateLabel: "44'"
-        teams:
-          - name: "Barranquilla"
-            score: "2"
-            active: true
-          - name: "Tigres FC"
-            score: "0"
-      - id: football-2595431
-        competition: "Ecuadorian Serie B"
-        state: live
-        stateLabel: "83'"
-        teams:
-          - name: "Cumbayá"
-            score: "6"
-            active: true
-          - name: "22 de Julio"
-            score: "0"
-      - id: football-2497290
-        competition: "Guatemala Liga Nacional"
-        state: live
-        stateLabel: "40'"
-        teams:
-          - name: "Cobán Imperial"
-            score: "0"
-          - name: "Municipal"
-            score: "0"
-      - id: football-2407134
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "FC Dallas"
-            score: "1"
-            active: true
-          - name: "Seattle Sounders"
-            score: "0"
-      - id: football-2407135
-        competition: "American Major League Soccer"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Chicago Fire"
-            score: "1"
-          - name: "Philadelphia Union"
-            score: "3"
-            active: true
-      - id: football-2481482
-        competition: "Colombian Torneo DIMAYOR"
-        state: completed
-        stateLabel: "Full time"
-        teams:
-          - name: "Envigado"
-            score: "1"
-          - name: "Real Santander"
-            score: "1"
-
   - name: Cricket
     matches:
+      - id: cricket-2618121
+        competition: "ICC World Test Championship"
+        state: upcoming
+        stateLabel: "00:00"
+        teams:
+          - name: "South Africa Cricket"
+            score: "–"
+            detail: "00:00"
+          - name: "Australia Cricket"
+            score: "–"
       - id: cricket-2524753
         competition: "Twenty20 International Series"
         state: upcoming
