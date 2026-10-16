@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Oct 2026, 18:52 IST"
+updated: "16 Oct 2026, 23:03 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -23,66 +23,64 @@ featured_matches:
 sports:
   - name: Football
     matches:
-      - id: football-2397383
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+      - id: football-2533290
+        competition: "Albanian Superliga"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Hartford Athletic"
-            score: "–"
-            detail: "23:00"
-          - name: "Brooklyn FC"
-            score: "–"
-      - id: football-2397385
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Dinamo City"
+            score: "0"
+          - name: "Teuta Durrës"
+            score: "1"
+            active: true
+      - id: football-2523538
+        competition: "Armenian Premier League"
+        state: live
+        stateLabel: "88'"
         teams:
-          - name: "Louisville City"
-            score: "–"
-            detail: "23:00"
-          - name: "Indy Eleven"
-            score: "–"
-      - id: football-2397386
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "23:00"
+          - name: "Gandzasar"
+            score: "1"
+          - name: "Sardarapat"
+            score: "2"
+            active: true
+      - id: football-2499753
+        competition: "Austrian Bundesliga"
+        state: live
+        stateLabel: "1'"
         teams:
-          - name: "Miami FC"
-            score: "–"
-            detail: "23:00"
-          - name: "Charleston Battery"
-            score: "–"
-      - id: football-2397381
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "01:00"
+          - name: "Rapid Vienna"
+            score: "0"
+          - name: "TSV Hartberg"
+            score: "0"
+      - id: football-2505290
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "El Paso Locomotive"
-            score: "–"
-            detail: "01:00"
-          - name: "Sacramento Republic"
-            score: "–"
-      - id: football-2397382
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "00:00"
+          - name: "Young Violets Austria Wien"
+            score: "2"
+            active: true
+          - name: "Hertha Wels"
+            score: "0"
+      - id: football-2505286
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "FC Tulsa"
-            score: "–"
-            detail: "00:00"
-          - name: "Oakland Roots"
-            score: "–"
-      - id: football-2397384
-        competition: "American USL Championship"
-        state: upcoming
-        stateLabel: "02:30"
+          - name: "SKN St. Polten"
+            score: "0"
+          - name: "Rapid Wien II"
+            score: "0"
+      - id: football-2505293
+        competition: "Austrian Erste Liga"
+        state: live
+        stateLabel: "Live"
         teams:
-          - name: "Las Vegas Lights"
-            score: "–"
-            detail: "02:30"
-          - name: "Lexington SC"
-            score: "–"
+          - name: "Voitsberg"
+            score: "1"
+          - name: "First Vienna"
+            score: "2"
+            active: true
 
   - name: Cricket
     matches:
