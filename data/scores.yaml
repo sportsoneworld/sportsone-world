@@ -11,7 +11,7 @@
 #  Which sports and how many matches are fetched: data/scores-source.yaml
 # =============================================================================
 
-updated: "16 Oct 2026, 08:54 IST"
+updated: "16 Oct 2026, 13:58 IST"
 note: "Scores refresh automatically; the desk chooses what leads"
 auto_feature: true
 
@@ -32,14 +32,4 @@ sports:
             score: "–"
             detail: "00:00"
           - name: "Australia Cricket"
-            score: "–"
-      - id: cricket-2524753
-        competition: "Twenty20 International Series"
-        state: upcoming
-        stateLabel: "13:30"
-        teams:
-          - name: "India Cricket"
-            score: "–"
-            detail: "13:30"
-          - name: "West Indies Cricket"
             score: "–"
